@@ -1,0 +1,17 @@
+---
+author: Ian
+comments: true
+date: 2007-10-07 13:54:55
+layout: post
+slug: karashi
+title: Karashi
+wordpress_id: 673
+categories:
+- Characters
+tags:
+- Character
+- Exalted
+---
+
+<p><b>Brief Summary</b></p>
+<p>A young man with a tortured past and a not altogether un-tortured present, at least Exaltation has allowed him to be himself rather than merely a shadow of a desire. </p>

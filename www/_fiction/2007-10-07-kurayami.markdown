@@ -1,0 +1,23 @@
+---
+author: Ian
+comments: true
+date: 2007-10-07 13:59:36
+layout: post
+slug: kurayami
+title: Kurayami
+wordpress_id: 676
+categories:
+- Characters
+tags:
+- Battlemaster High
+- BESM
+- Character
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="http://onlydreaming.net/images/avatars/kurayami.png" /></td>
+<td valign="top">
+<h3>Brief Summary</h3>
+<p>Kurayami is tha Kami (spirit) of darkness. Once a man whom Yuki fell in love with, the two are no longer on speaking terms. </p>
+</td></tr></table>

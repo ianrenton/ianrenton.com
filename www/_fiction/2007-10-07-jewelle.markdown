@@ -1,0 +1,26 @@
+---
+author: Ian
+comments: true
+date: 2007-10-07 13:47:21
+layout: post
+slug: jewelle
+title: Jewelle
+wordpress_id: 668
+categories:
+- Characters
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="http://onlydreaming.net/images/avatars/jewelle.png" /></td>
+<td valign="top">
+<h2>Vital Statistics</h2>
+<p>Name: Jewelle<br />
+Sex: Female<br />
+Age: Approximately 16<br />
+Species: Originally human (?)</p></td>
+</tr>
+</table>

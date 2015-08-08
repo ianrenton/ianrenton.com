@@ -1,0 +1,31 @@
+---
+author: Ian
+comments: true
+date: 2007-10-08 10:43:27
+layout: post
+slug: rosa
+title: Rosa
+wordpress_id: 692
+categories:
+- Characters
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="http://onlydreaming.net/images/avatars/rosa.png" /></td>
+<td valign="top">
+<h2>Vital Statistics</h2>
+<p>Name: Rosa<br />
+Species: Human<br />
+Sex: Female<br />
+Age: 19<br />
+Birthday: September 14th<br />
+Height: 5 feet 8 inches<br />
+Weight: 115 pounds<br />
+Skin: Light brown - vaguely Middle-East-ish?<br />
+Hair: Pink-tinted brown</p></td>
+</tr>
+</table>

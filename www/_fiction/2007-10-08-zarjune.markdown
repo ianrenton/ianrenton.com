@@ -1,0 +1,17 @@
+---
+author: Ian
+comments: true
+date: 2007-10-08 11:12:58
+layout: post
+slug: zarjune
+title: Zarjune
+wordpress_id: 712
+categories:
+- Characters
+tags:
+- Character
+- Exalted
+---
+
+<p><b>Brief Summary</b></p>
+<p>Master of the wagon train on which Karashi was employed as a mercenary until Zarjune&#039;s demise and Karashi&#039;s Exaltation.</p>

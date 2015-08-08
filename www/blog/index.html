@@ -1,0 +1,22 @@
+---
+layout: default
+paginate: true
+---
+
+<h1 class="page-heading">Ian's Blog{% if paginator.page != 1 %} Archive &mdash; Page {{paginator.page}}{% endif %}</h1>
+
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-meta">{{ post.date | date: "Written on %A %d %b %Y" }}</span>
+      <p>{{ post.excerpt }}</p>
+      <div class="pagination"><div class="pagination-right"><a href="{{post.url}}">Read More &raquo;</a></div></div>
+      <div class="clear"></div>
+    </li>
+  {% endfor %}
+</ul>
+
+<div class="pagination">{% if paginator.previous_page_path != nil %}<div class="pagination-left"><a href="{{paginator.previous_page_path}}">&laquo; Newer Posts</a></div>{% endif %}{% if paginator.next_page_path != nil %}<div class="pagination-right"><a href="{{paginator.next_page_path}}">Older Posts &raquo;</a></div>{% endif %}</div>

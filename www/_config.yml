@@ -1,0 +1,45 @@
+# Site settings
+title: Ian Renton
+email: ian@ianrenton.com
+description: > 
+  Ian Renton's stuff on the web.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ianrenton.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+gems: [octopress-image-tag, octopress-quote-tag, octopress-codeblock, octopress-codefence, octopress-paginate]
+permalink: /blog/:title/
+
+# Juvia
+juvia_site_key: jei5gff5948ceh4w90b0hvnsfor7841
+juvia_host: juvia.ianrenton.com
+juvia_comment_order: earliest-first
+
+# Collections
+collections:
+  fiction:
+    output: true
+    permalink: /fiction/:title/
+  filmreviews:
+    output: true
+    permalink: /filmreviews/:title/
+  guides:
+    output: true
+    permalink: /guides/:title/
+  recipes:
+    output: true
+    permalink: /recipes/:title/
+  rpgs:
+    output: true
+    permalink: /rpgs/:title/
+  software:
+    output: true
+    permalink: /software/:title/
+  hardware:
+    output: true
+    permalink: /hardware/:title/
+    
+pagination:
+  limit: false
+  permalink: /page/:num/

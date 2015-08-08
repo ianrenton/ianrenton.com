@@ -1,0 +1,24 @@
+---
+author: Ian
+comments: true
+date: 2007-10-08 11:11:52
+layout: post
+slug: yuki
+title: Yuki
+wordpress_id: 710
+categories:
+- Characters
+tags:
+- Battlemaster High
+- BESM
+- Character
+- Everlasting
+---
+
+<p><img src="http://onlydreaming.net/images/portraits/yuki.png" style="float:right" /></p>
+<h2>Introduction</h2>
+<div>
+<p>"There seems very little to say.  I am snow and ice, sleet and the cruel north wind.  These are not mere concepts with which I identify, they <i>are</i> me and I am them.</p>
+<p>"Yes, there are humans with whom I am in some form of correspondance.  Yes, on occasion I appear in human form - sometimes it is necessary to keep things working the way I should.  Yes, I have troubling moments in my past - what Kami does not?</p>
+<p>"And yes, there is something awaiting in my future, and in the future of those who know me better than most.  Something is gathering momentum, soon things will come to pass, and soon I shall rest again."</p>
+</div>

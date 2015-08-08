@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Salt"
+date: 2013-07-30 21:15
+comments: true
+categories: 
+---
+
+Synopsis
+--------
+
+LARA CROFT and SABRETOOTH from X-MEN work for the CIA. For some reason, EVERY OTHER COUNTRY has not just given up and gone home at this point. DOUBLES are crossed, CROSSES are doubled, and things of that nature generally occur. ALL THE BULLETS are fired, the WORLD is saved, etc etc.
+
+By the Numbers
+--------------
+
+* Varieties of salt consumed by main character: 0
+* Passwords salted by main character: 0
+* [Strategic Arms Limitations](https://en.wikipedia.org/wiki/Strategic_Arms_Limitation_Talks) performed by main character: oddly, 1
+* [Nuclear footballs](https://en.wikipedia.org/wiki/Nuclear_football): 1
+* Agents: 137
+* Double agents: 3
+* Triple agents: 1
+* Quadruple agents: Maybe 0
+* Orlovs present: 1
+* Meerkats compared: 0
+* Conveniently placed hat shops: 1
+* Actually unexpected twists: 1
+* Quite expected neck twists: 3
+
+Overall: 4 / 5
+--------------

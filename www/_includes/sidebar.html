@@ -1,0 +1,93 @@
+<nav id="sidebar">
+    <div class="sidebar-profile">
+        <a href="/"> 
+            <img class="sidebar-profile-picture" src="/me.jpg">
+        </a>
+        <span class="sidebar-profile-name">Ian Renton</span>
+    </div>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/blog/' %} active{% endif %}" href="/blog/">
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Blog</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link" href="http://files.ianrenton.com/cv-ian-renton.pdf">
+                    <i class="sidebar-button-icon fa fa-lg fa-briefcase"></i>
+                    <span class="sidebar-button-desc">CV</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link" href="mailto:ian@ianrenton.com">
+                    <i class="sidebar-button-icon fa fa-lg fa-envelope"></i>
+                    <span class="sidebar-button-desc">Email</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+    <ul class="sidebar-buttons">
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/hardware/' %} active{% endif %}" href="/hardware/">
+                    <i class="sidebar-button-icon fa fa-lg fa-battery-three-quarters"></i>
+                    <span class="sidebar-button-desc">Hardware</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/software/' %} active{% endif %}" href="/software/">
+                    <i class="sidebar-button-icon fa fa-lg fa-floppy-o"></i>
+                    <span class="sidebar-button-desc">Software</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/websites/' %} active{% endif %}" href="/websites/">
+                    <i class="sidebar-button-icon fa fa-lg fa-globe"></i>
+                    <span class="sidebar-button-desc">Websites</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/filmreviews/' %} active{% endif %}" href="/filmreviews/">
+                    <i class="sidebar-button-icon fa fa-lg fa-film"></i>
+                    <span class="sidebar-button-desc">FRbtN</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/fiction/' %} active{% endif %}" href="/fiction/">
+                    <i class="sidebar-button-icon fa fa-lg fa-pencil"></i>
+                    <span class="sidebar-button-desc">Fiction</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/rpgs/' %} active{% endif %}" href="/rpgs/">
+                    <i class="sidebar-button-icon fa fa-lg fa-bolt"></i>
+                    <span class="sidebar-button-desc">RPGs</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/recipes/' %} active{% endif %}" href="/recipes/">
+                    <i class="sidebar-button-icon fa fa-lg fa-cutlery"></i>
+                    <span class="sidebar-button-desc">Recipes</span>
+                </a>
+        </li>
+        
+        <li class="sidebar-button">
+                <a class="sidebar-button-link{% if page.url contains '/guides/' %} active{% endif %}" href="/guides/">
+                    <i class="sidebar-button-icon fa fa-lg fa-question-circle"></i>
+                    <span class="sidebar-button-desc">Guides</span>
+                </a>
+        </li>
+        
+    </ul>
+</nav>

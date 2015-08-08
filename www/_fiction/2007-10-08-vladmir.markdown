@@ -1,0 +1,17 @@
+---
+author: Ian
+comments: true
+date: 2007-10-08 11:09:15
+layout: post
+slug: vladmir
+title: Vladmir
+wordpress_id: 708
+categories:
+- Characters
+tags:
+- Character
+- Dreaming Awake
+---
+
+<p><b>Brief Summary</b></p>
+<p>Proud, noble and powerful, Vladmir is both a political and military force unto himself in the Western Kingdom.</p>

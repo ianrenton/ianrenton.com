@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Tank Day 29: FPS Mode"
+date: 2014-03-02 15:41
+comments: true
+categories: 
+- Software
+tags:
+- Software
+- FPS
+---
+
+On [the previous Build Diary entry](http://raspberrytank.ianrenton.com/day-28-first-person-view/), I shared a video of what it looks like to drive the tank from the web user interface, calling it "First Person View". The natural development of that, then, it to turn it into something like a "first-person shooter"&mdash;a display that is just the video feed, and a set of keybindings to allow the user to drive it like it was a videogame.
+
+This is a pretty easy interface to add, building on top of the existing javascript and adding some `onkeydown` and `onkeyup` bindings.
+
+The code is now available in the [Web UI folder of the Raspberry Tank code repository](https://github.com/ianrenton/raspberrytank/tree/master/web-ui). You can chek out what it looks like (including my ssh debug readout and my very messy living room!) below.
+
+![FPS Mode Screenshot](http://files.ianrenton.com/sites/raspberrytank/fpsmode.png)

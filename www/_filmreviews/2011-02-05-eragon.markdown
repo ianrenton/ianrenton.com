@@ -1,0 +1,34 @@
+---
+comments: true
+date: 2011-02-05 23:14:09
+layout: post
+slug: eragon
+title: Eragon
+wordpress_id: 11462
+categories:
+- Film Reviews
+---
+
+## Synopsis
+
+[This.](http://tvtropes.org/pmwiki/pmwiki.php/Main/FarmBoy)
+
+## By the Numbers
+
+  * Dragons: 7
+  * Eragons: 1
+  * Aragorns: 1
+  * Tarragon: 0
+  * Catherine of Aragon: 0
+  * Saphiras: 1
+  * Vauxhall Zafiras: 0
+  * Galbatorix: 1
+  * Getafix: 0
+  * Times Eragon's dumbass factor should have had him killed: 4
+  * Scenes that take their inspiration from Star Wars: 3125
+  * Scenes that take their inspiration from Lord of the Rings: 4981
+  * Scenes that take their inspiration from [this list](http://www.suite101.com/content/the-seven-basic-plots-a58402): 8934
+  * Age of author: 15
+  * Extent to which it shows: over 9000
+
+## Overall: 2 / 5

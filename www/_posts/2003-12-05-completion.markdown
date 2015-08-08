@@ -1,0 +1,15 @@
+---
+author: Ian
+comments: true
+date: 2003-12-05 21:09:00
+layout: post
+slug: completion
+title: Completion
+wordpress_id: 55
+categories:
+- Personal
+---
+
+Whoa, now *that* feels good.  Finally, it's the weekend, I can sleep, and have fun, and go to LAC on Sunday, and do some stuff for the <a href="http://www.marmablue.co.uk/dc/">Dreaming Awake website</a> and all sorts of stuff... and I don't have to worry about work for another few days!  
+
+And then, only one more week until the Christmas holidays...!

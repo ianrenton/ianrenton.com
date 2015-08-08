@@ -1,0 +1,23 @@
+---
+author: Ian
+comments: true
+date: 2007-10-06 14:10:11
+layout: post
+slug: dremia
+title: Dremia
+wordpress_id: 657
+categories:
+- Characters
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="http://www.marmablue.co.ukhttp://onlydreaming.net/images/avatars/dremia.png" /></td>
+<td valign="top">
+<h2>Brief Summary</h2>
+<p>A struggling trainee magician, Dremia hopes that one day her wildly varying luck might be good on an exam day... </p></td>
+</tr>
+</table>

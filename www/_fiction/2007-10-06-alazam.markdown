@@ -1,0 +1,23 @@
+---
+author: Ian
+comments: true
+date: 2007-10-06 13:53:39
+layout: post
+slug: alazam
+title: Alazam
+wordpress_id: 653
+categories:
+- Characters
+tags:
+- Character
+- Dreaming Awake
+---
+
+<p><img src="http://onlydreaming.net/images/portraits/alazam.png" style="float:right" /></p>
+<h2>Introduction</h2>
+<div>
+<p>There are two great Southern nations of this world: the once great, now insufferable Empire of Kayir, and the secretive and immigrant-wary Feria.  And then there&#039;s what&#039;s in between.</p>
+<p>They get marked on maps as "The Free Islands", as if they&#039;d gotten together and decided on a name for themselves.  In reality, nothing could be further from the truth.  There must be a thousand, ten-thousand islands or more, and no-one could see them all in a lifetime.  Volcano-blasted hills of ash, thick forests, long sweeps of sand, and ten thousand tribes, a thousand languages, a hundred ethnic groups.  And me.</p>
+<p>I&#039;ve been tempted, along the way, to find a place to call home.  But it&#039;s not the life for me, of fitting in and working with a community and having wives and children.  No, I belong on the sea, hopping from one port to the next, never spending a second night in the same place.</p>
+<p>I sell charms and things, if you&#039;re interested.  Better crops, fewer storms, relief from disease.  "Guaranteed to work, ask your friends!"  Everyone&#039;s heard of me, even on islands I&#039;ve never been to before.  The magic does work, though.  More-or-less.  Maybe it&#039;ll give fishermen a break from stormy weather, but what it definitely gives them is hope.  And when you have hope, nothing&#039;s really so bad as it seems."</p>
+</div>

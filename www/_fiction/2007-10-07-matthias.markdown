@@ -1,0 +1,17 @@
+---
+author: Ian
+comments: true
+date: 2007-10-07 15:33:02
+layout: post
+slug: matthias
+title: Matthias
+wordpress_id: 684
+categories:
+- Characters
+tags:
+- Character
+- Dreaming Awake
+---
+
+<p><b>Brief Summary</b></p>
+<p>An inexperienced but reliable member of the Great Western Kingdom&#039;s army. </p>
