@@ -11,7 +11,7 @@ paginate: true
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      <span class="post-meta">{{ post.date | date: "Written on %A %d %b %Y" }}</span>
+      <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
       <p>{{ post.excerpt }}</p>
       <div class="pagination"><div class="pagination-right"><a href="{{post.url}}">Read More &raquo;</a></div></div>
       <div class="clear"></div>

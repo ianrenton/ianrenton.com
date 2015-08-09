@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-11-20 12:38:45
 layout: post
-slug: day-22-i-occidentally-a-whole-access-point
+slug: tank-day-22-i-occidentally-a-whole-access-point
 title: 'Tank Day 22: I Occidentally a Whole Access Point'
 wordpress_id: 13292
 categories:

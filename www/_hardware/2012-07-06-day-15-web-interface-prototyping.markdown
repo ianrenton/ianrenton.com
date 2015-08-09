@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-07-06 21:35:57
 layout: post
-slug: day-15-web-interface-prototyping
+slug: tank-day-15-web-interface-prototyping
 title: 'Tank Day 15: Web Interface Prototyping'
 wordpress_id: 13045
 categories:

@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-09-24 21:52:48
 layout: post
-slug: day-20-to-youtube-once-more
+slug: tank-day-20-to-youtube-once-more
 title: 'Tank Day 20: To YouTube Once More'
 wordpress_id: 13212
 categories:

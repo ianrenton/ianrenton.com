@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2013-03-10 23:16:26
 layout: post
-slug: day-26-barcamp-or-bust
+slug: tank-day-26-barcamp-or-bust
 title: 'Tank Day 26: BarCamp or Bust!'
 wordpress_id: 13497
 categories:

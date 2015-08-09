@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-05-31 21:15:46
 layout: post
-slug: day-1-accessories-assemble
+slug: tank-day-1-accessories-assemble
 title: 'Tank Day 1: Accessories Assemble!'
 wordpress_id: 12814
 categories:

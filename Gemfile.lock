@@ -12,6 +12,7 @@ GEM
     coffee-script-source (1.9.1.1)
     colorator (0.1)
     execjs (2.5.2)
+    facets (3.0.0)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
     hitimes (1.2.2)
@@ -100,6 +101,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  facets
   octopress (~> 3.0)
   octopress-codeblock
   octopress-codefence

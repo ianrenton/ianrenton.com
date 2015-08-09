@@ -8,4 +8,5 @@ group :jekyll_plugins do
  gem "octopress-quote-tag"
  gem "octopress-video-tag"
  gem "octopress-paginate"
+ gem "facets"
 end

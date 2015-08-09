@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-06-26 22:24:14
 layout: post
-slug: day-12-cracking-the-code-redux
+slug: tank-day-12-cracking-the-code-redux
 title: 'Tank Day 12: Cracking the Code (Redux)'
 wordpress_id: 12973
 categories:

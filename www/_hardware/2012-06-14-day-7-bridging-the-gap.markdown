@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-06-14 21:14:01
 layout: post
-slug: day-7-bridging-the-gap
+slug: tank-day-7-bridging-the-gap
 title: 'Tank Day 7: Bridging the Gap'
 wordpress_id: 12932
 categories:

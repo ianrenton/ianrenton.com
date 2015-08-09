@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-07-19 22:03:29
 layout: post
-slug: day-17-whats-missing
+slug: tank-day-17-whats-missing
 title: 'Tank Day 17: What''s Missing'
 wordpress_id: 13068
 categories:

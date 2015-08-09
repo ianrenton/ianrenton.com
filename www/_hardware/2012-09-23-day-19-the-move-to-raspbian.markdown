@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-09-23 15:23:38
 layout: post
-slug: day-19-the-move-to-raspbian
+slug: tank-day-19-the-move-to-raspbian
 title: 'Tank Day 19: The Move to Raspbian'
 wordpress_id: 13194
 categories:

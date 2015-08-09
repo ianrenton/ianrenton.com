@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-06-29 06:02:11
 layout: post
-slug: day-13-lucky-for-us
+slug: tank-day-13-lucky-for-us
 title: 'Tank Day 13: Lucky for Us'
 wordpress_id: 13027
 categories:

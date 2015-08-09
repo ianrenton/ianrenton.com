@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-06-08 13:38:16
 layout: post
-slug: day-4-point-of-entry
+slug: tank-day-4-point-of-entry
 title: 'Tank Day 4: Point of Entry'
 wordpress_id: 12894
 categories:

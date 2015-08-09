@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2013-02-21 21:54:23
 layout: post
-slug: day-25-the-beginnings-of-autonomy
+slug: tank-day-25-the-beginnings-of-autonomy
 title: 'Tank Day 25: The Beginnings of Autonomy'
 wordpress_id: 13462
 categories:

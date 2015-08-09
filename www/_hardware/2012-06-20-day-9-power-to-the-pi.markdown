@@ -3,7 +3,7 @@ author: Ian
 comments: true
 date: 2012-06-20 13:16:36
 layout: post
-slug: day-9-power-to-the-pi
+slug: tank-day-9-power-to-the-pi
 title: 'Tank Day 9: Power to the Pi'
 wordpress_id: 12942
 categories:
