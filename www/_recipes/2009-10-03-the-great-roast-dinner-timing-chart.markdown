@@ -47,8 +47,8 @@ And the rest:
   * **Yorkshire Puddings:** I'm banned from making these in our house, because my batter always manages to be too stodgy despite my best attempts.  Due to this curse, I buy frozen ones from the supermarket.  They're pre-cooked, and only take a couple of minutes.
   * **Swede:** Cut into chunks and boil for 30-40 minutes (starting from cold, as with potatoes).  Mash with butter to serve.
   * **Carrots:** Cut into strips or rounds, 20 minutes from cold to boil or 30 to steam.
-  * **Runner beans: **10 minutes to boil.
-  * **Broad beans: **15 minutes to boil.
+  * **Runner beans:** 10 minutes to boil.
+  * **Broad beans:** 15 minutes to boil.
   * **Sprouts:** Are the devil's food, and you should never cook them.
   * **Peas:** 5 minutes to boil, 8 to steam.
   * **Gravy:** Quick.  I make gravy with the water from the vegetables (healthy!) and the juices from the meat (much less so), and Bisto granules.

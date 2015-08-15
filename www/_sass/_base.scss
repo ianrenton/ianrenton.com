@@ -17,7 +17,6 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -44,7 +43,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -55,17 +53,18 @@ img {
 
 img.left {
     float: left;
+    margin-right: 1em;
 }
 
 img.right {
     float: right;
+    margin-left: 1em;
 }
 
 img.center {
     margin: 0 auto;
     display: block;
 }
-
 
 
 /**
@@ -160,7 +159,6 @@ blockquote {
 }
 
 
-
 /**
  * Code formatting
  */
@@ -187,28 +185,9 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+span.code-highlight-caption-title {
+  font-family: $sans-font-family;
 }
-
 
 /**
  * Juvia
@@ -227,23 +206,6 @@ pre {
 
 .juvia-textarea-field textarea {
   max-width: 100% !important;
-}
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-.clear {
-  clear: both;
-  margin-bottom: 2em;
 }
 
 
