@@ -215,7 +215,18 @@ pre {
  */
 .juvia-container {
     font-family: $base-font-family !important;
-    font-size: $base-font-size !important;
+}
+
+.juvia-container { font-size: $base-font-size - 6px !important; }
+@media screen and (min-width: 800px)  { .juvia-container{ font-size: $base-font-size - 5px !important; }}
+@media screen and (min-width: 900px)  { .juvia-container{ font-size: $base-font-size - 4px !important; }}
+@media screen and (min-width: 1000px) { .juvia-container{ font-size: $base-font-size - 3px !important; }}
+@media screen and (min-width: 1100px) { .juvia-container{ font-size: $base-font-size - 2px !important; }}
+@media screen and (min-width: 1200px) { .juvia-container{ font-size: $base-font-size - 1px !important; }}
+@media screen and (min-width: 1300px) { .juvia-container{ font-size: $base-font-size !important; }}
+
+.juvia-textarea-field textarea {
+  max-width: 100% !important;
 }
 
 /**
