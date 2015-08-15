@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-01-08 22:32:41
-layout: post
+layout: frbtn
 slug: angel
 title: Angel
 wordpress_id: 11959

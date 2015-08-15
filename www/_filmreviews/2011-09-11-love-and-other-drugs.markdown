@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-09-11 00:00:55
-layout: post
+layout: frbtn
 slug: love-and-other-drugs
 title: Love and Other Drugs
 wordpress_id: 11816

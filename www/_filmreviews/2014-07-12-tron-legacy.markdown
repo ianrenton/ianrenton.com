@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Tron Legacy"
 date: 2014-07-12 21:15
 comments: true

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-04-01 22:59:57
-layout: post
+layout: frbtn
 slug: the-imaginarium-of-doctor-parnassus
 title: The Imaginarium of Doctor Parnassus
 wordpress_id: 2886

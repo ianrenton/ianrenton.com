@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-06-08 22:59:15
-layout: post
+layout: frbtn
 slug: alice-in-wonderland-2010
 title: Alice in Wonderland (2010)
 wordpress_id: 3239

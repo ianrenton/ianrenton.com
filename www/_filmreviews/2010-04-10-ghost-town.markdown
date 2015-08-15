@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-04-10 22:24:12
-layout: post
+layout: frbtn
 slug: ghost-town
 title: Ghost Town
 wordpress_id: 2927

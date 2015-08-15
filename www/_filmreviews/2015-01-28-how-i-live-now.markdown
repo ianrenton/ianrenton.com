@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "How I Live Now"
 date: 2015-01-17 22:28
 comments: true

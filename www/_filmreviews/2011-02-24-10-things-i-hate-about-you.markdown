@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-02-24 22:29:57
-layout: post
+layout: frbtn
 slug: 10-things-i-hate-about-you
 title: 10 Things I Hate about You
 wordpress_id: 11482

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-12-20 21:28:09
-layout: post
+layout: frbtn
 slug: harry-potter-and-the-deathly-hallows-part-i
 title: Harry Potter and the Deathly Hallows, Part I
 wordpress_id: 11374

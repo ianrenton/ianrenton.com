@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-10-29 23:14:23
-layout: post
+layout: frbtn
 slug: the-last-airbender
 title: The Last Airbender
 wordpress_id: 11316

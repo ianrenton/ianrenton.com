@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-09-10 22:10:25
-layout: post
+layout: frbtn
 slug: beastly
 title: Beastly
 wordpress_id: 11815

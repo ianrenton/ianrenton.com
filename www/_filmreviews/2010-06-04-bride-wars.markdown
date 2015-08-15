@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-06-04 22:06:07
-layout: post
+layout: frbtn
 slug: bride-wars
 title: Bride Wars
 wordpress_id: 3221

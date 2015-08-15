@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-08-04 22:42:48
-layout: post
+layout: frbtn
 slug: bee-movie
 title: Bee Movie
 wordpress_id: 11777

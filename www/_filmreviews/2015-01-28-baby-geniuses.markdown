@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Baby Geniuses"
 date: 2014-01-29 22:27
 comments: true

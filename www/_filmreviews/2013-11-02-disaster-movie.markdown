@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Disaster Movie"
 date: 2013-11-02 21:11
 comments: true

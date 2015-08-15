@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-12-29 22:47:08
-layout: post
+layout: frbtn
 slug: igor
 title: Igor
 wordpress_id: 11384

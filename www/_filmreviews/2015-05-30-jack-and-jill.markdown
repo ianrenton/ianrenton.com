@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Jack and Jill"
 date: 2015-05-30 22:36
 comments: false

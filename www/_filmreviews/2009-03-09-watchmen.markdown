@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2009-03-09 00:42:33
-layout: post
+layout: frbtn
 slug: watchmen
 title: Watchmen
 wordpress_id: 832

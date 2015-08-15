@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-03-05 23:07:30
-layout: post
+layout: frbtn
 slug: whip-it
 title: Whip It
 wordpress_id: 11493

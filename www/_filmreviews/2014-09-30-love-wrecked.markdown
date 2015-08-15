@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Love Wrecked"
 date: 2014-09-30 20:28
 comments: true

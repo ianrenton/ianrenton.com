@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Street Fighter: Assassin's Fist"
 date: 2015-06-27 21:19
 comments: true

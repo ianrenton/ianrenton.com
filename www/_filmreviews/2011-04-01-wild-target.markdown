@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-04-01 23:17:02
-layout: post
+layout: frbtn
 slug: wild-target
 title: Wild Target
 wordpress_id: 11519

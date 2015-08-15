@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-03-05 22:23:14
-layout: post
+layout: frbtn
 slug: the-incredible-hulk-2008
 title: The Incredible Hulk (2008)
 wordpress_id: 2792

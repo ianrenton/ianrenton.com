@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "The Lone Ranger (2013)"
 date: 2015-07-13 21:15
 comments: true

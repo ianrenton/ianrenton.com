@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Sharknado 2"
 date: 2014-08-30 21:03
 comments: true

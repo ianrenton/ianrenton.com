@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-12-25 21:34:14
-layout: post
+layout: frbtn
 slug: barbie-as-the-island-princess
 title: Barbie as the Island Princess
 wordpress_id: 12114

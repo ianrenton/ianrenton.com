@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-03-29 22:28:34
-layout: post
+layout: frbtn
 slug: high-school-musical-2
 title: High School Musical 2
 wordpress_id: 2882

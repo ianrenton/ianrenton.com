@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-02-09 21:59:36
-layout: post
+layout: frbtn
 slug: twilight-breaking-dawn-part-1
 title: Twilight - Breaking Dawn part 1
 wordpress_id: 11992

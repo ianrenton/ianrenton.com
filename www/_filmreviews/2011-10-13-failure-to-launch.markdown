@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-10-13 22:13:51
-layout: post
+layout: frbtn
 slug: failure-to-launch
 title: Failure to Launch
 wordpress_id: 11837

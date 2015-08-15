@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-05-26 22:54:20
-layout: post
+layout: frbtn
 slug: nancy-drew
 title: Nancy Drew
 wordpress_id: 11662

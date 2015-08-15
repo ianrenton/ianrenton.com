@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-07-17 22:34:14
-layout: post
+layout: frbtn
 slug: licence-to-wed
 title: Licence to Wed
 wordpress_id: 11742

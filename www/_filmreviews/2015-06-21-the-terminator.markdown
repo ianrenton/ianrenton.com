@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "The Terminator"
 date: 2015-06-21 12:08
 comments: true

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-08-25 22:44:03
-layout: post
+layout: frbtn
 slug: rachel-getting-married
 title: Rachel Getting Married
 wordpress_id: 11263

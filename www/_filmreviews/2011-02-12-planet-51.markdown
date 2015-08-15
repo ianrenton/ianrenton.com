@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-02-12 22:55:45
-layout: post
+layout: frbtn
 slug: planet-51
 title: Planet 51
 wordpress_id: 11473

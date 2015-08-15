@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-11-21 22:13:24
-layout: post
+layout: frbtn
 slug: the-lizzie-mcguire-movie
 title: The Lizzie McGuire Movie
 wordpress_id: 11847

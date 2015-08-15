@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-03-02 23:06:16
-layout: post
+layout: frbtn
 slug: going-the-distance
 title: Going the Distance
 wordpress_id: 11488

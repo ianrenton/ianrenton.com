@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-07-20 21:26:49
-layout: post
+layout: frbtn
 slug: fame-2009
 title: Fame (2009)
 wordpress_id: 11752

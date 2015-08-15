@@ -8,3 +8,7 @@ I'm Ian Renton, a software engineer and builder of robots, from Bournemouth on t
 By day, I am a software and systems engineer in the naval defence industry, specialising in command & control of autonomous vehicles and communications networks.
 
 By night I build robots and web applications, alongside being a husband, father and amateur cook.
+
+## Find me on...
+
+You can find me on [Twitter](https://twitter.com/i_renton) and [Facebook](https://www.facebook.com/ianrenton)&mdash; both accounts are private, but I accept follower/friend requests from most real humans!

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-12-30 21:30:00
-layout: post
+layout: frbtn
 slug: jude
 title: Jude
 wordpress_id: 11386

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-02-27 22:49:04
-layout: post
+layout: frbtn
 slug: knight-and-day
 title: Knight and Day
 wordpress_id: 11487

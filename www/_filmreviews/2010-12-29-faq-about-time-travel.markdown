@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-12-29 22:36:33
-layout: post
+layout: frbtn
 slug: faq-about-time-travel
 title: FAQ about Time Travel
 wordpress_id: 11382

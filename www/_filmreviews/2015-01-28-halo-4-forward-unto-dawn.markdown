@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Halo 4: Forward Unto Dawn"
 date: 2015-01-24 22:28
 comments: true

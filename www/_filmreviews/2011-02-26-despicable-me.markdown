@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-02-26 21:13:42
-layout: post
+layout: frbtn
 slug: despicable-me
 title: Despicable Me
 wordpress_id: 11485

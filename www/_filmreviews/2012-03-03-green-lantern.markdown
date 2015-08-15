@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-03-03 23:20:49
-layout: post
+layout: frbtn
 slug: green-lantern
 title: Green Lantern
 wordpress_id: 12023

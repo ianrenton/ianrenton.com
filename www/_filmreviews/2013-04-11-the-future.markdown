@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "The Future"
 date: 2013-04-11 21:49
 comments: true

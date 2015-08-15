@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-10-06 22:22:56
-layout: post
+layout: frbtn
 slug: legion
 title: Legion
 wordpress_id: 11819

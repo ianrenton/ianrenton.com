@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "The Lego Movie"
 date: 2014-07-26 21:01
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Punisher: War Zone"
 date: 2013-12-21 21:47
 comments: true

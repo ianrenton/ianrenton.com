@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "RoboCop (1987)"
 date: 2014-02-15 20:56
 comments: true

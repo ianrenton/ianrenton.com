@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-07-18 22:32:46
-layout: post
+layout: frbtn
 slug: no-reservations
 title: No Reservations
 wordpress_id: 11744

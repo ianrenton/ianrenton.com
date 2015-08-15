@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Boxtrolls"
 date: 2014-09-21 17:58
 comments: true

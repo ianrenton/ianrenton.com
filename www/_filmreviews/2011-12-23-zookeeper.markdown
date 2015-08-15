@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-12-23 21:50:56
-layout: post
+layout: frbtn
 slug: zookeeper
 title: Zookeeper
 wordpress_id: 11927

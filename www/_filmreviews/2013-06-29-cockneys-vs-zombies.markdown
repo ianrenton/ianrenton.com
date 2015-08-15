@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Cockneys vs Zombies"
 date: 2013-06-29 21:26
 comments: true

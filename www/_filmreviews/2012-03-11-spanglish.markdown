@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-03-11 23:21:38
-layout: post
+layout: frbtn
 slug: spanglish
 title: Spanglish
 wordpress_id: 12024

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-05-15 23:23:23
-layout: post
+layout: frbtn
 slug: sherlock-holmes
 title: Sherlock Holmes
 wordpress_id: 3177

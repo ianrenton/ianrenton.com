@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-12-21 22:37:34
-layout: post
+layout: frbtn
 slug: dragonball-evolution
 title: Dragonball Evolution
 wordpress_id: 11375

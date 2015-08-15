@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Brave"
 date: 2014-07-19 22:42
 comments: true

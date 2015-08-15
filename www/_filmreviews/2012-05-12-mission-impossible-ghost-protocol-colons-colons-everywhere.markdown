@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-05-12 23:16:22
-layout: post
+layout: frbtn
 slug: mission-impossible-ghost-protocol-colons-colons-everywhere
 title: 'Mission Impossible: Ghost Protocol'
 wordpress_id: 12055

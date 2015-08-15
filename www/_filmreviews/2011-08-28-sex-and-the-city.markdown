@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-08-28 00:47:23
-layout: post
+layout: frbtn
 slug: sex-and-the-city
 title: Sex and the City
 wordpress_id: 11802

@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-01-27 23:09:55
-layout: post
+layout: frbtn
 slug: the-last-mimzy
 title: The Last Mimzy
 wordpress_id: 11439

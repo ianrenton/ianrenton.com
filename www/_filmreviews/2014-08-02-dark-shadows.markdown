@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Dark Shadows"
 date: 2014-08-02 23:17
 comments: true

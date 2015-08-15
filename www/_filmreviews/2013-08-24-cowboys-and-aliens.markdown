@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Cowboys &amp; Aliens"
 date: 2013-08-24 21:28
 comments: true

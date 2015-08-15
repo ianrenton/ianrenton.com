@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-01-12 23:40:11
-layout: post
+layout: frbtn
 slug: dune-1984
 title: Dune (1984)
 wordpress_id: 11423

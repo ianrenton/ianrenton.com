@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-05-19 22:38:26
-layout: post
+layout: frbtn
 slug: mega-shark-vs-giant-octopus
 title: Mega Shark vs Giant Octopus
 wordpress_id: 11650

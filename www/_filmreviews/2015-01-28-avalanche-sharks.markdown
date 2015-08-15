@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Avalanche Sharks"
 date: 2015-01-10 22:28
 comments: true

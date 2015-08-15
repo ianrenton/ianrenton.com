@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "My Little Pony: Rainbow Rocks"
 date: 2015-02-01 11:06
 comments: true

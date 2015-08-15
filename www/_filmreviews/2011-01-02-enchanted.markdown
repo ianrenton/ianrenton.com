@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-01-02 21:14:15
-layout: post
+layout: frbtn
 slug: enchanted
 title: Enchanted
 wordpress_id: 11398

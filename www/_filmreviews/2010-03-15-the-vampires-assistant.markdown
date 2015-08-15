@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-03-15 22:32:46
-layout: post
+layout: frbtn
 slug: the-vampires-assistant
 title: The Vampire's Assistant
 wordpress_id: 2834

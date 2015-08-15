@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Spaceballs"
 date: 2014-12-14 22:28
 comments: true

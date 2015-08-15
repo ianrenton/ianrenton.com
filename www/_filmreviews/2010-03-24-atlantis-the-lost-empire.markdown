@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-03-24 22:53:48
-layout: post
+layout: frbtn
 slug: atlantis-the-lost-empire
 title: 'Atlantis: The Lost Empire'
 wordpress_id: 2867

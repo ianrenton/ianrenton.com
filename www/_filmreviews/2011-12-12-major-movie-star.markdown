@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-12-12 22:15:40
-layout: post
+layout: frbtn
 slug: major-movie-star
 title: Major Movie Star
 wordpress_id: 11894

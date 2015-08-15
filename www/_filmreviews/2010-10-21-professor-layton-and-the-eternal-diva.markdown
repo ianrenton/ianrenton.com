@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-10-21 22:32:37
-layout: post
+layout: frbtn
 slug: professor-layton-and-the-eternal-diva
 title: Professor Layton and the Eternal Diva
 wordpress_id: 11306

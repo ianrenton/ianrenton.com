@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-02-26 22:45:31
-layout: post
+layout: frbtn
 slug: megamind
 title: Megamind
 wordpress_id: 11486

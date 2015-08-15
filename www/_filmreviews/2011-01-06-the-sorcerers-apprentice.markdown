@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-01-06 21:36:54
-layout: post
+layout: frbtn
 slug: the-sorcerers-apprentice
 title: The Sorcerer's Apprentice (2010)
 wordpress_id: 11420

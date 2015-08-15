@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-05-14 22:34:00
-layout: post
+layout: frbtn
 slug: next
 title: Next
 wordpress_id: 3172

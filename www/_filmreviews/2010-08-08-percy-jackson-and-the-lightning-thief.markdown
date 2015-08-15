@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-08-08 17:35:56
-layout: post
+layout: frbtn
 slug: percy-jackson-and-the-lightning-thief
 title: Percy Jackson and the Lightning Thief
 wordpress_id: 11244

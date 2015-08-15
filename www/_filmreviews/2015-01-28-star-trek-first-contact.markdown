@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Star Trek: First Contact"
 date: 2015-01-26 22:33
 comments: true

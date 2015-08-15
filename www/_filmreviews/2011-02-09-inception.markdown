@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-02-09 23:30:00
-layout: post
+layout: frbtn
 slug: inception
 title: Inception
 wordpress_id: 11470

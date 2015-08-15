@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Man of Steel"
 date: 2014-06-21 20:40
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "The Maze Runner"
 date: 2015-03-28 20:54
 comments: true

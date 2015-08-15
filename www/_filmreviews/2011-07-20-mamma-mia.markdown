@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2011-07-20 22:58:43
-layout: post
+layout: frbtn
 slug: mamma-mia
 title: Mamma Mia!
 wordpress_id: 11754

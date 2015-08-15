@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "Starship Troopers"
 date: 2014-10-11 20:27
 comments: true

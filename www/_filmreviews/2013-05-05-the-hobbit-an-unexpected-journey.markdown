@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: frbtn
 title: "The Hobbit: An Unexpected Journey"
 date: 2013-05-05 14:48
 comments: true

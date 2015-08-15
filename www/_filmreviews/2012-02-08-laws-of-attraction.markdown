@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2012-02-08 21:47:08
-layout: post
+layout: frbtn
 slug: laws-of-attraction
 title: Laws of Attraction
 wordpress_id: 11990
