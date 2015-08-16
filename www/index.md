@@ -12,3 +12,5 @@ By night I build robots and web applications, alongside being a husband, father 
 ## Find me on...
 
 You can find me on [Twitter](https://twitter.com/i_renton) and [Facebook](https://www.facebook.com/ianrenton)&mdash; both accounts are private, but I accept follower/friend requests from most real humans!
+
+You can [grab my PGP key here](http://files.ianrenton.com/gpg-pubkey.txt) and I accept Bitcoin at `1Hm1LGBgwYSYaJKu1XU9uKJL3DBWB5BSMP`.
