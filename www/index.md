@@ -11,6 +11,6 @@ By night I build robots and web applications, alongside being a husband, father 
 
 ## Find me on...
 
-You can find me on [Twitter](https://twitter.com/i_renton) and [Facebook](https://www.facebook.com/ianrenton)&mdash; both accounts are private, but I accept follower/friend requests from most real humans!
+You can find me on [Twitter](https://twitter.com/i_renton) and [Facebook](https://www.facebook.com/ianrenton)&mdash; both accounts are private, but I accept most follower/friend requests from real humans!
 
-You can [grab my PGP key here](http://files.ianrenton.com/gpg-pubkey.txt) and I accept Bitcoin at `1Hm1LGBgwYSYaJKu1XU9uKJL3DBWB5BSMP`.
+Like every other programmer I am also on [Github](https://github.com/ianrenton) and [Stack Overflow](http://careers.stackoverflow.com/ianrenton). You could also [grab my PGP key here](http://files.ianrenton.com/gpg-pubkey.txt), and send me Bitcoin at `1Hm1LGBgwYSYaJKu1XU9uKJL3DBWB5BSMP`.
