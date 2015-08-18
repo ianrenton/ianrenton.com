@@ -16,7 +16,7 @@
         </li>
         
         <li class="sidebar-button">
-                <a class="sidebar-button-link" href="http://files.ianrenton.com/cv-ian-renton.pdf">
+                <a class="sidebar-button-link{% if page.url contains '/cv/' %} active{% endif %}" href="/cv/">
                     <i class="sidebar-button-icon fa fa-lg fa-briefcase"></i>
                     <span class="sidebar-button-desc">CV</span>
                 </a>

@@ -49,6 +49,7 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    border: 0;
 }
 
 img.left {
@@ -187,6 +188,13 @@ pre {
 
 span.code-highlight-caption-title {
   font-family: $sans-font-family;
+}
+
+/**
+ * Tables
+ */
+td {
+    vertical-align: top;
 }
 
 /**
