@@ -23,11 +23,11 @@ tags:
 - YouTube
 ---
 
-[Day 7 of the Raspberry Tank build diary](../day-7-bridging-the-gap/) saw us with nothing left to do but to plug the Raspberry Pi into the tank via the transistor board we built, and see if it works!
+[Day 7 of the Raspberry Tank build diary](/hardware/tank-day-7-bridging-the-gap/) saw us with nothing left to do but to plug the Raspberry Pi into the tank via the transistor board we built, and see if it works!
 
 ### Final Preparations
 
-While connecting things up, we made up a new connector that allows us to plug and unplug the transistor board from the Raspberry Pi easily (left photo, below), and we wired the other end of the transistor board into the choc block that was previously used to break out signals for our oscilloscope (right photo).  Note the colour mismatch at the choc block. For the new transistor board I decided to go for the "proper" colours -- red for +7.2V, black for Ground, and green for data.  This is at odds with the [weird cable](../day-4-point-of-entry/) that was installed on my tank, so the colours swap over at the choc block.
+While connecting things up, we made up a new connector that allows us to plug and unplug the transistor board from the Raspberry Pi easily (left photo, below), and we wired the other end of the transistor board into the choc block that was previously used to break out signals for our oscilloscope (right photo).  Note the colour mismatch at the choc block. For the new transistor board I decided to go for the "proper" colours -- red for +7.2V, black for Ground, and green for data.  This is at odds with the [weird cable](/hardware/tank-day-4-point-of-entry/) that was installed on my tank, so the colours swap over at the choc block.
 
 [![New plug for the Raspberry Pi's GPIO Header](http://files.ianrenton.com/sites/raspberrytank/IMAG0063-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0063.jpg) [![Transistor Board Connected to Choc Block](http://files.ianrenton.com/sites/raspberrytank/IMAG0065-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0065.jpg)
 

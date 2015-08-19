@@ -3,7 +3,6 @@ layout: post
 title: "ChromeCopter 2000"
 date: 2013-07-11 20:46
 comments: true
-permalink: /chromecopter-2000/
 categories: 
 - Projects
 - Hardware

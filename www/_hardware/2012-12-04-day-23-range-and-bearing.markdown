@@ -18,7 +18,7 @@ tags:
 - Tank
 ---
 
-Today, we continue the list from [day 21](../day-21-designing-for-autonomy/) of things to do that would make the Raspberry Tank fully autonomous. Last time around we played with software -- now it's time to get the soldering iron out.
+Today, we continue the list from [day 21](/hardware/tank-day-21-designing-for-autonomy/) of things to do that would make the Raspberry Tank fully autonomous. Last time around we played with software -- now it's time to get the soldering iron out.
 
 ## Step 1: Choose Sensors
 
@@ -29,7 +29,7 @@ _Compass Module and Ultrasound Ranger Module_
 
 ## Step 2: GPIO Breakout!
 
-Way back on [day 7](../day-7-bridging-the-gap/), we attached a simple connector to the Raspberry Pi's GPIO pins in order to extract GPIO 7 and Ground to feed into the tank's motor control board. Now we need three more connections onto the GPIO header - for 5V, I2C Data (SDA) and I2C Clock (SCL). Several of these pins must now be connected to more than one device, to to avoid some very messy connections, I constructed a simple break-out board for the GPIO connector.
+Way back on [day 7](/hardware/tank-day-7-bridging-the-gap/), we attached a simple connector to the Raspberry Pi's GPIO pins in order to extract GPIO 7 and Ground to feed into the tank's motor control board. Now we need three more connections onto the GPIO header - for 5V, I2C Data (SDA) and I2C Clock (SCL). Several of these pins must now be connected to more than one device, to to avoid some very messy connections, I constructed a simple break-out board for the GPIO connector.
 
 [![GPIO Break-out Connector](http://files.ianrenton.com/sites/raspberrytank/2012-11-21_16-29-18_124-600x338.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-11-21_16-29-18_124.jpg)<br/>
 _GPIO Break-out Connector_

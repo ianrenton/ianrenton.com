@@ -19,11 +19,11 @@ And like the morning fog over the sea, the sunlight melts it away...</i></p>
 <h3>About the Project</h3>
 <ul><li><a href="../about-dreaming-awake">About Dreaming Awake</a></li>
 <li><a href="../dreaming-awake-project-history">Dreaming Awake Project History</a></li>
-<li><a href="../blog//dreaming-awake-time-to-stop-pretending">Why Dreaming Awake will never be written</a></li></ul>
+<li><a href="/blog//dreaming-awake-time-to-stop-pretending">Why Dreaming Awake will never be written</a></li></ul>
 <h3>Story Fragments</h3>
 <ul><li><a href="../dreaming-awake-epilogue">Epilogue</a></li></ul>
 
 <h3>Resources</h3>
 <ul><li>Metaphysics and Metaplot</li>
 <li><a href="../the-world-of-avalon">The World of Avalon</a></li>
-<li><a href="http://rpgs.ianrenton.com/dreaming-awake-tabletop-game">Dreaming Awake Tabletop Game</a></li></ul>
+<li><a href="/rpgs/dreaming-awake-tabletop-game">Dreaming Awake Tabletop Game</a></li></ul>

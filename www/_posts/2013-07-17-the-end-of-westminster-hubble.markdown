@@ -19,7 +19,7 @@ tags:
 - forwestminsterhubble
 ---
 
-Three years ago, after a two-month secret development period working with my old school friend [Chris](http://recampaign.blogspot.com/2010/01/about-me.html), we [announced Westminster Hubble](/announcing-westminster-hubble/).
+Three years ago, after a two-month secret development period working with my old school friend [Chris](http://recampaign.blogspot.com/2010/01/about-me.html), we [announced Westminster Hubble](/blog/announcing-westminster-hubble/).
 
 The name was a pun on the ["Westminster Bubble"](https://en.wikipedia.org/wiki/Westminster_Bubble) in which MPs are sometimes unkindly said to live &mdash; implying a lack of awareness of the rest of the country &mdash; and "Hubble" alluding to the [Hubble Space Telescope](http://hubblesite.org/), which has allowed us to see distant objects in more detail than ever before.
 

@@ -16,7 +16,7 @@ tags:
 - Tourism
 ---
 
-<div id="storynav"><p><a href="../the-tourists-guide-to-bournemouth-below-part-i">Part I</a> | <a href="../the-tourists-guide-to-bournemouth-below-part-ii">Part II</a></p></div>
+<div id="storynav"><p><a href="../the-tourist-s-guide-to-bournemouth-below-part-i">Part I</a> | <a href="../the-tourist-s-guide-to-bournemouth-below-part-ii">Part II</a></p></div>
 
 Welcome, visitor, to another Bournemouth.  While other tourists enjoy the delights of the town's superficial side, herding each other along promenades and turning bright lobster-red between the sand and the sky, you... You have dipped your toes in different water.  Deeper water.  You have stumbled upon a different place with different sights to see, and if you are willing, I will be your guide.
 

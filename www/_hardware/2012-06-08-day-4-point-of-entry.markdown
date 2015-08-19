@@ -20,7 +20,7 @@ tags:
 - Tank
 ---
 
-On [Day 3 of the Raspberry Tank build diary](../day-3-the-sundering/), we took the tank to pieces and stripped it down to the bare minimum required to have a remote control capability: the receiver board, main control board, motors and battery.  Today, we examine the possibilities for adding the Raspberry Pi to the vehicle.
+On [Day 3 of the Raspberry Tank build diary](/hardware/tank-day-3-the-sundering/), we took the tank to pieces and stripped it down to the bare minimum required to have a remote control capability: the receiver board, main control board, motors and battery.  Today, we examine the possibilities for adding the Raspberry Pi to the vehicle.
 
 ### Schematics, Simplified
 

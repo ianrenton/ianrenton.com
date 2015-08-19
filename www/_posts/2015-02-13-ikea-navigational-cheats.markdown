@@ -11,7 +11,7 @@ tags:
 - Escape
 ---
 
-It was suggested on IRC last night that the sad, cautionary [tale of Sultan Hamnvik](/the-cautionary-tale-of-sultan-hamnvik) may have its roots in my simple lack of knowledge &mdash; particularly of the "cheats" that allow for easier navigation around IKEA's torturous, non-Euclidean shop floors.
+It was suggested on IRC last night that the sad, cautionary [tale of Sultan Hamnvik](/blog/the-cautionary-tale-of-sultan-hamnvik) may have its roots in my simple lack of knowledge &mdash; particularly of the "cheats" that allow for easier navigation around IKEA's torturous, non-Euclidean shop floors.
 
 {% img center http://files.ianrenton.com/sites/blog/2015/ikea-nav-irc.png %}
 

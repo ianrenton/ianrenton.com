@@ -21,7 +21,7 @@ tags:
 - Tank
 ---
 
-[Last time on the Raspberry Tank build diary](../day-5-cracking-the-code/), we figured out exactly what signals we would need to use to control the tank if we were to replace the TK-YL101-3 RF receiver board with the Raspberry Pi. This time around, we're going to see if the Pi can actually generate that signal.
+[Last time on the Raspberry Tank build diary](/hardware/tank-day-5-cracking-the-code/), we figured out exactly what signals we would need to use to control the tank if we were to replace the TK-YL101-3 RF receiver board with the Raspberry Pi. This time around, we're going to see if the Pi can actually generate that signal.
 
 ### Step 1: Wiring Up
 
@@ -40,7 +40,7 @@ With this in place, the oscilloscope could now be connected to pins 26 (GPIO 7) 
 
 ### Step 2: To the Compileatron!
 
-Firstly, I wanted to make sure that a C program could toggle the GPIO bits fast enough to replicate the signal that the TK-YL101-3 board sends. [Yesterday](../day-5-cracking-the-code/), we discovered that the shortest marks and spaces in the message were around 300 microseconds long, so my first program simply generated a square wave with a 600 microsecond period on GPIO 7. I based it on [Gert & Dom's example](http://elinux.org/Rpi_Low-level_peripherals#GPIO_Driving_Example_.28C.29) on the eLinux wiki. (I have not included source code for this program here -- source is available below for my more advanced program that sends the correct command codes.)
+Firstly, I wanted to make sure that a C program could toggle the GPIO bits fast enough to replicate the signal that the TK-YL101-3 board sends. [Yesterday](/hardware/tank-day-5-cracking-the-code/), we discovered that the shortest marks and spaces in the message were around 300 microseconds long, so my first program simply generated a square wave with a 600 microsecond period on GPIO 7. I based it on [Gert & Dom's example](http://elinux.org/Rpi_Low-level_peripherals#GPIO_Driving_Example_.28C.29) on the eLinux wiki. (I have not included source code for this program here -- source is available below for my more advanced program that sends the correct command codes.)
 
 The result of running this program was a pretty neat 3.3V, 600 microsecond square wave.
 

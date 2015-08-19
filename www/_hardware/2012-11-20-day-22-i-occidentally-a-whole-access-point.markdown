@@ -17,11 +17,11 @@ tags:
 - Tank
 ---
 
-On [day 21](../day-21-designing-for-autonomy/) of the build diary, I put up a list of things to do that would turn this now remote-controlled tank into a fully autonomous one.  The first software task was to replace the [Raspbian](http://www.raspbian.org/) operating system on my Raspberry Pi with [Adafruit's](http://www.adafruit.com/) [Occidentalis](http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview), an almost identical OS that also includes pre-built kernel drivers for [I2C](http://en.wikipedia.org/wiki/I%C2%B2C).
+On [day 21](/hardware/tank-day-21-designing-for-autonomy/) of the build diary, I put up a list of things to do that would turn this now remote-controlled tank into a fully autonomous one.  The first software task was to replace the [Raspbian](http://www.raspbian.org/) operating system on my Raspberry Pi with [Adafruit's](http://www.adafruit.com/) [Occidentalis](http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview), an almost identical OS that also includes pre-built kernel drivers for [I2C](http://en.wikipedia.org/wiki/I%C2%B2C).
 
 ## Installing Occidentalis
 
-Installing Occidentalis was very easy indeed -- identical to installing Raspbian, as you might expect.  [Day 19](../day-19-the-move-to-raspbian/) covered the move from the original Raspberry Pi software to Debian, and the same procedure was followed this time to move from Raspbian to Occidentalis.
+Installing Occidentalis was very easy indeed -- identical to installing Raspbian, as you might expect.  [Day 19](/hardware/tank-day-19-the-move-to-raspbian/) covered the move from the original Raspberry Pi software to Debian, and the same procedure was followed this time to move from Raspbian to Occidentalis.
 
 As before, Raspbian's `raspi-config` utility popped up on first run, offering the ability to expand the image to fill the SD card, enable `ssh`, and so on.
 
@@ -37,7 +37,7 @@ At this point I also took the opportunity to upgrade the tank's WiFi capabilitie
 [![Rear of Lower Chassis, showing new WiFi Adapter](http://files.ianrenton.com/sites/raspberrytank/2012-11-19_12-30-39_406-600x338.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-11-19_12-30-39_406.jpg)<br/>
 _Rear of Lower Chassis, showing new WiFi Adapter_
 
-I also suggested on [day 17](../day-17-whats-missing/) that I would like the Raspberry Tank to be its own WiFi access point, rather than having to create a hotspot with the control device and have the tank connect to that. Whilst configuring networking on the new Occidentalis install, I figured that it would be a good time to set that up.
+I also suggested on [day 17](/hardware/tank-day-17-whats-missing/) that I would like the Raspberry Tank to be its own WiFi access point, rather than having to create a hotspot with the control device and have the tank connect to that. Whilst configuring networking on the new Occidentalis install, I figured that it would be a good time to set that up.
 
 ## Configuring the Access Point
 

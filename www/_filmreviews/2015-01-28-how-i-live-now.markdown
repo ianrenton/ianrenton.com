@@ -16,7 +16,7 @@ Suddenly, NUKES and FUCKING and SURVIVALISM and SHOOTING PEOPLE and COLLECTIVE G
 
 ## By the Numbers
 
-* [TAIL](../the-vampires-assistant): 1
+* [TAIL](../the-vampire-s-assistant): 1
 * Slices of dead animal wanted: 0
 * Cow whisperers: 1
 * Cheese: ALL THE CHEESE

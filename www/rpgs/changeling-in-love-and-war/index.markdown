@@ -18,7 +18,7 @@ wordpress_id: 907
 <a href="../competition-for-the-princes">Prologue: Competition for the Princes!</a><br />
 <a href="../culinary-chaos">Prologue: Culinary Chaos!</a><br />
 <a href="../fetch-me-ice-cream">Prologue: Fetch Me Ice Cream!</a><br />
-<a href="../a-cats-feelings">Prologue: A Cat&#039;s Feelings</a><br />
+<a href="../a-cat-s-feelings">Prologue: A Cat&#039;s Feelings</a><br />
 <a href="../welcome-home-poppies">Event: Welcome Home, Poppies!</a><br />
 <a href="../the-last-guest">Prologue: The Last Guest</a><br />
 <a href="../panic-in-the-kitchens">Plot: Panic in the Kitchens!</a><br />
@@ -40,15 +40,15 @@ wordpress_id: 907
 <a href="../behind-enemy-lines">Plot: Behind Enemy Lines</a> (Continues Day 3)<br />
 <a href="../tales-by-candlelight">Plot: Tales by Candlelight</a></p>
 <h3>Day 3</h3>
-<p><a href="../duke-willows-plan">Plot: Duke Willow&#039;s Plan</a><br />
+<p><a href="../duke-willow-s-plan">Plot: Duke Willow&#039;s Plan</a><br />
 <a href="../the-secret-of-the-hyacinths">Plot: The Secret of the Hyacinths</a><br />
 <a href="../over-the-hedge">Plot: Over the Hedge</a><br />
 <a href="../cute-from-above">Plot: Cute from Above!</a><br />
 <a href="../the-man-with-the-shining-eyes">Plot: The Man with the Shining Eyes</a><br />
 <a href="../the-night-time-encounter">Plot: The Night-time Encounter</a></p>
 <h3>Day 4</h3>
-<p><a href="../duke-hyacinth-2">Plot: Duke Hyacinth</a><br />
-<a href="../nyanos-barony">Plot: Nyano&#039;s Barony</a><br />
+<p><a href="../duke-hyacinth">Plot: Duke Hyacinth</a><br />
+<a href="../nyano-s-barony">Plot: Nyano&#039;s Barony</a><br />
 <a href="../on-the-road-again">Plot: On the Road Again</a></p>
 <h3>Day 5</h3>
 <p><a href="../ilandras-harebrained-scheme">Plot: Ilandra&#039;s Harebrained Scheme</a></p>
@@ -59,7 +59,7 @@ wordpress_id: 907
 <h2>Information</h2>
 <p><a href="../ians-modified-changeling-rules">Ian&#039;s Modified Changeling Rules</a><br />
 <a href="../fairyland-background-info">Fairyland Background Info</a><br />
-<a href="../fairylands-tech-level">Fairyland&#039;s Tech Level</a><br />
+<a href="../fairyland-s-tech-level">Fairyland&#039;s Tech Level</a><br />
 <a href="../in-love-and-war-stuff-characters-know">Stuff Characters Know</a><br />
 <a href="../home-sweet-home-oc-chat-thread">OC Chat Thread</a></p>
 <h2>Short Stories</h2>

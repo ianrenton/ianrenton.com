@@ -24,12 +24,12 @@ With four or possibly five committed players, I will run an online game.  It wil
 
 The game is not necessarily _Reawakening_.  I will put what I run up to a vote.  (Leave comments wherever you happen to be reading this.)  Here is a list of games that I have come up with or been asked to run, but haven't run yet.
 
-  * [Reawakening](/roleplaying-games/reawakening) (Punk faeries)
-  * [Dreaming Awake 2](/dreaming-awake-tabletop-game) - though very little could convince me to run this online rather than face-to-face.
-  * [Beyond the Fields we Know](/fiction/short-stories/catching-the-bug) (oWoD Virtual Adepts) - this game is only really cool when played realtime over IRC, SSH etc.  I don't have the time to run this right now, really.  If rampaging hordes of potential players appear, I may consider it, player count for it is about 20.
-  * [What Lies Beyond Broadlands Road](/games/what-lies-beyond-broadlands-road) (Comedy Changeling, product of too much alcohol)
-  * [War on Terror: The RPG](/games/war-on-terror-the-rpg) (Comedy super-power game) - pregenned characters only, this is a two-hour convention game really
-  * [In the Night Garden](/games/darkness-falls-in-the-night-garden) (Kids TV + Cthulhu) - I am too sober to run this
+  * [Reawakening](/rpgs/reawakening) (Punk faeries)
+  * [Dreaming Awake 2](/rpgs/dreaming-awake-tabletop-game) - though very little could convince me to run this online rather than face-to-face.
+  * [Beyond the Fields we Know](/fiction/catching-the-bug) (oWoD Virtual Adepts) - this game is only really cool when played realtime over IRC, SSH etc.  I don't have the time to run this right now, really.  If rampaging hordes of potential players appear, I may consider it, player count for it is about 20.
+  * [What Lies Beyond Broadlands Road](/rpgs/what-lies-beyond-broadlands-road) (Comedy Changeling, product of too much alcohol)
+  * [War on Terror: The RPG](/rpgs/war-on-terror-the-rpg) (Comedy super-power game) - pregenned characters only, this is a two-hour convention game really
+  * [In the Night Garden](/rpgs/darkness-falls-in-the-night-garden) (Kids TV + Cthulhu) - I am too sober to run this
   * The Time War (Doctor Who + Feng Shui)
   * A currently not-thought-out 7th Sea Explorers Society game
   * A currently not-thought-out Nobilis game

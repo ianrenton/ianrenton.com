@@ -9,4 +9,5 @@ group :jekyll_plugins do
  gem "octopress-video-tag"
  gem "octopress-paginate"
  gem "facets"
+ gem 'jekyll-sitemap'
 end

@@ -24,7 +24,7 @@ This site contains various recipes of mine which people have asked for or which 
 ## Puddings / Snacks
 	
   * [Chocolate Brownie Goo](./chocolate-brownie-goo)
-  * [Cornflake Nests](./cornflakenests)
+  * [Cornflake Nests](./cornflake-nests)
 
 ## Drinks
 	

@@ -20,7 +20,7 @@ ANGSTY SPACE SQUADDIE goes to SPACE SQUADDIE SCHOOL and sucks at it. Suddenly, A
 * Lingering shots of space elevators, because IT'S THE FUTURE: 8
 * Warthogs: 2
 * [Bouncy Warthogs](http://www.warthog-jump.com/): 0
-* [Ender's Games](../enders-game): 0.7
+* [Ender's Games](../ender-s-game): 0.7
 * [Starship Trooperses](../starship-troopers): 0.4
 * Anti-personnel pineapples: 1
 * Combustible lemons: 0

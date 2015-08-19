@@ -20,7 +20,7 @@ tags:
 - Tank
 ---
 
-[Last time around](../day-8-it-lives/), we proved that the Raspberry Pi could indeed be integrated into a Heng Long Tiger I RC tank, and so control its functions.  That's a significant achievement, but there's plenty more to do.
+[Last time around](/hardware/tank-day-8-it-lives/), we proved that the Raspberry Pi could indeed be integrated into a Heng Long Tiger I RC tank, and so control its functions.  That's a significant achievement, but there's plenty more to do.
 
 Firstly and most importantly, we can't yet drive the tank around because the Raspberry Pi is still dependent on a power source, keyboard input and video output -- each of which is a cable connecting the tank to a computer.  On day nine of the build diary, we cut one of those dependencies, resulting in a Raspberry Pi that is powered from the tank's internal battery.   Compared to previous days, this was a relatively simple matter.
 

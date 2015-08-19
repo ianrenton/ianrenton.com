@@ -22,7 +22,7 @@ tags:
 - Web
 ---
 
-Last time around, on [day 23](../day-23-range-and-bearing) of the build diary, we connected up an I2C rangefinder and compass module to the Raspberry Pi, and checked their functionality using stand-alone applications. Today, we're going to integrate them into the main code that runs the tank, `rt_http`.
+Last time around, on [day 23](/hardware/tank-day-23-range-and-bearing) of the build diary, we connected up an I2C rangefinder and compass module to the Raspberry Pi, and checked their functionality using stand-alone applications. Today, we're going to integrate them into the main code that runs the tank, `rt_http`.
 
 ## Step 1. To the C!
 
@@ -55,7 +55,7 @@ If the file is being written to at the point the JavaScript tries to read it, it
 
 ## Step 4. Forking the Web UI
 
-The Web UI previously existed as a portrait-orientated interface that assumed the user was using a touch device such as a tablet or phone. As we discovered to our cost on [day 17](../day-17-whats-missing/), the "press and hold" behaviour we used for the control buttons wasn't appropriate for these devices, so we had to drop back to using a single press to start an action and a single press on the STOP button to stop it.
+The Web UI previously existed as a portrait-orientated interface that assumed the user was using a touch device such as a tablet or phone. As we discovered to our cost on [day 17](/hardware/tank-day-17-whats-missing/), the "press and hold" behaviour we used for the control buttons wasn't appropriate for these devices, so we had to drop back to using a single press to start an action and a single press on the STOP button to stop it.
 
 During testing I have mostly been using a laptop. Not only is "press and hold" possibly on a laptop, it's much more user-friendly. A landscape orientation would also be much more usable on a laptop screen.
 

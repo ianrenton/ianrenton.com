@@ -21,7 +21,7 @@ tags:
 - Tank
 ---
 
-[Day 15 of the Raspberry Tank build diary](../day-15-web-interface-prototyping/) saw me on my home turf of UI prototyping, and I promised that today I'd show you how I put together the Javascript that powers the web-based user interface.  Well, I did a little better than that -- not only is the Web UI up and running, it's communicating with a new version of the tank control software too, so now almost -- almost! -- have a fully web-enabled tank.
+[Day 15 of the Raspberry Tank build diary](/hardware/tank-day-15-web-interface-prototyping/) saw me on my home turf of UI prototyping, and I promised that today I'd show you how I put together the Javascript that powers the web-based user interface.  Well, I did a little better than that -- not only is the Web UI up and running, it's communicating with a new version of the tank control software too, so now almost -- almost! -- have a fully web-enabled tank.
 
 [![Raspberry Tank HTTP Interfaces](http://files.ianrenton.com/sites/raspberrytank/http_interfaces-600x225.png)](http://files.ianrenton.com/sites/raspberrytank/http_interfaces.png)
 
@@ -39,7 +39,7 @@ Each control button on the Web UI has an `onmousedown` and an `onmouseup` event 
 
 ### Step 3: The C
 
-The [early control code](../day-10-wireless-enabled/) for the Raspberry Tank relied on keypresses to control the tank's main functions.  Now that we have a web interface, we need to modify the code to make it accept commands from the Web UI.
+The [early control code](/hardware/tank-day-10-wireless-enabled/) for the Raspberry Tank relied on keypresses to control the tank's main functions.  Now that we have a web interface, we need to modify the code to make it accept commands from the Web UI.
 
 The Web UI's JavaScript can only send HTTP requests rather than raw packets to something on the back end, so the easiest way to get control into our C program was simply to embed an HTTP server into it.  This was achieved very simply by using a great, tiny server called [mongoose](https://code.google.com/p/mongoose/).
 

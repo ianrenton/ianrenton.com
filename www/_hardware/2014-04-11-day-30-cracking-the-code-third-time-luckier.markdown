@@ -14,7 +14,7 @@ tags:
 Background
 ----------
 
-For a long time &mdash; since [Day 12](http://raspberrytank.ianrenton.com/day-12-cracking-the-code-redux/) in fact &mdash; the Raspberry Pi has been driving the tank using a set of binary codes. These codes were reverse engineered by looking at the signal that the original TK board produced when driven with the proper remote control unit.
+For a long time &mdash; since [Day 12](/hardware/tank-day-12-cracking-the-code-redux/) in fact &mdash; the Raspberry Pi has been driving the tank using a set of binary codes. These codes were reverse engineered by looking at the signal that the original TK board produced when driven with the proper remote control unit.
 
 The codes are 32 bits long, always beginning with `11111110` (`0xfe`), and always ending with `00`. I was storing each complete code as a constant, which made the program pretty inflexible about the things it could ask the tank to do &mdash; it could only pick one of the set that was originally recorded.
 

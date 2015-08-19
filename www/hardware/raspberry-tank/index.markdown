@@ -58,7 +58,7 @@ The "Raspberry Tank" is a project to create an autonomous vehicle with a web int
  [14]: ../tank-day-14-video-streaming/
  [15]: ../tank-day-15-web-interface-prototyping/
  [16]: ../tank-day-16-by-the-power-of-pthreads/
- [17]: ../tank-day-17-whats-missing/
+ [17]: ../tank-day-17-what-s-missing/
  [18]: ../tank-day-18-hubs-and-clicks/
  [19]: ../tank-day-19-the-move-to-raspbian/
  [20]: ../tank-day-20-to-youtube-once-more/

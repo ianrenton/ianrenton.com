@@ -36,7 +36,7 @@ After a while (okay, actually quite a long while) of trying to build my own vers
 
 ### Step 2: Fix the WiFi
 
-Unfortunately, the WiFi drivers that we downloaded and installed back on [Day 10](../day-10-wireless-enabled/) were specific to the version of the kernel that came with the default Debian image -- and didn't work at all with the new one.
+Unfortunately, the WiFi drivers that we downloaded and installed back on [Day 10](/hardware/tank-day-10-wireless-enabled/) were specific to the version of the kernel that came with the default Debian image -- and didn't work at all with the new one.
 
 Luckily, the maintainer of the WiFi driver build had a new version available within a few hours, so repeating the instructions from day 10 resulted in downloading a new, working driver.  However, there were a few issues along the way -- notably that the downloaded "8192cu-latest.tar.gz" had to be renamed "8192cu.tar.gz" for the build script to find it, and that running the script for the second time adds duplicate entries in `/etc/network/interfaces` which must be removed for the configuration to be valid.  I also found that I had to reboot to get the WiFi dongle working this time -- it did not start working immediately during the install process as it had done first time around.
 
@@ -44,7 +44,7 @@ Luckily, the maintainer of the WiFi driver build had a new version available wit
 
 [![Raspberry Tank with (Semi-Working) Webcam Image](http://files.ianrenton.com/sites/raspberrytank/IMG_20120703_134145-300x225.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMG_20120703_134145.jpg)
 
-With both webcam and WiFi working, we could finally look at the camera imagery.  I took the advice of [Miklós](http://balubati.atw.hu/blog) from [Day 13](../day-13-lucky-for-us/)'s comment thread, and used [mjpg-streamer](https://sourceforge.net/projects/mjpg-streamer/) for this.
+With both webcam and WiFi working, we could finally look at the camera imagery.  I took the advice of [Miklós](http://balubati.atw.hu/blog) from [Day 13](/hardware/tank-day-13-lucky-for-us/)'s comment thread, and used [mjpg-streamer](https://sourceforge.net/projects/mjpg-streamer/) for this.
 
 `mjpg-streamer` doesn't provide pre-built binaries for the Raspberry Pi's ARM architecture, so I had to build my own.  Fortunately, this was pretty easy.  The [source code](http://sourceforge.net/projects/mjpg-streamer/files/mjpg-streamer/Sourcecode/) is available on SourceForge -- this was downloaded and unpacked on the Raspberry Pi.  To build, `mjpg-streamer` requires the development libraries for `libjpeg`.  I downloaded `libjpeg8-dev` for ARM manually from the Debian package repositories, but it could equally be downloaded using `apt-get` from an internet-connected Pi.  With that installed, building `mjpg-streamer` was as simple as running `make clean all` in the directory to which it was unpacked.
 

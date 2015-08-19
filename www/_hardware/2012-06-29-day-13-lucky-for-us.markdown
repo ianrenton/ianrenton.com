@@ -28,7 +28,7 @@ Day 13, as it turned out, was our lucky day -- the Raspberry Tank's first day ou
 
 ### Step 1: Enable the New Codes
 
-The new codes that were discovered on [day 12](../day-12-cracking-the-code-redux/) were programmed into the SSH control software. As well as the forward (W), backward (S), left (A) and right (D) commands that the software could previously send, I also added the ability to command turret left (Q), turret right (E), turret elevation (Z) and fire (X).
+The new codes that were discovered on [day 12](/hardware/tank-day-12-cracking-the-code-redux/) were programmed into the SSH control software. As well as the forward (W), backward (S), left (A) and right (D) commands that the software could previously send, I also added the ability to command turret left (Q), turret right (E), turret elevation (Z) and fire (X).
 
 [You can download this version of the code from GitHub here.](https://github.com/ianrenton/raspberrytank/blob/e311504642266d153ee434c85f91724a37403476/rt_ssh.c)
 

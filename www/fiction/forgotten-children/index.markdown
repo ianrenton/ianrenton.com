@@ -26,9 +26,9 @@ wordpress_id: 901
 <td valign="top">
 <h3>Background Information</h3>
 <ul>
-<li><a href="../fc-info-characters">Characters</a></li>
-<li><a href="../fc-info-background">Background</a></li>
-<li><a href="../fc-info-technology">Technology</a></li>
+<li><a href="../forgotten-children-characters">Characters</a></li>
+<li><a href="../forgotten-children-background">Background</a></li>
+<li><a href="../forgotten-children-technology">Technology</a></li>
 </ul>
 </td>
 </tr>

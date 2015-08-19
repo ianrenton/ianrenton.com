@@ -10,7 +10,7 @@ tags:
 - FPS
 ---
 
-On [the previous Build Diary entry](http://raspberrytank.ianrenton.com/day-28-first-person-view/), I shared a video of what it looks like to drive the tank from the web user interface, calling it "First Person View". The natural development of that, then, it to turn it into something like a "first-person shooter"&mdash;a display that is just the video feed, and a set of keybindings to allow the user to drive it like it was a videogame.
+On [the previous Build Diary entry](/hardware/tank-day-28-first-person-view/), I shared a video of what it looks like to drive the tank from the web user interface, calling it "First Person View". The natural development of that, then, it to turn it into something like a "first-person shooter"&mdash;a display that is just the video feed, and a set of keybindings to allow the user to drive it like it was a videogame.
 
 This is a pretty easy interface to add, building on top of the existing javascript and adding some `onkeydown` and `onkeyup` bindings.
 

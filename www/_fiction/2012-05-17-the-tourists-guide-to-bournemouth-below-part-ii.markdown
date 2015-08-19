@@ -16,7 +16,7 @@ tags:
 - Tourism
 ---
 
-<div id="storynav"><p><a href="../the-tourists-guide-to-bournemouth-below-part-i">Part I</a> | <a href="../the-tourists-guide-to-bournemouth-below-part-ii">Part II</a></p></div>
+<div id="storynav"><p><a href="../the-tourist-s-guide-to-bournemouth-below-part-i">Part I</a> | <a href="../the-tourist-s-guide-to-bournemouth-below-part-ii">Part II</a></p></div>
 
 Ah, another visitor to the other world; the shadow town that lurks around and beneath the town of Bournemouth. Today I shall lead you on a tour of the strange and the weird, and I shall tell you the truth about places where those above know only lies.
 
