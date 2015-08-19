@@ -5,9 +5,7 @@ title: "Software"
 
 This page is an index of various bits of software I've written in my spare time. Most of this software is released under the [BSD Licence](http://opensource.org/licenses/BSD-2-Clause), and source is hosted on [GitHub](https://github.com/ianrenton). All the links below point to the main page of the corresponding GitHub repository.
 
-## Released Software
-
-### Web Sites
+## Web Stuff
 
 * [SuccessWhale](https://github.com/ianrenton/SuccessWhale) (Social network client)
 * [SuccessWhale API](https://github.com/ianrenton/successwhale-api) (API for SuccessWhale and other clients)
@@ -21,19 +19,11 @@ This page is an index of various bits of software I've written in my spare time.
 * [The Marvellator](https://github.com/ianrenton/Marvellator) (random comic name generator)
 * [Cobb’s Quay Weather](https://github.com/ianrenton/Cobbs-Quay-Weather)
 
-### Games
+## Games
 
 * [Sea Battle](https://github.com/ianrenton/SeaBattle) (Casual 2D RTS)
 
-### Utilities
-
-* [NaNoGenMo](https://github.com/ianrenton/NaNoGenMo) (Generator of semi-random 50,000-word novels)
-* [Iridium 9601 Satellite Modem Simulator](https://github.com/ianrenton/Iridium9601Sim)
-* [CrapTerminal](https://github.com/ianrenton/CrapTerminal)
-* [RPG Dice Roller](https://github.com/ianrenton/RPGDiceRoller)
-* [RPoL Thread Reformatter](https://github.com/ianrenton/RPoLThreadReformatter)
-
-### Code for Hardware Projects
+## Code for Hardware Projects
 
 * [Raspberry Tank](https://github.com/ianrenton/raspberrytank)
 * [Lego Turtle](https://github.com/ianrenton/legoturtle)
@@ -43,7 +33,15 @@ This page is an index of various bits of software I've written in my spare time.
 * [Gecko Cam](https://github.com/ianrenton/geckocam)
 * [Raspberry Pi Utils](https://github.com/ianrenton/raspi-utils)
 
-## Abandoned Things
+## Utilities
+
+* [NaNoGenMo](https://github.com/ianrenton/NaNoGenMo) (Generator of semi-random 50,000-word novels)
+* [Iridium 9601 Satellite Modem Simulator](https://github.com/ianrenton/Iridium9601Sim)
+* [CrapTerminal](https://github.com/ianrenton/CrapTerminal)
+* [RPG Dice Roller](https://github.com/ianrenton/RPGDiceRoller)
+* [RPoL Thread Reformatter](https://github.com/ianrenton/RPoLThreadReformatter)
+
+## Abandoned Projects
 
 * [Westminster Hubble](https://github.com/ianrenton/westminsterhubble)
 * [Premier League Fantasy Football Team Picker](https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker)
