@@ -14,5 +14,5 @@ Options +FollowSymlinks
   RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L]
   RewriteRule ^legoturtle(\/?)$ /hardware/lego-turtle [L]
-  RewriteRule ^/software/(.+)$ https://github.com/ianrenton/$1 [L,R=301]
+  RewriteRule ^software/(.+)$ https://github.com/ianrenton/$1 [L,R=301]
 </IfModule>
