@@ -6,6 +6,7 @@ layout: post
 slug: supermassive-car-planet
 title: Supermassive Car Planet
 wordpress_id: 13436
+latex: true
 categories:
 - Maths
 - Science

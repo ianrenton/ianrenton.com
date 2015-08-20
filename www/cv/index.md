@@ -1,6 +1,7 @@
 ---
 layout: titleless
 title: "Ian Renton's CV"
+latex: true
 ---
 
 <style>

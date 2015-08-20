@@ -6,6 +6,7 @@ layout: post
 slug: rainy-evening-statistics-when-to-harvest-sloes
 title: 'Rainy Evening Statistics: When to Harvest Sloes?'
 wordpress_id: 13239
+latex: true
 categories:
 - Maths
 - Science

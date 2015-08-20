@@ -6,6 +6,7 @@ layout: post
 slug: windy-morning-mechanics-how-big-a-sail-do-i-need-to-fly-away
 title: 'Windy Morning Mechanics: How Big a Sail do I Need to Fly Away?'
 wordpress_id: 11320
+latex: true
 categories:
 - Maths
 - Science
