@@ -36,3 +36,4 @@ The ever-expanding "to do" list of awful films to review:
 * Into the Woods
 * Kung Fury
 * Iron Sky 2
+* Escape to Witch Mountain
