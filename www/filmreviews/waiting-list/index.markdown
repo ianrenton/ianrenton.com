@@ -18,8 +18,6 @@ The ever-expanding "to do" list of awful films to review:
 * Labyrinth
 * Masters of the Universe
 * Flash Gordon
-* David Copperfield (1993)
-* Stardust
 * The Crow
 * Kickass
 * Birdemic: Shock and Awe
