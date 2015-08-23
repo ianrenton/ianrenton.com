@@ -9,7 +9,7 @@ title: The Waiting List
 The ever-expanding "to do" list of awful films to review:
 
 * Zardoz
-* Evil Dead x3
+* Evil Dead 1-3
 * Plan 9 from Outer Space
 * Manos: The Hands of Fate
 * Guyver
@@ -35,3 +35,5 @@ The ever-expanding "to do" list of awful films to review:
 * Kung Fury
 * Iron Sky 2
 * Escape to Witch Mountain
+* Ginosaji: The Horribly Slow Murderer with the Extremely Inefficient Weapon
+* Tremors 1-4
