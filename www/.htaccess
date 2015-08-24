@@ -10,6 +10,7 @@ Options +FollowSymlinks
   RewriteRule ^about-me(\/?)$ / [L]
   RewriteRule ^about(\/?)$ / [L]
   RewriteRule ^raspberrytank(\/?)$ /hardware/raspberry-tank [L]
+  RewriteRule ^raspberry-tank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L]

@@ -40,19 +40,19 @@ table {
 <table cellspacing="0"><tr><td>
 Domain knowledge
 </td><td>
-Autonomous vehicles, sub-sea communications, naval minehunting & minesweeping systems.
+Autonomous/unmanned vehicles, naval combat systems, mine countermeasures, RF & sub-sea communications.
 </td></tr><tr><td>
 Engineering processes
 </td><td>
-Requirements capture, system design, software design, User Interface design, UML/SysML, usability testing, configuration management, integration & testing, post-sales support.
+Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support.
 </td></tr><tr><td>
 Programming languages
 </td><td>
-Java, LabVIEW, MATLAB, Python, C, C++, Ruby, PHP, JavaScript.
+Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.
 </td></tr><tr><td>
 Specific packages
 </td><td>
-DOORS, Enterprise Architect, NetBeans, Microsoft Word, Excel, PowerPoint & Access, $\LaTeX$, SharePoint, Subversion, git, Windows/Linux/Mac OS.
+DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Jenkins, MySQL, MSSQL, Microsoft Office, $\LaTeX$, Windows & Linux.
 </td></tr></table>
 
 ## Professional Experience
@@ -61,7 +61,7 @@ DOORS, Enterprise Architect, NetBeans, Microsoft Word, Excel, PowerPoint & Acces
 Feb&nbsp;2014 &mdash; Present
 </td><td>
 <b>Principal Software engineer at (Current Employer)</b><br/>
-Lead engineer for £1M+ of software effort on a major £15M+ ”game-changer” programme for the company. Produced customer-focused technical documentation at the bid stage to help secure the work. The project is currently at the architectural design stage, and I expect to be leading a team of 8+ engineers to during the implementation phase from September 2015.
+Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work. The project is currently at the design stage, and I expect to be leading a team of 8+ engineers during the implementation phase from December 2015.
 </td></tr><tr><td>
 
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
