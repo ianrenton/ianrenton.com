@@ -2,6 +2,7 @@
 layout: titleless
 title: "Ian Renton's CV"
 latex: true
+comments: false
 ---
 
 <style>
@@ -13,7 +14,7 @@ td {
   padding: 5px;
   min-width: 7em;
 }
-table { 
+table {
   border-top: 1px solid #2A7AE2;
 }
 .printme {

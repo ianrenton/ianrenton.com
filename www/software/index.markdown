@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Software"
+comments: false
 ---
 
 This page is an index of various bits of software I've written in my spare time. Most of this software is released under the [BSD Licence](http://opensource.org/licenses/BSD-2-Clause), and source is hosted on [GitHub](https://github.com/ianrenton). All the links below point to the main page of the corresponding GitHub repository.
@@ -50,4 +51,3 @@ This page is an index of various bits of software I've written in my spare time.
 * [War of the Roses](https://github.com/ianrenton/WarOfTheRoses) (Strategy RPG)
 * [Gunboat](https://github.com/ianrenton/Gunboat) (Naval-themed 3D shooter)
 * [Type X29](https://github.com/ianrenton/TypeX29) (Experimental 1D bullet-hell shooter)
-

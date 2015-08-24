@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Welcome!"
+comments: false
 ---
 
 I'm Ian Renton, a software engineer and builder of robots, from Bournemouth on the south coast of Britain.
