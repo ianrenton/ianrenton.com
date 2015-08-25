@@ -20,7 +20,7 @@ tags:
 - System
 ---
 
-This page explains the Chancel creation process for the RPG Nobilis, to help those who don't own a copy of the book.  If you're looking for character creation instead, that's <a href="/rpgs/nobilis/nobilis-character-creation">here</a>.
+This page explains the Chancel creation process for the RPG Nobilis, to help those who don't own a copy of the book.  If you're looking for character creation instead, that's <a href="/rpgs/nobilis-character-creation">here</a>.
 
 The characters in a Family of Nobles share a Chancel between them.  This is a portion of space set aside by the Imperator, and is said to require a human death on each of 100 consecutive nights to create.  Chancels can have any theme, from verdant gardens to high-technology laboratories, bright fairytale worlds to cities of Lovecraftian horror.  It can be in a fixed location in the Prosaic Earth, or there can be doorways to it anywhere, or maybe the players can wish themselves there from anywhere in the world!
 

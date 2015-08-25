@@ -14,7 +14,7 @@ tags:
 - cloud 
 ---
 
-As my [previous post on closing my Last.fm account](/blog//the-last-of-last-dot-fm-seven-years-in-pretty-graphs/) might indicate, I'm currently on something of an account-closing spree.
+As my [previous post on closing my Last.fm account](/blog/the-last-of-last-dot-fm-seven-years-in-pretty-graphs/) might indicate, I'm currently on something of an account-closing spree.
 
 Closing online accounts seems to be a rarity these days, and more than once I've been asked why I bother. My reasons are pretty simple, so I suppose I care about them more than most people.
 

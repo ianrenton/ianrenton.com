@@ -16,7 +16,7 @@ Yes, it also has a Raspberry Pi on it.
 1. [Frame Assembly](../quad-frame-assembly)
 2. [Main PCB Fitting](../quad-main-pcb-fitting)
 3. [Motor Fitting](../quad-motor-fitting)
-4. [ESC Cable Re-termination and Fit](../quad-esc-cable-re-termination-amp-fit)
+4. [ESC Cable Re-termination and Fit](../quad-esc-cable-re-termination-and-fit)
 5. [Power-up, RC Fit & Test](../quad-power-up-rc-fit-amp-test)
 6. [Battery Fit](../quad-battery-fit)
 7. [Propeller Fit](../quad-propeller-fit)

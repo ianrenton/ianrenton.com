@@ -20,7 +20,7 @@ wordpress_id: 11425
 </td>
 <td valign="top">
 <h3>Information</h3>
-<p><A HREF='/oc-chat-thread'>OC Chat Thread</A><br /><a href="http://07nobiliscampaign.wikispaces.com/file/view/So+You've+Been+enNobled...">"So you've been enNobled..."</a><br /><a href="../nobilis-character-creation">Character Gen Instructions</a><br /><a href="../nobilis-chancel-creation">Chancel Gen Instructions</a><br /><a href="../using-miracles-in-nobilis">Miracles Explained</a></p>
+<p><A HREF='../oc-chat-thread'>OC Chat Thread</A><br /><a href="http://07nobiliscampaign.wikispaces.com/file/view/So+You've+Been+enNobled...">"So you've been enNobled..."</a><br /><a href="../nobilis-character-creation">Character Gen Instructions</a><br /><a href="../nobilis-chancel-creation">Chancel Gen Instructions</a><br /><a href="../using-miracles-in-nobilis">Miracles Explained</a></p>
 <h3>Characters</h3>
 <p>Up soon</p>
 </td>
