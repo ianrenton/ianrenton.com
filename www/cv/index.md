@@ -33,7 +33,7 @@ table {
 <h1>Ian Renton</h1>
 <h2 style="position: relative; top: -0.8em">Software Engineer</h2>
 
-***Note:** This is the online version of my CV. Private information such as my telephone number, references’ details and the name of my current employer have been omitted.  If you require this information, please request a full version of the CV via email to [ian@ianrenton.com](mailto:ian@ianrenton.com).*
+***Note:** This is the online version of my CV. Some information has been omitted for privacy or security reasons.  If you require this information, please request a full version of the CV via email to [ian@ianrenton.com](mailto:ian@ianrenton.com).*
 
 ## Technical Skills
 
@@ -110,6 +110,10 @@ BSc (Hons) in Physics from the University of Southampton.
 Attended Bournemouth School for Boys. Achieved A-levels in Maths, Further Maths,
 Physics and Electronics.
 </td></tr></table>
+
+## Security
+
+UK National, clearance information available on request.
 
 ## References
 

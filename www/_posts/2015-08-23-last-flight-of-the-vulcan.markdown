@@ -16,7 +16,7 @@ But by lunchtime the weather had brightened; one last gasp of summer sunshine, j
 
 {% img center http://files.ianrenton.com/sites/blog/2015/vulcan1.jpg %}
 
-[XH558](https://en.wikipedia.org/wiki/Avro_Vulcan_XH558) is the last flying Vulcan, only one other can even taxi under its own power. Her wings hit the end of their flying life two years ago, and only £200,000 of donations and reverse-engineered partsensured she could fly another two years. But now the wings are beyond saving, and her engines too. At fifty-five years old, *The Spirit of Great Britain* is long due her retirement.
+[XH558](https://en.wikipedia.org/wiki/Avro_Vulcan_XH558) is the last flying Vulcan, only one other can even taxi under its own power. Her wings hit the end of their flying life two years ago, and only £200,000 of donations and reverse-engineered parts ensured she could fly another two years. But now the wings are beyond saving, and her engines too. At fifty-five years old, *The Spirit of Great Britain* is long due her retirement.
 
 {% img center http://files.ianrenton.com/sites/blog/2015/vulcan2.jpg %}
 

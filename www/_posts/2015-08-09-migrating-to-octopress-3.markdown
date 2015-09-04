@@ -12,7 +12,7 @@ tags:
 
 Those of you who follow me on Twitter may have seen me dither about whether to re-style my website after the very appealing (to me) [Tufte CSS](http://www.daveliepmann.com/tufte-css/). The sidenotes with their wide bar didn't work particularly well with my blog format, but I've taken on some of the major style elements, and unless you're reading this via RSS, you can see the results in front of you right now.
 
-In doing so, I decided to update the code Octopress code on which many of my websites are based. This is a long, complicated process of "merge hell" where I try to keep my own customisations to core files, theme mods, new themes, and odd plugins, while making sure nothing conflicts with the new files. With eight different Octopress sites, each with their own oddities, this was a daunting task.
+In doing so, I decided to update the old Octopress code on which many of my websites are based. This is a long, complicated process of "merge hell" where I try to keep my own customisations to core files, theme mods, new themes, and odd plugins, while making sure nothing conflicts with the changes that have taken place within Octopress itself. With eight different Octopress sites, each with their own oddities, this was a daunting task.
 
 {% img center http://files.ianrenton.com/sites/blog/2015/pipes.jpg %}
 
