@@ -16,7 +16,7 @@ Subtly at first, but then MORE STRONGLY, you sense a <span style="text-shadow: 0
 
 YOU look down, and see YOURSELF, as if looking from above. YOU look back at the TV, and see YOURSELF. YOu are JACK. You are J<i>i</i>LL. The WORLD falls out from under you.
 
-Was there ever a YOU? Was there ever a FILM called JACK AND J<i>i</i>LL? <i>i</i>t doesn't matter now. Perhaps <i>i</i>t never matte<span style="color:blue;">red</style>
+Was there ever a YOU? Was there ever a FILM called JACK AND J<i>i</i>LL? <i>i</i>t doesn't matter now. Perhaps <i>i</i>t never matte<span style="color:blue;">red</span>
 
 All that matters <i>i</i>s...
 
@@ -80,23 +80,23 @@ H
 
 <br/>
 
-<div id="black" style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; display:none; background-color: black; padding-top: 20%; text-align: center; color: red; font-size: 120px; font-family: Creepster, arial; text-shadow: 0px 0px 10px red;">ADAM SANDLER</div>
+<div id="black" style="position: absolute; z-index: 1000; top: 0; left: 0; height: 100%; width: 100%; display:none; background-color: black; padding-top: 20%; text-align: center; color: red; font-size: 120px; font-family: Creepster, arial; text-shadow: 0px 0px 10px red;">ADAM SANDLER</div>
 
 <script>
 function testScroll(ev)
 {
-  if(window.pageYOffset>700)
+  if(window.pageYOffset>800)
   {
     window.scrollTo(0,0);
     document.getElementById('black').style.display = 'block';
     document.body.style.overflow = 'hidden';
     audio.play();
     setInterval(function() {
-      window.location.assign("/jack-and-jill2")
+      window.location.assign("/filmreviews/jack-and-jill2")
     }, 3000);
   }
 }
-var audio = new Audio('/jack-and-jill2/scream.mp3');
+var audio = new Audio('/filmreviews/jack-and-jill2/scream.mp3');
 window.onscroll=testScroll
 </script>
 
