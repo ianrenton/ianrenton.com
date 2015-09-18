@@ -48,6 +48,6 @@ However, my main trust issues with Google stem from their tracking and the amoun
 
 ...
 
-*
+{% img right http://files.ianrenton.com/sites/blog/2015/castleclash.jpg Castle Clash %}
 
 ## Conclusion
