@@ -46,7 +46,9 @@ However, my main trust issues with Google stem from their tracking and the amoun
 
 ### Games
 
-...
+Games have been the biggest difference between my phone before ditching the Play Store and my phone now. The number of games for Android&mdash;even closed source ones&mdash;outside of the Play Store is very limited. F-Droid has a variety of simple puzzle and arcade games, while past Android [Humble Bundles](http://humblebundle.com) have provided some high-quality indie titles as downloadable APKs, but on the whole the choice is bleak.
+
+On the plus side, the exercise has given me a great excuse to dump a number of [potentially evil mobile games](http://t.co/roC1ymlMsm) that I seem to have picked up since [my last purge](/blog/on-game-design-time-to-quit/).
 
 {% img right http://files.ianrenton.com/sites/blog/2015/castleclash.jpg Castle Clash %}
 
