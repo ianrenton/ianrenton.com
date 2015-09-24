@@ -41,7 +41,7 @@ Autonomous/unmanned vehicles, naval combat systems, mine countermeasures, RF & s
 </td></tr><tr><td>
 Engineering processes
 </td><td>
-Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support.
+Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle. IEC 61508 SIL-2.
 </td></tr><tr><td>
 Programming languages
 </td><td>
