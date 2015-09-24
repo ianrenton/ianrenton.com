@@ -10,16 +10,13 @@ h1 {
   margin-top: 0;
 }
 td {
-  border-bottom: 1px solid #2A7AE2;
-  padding: 5px;
+  padding: 10px 5px;
   min-width: 7em;
-}
-table {
-  border-top: 1px solid #2A7AE2;
 }
 .printme {
   text-align: center;
   font-family: 'Open Sans',Helvetica,'Helvetica Neue','Ubuntu Sans','Segoe UI',sans-serif;
+  text-decoration: none;
 }
 @media print {
   .printme {
@@ -30,10 +27,10 @@ table {
 
 <p class="printme">[ <a href="#" onclick="window.print();"><i class="fa fa-lg fa-print"></i> Print me!</a> ]</p>
 <div style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
-<h1>Ian Renton</h1>
-<h2 style="position: relative; top: -0.8em">Software Engineer</h2>
+<h1 style="text-decoration: none">Ian Renton</h1>
+<h2 style="position: relative; top: -0.8em; text-decoration: none">Software Engineer</h2>
 
-***Note:** This is the online version of my CV. Some information has been omitted for privacy or security reasons.  If you require this information, please request a full version of the CV via email to [ian@ianrenton.com](mailto:ian@ianrenton.com).*
+<p style="color:gray;"><strong>Note:</strong> This is the online version of my CV. Some information has been omitted for privacy or security reasons.  If you require this information, please request a full version of the CV via email to <a href="mailto:ian@ianrenton.com">ian@ianrenton.com</a>.</p>
 
 ## Technical Skills
 

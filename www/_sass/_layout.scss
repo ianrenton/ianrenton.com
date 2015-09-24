@@ -40,6 +40,7 @@
     display:block;
     height:100%;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a.active {
@@ -78,12 +79,6 @@
     > li {
         margin-bottom: $spacing-unit;
     }
-}
-
-.post-meta {
-    color: $grey-color;
-    font-style: italic;
-    margin-bottom: $spacing-unit;
 }
 
 .post-link {
