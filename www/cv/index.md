@@ -69,7 +69,8 @@ Oct&nbsp;2009 &mdash; Feb&nbsp;2014
 <p>Specialised in user experience and User Interface design as part of the company’s newly-created HMI & Control team.</p>
 <p>Led small teams of developers on a number of larger projects.</p>
 <p>Continued involvement in all areas of the project lifecycle, and contributed expertise on tools and techniques to improve the company’s engineering processes.</p>
-<p>Responsible for the management of the company’s source code repositories, issue tracker and build server. Experience working with parallel software teams in Germany and customers in the Middle East.</p>
+<p>Responsible for the management of the company’s source code repositories, issue tracker and build server.</p>
+<p>Experience working with parallel software teams in Germany and customers in the Middle East.</p>
 </td></tr><tr><td>
 
 Jul&nbsp;2006 &mdash; Sep&nbsp;2009

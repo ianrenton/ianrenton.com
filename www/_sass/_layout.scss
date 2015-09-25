@@ -39,7 +39,6 @@
     display:block;
     height:100%;
     border-radius: 5px;
-    text-decoration: none;
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a.active {
@@ -72,6 +71,8 @@ div.button-inner {
 
 div.button-inner h6 {
   font-size: 1em;
+  font-weight: 700;
+  font-style: normal;
   margin-left: 5px;
   margin-top: 10px;
 }
@@ -96,6 +97,12 @@ div.button-inner ul {
     > li {
         margin-bottom: $spacing-unit;
     }
+}
+
+.post-meta {
+    color: $grey-color;
+    font-style: italic;
+    margin-bottom: $spacing-unit;
 }
 
 .post-link {
