@@ -31,7 +31,6 @@
 #sidebar ul.sidebar-buttons li.sidebar-button {
   display:block;
   width:100%;
-  height:45px;
   line-height:45px;
 }
 
@@ -62,6 +61,24 @@
     width: 40px;
     display: inline-block;
     text-align: center;
+}
+
+div.button-inner {
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  border: 1px solid $text-color;
+  border-radius: 5px;
+}
+
+div.button-inner h6 {
+  font-size: 1em;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+div.button-inner ul {
+  list-style-type: none;
+  margin-left: 5px;
 }
 
 /**
@@ -178,6 +195,9 @@
         margin:0 16px 20px;
     }
     #sidebar .sidebar-profile {
+        display: none;
+    }
+    .button-inner {
         display: none;
     }
     .juvia-avatar {

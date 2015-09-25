@@ -13,6 +13,19 @@
                     <i class="sidebar-button-icon fa fa-lg fa-user"></i>
                     <span class="sidebar-button-desc">Blog</span>
                 </a>
+                {% if page.url contains '/blog/' %}
+                <div class="button-inner">
+                  <h6>Years</h6>
+                  <ul>
+                    {% year_archive %}
+                  </ul>
+                  <h6>Categories</h6>
+                  <ul>
+                    {% category_archive %}
+                  </ul>
+                </div>
+                {% endif %}
+
         </li>
         
         <li class="sidebar-button">

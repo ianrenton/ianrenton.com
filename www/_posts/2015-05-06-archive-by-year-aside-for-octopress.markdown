@@ -11,11 +11,11 @@ tags:
 - Liquid
 ---
 
+*(Note: This code is designed for Octopress 2. My website now uses Octopress 3&mdash; the Jekyll plugin works just the same, but Octopress 3 sites can use the `jekyll-archives` gem to generate proper archive-by-year pages so should not need the bookmark 'hack' shown in the first code block.)*
+
 One thing that's annoyed me since migrating my website from Wordpress to Octopress years ago has been the lack of an "archive by year" widget for the sidebar. The Wordpress widget that fulfills this function lists each month and year, with the number of posts in that month, and each one is a link to a page that shows all the posts from that month.
 
-As you may notice on the right-hand side of each page, I decided to recreate something similar in Octopress.
-
-*(Note: this applied to the old theme of this site while running Octopress 2; the aside still works for Octopress 2 but has not yet been updated for v3 and is currently missing from this site.)*
+As you may notice on the left-hand side of each page, I decided to recreate something similar in Octopress.
 
 There are a couple of differences between the WordPress implementation and my Octopress implementation:
 

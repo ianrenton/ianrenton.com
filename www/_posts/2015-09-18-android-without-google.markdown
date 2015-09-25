@@ -2,6 +2,12 @@
 layout: post
 title: "Android Without Google"
 date: 2015-09-18T06:17:46+01:00
+categories:
+- Internet
+tags:
+- Google
+- Android
+- Ecosystems
 ---
 
 For several years, I've been [considering](/blog/could-i-live-without/) whether I could&mdash;and should&mdash;dispose of my Google account. Since I wrote the linked post back in 2011, my use of Google services has declined anyway, and I no longer use GMail, Google+ or Google Calendar. At the same time, it has become apparent that users are at the whim of Google's [decision to close unprofitable services](/blog/google-reader-vs-do-no-evil/) (even beloved ones like Reader), and to [force us into using others](http://phandroid.com/2013/11/11/do-you-hate-the-new-google-youtube-comments/) against our will. "Don't Be Evil" is [starting to look hilariously na&iuml;ve](http://gizmodo.com/5878987/its-official-google-is-evil-now).

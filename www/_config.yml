@@ -7,7 +7,7 @@ url: "http://ianrenton.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-gems: [octopress-image-tag, octopress-quote-tag, octopress-codeblock, octopress-codefence, octopress-paginate, jekyll-sitemap]
+gems: [octopress-image-tag, octopress-quote-tag, octopress-codeblock, octopress-codefence, octopress-paginate, jekyll-sitemap, jekyll-archives]
 permalink: /blog/:title/
 
 # Juvia
@@ -42,3 +42,15 @@ collections:
 pagination:
   limit: false
   permalink: /page/:num/
+  
+# Category & Year archives for the blog posts
+jekyll-archives:
+  enabled:
+  - year
+  - categories
+  layouts:
+    year: archive-year
+    category: archive-category
+  permalinks:
+    year: '/blog/:year/'
+    category: '/blog/category/:name/'
