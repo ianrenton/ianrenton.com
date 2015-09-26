@@ -28,7 +28,7 @@ By the Numbers
 * FUK U: 2
 * Hand dryer disarmaments: 1
 * Nuns: 0
-* Penalties to attack rolls incurred with a newborn baby in the off-hand: 0 ([This](../hellboy-ii-the-golden-army/) [trend](https://twitter.com/#!/tsuki_chama/status/191642136020656129) is getting ridiculous now.)
+* Penalties to attack rolls incurred with a newborn baby in the off-hand: 0 ([This](../hellboy-ii-the-golden-army/) [trend](https://twitter.com/#!/i_renton/status/191642136020656129) is getting ridiculous now.)
 * Penalties to attack rolls incurred with a woman you are currently having sex with in the off-hand: apparently also 0
 * People getting literally shit-faced: 2
 * Tits: 5
