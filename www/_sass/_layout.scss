@@ -64,14 +64,8 @@
 
 div.button-inner {
   line-height: 1.2em;
-  border-bottom-left-radius: 5px;
-  background-color: $text-color;
-  border-bottom-right-radius: 5px;
   position: relative;
-  top: -8px;
-  padding-top: 5px;
-  padding-bottom: 1px;
-  color: $background-color;
+  left: 40px;
 }
 
 div.button-inner h6 {
@@ -85,10 +79,6 @@ div.button-inner h6 {
 div.button-inner ul {
   list-style-type: none;
   margin-left: 5px;
-}
-
-div.button-inner ul li a {
-  color: $background-color !important;
 }
 
 /**
