@@ -76,10 +76,11 @@
 #sidebar ul.sidebar-buttons li.sidebar-button a form fieldset input {
   width: 100px;
   color: $text-color;
-  background-color: #FFE;
+  background-color: $background-color;
   border-width: 0px 0px 1px;
   border-style: none none solid;
   border-color: $background-color $background-color $text-color;
+  font-family: $sans-font-family;
   font-size: 1em;
 }
 

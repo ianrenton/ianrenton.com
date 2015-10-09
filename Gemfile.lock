@@ -11,20 +11,11 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     colorator (0.1)
-    css_press (0.3.2)
-      csspool-st (= 3.1.2)
-      json
-    csspool-st (3.1.2)
     execjs (2.5.2)
     facets (3.0.0)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
     hitimes (1.2.2)
-    html_press (0.8.2)
-      htmlentities
-      multi_css (>= 0.1.0)
-      multi_js (>= 0.1.0)
-    htmlentities (4.3.4)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -51,7 +42,6 @@ GEM
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    json (1.8.3)
     kramdown (1.8.0)
     liquid (2.6.3)
     listen (2.10.1)
@@ -59,10 +49,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    multi_css (0.1.0)
-      css_press
-    multi_js (0.1.0)
-      uglifier (~> 2)
     octopress (3.0.11)
       jekyll (>= 2.0)
       mercenary (~> 0.3.2)
@@ -87,10 +73,6 @@ GEM
       jekyll (>= 2.0)
     octopress-image-tag (1.1.0)
       jekyll
-    octopress-minify-html (1.3.0)
-      html_press (~> 0.8)
-      jekyll (>= 2.0)
-      octopress-hooks
     octopress-paginate (1.1.2)
       octopress-hooks
     octopress-quote-tag (1.0.4)
@@ -116,9 +98,6 @@ GEM
     titlecase (0.1.1)
     toml (0.1.2)
       parslet (~> 1.5.0)
-    uglifier (2.7.2)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -132,7 +111,6 @@ DEPENDENCIES
   octopress-codeblock
   octopress-codefence
   octopress-image-tag
-  octopress-minify-html
   octopress-paginate
   octopress-quote-tag
   octopress-video-tag
