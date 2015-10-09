@@ -28,7 +28,7 @@ td {
 <p class="printme">[ <a href="#" onclick="window.print();"><i class="fa fa-lg fa-print"></i> Print me!</a> ]</p>
 <div style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
 <div style="display:block;"><h1 style="text-decoration: none">Ian&nbsp;Renton</h1>
-<h2 style="position: relative; top: -0.8em; text-decoration: none">Software&nbsp;Engineer</h2></div>
+<h2 style="position: relative; top: -0.8em; text-decoration: none">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
 
 <p style="color:gray;"><strong>Note:</strong> This is the online version of my CV. Some information has been omitted for privacy or security reasons.  If you require this information, please request a full version of the CV via email to <a href="mailto:ian@ianrenton.com">ian@ianrenton.com</a>.</p>
 
@@ -37,7 +37,7 @@ td {
 <table cellspacing="0"><tr><td>
 Domain knowledge
 </td><td>
-Autonomous/unmanned vehicles, naval combat systems, mine countermeasures, RF & sub-sea communications.
+Autonomous/unmanned vehicles, naval combat systems, mine countermeasures, RF & sub-sea communications, GIS applications.
 </td></tr><tr><td>
 Engineering processes
 </td><td>
@@ -65,7 +65,7 @@ Feb&nbsp;2014 &mdash; Present
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
 </td><td>
 <p><b>Software engineer at (Current Employer)</b></p>
-<p>Lead developer of my company’s vehicle autonomy engine and front-end interface, with responsibilities including requirements management, cost estimation, test & evaluation and roadmap planning.</p>
+<p>Lead developer of my company’s vehicle autonomy software and front-end GIS application, with responsibilities including requirements management, cost estimation, test & evaluation and roadmap planning.</p>
 <p>Specialised in user experience and User Interface design as part of the company’s newly-created HMI & Control team.</p>
 <p>Led small teams of developers on a number of larger projects.</p>
 <p>Continued involvement in all areas of the project lifecycle, and contributed expertise on tools and techniques to improve the company’s engineering processes.</p>
@@ -112,7 +112,7 @@ Physics and Electronics.
 
 ## Security
 
-UK National, clearance information available on request.
+UK National, security information available on request.
 
 ## References
 
