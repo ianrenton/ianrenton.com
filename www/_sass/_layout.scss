@@ -61,10 +61,22 @@
     top: 6px;
 }
 
+#sidebar ul.sidebar-buttons li.sidebar-button a svg path, #sidebar ul.sidebar-buttons li.sidebar-button a svg path {
+    fill: $text-color;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button a:active svg path, #sidebar ul.sidebar-buttons li.sidebar-button a:hover svg path {
+    fill: $brand-color;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button a.active:active svg path, #sidebar ul.sidebar-buttons li.sidebar-button a.active:hover svg path {
+    fill: $background-color;
+}
+
 #sidebar ul.sidebar-buttons li.sidebar-button a form {
   display: inline-block;
   margin: 0px;
-  vertical-align: -35%;
+/*  vertical-align: -35%;*/
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a form fieldset {
