@@ -56,10 +56,9 @@
     background-color: $brand-color;
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-icon {
-    width: 40px;
-    display: inline-block;
-    text-align: center;
+#sidebar ul.sidebar-buttons li.sidebar-button svg {
+    position: relative;
+    top: 6px;
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a form {
