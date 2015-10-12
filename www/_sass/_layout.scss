@@ -36,6 +36,7 @@
 
 #sidebar ul.sidebar-buttons li.sidebar-button a {
     color: $text-color;
+    padding: 0 0 0 10px;
     display:block;
     height:100%;
     border-radius: 5px;
@@ -69,7 +70,7 @@
     fill: $brand-color;
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button a.active:active svg path, #sidebar ul.sidebar-buttons li.sidebar-button a.active:hover svg path {
+#sidebar ul.sidebar-buttons li.sidebar-button a.active svg path {
     fill: $background-color;
 }
 
