@@ -94,6 +94,7 @@
   border-color: $background-color $background-color $text-color;
   font-family: $sans-font-family;
   font-size: 1em;
+  box-sizing: border-box;
 }
 
 div.button-inner {
