@@ -18,6 +18,7 @@ This page is an index of various bits of software I've written in my spare time.
 * [Yet Another Single File Photo Gallery](https://github.com/ianrenton/yasfpg)
 * [Facefinder](https://github.com/ianrenton/Facefinder) (Intranet "Who's who" page)
 * [The Marvellator](https://github.com/ianrenton/Marvellator) (random comic name generator)
+* [Terrible Fanfiction Idea Generator](https://github.com/ianrenton/fanficidea)
 * [Cobb’s Quay Weather](https://github.com/ianrenton/Cobbs-Quay-Weather)
 
 ## Games
