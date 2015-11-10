@@ -23,7 +23,7 @@ That the car park was eerily futuristic, with automated sensors telling you how 
 
 As General Adama would say, "Frak".
 
-{% img center http://files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona1.jpg Frack, €5.99 %}
+{% img center //files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona1.jpg Frack, €5.99 %}
 
 > Frack, €5.99
 
@@ -33,7 +33,7 @@ Heed the throng of Loyal Customers.  Their bellies are full of nourishing meatba
 
 The names, the names are what seals it.  The twisted, maddening names, the names that perhaps once were Swedish or some other language before the Taint reached them.  Now they are trapped in a Limbo between meaning and non-meaning, luring you in, trying to get you to understand them.  You look, you try to pronounce them, you curl the sounds around your tongue, probing for meaning, but there is none.  They will haunt you for the rest of your days, sitting in the back of your mind, luring you back to this place just in case you can extract some meaning from a second exposure.  Behold the names, behold their terrible glory!  Behold the creature of madness that spawned them!  Chant with me!  _Ia!  Ia!  Cthulhu f'thagn!_
 
-{% img center http://files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona2.jpg Behold also the Stack of Identical Grinning Babies! %}
+{% img center //files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona2.jpg Behold also the Stack of Identical Grinning Babies! %}
 
 > Behold also the Stack of Identical Grinning Babies!
 
@@ -43,7 +43,7 @@ No, such things should not be mentioned.  It is too terrible a fate.  Take heed 
 
 This is the most dangerous place of all, but you must endure it.  Your life depends on reaching the end of it.  It is guarded by the beeping, clacking checkouts and the fallen employees who feed them, but get up to speed on the trolleys and you just might make it through.
 
-{% img center http://files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona3.jpg 'Salida' might be in some kind of crazy Paella-language, but at least it's a real word. %}
+{% img center //files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona3.jpg 'Salida' might be in some kind of crazy Paella-language, but at least it's a real word. %}
 
 > 'Salida' might be in some kind of crazy Paella-language, but at least it's a real word.
 
@@ -59,4 +59,4 @@ Lord of Mesopotamia
 
 Part-time Viking Hamster
 
-{% img center http://files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona4.jpg Sultan Hamnvik %}
+{% img center //files.ianrenton.com/sites/blog/2010/08/080710_1445_TheCautiona4.jpg Sultan Hamnvik %}

@@ -12,5 +12,5 @@ tags:
 - Dreaming Awake
 ---
 
-<p><a href="http://files.ianrenton.com/maps/avalon.jpg">Map of Avalon</a><br />
+<p><a href="//files.ianrenton.com/maps/avalon.jpg">Map of Avalon</a><br />
 <a href="../intro-paragraph-for-arcadia-village">Arcadia Village</a></p>

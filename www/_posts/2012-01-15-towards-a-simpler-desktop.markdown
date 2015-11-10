@@ -24,7 +24,7 @@ In one of my previous blog posts, ["Designing for Granddad"](http://onlydreaming
 
 As is my unfortunate habit, I spent some of today checking out how work had progressed on the GNOME-shell and Ubuntu Unity desktop environments.  (I enjoyed the eye candy for around three hours before reverting to [the UI of least resistance](http://onlydreaming.net/blog/the-ui-of-least-resistance).)  Various complexities in their interfaces irritate me and seem to have provoked the wrath of a community of largely experienced computer users.  This got me thinking about how I would go back the other way, and design a desktop environment for absolute novice computer users -- one without many of the frustrations of modern software.
 
-[![Gnome-Shell Screenshot](http://files.ianrenton.com/sites/blog/2012/01/chat_reply-600x337.png)](http://files.ianrenton.com/sites/blog/2012/01/chat_reply.png)
+[![Gnome-Shell Screenshot](//files.ianrenton.com/sites/blog/2012/01/chat_reply-600x337.png)](//files.ianrenton.com/sites/blog/2012/01/chat_reply.png)
 
 > The Gnome-Shell Interface
 
@@ -61,11 +61,11 @@ My ideas, roughly distilled into a sort of 'design manifesto', are:
 
 I've mocked up a couple of interfaces to show a desktop environment that adheres to these principles.  The first shows the "desktop", taskbar and an example notification:
 
-[![Simple Desktop Environment - Taskbar & Notifications](http://files.ianrenton.com/sites/blog/2012/01/1.-Taskbar-Notifications-600x374.png)](http://files.ianrenton.com/sites/blog/2012/01/1.-Taskbar-Notifications.png)
+[![Simple Desktop Environment - Taskbar & Notifications](//files.ianrenton.com/sites/blog/2012/01/1.-Taskbar-Notifications-600x374.png)](//files.ianrenton.com/sites/blog/2012/01/1.-Taskbar-Notifications.png)
 
 The second shows the mail app with example messages:
 
-[![Simple Desktop Environment - E-mail App](http://files.ianrenton.com/sites/blog/2012/01/2.-Apps-600x373.png)](http://files.ianrenton.com/sites/blog/2012/01/2.-Apps.png)
+[![Simple Desktop Environment - E-mail App](//files.ianrenton.com/sites/blog/2012/01/2.-Apps-600x373.png)](//files.ianrenton.com/sites/blog/2012/01/2.-Apps.png)
 
 Is there anything you particularly like or hate about the mockups or the design principles behind them?  Bear in mind that if you consider yourself tech-savvy or a software designer yourself, you're probably not the target audience for this desktop environment -- pretend to be your mother or grandfather for a minute and see how you feel about the suggestions I've made.
 

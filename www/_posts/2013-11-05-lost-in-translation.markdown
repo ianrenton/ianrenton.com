@@ -22,13 +22,13 @@ I too had the dumb luck to fall in love with and marry a Spaniard, with no usefu
 
 Ah yes, Spanish. Like the author of the article I loaded up with about ten minutes' worth of choice phrases before I went to meet my then-girlfriend's family. In nervousness I forgot every single word of it. And then ran headlong into the problem of Spain's several regional languages.
 
-{% img center http://files.ianrenton.com/sites/blog/2013/11/languagesofspain.jpg The Languages of Spain %}
+{% img center //files.ianrenton.com/sites/blog/2013/11/languagesofspain.jpg The Languages of Spain %}
 
 To communicate, I first have to ask my wife's family to speak *Castillian* Spanish. And *then* I have to compound my embarassment by admitting that I don't even speak much of that. Worst of all, the author of that article isn't being that hyperbolic when she refers to herself as "speaking like a one year old" &mdash; my worst realisation of just how poorly I speak Spanish was helping my son talk to a five-year-old girl he was playing with on the beach. Not only did I not understand what she was saying, but I couldn't even find the words to tell her that I didn't understand.
 
 I could only imagine the number of times I would be reduced to frustrated tears if I lived there.
 
-{% img center http://files.ianrenton.com/sites/blog/2013/11/bournemouth-lang.jpg A Language College in Bournemouth %}
+{% img center //files.ianrenton.com/sites/blog/2013/11/bournemouth-lang.jpg A Language College in Bournemouth %}
 
 I live in a town where thousands come to study English every year, hundreds or thousands of miles from friends and family. Daily I talk to Chinese baristas, Brazilian bus drivers, Italian chefs &mdash; always in English, without a second thought.
 

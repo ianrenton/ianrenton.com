@@ -23,7 +23,7 @@ Nearly six months ago, I [sketched out some ideas](http://onlydreaming.net/blog/
 
 It never did make it to 20 users.  Its height was around 10, and has since fallen to just two.  Today, it falls to one.
 
-[![Leaving Daily Promise reminder tweet](http://files.ianrenton.com/sites/blog/2011/05/tweet.png)](http://files.ianrenton.com/sites/blog/2011/05/tweet.png)
+[![Leaving Daily Promise reminder tweet](//files.ianrenton.com/sites/blog/2011/05/tweet.png)](//files.ianrenton.com/sites/blog/2011/05/tweet.png)
 
 I am leaving _Daily Promise_.
 
@@ -31,7 +31,7 @@ It remains where it is, costing me nothing, ready for use by anyone should they 
 
 I'm leaving simply because it doesn't, after all, help me keep my promises -- it merely helps me monitor them.  I never found myself striving to beat my record, never felt a pang of guilt as I ticked a row of "no" boxes.  I merely carried on as normal, not changing my lifestyle, just monitoring my behaviour as a set of green and red boxes that were at first fun, then over time became a chore.
 
-[![Snapshot of Daily Promise chart](http://files.ianrenton.com/sites/blog/2011/05/chart.png)](http://files.ianrenton.com/sites/blog/2011/05/chart.png)
+[![Snapshot of Daily Promise chart](//files.ianrenton.com/sites/blog/2011/05/chart.png)](//files.ianrenton.com/sites/blog/2011/05/chart.png)
 
 Two apologies are due before I lay it finally to rest:
 

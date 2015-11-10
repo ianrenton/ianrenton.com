@@ -12,7 +12,7 @@ tags:
 - Halloween
 ---
 
-{% img center http://files.ianrenton.com/sites/blog/2014/10/autumnsky.jpg %}
+{% img center //files.ianrenton.com/sites/blog/2014/10/autumnsky.jpg %}
 
 Dusk falls across Dorset, darkening the fields from Christchurch in the east, past me, way past me out to Lyme Regis in the west.
 

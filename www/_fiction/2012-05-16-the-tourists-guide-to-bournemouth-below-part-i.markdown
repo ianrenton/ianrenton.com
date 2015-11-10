@@ -24,7 +24,7 @@ But be warned.  What you see here in the Bournemouth that lies below, you will 
 
 <br/>
 
-<h4><a href="http://files.ianrenton.com/sites/fiction/heroncourtroad-map.png"><img src="http://files.ianrenton.com/sites/fiction/heroncourtroad-map.png" alt="Heron Court Road" title="Heron Court Road" width="500" height="166" class="aligncenter size-full wp-image-12044" /></a></h4>
+<h4><a href="//files.ianrenton.com/sites/fiction/heroncourtroad-map.png"><img src="//files.ianrenton.com/sites/fiction/heroncourtroad-map.png" alt="Heron Court Road" title="Heron Court Road" width="500" height="166" class="aligncenter size-full wp-image-12044" /></a></h4>
 
 <h2>Heron Court Road</h2>
 
@@ -40,7 +40,7 @@ So this land knew peace, for a while, until the human Tregonwell came.  Houses a
 
 Sniggers and chuckles echoed around the court chamber.
 
-<a href="http://files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg"><img src="http://files.ianrenton.com/sites/fiction/unluckyrabbit01-150x150.jpg" alt="The Fate of a Rabbit who crossed the Heron Court" title="The Fate of a Rabbit who crossed the Heron Court" width="150" height="150" class="alignright size-thumbnail wp-image-12042" /></a>Tregonwell was handed a photograph for his elucidation, and the Captain went white as a sheet.
+<a href="//files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg"><img src="//files.ianrenton.com/sites/fiction/unluckyrabbit01-150x150.jpg" alt="The Fate of a Rabbit who crossed the Heron Court" title="The Fate of a Rabbit who crossed the Heron Court" width="150" height="150" class="alignright size-thumbnail wp-image-12042" /></a>Tregonwell was handed a photograph for his elucidation, and the Captain went white as a sheet.
 
 "But we are kind people," the Heron King continued.  "You may have your precious town.  But we will always be here, watching, pulling strings. Long after your death, we will be ensuring that the town proceeds according to our wishes.  And once a year, at the height of Summer, your descendants will again and again be compelled to make a blood sacrifice to the Heron Court..."
 
@@ -52,7 +52,7 @@ But we who dwell below have long memories, and we know this tale well.  And now 
 
 <br/><br/>
 
-<h4><a href="http://files.ianrenton.com/sites/fiction/townsvilleroad-map.png"><img src="http://files.ianrenton.com/sites/fiction/townsvilleroad-map.png" alt="Townsville Road" title="Townsville Road" width="500" height="166" class="aligncenter size-full wp-image-12043" /></a></h4>
+<h4><a href="//files.ianrenton.com/sites/fiction/townsvilleroad-map.png"><img src="//files.ianrenton.com/sites/fiction/townsvilleroad-map.png" alt="Townsville Road" title="Townsville Road" width="500" height="166" class="aligncenter size-full wp-image-12043" /></a></h4>
 
 <h2>Townsville Road</h2>
 

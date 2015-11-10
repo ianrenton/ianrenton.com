@@ -3,7 +3,7 @@ title: Ian's Blog
 email: ian@ianrenton.com
 description: Ian Renton's stuff on the web.
 baseurl: ""
-url: "http://ianrenton.com" # the base hostname & protocol for your site
+url: "https://ianrenton.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

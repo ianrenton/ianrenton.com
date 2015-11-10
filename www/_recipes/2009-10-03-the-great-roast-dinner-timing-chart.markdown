@@ -21,7 +21,7 @@ tags:
 - Vegetables
 ---
 
-{% img right http://files.ianrenton.com/sites/recipes/IMG_0568-300x200.jpg Saturday: PIGSTRAVAGANZA. This is not optional. %}
+{% img right //files.ianrenton.com/sites/recipes/IMG_0568-300x200.jpg Saturday: PIGSTRAVAGANZA. This is not optional. %}
 
 Roast dinners have become a regular occurrence in my house, to which guests are always invited.  I get asked occasionally about recipes for my roast, and my short answer is: there isn't one.  Roast dinners, are much more about timing than culinary skill.  All that really matters to produce a successful roast dinner is to plan ahead and make sure everything comes together at the right time to be served.
 
@@ -31,7 +31,7 @@ Here's my guide to recreating my roast dinner.  The first section lists the pos
 
 The centrepiece of the roast dinner is the meat.  Assuming you're not a veggie.  Different meats require different temperatures and cooking times.  If you have extra time, red meats can be made even more tender by starting their cooking at a low temperature, covered with foil, then having the temperature brought up to cook the rest of the ingredients and the foil being removed near the end.  If roasting pork with this method, remove the foil long enough before the end that you get good crackling - half an hour or so.
 
-{% img left http://files.ianrenton.com/sites/recipes/MEATCUDGEL-small.jpg GIANT MEAT CUDGEL %}
+{% img left //files.ianrenton.com/sites/recipes/MEATCUDGEL-small.jpg GIANT MEAT CUDGEL %}
 
 I score the surface of the meat, then rub salt and oil into it before cooking, and place it on a roasting rack in a pre-heated oven.  The rack allows fat to drip onto what's below, which could be potatoes &mdash; even if not, it can always be kept for the gravy. Meat needs 5 minutes or so to rest (covered in foil) between being taken from the oven and being served.<br/><br/>
 

@@ -19,7 +19,7 @@ tags:
 - Web
 ---
 
-Just under two years ago, my [SuccessWhale](http://successwhale.com) Twitter client was gaining new users at a steady rate and, as I [noticed with alarm](http://onlydreaming.net/blog/successwhale-is-terrifying), was about to blow through my then-limited bandwidth allowance.
+Just under two years ago, my [SuccessWhale](https://successwhale.com) Twitter client was gaining new users at a steady rate and, as I [noticed with alarm](http://onlydreaming.net/blog/successwhale-is-terrifying), was about to blow through my then-limited bandwidth allowance.
 
 I've since relocated all my web stuff to [Dreamhost](http://www.dreamhost.com), taking advantage of their unlimited bandwidth offering to plow through 10 GB and more a month.  But now I'm coming up against the last remaining limit of my shared hosting - memory usage.
 

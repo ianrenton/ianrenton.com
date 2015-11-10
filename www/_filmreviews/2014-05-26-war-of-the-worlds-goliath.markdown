@@ -22,7 +22,7 @@ By the Numbers
 * Inevitable giant steampunk robots: over 9000
 * Autotune power: MAXIMUM
 * Pre-Atomic-Age nuclear silhouettes: 4
-* ![Shoop da Whoop](http://files.ianrenton.com/sites/filmreviews/Morelazer.jpg): 8
+* ![Shoop da Whoop](//files.ianrenton.com/sites/filmreviews/Morelazer.jpg): 8
 * Magnificent men in their Flying Machines: 1
 * Triplanes with afterburners (oh, steampunk): 1
 * Rolls on the Random NPC Nationality Table: 25

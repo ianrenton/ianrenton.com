@@ -20,9 +20,9 @@ tags:
 - Twitter
 ---
 
-It's no secret that, since [the launch of version 2.0](http://blog.ianrenton.com/announcing-successwhale-version-2-0/) back in July of 2011, my [SuccessWhale](http://www.successwhale.com) social network client has stagnated somewhat. It had reached that point at which it did everything that I needed it to do, and so my enthusiasm for updating it kind of disappeared.
+It's no secret that, since [the launch of version 2.0](http://blog.ianrenton.com/announcing-successwhale-version-2-0/) back in July of 2011, my [SuccessWhale](https://successwhale.com) social network client has stagnated somewhat. It had reached that point at which it did everything that I needed it to do, and so my enthusiasm for updating it kind of disappeared.
 
-{% img center http://files.ianrenton.com/sites/blog/2013/03/successwhale2.png %}
+{% img center //files.ianrenton.com/sites/blog/2013/03/successwhale2.png %}
 
 > SuccessWhale 2.0
 
@@ -40,6 +40,6 @@ It begins with [a proper API](https://github.com/ianrenton/successwhale-api), wh
 
 Even better, [haku](https://github.com/haku) is making an Android client called [OnoSendai](https://github.com/haku/Onosendai) which will feature the combined feed columns that are SuccessWhale's major feature. We will bring TweetDeck's feature set back to Android with a lot more besides, offering the users the ability to mix together the feeds in their social network client like never before.
 
-And to prevent our software going the way of TweetDeck -- being bought up and eventually scrapped -- SuccessWhale and OnoSendai are open source software. A version of SuccessWhale's API, operating on the main database at [successwhale.com](http://successwhale.com), will be open for anyone to use and build clients for. SuccessWhale is released under the [BSD 2-clause licence](https://github.com/ianrenton/successwhale-api/blob/master/LICENSE.md) and OnoSendai under the [Apache 2.0 licence](http://www.apache.org/licenses/LICENSE-2.0.txt), meaning that even if we were to be bought out, anyone on the web could simply grab our source code and run their own SuccessWhale.
+And to prevent our software going the way of TweetDeck -- being bought up and eventually scrapped -- SuccessWhale and OnoSendai are open source software. A version of SuccessWhale's API, operating on the main database at [successwhale.com](https://successwhale.com), will be open for anyone to use and build clients for. SuccessWhale is released under the [BSD 2-clause licence](https://github.com/ianrenton/successwhale-api/blob/master/LICENSE.md) and OnoSendai under the [Apache 2.0 licence](http://www.apache.org/licenses/LICENSE-2.0.txt), meaning that even if we were to be bought out, anyone on the web could simply grab our source code and run their own SuccessWhale.
 
 We're bringing TweetDeck's features back to Android and to the web. We're making SuccessWhale an application to be proud of. We're free, we're open, and we're Twitter-proof.

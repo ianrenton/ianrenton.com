@@ -30,7 +30,7 @@ Programming in Scratch is possible too, recreating the 80s/90s Logo "Turtle" exp
 
 It didn't take long for my son to get into controlling the robot, both with the game-like smartphone interface and using Scratch, which he has some experience with from school. (They start programming young now!)  We took it to last weekend's [Constructorium hackerspace](http://constructorium.org) event at the library, where it was a big hit &mdash; by the end of the afternoon, he was teaching the grown-ups!
 
-{% img center Programming the All-Terrain Pi in Scratch http://files.ianrenton.com/sites/atp/53.jpg %}
+{% img center Programming the All-Terrain Pi in Scratch //files.ianrenton.com/sites/atp/53.jpg %}
 
 "Proud" is an understatement.
 

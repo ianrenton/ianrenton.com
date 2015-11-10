@@ -28,7 +28,7 @@ With the 8 header bits, 4 checksum bits and 2 footer bits being calculated autom
 
 Looking at the bit patterns for my codes, you see this:
 
-{% img center http://files.ianrenton.com/sites/raspberrytank/day-30-codes-before.png Codes from day 12 with header, checksum and footer removed %}
+{% img center //files.ianrenton.com/sites/raspberrytank/day-30-codes-before.png Codes from day 12 with header, checksum and footer removed %}
 
 Immediately, there are some odd things noticeable about this arrangement.
 
@@ -36,7 +36,7 @@ Bits 16, 5, 4, 3 & 2 are high a lot of the time (`0x1003c`) &mdash; and look a l
 
 I decided to investigate. Now that the checksums were calculated automatically, I was free to play around setting whatever bits I liked, taking that `0x1003c` as the base to work from. Some of my results are below. As you can see, the controls for the ignition and turret-related codes are all very simple &mdash; setting a single bit high on top of the base code makes each of these functions happen. Control of the main motors (forward, backward, left and right) however, is a lot more complex.
 
-{% img center http://files.ianrenton.com/sites/raspberrytank/day-30-codes-after.png Day 30 opcode investigation %}
+{% img center //files.ianrenton.com/sites/raspberrytank/day-30-codes-after.png Day 30 opcode investigation %}
 
 So, you can add (binary &) the following bits to the base opcode to produce the following effects:
 

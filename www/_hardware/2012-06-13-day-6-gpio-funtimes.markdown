@@ -33,7 +33,7 @@ Unfortunately the Ground pin is not so easily accessible -- the pitch spacing of
 
 Testing continued after the tactical deployment of sticky tape:
 
-[![Raspberry Pi with Croc Clip attached to GPIO Ground](http://files.ianrenton.com/sites/raspberrytank/IMAG0057-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0057.jpg)<br/>
+[![Raspberry Pi with Croc Clip attached to GPIO Ground](//files.ianrenton.com/sites/raspberrytank/IMAG0057-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0057.jpg)<br/>
 _Raspberry Pi with Croc Clip attached to GPIO Ground_
 
 With this in place, the oscilloscope could now be connected to pins 26 (GPIO 7) and 6 (Ground) of the Raspberry Pi's header, allowing us to see just what the device would be outputting.
@@ -44,7 +44,7 @@ Firstly, I wanted to make sure that a C program could toggle the GPIO bits fast 
 
 The result of running this program was a pretty neat 3.3V, 600 microsecond square wave.
 
-[![Square Wave on Oscilloscope](http://files.ianrenton.com/sites/raspberrytank/IMAG0056-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0056.jpg)<br/>
+[![Square Wave on Oscilloscope](//files.ianrenton.com/sites/raspberrytank/IMAG0056-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0056.jpg)<br/>
 _Square Wave on Oscilloscope_
 
 So, we can toggle the GPIO output line fast enough to do the job. But could we output the correct bit patterns to control the tank?
@@ -58,7 +58,7 @@ This program was a complete success, reproducing almost exactly what the TK-YL10
   * The output of the Raspberry Pi's GPIO pins is only 3.3V, compared to the 4V output of the TK board. There is no documentation on the input voltage range that the RX-18 board is expecting, so 3.3V may be enough, or it may not. I intend to add a transistor circuit between the Pi and the RX-18 anyway, so if necessary this can be used to bump up the voltage. There are several potential sources of 4.5V and 7.2V in the system, and if they are too high they can always be reduced with a potential divider.
   * Despite the sleep timers in the C program matching the observed timings from the TK board, the entire pulse train ended up being around 25ms long rather than 20ms. This is likely due to the time taken to switch the GPIO output, but it could also be due to the Pi servicing various interrupts that take priority over my application's timing. If this proves to be a problem when interfacing with the tank, the sleep timers can be reduced to bring the pulse train back to the proper length. We must also keep a careful eye on interrupts in future, as right now the Pi is doing little other than running one simple program -- but that will not be the case if the Pi gains webcams, WiFi etc. in enhanced versions.
 
-[![Code Running on the Raspberry Pi](http://files.ianrenton.com/sites/raspberrytank/IMAG0059-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0059.jpg)[![Pulse Train Output](http://files.ianrenton.com/sites/raspberrytank/IMAG0058-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0058.jpg)<br/>
+[![Code Running on the Raspberry Pi](//files.ianrenton.com/sites/raspberrytank/IMAG0059-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0059.jpg)[![Pulse Train Output](//files.ianrenton.com/sites/raspberrytank/IMAG0058-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0058.jpg)<br/>
 _Code Running on the Raspberry Pi (left) and pulse train output (right)_
 
 You can [find the source code for my program on GitHub](https://github.com/ianrenton/raspberrytank/tree/203bff0f84d44836811eac88373feb4f302e399f).  To download, build and run it on your Raspberry Pi (assuming you're using the standard Debian image), you can run the commands below -- though bear in mind that they will download the _latest_ version of the test program, which may differ from the one linked above.

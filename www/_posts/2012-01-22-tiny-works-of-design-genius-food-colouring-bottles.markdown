@@ -16,7 +16,7 @@ tags:
 - Food Colouring
 ---
 
-{% img right http://files.ianrenton.com/sites/blog/2012/01/IMG_7840-242x300.jpg Food Colouring Bottles %}
+{% img right //files.ianrenton.com/sites/blog/2012/01/IMG_7840-242x300.jpg Food Colouring Bottles %}
 
 In just about every supermarket in the country, and doubtless others too, one can buy little glass bottles of liquid food colouring and essences such as vanilla and almond.  They're tiny, light, can easily fall out of cupboards, and can cause permanent staining if they fall and smash.
 

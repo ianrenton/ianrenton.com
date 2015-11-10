@@ -19,7 +19,7 @@ tags:
 
 This risotto recipe is quick, easy, simple and as authentically Italian as a Chicken Tikka Masala and five pints of Stella.  It's a favourite of my two-year-old son, as the preparation involves sharp knives, hot water, raw chicken and many other things with which toddlers can horribly damage themselves.
 
-{% img right http://files.ianrenton.com/sites/recipes/shot_1279742038205-300x300.jpg Super Easy Risotto %}
+{% img right //files.ianrenton.com/sites/recipes/shot_1279742038205-300x300.jpg Super Easy Risotto %}
 
 ### ingredients
 

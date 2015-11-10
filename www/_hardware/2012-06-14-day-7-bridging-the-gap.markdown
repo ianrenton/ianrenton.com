@@ -26,19 +26,19 @@ Following the general theme of advice on the [Raspberry Pi forums](http://www.ra
 
 This is the circuit we designed (100% of the credit going to my colleague Daryl, as I appear to have forgotten everything I learned in A-level electronics):
 
-[![GPIO 4V Driver Board](http://files.ianrenton.com/sites/raspberrytank/converter-board-300x129.png)](http://files.ianrenton.com/sites/raspberrytank/converter-board.png)
+[![GPIO 4V Driver Board](//files.ianrenton.com/sites/raspberrytank/converter-board-300x129.png)](//files.ianrenton.com/sites/raspberrytank/converter-board.png)
 
 The 2N3904 transistor has a high enough slew rate and hfe that we can choose a relatively high value for the resistor between the GPIO pin and the transistor -- in this case, 10K. This really cuts down on the current being drawn from the GPIO pin, protecting the Raspberry Pi. On the other side of the transistor, a potential divider created with the 310R and 390R resistors creates a 4V level from the 7.2V power line.
 
 Without further ado, I built the circuit on a scavenged bit of stripboard:
 
-[![Built Circuit (Upper)](http://files.ianrenton.com/sites/raspberrytank/IMAG0061-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0061.jpg) [![Built Circuit (Lower)](http://files.ianrenton.com/sites/raspberrytank/IMAG0062-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0062.jpg)
+[![Built Circuit (Upper)](//files.ianrenton.com/sites/raspberrytank/IMAG0061-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0061.jpg) [![Built Circuit (Lower)](//files.ianrenton.com/sites/raspberrytank/IMAG0062-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0062.jpg)
 
 Believe it or not, that's probably my best-ever solder job.  There's a reason why they don't let me near surface mount kit.
 
 Now we have a circuit that will generate a 4V output from a 3.3V input, while drawing minimal current from that input. However, the astute among you may have noticed one slight issue with the circuit -- when we apply a 3.3V input, the transistor turns on and connects our output point to ground, while when we apply no input, the transistor is disabled and our output returns to 4V.  In other words, the output is upside-down!
 
-[![Upside-down Signal](http://files.ianrenton.com/sites/raspberrytank/IMAG0066-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMAG0066.jpg)
+[![Upside-down Signal](//files.ianrenton.com/sites/raspberrytank/IMAG0066-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/IMAG0066.jpg)
 
 Rather than find a comparable PNP transistor and re-jig the circuit, we elected to manage this in code, simply by switching the "GPIO_CLR" and "GPIO_SET" pointers around.  In [the new version of the code](https://github.com/ianrenton/raspberrytank/tree/7756f03f1f53c6f46fb5518e55cb3d37313e0cc1), setting a bit in the GPIO_SET memory area actually outputs a _low_ signal on the pin, but the interface circuit ends up with this being a _high_ input to the RX-18.
 

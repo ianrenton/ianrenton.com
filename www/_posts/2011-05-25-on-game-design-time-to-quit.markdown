@@ -28,7 +28,7 @@ Not long after my [post about the game _DJ Rivals_](http://onlydreaming.net/blog
 
 So I stopped playing -- which is probably fair enough. I'd played it, enjoyed it, finished it and stopped. But it got me thinking about the number of games I've played that _don't_ end.
 
-![FarmVille](http://files.ianrenton.com/sites/blog/2011/05/fv.jpg)
+![FarmVille](//files.ianrenton.com/sites/blog/2011/05/fv.jpg)
 
 Zynga's _Farmville_ is perhaps the most well-known example I could give. At the beginning, the game is about designing a nice farm, planting the most efficient crops, coming back to harvest them and planting some more. This is fun. Then it's just something you do. Then it's annoying. _Then_ you start contemplating spending real money on in-game items to automate the process. At this point it's clear that planting and harvesting crops is _not_ the game -- the game is having a bigger and better farm than your friends. And the only way to achieve this, assuming you weren't lucky enough to start first, is to be more devoted to the game or spend more real money than your friends do. (It shouldn't surprise you that these are both things that make money for Zynga.)
 
@@ -36,7 +36,7 @@ A case of [escalation of commitment](http://en.wikipedia.org/wiki/Escalation_of_
 
 I am no better than the rest as regards being sucked into these games. Tactics in [Battle Stations](http://apps.facebook.com/battlestations/fbml.php) only extend as far as clicking a button and upgrading your airship within one of a few effective builds, yet my character made it to level 85 before I quit, realising that the rate at which new shiny equipment was added to the game outstripped the rate at which I could acquire it. [Starfleet Commander](http://apps.facebook.com/starfleet_commander) is a good strategy game in its own right, but after having reached the end of the tech tree, I found nothing worthwhile to aim for. The same flaw has turned me off [Backyard Monsters](http://apps.facebook.com/backyardmonsters) at level 36, too.
 
-![Backyard Monsters](http://files.ianrenton.com/sites/blog/2011/05/bym.jpg)
+![Backyard Monsters](//files.ianrenton.com/sites/blog/2011/05/bym.jpg)
 
 Moreover, all of these games suffer from a time delay mechanic that increasingly is enough to put me off a game ([Dungeon Overlord](http://apps.facebook.com/dungeonoverlord), for example) all by itself. Now, part of the aim of all these games (from the creators' perspective) is to get users returning regularly to play -- and view ads. To achieve this, every game I have mentioned -- and countless thousands of others -- have in-game activities that take time of the order of hours or days. This, I think, is my main problem with them.
 
@@ -46,7 +46,7 @@ They begin with a rush of activity, much like other games. You put the first few
 
 In the early stages, it grabs you back when you might prefer not to be playing. Later on, by contrast, it switches around to perhaps the more annoying mode. More advanced things tend to take longer to build, research, grow, or whatever -- possibly many days. So you'll sit down for your gaming session, you'll do your five minutes of formulaic clicking, harvesting your crops, planting new ones, then... then you stop. You can't do any more; you have to wait two days before you can play again. In two days, you spend five more minutes clicking the same things, then stop again.
 
-![Dungeon Overlord](http://files.ianrenton.com/sites/blog/2011/05/do.jpg)
+![Dungeon Overlord](//files.ianrenton.com/sites/blog/2011/05/do.jpg)
 
 Once upon a time, I enjoyed these Facebook games, and I _thought_ I still did. But yesterday, I logged in to do my five minutes of clicking, and realised all of a sudden that it was exactly the same five minutes of clicking I had done the day before and the day before that. I was grinding towards a non-existent goal, performing mindless tasks in search of a sense of completion that I _knew_ would never come.
 

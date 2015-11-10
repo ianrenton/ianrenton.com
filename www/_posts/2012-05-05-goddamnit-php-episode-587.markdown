@@ -21,7 +21,7 @@ tags:
 - Weak Typing
 ---
 
-If any of my readers are also [SuccessWhale](http://successwhale.com) users, you may have noticed that for the last few days, clicking the "Conversation View" button for a tweet (this one: ![SuccessWhale Conversation View button](http://successwhale.com/images/convo.png)) has resulted in a message declaring that you have tried to look at a "protected or deleted tweet" even though that is plainly not the case.
+If any of my readers are also [SuccessWhale](https://successwhale.com) users, you may have noticed that for the last few days, clicking the "Conversation View" button for a tweet (this one: ![SuccessWhale Conversation View button](https://successwhale.com/images/convo.png)) has resulted in a message declaring that you have tried to look at a "protected or deleted tweet" even though that is plainly not the case.
 
 First and foremost, you'll be pleased to know that [this bug](https://github.com/ianrenton/SuccessWhale/issues/43) is [now fixed](https://github.com/ianrenton/SuccessWhale/commit/324dc3c4d241c1f1f5f549fdfca9810d3052e46b) in both the stable and testing versions of the public SuccessWhale server, and in the [master branch](https://github.com/ianrenton/SuccessWhale) on GitHub as of today.
 
@@ -52,4 +52,4 @@ When SuccessWhale sends that `in_reply_to_status_id` value back to Twitter, whic
 
 Luckily, Twitter pre-empted this issue and provides a `in_reply_to_status_id_str` field: exactly the same number, but as a string rather than an integer.  PHP is perfectly happy to handle very large numbers as strings -- and, on line 4 of the example code above, perfectly happy to compare that string to zero.
 
-{% img center http://files.ianrenton.com/sites/blog/2012/05/wpid-meme4697357194.jpg Why, PHP? Just why? %}
+{% img center //files.ianrenton.com/sites/blog/2012/05/wpid-meme4697357194.jpg Why, PHP? Just why? %}

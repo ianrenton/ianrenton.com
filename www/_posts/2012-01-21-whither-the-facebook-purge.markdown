@@ -18,7 +18,7 @@ tags:
 
 The other day, a bout of online drama made me wonder if it wouldn't be a good idea to make my online activities a little more private -- hide [my Twitter feed](http://twitter.com/tsuki_chama), for example, and maybe un-friend some people on [Facebook](http://facebook.com) to restrict it to just my "core" friends.
 
-[![Facebook Friends List](http://files.ianrenton.com/sites/blog/2012/01/facebook-friends.png)](http://files.ianrenton.com/sites/blog/2012/01/facebook-friends.png)
+[![Facebook Friends List](//files.ianrenton.com/sites/blog/2012/01/facebook-friends.png)](//files.ianrenton.com/sites/blog/2012/01/facebook-friends.png)
 
 > Do I actually want to know what 281 people are doing?
 
@@ -30,4 +30,4 @@ Secondly, Facebook is becoming less of a place to catch up with friends, and mor
 
 It's obvious that this is a common issue, and rather than backpedal or restrict the way Facebook wants to take its service, their response has been to add complex filtering options that let you block specific users and apps, view only updates from various groups, and recently, adding an automated filter that tries to guess which updates you'll want to see.
 
-Personally, I prefer using Facebook via the API (using [SuccessWhale](http://successwhale.com)) which avoids the automated filter, but I must still block the updates of people I don't care much about manually.  I'd quite like to cull my Facebook friends list down to just those whose updates I actually care about.  But is doing so a reasonable way of reducing my information overload -- or willingly damaging an identity that I spent the last four years trying to curate?
+Personally, I prefer using Facebook via the API (using [SuccessWhale](https://successwhale.com)) which avoids the automated filter, but I must still block the updates of people I don't care much about manually.  I'd quite like to cull my Facebook friends list down to just those whose updates I actually care about.  But is doing so a reasonable way of reducing my information overload -- or willingly damaging an identity that I spent the last four years trying to curate?

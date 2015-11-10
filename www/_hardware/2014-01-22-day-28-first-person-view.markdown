@@ -19,4 +19,4 @@ Unfortunately the screencast doesn't show the cursor position clicking on the ni
 
 If you're wondering, in this video the tank is wandering around the offices of local web design company [Adido](http://adi.do), whose [AdidoSrc](http://src.adi.do) "hack evenings" are the temporary home of the [Dorset Constructorium](http://constructorium.org) hackerspace.
 
-Stay tuned for some more Raspberry Tank development, including a Python port of the main program and web server code, and fixing the tank's broken BB gun. In the mean time, I've also put online some [photos of the quadcopter I'm working on](http://ianrenton.com/quadcopter)!
+Stay tuned for some more Raspberry Tank development, including a Python port of the main program and web server code, and fixing the tank's broken BB gun. In the mean time, I've also put online some [photos of the quadcopter I'm working on](/quadcopter)!

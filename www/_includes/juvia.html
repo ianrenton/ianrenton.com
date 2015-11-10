@@ -1,7 +1,7 @@
 {% comment %} Load script if Juvia comments are enabled and `page.comments` is either empty (index) or set to true {% endcomment %}
 {% if site.juvia_site_key and site.juvia_host and page.comments != false %}
 <h1>Comments</h1>
-<div id="juvia_thread" aria-live="polite"><noscript>Please enable JavaScript to view the comments powered by Juvia.</noscript>
+<div id="juvia_thread" aria-live="polite"><noscript>Please enable JavaScript to view the comments.</noscript>
 </div>
 <script type="text/javascript" class="juvia">
 (function() {
@@ -35,7 +35,7 @@
         }
 
         var result =
-            'http://{{ site.juvia_host }}/api/show_topic.js' +
+            '//{{ site.juvia_host }}/api/show_topic.js' +
             '?_c=' + window._juviaRequestCounter +
             '&' + makeQueryString(options);
         window._juviaRequestCounter++;

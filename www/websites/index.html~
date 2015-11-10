@@ -1,0 +1,97 @@
+---
+layout: page
+title: "Websites"
+comments: false
+---
+
+        <h2>Sites I Made</h2>
+        <p>Websites in this section are ones I wrote the software for myself. Source code for them can be found in the <a href="/software/">Software</a> section.</p>
+        
+<table border="0" cellspacing="30">
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://www.successwhale.com"><img src="successwhale.png" alt="SuccessWhale" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://www.successwhale.com">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. It offers advert-free feeds, completely customisable columns, multiple account support, and more!
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://cici.onlydreaming.net"><img src="cici.png" alt="Can I Call It...?" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://cici.onlydreaming.net">"Can I Call It...?"</a> is a utility that helps you name your new project, by finding any existing software packages that already have that name.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://dp.onlydreaming.net"><img src="dailypromise.png" alt="Daily Promise" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://dp.onlydreaming.net">Daily Promise</a> is a "1-bit" activity tracker that allows you to make "promises" and keep track of how many days in a row you kept them.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://wh.onlydreaming.net"><img src="hubble.png" alt="Westminster Hubble" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://wh.onlydreaming.net">Westminster Hubble</a> (now discontinued) was a website that tracked UK Members of Parliament, both their activities at Westminster and on social media.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://1kw.onlydreaming.net"><img src="1kw.png" alt="A Thousand Words" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://1kw.onlydreaming.net">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://rimbaud.renton.es"><img src="/hardware/geckocam.jpg" alt="Rimbaud's House" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://rimbaud.renton.es">Rimbaud's House</a> is the website front-end to our pet gecko's vivarium automation and monitoring system.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://marvellator.onlydreaming.net"><img src="marvellator.png" alt="Marvellator" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://marvellator.onlydreaming.net">The Marvellator</a> is a script that generates random silly comic book titles.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://fanfic.onlydreaming.net"><img src="fanficidea.png" alt="Terrible Fanfiction Idea Generator" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://fanfic.onlydreaming.net">The Terrible Fanfiction Idea Generator</a> is another silly random generator script. This one generates terrible scenarios to use as the basis for fanfiction.
+</td></tr>
+</table>
+        <h2>Sites I Run</h2>
+        <p>Websites in this section are ones I set up and/or run for other people.</p>
+        
+<table border="0" cellspacing="30">
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://constructorium.org/wordpress"><img src="constructorium.png" alt="Dorset Constructorium" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+The website for the <a href="http://constructorium.org/wordpress">Dorset Constructorium</a>, a local hackerspace in the East Dorset area.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://boardwalkdogs.co.uk"><img src="boardwalk.png" alt="Boardwalk" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://boardwalkdogs.co.uk">Boardwalk</a>, a local dog walking service covering Bournemouth and Poole.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://joseph.renton.es"><img src="josephland.png" alt="Josephland MC Server" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://joseph.renton.es">Joseph's Minecraft Server</a>, set up for my son and his friends (occasionally also me and my friends) to build stuff in.
+</td></tr>
+</table>
+
+        <h2>Silly Things</h2>
+        <p>Other silly things that I've done on the web.</p>
+
+<table border="0" cellspacing="30">
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://fredtheplant.ianrenton.com"><img src="fred.png" alt="Fred the Plant" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://fredtheplant.ianrenton.com">Fred the Plant</a>, a doodle that a friend and I drew in our school days that we briefly resurrected on the Web.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://bpw.ianrenton.com"><img src="bpw.png" alt="Business Processes Wiki" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://bpw.ianrenton.com">The Business Processes Wiki</a>, your useful guide to getting started at $your_soulless_office_job_here.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://pokemonreview.tumblr.com"><img src="pokemonreview.png" alt="Pokemon Review" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://pokemonreview.tumblr.com">Pokemon Review</a> is a Tumblr where I coped with my son's Pokemon obsession by posting weird "reviews" of the bizarre critters. Occasionally sweary, may be NSFW depending on your W.
+</td></tr>
+<tr><td valign="top" width="170" style="padding-top:10px">
+<a href="http://scraps.ianrenton.com/dorset-tcg.html"><img src="dorset.png" alt="Dorset Card Game" style="border: 2px solid lightgray;" /></a>
+</td><td valign="top">
+<a href="http://scraps.ianrenton.com/dorset-tcg.html">The Dorset Card Game</a> was a brief attempt at making a trading card game based on the undeniably best county in the world.
+</td></tr>
+</table>

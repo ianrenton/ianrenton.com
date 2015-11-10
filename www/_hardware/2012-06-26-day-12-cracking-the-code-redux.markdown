@@ -29,7 +29,7 @@ I decided that there was nothing for it -- I'd have to sample the packets that m
 
 The tank was rewired into roughly the state it was in on Day 5.  The Raspberry Pi was removed, and the original TK-YL101-3 receiver board put back.  Flying leads were attached to the board's signal out and ground, but rather than plugging them into an oscilloscope, I went with a much fancier toy.
 
-[![USB DAQ Device](http://files.ianrenton.com/sites/raspberrytank/IMG_20120626_104630-300x225.jpg)](http://files.ianrenton.com/sites/raspberrytank/IMG_20120626_104630.jpg)
+[![USB DAQ Device](//files.ianrenton.com/sites/raspberrytank/IMG_20120626_104630-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120626_104630.jpg)
 
 This USB data acquisition device, combined with a couple of LabVIEW apps of my own devising, would turn my laptop into a logic analyser precisely tailored to decoding the tank's control codes.
 
@@ -39,9 +39,9 @@ I decided to split the job into two parts -- acquiring the data and processing i
 
 My first program, therefore, simply acquired data from an analogue input (attached to the output of the TK-YL101-3 board).  The data would be displayed every second, and if a Save button was hit, that data would be written to disk in a user-specified file.  The code looked like this:
 
-[![Data Acquisition VI Block Diagram](http://files.ianrenton.com/sites/raspberrytank/capture-vi.png)](http://files.ianrenton.com/sites/raspberrytank/capture-vi.png)
+[![Data Acquisition VI Block Diagram](//files.ianrenton.com/sites/raspberrytank/capture-vi.png)](//files.ianrenton.com/sites/raspberrytank/capture-vi.png)
 
-[Download the VI here.](http://files.ianrenton.com/sites/raspberrytank/CaptureTKData.vi)
+[Download the VI here.](//files.ianrenton.com/sites/raspberrytank/CaptureTKData.vi)
 
 With the program running, I entered each basic state of the tank using the normal remote control, for example pushing the right stick up for "fast forwards".  Once I was sure that the tracks were doing what I wanted them to, I hit the Save button and recorded a second's worth of the appropriate control codes.  I also recoded codes for idle, ignition, turret rotation, etc.  This produced a set of 18 data blocks, each containing many repetitions of a single code.
 
@@ -53,13 +53,13 @@ This was even more difficult than I expected.  I had assumed that the pulses in 
 
 This program turned out to be far more complex than the acquisition program, so I was very glad to have split them!  The code for the analysis program looked like this:
 
-[![Analysis VI Block Diagram](http://files.ianrenton.com/sites/raspberrytank/analyse-vi-diagram-600x129.png)](http://files.ianrenton.com/sites/raspberrytank/analyse-vi-diagram.png)
+[![Analysis VI Block Diagram](//files.ianrenton.com/sites/raspberrytank/analyse-vi-diagram-600x129.png)](//files.ianrenton.com/sites/raspberrytank/analyse-vi-diagram.png)
 
-[Download the VI here.](http://files.ianrenton.com/sites/raspberrytank/AnalyseTKData.vi)
+[Download the VI here.](//files.ianrenton.com/sites/raspberrytank/AnalyseTKData.vi)
 
 Once all the bugs were ironed out, the output of this program was -- at last -- a true copy of the control codes used in my specific tank.  Here's the program's front panel after a successful completion:
 
-[![Analysis VI Front Panel](http://files.ianrenton.com/sites/raspberrytank/analyse-vi-front-474x500.png)](http://files.ianrenton.com/sites/raspberrytank/analyse-vi-front.png)
+[![Analysis VI Front Panel](//files.ianrenton.com/sites/raspberrytank/analyse-vi-front-474x500.png)](//files.ianrenton.com/sites/raspberrytank/analyse-vi-front.png)
 
 And the list of control codes in full:
 

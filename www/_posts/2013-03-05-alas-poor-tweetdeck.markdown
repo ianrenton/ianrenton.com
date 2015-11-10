@@ -23,9 +23,9 @@ It should have been obvious when [TweetDeck was acquired by Twitter back in 2011
 
 Although Twitter started out by enthusiastically embracing 3rd-party app developers, its quest to find a way to monetise its service has led the company to grab more and more control over how its users interact with the platform. Users who use Twitter's website and mobile apps can be served ads, or "promoted tweets", much more easily than those using 3rd-party clients. The transition was an obvious one, but not a pleasant one -- many developers turned on Twitter, accusing it of being [actively hostile to developers](http://ryanmarkel.com/2012/09/07/twitters-api-and-user-hostility/).
 
-I would be hard pushed to disagree. [Westminster Hubble](http://www.westminsterhubble.com) relied on Twitter's RSS feeds to let people follow their MPs more easily -- a feature broken by Twitter's API changes. [SuccessWhale](http://successwhale.com) survives, but hardly with Twitter's blessing -- if it were to ever have 100,000 users, it would be banned.
+I would be hard pushed to disagree. [Westminster Hubble](http://www.westminsterhubble.com) relied on Twitter's RSS feeds to let people follow their MPs more easily -- a feature broken by Twitter's API changes. [SuccessWhale](https://successwhale.com) survives, but hardly with Twitter's blessing -- if it were to ever have 100,000 users, it would be banned.
 
-{% img center http://files.ianrenton.com/sites/blog/2013/03/Screenshot_2013-03-05-20-21-30-281x500.png TweetDeck's Merged "Mentions" and "Notifications" Column %}
+{% img center //files.ianrenton.com/sites/blog/2013/03/Screenshot_2013-03-05-20-21-30-281x500.png TweetDeck's Merged "Mentions" and "Notifications" Column %}
 
 > TweetDeck's Merged "Mentions" and "Notifications" Column
 

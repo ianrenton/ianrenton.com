@@ -17,7 +17,7 @@ tags:
 
 Ahahaha WHAT.
 
-[![Rupert Murdoch is now following you on Twitter](http://files.ianrenton.com/sites/blog/2009/11/murdoch2.png)](http://files.ianrenton.com/sites/blog/2009/11/murdoch2.png)
+[![Rupert Murdoch is now following you on Twitter](//files.ianrenton.com/sites/blog/2009/11/murdoch2.png)](//files.ianrenton.com/sites/blog/2009/11/murdoch2.png)
 
 I feel that the order of the Universe has somehow been challenged.  And defeated.
 

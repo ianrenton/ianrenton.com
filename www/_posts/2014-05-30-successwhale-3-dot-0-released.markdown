@@ -12,9 +12,9 @@ tags:
 - Release
 ---
 
-It turns out that [my previous post about SuccessWhale](http://blog.ianrenton.com/state-of-the-whale-address/), bemoaning how it had stagnated and become more trouble than it was worth, was just enough venting to kick me up the arse and get me going again. And so, not long later, I am proud to announce the release of [SuccessWhale version 3](http://www.successwhale.com).
+It turns out that [my previous post about SuccessWhale](http://blog.ianrenton.com/state-of-the-whale-address/), bemoaning how it had stagnated and become more trouble than it was worth, was just enough venting to kick me up the arse and get me going again. And so, not long later, I am proud to announce the release of [SuccessWhale version 3](https://successwhale.com).
 
-{%img center http://files.ianrenton.com/successwhale-screenshot.png SuccessWhale 3.0 Screenshot %}
+{%img center //files.ianrenton.com/successwhale-screenshot.png SuccessWhale 3.0 Screenshot %}
 
 As promised, it is a complete rewrite from the ground up, transforming a ugly mash of PHP, HTML and JavaScript into a neatly separated JavaScript client and Ruby API. In terms of the user experience, not a lot has changed &mdash; a lot of work has been done just to keep things the way they are. But the best bits about SuccessWhale v3 are where it goes from here.
 
@@ -24,9 +24,9 @@ Plus, it means that SuccessWhale's abilities are open to other clients. Our API 
 
 SuccessWhale remains free and open source ([Web app source](https://github.com/ianrenton/SuccessWhale) [API source](https://github.com/ianrenton/SuccessWhale-api/) and [BSD-licenced](http://opensource.org/licenses/BSD-2-Clause), so you can take it, modify it, use it in your own projects, and generally do whatever you like with it. If you do write another SuccessWhale API client or remix it for your own needs, please let me know &mdash; I'd love to see!
 
-As always, **SuccessWhale is available for free on the web at [www.successwhale.com](http://www.successwhale.com)**.
+As always, **SuccessWhale is available for free on the web at [www.successwhale.com](https://successwhale.com)**.
 
-If you're new to SuccessWhale, you can find out more about it on the [About page](http://www.successwhale.com/about), and experienced users should check out the [What's New page](http://www.successwhale.com/whatsnew).
+If you're new to SuccessWhale, you can find out more about it on the [About page](https://successwhale.com/about), and experienced users should check out the [What's New page](https://successwhale.com/whatsnew).
 
 I'd like to take this opportunity to thank [my wife](http://ericthegirl.onlydreaming.net) for putting up with many long nights in front of my laptop, and my good friend, alpha tester and OnoSendai author [haku](http://haku.me/) for filing more bugs than I could possibly imagine.
 

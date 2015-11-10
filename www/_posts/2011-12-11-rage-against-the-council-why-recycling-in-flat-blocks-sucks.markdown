@@ -19,13 +19,13 @@ tags:
 
 A few minutes ago, I attempted the simple task of taking out a bag full of recycling.  Having circumnavigated the car that some thoughless Mazda-driver saw fit to park in front of the area where our recycling bins are kept, I discovered this:
 
-{% img center http://files.ianrenton.com/sites/blog/2011/12/IMG_20111211_210402-300x225.jpg Overflowing Recycling Bins %}
+{% img center //files.ianrenton.com/sites/blog/2011/12/IMG_20111211_210402-300x225.jpg Overflowing Recycling Bins %}
 
 Not only is there no way I could fit my recycling into these bins, but each and every one -- ten in total -- is marked with a "Contaminated" sticker, meaning that the collection people saw something they didn't like in every bin, and refuse to collect any of them until the management company of our flat block pays the council to take them to a landfill site.
 
 This left me with two options -- dump my recycling (in its non-recyclable bin-bag) on the ground and hope that someone helpfully puts it in a recycling bin once they are emptied, or the only realistic option: put them straight in the rubbish bins myself, immediately wasting all the effort my family put into separating them from non-recyclable waste.
 
-{% img center http://files.ianrenton.com/sites/blog/2011/12/IMG_20111211_210423-300x225.jpg Contaminated Container Sticker %}
+{% img center //files.ianrenton.com/sites/blog/2011/12/IMG_20111211_210423-300x225.jpg Contaminated Container Sticker %}
 
 Now I spent a year of my life[ working on technology](http://www.theengineer.co.uk/in-depth/waste-sorter/292460.article) for [Material Reclamation Facilities](http://en.wikipedia.org/wiki/Materials_recovery_facility) -- the big sorting depots where your recycling ends up.  For better or worse (it's a weird thing to be geeky about) I know exactly what can and cannot be recycled locally, what happens to it when it is, and what happens to any "contamination" that makes it through. For my sins, I even know [what all the numbered codes on plastic bottles mean](http://reusablebags.hubpages.com/hub/recycle-plastic).  The net result is that my family and I are meticulous about what gets put out for recycling.  I would happily bet that none of the contamination is our fault.
 

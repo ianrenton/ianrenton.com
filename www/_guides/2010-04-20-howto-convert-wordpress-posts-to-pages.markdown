@@ -35,22 +35,22 @@ After backing up, I fired up [MySQL Query Browser](http://dev.mysql.com/download
 
 Back in the web browser, head to the Dashboard.  We need to get two numbers -- the ID number of the category you're moving posts from, and the ID number of the parent page you want the new pages to sit under.  For the first, pull down the Posts menu and click Categories.  On the right-hand side, hover over the "Edit" link under a category name.
 
-[![Category Mouseover](http://files.ianrenton.com/sites/guides/category-mouseover.png)](http://files.ianrenton.com/sites/guides/category-mouseover.png)
+[![Category Mouseover](//files.ianrenton.com/sites/guides/category-mouseover.png)](//files.ianrenton.com/sites/guides/category-mouseover.png)
 
   
 On your status bar, you should see the location that link is pointing to.  At the end there should be a number, such as the '14' in this example.
 
-[![Category Statusbar](http://files.ianrenton.com/sites/guides/category-statusbar.png)](http://files.ianrenton.com/sites/guides/category-statusbar.png)
+[![Category Statusbar](//files.ianrenton.com/sites/guides/category-statusbar.png)](//files.ianrenton.com/sites/guides/category-statusbar.png)
 
   
 To get the second number, click the Pages menu on the sidebar.  Just as before, hover over the Edit link of the page you want to be a parent.
 
-[![Page Mouseover](http://files.ianrenton.com/sites/guides/page-mouseover.png)](http://files.ianrenton.com/sites/guides/page-mouseover.png)
+[![Page Mouseover](//files.ianrenton.com/sites/guides/page-mouseover.png)](//files.ianrenton.com/sites/guides/page-mouseover.png)
 
   
 And again, the status bar text will end with a number, which you need to note down.  Here, it's '890'.
 
-[![Page Statusbar](http://files.ianrenton.com/sites/guides/page-statusbar.png)](http://files.ianrenton.com/sites/guides/page-statusbar.png)
+[![Page Statusbar](//files.ianrenton.com/sites/guides/page-statusbar.png)](//files.ianrenton.com/sites/guides/page-statusbar.png)
 
   
 Now back to the MySQL Query Browser.  Before jumping in with a move straight away, we should check what we're about to move just to make sure we've got it right.  Execute the following query, replacing `14` with the first number you obtained earlier:

@@ -18,7 +18,7 @@ It's a little over a month until we are getting our first pet - a [crested gecko
 
 In the mean time, we are getting our vivarium set up ready for our pet. We have just about everything we need, but managing the environment is a manual process &mdash; turning the lights on in the morning and off in the evening; maintaining heat and humidity.
 
-{% img center http://files.ianrenton.com/sites/blog/2015/vivarium.jpg Vivarium %}
+{% img center //files.ianrenton.com/sites/blog/2015/vivarium.jpg Vivarium %}
 
 > Vivarium shown here with simulated occupant.
 

@@ -9,7 +9,7 @@ Because the [Raspberry Tank](http://raspberrytank.ianrenton.com) was just too...
 
 Yes, it also has a Raspberry Pi on it.
 
-{% img center http://files.ianrenton.com/sites/quadcopter/76.jpg The Quadcopter %}
+{% img center //files.ianrenton.com/sites/quadcopter/76.jpg The Quadcopter %}
 
 ## Build Photos & Videos
 

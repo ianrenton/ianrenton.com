@@ -17,7 +17,7 @@ tags:
 
 There is a legend, in the far western reaches of the land they call "Surrey"; a legend and a tale most dire. The innocent traveller, plying their way along the A331, may still to this day see signs of what befell a certain village near the Hampshire border all those years ago. For in Surrey they do not often update their road signs, and each and every sign along the route has a blank box added where once stood the proud name of a village: Meadowton.
 
-<a href="http://files.ianrenton.com/sites/fiction/missing-village.png"><img src="http://files.ianrenton.com/sites/fiction/missing-village.png" alt="Missing Village" width="361" height="386" class="aligncenter size-full wp-image-12104" /></a>
+<a href="//files.ianrenton.com/sites/fiction/missing-village.png"><img src="//files.ianrenton.com/sites/fiction/missing-village.png" alt="Missing Village" width="361" height="386" class="aligncenter size-full wp-image-12104" /></a>
 
 It was the longest, darkest night of the year 1997, when the mist gathered about the village of Meadowton. All the good honest burghers of the village, from the city traders to the dot-com moguls, lay in bed dreaming of their time-share cottages in the south of France. The mist curled inwards, one pleasant cul-de-sac after another. Past the town hall, the Waitrose, and the professionally architected village green. It seeped through the air-bricks of delightful suburban semis and through the thatch of artfully restored cottages.
 

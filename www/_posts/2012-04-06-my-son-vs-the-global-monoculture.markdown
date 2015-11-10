@@ -19,7 +19,7 @@ tags:
 
 The other day I set to wondering what Joseph would make of his Spanish heritage -- much more immediate for him with Spanish grandparents than my own distant Scottish and Irish relatives whom I was born too late to meet.  But I suspect the answer will be "not much" -- that he will grow up like all children of the twenty-first century, considering national and regional cultures to be a thing of only historical significance.  Cheap travel and global communications are already merging cultures, and the pace of the change is only going to increase.
 
-[![McDonalds in Fanateer, Saudi Arabia](http://files.ianrenton.com/sites/blog/2009/12/review-mar-300x225.jpg)](http://files.ianrenton.com/sites/blog/2009/12/review-mar.jpg)
+[![McDonalds in Fanateer, Saudi Arabia](//files.ianrenton.com/sites/blog/2009/12/review-mar-300x225.jpg)](//files.ianrenton.com/sites/blog/2009/12/review-mar.jpg)
 
 > McDonalds in Fanateer, Saudi Arabia
 

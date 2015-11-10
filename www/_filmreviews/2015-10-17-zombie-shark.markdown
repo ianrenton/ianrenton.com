@@ -26,4 +26,4 @@ You know what, the FILM is called "ZOMBIE SHARK". I think you can work it out.
 * Deaths by FUCKING TERRIBLE CGI: EVERY. SINGLE. ONE.
 * Endings: Of course fucking not.
 
-## Overall: ![Suck my dick, I'm a shark](http://files.ianrenton.com/sites/filmreviews/suckmydick.jpg) / 5
+## Overall: ![Suck my dick, I'm a shark](//files.ianrenton.com/sites/filmreviews/suckmydick.jpg) / 5

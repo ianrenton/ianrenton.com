@@ -20,7 +20,7 @@ It's nearly November again, and that means two things.  Firstly, my glum accepta
 
 I will be starting clean-shaven on November 1st, and keeping my moustache intact until the 30th, whereupon I will probably take a photo for posterity before shaving it off and feeling the most relieved I have ever felt. But until then? Let the horror commence.
 
-[![Ian with Moustache](http://files.ianrenton.com/sites/blog/2012/10/ianplusmoustache-300x300.jpg)](http://files.ianrenton.com/sites/blog/2012/10/ianplusmoustache.jpg)
+[![Ian with Moustache](//files.ianrenton.com/sites/blog/2012/10/ianplusmoustache-300x300.jpg)](//files.ianrenton.com/sites/blog/2012/10/ianplusmoustache.jpg)
 
 > Artist's Impression
 

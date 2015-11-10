@@ -34,16 +34,16 @@ There are eight main controls for the tank: forward, reverse, turn left, turn ri
 
 The initial sketch looked like this:
 
-[![Raspberry Tank Web UI Sketch](http://files.ianrenton.com/sites/raspberrytank/tank-ui-sketch-212x300.jpg)](http://files.ianrenton.com/sites/raspberrytank/tank-ui-sketch.jpg)
+[![Raspberry Tank Web UI Sketch](//files.ianrenton.com/sites/raspberrytank/tank-ui-sketch-212x300.jpg)](//files.ianrenton.com/sites/raspberrytank/tank-ui-sketch.jpg)
 
 ### Step 2: Mocking
 
 The sketch was then turned into a full-colour mockup of the interface.  Rather than simple arrow buttons or buttons with text, I decided to emphasise the square shape from the grid, making each button an identically-sized square.  Pictorial icons were used to help users understand exactly what each will do.
 
-The icons were drawn in Visio, and you can [download them in SVG format here](http://files.ianrenton.com/sites/raspberrytank/tank-ui-icons.svg).
+The icons were drawn in Visio, and you can [download them in SVG format here](//files.ianrenton.com/sites/raspberrytank/tank-ui-icons.svg).
 
 The final mockup looked like this:
 
-[![Raspberry Tank Web UI Mockup](http://files.ianrenton.com/sites/raspberrytank/tank-ui-mockup-180x300.png)](http://files.ianrenton.com/sites/raspberrytank/tank-ui-mockup.png)
+[![Raspberry Tank Web UI Mockup](//files.ianrenton.com/sites/raspberrytank/tank-ui-mockup-180x300.png)](//files.ianrenton.com/sites/raspberrytank/tank-ui-mockup.png)
 
 Next time on the Raspberry Tank Build Diary, we'll build this site with some HTML, and add the JavaScript code that will react to the user pressing the buttons.

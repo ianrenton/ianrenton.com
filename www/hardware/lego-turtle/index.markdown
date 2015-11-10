@@ -6,7 +6,7 @@ title: Lego Turtle
 
 For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the RCX 2.0 module, which is now so old that programming it isn't supported on any modern operating system. Rather than let it go to waste, I have swapped the RCX 2.0 for an Arduino, turned the robot into a ["Turtle"](https://en.wikipedia.org/wiki/Turtle_%28robot%29) that the user can program by sending [Logo](https://en.wikipedia.org/wiki/Logo_programming_language) programs to it via UART.
 
-{% img center http://files.ianrenton.com/sites/legoturtle/legoturtle.png %}
+{% img center //files.ianrenton.com/sites/legoturtle/legoturtle.png %}
 
 ## Videos
 
@@ -14,13 +14,13 @@ For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the
 
 ## UART Programming
 
-![UART Programming](http://files.ianrenton.com/sites/legoturtle/logo-uart-screen.png)
+![UART Programming](//files.ianrenton.com/sites/legoturtle/logo-uart-screen.png)
 
 ## Schematics
 
-I have uploaded the <a href="http://files.ianrenton.com/sites/legoturtle/legoturtle_schem.png">schematic</a>, <a href="http://files.ianrenton.com/sites/legoturtle/legoturtle_bb.png">physical layout</a>, and the <a href="http://fritzing.org">Fritzing</a> <a href="http://files.ianrenton.com/sites/legoturtle/legoturtle.fzz">source file</a> from which they were all generated.
+I have uploaded the <a href="//files.ianrenton.com/sites/legoturtle/legoturtle_schem.png">schematic</a>, <a href="//files.ianrenton.com/sites/legoturtle/legoturtle_bb.png">physical layout</a>, and the <a href="http://fritzing.org">Fritzing</a> <a href="//files.ianrenton.com/sites/legoturtle/legoturtle.fzz">source file</a> from which they were all generated.
 
-<a href="http://files.ianrenton.com/sites/legoturtle/legoturtle_schem.png" style="padding:0; background-color: white;"><img src="http://files.ianrenton.com/sites/legoturtle/legoturtle_schem.png" width="320px"/></a> <a href="http://files.ianrenton.com/sites/legoturtle/legoturtle_bb.png" style="padding:0; background-color: white;"><img src="http://files.ianrenton.com/sites/legoturtle/legoturtle_bb.png" width="320px"/></a>
+<a href="//files.ianrenton.com/sites/legoturtle/legoturtle_schem.png" style="padding:0; background-color: white;"><img src="//files.ianrenton.com/sites/legoturtle/legoturtle_schem.png" width="320px"/></a> <a href="//files.ianrenton.com/sites/legoturtle/legoturtle_bb.png" style="padding:0; background-color: white;"><img src="//files.ianrenton.com/sites/legoturtle/legoturtle_bb.png" width="320px"/></a>
 
 ## Software
 

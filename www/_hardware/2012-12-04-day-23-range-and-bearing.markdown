@@ -24,26 +24,26 @@ Today, we continue the list from [day 21](/hardware/tank-day-21-designing-for-au
 
 Two sensors were chosen for the Raspberry Tank's first foray into detecting its environment: An ultrasound rangefinder ([SRF02](http://www.robot-electronics.co.uk/htm/srf02tech.htm)) and a 3-axis compass ([CMPS10](http://www.robot-electronics.co.uk/htm/cmps10doc.htm)), both ordered from [robot-electronics.co.uk](http://www.robot-electronics.co.uk). Beyond their I2C interface, these devices were chosen largely for cost reasons, though they should both be fine for the job they will have to do on the tank.
 
-[![Compass Module and Ultrasound Ranger Module](http://files.ianrenton.com/sites/raspberrytank/2012-11-21_14-52-49_919-600x338.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-11-21_14-52-49_919.jpg)<br/>
+[![Compass Module and Ultrasound Ranger Module](//files.ianrenton.com/sites/raspberrytank/2012-11-21_14-52-49_919-600x338.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-11-21_14-52-49_919.jpg)<br/>
 _Compass Module and Ultrasound Ranger Module_
 
 ## Step 2: GPIO Breakout!
 
 Way back on [day 7](/hardware/tank-day-7-bridging-the-gap/), we attached a simple connector to the Raspberry Pi's GPIO pins in order to extract GPIO 7 and Ground to feed into the tank's motor control board. Now we need three more connections onto the GPIO header - for 5V, I2C Data (SDA) and I2C Clock (SCL). Several of these pins must now be connected to more than one device, to to avoid some very messy connections, I constructed a simple break-out board for the GPIO connector.
 
-[![GPIO Break-out Connector](http://files.ianrenton.com/sites/raspberrytank/2012-11-21_16-29-18_124-600x338.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-11-21_16-29-18_124.jpg)<br/>
+[![GPIO Break-out Connector](//files.ianrenton.com/sites/raspberrytank/2012-11-21_16-29-18_124-600x338.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-11-21_16-29-18_124.jpg)<br/>
 _GPIO Break-out Connector_
 
 This allowed the two I2C devices to be connected in a _slightly_ neater way.
 
-[![Rangefinder and Compass Connected to Raspberry Pi](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-53-18_144-600x310.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-53-18_144.jpg)<br/>
+[![Rangefinder and Compass Connected to Raspberry Pi](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-53-18_144-600x310.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-53-18_144.jpg)<br/>
 _Rangefinder and Compass Connected to Raspberry Pi_
 
 The Raspberry Tank electrical schematic now looks like this:
 
-[![Raspberry Tank Electrical Schematic](http://files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-433x500.png)](http://files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-3.png)
+[![Raspberry Tank Electrical Schematic](//files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-433x500.png)](//files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-3.png)
 
-_You can download that as an SVG file here: [Raspberry Tank Schematic (Day 23)](http://files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-3.svg)_
+_You can download that as an SVG file here: [Raspberry Tank Schematic (Day 23)](//files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-3.svg)_
 
 ## Step 3: Testing
 
@@ -53,13 +53,13 @@ These were loaded onto the Raspberry Pi, compiled, and run. The results were... 
 
 The compass module's "forward" direction was determined to be towards the header pins, meaning that if this edge was pointing north, the compass module returned a bearing of roughly zero degrees. This was compared against the compass reading provided by a nearby iPhone, and was found to be accurate to around 10 degrees -- not perfect, but acceptable.
 
-[![Compass Module next to iPhone Compass](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-43-26_835.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-43-26_835.jpg)
+[![Compass Module next to iPhone Compass](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-43-26_835.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-43-26_835.jpg)
 
-[![Compass Readings](http://files.ianrenton.com/sites/raspberrytank/compasstest.png)](http://files.ianrenton.com/sites/raspberrytank/compasstest.png)
+[![Compass Readings](//files.ianrenton.com/sites/raspberrytank/compasstest.png)](//files.ianrenton.com/sites/raspberrytank/compasstest.png)
 
 The rangefinder was also tested at a variety of ranges, revealing a minimum range of around 20cm and a maximum range of around 3m. It was also found that spuriously high or low readings (e.g. 250cm and 0cm for a real distance of 50cm) were sometimes reported, so some degree of sanitisation will have to be applied to the data returned by this sensor.
 
-[![Rangefinder Test Results](http://files.ianrenton.com/sites/raspberrytank/srftest.png)](http://files.ianrenton.com/sites/raspberrytank/srftest.png)
+[![Rangefinder Test Results](//files.ianrenton.com/sites/raspberrytank/srftest.png)](//files.ianrenton.com/sites/raspberrytank/srftest.png)
 
 ## Step 4: Mounting
 
@@ -67,15 +67,15 @@ With the sensors tested, all that remained was to mount them (and remount the Ra
 
 As a magnetically sensitive device, the logical position for the compass module was at the rear of the tank, as far as possible from the magnetically noisy motors:
 
-[![Rear Electronics, showing RPi, GPIO Break-out and Compass](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-55-38_282-600x338.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-55-38_282.jpg)<br/>_Rear Electronics, showing RPi, GPIO Break-out and Compass_
+[![Rear Electronics, showing RPi, GPIO Break-out and Compass](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-55-38_282-600x338.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-55-38_282.jpg)<br/>_Rear Electronics, showing RPi, GPIO Break-out and Compass_
 
 And the logical place for the rangefinder is, of course, the front:
 
-[![Front Mounting for Rangefinder](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-58-41_241-600x338.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_12-58-41_241.jpg)<br/>
+[![Front Mounting for Rangefinder](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-58-41_241-600x338.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-12-04_12-58-41_241.jpg)<br/>
 _Front Mounting for Rangefinder_
 
 And with that, office warfare was ready to commence again!
 
-[![Raspberry Tank in the Office](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_13-00-07_363-600x387.jpg)](http://files.ianrenton.com/sites/raspberrytank/2012-12-04_13-00-07_363.jpg)
+[![Raspberry Tank in the Office](//files.ianrenton.com/sites/raspberrytank/2012-12-04_13-00-07_363-600x387.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-12-04_13-00-07_363.jpg)
 
 Of course, although we now have a working remote control system and working sensors, the two aren't yet combined. Next time on the Raspberry Tank build diary, the new sensor code will be integrated into the existing remote control software -- a step closer to autonomy!

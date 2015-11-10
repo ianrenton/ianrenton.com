@@ -24,7 +24,7 @@ This year, though, I discovered a similar project I couldn't help but have a go 
 
 A lot of NaNoWriMo novels are fanfiction of highly variable quality, so in homage to that, [my NaNoGenMo script](https://github.com/ianrenton/NaNoGenMo) uses exactly that as its source material: specifically, a user-selected category or search on [FanFiction.net](http://fanfiction.net). It will scrape the stories it finds for sentences, store them all locally, then set to work mashing them together in various gramatically-reasonable ways until the 50,000-word goal has been reached.
 
-{% img right http://files.ianrenton.com/sites/blog/2013/11/nanogenmo-thumb.png Thumbnail of example NaNoGenMo output %}
+{% img right //files.ianrenton.com/sites/blog/2013/11/nanogenmo-thumb.png Thumbnail of example NaNoGenMo output %}
 
 During the course of writing the script I tested it mostly with Doctor Who fanfiction, some of which is not particularly bad. But then I discovered that FanFiction.net has categories for *cross-overs*, where authors borrow characters from two of their favourite 'universes'. These are generally, shall we say, *less* well written.
 

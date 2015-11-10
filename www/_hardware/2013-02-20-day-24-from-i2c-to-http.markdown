@@ -32,7 +32,7 @@ It proved very easy to combine these into a single routine -- we don't need to o
 
 It also dumps the readings to `stdout` for debug purposes, which you can see in action below.
 
-[![rt_http Console Output](http://files.ianrenton.com/sites/raspberrytank/console.png)](http://files.ianrenton.com/sites/raspberrytank/console.png)<br/>
+[![rt_http Console Output](//files.ianrenton.com/sites/raspberrytank/console.png)](//files.ianrenton.com/sites/raspberrytank/console.png)<br/>
 _rt_http Console Output_
 
 You can [download the latest rt_http code from GitHub](https://github.com/ianrenton/raspberrytank/tree/master/rt_http).
@@ -63,7 +63,7 @@ For this reason, the Web UI now comes in two flavours -- laptop (non-touch) and 
 
 An example of the new laptop orientation, including the sensor data, is shown below.
 
-[![Laptop Web UI with Sensor Data](http://files.ianrenton.com/sites/raspberrytank/web-600x364.png)](http://files.ianrenton.com/sites/raspberrytank/web.png)<br/>
+[![Laptop Web UI with Sensor Data](//files.ianrenton.com/sites/raspberrytank/web-600x364.png)](//files.ianrenton.com/sites/raspberrytank/web.png)<br/>
 _Laptop Web UI with Sensor Data_
 
 As always, [the Web UI code is available on GitHub](https://github.com/ianrenton/raspberrytank/tree/master/web-ui).

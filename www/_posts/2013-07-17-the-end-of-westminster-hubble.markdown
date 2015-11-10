@@ -25,13 +25,13 @@ The name was a pun on the ["Westminster Bubble"](https://en.wikipedia.org/wiki/W
 
 Westminster Hubble was a website that aimed to bring MPs and their constituents closer online by providing a single location to find contact details for an MP, in real life and on social networks. It also provided customised feeds of MPs' activity from a variety of sources, from YouTube videos to speeches made in the House of Commons. At its core was a RSS-parsing engine powered by [SimplePie](http://simplepie.org/) that pulled in content from all the sources it knew about as quickly as it could, stashing the results in one giant database table. The contents of this would then be served to users as HTML, or as an RSS "meta" feed to users who preferred to get the data that way.
 
-{% img center http://files.ianrenton.com/sites/blog/2013/07/wh-tom.png Westminster Hubble MP Feed %}
+{% img center //files.ianrenton.com/sites/blog/2013/07/wh-tom.png Westminster Hubble MP Feed %}
 
 > Westminster Hubble's main "feed" page for an MP, in this case tech-savvy MP [Tom Watson](http://www.tom-watson.co.uk/).
 
 Amongst my favourite features were the Google Maps / [They Work For You](http://www.theyworkforyou.com/) mashup that allowed users to find their local MP in an intuitive way, and the "badges" awarded to MPs for particular dedication (or just a lot of tweeting).
 
-{% img center http://files.ianrenton.com/sites/blog/2013/07/wh-map.png Find Your MP map %}
+{% img center //files.ianrenton.com/sites/blog/2013/07/wh-map.png Find Your MP map %}
 
 > Westminster Hubble's "find your MP" map
 
@@ -39,7 +39,7 @@ We launched just after similar service [Tweetminster](http://tweetminster.co.uk/
 
 In many ways, Tweetminster provided a *destination*, somewhere people would go to get information, whilst Westminster Hubble was designed to fade into the background and become part of the plumbing of the internet &mdash; RSS feeds went in, RSS feeds came out in a more structured form as chosen by the users. In many ways, then, it shouldn't be surprising that this week I am closing Westminster Hubble due to a lack of use. Without the user appeal of being a "destination", the users didn't come &mdash; didn't spread the word.
 
-{% img center http://files.ianrenton.com/sites/blog/2013/07/wh-badges.png Westminster Hubble "badges" %}
+{% img center //files.ianrenton.com/sites/blog/2013/07/wh-badges.png Westminster Hubble "badges" %}
 
 > Westminster Hubble "badges"
 

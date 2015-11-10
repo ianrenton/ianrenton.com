@@ -8,34 +8,34 @@ categories:
 
 Gyro board back-powered using ESC BECs:
 
-![](http://files.ianrenton.com/sites/quadcopter/35.jpg)
+![](//files.ianrenton.com/sites/quadcopter/35.jpg)
 
 RC Tx &amp; Rx units:
 
-![](http://files.ianrenton.com/sites/quadcopter/36.jpg)
+![](//files.ianrenton.com/sites/quadcopter/36.jpg)
 
 Rx unit with servo leads attached:
 
-![](http://files.ianrenton.com/sites/quadcopter/37.jpg)
+![](//files.ianrenton.com/sites/quadcopter/37.jpg)
 
 Rx unit wired to gyro stabiliser board:
 
-![](http://files.ianrenton.com/sites/quadcopter/38.jpg)
+![](//files.ianrenton.com/sites/quadcopter/38.jpg)
 
 RC control value test:
 
-![](http://files.ianrenton.com/sites/quadcopter/39.jpg)
+![](//files.ianrenton.com/sites/quadcopter/39.jpg)
 
-![](http://files.ianrenton.com/sites/quadcopter/40.jpg)
+![](//files.ianrenton.com/sites/quadcopter/40.jpg)
 
 Reversing channels using the transmitter's programming software (T6config):
 
-![](http://files.ianrenton.com/sites/quadcopter/71.jpg)
+![](//files.ianrenton.com/sites/quadcopter/71.jpg)
 
 Arming the gyro stabiliser to enable motor output:
 
-![](http://files.ianrenton.com/sites/quadcopter/42.jpg)
+![](//files.ianrenton.com/sites/quadcopter/42.jpg)
 
 String attached to check which way the motors turn:
 
-![](http://files.ianrenton.com/sites/quadcopter/44.jpg)
+![](//files.ianrenton.com/sites/quadcopter/44.jpg)

@@ -30,14 +30,14 @@ For reference, this is a Heng Long 1:16 scale Tiger I tank, with the "Smoke & So
 
 Firstly and most importantly, that little flap on top that holds the BB pellets in is not going to do its job when the tank is upside-down! Blu-tack saved the day, preventing a massive cleanup operation. With the hatch secured (or the tank empty of BBs), the tank was turned over.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/1-Prevent-BB-Spillage-300x214.jpg)](http://files.ianrenton.com/sites/raspberrytank/1-Prevent-BB-Spillage.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/1-Prevent-BB-Spillage-300x214.jpg)](//files.ianrenton.com/sites/raspberrytank/1-Prevent-BB-Spillage.jpg)<br/>
 _BB Hopper sealed (with Blu-tack)_
 
 ### Step 2: Removing the Tracks
 
 There were a total of eleven screws holding the top and bottom of the tank together. Three were easily accessible, so those were removed first:
 
-[![](http://files.ianrenton.com/sites/raspberrytank/2-Three-Screws-in-Underside-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/2-Three-Screws-in-Underside.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/2-Three-Screws-in-Underside-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/2-Three-Screws-in-Underside.jpg)<br/>
 _Underside of tank (screw holes highlighted)_
 
 The other are were more complicated to get to, as they are behind the tracks. Firstly, the tracks themselves had to be removed. Each track segment is attached to its neighbours by a pin much like those used in watch straps. To remove a pin (any one is fine), you start by pushing it from the outside of the tank towards the middle with a thin object as shown below. It would be irresponsible of me to recommend using oscilloscope probes for this task, of course. *whistles*
@@ -46,41 +46,41 @@ Once the pin was pushed out by a few millimetres, the other side could be grabbe
 
 Several pins seemed quite resistant to being pushed, but there was some variation and eventually I found ones that would give. You do need to push pretty hard with your scope probe small screwdriver, though, so if in doubt push harder!
 
-[![](http://files.ianrenton.com/sites/raspberrytank/3a-Push-Track-Pin-Out-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/3a-Push-Track-Pin-Out.jpg) [![](http://files.ianrenton.com/sites/raspberrytank/3b-Pull-Track-Pin-with-Pliers-300x207.jpg)](http://files.ianrenton.com/sites/raspberrytank/3b-Pull-Track-Pin-with-Pliers.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/3a-Push-Track-Pin-Out-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/3a-Push-Track-Pin-Out.jpg) [![](//files.ianrenton.com/sites/raspberrytank/3b-Pull-Track-Pin-with-Pliers-300x207.jpg)](//files.ianrenton.com/sites/raspberrytank/3b-Pull-Track-Pin-with-Pliers.jpg)<br/>
 _Pushing from the outside (left) and pulling from the inside (right)_
 
-[![](http://files.ianrenton.com/sites/raspberrytank/4-Remove-Track-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/4-Remove-Track.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/4-Remove-Track-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/4-Remove-Track.jpg)<br/>
 _Detached Track_
 
 At the end of that operation, we now had one trackless tank and one pile of tracks (shown next to the pins that were removed:
 
-[![](http://files.ianrenton.com/sites/raspberrytank/5b-Tank-without-Tracks-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/5b-Tank-without-Tracks.jpg) [![](http://files.ianrenton.com/sites/raspberrytank/5a-Tracks-Separated-300x147.jpg)](http://files.ianrenton.com/sites/raspberrytank/5a-Tracks-Separated.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/5b-Tank-without-Tracks-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/5b-Tank-without-Tracks.jpg) [![](//files.ianrenton.com/sites/raspberrytank/5a-Tracks-Separated-300x147.jpg)](//files.ianrenton.com/sites/raspberrytank/5a-Tracks-Separated.jpg)<br/>
 _Separated Tank and Tracks_
 
 ### Step 3: Moving the Wheels
 
 Once the tracks were out of the way, the eight screw-holes were visible behind the wheels.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/6-Screws-under-Tracks-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/6-Screws-under-Tracks.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/6-Screws-under-Tracks-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/6-Screws-under-Tracks.jpg)<br/>
 _Screw head behind wheels_
 
 For some of these screws, there was now a decent "angle of attack" that a screwdriver could fit into, but some were resolutely hiding behind the wheels. Luckily, only one wheel on each side needed fully removing, as taking one off allowed the others space to move.
 
 The wheels on this tank have a spring-loaded suspension mechanism that allows them to move up and down when going over rough terrain. Each wheel has a bolt going through the centre that not only holds the wheel onto the tank but also engages with the spring. The second photo below shows the suspension mechanism with a wheel removed. The "axle" bolt goes through the wheel, through the spring-loaded plastic piece (B) and into the retaining hole (A).
 
-[![](http://files.ianrenton.com/sites/raspberrytank/7-Use-Hex-Key-to-Remove-or-Loosen-Tracks-300x203.jpg)](http://files.ianrenton.com/sites/raspberrytank/7-Use-Hex-Key-to-Remove-or-Loosen-Tracks.jpg)[![](http://files.ianrenton.com/sites/raspberrytank/10-Suspension-Mechanism-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/10-Suspension-Mechanism.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/7-Use-Hex-Key-to-Remove-or-Loosen-Tracks-300x203.jpg)](//files.ianrenton.com/sites/raspberrytank/7-Use-Hex-Key-to-Remove-or-Loosen-Tracks.jpg)[![](//files.ianrenton.com/sites/raspberrytank/10-Suspension-Mechanism-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/10-Suspension-Mechanism.jpg)<br/>
 _Using a hex key to remove or loosen wheels (left) and detail of the suspension mechanism (right)_
 
 We started with the wheel nearest the rear of the tank, and removed it completely using a 3/32-inch hex key.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/8a-Remove-Rear-Plastic-Wheel-200x300.jpg)](http://files.ianrenton.com/sites/raspberrytank/8a-Remove-Rear-Plastic-Wheel.jpg)[![](http://files.ianrenton.com/sites/raspberrytank/8b-Removed-Wheel-236x300.jpg)](http://files.ianrenton.com/sites/raspberrytank/8b-Removed-Wheel.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/8a-Remove-Rear-Plastic-Wheel-200x300.jpg)](//files.ianrenton.com/sites/raspberrytank/8a-Remove-Rear-Plastic-Wheel.jpg)[![](//files.ianrenton.com/sites/raspberrytank/8b-Removed-Wheel-236x300.jpg)](//files.ianrenton.com/sites/raspberrytank/8b-Removed-Wheel.jpg)<br/>
 _Removing the rear wheel_
 
 This left the gap that allowed the photographing of the suspension mechanism, above. To gain access to the rest of the screws, around half the remaining wheels had to be moved out of the way (but not removed completely). This was achieved by unscrewing each wheel so that it was no longer retained in hole A, but still attached to the spring-loaded part B. (Naturally, as it is still spring-loaded but no longer retained, the wheel will then try to pop up. This is fine, and it stays attached to B. The left-hand photo shows one wheel (left) in the normal position, and one (right) in the "popped up" position.)
 
 The non-retained wheels can then be moved backwards and forwards as necessary to gain access to all the screws.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/11a-Screw-Access-300x234.jpg)](http://files.ianrenton.com/sites/raspberrytank/11a-Screw-Access.jpg) [![](http://files.ianrenton.com/sites/raspberrytank/11b-Unscrewing-300x267.jpg)](http://files.ianrenton.com/sites/raspberrytank/11b-Unscrewing.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/11a-Screw-Access-300x234.jpg)](//files.ianrenton.com/sites/raspberrytank/11a-Screw-Access.jpg) [![](//files.ianrenton.com/sites/raspberrytank/11b-Unscrewing-300x267.jpg)](//files.ianrenton.com/sites/raspberrytank/11b-Unscrewing.jpg)<br/>
 _Gaining access to the screws_
 
 ### Step 4: Separating the Chassis
@@ -91,19 +91,19 @@ The first of these was the "smoker" that burns paraffin to make smoke as the tan
 
 The smoker tubes were removed (highlighted in the following photo).  This photo is a little odd in its perspective -- the tank is still upside-down here.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/12-Remove-Smoker-Pipes-300x244.jpg)](http://files.ianrenton.com/sites/raspberrytank/12-Remove-Smoker-Pipes.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/12-Remove-Smoker-Pipes-300x244.jpg)](//files.ianrenton.com/sites/raspberrytank/12-Remove-Smoker-Pipes.jpg)<br/>
 _Smoker pipes_
 
 Disconnecting these tubes allowed the top and bottom to separate further, which allowed access to the electronics.  As the bottom half of the tank is heavier and more robust than the top half, we chose to turn the tank back upright at this point.
 
 There are three electrical connections between the top and bottom of the chassis: the turret control cable (A), the BB firing trigger (B), and the aerial (C).  These are highlighted in the photo below.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/13-Right-and-Remove-Top-600x358.jpg)](http://files.ianrenton.com/sites/raspberrytank/13-Right-and-Remove-Top.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/13-Right-and-Remove-Top-600x358.jpg)](//files.ianrenton.com/sites/raspberrytank/13-Right-and-Remove-Top.jpg)<br/>
 _Electrical Connections between Top and Bottom_
 
 These cables were disconnected.  A, the turret control cable, was unplugged at the point highlighted.  B, the BB firing trigger, was soldered in place at the highlighted end, so it was instead unplugged at the RX-18 main controller board at the other end of the red and black wires.  C, the aerial, was loosely connected by ferrules under the dodgy Raychem job highlighted in the photo.  This was pulled apart so easily that I'm not convinced it was ever properly connected.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/14-Disconnect-Cables-254x300.jpg)](http://files.ianrenton.com/sites/raspberrytank/14-Disconnect-Cables.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/14-Disconnect-Cables-254x300.jpg)](//files.ianrenton.com/sites/raspberrytank/14-Disconnect-Cables.jpg)<br/>
 _Disconnected cables_
 
 With these disconnections complete, the top and bottom halves of the tank were then completely separated.  This is handy, as almost all the modification work to integrate the Raspberry Pi will require only the bottom half.
@@ -114,12 +114,12 @@ A "smoke and sound" capable tank may be great fun, but the smoker and the speake
 
 Firstly, they were disconnected from the RX-18 main board (ports CN5 and CN10).
 
-[![](http://files.ianrenton.com/sites/raspberrytank/16-RX18-Board-unplug-CN5-CN10-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/16-RX18-Board-unplug-CN5-CN10.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/16-RX18-Board-unplug-CN5-CN10-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/16-RX18-Board-unplug-CN5-CN10.jpg)<br/>
 _RX-18 Main Board_
 
 Then the devices themselves were removed.  The speaker was not attached to anything and was easily removed.  The smoker was attached to the base by three screws that come through from inside the tank's battery compartment -- one of which was hidden under a sticker.  The photo below shows the inside of the battery compartment, viewed from below, highlighting the screw holes.
 
-[![](http://files.ianrenton.com/sites/raspberrytank/17-Unscrew-Smoker-300x179.jpg)](http://files.ianrenton.com/sites/raspberrytank/17-Unscrew-Smoker.jpg)
+[![](//files.ianrenton.com/sites/raspberrytank/17-Unscrew-Smoker-300x179.jpg)](//files.ianrenton.com/sites/raspberrytank/17-Unscrew-Smoker.jpg)
 
 The smoker required some coercing to lift even with the screws gone.
 
@@ -127,10 +127,10 @@ The smoker required some coercing to lift even with the screws gone.
 
 At the end of the disassembly phase, the tank and the pile of removed bits looked like this:
 
-[![](http://files.ianrenton.com/sites/raspberrytank/18a-Current-State-of-Tank-600x358.jpg)](http://files.ianrenton.com/sites/raspberrytank/18a-Current-State-of-Tank.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/18a-Current-State-of-Tank-600x358.jpg)](//files.ianrenton.com/sites/raspberrytank/18a-Current-State-of-Tank.jpg)<br/>
 _Lower chassis of tank after disassembly_
 
-[![](http://files.ianrenton.com/sites/raspberrytank/18b-Currently-Removed-Pieces-179x300.jpg)](http://files.ianrenton.com/sites/raspberrytank/18b-Currently-Removed-Pieces.jpg)<br/>
+[![](//files.ianrenton.com/sites/raspberrytank/18b-Currently-Removed-Pieces-179x300.jpg)](//files.ianrenton.com/sites/raspberrytank/18b-Currently-Removed-Pieces.jpg)<br/>
 _Removed pieces_
 
 The removed pieces are as follows:

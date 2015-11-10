@@ -19,10 +19,10 @@ I think we have a five-year window at most between enabling them and him discove
 
 But even now, they're a long way from being useful. We initially decided that "12+" was a reasonable setting for the level of control, since Microsoft already considers most of the games he plays to be rated 12. But the user-supplied ratings of games in the App Store make it all kind of pointless. Here's MSN Sport, rated 16+ in case it contains some truly horrible material, like American Football.
 
-{% img center MSN Sport, rated 16+ http://files.ianrenton.com/sites/blog/2015/msnsport.png %}
+{% img center MSN Sport, rated 16+ //files.ianrenton.com/sites/blog/2015/msnsport.png %}
 
 And the much more wholesome Zombie Sniper 3D ("Beautiful 3D visuals!"), rated 12+.
 
-{% img center Zombie Sniper 3D, rated 12+ http://files.ianrenton.com/sites/blog/2015/zombiesniper.png %}
+{% img center Zombie Sniper 3D, rated 12+ //files.ianrenton.com/sites/blog/2015/zombiesniper.png %}
 
 I suppose that no matter how hard the providers try, parental controls never will be a substitute for being there, checking things out; actual parenting.

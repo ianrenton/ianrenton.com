@@ -14,13 +14,13 @@ tags:
 - Sad times
 ---
 
-My [SuccessWhale](http://www.successwhale.com) application has long supported both Twitter and Facebook social networks, despite both networks' relatively developer-hostile stances. The worst offender by far was Twitter, with it's [100,000 user limit](http://www.theverge.com/2012/11/11/3631108/tweetro-user-token-limit-api) that has deliberately crippled many third-party clients in order to drive users to the official website and app, which make money for Twitter through adverts. While I was never under any delusion that SuccessWhale would be popular enough to reach 100,000 users, it's not a nice thing to have hanging over your head as a developer.
+My [SuccessWhale](https://successwhale.com) application has long supported both Twitter and Facebook social networks, despite both networks' relatively developer-hostile stances. The worst offender by far was Twitter, with it's [100,000 user limit](http://www.theverge.com/2012/11/11/3631108/tweetro-user-token-limit-api) that has deliberately crippled many third-party clients in order to drive users to the official website and app, which make money for Twitter through adverts. While I was never under any delusion that SuccessWhale would be popular enough to reach 100,000 users, it's not a nice thing to have hanging over your head as a developer.
 
 Facebook's permissions policy, [as I have ranted about before](http://blog.ianrenton.com/from-hells-heart-i-stab-at-thee-thou-facebook-privacy-model), also makes it difficult for third-party clients to deliver a useful service for their users. With the new [requirement that apps migrate to API v2](https://developers.facebook.com/blog/post/2015/02/26/login-migration/?ref=hp), they are adding the extra hassle of requiring all apps be reviewed by Facebook staff. This isn't a problem itself &mdash; SuccessWhale has been through the somewhat scary process of manual review before when it was [added to the Firefox Marketplace](https://marketplace.firefox.com/app/successwhale).
 
 But Facebook has now snuck something extra into the notes for some of its permissions, each of which must now be manually approved as part of the review process. Into pretty much all the permissions that are fundamental for SuccessWhale, such as `read_stream`:
 
-{% img center Facebook dialog for read_stream permission http://files.ianrenton.com/sites/blog/2015/fbperms.png %}
+{% img center Facebook dialog for read_stream permission //files.ianrenton.com/sites/blog/2015/fbperms.png %}
 
 Yep, this permission will be denied, as a matter of policy, to apps running on Android, iOS, web, desktop, and more.
 

@@ -14,14 +14,14 @@ The morning dawned slowly, dark and damp. The roaring of the coffee machine echo
 
 But by lunchtime the weather had brightened; one last gasp of summer sunshine, just long enough to let the Vulcan fly her last Bournemouth show.
 
-{% img center http://files.ianrenton.com/sites/blog/2015/vulcan1.jpg %}
+{% img center //files.ianrenton.com/sites/blog/2015/vulcan1.jpg %}
 
 [XH558](https://en.wikipedia.org/wiki/Avro_Vulcan_XH558) is the last flying Vulcan, only one other can even taxi under its own power. Her wings hit the end of their flying life two years ago, and only £200,000 of donations and reverse-engineered parts ensured she could fly another two years. But now the wings are beyond saving, and her engines too. At fifty-five years old, *The Spirit of Great Britain* is long due her retirement.
 
-{% img center http://files.ianrenton.com/sites/blog/2015/vulcan2.jpg %}
+{% img center //files.ianrenton.com/sites/blog/2015/vulcan2.jpg %}
 
 It was quieter on the beach today; many of the tourists had left early with the rain. But there were enough to give the Vulcan a proper send-off nonetheless.
 
-{% img center http://files.ianrenton.com/sites/blog/2015/redarrows1.jpg %}
+{% img center //files.ianrenton.com/sites/blog/2015/redarrows1.jpg %}
 
 The sun has set now, the last of the tourists gone. The rain and the autumn are setting in; we are back to work and soon back to school. But for one last summer weekend, we had our air show, and it was a good one.

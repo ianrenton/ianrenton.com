@@ -9,24 +9,24 @@ categories:
 
 With the All-Terrain Pi, I decided to be lazy. Rather than building my own board to interface the Raspberry Pi with the motors, perhaps with an ATmega and an H-bridge chip, I copped out and let the wonderful people at [PiBorg](https://www.piborg.org/) do the job for me (and much more neatly, too).
 
-{% img center Raspberry Pi, PicoBorg Reverse and BattBorg boards http://files.ianrenton.com/sites/atp/20.jpg %}
+{% img center Raspberry Pi, PicoBorg Reverse and BattBorg boards //files.ianrenton.com/sites/atp/20.jpg %}
 
 I'm using their [PicoBorg Reverse](https://www.piborg.org/picoborgrev) motor controller, which neatly sits on top of the Pi and provides bi-directional control of two DC motors via the I2C bus. The smaller board on top is their [BattBorg](https://www.piborg.org/battborg). It's just a DC-DC converter to supply 5V to the Pi from a higher voltage supply such as the All Terrain Pi's 6&times;1.5V batteries, but it's designed to neatly fit on top of the PicoBorg board.
 
-{% img center BattBorg fitted to PicoBorg http://files.ianrenton.com/sites/atp/21.jpg %}
+{% img center BattBorg fitted to PicoBorg //files.ianrenton.com/sites/atp/21.jpg %}
 
 Here's all three boards together:
 
-{% img center Three boards together http://files.ianrenton.com/sites/atp/22.jpg %}
+{% img center Three boards together //files.ianrenton.com/sites/atp/22.jpg %}
 
 Six pins from the Raspberry Pi's GPIO header connect it to the PicoBorg, supplying 5V, 3.3V and ground, plus the SDA/SCL lines for I2C. When the Pi is powered via USB (as shown below), 5V is supplied from Pi to PicoBorg, and when the setup is powered from batteries via the BattBorg, the 5V supply will be supplied *to* the Pi allowing everything to be powered from one voltage input.
 
 This is how it all looks connected up to KVM & WiFi, ready for configuration:
 
-{% img center All Terrain Pi electronics stack connected to KVM and WiFi http://files.ianrenton.com/sites/atp/23.jpg %}
+{% img center All Terrain Pi electronics stack connected to KVM and WiFi //files.ianrenton.com/sites/atp/23.jpg %}
 
 And here's where (for lack of anywhere better) the electronics stack will sit on the vehicle:
 
-{% img center All Terrain Pi electronics stack located on vehicle http://files.ianrenton.com/sites/atp/24.jpg %}
+{% img center All Terrain Pi electronics stack located on vehicle //files.ianrenton.com/sites/atp/24.jpg %}
 
 It was tempting to use a Raspberry Pi A+ for this vehicle and see if the electronics stack could be fitted at the rear where the old control board is located. However, unlike the tank and quadcopter that run in an "embedded" fashion with no graphics support, I wanted the All-Terrain Pi to be more approachable for kids &mdash; one of the goals is to have the vehicle's motion controllable from the [Scratch](http://scratch.mit.edu/) programming environment that comes preinstalled with Raspbian. This necessitates running an X server on the Pi, which the Model A+ with its 256MB RAM will find a struggle.

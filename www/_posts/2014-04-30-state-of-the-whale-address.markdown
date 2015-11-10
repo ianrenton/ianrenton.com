@@ -17,11 +17,11 @@ tags:
 
 It's no secret that the current state of my SuccessWhale social network client is not a good one. It currently exists in three forms:
 
-* [The main server](http://successwhale.com) runs SuccessWhale version 2.0.3. It's not been updated in nearly a year, and the only changes within the last three years have been playing catch-up with the changing Twitter and Facebook APIs. It probably has some broken features by now, because I don't regularly test it out.
+* [The main server](https://successwhale.com) runs SuccessWhale version 2.0.3. It's not been updated in nearly a year, and the only changes within the last three years have been playing catch-up with the changing Twitter and Facebook APIs. It probably has some broken features by now, because I don't regularly test it out.
 * [The test server](http://test.successwhale.com) runs SuccessWhale version 2.1.2 with debug flags enabled. The 2.1 branch includes things like mixed feeds and LinkedIn support, and is "beta-ish". Some people use it anyway. LinkedIn support is broken and will never be fixed.
 * [The dev server](http://dev.successwhale.com) runs SuccessWhale version 3.0.0-dev, a complete rewrite of the whole thing that has stalled in a half-finished state. It's just about usable provided you're willing to drop back to the test server to fiddle with any settings (they use the same database). It's buggy, and as far as I know used only by me.
 
-{% img center http://files.ianrenton.com/sites/blog/2014/successwhale-3.png SuccessWhale 3 interface %}
+{% img center //files.ianrenton.com/sites/blog/2014/successwhale-3.png SuccessWhale 3 interface %}
 
 > SuccessWhale v3.0 web interface
 
