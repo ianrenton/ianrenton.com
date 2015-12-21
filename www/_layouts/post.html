@@ -12,6 +12,8 @@ layout: default
     {{ content }}
   </article>
   
+  <div class="pagination">{% if page.previous.url %}<div class="pagination-left"><a href="{{page.previous.url}}">&laquo; Previous Post<br/>{{ page.previous.title }}</a></div>{% endif %}{% if page.next.url %}<div class="pagination-right"><a href="{{page.next.url}}">Next Post &raquo;<br/>{{ page.next.title }}</a></div>{% endif %}</div><div class="clear"></div>
+  
   {% include juvia.html %}
 
 </div>

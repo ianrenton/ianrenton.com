@@ -169,10 +169,13 @@ div.button-inner ul {
  */
 .pagination-left {
   float: left;
+  width: 50%;
 }
 
 .pagination-right {
   float: right;
+  width: 50%;
+  text-align: right;
 }
 
 .storynav, .notes, #storynav, #notes {

@@ -4,11 +4,12 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1>Blog archive for {{ page.date | date: "%Y" }}</h1>
+    <h1>Blog Archive for {{ page.date | date: "%Y" }}</h1>
+    <h3>(Earliest first)</h3>
   </header>
 
   <ul class="post-list">
-    {% for post in page.posts %}
+    {% for post in page.posts reversed %}
       <li>
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
