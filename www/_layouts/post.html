@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+{% capture threshold %}{{'2009-10-15 00:00:00 +0000' | date: '%s'}}{% endcapture %}
+{% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
+
 <div class="post">
 
   <header class="post-header">
@@ -8,12 +12,16 @@ layout: default
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
   </header>
 
+  {% if pagedate < threshold %}
+  <div class="oldwarning"><p>This is a very old post that was automatically imported from LiveJournal. I have done my best to fix up the formatting, but some issues may remain. Comments have not been preserved.</p></div>
+  {% endif %}
+
   <article class="post-content">
     {{ content }}
   </article>
   
   <div class="pagination">{% if page.previous.url %}<div class="pagination-left"><a href="{{page.previous.url}}">&laquo; Previous Post<br/>{{ page.previous.title }}</a></div>{% endif %}{% if page.next.url %}<div class="pagination-right"><a href="{{page.next.url}}">Next Post &raquo;<br/>{{ page.next.title }}</a></div>{% endif %}</div><div class="clear"></div>
   
-  {% include juvia.html %}
+  {% if pagedate >= threshold %}{% include juvia.html %}{% endif %}
 
 </div>

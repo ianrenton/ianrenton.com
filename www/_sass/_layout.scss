@@ -138,6 +138,7 @@ div.button-inner ul {
     color: $grey-color;
     font-family: $sans-font-family;
     margin-bottom: $spacing-unit;
+    font-size: 0.9em;
 }
 
 .post-link {
@@ -181,6 +182,18 @@ div.button-inner ul {
 .storynav, .notes, #storynav, #notes {
   background-color: #eee;
   border: 1px solid #ccc;
+  padding: 0.5em 1em 0;
+  margin-bottom: 1em;
+  font-family: $sans-font-family;
+}
+
+.oldwarning {
+  background-color: #fcc;
+  border: 1px solid #c88;
+  padding: 0.5em 1em 0;
+  margin-bottom: 1em;
+  font-family: $sans-font-family;
+  font-size: 0.7em;
 }
 
 

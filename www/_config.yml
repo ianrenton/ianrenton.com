@@ -15,6 +15,15 @@ juvia_site_key: jei5gff5948ceh4w90b0hvnsfor7841
 juvia_host: juvia.ianrenton.com
 juvia_comment_order: earliest-first
 
+# Tag all posts with a property for easy checking
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
 # Collections
 collections:
   fiction:
