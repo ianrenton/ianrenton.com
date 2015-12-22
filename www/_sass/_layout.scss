@@ -4,14 +4,19 @@
 #sidebar {
   font-family: $sans-font-family;
   width: 210px;
-  position: absolute;
-  top: 0;
-  z-index: 20;
+  margin-left: 0.5em;
+  position: relative;
+  float: left;
+  top: -30px;
   font-size: 1.3rem;
+  background-color: #0389AA;
+  background-image: linear-gradient(to right, $brand-color 0%, darken($brand-color, 15%) 100%);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+  border-radius: 0 0 10px 10px;
 }
 
 #sidebar .sidebar-profile {
-    color: $text-color;
+    color: $background-color;
     text-align:center;
     padding-top:18px;
     margin-bottom:15px
@@ -34,27 +39,27 @@
   line-height:45px;
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button a {
-    color: $text-color;
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link {
+    color: $background-color;
     padding: 0 10px 0 10px;
     display:block;
     height:100%;
     border-radius: 5px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a.active {
-    color: $background-color;
-    background-color: $text-color;
+    color: $text-color;
+    background-color: $background-color;
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a:active, #sidebar ul.sidebar-buttons li.sidebar-button a:hover {
-    color: $brand-color;
+    color: $text-color;
     text-decoration:none;
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button a.active:active, #sidebar ul.sidebar-buttons li.sidebar-button a.active:hover {
-    color: $background-color;
-    background-color: $brand-color;
+    color: $text-color;
 }
 
 #sidebar ul.sidebar-buttons li.sidebar-button svg {
@@ -62,37 +67,37 @@
     top: 6px;
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button a svg path, #sidebar ul.sidebar-buttons li.sidebar-button a svg path {
-    fill: $text-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a:active svg path, #sidebar ul.sidebar-buttons li.sidebar-button a:hover svg path {
-    fill: $brand-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a.active svg path {
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link svg path {
     fill: $background-color;
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button a form {
+#sidebar ul.sidebar-buttons li.sidebar-button a:active svg path, #sidebar ul.sidebar-buttons li.sidebar-button a:hover svg path {
+    fill: $text-color;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button a.active svg path {
+    fill: $text-color;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link form {
   display: inline-block;
   margin: 0px;
 /*  vertical-align: -35%;*/
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button a form fieldset {
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link form fieldset {
   padding: 0px;
   border: 0px none;
   height: 1.8em;
 }
 
-#sidebar ul.sidebar-buttons li.sidebar-button a form fieldset input {
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link form fieldset input {
   width: 100px;
-  color: $text-color;
-  background-color: $background-color;
+  color: $background-color;
+  background-color: transparent;
   border-width: 0px 0px 1px;
   border-style: none none solid;
-  border-color: $background-color $background-color $text-color;
+  border-color: $background-color $background-color $background-color;
   font-family: $sans-font-family;
   font-size: 1em;
   box-sizing: border-box;
@@ -108,37 +113,91 @@ div.button-inner h6 {
   font-size: 1em;
   font-weight: 700;
   font-style: normal;
-  margin-left: 5px;
+  margin-left: -26px;
   margin-top: 10px;
+  color: $background-color;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 div.button-inner ul {
   list-style-type: none;
-  margin-left: 5px;
+  margin-left: -25px;
+  width: 100%;
+}
+
+div.button-inner ul li a {
+    color: $background-color;
 }
 
 /**
- * Page content
+ * Posts
  */
 .page-content {
     margin-left: 220px;
     padding: 0 0 $spacing-unit 0;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
+h1.page-heading {
+    line-height: 1;
+    margin: 0px;
+    font-size: 1.5em;
+    font-family: $sans-font-family;
+    color: $background-color;
+}
 
-    > li {
-        margin-bottom: $spacing-unit;
+.post-header {
+    margin: $spacing-unit 0;
+    background-color: #0389AA;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
+    border-radius: 10px;
+    padding: 1em;
+    font-family: $sans-font-family;
+    color: $background-color;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    > h4 {
+      margin-top: 0;
+    }
+    > .post-meta {
+      color: darken($background-color, 10%);
     }
 }
 
-.post-meta {
-    color: $grey-color;
+.post-title {
+    line-height: 1;
+    margin: 0px;
+    font-size: 1.5em;
     font-family: $sans-font-family;
-    margin-bottom: $spacing-unit;
+    color: $background-color;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.post-meta {
+    font-family: $sans-font-family;
+    margin-bottom: 0;
     font-size: 0.9em;
+}
+
+li .post-meta {
+    color: lighten($text-color, 10%);
+}
+
+.post-content {
+    margin-top: 20px;
+    margin-bottom: $spacing-unit*2;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+    > li {
+      margin-bottom: $spacing-unit;
+      > h2 {
+        font-family: $sans-font-family;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+    }
 }
 
 .post-link {
@@ -147,53 +206,82 @@ div.button-inner ul {
 }
 
 
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    line-height: 1;
-}
-
-.post-content {
-    margin-top: 20px;
-    margin-bottom: $spacing-unit*2;
-}
-
-
 /**
  * Nav
  */
+.pagination {
+    background-color: #0389AA;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
+    border-radius: 5px;
+    padding: 0.3em;
+    margin-bottom: 2em;
+    font-family: $sans-font-family;
+}
+
 .pagination-left {
-  float: left;
+  display: inline-block;
   width: 50%;
+  vertical-align: top;
 }
 
 .pagination-right {
-  float: right;
+  display: inline-block;
   width: 50%;
   text-align: right;
+  vertical-align: top;
+}
+
+.pagination-left a, .pagination-right a {
+  color: $background-color;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.readmore {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 3em;
+  font-family: $sans-font-family;
+}
+
+.readmore a {
+    color: $text-color;
+    background-color: #0389AA;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
+    border-radius: 5px;
+    padding: 0.3em;
+    color: $background-color;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .storynav, .notes, #storynav, #notes {
-  background-color: #eee;
-  border: 1px solid #ccc;
-  padding: 0.5em 1em 0;
   margin-bottom: 1em;
+  background-color: #0389AA !important;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+  background-image: linear-gradient(to bottom, darken($background-color, 5%) 0%, darken($background-color, 20%) 100%) !important;
+  border-radius: 5px;
+  padding: 0.1em;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: $text-color;
   font-family: $sans-font-family;
 }
 
 .oldwarning {
-  background-color: #fcc;
-  border: 1px solid #c88;
-  padding: 0.5em 1em 0;
+  font-size: 0.8em;
   margin-bottom: 1em;
-  font-family: $sans-font-family;
-  font-size: 0.7em;
+  background-color: #0389AA !important;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+  background-image: linear-gradient(to bottom, lighten(#800, 20%) 0%, #800 100%) !important;
+  border-radius: 5px;
+  padding: 0.1em;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  color: $background-color;
+ font-family: $sans-font-family;
+}
+
+.storynav p, .notes p, #storynav p, #notes p, .oldwarning p {
+  margin: 1em;
 }
 
 
@@ -231,7 +319,20 @@ div.button-inner ul {
 
 .clear {
   clear: both;
-  margin-bottom: 2em;
+}
+
+
+/**
+ * Juvia
+ */
+.juvia-comment .juvia-metadata {
+    color: $text-color;
+    background-color: #0389AA !important;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%) !important;
+    border-radius: 5px;
+    padding: 0.3em;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -242,6 +343,9 @@ div.button-inner ul {
 @include media-query($on-palm) {
     #sidebar {
         width: 70px;
+        margin-top: 95px;
+        background: transparent !important;
+        box-shadow: none;
     }
     .sidebar-search {
         display: none !important;
@@ -249,8 +353,11 @@ div.button-inner ul {
     .sidebar-button-desc {
         display: none;
     }
-    .page-content {
-        margin-left: 70px;
+    #sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link svg path {
+        fill: $text-color !important;
+    }
+    #sidebar ul.sidebar-buttons li.sidebar-button a.active svg path {
+        fill: $brand-color !important;
     }
     #sidebar ul.sidebar-buttons{
         margin: 10px 11px 10px;
@@ -260,6 +367,9 @@ div.button-inner ul {
     }
     .button-inner {
         display: none;
+    }
+    .page-content {
+        margin-left: 0px;
     }
     .juvia-avatar {
         display: none !important;

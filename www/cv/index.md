@@ -31,7 +31,7 @@ td {
 }
 </style>
 
-<p class="printme">[ <a href="#" onclick="window.print();"><svg width="28" height="28" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M448 1536h896v-256h-896v256zm0-640h896v-384h-160q-40 0-68-28t-28-68v-160h-640v640zm1152 64q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zm128 0v416q0 13-9.5 22.5t-22.5 9.5h-224v160q0 40-28 68t-68 28h-960q-40 0-68-28t-28-68v-160h-224q-13 0-22.5-9.5t-9.5-22.5v-416q0-79 56.5-135.5t135.5-56.5h64v-544q0-40 28-68t68-28h672q40 0 88 20t76 48l152 152q28 28 48 76t20 88v256h64q79 0 135.5 56.5t56.5 135.5z"/></svg> Print me!</a> ]</p>
+<p class="printme">[ <a href="#" onclick="window.print();">Print me!</a> ]</p>
 <div class="contact" style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
 <div style="display:block;"><h1 style="text-decoration: none">Ian&nbsp;Renton</h1>
 <h2 style="position: relative; top: -0.8em; text-decoration: none">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>

@@ -95,8 +95,6 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
@@ -105,22 +103,26 @@ h1 { font-weight: 400;
      margin-bottom: 1.5rem;
      line-height: 1; }
 
-h2 { font-style: italic;
+h2 {
      font-weight: 400;
      margin-top: 2.6rem;
      margin-bottom: 1rem;
+     font-size: 1.7em;
      line-height: 1; }
 
-h3 { font-style: italic;
+h3 {
      font-weight: 400;
      margin-top: 2rem;
      margin-bottom: 0.5rem;
+     font-size: 1.5em;
      line-height: 1; }
 
-h4, h5, h6 { font-style: italic;
+h4, h5, h6 {
+     font-style: italic;
      font-weight: 400;
      margin-top: 1.9rem;
      margin-bottom: 0.5rem;
+     font-size: 1em;
      line-height: 1; }
 
 
@@ -131,15 +133,13 @@ h4, h5, h6 { font-style: italic;
 a {
     color: $brand-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
+        color: $brand-color;
         text-decoration: underline;
     }
+}
+p a:visited {
+    color: darken($brand-color, 10%);
 }
 
 
@@ -168,7 +168,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: darken($background-color, 10%);
 }
 
 code {

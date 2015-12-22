@@ -11,8 +11,8 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
   </header>
-
-  {% if pagedate < threshold %}
+  
+  {% if pagedate < threshold and page.collection == nil %}
   <div class="oldwarning"><p>This is a very old post that was automatically imported from LiveJournal. I have done my best to fix up the formatting, but some issues may remain. Comments have not been preserved.</p></div>
   {% endif %}
 
@@ -20,8 +20,10 @@ layout: default
     {{ content }}
   </article>
   
-  <div class="pagination">{% if page.previous.url %}<div class="pagination-left"><a href="{{page.previous.url}}">&laquo; Previous Post<br/>{{ page.previous.title }}</a></div>{% endif %}{% if page.next.url %}<div class="pagination-right"><a href="{{page.next.url}}">Next Post &raquo;<br/>{{ page.next.title }}</a></div>{% endif %}</div><div class="clear"></div>
+  {% if page.collection == nil %}
+  <div class="pagination">{% if page.previous.url %}<div class="pagination-left"><a href="{{page.previous.url}}">&laquo; Previous Post<br/>{{ page.previous.title }}</a></div>{% endif %}{% if page.next.url %}<div class="pagination-right"><a href="{{page.next.url}}">Next Post &raquo;<br/>{{ page.next.title }}</a></div>{% endif %}</div>
+  {% endif %}
   
-  {% if pagedate >= threshold %}{% include juvia.html %}{% endif %}
+  {% if pagedate >= threshold or page.collection != nil %}{% include juvia.html %}{% endif %}
 
 </div>

@@ -4,16 +4,17 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'Times New Roman', Times, serif;
-$sans-font-family: 'Open Sans','Helvetica Neue','Oxygen-Sans','Ubuntu','Segoe UI','Arial',sans-serif;
-$base-font-size:   24px;
+$base-font-family: 'Droid Serif', 'Times New Roman', Times, serif;
+//$base-font-family: 'Nimbus Sans L', 'Droid Sans', 'Open Sans','Helvetica Neue','Oxygen-Sans','Ubuntu','Segoe UI','Arial',sans-serif;
+$sans-font-family: 'Nimbus Sans L', 'Open Sans','Helvetica Neue','Oxygen-Sans','Ubuntu','Segoe UI','Arial',sans-serif;
+$base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fffff8;
+$text-color:       #333;
+$background-color: #ffe;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
