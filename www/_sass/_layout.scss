@@ -13,228 +13,258 @@
   background-image: linear-gradient(to right, $brand-color 0%, darken($brand-color, 15%) 100%);
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
   border-radius: 0 0 10px 10px;
-}
-
-#sidebar .sidebar-profile {
+  
+  > .sidebar-profile {
     color: $background-color;
     text-align:center;
     padding-top:18px;
-    margin-bottom:15px
+    margin-bottom:15px;
+    
+    > a .sidebar-profile-picture{
+      display: block;
+      margin: 0 auto;
+      width: 90px;
+    }
+  }
+  
+  > ul.sidebar-buttons {
+    padding:0;
+    margin:0 20px 20px 20px;
+    
+    > li.sidebar-button {
+      display:block;
+      width:100%;
+      line-height:45px;
+      
+      > .sidebar-button-link {
+        color: $background-color;
+        padding: 0 10px 0 10px;
+        display:block;
+        height:100%;
+        border-radius: 5px;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+        
+        > svg path {
+          fill: $background-color;
+        }
+        
+        > form {
+          display: inline-block;
+          margin: 0px;
+        /*  vertical-align: -35%;*/
+        
+          > fieldset {
+            padding: 0px;
+            border: 0px none;
+            height: 1.8em;
+            
+            > input {
+              width: 100px;
+              color: $background-color;
+              background-color: transparent;
+              border-width: 0px 0px 1px;
+              border-style: none none solid;
+              border-color: $background-color $background-color $background-color;
+              font-family: $sans-font-family;
+              font-size: 1em;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+      
+      > a.active {
+        color: $text-color;
+        background-color: $background-color;
+        
+        > a:hover, a:active {
+          color: $text-color;
+        }
+        
+        > svg path {
+          fill: $text-color;
+        }
+      }
+      
+      > a:hover, a:active {
+        color: $text-color;
+        text-decoration:none;
+        
+        > svg path {
+          fill: $text-color;
+        }
+      }
+      
+      svg {
+        position: relative;
+        top: 6px;
+      }
+      
+      > .button-inner {
+        line-height: 1.2em;
+        position: relative;
+        left: 40px;
+        
+        > h6 {
+          font-size: 1em;
+          font-weight: 700;
+          font-style: normal;
+          margin-left: -26px;
+          margin-top: 10px;
+          color: $background-color;
+          text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        > ul {
+          list-style-type: none;
+          margin-left: -25px;
+          width: 100%;
+
+          > li a {
+            color: $background-color;
+          }
+        }
+      }
+    }
+  }
 }
 
-#sidebar .sidebar-profile .sidebar-profile-picture{
-  display: block;
-  margin: 0 auto;
-  width: 90px;
-}
 
-#sidebar ul.sidebar-buttons{
-  padding:0;
-  margin:0 20px 20px 20px;
-}
+/**
+ * Page
+ */
+.page-content {
+  margin-left: 220px;
+  padding: 0 0 $spacing-unit 0;
+  
+  > .wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
 
-#sidebar ul.sidebar-buttons li.sidebar-button {
-  display:block;
-  width:100%;
-  line-height:45px;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link {
-    color: $background-color;
-    padding: 0 10px 0 10px;
-    display:block;
-    height:100%;
-    border-radius: 5px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a.active {
-    color: $text-color;
-    background-color: $background-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a:active, #sidebar ul.sidebar-buttons li.sidebar-button a:hover {
-    color: $text-color;
-    text-decoration:none;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a.active:active, #sidebar ul.sidebar-buttons li.sidebar-button a.active:hover {
-    color: $text-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button svg {
-    position: relative;
-    top: 6px;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link svg path {
-    fill: $background-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a:active svg path, #sidebar ul.sidebar-buttons li.sidebar-button a:hover svg path {
-    fill: $text-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button a.active svg path {
-    fill: $text-color;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link form {
-  display: inline-block;
-  margin: 0px;
-/*  vertical-align: -35%;*/
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link form fieldset {
-  padding: 0px;
-  border: 0px none;
-  height: 1.8em;
-}
-
-#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link form fieldset input {
-  width: 100px;
-  color: $background-color;
-  background-color: transparent;
-  border-width: 0px 0px 1px;
-  border-style: none none solid;
-  border-color: $background-color $background-color $background-color;
-  font-family: $sans-font-family;
-  font-size: 1em;
-  box-sizing: border-box;
-}
-
-div.button-inner {
-  line-height: 1.2em;
-  position: relative;
-  left: 40px;
-}
-
-div.button-inner h6 {
-  font-size: 1em;
-  font-weight: 700;
-  font-style: normal;
-  margin-left: -26px;
-  margin-top: 10px;
-  color: $background-color;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-div.button-inner ul {
-  list-style-type: none;
-  margin-left: -25px;
-  width: 100%;
-}
-
-div.button-inner ul li a {
-    color: $background-color;
+    @include media-query($on-laptop) {
+      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+    }
+    
+    > .post {      
+      > .post-content {
+        margin-top: 20px;
+        margin-bottom: $spacing-unit*2;
+      }
+    }
+  }
 }
 
 /**
- * Posts
+ * post-header and post-list go in wrapper and in post depending on the page, so styled out here
  */
-.page-content {
-    margin-left: 220px;
-    padding: 0 0 $spacing-unit 0;
-}
-
-h1.page-heading {
-    line-height: 1;
-    margin: 0px;
-    font-size: 1.5em;
-    font-family: $sans-font-family;
-    color: $background-color;
-}
-
 .post-header {
-    margin: $spacing-unit 0;
-    background-color: #0389AA;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
-    border-radius: 10px;
-    padding: 1em;
+  margin: $spacing-unit 0;
+  background-color: #0389AA;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+  background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
+  border-radius: 10px;
+  padding: 1em;
+  font-family: $sans-font-family;
+  color: $background-color;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  
+  > h1.page-heading {
+    line-height: 1;
+    margin: 0px;
+    font-size: 1.5em;
     font-family: $sans-font-family;
     color: $background-color;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-    > h4 {
-      margin-top: 0;
-    }
-    > .post-meta {
-      color: darken($background-color, 10%);
-    }
-}
-
-.post-title {
+  }
+  
+  > h1.post-title {
     line-height: 1;
     margin: 0px;
     font-size: 1.5em;
     font-family: $sans-font-family;
     color: $background-color;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-.post-meta {
+  }
+  
+  > h4 {
+    margin-top: 0;
+  }
+  
+  > .post-meta {
+    color: darken($background-color, 10%);
     font-family: $sans-font-family;
     margin-bottom: 0;
     font-size: 0.9em;
+  }
 }
 
-li .post-meta {
-    color: lighten($text-color, 10%);
-}
-
-.post-content {
-    margin-top: 20px;
-    margin-bottom: $spacing-unit*2;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-    > li {
-      margin-bottom: $spacing-unit;
-      > h2 {
-        font-family: $sans-font-family;
-        font-weight: 400;
-        margin-bottom: 0;
+ul.post-list {
+  margin-left: 0;
+  list-style: none;
+  
+  > li {
+    margin-bottom: $spacing-unit;
+    
+    > h2 {
+      font-family: $sans-font-family;
+      font-weight: 400;
+      margin-bottom: 0;
+      
+      > a.post-link {
+        display: block;
+        font-style: normal;
       }
     }
-}
-
-.post-link {
-    display: block;
-    font-style: normal;
-}
-
+    > .post-meta {
+      color: lighten($text-color, 10%);
+      font-family: $sans-font-family;
+      margin-bottom: 0;
+      font-size: 0.9em;
+    }
+      }
+    }
 
 /**
  * Nav
  */
 .pagination {
-    background-color: #0389AA;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
-    border-radius: 5px;
-    padding: 0.3em;
-    margin-bottom: 2em;
-    font-family: $sans-font-family;
-}
+  background-color: #0389AA;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
+  background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
+  border-radius: 5px;
+  padding: 0.3em;
+  margin-bottom: 2em;
+  font-family: $sans-font-family;
+  
+  > .pagination-left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    
+    > a {
+      color: $background-color;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+  }
 
-.pagination-left {
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
-}
-
-.pagination-right {
-  display: inline-block;
-  width: 50%;
-  text-align: right;
-  vertical-align: top;
-}
-
-.pagination-left a, .pagination-right a {
-  color: $background-color;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  > .pagination-right {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: top;
+    
+    > a {
+      color: $background-color;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+  }
 }
 
 .readmore {
@@ -242,9 +272,8 @@ li .post-meta {
   text-align: right;
   margin-bottom: 3em;
   font-family: $sans-font-family;
-}
-
-.readmore a {
+  
+  > a {
     color: $text-color;
     background-color: #0389AA;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
@@ -253,6 +282,7 @@ li .post-meta {
     padding: 0.3em;
     color: $background-color;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .storynav, .notes, #storynav, #notes {
@@ -265,6 +295,9 @@ li .post-meta {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   color: $text-color;
   font-family: $sans-font-family;
+  > p {
+    margin: 1em;
+  }
 }
 
 .oldwarning {
@@ -277,48 +310,22 @@ li .post-meta {
   padding: 0.1em;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
   color: $background-color;
- font-family: $sans-font-family;
+  font-family: $sans-font-family;
+  > p {
+    margin: 1em;
+  }
 }
 
-.storynav p, .notes p, #storynav p, #notes p, .oldwarning p {
-  margin: 1em;
-}
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
 
 /**
  * Clearfix
  */
 %clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-.clear {
-  clear: both;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 
@@ -326,7 +333,8 @@ li .post-meta {
  * Juvia
  */
 .juvia-comment .juvia-metadata {
-    color: $text-color;
+    color: $background-color;
+    font-family: $sans-font-family;
     background-color: #0389AA !important;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
     background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%) !important;
@@ -339,45 +347,52 @@ li .post-meta {
 /**
  * Mobile
  */
-
 @include media-query($on-palm) {
-    #sidebar {
-        width: 70px;
-        margin-top: 95px;
-        background: transparent !important;
-        box-shadow: none;
-    }
-    .sidebar-search {
+  #sidebar {
+    width: 70px;
+    margin-top: 95px;
+    background: transparent !important;
+    box-shadow: none;
+    
+    > ul.sidebar-buttons {
+      margin: 10px 11px 10px;
+      
+      > li.sidebar-button {
+        > .sidebar-button-link svg path {
+          fill: $text-color !important;
+        }
+        > a.active svg path {
+          fill: $brand-color !important;
+        }
+        > .button-inner {
+          display: none;
+        }
+        > a .sidebar-button-desc {
+          display: none;
+        }
+      }
+      
+      > li.sidebar-search {
         display: none !important;
+      }
     }
-    .sidebar-button-desc {
+    
+    > .sidebar-profile {
         display: none;
     }
-    #sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link svg path {
-        fill: $text-color !important;
+  }
+  .page-content {
+      margin-left: 0px;
+  }
+  .juvia-avatar {
+      display: none !important;
+  }
+  .juvia-comment {
+    > .juvia-metadata {
+      margin-left: 0 !important;
     }
-    #sidebar ul.sidebar-buttons li.sidebar-button a.active svg path {
-        fill: $brand-color !important;
+    > .juvia-data {
+      margin-left: 8px !important;
     }
-    #sidebar ul.sidebar-buttons{
-        margin: 10px 11px 10px;
-    }
-    #sidebar .sidebar-profile {
-        display: none;
-    }
-    .button-inner {
-        display: none;
-    }
-    .page-content {
-        margin-left: 0px;
-    }
-    .juvia-avatar {
-        display: none !important;
-    }
-    .juvia-comment .juvia-metadata {
-        margin-left: 0 !important;
-    }
-    .juvia-comment .juvia-data {
-        margin-left: 8px !important;
-    }
+  }
 }
