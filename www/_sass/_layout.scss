@@ -1,257 +1,249 @@
 /**
- * Sidebar
+ * Site header
  */
-#sidebar {
-  font-family: $sans-font-family;
-  width: 210px;
-  margin-left: 0.5em;
-  position: relative;
-  float: left;
-  top: -30px;
-  font-size: 1.3rem;
-  background-color: #0389AA;
-  background-image: linear-gradient(to right, $brand-color 0%, darken($brand-color, 15%) 100%);
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-  border-radius: 0 0 10px 10px;
-  
-  > .sidebar-profile {
-    color: $background-color;
-    text-align:center;
-    padding-top:18px;
-    margin-bottom:15px;
-    
-    > a .sidebar-profile-picture{
-      display: block;
-      margin: 0 auto;
-      width: 90px;
-    }
-  }
-  
-  > ul.sidebar-buttons {
-    padding:0;
-    margin:0 20px 20px 20px;
-    
-    > li.sidebar-button {
-      display:block;
-      width:100%;
-      line-height:45px;
-      
-      > .sidebar-button-link {
-        color: $background-color;
-        padding: 0 10px 0 10px;
-        display:block;
-        height:100%;
-        border-radius: 5px;
-        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-        
-        > svg path {
-          fill: $background-color;
-        }
-        
-        > form {
-          display: inline-block;
-          margin: 0px;
-        /*  vertical-align: -35%;*/
-        
-          > fieldset {
-            padding: 0px;
-            border: 0px none;
-            height: 1.8em;
-            
-            > input {
-              width: 100px;
-              color: $background-color;
-              background-color: transparent;
-              border-width: 0px 0px 1px;
-              border-style: none none solid;
-              border-color: $background-color $background-color $background-color;
-              font-family: $sans-font-family;
-              font-size: 1em;
-              box-sizing: border-box;
-            }
-          }
-        }
-      }
-      
-      > a.active {
-        color: $text-color;
-        background-color: $background-color;
-        
-        > a:hover, a:active {
-          color: $text-color;
-        }
-        
-        > svg path {
-          fill: $text-color;
-        }
-      }
-      
-      > a:hover, a:active {
-        color: $text-color;
-        text-decoration:none;
-        
-        > svg path {
-          fill: $text-color;
-        }
-      }
-      
-      svg {
-        position: relative;
-        top: 6px;
-      }
-      
-      > .button-inner {
-        line-height: 1.2em;
-        position: relative;
-        left: 40px;
-        
-        > h6 {
-          font-size: 1em;
-          font-weight: 700;
-          font-style: normal;
-          margin-left: -26px;
-          margin-top: 10px;
-          color: $background-color;
-          text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-        }
-        
-        > ul {
-          list-style-type: none;
-          margin-left: -25px;
-          width: 100%;
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
 
-          > li a {
-            color: $background-color;
-          }
-        }
-      }
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
     }
-  }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
 }
 
 
+
 /**
- * Page
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+    line-height: 60px;
+}
+
+.footer-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: lighten($text-color, 15%);
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-2,
+    .footer-col-3 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
  */
 .page-content {
-  margin-left: 220px;
-  padding: 0 0 $spacing-unit 0;
-  
-  > .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-      padding-right: $spacing-unit / 2;
-      padding-left: $spacing-unit / 2;
-    }
-    
-    > .post {      
-      > .post-content {
-        margin-top: 20px;
-        margin-bottom: $spacing-unit*2;
-      }
-    }
-  }
+    padding: $spacing-unit 0;
 }
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
 
 /**
- * post-header and post-list go in wrapper and in post depending on the page, so styled out here
+ * Posts
  */
 .post-header {
-  margin: $spacing-unit 0;
-  background-color: #0389AA;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-  background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
-  border-radius: 10px;
-  padding: 1em;
-  font-family: $sans-font-family;
-  color: $background-color;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-  
-  > h1.page-heading {
-    line-height: 1;
-    margin: 0px;
-    font-size: 1.5em;
-    font-family: $sans-font-family;
-    color: $background-color;
-  }
-  
-  > h1.post-title {
-    line-height: 1;
-    margin: 0px;
-    font-size: 1.5em;
-    font-family: $sans-font-family;
-    color: $background-color;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-  }
-  
-  > h4 {
-    margin-top: 0;
-  }
-  
-  > .post-meta {
-    color: darken($background-color, 10%);
-    font-family: $sans-font-family;
-    margin-bottom: 0;
-    font-size: 0.9em;
-  }
+    margin-bottom: $spacing-unit;
 }
 
-ul.post-list {
-  margin-left: 0;
-  list-style: none;
-  
-  > li {
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
     margin-bottom: $spacing-unit;
-    
-    > h2 {
-      font-family: $sans-font-family;
-      font-weight: 400;
-      margin-bottom: 0;
-      
-      > a.post-link {
-        display: block;
-        font-style: normal;
-      }
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
     }
-    > .post-meta {
-      color: lighten($text-color, 10%);
-      font-family: $sans-font-family;
-      margin-bottom: 0;
-      font-size: 0.9em;
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
     }
-      }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
     }
+}
+
 
 /**
  * Nav
  */
-.pagination {
-  background-color: #0389AA;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-  background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
-  border-radius: 5px;
-  padding: 0.3em;
-  margin-bottom: 2em;
-  font-family: $sans-font-family;
-  
+.pagination {  
   > .pagination-left {
     display: inline-block;
     width: 50%;
     vertical-align: top;
-    
-    > a {
-      color: $background-color;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-    }
   }
 
   > .pagination-right {
@@ -259,29 +251,6 @@ ul.post-list {
     width: 50%;
     text-align: right;
     vertical-align: top;
-    
-    > a {
-      color: $background-color;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-    }
-  }
-}
-
-.readmore {
-  width: 100%;
-  text-align: right;
-  margin-bottom: 3em;
-  font-family: $sans-font-family;
-  
-  > a {
-    color: $text-color;
-    background-color: #0389AA;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%);
-    border-radius: 5px;
-    padding: 0.3em;
-    color: $background-color;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -294,7 +263,6 @@ ul.post-list {
   padding: 0.1em;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   color: $text-color;
-  font-family: $sans-font-family;
   > p {
     margin: 1em;
   }
@@ -310,89 +278,7 @@ ul.post-list {
   padding: 0.1em;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
   color: $background-color;
-  font-family: $sans-font-family;
   > p {
     margin: 1em;
-  }
-}
-
-
-/**
- * Clearfix
- */
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-
-/**
- * Juvia
- */
-.juvia-comment .juvia-metadata {
-    color: $background-color;
-    font-family: $sans-font-family;
-    background-color: #0389AA !important;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-    background-image: linear-gradient(to bottom, $brand-color 0%, darken($brand-color, 15%) 100%) !important;
-    border-radius: 5px;
-    padding: 0.3em;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-
-/**
- * Mobile
- */
-@include media-query($on-palm) {
-  #sidebar {
-    width: 70px;
-    margin-top: 95px;
-    background: transparent !important;
-    box-shadow: none;
-    
-    > ul.sidebar-buttons {
-      margin: 10px 11px 10px;
-      
-      > li.sidebar-button {
-        > .sidebar-button-link svg path {
-          fill: $text-color !important;
-        }
-        > a.active svg path {
-          fill: $brand-color !important;
-        }
-        > .button-inner {
-          display: none;
-        }
-        > a .sidebar-button-desc {
-          display: none;
-        }
-      }
-      
-      > li.sidebar-search {
-        display: none !important;
-      }
-    }
-    
-    > .sidebar-profile {
-        display: none;
-    }
-  }
-  .page-content {
-      margin-left: 0px;
-  }
-  .juvia-avatar {
-      display: none !important;
-  }
-  .juvia-comment {
-    > .juvia-metadata {
-      margin-left: 0 !important;
-    }
-    > .juvia-data {
-      margin-left: 8px !important;
-    }
   }
 }

@@ -17,18 +17,11 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
+    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
-
-body { font-size: $base-font-size - 6px; }
-@media screen and (min-width: 800px)  { body{ font-size: $base-font-size - 5px; }}
-@media screen and (min-width: 900px)  { body{ font-size: $base-font-size - 4px; }}
-@media screen and (min-width: 1000px) { body{ font-size: $base-font-size - 3px; }}
-@media screen and (min-width: 1100px) { body{ font-size: $base-font-size - 2px; }}
-@media screen and (min-width: 1200px) { body{ font-size: $base-font-size - 1px; }}
-@media screen and (min-width: 1300px) { body{ font-size: $base-font-size; }}
 
 
 
@@ -41,6 +34,7 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
+
 
 
 /**
@@ -66,6 +60,7 @@ img.center {
     margin: 0 auto;
     display: block;
 }
+
 
 
 /**
@@ -95,35 +90,14 @@ li {
     }
 }
 
+
+
 /**
  * Headings
  */
-h1 { font-weight: 400;
-     margin-top: 3rem;
-     margin-bottom: 1.5rem;
-     line-height: 1; }
-
-h2 {
-     font-weight: 400;
-     margin-top: 2.6rem;
-     margin-bottom: 1rem;
-     font-size: 1.7em;
-     line-height: 1; }
-
-h3 {
-     font-weight: 400;
-     margin-top: 2rem;
-     margin-bottom: 0.5rem;
-     font-size: 1.5em;
-     line-height: 1; }
-
-h4, h5, h6 {
-     font-style: italic;
-     font-weight: 400;
-     margin-top: 1.9rem;
-     margin-bottom: 0.5rem;
-     font-size: 1em;
-     line-height: 1; }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
 
 
 
@@ -133,13 +107,15 @@ h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
     &:hover {
-        color: $brand-color;
+        color: $text-color;
         text-decoration: underline;
     }
-}
-p a:visited {
-    color: darken($brand-color, 10%);
 }
 
 
@@ -149,8 +125,9 @@ p a:visited {
  */
 blockquote {
     color: $grey-color;
-    text-align:center;
+    border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
+    font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -158,6 +135,7 @@ blockquote {
         margin-bottom: 0;
     }
 }
+
 
 
 /**
@@ -168,7 +146,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: darken($background-color, 10%);
+    background-color: #eef;
 }
 
 code {
@@ -186,9 +164,42 @@ pre {
     }
 }
 
-span.code-highlight-caption-title {
-  font-family: $sans-font-family;
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
 
 /**
  * Tables
@@ -197,20 +208,13 @@ td {
     vertical-align: top;
 }
 
+
 /**
  * Juvia
  */
 .juvia-container {
     font-family: $base-font-family !important;
 }
-
-.juvia-container { font-size: $base-font-size - 6px !important; }
-@media screen and (min-width: 800px)  { .juvia-container{ font-size: $base-font-size - 5px !important; }}
-@media screen and (min-width: 900px)  { .juvia-container{ font-size: $base-font-size - 4px !important; }}
-@media screen and (min-width: 1000px) { .juvia-container{ font-size: $base-font-size - 3px !important; }}
-@media screen and (min-width: 1100px) { .juvia-container{ font-size: $base-font-size - 2px !important; }}
-@media screen and (min-width: 1200px) { .juvia-container{ font-size: $base-font-size - 1px !important; }}
-@media screen and (min-width: 1300px) { .juvia-container{ font-size: $base-font-size !important; }}
 
 .juvia-textarea-field textarea {
   max-width: 100% !important;

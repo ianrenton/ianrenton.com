@@ -6,19 +6,20 @@
     background: none;
     color: black;
   }
-  #sidebar {
-    display: none;
-  }
   .page-content {
     margin: 0;
     padding: 0;
+    font-size: 12px;
+    > .wrapper {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
   }
-  .wrapper {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+  .post-content h2 {
+      font-size: 18px;
   }
-  .juvia-topic h1, .juvia-add-comment-form, .juvia-reply-to-comment {
+  header, footer, .juvia-topic h1, .juvia-add-comment-form, .juvia-reply-to-comment {
     display: none;
   }
 }

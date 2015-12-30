@@ -1,0 +1,53 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+
+        <h2 class="footer-heading"><img src="/me.jpg" width="60" height="60"/>&nbsp;&nbsp;Ian&nbsp;Renton</h2>
+        <p>Software engineer and builder of robots</p>
+        <p>Bournemouth, UK</p>
+        <ul class="footer-list">
+          <li>
+            CV: <a href="/cv/">View CV</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li><li>
+            PGP key: <a href="https://files.ianrenton.com/gpg-pubkey.txt">Download</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            Twitter: <a href="https://twitter.com/i_renton"><span class="username">@i_renton</span></a>
+          </li><li>
+            Facebook: <a href="https://www.facebook.com/ianrenton"><span class="username">ianrenton</span></a>
+          </li><li>
+            Github: <a href="https://github.com/ianrenton"><span class="username">ianrenton</span></a>
+          </li><li>
+            Stack Overflow: <a href="https://careers.stackoverflow.com/ianrenton"><span class="username">ianrenton</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <h2 class="footer-heading">Blog Archive: Years</h2>
+        <ul class="footer-list">
+          {% year_archive %}
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <h2 class="footer-heading">Blog Archive: Categories</h2>
+        <ul class="footer-list">
+          {% category_archive %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

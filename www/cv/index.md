@@ -47,7 +47,7 @@ Autonomous/unmanned vehicles, naval combat systems, mine countermeasures, RF & s
 </td></tr><tr><td>
 Engineering processes
 </td><td>
-Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle.
+Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle. IEC 61508 SIL2 systems.
 </td></tr><tr><td>
 Programming languages
 </td><td>
@@ -65,7 +65,7 @@ Feb&nbsp;2014 &mdash; Present
 </td><td>
 <p><b>Principal Software engineer at (Current Employer)</b></p>
 <p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work.</p>
-<p>Currently leading a team of 5 to produce design documentation for CDR, with the team expected to grow to 7-8 engineers during the implementation phase from December 2015.</p>
+<p>Currently leading a team of 5 to produce design documentation for CDR, with the team expected to grow to 7-8 engineers during the implementation phase from January 2016.</p>
 </td></tr><tr><td>
 
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
