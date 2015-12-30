@@ -191,6 +191,10 @@ pre {
 /**
  * Clearfix
  */
+div.clear {
+    @extend %clearfix;
+}
+
 %clearfix {
 
     &:after {

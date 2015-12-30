@@ -87,6 +87,25 @@
 }
 
 
+/**
+ * Left/right tables in post content
+ */
+.table-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+    width: -webkit-calc(48% - (#{$spacing-unit} / 2));
+    width:         calc(48% - (#{$spacing-unit} / 2));
+}
+@include media-query($on-palm) {
+    .table-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
 
 /**
  * Site footer

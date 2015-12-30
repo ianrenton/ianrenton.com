@@ -13,20 +13,19 @@ wordpress_id: 3260
 
 <h2>The Films</h2>
 
-<table border=0 cellpadding=0 cellspacing=0>
-  <tr><td valign="top" width="50%">
-    <h3>Sorted by Review Date</h3>
-    <ol reversed="reversed">
-      {% for post in site.filmreviews reversed %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ol>
-  </td><td valign="top" width="50%">
-    <h3>Sorted by Title</h3>
-    <ul>
-      {% sorted_for post in site.filmreviews sort_by:title %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endsorted_for %}
-    </ul>
-  </td></tr>
-</table>
+<div class="table-col">
+  <h3>Sorted by Review Date</h3>
+  <ol reversed="reversed">
+    {% for post in site.filmreviews reversed %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ol>
+</div>
+<div class="table-col">
+  <h3>Sorted by Title</h3>
+  <ul>
+    {% sorted_for post in site.filmreviews sort_by:title %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endsorted_for %}
+  </ul>
+</div>

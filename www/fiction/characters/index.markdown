@@ -9,9 +9,7 @@ wordpress_id: 899
 ---
 
 <p>This page contains links to descriptions and bios of some of the characters in my fiction and in roleplaying games I have run and played in.  It exists mostly to keep my head in order, though some characters&#039; pages do have short stories that readers may enjoy.</p>
-<table border="0" width="100%">
-<tr>
-<td width="50%" valign="top">
+<div class="table-col">
 <h2>Dreaming Awake</h2>
 <ul>
 <li><a href="../alazam">Alazam</a></li>
@@ -84,8 +82,8 @@ wordpress_id: 899
 <li>Shannon</li>
 <li><a href="../solid-snape">Solid Snape</a></li>
 </ul>
-</td>
-<td width="50%" valign="top">
+</div>
+<div class="table-col">
 <h2>Forgotten Children</h2>
 <ul>
 <li><a href="../forgotten-children-characters">Forgotten Children: Characters</a></li>
@@ -136,6 +134,4 @@ wordpress_id: 899
 <li><a href="../vincent-thorne">Vincent Thorne</a> (Maelstrom)</li>
 <li><a href="../zarjune">Zarjune</a> (Exalted)</li>
 </ul>
-</td>
-</tr>
-</table>
+</div>

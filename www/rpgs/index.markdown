@@ -9,10 +9,8 @@ wordpress_id: 895
 ---
 
 This page is an index for various material related to pen-and-paper roleplaying games I have run, am running, or at least am somehow involved with. If you are looking for computer games I have written, please look under <a href="http://software.ianrenton.com">Software</a>.
-<table width="100%" border="0">
-<tbody>
-<tr>
-<td valign="top" style="padding-right: 20px;" width="50%">
+
+<div class="table-col">
 <h2>Current Games</h2>
 <ul>
 	<li><em>Watch this space...</em></li>
@@ -32,8 +30,8 @@ Session Notes: <a href="./beyond-the-frontier-session-1-notes/">1</a> <a href=".
 	<li>Requiem of the Sun (Exalted):<br/>
 <a href="./twin-smoke-island">Description of Twin Smoke Island</a></li>
 </ul>
-</td>
-<td valign="top" style="padding-left: 20px;" width="50%">
+</div>
+<div class="table-col">
 <h2>Possible Future Games</h2>
 <ul>
 	<li>Dreaming Awake Game 2:
@@ -56,10 +54,9 @@ Scene-setting: <a href="http://blog.monsteractive.com/showcase-24-marek-okon/">1
 <a href="./ye-standarde-roleplayinge-partie/">Pre-Gen Characters</a></li>
 	<li>The Time War (Doctor Who / Feng Shui)</li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</div>
+<div class="clear"></div>
+
 <h2>System Resources</h2>
 I have summarised sections of rulebooks to help players of my games. The following links contain generic information for a system, interspersed with notes (in yellow) relating specific games of mine.
 <ul>
