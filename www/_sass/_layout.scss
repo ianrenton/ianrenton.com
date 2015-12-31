@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -84,6 +83,25 @@
             padding: 5px 10px;
         }
     }
+}
+
+
+/**
+ * Homepage banner
+ */
+div#homepagebanner {
+  margin-bottom: 2em;
+  border-bottom: 1px solid $grey-color-light;
+  
+  .top {
+    img {
+      float:left;
+      margin-right: 2em;
+    }
+    h1, h2 {
+      display: inline-block;
+    }
+  }
 }
 
 
