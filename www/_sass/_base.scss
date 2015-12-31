@@ -3,11 +3,13 @@
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, fieldset {
     margin: 0;
     padding: 0;
 }
-
+fieldset {
+    border: none;
+}
 
 
 /**
@@ -124,11 +126,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
+    color: $grey-color-dark;
+    text-align: center;
     font-style: italic;
 
     > :last-child {

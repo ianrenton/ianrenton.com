@@ -112,8 +112,8 @@ div#homepagebanner {
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-right: $spacing-unit / 2;
-    width: -webkit-calc(48% - (#{$spacing-unit} / 2));
-    width:         calc(48% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 @include media-query($on-palm) {
     .table-col {
@@ -134,9 +134,8 @@ div#homepagebanner {
 }
 
 .footer-heading {
-    font-size: 18px;
     margin-bottom: $spacing-unit / 2;
-    line-height: 60px;
+    height: 60px;
 }
 
 .footer-list {
@@ -292,29 +291,23 @@ div#homepagebanner {
 }
 
 .storynav, .notes, #storynav, #notes {
+  font-size: 0.9em;
   margin-bottom: 1em;
-  background-color: #0389AA !important;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-  background-image: linear-gradient(to bottom, darken($background-color, 5%) 0%, darken($background-color, 20%) 100%) !important;
-  border-radius: 5px;
   padding: 0.1em;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-  color: $text-color;
+  border: 1px solid #A0A000;
+  background-color: #FFFFA0;
   > p {
     margin: 1em;
   }
 }
 
 .oldwarning {
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-bottom: 1em;
-  background-color: #0389AA !important;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3), 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px rgba(0, 0, 0, 0.3) inset;
-  background-image: linear-gradient(to bottom, lighten(#800, 20%) 0%, #800 100%) !important;
-  border-radius: 5px;
   padding: 0.1em;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-  color: $background-color;
+  color: #D00000;
+  border: 1px solid #D00000;
+  background-color: #FFDDDD;
   > p {
     margin: 1em;
   }
