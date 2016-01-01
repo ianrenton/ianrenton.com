@@ -13,7 +13,7 @@ tags:
 - Dreaming Awake
 ---
 
-<p><img src="http://onlydreaming.net/images/portraits/alazam.png" style="float:right" /></p>
+<p><img src="//files.ianrenton.com/images/portraits/alazam.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>There are two great Southern nations of this world: the once great, now insufferable Empire of Kayir, and the secretive and immigrant-wary Feria.  And then there&#039;s what&#039;s in between.</p>

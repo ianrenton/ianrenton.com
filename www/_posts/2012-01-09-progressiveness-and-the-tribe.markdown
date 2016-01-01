@@ -22,7 +22,7 @@ tags:
 - Progressivism
 ---
 
-As a [former supporter of the Liberal Democrats](http://onlydreaming.net/blog/the-dilemma-of-the-young-socialist), I found my support [leaning toward Labour](http://onlydreaming.net/blog/new-labour-gone-but-not-forgotten) due to the Lib Dems' ongoing disastrous coalition with the Conservative party.  But in truth, the Labour party are just a convenient political marker for some of my opinions on economic and social policy.  What I _really_ care about, I suppose, is _progress_ -- changing things that are broken, trying new ideas until we discover something that makes the country work better.
+As a [former supporter of the Liberal Democrats](http://ianrenton.com/blog/the-dilemma-of-the-young-socialist), I found my support [leaning toward Labour](http://ianrenton.com/blog/new-labour-gone-but-not-forgotten) due to the Lib Dems' ongoing disastrous coalition with the Conservative party.  But in truth, the Labour party are just a convenient political marker for some of my opinions on economic and social policy.  What I _really_ care about, I suppose, is _progress_ -- changing things that are broken, trying new ideas until we discover something that makes the country work better.
 
 But [all three main parties now label themselves as "Progressive"](http://www.bbc.co.uk/news/uk-politics-11785483). (I suppose "regressive" isn't much of a vote-winner.)  The minor parties mostly have limited agendas that make it impossible to support them to the exclusion of all others.  Who, then, do I vote for? The truth is probably that none of the UK's political parties are as progressive as I would like, but more than that -- a politician being progressive on my behalf isn't really what I want at all.
 

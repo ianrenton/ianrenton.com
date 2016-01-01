@@ -21,7 +21,7 @@ tags:
 
 Life passes slowly, when epic things lie ahead.
 
-I have two full days ahead of me as a "free" man, before I am to be married to [the only woman crazy enough to have me](http://www.onlydreaming.net/ericthegirl/).  And, naturally, I am panicking so much that by Friday morning I expect to have exploded in a shower of caffeine and miscellaneous body parts.
+I have two full days ahead of me as a "free" man, before I am to be married to [the only woman crazy enough to have me](http://ericthegirl.onlydreaming.net/).  And, naturally, I am panicking so much that by Friday morning I expect to have exploded in a shower of caffeine and miscellaneous body parts.
 
 I'm sure at this point I'm supposed to be nervous about my choice of wife; that I'd picked the wrong woman and was dooming myself to a life of unhappiness.  Or something.  But the time for worrying about that was a very long time ago.
 

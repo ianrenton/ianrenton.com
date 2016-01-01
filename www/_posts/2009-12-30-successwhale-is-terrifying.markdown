@@ -19,7 +19,7 @@ tags:
 - Web
 ---
 
-On 29th August, I released my PHP/JavaScript Twitter client, [SuccessWhale](http://www.onlydreaming.net/software/successwhale).  I would like to take this opportunity to say HOLY FUCK.
+On 29th August, I released my PHP/JavaScript Twitter client, [SuccessWhale](http://ianrenton.com/software/successwhale).  I would like to take this opportunity to say HOLY FUCK.
 
 [![2009 Usage Summary for onlydreaming.net](//files.ianrenton.com/sites/blog/2009/12/2009usagesummary.jpg)](//files.ianrenton.com/sites/blog/2009/12/2009usagesummary.jpg)
 

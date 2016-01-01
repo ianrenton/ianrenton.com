@@ -17,8 +17,8 @@ Its purpose is to analyse player stats, and suggest which players to pick based 
 
 You can find it here:  
 
-[Information](http://www.onlydreaming.net/software/premier-league-fantasy-football-team-picker)  
+[Information](http://ianrenton.com/software/premier-league-fantasy-football-team-picker)  
 
 [Current Optimum Team](http://www.onlydreaming.net/plff-optimum-team)  
 
-[Source Code](http://www.onlydreaming.net/files/TeamPicker/plteampicker.py.txt)
+[Source Code](http://files.ianrenton.com/TeamPicker/plteampicker.py.txt)

@@ -12,4 +12,4 @@ categories:
 
 Started work on Friday, finally - I think - finished it today.  Thanks to Claire for suggesting improvements!  
 
-<a href="http://www.marmablue.co.uk/index.php?title=Echoes_of_a_Dream">Echoes of a Dream</a>
+<a href="http://ianrenton.com/fiction/echoes-of-a-dream">Echoes of a Dream</a>

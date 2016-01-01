@@ -17,7 +17,7 @@ tags:
 - Social Games
 ---
 
-So, the other day I cheated at a videogame for what is probably the first time in years.  Not for unfair advantage over other players, but merely because it was one of those [games with no end](http://onlydreaming.net/blog/on-game-design-time-to-quit), and before consigning it to the dustbin of history, I wanted to see what the best weapons were like.
+So, the other day I cheated at a videogame for what is probably the first time in years.  Not for unfair advantage over other players, but merely because it was one of those [games with no end](http://ianrenton.com/blog/on-game-design-time-to-quit), and before consigning it to the dustbin of history, I wanted to see what the best weapons were like.
 
 It was a pretty simple hack -- an in-game replacement of the contents of a certain memory address, the same thing I had no shame whatsoever in applying via a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) nearly two decades ago.  And, just as hoped, I eked out a few more hours of fun from the game with my new-found power to lay waste to civilisation.
 

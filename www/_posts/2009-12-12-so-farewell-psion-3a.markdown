@@ -20,7 +20,7 @@ tags:
 - Psion
 ---
 
-_No idea why the hell I bought a Psion 3a a lottery ticket?  Check out [my previous blog post, "Coming of Age"](http://www.onlydreaming.net/blog/coming-of-age)._
+_No idea why the hell I bought a Psion 3a a lottery ticket?  Check out [my previous blog post, "Coming of Age"](http://ianrenton.com/blog/coming-of-age)._
 
 [![Pictured: Progress.](//files.ianrenton.com/sites/blog/2009/12/IMG_0880-300x225.jpg)](//files.ianrenton.com/sites/blog/2009/12/IMG_0880.jpg)
 

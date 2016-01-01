@@ -16,7 +16,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="http://onlydreaming.net/images/portraits/kotori.png" /></td>
+<td valign="top"><img src="//files.ianrenton.com/images/portraits/kotori.png" /></td>
 <td valign="top">
 <h2>Brief Summary</h2>
 <p>Kotori is a shy and reserved girl who divides her time between school, working at the shrine where she lives, and practicing Kendo.</p>

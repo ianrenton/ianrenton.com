@@ -24,7 +24,7 @@ tags:
 - Web
 ---
 
-After a couple of weeks of development -- documented [here](http://www.onlydreaming.net/blog/daily-promise-design-sketches), [here](http://www.onlydreaming.net/blog/daily-promise-coming-together) and [here](http://www.onlydreaming.net/blog/daily-promise-avatars-everywhere) -- I think I'm ready to call _Daily Promise_ version 1.0.
+After a couple of weeks of development -- documented [here](http://ianrenton.com/blog/daily-promise-design-sketches), [here](http://ianrenton.com/blog/daily-promise-coming-together) and [here](http://ianrenton.com/blog/daily-promise-avatars-everywhere) -- I think I'm ready to call _Daily Promise_ version 1.0.
 
 It's a site that helps you keep track of your promises day-to-day, giving you a pretty display of which promises you've kept when, and letting you compete against your Twitter-using friends to be the best at keeping your daily promises!
 

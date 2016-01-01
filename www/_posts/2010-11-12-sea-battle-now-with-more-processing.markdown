@@ -23,7 +23,7 @@ tags:
 - Software
 ---
 
-Nearly a month ago now, I blogged [some sketches and ideas for a game I felt like writing](http://www.onlydreaming.net/blog/game-idea-spam-time).  [masterofwalri](http://masterofwalri.livejournal.com/) made a passing reference to [Processing](http://www.processing.org) in his [comment](http://www.onlydreaming.net/blog/game-idea-spam-time/comment-page-1#comment-6248), and having heard people mention it in the past, I figured I should check it out.
+Nearly a month ago now, I blogged [some sketches and ideas for a game I felt like writing](http://ianrenton.com/blog/game-idea-spam-time).  [masterofwalri](http://masterofwalri.livejournal.com/) made a passing reference to [Processing](http://www.processing.org) in his [comment](http://ianrenton.com/blog/game-idea-spam-time/comment-page-1#comment-6248), and having heard people mention it in the past, I figured I should check it out.
 
 I'm very, very glad I did.
 
@@ -31,9 +31,9 @@ It neatly deals with the issue of what I should develop for.  The comments were 
 
 One lunchtime has produced 270 lines of code -- which already includes the game area of the GUI, controllable player ships, and the beginnings of AI for the enemy ships.
 
-[You can play around with it as an Applet here.](http://www.onlydreaming.net/files/Sea_Battle/)
+[You can play around with it as an Applet here.](http://files.ianrenton.com/Sea_Battle/)
 
-_Note: this blog post is old, and the applet now has more functionality than is described here.  [The next blog post in the sequence is here.](http://www.onlydreaming.net/blog/sea-battle-thats-what-guns-are-for)_
+_Note: this blog post is old, and the applet now has more functionality than is described here.  [The next blog post in the sequence is here.](http://ianrenton.com/blog/sea-battle-thats-what-guns-are-for)_
 
 Currently there's no real gameplay -- you can't build, and ships can't shoot or be damaged.  You can move your ships (starting at the bottom of the screen) around, and the AI ship will hunt yours.  Click on a ship to select it (blue circle), then click elsewhere to set its destination.  Red lines, when they appear, show when ships would be shooting.
 

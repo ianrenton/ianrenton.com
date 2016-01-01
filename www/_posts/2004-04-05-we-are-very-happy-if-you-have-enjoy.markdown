@@ -12,6 +12,6 @@ categories:
 
 And so, the Bournemouth meet comes to a close.  A day of dance games, but more importantly of saying goodbye.  Thanks to everyone who came down to Bournemouth, and made this such an awesome weekend!  
 
-<img src="http://www.marmablue.co.uk/images/random/bmthmeet.gif">  
+<img src="http://files.ianrenton.com/images/random/bmthmeet.gif">  
 
 Well, it's not *entirely* over...  Char, ER and MoFo are still here - Oh hi Ant's house and IIDX!

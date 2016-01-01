@@ -26,7 +26,7 @@ tags:
 
 After a couple of days and one frantic family-free morning, _Daily Promise_ is getting near completion.  Here's what's new since last time.
 
-_(This is post number 3 in my series on the development of _Daily Promise_.  The others are here: [Design Sketches](http://www.onlydreaming.net/blog/daily-promise-design-sketches), [Coming Together](http://www.onlydreaming.net/blog/daily-promise-coming-together/).)_
+_(This is post number 3 in my series on the development of _Daily Promise_.  The others are here: [Design Sketches](http://ianrenton.com/blog/daily-promise-design-sketches), [Coming Together](http://ianrenton.com/blog/daily-promise-coming-together/).)_
 
 ### Friends Page
 

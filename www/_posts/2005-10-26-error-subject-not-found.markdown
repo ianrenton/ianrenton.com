@@ -10,7 +10,7 @@ categories:
 - Personal
 ---
 
-New story fragment "The Job Interview":  [http://www.marmablue.co.uk/index.php?title=The_Job_Interview](http://www.marmablue.co.uk/index.php?title=The_Job_Interview)  (Comments welcome as always)  
+New story fragment "The Job Interview":  [http://ianrenton.com/fiction/the-job-interview](http://ianrenton.com/fiction/the-job-interview)  (Comments welcome as always)  
 
 <b>Today on the interweb:</b>  
 

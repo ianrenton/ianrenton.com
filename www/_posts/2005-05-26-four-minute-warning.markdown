@@ -12,6 +12,6 @@ categories:
 
 I felt compelled to write something, as I often do at 3am when it's beginning to get light outside and I really should be sleeping instead.  But I wrote anyway.  It's not long enough to constitute a real story, but if you're interested please take a look anyway.  Please bear in mind this hasn't been edited, and I'm not exactly at my best at 3am...  
 
-<a href="http://www.marmablue.co.uk/index.php?title=Four_Minute_Warning">Four Minute Warning</a>  
+<a href="http://ianrenton.com/fiction/four-minute-warning">Four Minute Warning</a>  
 
-Comments, on my site or here, very much appreciated!
+Comments very much appreciated!

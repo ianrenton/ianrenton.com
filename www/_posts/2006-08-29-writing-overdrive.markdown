@@ -18,6 +18,6 @@ It's background material for Forgotten Children, I suppose, but hopefully it hol
 
 Last week's effort, the prologue, and today's, Chapter 1, are linked below.  It's still work-in-progress, so mostly unedited.  As always, suggestions / criticisms / outright flames welcome.  Even noting spelling mistakes as you go along would be handy, I haven't gotten around to that yet.  
 
-<a href="http://www.marmablue.co.uk/fileserve/bug-23691.pdf">Bug #23691 (P,Ch1) Unedited</a> 70kB PDF  
+<a href="http://files.ianrenton.com/bug-23691.pdf">Bug #23691 (P,Ch1) Unedited</a> 70kB PDF  
 
 (Creative Commons Attrib-NonComm-ShareAlike 2.5 blah blah blah etc)

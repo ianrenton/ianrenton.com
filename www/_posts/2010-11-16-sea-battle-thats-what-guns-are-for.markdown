@@ -18,9 +18,9 @@ tags:
 - Software
 ---
 
-Another day -- or three, in this case -- brings another ton of functionality for Sea Battle.  (Previous posts: [1](http://www.onlydreaming.net/blog/game-idea-spam-time), [2](http://www.onlydreaming.net/blog/sea-battle-now-with-more-processing))
+Another day -- or three, in this case -- brings another ton of functionality for Sea Battle.  (Previous posts: [1](http://ianrenton.com/blog/game-idea-spam-time), [2](http://ianrenton.com/blog/sea-battle-now-with-more-processing))
 
-Today's release reduces the target frame rate from 60 to 30 frames per second, in an attempt to alleviate the CPU hogging [reported by aefaradien](http://www.onlydreaming.net/blog/sea-battle-now-with-more-processing/comment-page-1#comment-2238) in the previous post's comments section.  As I said in the comments, it's not an issue I see on every machine, so I'd be grateful if any testers could tell me what PC setup they have, and how much CPU power the game takes up.
+Today's release reduces the target frame rate from 60 to 30 frames per second, in an attempt to alleviate the CPU hogging [reported by aefaradien](http://ianrenton.com/blog/sea-battle-now-with-more-processing/comment-page-1#comment-2238) in the previous post's comments section.  As I said in the comments, it's not an issue I see on every machine, so I'd be grateful if any testers could tell me what PC setup they have, and how much CPU power the game takes up.
 
 Today's version also fixes the spinning ships bug that just about everyone reported.  What it doesn't do is make mouse clicks any more responsive, which is annoying me too.  Please bear with it for today, I'll see if I can work out how to deal with that soon.
 
@@ -55,6 +55,6 @@ Mostly this release is about new features.  Sea Battle now has:
 
 The only real bit of functionality that's still missing is the research / build options.  Currently, clicking the Build button produces a ship of a predefined configuration -- you can't change that config or research better ones.  The AI builds random ships up to and including as powerful as your default one, and has a reasonable amount of 'thought delay' to its actions, meaning that you can achieve victory fairly easily.  (Just fill up the build queue and send every ship North as soon as it's built -- you'll lose a few, but enough should survive to destroy the enemy base.)
 
-[You can play the current version of Sea Battle as a Java applet by clicking here.](http://www.onlydreaming.net/files/Sea_Battle/)
+[You can play the current version of Sea Battle as a Java applet by clicking here.](http://files.ianrenton.com/Sea_Battle/)
 
-_Note: this blog post is old, and the applet now has more functionality than is described here. [The next blog post in the sequence is here.](http://www.onlydreaming.net/blog/sea-battle-here-comes-the-science-bit)_
+_Note: this blog post is old, and the applet now has more functionality than is described here. [The next blog post in the sequence is here.](http://ianrenton.com/blog/sea-battle-here-comes-the-science-bit)_

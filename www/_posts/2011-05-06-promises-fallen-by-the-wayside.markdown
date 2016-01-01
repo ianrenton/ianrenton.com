@@ -19,7 +19,7 @@ tags:
 - Spaff
 ---
 
-Nearly six months ago, I [sketched out some ideas](http://onlydreaming.net/blog/daily-promise-design-sketches) for a site then called "healthi.ly", since renamed to [Daily Promise](http://dp.onlydreaming.net).  In time I coded it up, made it public, and made the same commitment I have to other sites in the past -- [20 active users](http://onlydreaming.net/blog/announcing-daily-promise) gets it its own domain and investment of time and effort.  Less than that, and it goes how it goes.
+Nearly six months ago, I [sketched out some ideas](http://ianrenton.com/blog/daily-promise-design-sketches) for a site then called "healthi.ly", since renamed to [Daily Promise](http://dp.onlydreaming.net).  In time I coded it up, made it public, and made the same commitment I have to other sites in the past -- [20 active users](http://ianrenton.com/blog/announcing-daily-promise) gets it its own domain and investment of time and effort.  Less than that, and it goes how it goes.
 
 It never did make it to 20 users.  Its height was around 10, and has since fallen to just two.  Today, it falls to one.
 

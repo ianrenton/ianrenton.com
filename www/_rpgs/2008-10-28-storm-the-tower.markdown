@@ -404,7 +404,7 @@ firmly on a notebook of her own.</p>
 <p>Without waiting for the scientist&#039;s confirmation or otherwise, she<br />
 continued.  "I don&#039;t suppose you could point me in the direction<br />
 of the throne room, could you?  I seem to be a little lost..."</p>
-<p>[<font>The girl&#039;s picture is the one backed with purple-to-black on <a href="http://www.marmablue.co.uk/index.php?title=Changeling:_In_Love_and_War_Character_Roster">http://www.marmablue.co.uk/index.php?title=Changeling:_In_Love_and_War_Character_Roster</a> .</font>]</p>
+<p>[<font>The girl&#039;s picture is the one backed with purple-to-black on the character roster.</font>]</p>
 <hr />
 <p><b>Gustafssen</b></p>
 <p>"Hmmm what was that you say?  Throne room?"  Even as he spoke his hands were once more moving across his note book...</p>

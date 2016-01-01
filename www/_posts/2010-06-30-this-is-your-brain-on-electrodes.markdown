@@ -35,4 +35,4 @@ Unfortunately, to produce anything better than these kind of large-scale, insens
 
 Oh. Okay, that seems to be going pretty well too.
 
-So, er...  Can we bump up the electrode count on the ReNa, give it and the million-core processor a bit of WiFi, and see if we can make ourselves some [Guardian Angels](http://www.onlydreaming.net/fiction/forgotten-children/fc-info/forgotten-children-technology)?  Because I would be camping outside the lab like an Apple fanboy on NewiPhonemas.
+So, er...  Can we bump up the electrode count on the ReNa, give it and the million-core processor a bit of WiFi, and see if we can make ourselves some [Guardian Angels](http://ianrenton.com/fiction/forgotten-children/fc-info/forgotten-children-technology)?  Because I would be camping outside the lab like an Apple fanboy on NewiPhonemas.

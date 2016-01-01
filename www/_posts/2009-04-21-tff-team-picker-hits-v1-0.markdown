@@ -17,4 +17,4 @@ It's a utility for football noobs (like me) who play the [Telegraph fantasy foot
 
 It's now available as a stand-alone Windows executable as well as a Python script.  It's GPLv3 licenced.  If you play TFF (or are just very bored), feel free to download and play with it!  Bug reports / feature requests are welcome.
 
-[You can get it here.](http://www.onlydreaming.net/software/telegraph-fantasy-football-team-picker)
+[You can get it here.](http://ianrenton.com/software/telegraph-fantasy-football-team-picker)

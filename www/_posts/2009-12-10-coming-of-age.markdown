@@ -73,4 +73,4 @@ Having foolishly switched the thing off in the meantime, it took a few seconds o
 
 Will it quietly be replaced by gadgets a decade and a half its junior?  Or become a palmtop millionaire, and, er... and I'll have to work out what the heck a Psion 3a would do with a million quid.  Tune in on Saturday night to find out!
 
-_The lottery results are in!  You can find out what happened in [my next blog post, here](http://www.onlydreaming.net/blog/so-farewell-psion-3a).  Spoilers: I am still not a millionaire._
+_The lottery results are in!  You can find out what happened in [my next blog post, here](http://ianrenton.com/blog/so-farewell-psion-3a).  Spoilers: I am still not a millionaire._

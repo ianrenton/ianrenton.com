@@ -24,7 +24,7 @@ Ladies and gentlemen of the blogosphere, I am proud to announce the release of a
 
 [![Westminster Hubble Logo](//files.ianrenton.com/sites/blog/2010/07/hubblelogo.png)](http://www.westminsterhubble.com)
 
-A joint venture between [myself](http://www.onlydreaming.net/about-me) and [Chris Cox](http://recampaign.blogspot.com/2010/01/about-me.html), Westminster Hubble helps you stay in touch with your representatives in Parliament.
+A joint venture between [myself](http://ianrenton.com/) and [Chris Cox](http://recampaign.blogspot.com/2010/01/about-me.html), Westminster Hubble helps you stay in touch with your representatives in Parliament.
 
 Each MP has their own page, which you can navigate to by searching by name, constituency or postcode, or by selecting from a map of the UK or a list of everybody in the database.  Here's an example for one of Westminster's most tech-savvy, [Tom Watson](http://www.westminsterhubble.com/Tom%20Watson).
 

@@ -18,8 +18,8 @@ GOKU, a FAILURE, fails.  Then, when his FIRST EVER SUCCESS occurs, GREEN JAMES M
 
 ## By the Numbers
 
-  * Macguffins sought by good guys: 7 (wait, is this the same as [yesterday's film](http://onlydreaming.net/film-reviews/film-review-by-the-numbers-harry-potter-and-the-deathly-hallows-part-i)?)
-  * Air-bending techniques: 2 (wait, is this the same as [the film before that](http://onlydreaming.net/film-reviews/film-review-by-the-numbers-the-last-airbender)?)
+  * Macguffins sought by good guys: 7 (wait, is this the same as [yesterday's film](http://ianrenton.com/filmreviews/harry-potter-and-the-deathly-hallows-part-i)?)
+  * Air-bending techniques: 2 (wait, is this the same as [the film before that](http://ianrenton.com/filmreviews/the-last-airbender)?)
 
 ...You know what?  Screw it.  
   

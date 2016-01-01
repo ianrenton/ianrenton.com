@@ -102,7 +102,7 @@ What's next for CatchUp is largely down to you.
 
 I am a UX guy and a Java/Python/PHP developer with zero experience of mobile app development -- I can do a mean usability study, but I can't make this app myself in a sensible amount of time.
 
-**If you want to help make this app, [get in touch](http://onlydreaming.net/contact).**  I can't do it without help.
+**If you want to help make this app, [get in touch](mailto:ian@ianrenton.com).**  I can't do it without help.
 
 **If you want this app to exist but can't help, share this post!**  Eventually it'll get to someone with the time, skill and inclination to help out.
 

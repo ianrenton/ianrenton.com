@@ -13,7 +13,7 @@ tags:
 - Dreaming Awake
 ---
 
-<p><img src="http://onlydreaming.net/images/portraits/kyren.png" style="float:right" /></p>
+<p><img src="//files.ianrenton.com/images/portraits/kyren.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"Me?  I&#039;m just a traveller," I say.  "I know that won&#039;t exactly satisfy your curiosity, but that&#039;s all there is to say.  I travel, one city to the next.  Yes, there&#039;s a reason.  No, I don&#039;t have a home to go to."</p>

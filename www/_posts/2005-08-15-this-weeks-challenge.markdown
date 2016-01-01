@@ -14,7 +14,7 @@ Recently, since I've been staying at my parents' house, I've been walking near a
 
 I'm putting the results on the 'net for anyone to read, should they desire:  
 
-<a href="http://www.marmablue.co.uk/index.php?title=Flashbacks_(Childhood_Memories_Project)">Flashbacks (Childhood Memories Project)</a>  
+<a href="http://scraps.ianrenton.com/childhood-memories.txt">Flashbacks (Childhood Memories Project)</a>  
 
 A warning - it's already pretty long, just from one day's work...  
 

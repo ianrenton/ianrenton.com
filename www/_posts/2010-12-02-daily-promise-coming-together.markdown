@@ -24,7 +24,7 @@ tags:
 - Web
 ---
 
-Despite the lack of response to my [earlier post](http://www.onlydreaming.net/blog/daily-promise-design-sketches), in which I floated my design concepts for "Daily Promise", boredom won out in the end and I started coding anyway.
+Despite the lack of response to my [earlier post](http://ianrenton.com/blog/daily-promise-design-sketches), in which I floated my design concepts for "Daily Promise", boredom won out in the end and I started coding anyway.
 
 It's now coming together, and all bar the Twitter-integrated social aspects are largely complete.  Here's how it's developed:
 

@@ -16,6 +16,4 @@ On the Common all through the afternoon and evening, there will be a celebration
 
 Everyone is invited!  
 
-<a href=http://www.marmablue.co.uk/fileserve/birthday-invite.pdf>Your official invitation!  (130KB PDF)</a>  
-
 <font size=small>* May be a lie</font>

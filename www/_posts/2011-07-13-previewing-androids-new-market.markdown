@@ -42,4 +42,4 @@ Less welcome is that the "My Apps" page -- which must be visited to perform upgr
 
 The Google Mobile blog promises movies and books integrated with the Market for US customers, which may explain why I didn't see these options on my UK phone.  There is also a [rumour](http://www.androidcentral.com/google-movies-blocked-rooted-devices) that rooted devices will be unable to play movies from Google's service due to licencing restrictions.
 
-Oh, and the best thing about the new Market version?  You don't have to wait for it to be rolled out to your phone in a few weeks' time.  Provided you have non-Market application installs supported, you can [download the APK right here](http://onlydreaming.net/files/com.android.vending-1.apk).
+Oh, and the best thing about the new Market version?  You don't have to wait for it to be rolled out to your phone in a few weeks' time.  Provided you have non-Market application installs supported, you can [download the APK right here](http://files.ianrenton.com/com.android.vending-1.apk).

@@ -13,7 +13,7 @@ tags:
 - Dreaming Awake
 ---
 
-<p><img src="http://onlydreaming.net/images/portraits/alice-dreamingawake.png" style="float:right" /></p>
+<p><img src="//files.ianrenton.com/images/portraits/alice-dreamingawake.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>Now that I have reached adulthood, certain things are becoming more and more apparent to me.  Like the state of our nation, for a start.</p>

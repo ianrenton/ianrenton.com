@@ -24,8 +24,8 @@ It's still under heavy development, and there are probably a ton of bugs and mis
 
 The source code is licenced under the GNU GPL v3.
 
-  * [SuccessWhale](http://www.onlydreaming.net/successwhale/index.php) <<< Try Me!
+  * [SuccessWhale](http://successwhale.com) <<< Try Me!
 
-  * [About SuccessWhale, Source Code, etc.](http://www.onlydreaming.net/software/successwhale)
+  * [About SuccessWhale, Source Code, etc.](http://ianrenton.com/software/successwhale)
 
 Update: Due to a move to the proper OAuth API, the software could no longer continue to be called FailWhale, as someone's already written a Twitter app with that name!  Thus, until I or someone else comes up with a good idea, it's called SuccessWhale.

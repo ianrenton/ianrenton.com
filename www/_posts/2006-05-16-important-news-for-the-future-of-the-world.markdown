@@ -14,4 +14,4 @@ Of particular importance to DJ Andy and anyone who believes Dragonball Z to be a
 
 <b>Nappa is not in fact dead!</b>  The burly Saiyan is alive and well and working in Southampton as an Urban music DJ:  
 
-<img src="http://www.marmablue.co.uk/images/random/dj-nappa.jpg">
+<img src="http://files.ianrenton.com/images/random/dj-nappa.jpg">

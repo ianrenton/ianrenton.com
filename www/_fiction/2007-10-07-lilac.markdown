@@ -14,7 +14,7 @@ tags:
 - Exalted
 ---
 
-<p><img src="http://onlydreaming.net/images/portraits/lilac.png" style="float:right" /></p>
+<p><img src="//files.ianrenton.com/images/portraits/lilac.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"Lilac is...  Lilac is unique," Shiiai said, taking over for me when I got all shy.  She tells a story about me that everyone knows, so it must be true, even if I don&#039;t remember it.</p>

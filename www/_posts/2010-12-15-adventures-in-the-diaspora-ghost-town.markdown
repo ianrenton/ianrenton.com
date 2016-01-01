@@ -21,7 +21,7 @@ tags:
 - Software
 ---
 
-[Diaspora*](https://joindiaspora.com), for those unaware, is a distributed and privacy-conscious social network currently in development by students at New York University.  It raised [$200,000 of funding](http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr) via Kickstarter back in June, and is currently in alpha testing state.  By virtue of [my pseudowife's](http://onlydreaming.net/ericthegirl) donation, we have been sent both the developer preview software itself, and invites for the Disapora "pod" at [joindiaspora.com](https://joindiaspora.com).
+[Diaspora*](https://joindiaspora.com), for those unaware, is a distributed and privacy-conscious social network currently in development by students at New York University.  It raised [$200,000 of funding](http://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr) via Kickstarter back in June, and is currently in alpha testing state.  By virtue of [my pseudowife's](http://ericthegirl.onlydreaming.net) donation, we have been sent both the developer preview software itself, and invites for the Disapora "pod" at [joindiaspora.com](https://joindiaspora.com).
 
 For my first impressions, read on!
 
@@ -41,7 +41,7 @@ It was 10pm when I started the procedure, and about 10:03 when I decided I could
 
 It may have taken me until gone midnight to set up, and given that an invite to `joindiaspora.com` was imminent, all I would get out of it would be being able to say I'd done it.  Bragging rights aren't much of an incentive.
 
-With all those dependencies, Diaspora is also not going to be supported by shared hosting providers any time soon, so piggybacking off `onlydreaming.net` wasn't an option either.
+With all those dependencies, Diaspora is also not going to be supported by shared hosting providers any time soon, so piggybacking off "onlydreaming.net" wasn't an option either.
 
 Unless the installation process is drastically simplified -- made foolproof, almost -- and the dependencies are reduced, very few people are going to be able to run their own pod.  And that means there's still the question of trust -- just like we now have to trust Facebook not to be evil (whoops), with Diaspora we also have to trust whoever runs the pod we use.
 

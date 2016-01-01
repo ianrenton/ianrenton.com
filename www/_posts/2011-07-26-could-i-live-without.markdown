@@ -23,7 +23,7 @@ tags:
 - Twitter
 ---
 
-A couple of months ago, I was particularly scathing about the crop of Facebook games that I was playing, particularly [ones that had no end](http://onlydreaming.net/blog/on-game-design-time-to-quit). The result? I no longer play any games on Facebook whatsoever. As I bemoaned at length, not one of them was _adding_ to my life in any appreciable way.
+A couple of months ago, I was particularly scathing about the crop of Facebook games that I was playing, particularly [ones that had no end](http://ianrenton.com/blog/on-game-design-time-to-quit). The result? I no longer play any games on Facebook whatsoever. As I bemoaned at length, not one of them was _adding_ to my life in any appreciable way.
 
 I wonder if it is now a good time to apply the same logic to various online services -- to be extremely critical of them, to discover whether or not they actually add any value to my life. In short, could I live without...
 
@@ -59,7 +59,7 @@ But there's a few close friends and family that don't use Twitter, and closing m
 
 ## 5. Google+
 
-[![](//files.ianrenton.com/sites/blog/2011/07/google_plus.png)](//files.ianrenton.com/sites/blog/2011/07/google_plus.png)Like many geeks, I am an "early adopter" of Google+, a social network that's still in beta.  Now and again I load the page or run the mobile app, to see what people have posted -- and they've posted exactly the same as they posted on Twitter.  Plus, [without an API](http://onlydreaming.net/blog/a-place-for-google-plus), I never bother to manually copy my own Twitter and Facebook posts to G+ too.
+[![](//files.ianrenton.com/sites/blog/2011/07/google_plus.png)](//files.ianrenton.com/sites/blog/2011/07/google_plus.png)Like many geeks, I am an "early adopter" of Google+, a social network that's still in beta.  Now and again I load the page or run the mobile app, to see what people have posted -- and they've posted exactly the same as they posted on Twitter.  Plus, [without an API](http://ianrenton.com/blog/a-place-for-google-plus), I never bother to manually copy my own Twitter and Facebook posts to G+ too.
 
 It's nice to be in there in case it picks up and becomes the next Social Network to Rule them All.  But right now, it's taking up brain power and space on my bookmarks toolbar, and I'm gaining nothing from it.
 
@@ -67,7 +67,7 @@ It's nice to be in there in case it picks up and becomes the next Social Network
 
 ## 6. LiveJournal
 
-[![](//files.ianrenton.com/sites/blog/2011/07/livejournal.jpg)](//files.ianrenton.com/sites/blog/2011/07/livejournal.jpg)All my LiveJournal posts are already syndicated from my blog, and I go through phases of disabling comments on my LiveJournal posts to drag people to comment on the blog itself.  It rarely works, but I have so little interaction with people through LiveJournal these days that it barely matters.  [LiveJournal is dying](http://onlydreaming.net/blog/the-rise-and-fall-of-livejournal), at least from my perspective, and I have already declared it time to quit.  Perhaps now is the time.
+[![](//files.ianrenton.com/sites/blog/2011/07/livejournal.jpg)](//files.ianrenton.com/sites/blog/2011/07/livejournal.jpg)All my LiveJournal posts are already syndicated from my blog, and I go through phases of disabling comments on my LiveJournal posts to drag people to comment on the blog itself.  It rarely works, but I have so little interaction with people through LiveJournal these days that it barely matters.  [LiveJournal is dying](http://ianrenton.com/blog/the-rise-and-fall-of-livejournal), at least from my perspective, and I have already declared it time to quit.  Perhaps now is the time.
 
 **Verdict: Yes.**
 
@@ -91,7 +91,7 @@ It's nice to be in there in case it picks up and becomes the next Social Network
 
 ## 10. Foursquare
 
-[![](//files.ianrenton.com/sites/blog/2011/07/foursquare.jpeg)](//files.ianrenton.com/sites/blog/2011/07/foursquare.jpeg)In using Foursquare, I may be just as much a victim of the [sunk cost fallacy](http://www.skepdic.com/sunkcost.html) as I was in all those Facebook games.  I've now been "playing" for so long that I've stopped caring about beating my friends; stopped caring how far away the next [wall-chart sticker](http://onlydreaming.net/blog/the-sticker-economy) might be.  Checking in is just _something I do_ when I arrive at a place.  I'm now essentially getting nothing out of Foursquare, even though I'm still reliably giving the company and its affiliates a complete history of where I go and where I shop.
+[![](//files.ianrenton.com/sites/blog/2011/07/foursquare.jpeg)](//files.ianrenton.com/sites/blog/2011/07/foursquare.jpeg)In using Foursquare, I may be just as much a victim of the [sunk cost fallacy](http://www.skepdic.com/sunkcost.html) as I was in all those Facebook games.  I've now been "playing" for so long that I've stopped caring about beating my friends; stopped caring how far away the next [wall-chart sticker](http://ianrenton.com/blog/the-sticker-economy) might be.  Checking in is just _something I do_ when I arrive at a place.  I'm now essentially getting nothing out of Foursquare, even though I'm still reliably giving the company and its affiliates a complete history of where I go and where I shop.
 
 **Verdict: Hell yes, ditch this yesterday.**
 

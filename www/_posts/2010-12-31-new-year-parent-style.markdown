@@ -30,10 +30,10 @@ We had plans for the evening -- a bad film for us to mock, a Skype call to the p
 
 I see ourselves now, becoming the old grumpy parents that we never thought we'd be -- not because we decided that's what we wanted in the end, but because that's what life conspires to make us.
 
-If I get one wish for the new year (and I make this fully in the knowledge of how [this one](http://onlydreaming.net/blog/a-wish) turned out [a year later](http://onlydreaming.net/blog/beyond-good-and-evil)) it is that I have at least enough energy to defy the continual abrasion of life; enough that it buffs me to a shine rather than wearing me down to nothing.
+If I get one wish for the new year (and I make this fully in the knowledge of how [this one](http://ianrenton.com/blog/a-wish) turned out [a year later](http://ianrenton.com/blog/beyond-good-and-evil)) it is that I have at least enough energy to defy the continual abrasion of life; enough that it buffs me to a shine rather than wearing me down to nothing.
 
 And for any of you who fear the same, I wish it just as strongly.  Become shiny, you strange internet-pebbles.
 
 Happy New Year.
 
-_(On the plus side, back in 2009's final days, [I asked that 2010 bring jetpacks and flying cars](http://onlydreaming.net/blog/2009-in-thoughts-words-and-pictures).  I got my [jetpacks](http://www.martinjetpack.com/) and [flying cars](http://www.theregister.co.uk/2010/04/14/darpa_marines_flying_car/).)_
+_(On the plus side, back in 2009's final days, [I asked that 2010 bring jetpacks and flying cars](http://ianrenton.com/blog/2009-in-thoughts-words-and-pictures).  I got my [jetpacks](http://www.martinjetpack.com/) and [flying cars](http://www.theregister.co.uk/2010/04/14/darpa_marines_flying_car/).)_

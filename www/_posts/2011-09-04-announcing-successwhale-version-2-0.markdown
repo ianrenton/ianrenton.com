@@ -22,7 +22,7 @@ tags:
 - Web App
 ---
 
-Ladies and Gentlemen of the Internet, I am pleased to announce that [SuccessWhale](http://onlydreaming.net/software/successwhale) version 2.0 has just been released and is now live on [SuccessWhale.com](https://successwhale.com).
+Ladies and Gentlemen of the Internet, I am pleased to announce that [SuccessWhale](http://ianrenton.com/software/successwhale) version 2.0 has just been released and is now live on [SuccessWhale.com](https://successwhale.com).
 
 SuccessWhale is a web-based client for Twitter and Facebook, written in PHP, JavaScript and MySQL.  It offers a multi-column view that allows users to merge together information from all their connected accounts and view it at a glance from any web browser.
 

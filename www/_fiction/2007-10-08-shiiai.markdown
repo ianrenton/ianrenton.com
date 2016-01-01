@@ -14,7 +14,7 @@ tags:
 - Exalted
 ---
 
-<p><img src="http://onlydreaming.net/images/portraits/shiiai.png" style="float:right" /></p>
+<p><img src="//files.ianrenton.com/images/portraits/shiiai.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"I, um...  I-I-I-I&#039;m Shiiai," I mutter, ashamed of stuttering even as I was halfway through doing so.</p>

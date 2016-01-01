@@ -10,4 +10,4 @@ categories:
 - Personal
 ---
 
-<a href="http://www.marmablue.co.uk/fileserve/birthday-invite.pdf"><img src="http://www.marmablue.co.uk/images/random/bday-ad-dnf.jpg" border=0></a>
+<img src="http://files.ianrenton.com/images/birthday-ads/bday-ad-dnf.jpg"/>

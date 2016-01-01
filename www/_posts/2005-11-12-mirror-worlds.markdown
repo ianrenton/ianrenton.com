@@ -7,7 +7,7 @@ slug: mirror-worlds
 title: Mirror Worlds
 wordpress_id: 399
 categories:
-- Politics
+- Personal
 ---
 
 Last night, after one of the most fun parties I've ever been to, I was asleep almost as soon as my head touched the pillow.  I slept, and dreamed...  Dreamed of the party.  Slighty different, of course - we talked about different things, but it was still most certainly that party.  It left me, upon waking, with the exact same feeling I'd had after the party itself - a wonderful sense of rightness, and comfort, and stability.  

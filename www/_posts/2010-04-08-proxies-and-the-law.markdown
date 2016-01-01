@@ -21,7 +21,7 @@ tags:
 - UK
 ---
 
-In light of the [passing of the Digital Economy Bill](http://www.onlydreaming.net/blog/welcome-to-the-new-digital-economy), and Ben Bradshaw's intent to push for [government power to force ISPs to block sites that are "likely" to be used for copyright infringement](http://paidcontent.co.uk/article/419-digital-economy-bill-govt-will-put-site-blocking-to-consultation-and-vo/), the government could in a few months' time demand that ISPs block access to the likes of Wikileaks, The Pirate Bay and Rapidshare, all sites that have perfectly legal uses.  And I'm sure it can't be long before the government and the IWF together have a go at 4chan.
+In light of the [passing of the Digital Economy Bill](http://ianrenton.com/blog/welcome-to-the-new-digital-economy), and Ben Bradshaw's intent to push for [government power to force ISPs to block sites that are "likely" to be used for copyright infringement](http://paidcontent.co.uk/article/419-digital-economy-bill-govt-will-put-site-blocking-to-consultation-and-vo/), the government could in a few months' time demand that ISPs block access to the likes of Wikileaks, The Pirate Bay and Rapidshare, all sites that have perfectly legal uses.  And I'm sure it can't be long before the government and the IWF together have a go at 4chan.
 
 A few questions for any internet lawyer-types out there:
 

@@ -12,8 +12,8 @@ categories:
 
 This evening I spent n hours (where n is too many) redesigning my site a bit due to an idea I had earlier in the day.  Behold its shiny shiny glory!  
 
-<a href="http://www.marmablue.co.uk/">http://www.marmablue.co.uk/</a>  
+<a href="http://ianrenton.com/">http://ianrenton.com/</a>  
 
-Probably goes against every web style "rule" ever written, but what the heck.  Certainly suits the site more than the <a href="http://www.marmablue.co.uk/index.php?title=Main_Page&useskin=onlydreaming">kind-of technical looking version</a> or my aborted attempt at <a href="http://www.marmablue.co.uk/index.php?title=Main_Page&useskin=onlydreaming2">Web-2.0 aesthetics</a>.  
+Probably goes against every web style "rule" ever written, but what the heck.  Certainly suits the site more than the previous two versions.  
 
 But look!  It uses CSS *almost* properly!  And it looks vaguely similar in Firefox and IE too!  It's a breakthrough!

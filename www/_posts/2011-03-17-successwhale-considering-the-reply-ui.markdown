@@ -23,7 +23,7 @@ tags:
 - UX
 ---
 
-What was once my simple Twitter client, [SuccessWhale](http://onlydreaming.net/software/successwhale), is undergoing a lot of changes in the build-up to version 2.  One of the biggest changes is the support for multiple services, of which Facebook is the first to be integrated.  This, combined with the Twitter website's new design, brings into question SuccessWhale's "reply" UI.
+What was once my simple Twitter client, [SuccessWhale](http://ianrenton.com/software/successwhale), is undergoing a lot of changes in the build-up to version 2.  One of the biggest changes is the support for multiple services, of which Facebook is the first to be integrated.  This, combined with the Twitter website's new design, brings into question SuccessWhale's "reply" UI.
 
 There's no question that there should be a big "type your status update here" box at the top.  Both incarnations of Twitter do this, Facebook does this, every non-mobile client (and a few mobile ones too) does it.  It's what users expect, and I see no reason not to stick with it.
 

@@ -14,7 +14,7 @@ A game finished last night, but more than that, a story finished last night.  Th
 
 Unable to sleep when the game ended at 6am, I had no choice but to get all the thoughts and emotions out of my head.  So, for the next two hours until I felt like I could sleep again, I wrote.  This is the, as yet unedited, result.  
 
-<a href="http://www.marmablue.co.uk/index.php?title=A_Decade_Went_Past">A Decade Went Past</a>  
+<a href="http://ianrenton.com/fiction/a-decade-went-past">A Decade Went Past</a>  
 
 It's as close as I can come to an epilogue for the story.  It's not very good but, despite the high note on which the game ended, I felt that some kind of future had to be written, just to see where things might end up...  
 

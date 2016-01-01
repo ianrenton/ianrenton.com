@@ -14,8 +14,8 @@ Pretty much everyone on my project was out at a meeting today, leaving me with p
 
 Here's today's cranked out junk:  
 
-<a href="http://www.marmablue.co.uk/index.php?title=The_Golden_Age">The Golden Age</a>, an extremely apocalyptic side-story to the latter stages of Dreaming Awake, and  
+<a href="http://ianrenton.com/fiction/the-golden-age">The Golden Age</a>, an extremely apocalyptic side-story to the latter stages of Dreaming Awake, and  
 
-<a href="http://www.marmablue.co.uk/index.php?title=Caramel's_Talent">Caramel's Talent</a>, a fragment about Caramel, because I wanted to write something about her and I have semi-permanent writer's block on Serenade of Sunlight.  
+<a href="http://ianrenton.com/fiction/caramel-s-talent">Caramel's Talent</a>, a fragment about Caramel, because I wanted to write something about her and I have semi-permanent writer's block on Serenade of Sunlight.  
 
 Enjoy!  Comments, as ever, appreciated.

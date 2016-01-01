@@ -24,7 +24,7 @@ tags:
 - Sunk Cost
 ---
 
-Not long after my [post about the game _DJ Rivals_](http://onlydreaming.net/blog/on-game-design-dj-rivals), I finished the main part of the game and hit a metaphorical wall. There was no more story; I'd bought every item in the store and mastered the game's hardest moves. The game tries to offer replay value via progressively harder missions based on those earlier in the game, and via battles against human players of comparable level. The latter offers nothing to play for apart from in-game money, which I already had in abundance, while the former offers only the elusive carrot of 100% completion, which dangled too far distant for me to want it much.
+Not long after my [post about the game _DJ Rivals_](http://ianrenton.com/blog/on-game-design-dj-rivals), I finished the main part of the game and hit a metaphorical wall. There was no more story; I'd bought every item in the store and mastered the game's hardest moves. The game tries to offer replay value via progressively harder missions based on those earlier in the game, and via battles against human players of comparable level. The latter offers nothing to play for apart from in-game money, which I already had in abundance, while the former offers only the elusive carrot of 100% completion, which dangled too far distant for me to want it much.
 
 So I stopped playing -- which is probably fair enough. I'd played it, enjoyed it, finished it and stopped. But it got me thinking about the number of games I've played that _don't_ end.
 

@@ -24,4 +24,4 @@ Completely unexpectedly bad.
 
 I believe it may be explained thusly:  
 
-<img src="http://www.marmablue.co.uk/images/random/doomvsresults.jpg">
+<img src="http://files.ianrenton.com/images/random/doomvsresults.jpg">

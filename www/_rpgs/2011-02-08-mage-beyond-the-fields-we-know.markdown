@@ -30,7 +30,7 @@ The game is set around the end of the year 1999, as Millennium Bug fever tighten
 
 And you know that the Millennium Bug is more than just programmers' lack of foresight. Much more.
 
-My scene-setting story fragment, "Catching the Bug", is here: <a href="http://fiction.ianrenton.com/catching-the-bug">http://onlydreaming.net/fiction/short-stories/catching-the-bug</a>.
+My scene-setting story fragment, "Catching the Bug", is here: <a href="http://fiction.ianrenton.com/catching-the-bug">http://ianrenton.com/fiction/short-stories/catching-the-bug</a>.
 <h3>When and How?</h3>
 This is where it gets a little trickier. This started off as merely an interesting idea - how far can I blur the boundaries between the activities of the Virtual Adept and of their player - and it remains to be seen whether the idea will translate well into practice.
 

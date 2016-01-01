@@ -30,7 +30,7 @@ It's most un-Facebook-like feature is its "Circles" -- groups of people that you
 
 [![Google+ Circles Manager](//files.ianrenton.com/sites/blog/2011/06/circles-500x185.png)](//files.ianrenton.com/sites/blog/2011/06/circles.png)
 
-If this is sounding a lot like Diaspora to you, well... it is.  Aside from the distributed nature of Diaspora, it's virtually identical -- including the slow invite procedure that causes it to be a [virtual ghost town](http://onlydreaming.net/blog/adventures-in-the-diaspora-ghost-town) at the moment.  Only time will tell if it suffers from the same problem, the root cause of which being that it is not the world's first social network.
+If this is sounding a lot like Diaspora to you, well... it is.  Aside from the distributed nature of Diaspora, it's virtually identical -- including the slow invite procedure that causes it to be a [virtual ghost town](http://ianrenton.com/blog/adventures-in-the-diaspora-ghost-town) at the moment.  Only time will tell if it suffers from the same problem, the root cause of which being that it is not the world's first social network.
 
 It has some great ideas, and if nobody were members of Twitter or Facebook already, it would be easy to say "yeah, this is great, let's all use this".  But Google+ requires effort -- time taken to invite friends, curate your groups, set up sharing preferences.  It's a reasonable amount of effort to invest for people that aren't sure if their friends are going to use it too.
 

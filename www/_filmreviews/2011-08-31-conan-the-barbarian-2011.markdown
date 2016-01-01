@@ -12,7 +12,7 @@ tags:
 - Conan
 ---
 
-> Guest Post by [eric](http://onlydreaming.net/ericthegirl).
+> Guest Post by [eric](http://ericthegirl.onlydreaming.net).
 
 ## Synopsis
 
