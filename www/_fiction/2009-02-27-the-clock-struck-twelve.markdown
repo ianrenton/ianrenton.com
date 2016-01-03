@@ -16,7 +16,9 @@ tags:
 - Story
 ---
 
-<p align="center"><i>for Rhiannon</i></p><br/>
+> for Rhiannon<br/>
+
+<div class="story" markdown="1">
 <p>So, tonight was the night.  Now or never, and all that.  That&#039;s the thought I kept trying to push to the front of my mind, to keep back the disappointment that I&#039;d started feeling even now, before I even knew.</p>
 <p>She&#039;d been a drinker, our mum, though she swore blind to us she&#039;d never touched more than half a glass.  When we were kids, we never knew what it was that made her weird, but Dad did.  They fought a lot after we went to bed.  But when dad was away, sometimes, she&#039;d come back from the pub all calm and thoughtful.  What thoughts she had were no good, of course, the not-quite-sane bubbling of a pickled brain.  But one thought she went back to night after night, and sometimes even when she was sober, was this old grandfather clock.  It was her mother&#039;s, she&#039;d slur, and her grandmother&#039;s.  “Heirloom” must have been the word she searched for but never discovered.  Which meant, I supposed, that it was now mine.</p>
 <p>Except that it wasn&#039;t.  Because our mum didn&#039;t just drink away our money, she drank away other people&#039;s too, and now them people wanted it back.  So tomorrow, the debt collectors would be coming.  Dad said we couldn&#039;t stop them taking anything they wanted, so we figured that meant our life was about to involve a lot of sitting on the floor and no TV.  Any normal kid would be outraged.  At any normal time, so would I.  But since our mum passed away, nothing&#039;s seemed real anyway.  Like it doesn&#039;t matter whether we have a sofa and a telly, because something&#039;s changed that&#039;s beyond that, like something the TV and dad and the collectors and the rest of them could never understand.</p>
@@ -61,3 +63,4 @@ tags:
 <p>"Why not the clock, Dad?  Thought mum said it was worth a few bob."</p>
 <p>"Nah," said Dad with a sigh.  "Nothing.  Besides, ain&#039;t really mine to sell."</p>
 <p>"Oh," I said, wondering if he meant it was Mum&#039;s or mine.  But I looked up at its slowly swinging pendulum, and its hands ticking on towards another midnight, and I realised it didn&#039;t really matter.  What mattered was that everything was going to be okay in the end, and someday, we&#039;d dance again.</p>
+</div>

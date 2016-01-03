@@ -20,8 +20,10 @@ tags:
 <p>To my players:  It is Hallowe&#039;en now, a fitting time for drawing endeavours to a close.  And thus the Changeling game, which has flagged in recent months, is no more.  I would like to sincerely thank you all for taking part in a game that has lasted well into its third year and churned out nearly 200,000 words of some of the most enjoyable and amusing fiction I have ever had the pleasure of reading.  More than anything else, I hope you have all had as much fun with this game as I have.</p>
 <p>This is my present to you - the ending for the game that never ended, the finalé and the epilogue of <a href="../changeling-in-love-and-war">"Changeling: In Love and War"</a> as I hoped they would be.</p>
 </div>
-<div>
+
 <h3>Part I.  An Old Friend</h3>
+
+<div class="story" markdown="1">
 <p>Never could one have imagined a stranger group of Lords and Ladies than that which stood at the foot of the Black Rose tower.  Politicians of renown they were not, and nor were they leaders of war – those lay dead or dying across the sacred Queen&#039;s Square where the final battle between Red and White had found its crescendo.</p>
 <p>Duke Cain and Duchess Ilandra Honeysuckle, and Duke Abel Poppy, attired in their ducal robes and armour.  Viscountess Saledenre, whose eyes had seen more than most, and Serin, the Poppies&#039; ultimate weapon in the battle that never came.  Earl Nyano, and his father Serendil, for whom Politics has brought more danger than they thought possible.  Akane, as mysterious as ever, and Albert, the pawn who came good in the end.  Gustafssen, who chuckled to himself as he reviewed page after page of documents stolen from the tower itself by his vitamin-rich task force.  Azimov, who had saved House after House in battle but still had not returned to his own.</p>
 <p>And Hugh who, with the unmistakably British battle-cry of “No time like the present, eh chaps?”, kicked open the heavy oak doors of the tower and led the rag-tag group inside.</p>
@@ -67,8 +69,11 @@ tags:
 <p>“Run, idiots!” Serin shouted, and with that jolted life back into the faeries.  “I&#039;ll deal with her, you carry on!”</p>
 <p>All bar Azimov turned and sprinted past the slowly-standing Elaine, heading for the stairs at the back of the chamber.  The Snapdragon noble, though, charged straight for the Black Rose risking his life as a distraction.  As his glamour-glass sabre clashed against Elaine&#039;s iron, the magic died immediately and the glass shattered in sympathy.  He drew his bronze blade, and charged again...</p>
 <p>The drum-beat footsteps of the remaining faeries sprinting up the stone staircase was enough to drown out the metal-on-metal clashes of swords below.  But no matter how high they got, nothing seemed to disguise the regular rumble of gunfire, and nothing disguised the screams.</p>
-<br />
+</div>
+
 <h3>Part II.  The Forest, and What they Found There</h3>
+
+<div class="story" markdown="1">
 <p>The long ascent gave the faeries almost too much time to dwell on what had happened over the past few months, and what was yet to happen.  Fairyland had awoken from its Winter lacking a King and Queen; with only the Council of thirteen Dukes and Duchesses to rule the land.  And what a job they&#039;d done!  Within weeks of the beginning of Spring, the Council were divided down the middle by the charismatic Rose Dukes, and war was declared.  All for to decide which of them would become King and take a bride as Queen.</p>
 <p>And now, the Council was no more.  A couple of its members had survived, by pulling out of the war just as the enemy reached their gates, but the majority of them lay dead on fields of blood alongside the Roses.</p>
 <p>No King, no Queen, no Council.  The power vacuum was not easily filled, not least because nobody wanted the job anymore.  The most powerful faction in the land was the Black Rose Committee, but the group now ascending the tower was determined not to let them fill it.  Using iron, sealing away magic, genocide that killed the very souls of their opponents – the Black Roses&#039; list of crimes was immense.</p>
@@ -97,8 +102,11 @@ tags:
 <p>"Albert, no!" cried Akane.</p>
 <p>Albert stopped just short of turning his back on the Cheshire Cat, and span to face the Pooka.  The cat, for his part, just grinned, and faded away.</p>
 <p>"Be seeing you," he whispered as he flickered into a grimace, and was gone.</p>
-<br />
+</div>
+
 <h3>Part III.  The Story of the Alice Game is Told</h3>
+
+<div class="story" markdown="1">
 <p>Once their heart rates had settled after their brief moment of panic, they began to walk again.  This time they did not move so casually.  At the edges of the group the warriors amongst them paced steadily, their eyes flickering back and forth across the forest and their hands resting uneasily on weapons.  Toward the centre, Akane was debating with herself just how much she could tell Albert, what with him being a commoner and all.</p>
 <p>Saledenre had no such reservations, however, and without waiting for Akane to stop looking troubled, she decided to tell the tale for Albert&#039;s sake anyway.</p>
 <p>"Once upon a time," the Eshu began, "there was a Duchess who was thoroughly Unseelie of thought and sadistic in particular.  No-one in all of Fairyland much liked her, nor she them, and so she frequently found herself alone.  But being alone is boring, and so since she could abide none of her own kind, she sought out humans to entertain her.</p>
@@ -138,8 +146,11 @@ tags:
 <p>"I...  I guess you&#039;re right.  We&#039;ll be back for you on the way down!" Ilandra called after her as she and the rest of the group made off at speed into the forest, leaving Akane and Albert to deal with their adversaries.</p>
 <p>Akane took aim with her pistol, and knocked the hat clean off the Hatter&#039;s head to reveal a bald patch underneath.  The gun works!  But of course, why wouldn&#039;t it?  Though the fae created these things, it was human stories that gave them life.  Modern human stories.  The Mad Hatter, the Dormouse and the Cheshire Cat came from a world that knew about firearms!</p>
 <p>As Albert rushed their opponents, his sabre trailing globules of Marmite behind him, a grin spread across Akane&#039;s face to rival even the Cheshire Cat&#039;s.</p>
-<br />
+</div>
+
 <h3>Part IV.  What was Lost is Found Again</h3>
+
+<div class="story" markdown="1">
 <p>They looped around the clearing, trusting Akane and Albert to emerge the victors from the combat still going on behind them.  Even as the path started to incline steadily, the faeries quickened their pace at Abel&#039;s insistence.  After all, who knew what destructive deeds were being planned by the Black Rose Committee now that the Rose Dukes were dead, and how long their plans might take them to carry out?  Every moment they dallied, they thought, some disaster loomed closer...</p>
 <p>Before very long, they reached stone steps that led up to a plateau.  In the centre of which stood-</p>
 <p>"Mother!" shouted Abel, rushing forwards, for it was Regara!  But he stopped short - something was wrong.</p>
@@ -165,7 +176,11 @@ tags:
 <p>"The rest of you, too," said Cain.  "Abel and I will stay.  We&#039;ve got a lot of explaining to do when she wakes up."</p>
 <br />
 <p>Five, in the end, marched onwards.  Ilandra, Nyano, Saledenre, Hugh and Gustafssen, reluctantly leaving yet another group behind, started to make their way up the steps at the far edge of the plateau.  And, as they ascended, light rose up from the ground in swirls and sparkles, surrounding them and enveloping them.</p>
+</div>
+
 <h3>Part V.  Atop the Black Rose Tower</h3>
+
+<div class="story" markdown="1">
 <p>The light cleared around them, disappearing into the floor in helical patterns just as swiftly as it had sprung up.  No longer did they stand on stone steps rising up out of the forest, but rather they were back inside something identifiable as a tower again.</p>
 <p>Obsidian glass, which had looked black as night from a distance, now resolved itself to be translucent from up close.  It surrounded them on three sides, the fourth being taken up by an imposing black-carpeted and gilt-etched staircase rising up into the tower&#039;s peak.  Scattered across it lay black roses, as if some jilted lover discarded them one by one during her sad descent.</p>
 <p>Atop the stairs and through an open archway lay another expanse that was undoubtedly wider than the tower, although this time at least it gave the pretense of being a room rather than an entire forest.  At its centre rested a gigantic table, taking a good ten seconds to walk each of its sides, on which were etched various connecting wavy lines and models of castles and soldiers.</p>
@@ -199,7 +214,11 @@ tags:
 <p>Its occupant stood, a face dimly visible atop a dress that the light illuminated only as black.  Dark brown hair fell razor-edge straight over her shoulders.</p>
 <br />
 <p>"Good evening," she said in a voice sweet as toffee.  "I am glad finally to make your acquaintance.  My name is Alice Pleasance Liddell."</p>
+</div>
+
 <h3>Part VI.  Through the Looking-Glass</h3>
+
+<div class="story" markdown="1">
 <p>Saledenre arched an eyebrow, thought for a second, and promptly lowered it again.</p>
 <p>"Oh."</p>
 <p>"Sally," piped up Nyano&#039;s high-pitched voice, "who&#039;s-"  But Alice interrupted.</p>
@@ -265,7 +284,11 @@ tags:
 <p>But the candles were no longer flickering so strongly; the Glamour was returning to normal!  With no time to lose, Gustafssen rushed over to Alice&#039;s still prone body, hoisted her into the air, and all but threw her at the mirror.</p>
 <p>She disappeared into it, and left nothing behind but ripples across its surface.  Saledenre dropped her spell, and the mirror reflected only the tower-top room.</p>
 <p>And, just to make the point, Hugh raised a frying pan above his head and brought it down against the mirror, shattering it into a thousand tiny shards of glass.</p>
+</div>
+
 <h3>Part VII.  A Brave New World</h3>
+
+<div class="story" markdown="1">
 <p>The sun slides below the horizon, ending another day in the emerald land of Arcadia.  It has been a year and a day since the Black Rose tower cracked and fell, shattering into pieces and on into dust which blew away on the wind.  Where the dark spire once stood, a rose bush now blooms - black-flowered, the only one of its kind in all the land.  It remains as a memorial, and a warning to all those who seek absolute power over the world of Faerie.  For Glamour and its people cannot be tamed, and even the Winter of human reason and disbelief could not kill them.</p>
 <p>Her fate-strands torn from all her vassals in Fairyland, Alice Pleasance Liddell has been all but forgotten.  Only five remember her, for in the moment of Alice&#039;s defeat a fate more powerful than any thread or web came to pass - they five had saved the world, and there is no greater destiny than that.</p>
 <p>Though Alice is lost from memory, the Black Rose Committee and their actions are not.  The War of the Roses, as it has become called, decimated the population of Arcadia and left the land not only without King or Queen but with no living members of the High Council that had ruled Fairyland in the royals&#039; absence.</p>

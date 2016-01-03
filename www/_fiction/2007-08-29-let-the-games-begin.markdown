@@ -16,7 +16,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>The sultry evening light filtered through the stained glass windows of the royal chamber, illuminating the specks of dust that hung heavy in the air.</p>
 <p>The woman in red flicked her eyes back and forth across every surface as she stalked her way towards the throne, the look of distaste on her face growing ever more visible with every passing second. When at last she arrived, she flicked one plump finger across the armrest and threw a tantrum more befitting a six-year-old than a lady of her years.</p>
 <p>"It&#039;s DUSTY!"</p>

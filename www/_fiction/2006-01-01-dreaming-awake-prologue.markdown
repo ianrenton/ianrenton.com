@@ -14,6 +14,7 @@ tags:
 - Dreaming Awake
 ---
 
+<div class="story" markdown="1">
 Once upon a time, long before the world was made, there was nothing in the heavens save for the sun and the moon and the stars.
 
 The sun was happy, for there was only one of him.  Thus, he was the biggest and strongest and brightest of all.
@@ -31,3 +32,4 @@ And so, by his sister's decree, the kind and gentle prince was cast out of the h
 At around this time, the sun and the moon grew bored with their lonely lives in the sky, and created the world.  Mountains and seas they created, and villages and towns, and they filled them with people.  The sun and the moon sent out part of themselves to the world, where they lived as human beings and were never bored again.
 
 It was to this world that the prince of the stars was exiled.  He lived happily there with the sun and the moon; while his sister and the rest of the stars were the ones that felt lonely and were jealous of him.
+</div>

@@ -18,6 +18,7 @@ tags:
 - Story
 ---
 
+<div class="story">
 <p>The old grandfather clock struck midnight, twelve solemn bells that signified Ending and Beginning in the way that no other number, and no other clock, ever could.</p>
 <p>Jack sighed, downed the last of his whiskey, and stood up.  The candles that spluttered near to the end of their wicks on the mahogany throne behind him finally gave up and smoked away into nothingness.</p>
 <p>“Lords and Ladies of the Court, ladies and gentlemen both living and departed, I must now bid you farewell.  My time is over for another year, and I must now hand over to my sister as your host for the next four moons and two.  Now if you will indulge me a few more seconds – one last toast!  Whether you rest here or beyond the Western sky this Winter, may you rest in peace!”</p>
@@ -32,3 +33,4 @@ tags:
 <p>“My Lords, Ladies and Gentlemen,” she said, “the nights draw in, and it is but a short time until I must hand over this throne to the eldest of my brothers, Saint Nicholas.  At this time of year it becomes necessary to stop thinking only of enjoying the day, but also of enjoying the night.</p>
 <p>“And so,” said the Lady November with a grand sweep of her arm, “let our hearts be warmed by blazing bonfires and free-flowing drink!  And...”  She stood, and turned away from the Court to look through the great glass windows and the night beyond.  “Let the fireworks begin!”</p>
 <p>With a drumroll from the orchestra and a bang and a flash of gunpowder, the sky lit up in a blaze of all the colours of the rainbow - and then some - as hundreds of fireworks shot up into the ink-black night.  The Court raised a cheer, and raised a glass, and the month of November began.</p>
+</div>

@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>Cannonball opened the door to the world Above in his usual style, causing it to hang listlessly from its one remaining hinge as dust settled in the air. Mender and Coats ducked under his huge arms as they too emerged from the door, and stared upwards into the night sky. It was raining lightly, and a fine damp mist curled around the alley where the three of them stood and breathed deeply in the fresh air.</p>
 <p>"Every time," Coats mumbled to herself. "Every time, it feels so good up here, and I feel like I don&#039;t want to go back..."</p>
 <p>Mender shot her a sharp look across the belly of the giant lad who stood between them. Inside her own head, Coats cursed. She hadn&#039;t been as quiet as she thought she&#039;d been.</p>

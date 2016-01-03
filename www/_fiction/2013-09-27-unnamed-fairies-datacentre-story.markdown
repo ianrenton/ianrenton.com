@@ -19,6 +19,7 @@ tags:
 <p>An idea that never turned into a full story, based around the idea of modern-day fairies leading people astray not in the forest but on the internet &mdash; essentially, fairies-as-hackers.</p>
 </div>
 
+<div class="story" markdown="1">
 The faerie lights flickered in the cold and the darkness, flitting between 
 green and orange, orange and green. Torches shone beams to and fro, creating 
 pools of reality where the flickering showed its true origins.
@@ -69,3 +70,4 @@ heard a click.
 The door swung open, revealing a forest of grey and purple cables intertwined 
 with the boxes that blinked incessantly. Dahlia smiled. Tom muttered under his 
 breath, and went back to chewing his piece of straw.
+</div>

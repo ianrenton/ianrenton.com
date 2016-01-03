@@ -16,6 +16,7 @@ tags:
 - Short Story
 ---
 
+<div class="story" markdown="1">
 My eyes snapped open, jolted from the depths of sleep by a slow burning somewhere in my hypothalamus. Heart-rate rising, breaths quickening from once a minute to once every few seconds. The hum of the engines and the light of the glaring LCD screen in the back of the next seat slowly worked their way into my consciousness.
 
 I enjoyed it for a moment, that feeling of waking up after a Winter hibernation. It had been at most six hours since take-off, but in that blissful minute where the cynoprene wears off and the axitogen kicks in, it might as well have been six months. I counted off the seconds since I'd woken. 70, 71, 72. The shivers set in, right on cue, as my body figured out that it could regulate its own temperature again. I felt every tickling scratch of the pointless in-flight blanket and every creak of my neck as I shook the sleep out of my system. 80, 81, 82. I grimly held my focus on the screen in front of me until at last my pupils contracted, and let me see the little icon of a plane inching its way closer and closer to a dotted vertical line. Another thirty seconds, maybe.
@@ -37,3 +38,4 @@ Into the solution it went, pigments slowly drifting from the paper, erasing the 
 I drained the sink, picking each item out with rubber gloves and dropping them carefully into the bin before flushing again and heading calmly back to my seat.
 
 50mg cynoprine, tablet, dry-swallowed.  And sleep claimed me again, tears still rolling down my cheeks as the little icon of a plane flew on, ever further from the dotted vertical line.
+</div>

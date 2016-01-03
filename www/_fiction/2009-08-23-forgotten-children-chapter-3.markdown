@@ -19,7 +19,7 @@ tags:
 <div id="storynav">
 <p><a href="../forgotten-children">Index</a> | <a href="../forgotten-children-prologue">First Chapter</a> | <a href="../forgotten-children-chapter-2">Previous Chapter</a></p>
 </div>
-<div>
+<div class="story" markdown="1">
 <p>Coming from Free City and from Jupiter Orbit as I did, I wasn&#039;t particularly acquainted with concepts such as "rust" and "grime".  At Jupiter, I was a network tech, my world abstracted as far as possible from the real world.  Our offices and labs were spotless, as the only tools we ever used were right inside our heads.  Back on Free City, it was quite a shock to be thrust back into semi-skilled labour, and more of a shock to be working with real things - meat, vegetables, knives and saucepans and so on.  But apart from during actual food preparation, it was just as clean as my offices used to be.  Nanoparticle fluids had long ago removed any difficulty from keeping surfaces clean at the molecular level.</p>
 <p>All of this is the reason why stepping into the <i>Maria</i>&#039;s cargo hold was possibly the closest I&#039;d come to culture shock in the previous twenty years.  It was rusty, the kind of deep all-the-way through rust that makes one ask questions about structural integrity.  It was dusty too, with bare metal just about showing through in the areas where large crates had been pushed around seemingly by hand.</p>
 <p>An intercom crackled into life, sounding just as decrepit as the rest of the ship.</p>

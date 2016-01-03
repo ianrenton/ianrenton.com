@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>As I lay on the roof, temporarily relieved of my duties, late this morning... I recieved the answer I was hoping for. My basking in the sunshine was cut short as a shadow was cast over me. Looking up, beyond a white dress billowing in the gentle breeze, was a familiar face.</p>
 <p>"Yuki!" I exclaimed, sitting up.</p>
 <p>She smiled, and for a moment the air felt strange and cold around me. "I don&#039;t get to see the summer very often, you know... It&#039;s nice here," she said quietly.</p>

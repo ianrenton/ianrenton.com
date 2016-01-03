@@ -18,11 +18,12 @@ tags:
 - Wrong
 ---
 
-<div id="notes"><p>Author's Note:</p><p>Oh god, what possessed me to do this?</p></div>
+<div class="notes"><p>Author's Note:</p><p>Oh god, what possessed me to do this?</p></div>
 
 <h3>
     Chapter I. Down the Rabbit-Hole
 </h3>
+<div class="story" markdown="1">
 Sir David Frederick Attenborough was beginning to get very tired of sitting by his film crew on the bank, and of having nothing to do: once or twice he had peeped into the book the sound guy was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Sir David, 'without pictures or conversation?'  And on a second glance he noticed the name 'Tom Clancy' on the cover, and decided that he was right to pass on it.
 
 So he was considering in his own mind (as well as he could, for the hot day made him feel very sleepy and as stupid as one of the world's most renowned broadcasters could feel), whether the pleasure of filming a brief 6-part award-winning documentary about sea life would be worth the trouble of getting up and finding a camera, when suddenly a White Rabbit with pink eyes ran close by him.
@@ -44,5 +45,6 @@ Presently he began again. 'I wonder if I shall fall right THROUGH the earth!'  B
 'Where's your fourth wall now, bitches?' he muttered to the reader.
 
 Down, down, down. There was nothing else to do, so Sir David soon began talking again. 'Dinah'll miss me very much to-night, I should think!' (Dinah was the recording editor.) 'I hope they'll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me! I do despair that anyone will ever hear these insightful remarks.' And here Sir David began to get rather sleepy, and went on saying to himself, in a dreamy sort of way, 'Do cats eat bats? Do cats eat bats?' and sometimes, 'Do bats eat cats?' for, you see, after the aforementioned 80 years of naturalism he was now so knowledgeable about the mating habits of the Yangtze River Dolphin and other such curiosities that he had forgotten things that others might consider to be blindingly obvious. He felt that he was dozing off, and had just begun to dream that he was walking hand in hand with Dinah, and saying to her very earnestly, 'Now, Dinah, tell me the truth: did you land that deal with ITV?' when suddenly, thump! thump! down he came upon a heap of sticks and dry leaves, and the fall was over.
+</div>
 
-<div><p>Alright, no more.  I can't stand another 10-and-a-half chapters of this.</p></div>
+<div class="notes"><p>Alright, no more.  I can't stand another 10-and-a-half chapters of this.</p></div>

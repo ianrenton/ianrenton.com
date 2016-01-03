@@ -17,6 +17,8 @@ tags:
 ---
 
 <p><b>The Tale of Duchess Hydrangea<br />or,<br />How One Girl came to Unite her Kingdom.</b></p><br/>
+
+<div class="story" markdown="1">
 <p>Once upon a time, in a world a mirror&#039;s thickness away, there lived a little girl by the name of Abigail Hydrangea.  She was tall and pretty and wore flowers in her pure white hair; so pretty was she that all the boys and girls in the land spoke of her beauty.  However, inside her heart, she was troubled.  It was not long after her twelfth birthday that her father, Duke Hydrangea, succumbed to an unknown disease.  Abigail was very, very sad for many days, and she hid away so well that it took a week before anybody found her.</p>
 <p>Her courtiers found her eventually, however, and made clear to her what must be done.  For Abigail, whose mother had died in childbirth and her father recently having passed away, was now a Duchess and ruler of her lands.</p>
 <p>Though her father was a kind and just man, he had not ruled well.  The Hydrangea lands stretched far and wide, but the East and the West of those lands were as different as countries could be.  The East, where pink Hydrangeas bloomed, was prosperous farmland in which crops grew well and communities blossomed under successful trade.  The West on the other hand was a wild, dark, mountainous place where the Hydrangea flowers grew blue and purple.  The people there envied the bounty of the eastern lands, and civil war loomed.</p>
@@ -45,3 +47,4 @@ tags:
 <p>She rode up to the gates of Thurgar&#039;s castle, and Thurgar was so astonished to see a wagon train loaded with food that he swung the castle gates wide open.  He was even more excited to see the cart of jewels and coins, and to hear the promise that they would be used to build mines all over the mountains!</p>
 <p>Within but a few months, wagon trains regularly brought coal from the mountains to the rivers of the East to be sold, and carts of food from the prosperous East wound their way back West to provide the people their with food.</p>
 <p>Under the guidance of Duchess Abigail, along with Thurgar and Assam as her advisers, the land of Hydrangea blossomed from a divided and squabbling nation into a beautiful land in which each and every one of Abigail&#039;s subjects worked hard, ate well, and lived happily ever after.</p>
+</div>

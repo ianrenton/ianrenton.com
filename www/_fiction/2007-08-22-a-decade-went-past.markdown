@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>A lot of time has passed, now, since that year of emotions that surpassed all our expectations. It was that year more than any other that changed all our lives forever - none of us will ever forget our dealings with Chinese magicians, our trips to the hot springs, our party or our summer festival, all the times that eternally left their mark.</p>
 <br />
 <p>Still, a lot of things change in a decade. We grew up, eventually, and became adults rather than school kids. Each and every one of us is a little different now than we were back then. These are my memories of those years.</p>

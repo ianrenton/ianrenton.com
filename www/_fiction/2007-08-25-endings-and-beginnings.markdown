@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>"No! No, let go of me!" Sierra screamed as she was dragged by the wrist at running pace throught the muddy streets.</p>
 <p>"Let me go, Pietre! Let me go back!"</p>
 <p>Whatever Pietre said in reply was lost somewhere in the torrent of rain and artillery shells. Sierra dug her feet into the ground as best she could and shouted once more.</p>

@@ -28,6 +28,7 @@ But be warned.  What you see here in the Bournemouth that lies below, you will 
 
 <h2>Heron Court Road</h2>
 
+<div class="story" markdown="1">
 It was not many of your human years ago, when the man called Tregonwell came here to found his seaside town.  Certainly not many of our years, and we have long memories indeed.
 
 Before his coming, this place was ruled not by humans but by the great Courts of all creatures.  Most powerful amongst them was the Court of the Heron, for these birds were not only wise and aloof but considered it their purpose to rule over all other species.  So they used their great wisdom, and for centuries plotted behind the scenes.  They won the fealty of the other Courts one by one, with outlandish promises and cruel deceptions, until at last no-one was left to challenge them.
@@ -40,7 +41,9 @@ So this land knew peace, for a while, until the human Tregonwell came.  Houses a
 
 Sniggers and chuckles echoed around the court chamber.
 
-<a href="//files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg"><img src="//files.ianrenton.com/sites/fiction/unluckyrabbit01-150x150.jpg" alt="The Fate of a Rabbit who crossed the Heron Court" title="The Fate of a Rabbit who crossed the Heron Court" width="150" height="150" class="alignright size-thumbnail wp-image-12042" /></a>Tregonwell was handed a photograph for his elucidation, and the Captain went white as a sheet.
+Tregonwell was handed a photograph for his elucidation, and the Captain went white as a sheet.
+
+{% img center //files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg %}
 
 "But we are kind people," the Heron King continued.  "You may have your precious town.  But we will always be here, watching, pulling strings. Long after your death, we will be ensuring that the town proceeds according to our wishes.  And once a year, at the height of Summer, your descendants will again and again be compelled to make a blood sacrifice to the Heron Court..."
 
@@ -49,13 +52,15 @@ Sniggers and chuckles echoed around the court chamber.
 Tregonwell woke up in a cold sweat, and told no-one the Crane King's words as long as he lived.  And so the story became forgotten by those who live Above.
 
 But we who dwell below have long memories, and we know this tale well.  And now that you do also, your eyes will forever more see what had been hidden from you until now -- the sight of Heron Court Road, stained with human blood, a sacrifice to those whose grace allows our town to remain.
+</div>
 
-<br/><br/>
+<br/>
 
 <h4><a href="//files.ianrenton.com/sites/fiction/townsvilleroad-map.png"><img src="//files.ianrenton.com/sites/fiction/townsvilleroad-map.png" alt="Townsville Road" title="Townsville Road" width="500" height="166" class="aligncenter size-full wp-image-12043" /></a></h4>
 
 <h2>Townsville Road</h2>
 
+<div class="story" markdown="1">
 The etymology of the word "Townsville" is simple, and gives a hint at what you will find there on the streets of Bournemouth Below.  It is a name of two parts -- "ville", meaning "town", and "towns", meaning "towns".  Yes indeed, it is a town of towns.  Of towns.  Of towns.
 
 Here at the northern reaches of Charminster, as the shops and cafés are left behind, so too is the linear notion of reality that those from Bournemouth Above take so much for granted.  Townsville Road is the place where the truth breaks through; where it becomes apparent that the world Above is a microcosm of an infinite fractal universe, glittering with maddening angles and drenched with the sweat of insanity.
@@ -67,7 +72,8 @@ You walk on, not understanding.  Five more steps and again you approach the town
 You approach the town from the outside, but there never was a town.  Only your mind is there, full of towns wrapping in on one another endlessly.
 
 Your brain pours out of your ears, splashing on the ground in mile-wide waves.  Your body crumbles beneath you, rearranging itself into regular blocks on the ground.  You think you see a pattern forming -- yes, there are buildings, roads.  Your body has become the land; your brain the sea.  You are Bournemouth.  And you always were.
+</div>
 
-<br/><br/>
+<br/>
 
 <div style="color:#999; font-size:110%;">Credit where it's due:<br/>Map tiles by <a href="http://maps.stamen.com/">Stamen Design</a> (CC BY 3.0)<br/>Heron image from <a href="http://www.hemmy.net/2008/07/05/unlucky-rabbit-becomes-herons-meal/">here.</a><br/>I can't really deny drawing inspiration from <a href="http://www.neilgaiman.com/works/Books/Neverwhere/">Neverwhere</a> for some of this.<br/>And if you enjoyed the last few paragraphs, read up on <a href="http://cuiltheory.wikidot.com/what-is-cuil-theory">Cuil Theory</a> for similar weirdness.</div>

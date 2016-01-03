@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>It was yet another morning, yet another hangover. I&#039;d been unlucky recently – more than unlucky. To tell the truth, I hadn&#039;t had a client in weeks.</p>
 <p>So it was that I woke up to a loud and irritating alarm-clock buzz that morning. Eight in the morning. The infernal contraption received the closest to a withering glare as I could manage at that time, and I rolled over in bed. Clang.</p>
 <p>A frying pan. Inexplicably, there was a frying pan in my bed, right where I tried to roll over to. I sat up and prodded the thing until I was thoroughly sure it wasn&#039;t going to bite me, and then removed the sticky note from the handle.</p>

@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>I was woken up this morning by a knock at my door, which I found somewhat surprising since I went to bed in a tent. I pinched myself to make sure I wasn&#039;t still asleep, but the suburban semi-detached-ness of my surroundings failed to transform itself back into damp canvas. Awake, then, presumably - but did that pinching thing ever really work, anyway? I mean, you feel much worse things in a lot of nightmares without waking up.</p>
 <p>"Still, never mind," I thought through my mental caffeine-deficiency haze and through the folds of the dressing gown that was currently refusing to play nice with my drowsy limbs. "Should see who&#039;s at the door."</p>
 <br />

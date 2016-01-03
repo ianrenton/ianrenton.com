@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>General Takara reigned in his horse as he crested the top of the hill, and glared at his armies marching through the valley below. The wind was blowing more strongly now, and the air smelt tinged with ice. The man sighed as he contemplated his next move. He had expected to encounter the enemy forces in this valley, but so far they had seen no sign of any army - any life at all, in fact - besides their own. There&#039;d been no report from the forward scouts, either; and now dusk was coming again. Yet another night risking the entire force by camping in a terrible location.</p>
 <p>High above, Yuki and Kurayami floated on the air as cloud swirled around them. Picking up the thoughts of the men below, they glanced at each other and smiled.</p>
 <p>"Fools," muttered Kurayami.</p>

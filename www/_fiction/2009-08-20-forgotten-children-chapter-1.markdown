@@ -19,7 +19,7 @@ tags:
 <div id="storynav">
 <p><a href="../forgotten-children">Index</a> | <a href="../forgotten-children-prologue">First Chapter</a> | <a href="../forgotten-children-prologue">Previous Chapter</a></p>
 </div>
-<div>
+<div class="story" markdown="1">
 <p>"They were still only computers."</p>
 <br />
 <p>That’s what I thought, certainly, for a while. </p>

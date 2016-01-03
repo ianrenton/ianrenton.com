@@ -18,7 +18,7 @@ tags:
 
 <div id="notes"><p>OH GOD WHAT THE FUCK.  I blame <a href="http://eric-the-girl.livejournal.com/">Eric</a> for this.</p>
 </div>
-<div>
+<div class="story" markdown="1">
 <p>It was the fourth time that I&#039;d met that little girl in the alley behind the Coach and Horses.  Just as she had each of the previous three times, she stood there in the shadows, staring at me unblinking, daring me to make something of the fact that she was there.</p>
 <p>I staggered toward her, five pints and six double vodkas the worse for wear.  She didn&#039;t shy away.</p>
 <p>"It ain&#039;t safe for you out here," I said, just as I always said.  "You&#039;re lucky you met me, I&#039;m not so bad, but there&#039;s a lotta&#039; nasty people you could run inta&#039; in dark alleys behind pubs."</p>

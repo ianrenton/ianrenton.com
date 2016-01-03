@@ -19,6 +19,7 @@ tags:
 
 ## Prologue
 
+<div class="story" markdown="1">
 <p align="left" style="text-indent: 1.24cm; margin-bottom: 0cm; font-weight: normal; text-decoration: none">
 The stars, Thorn knew, had once been thought of by some ancient
 civilization as giant balls of light, impossibly far away across the
@@ -98,9 +99,11 @@ and into heaven.  Light flooded into the ground, into him and into
 his eyes.</p>
 <p align="left" style="text-indent: 1.24cm; margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
 The world of black became the world of white, and Thorn became blind.</p>
+</div>
 
 ## Chapter 1
 
+<div class="story" markdown="1">
 <p style="text-indent: 1.24cm; margin-bottom: 0cm; font-style: normal; font-weight: normal; text-decoration: none">
 Elsa barely looked up as she heard what sounded like an explosion in
 the distance.  Those, she reflected, were all too common these days. 
@@ -158,3 +161,4 @@ be explained that way.  On the other side of the body was a hole,
 completely at odds with the rest of the damage.  The width of it was
 easily jumpable, but the depth...  The depth was consuming.  Elsa
 made one attempt to peer into it, and resolved not to do so again.</p>
+</div>

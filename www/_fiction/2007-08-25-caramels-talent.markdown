@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>As we got closer, stepping around and over the irregular chunks of molten-looking glass that littered the desert, a strange feeling came over me. A kind of dislocated feeling, a floating feeling, like my mind was slowly floating further away from the brain that used to imprison it. Of course, I was kind of used to that sensation by now. Ever since childhood, I&#039;d been able to let my mind drift away, and let it see things that my body couldn&#039;t. Dremia kept trying to tell me that it&#039;s called "astral projection", but that sounded a bit too scientific for me. I preferred to call it looking-through-sunlight. It made more sense to me, anyway. I didn&#039;t think it had anything to do with astrals, whatever they are, and projection is what you do when your hands make shapes in front of a lamp and show up huge on the wall, so I didn&#039;t think it should be called that really. All I did was let my mind drift and I could see any of the things that sunlight fell on.</p>
 <p>Anyway, this dislocated feeling I was getting wasn&#039;t quite like that. It was stronger, a much stronger sense of being pulled away from reality. The glass boulders strewn around slowly began to look insubstantial, somehow at once both there and not.</p>
 <p>I tried to walk through one, and ended up with a face full of sand and a complaining ankle. My attempt at saying "ouch" only gained me a mouth and nose full of sand as well.</p>

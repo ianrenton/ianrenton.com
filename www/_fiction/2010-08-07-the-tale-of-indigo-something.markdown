@@ -23,6 +23,7 @@ tags:
 - War of the Roses
 ---
 
+<div class="story" markdown="1">
 Deep in a forest, in a land known as the Duchy of the Buttercup Flowers, there lived a man by the name of Indigo.  He lived a simple life with his elderly mother and father and his six brothers and sisters, each named after a colour of the rainbow for reasons their parents had never told.
 
 Now I say that he was a man, but in truth he was one of the Fair Folk, the Gentry, or any of the other names by which his kind go.  And that land in which he lived was not of the Earth we know, but of another much stranger place which few true men have ever seen.  But it will suffice to refer to him as a man, as he was certainly of that appearance, and by our reckoning would have been some thirty years of age at the time our tale begins.
@@ -118,3 +119,4 @@ Duke Buttercup sat back down on his throne, and thought for several minutes in s
 Not long afterwards, the Duke Buttercup issued a proclamation that ended the duchy’s involvement in the war.  Buttercup became one of the few truly neutral duchies, and thrived for many years as a result.  Indigo’s brothers came home from the army and settled in the city with their family, found good jobs and could afford a doctor for their ailing parents.  Sapphire told Indigo the truth about her past, and in time, Indigo grew to trust her once more.  They were last seen heading for the borders of the Hyacinth duchy, Sapphire’s home, on their own quest to find out what became of her family after all.
 
 And of course they all lived happily ever after, because they are of a kind we refer to as the Fair Folk, and those Fair Folk are creatures of story, and that is how their stories have always ended.
+</div>

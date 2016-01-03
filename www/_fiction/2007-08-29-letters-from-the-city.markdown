@@ -15,8 +15,10 @@ tags:
 ---
 
 <div><p align="center"><strong>Warning: Unfinished</strong></p><p>This is a series of short stories I wrote as background material for my character <a href="../serin">Serin</a>.  I wrote the first two and the last one, and had ideas for the intervening ones, but never got around to writing them.</p></div>
-<div>
+
 <h3>Part I. The Letter to Friends and Family</h3>
+
+<div class="story" markdown="1">
 <p>Serin sighed, and absent-mindedly flicked another few twigs onto the fire that smouldered away in front of her.  After a few moments they caught the flame and began to burn.  As she stared into the flame, seeking enlightenment or perhaps retinal damage, her mother&#039;s right hand appeared over her shoulder and dangled a steaming cup of coffee between her and the fire.</p>
 <p>"Come on," came her mother&#039;s voice from behind her.  "Drink up, and tell me what happened."</p>
 <p>Serin&#039;s mother, Anja, positively dwarfed her daughter as she moved around to sit next to her on the bench before the fire.  While the two women shared many of their features - long auburn hair, olive-tanned skin and eccentric clothing - a lifetime of cooking and eating good food had left Anja with what would be described as a &#039;weight problem&#039; if she were ever to consider it a problem.  Serin, by contrast, had spent more than half of her thirty-two years as a fortune teller.  As she was told by her mother when she was young, fortune tellers had to be beautiful, and distant, and of course thin.  "Fat &#039;n&#039; middle-aged jus&#039; don&#039;t do for a lady o&#039; fate," Anja used to say.  "Leastways, not outside the Carribbean."</p>
@@ -49,7 +51,11 @@ tags:
 <p>Early the following morning, the light dawned slowly across the gypsy camp.  But it dawned across one caravan and two horses fewer than it had set upon the night before, as by that time Serin had long since gone, riding east into the rising sun.</p>
 <br />
 <p>Besides the patch of trampled and cropped grass where her horses had stood, Serin left only two things behind - two neatly folded letters, one pinned to the door of her parents&#039; caravan and one pinned to Kyren&#039;s.  Both were read by those intended, and neither was spoken of again.</p>
+</div>
+
 <h3>Part II. The Letter to the Brother and Sister</h3>
+
+<div class="story" markdown="1">
 <p>That was the surest sign that she was approaching a big city, Serin reflected.  Not the ever-increasing number of houses or the ever-thickening air, although those were definite clues.  No, the really telling thing was the number of passers-by who reacted as if they&#039;d never seen a proper caravan before, or horses for that matter.  Still, it was better than being the modern kind of gypsy - where they faced fear and hatred from the loacls, all she ever had was suspicion and bemusement.</p>
 <p>As dusk fell, she pulled up into a barren patch of land with barely enough grass to keep the horses happy.</p>
 <p>"Still," Serin muttered to herself as she clambered up onto the roof to retrieve a bale of hay for them.  "Might be the best I&#039;ll get for a while."</p>
@@ -91,8 +97,13 @@ tags:
 <p>For fourteen years it was forgotten about, until one day she was suddenly reminded of it by a lecturer of hers at the time, a certain Professor McThaggin.  A mere few weeks later, Elizabeth showed the letter to the professor - and both their lives changed forever in a moment.</p>
 <br />
 <p>But that is, of course, another story.</p>
-<div>Several parts still to come...</div>
+</div>
+
+<div class="notes"><p>Several parts still to come...</p></div>
+
 <h3>Part VIII. The Letter Home</h3>
+
+<div class="story" markdown="1">
 <p>The coachman vaulted down from his perch, leaving the horses calmly snorting behind him.  Instantly he had an audience.</p>
 <p>An old woman elbowed her way to the front with surprising ease.  For a moment she and the coachman looked at each other confused, before he at last matched her face with Serin&#039;s description of her mother.</p>
 <p>"Anja?"</p>

@@ -19,7 +19,7 @@ tags:
 <div id="storynav">
 <p><a href="../forgotten-children">Index</a> | First Chapter | Previous Chapter</p>
 </div>
-<div>
+<div class="story" markdown="1">
 <p>"Five." </p>
 <p>I was beyond nervous, then, as I stared off into the infinite night that backed the massive glittering construction gantries arrayed below me. The nerves had disappeared weeks, even months ago. Now, all that remained amongst our team was the almost blank realisation of what we were about to achieve. It was almost as if we’d slowly begun to see the threads of fate bunching up around us.</p>
 <br />

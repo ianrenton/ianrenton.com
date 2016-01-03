@@ -13,7 +13,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>“Shit.”</p>
 <p>A second later, I realised I&#039;d actually said that. I hadn&#039;t meant for it to escape my lips, it was intended merely as a thought, but I guess the stress of the mission had finally started getting to me. Out in the field, it was easy to control – your stress, your adrenaline, was what you survived on. But after it was all over, back in the camp, it finally all caught up with you. Normally, that was fine and good and expected. Not today, though.</p>
 <p>These people weren&#039;t my superiors, certainly none of them was the captain that I was used to reporting to after a mission. We stood for a moment, sizing each other up, before what looked like their leader spoke.</p>

@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>This place was mine, well and truly mine, back then. Or rather, it was ours. There were other people around, sometimes - sitting and relaxing or playing in the river - but it belonged to us really. Me, and that girl I spent my childhood almost addicted to. Every day we&#039;d come here, laughing together as we ran barefoot down the steps, across the yellow-dusted stones and into the deep green water. We&#039;d paddle, and splash, and swim, while all the time the sun beat down and we were happy. I wonder, now, how it is that we were able to be so happy about such simple things.</p>
 <p>We sat, one evening, watching the swans who year after year came to nest here. Always the same two, of course, for swans keep the same partner and the same nest year after year. We thought we were just like them, too - that we&#039;d always be here and be together. In the end, though, I guess that wasn&#039;t true. She had to move away, something to do with her father&#039;s job, but before she left we made a promise. On this day of the year, every year, we&#039;d both come back to this place and see each other again, just like the swans did. Forever.</p>
 <p>It&#039;s been fifteen years, now, and we&#039;ve seen each other at this spot each and every one of them. We&#039;ve changed so much, and we&#039;re such different people, but when we come together it&#039;s as if we&#039;d never been apart. For a while, splashing and playing in the river or on the stony bank, we&#039;re kids again.</p>

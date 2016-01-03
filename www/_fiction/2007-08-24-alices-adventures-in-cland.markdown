@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>Once upon a time, there was a little girl named Alice. She was to observers a quiet and shy girl, and chief among her passions was computer programming.</p>
 <p>One night, when Alice&#039;s pretty face was illuminated only by the light of her computer terminal and her latest caffeine hit was just beginning to kick in, she noticed a most curious thing. Standing behind her, peering over her shoulder, was a five foot tall bipedal white rabbit.</p>
 <p>"How queer," Alice thought. "I really must cut down on the Mountain Dew."</p>

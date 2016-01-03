@@ -23,6 +23,7 @@ tags:
 - Story
 ---
 
+<div class="story" markdown="1">
 <p>The man I assumed to be George sits down heavily across the table from me, sighs, and brushes a sweat-drenched lock of hair back behind his ears.  He wears the same exhausted expression as all Americans who come over here thinking the humidity and the smog "can't be that bad", and discover that they are in fact much, much worse.</p>
 <p>"Vikram, right?" he asks.  I nod, expecting an introduction on his part, though none is forthcoming.</p>
 <p>"So," he jumps straight in with, "you know what the machine is, right?"</p>
@@ -47,3 +48,4 @@ tags:
 <p>"Will this craze die out?" I ask George.  "Will it take over the cities too before it's done?"</p>
 <p>"I don't know," is his answer.  "I just don't know."</p>
 <p>George himself seems sympathetic, though perhaps it's just exhaustion.  But somewhere out there is a faceless body of shareholders, for whom we are not people living in a bustling port town.  We are labourers, living in a ramshackle town-sized factory, generating unimaginable profits, tirelessly fulfilling orders at the edge case of their algorithm.</p>
+</div>

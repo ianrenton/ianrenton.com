@@ -13,7 +13,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>1999, November.</p>
 <p>I stare out of the window of my third-floor apartment, my eyes surveying the unending stream of busy shoppers pushing their way through the still-falling snow in the streets below, until one man in particular catches my eye. A poor man, but young – a student perhaps – standing despondently as an island amongst the river of passers-by, uncaring if they read his sandwich board and caring only for the end of the day, a few pounds&#039; worth of cash-in-hand, and a warm home. It&#039;s the advertising slogan that he carries that&#039;s caught my attention. It&#039;s a common enough one these days, but every time I see it I can&#039;t help but smile.</p>
 <p>“The End of the World is Nigh.”</p>

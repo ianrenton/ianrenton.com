@@ -17,7 +17,8 @@ tags:
 <div id="notes">
 <p>Lesson 1: Sangria and Oreo cookies doth not a story make.</p>
 </div>
-<div>
+
+<div class="story" markdown="1">
 <p>It was a wet February day, and even the easily-excitable fairies were getting bored. While Kururu and Chiriri stared out of the window at the glinting raindrops bashing against the plants in the garden, Sarara flicked dejectedly through the pages of the encyclopedia that Sensei had given them two days previously.</p>
 <p>As she arrived at one page in particular, though, everyone&#039;s mood changed. A wide-eyed Sarara called her friends over, and together they looked on with delight at the sight spread out before them.</p>
 <p>A desert under a blight blue sky, with vast monuments stretching up from the sandy ground, looked back at them.</p>

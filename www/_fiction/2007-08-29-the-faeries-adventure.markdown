@@ -16,7 +16,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>Shannon stood atop the stack of rocks that marked the highest point on the hill, silhouetted in moonlight and unobscured by the trees that shrouded the countryside for miles around. Spinning sharply around and striking a pose, he grinned and then burst into laughter as he saw his two friends still struggling to climb through the thick bracken some thirty feet away from him.</p>
 <p>"I win!" the boy shouted. "So I get to pick!"</p>
 <p>Lorelai and Hannah looked up at him and started laughing too as they sprinted up to where he stood.</p>

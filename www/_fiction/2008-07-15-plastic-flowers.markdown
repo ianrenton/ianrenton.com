@@ -17,7 +17,8 @@ tags:
 ---
 
 <div><p align="center"><strong>Warning: Unfinished</strong></p><p>This is a story I started writing back in 2008 as a companion story to my <a href="../changeling-in-love-and-war">Changeling game</a>.  I had ideas for around 10,000 words of plot, but lost enthusiasm.</p></div>
-<div>
+
+<div class="story" markdown="1">
 <p>The problem with amnesia, I reflected as I gazed across the lake, was that it was so cheesy, so stereotypical.  An assassin with no memory of his former life, as if that hadn&#039;t been done a hundred times before.  Still, here I was.  Here we all were - the Duke, Bubble, Squeak and me.  The Plastic Flowers, assassins to the discerning and cash-strapped courts of Fairyland.</p>
 <p>They called me "Kiddo" back then, Duke and the twins, since not even I knew what name was rightfully mine.  Not that any of us would have used our real names - whoever the Duke once was that title was surely never his, and there could be no-one alive sadistic enough to call their daughters Bubble and Squeak.  Probably.</p>
 <p>I stood, and paced, and thought, and skimmed pebbles until the shadows lengthened and the world darkened.</p>
@@ -38,4 +39,4 @@ tags:
 <p>The Duke - our Duke that is, not any of the real ones, though everyone for now thinks he&#039;s Duke Whitethorn anyway, could likewise pretty much go anywhere and do anything, here.  After all, who&#039;d tell a Duke off for doing something?  But he could most easily blow our cover.  The most likely person to find him out of place - Duke Hyacinth.  And if we assume that Hyacinth himself is our customer, there&#039;s a pretty big chance of us not getting paid the rest of our money if we&#039;re discovered.  If we&#039;re discovered by Hyacinth and others are with him, well...  I can&#039;t see it going well for any of us.</p>
 <p>Which leaves Bubble and Squeak.  As the high society ladies they&#039;re pretending to be, there&#039;s a lot of rules they have to follow.  Apparently, anyway.  So what can they do, if they can barely leave the great hall?  Well, here the identity of our target helps us out a lot.  Being a fifteen year old boy, one can imagine the effect that twin seventeen-year-old girls could have on him.  I&#039;m certainly not... unaware of it.</p>
 </div>
-<div>To be continued...</div>
+<div class="notes"><p>To be continued...</p></div>

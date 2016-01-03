@@ -16,7 +16,8 @@ tags:
 - Story
 ---
 
-<em>"Coming home from very lonely places, all of us go a little mad:<br />whether from great personal success, or just an all-night drive,<br />we are the sole survivors of a world no one else has ever seen."<br />-- John le Carré</em>
+<div class="story" markdown="1">
+> "Coming home from very lonely places, all of us go a little mad:<br />whether from great personal success, or just an all-night drive,<br />we are the sole survivors of a world no one else has ever seen."<br />-- John le Carré
 
 <br/>
 
@@ -64,4 +65,5 @@ A world away, another young man awoke to sunlight, not with a glowing pendant bu
 
 He sat, pen in hand.  And this is what he wrote:
 
-<em>"With the wind in your hair,<br />love in your heart,<br />and a dream in your soul,<br />anything is possible."</em>
+> "With the wind in your hair,<br/>love in your heart,<br/>and a dream in your soul,<br/>anything is possible."
+</div>

@@ -290,6 +290,29 @@ div#homepagebanner {
   }
 }
 
+/**
+ * More book-like formatting for things tagged as "story".
+ * Remember to use <div class="story" markdown="1"> to parse internal markdown!
+ */
+.story {
+    p + p {
+        text-indent: 2em;
+    }
+    
+    /**
+     * Subsequent paragraphs indent without margin-bottom until they reach another
+     * element
+     */
+    p {
+        margin-bottom: 0;
+    }
+
+    p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, p + blockquote, p + pre,
+    p + ul, p + ol, p + dl, p + figure, p + img, p + div {
+        margin-top: $spacing-unit / 2;
+    }
+}
+
 .storynav, .notes, #storynav, #notes {
   font-size: 0.9em;
   margin-bottom: 1em;

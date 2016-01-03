@@ -19,7 +19,7 @@ tags:
 <div id="storynav">
 <p><a href="../forgotten-children">Index</a> | <a href="../forgotten-children-prologue">First Chapter</a> | <a href="../forgotten-children-chapter-1">Previous Chapter</a></p>
 </div>
-<div>
+<div class="story" markdown="1">
 <p>A quick waft of pure oxygen raised Shinsei&#039;s consciousness gently out of deep sleep and into REM, allowing him the briefest flash of a dream before an electronic chime completed the job of rousing him to wakefulness.</p>
 <p>"Good morning, Shinsei," said a disembodied voice, at once reassuringly motherly and utterly synthetic.  "It&#039;s 0615 on Monday August 22, AD2912.  Your upcoming events: in 45 minutes, <i>First Day at Work</i>.  In six days, <i>Johann&#039;s Birthday</i>.  In 40 days, <i>First Paycheck Due!</i>.  In 47 days, <i>Mission 20th Year Party</i>.  This concludes your diary.</p>
 <p>"Estimated arrival date at Epsilon Eridani B is February 7, AD2937.</p>

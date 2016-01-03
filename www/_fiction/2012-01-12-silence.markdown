@@ -17,9 +17,9 @@ tags:
 - Supernatural
 ---
 
-<p style="text-align: center"><em>for Eric</em></p>
 
-<br />
+<div class="story" markdown="1">
+> for Eric
 
 I've heard a silence described as "smothering", a kind of dense and enveloping silence that crushes not just sound but even the thought that you could make a sound.  I was quite fond of that figure of speech, until I started working at Elm Park Library.
 
@@ -34,3 +34,4 @@ The final straw came in the Autumn one year, when they knocked down the theatre 
 That was the end of Elm Park Library, then, though of course they could prove nothing. The doors were battened shut, books left on shelves since no-one dared enter to take them. Perhaps the silence itself reads them as it drifts through the deserted aisles, finally at peace.
 
 Between musty hardbacks and settling dust, Elm Park Library has nothing now but silence, a smothering silence, a dense and enveloping silence.
+</div>

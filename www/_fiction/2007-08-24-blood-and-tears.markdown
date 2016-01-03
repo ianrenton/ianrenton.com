@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>I recoiled from the sound, my ears aching. Everything had gone dark, and I tripped and fell over something invisible in the darkness, as I backed away from the torrent of anger that I could still hear.</p>
 <br />
 <p><i>My first memory... what was that now...?</i>

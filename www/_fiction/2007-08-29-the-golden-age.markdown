@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div>
+<div class="story" markdown="1">
 <p>They heralded it as the beginning of mankind&#039;s Golden Age, once they worked out what was going on and realised that they could use it. But this gold was tarnished and fell apart at even the lightest touch. It was to be the shortest age in our history. Opinions differ, of course, on exactly when the Golden Age should be considered to have started, but regardless of your preferred date, the length of the age in months could be counted on the fingers of one hand. It&#039;s a shame, it really is. It started so well, but it ended so very, very badly. However many tons of blazing rock it was that finished the Cretaceous had nothing on this.</p>
 <br />
 <p>Like most discoveries that were to change the world, it came to those on the fringe before it came to the masses. So it was that the first to encounter the phenomenon were those who believed most strongly in dreams that society did not share - the evangelists and faith healers, the fortune tellers and occultists, the psychics and mediums. Slowly but surely, it was dawning on these people that what they did really and absolutely worked. They began to produce evidence, statistically and scientifically reliable evidence, that they could heal by the power of Jesus or that the dead could speak through them.</p>

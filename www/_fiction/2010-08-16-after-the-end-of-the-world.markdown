@@ -18,6 +18,7 @@ tags:
 
 <div id="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>I started writing this while on holiday in the Summer of 2010, but didn't finish and couldn't get back into it once I was back at home.  I think I was probably 90% though what I wanted to write.</p></div>
 
+<div class="story" markdown="1">
 I found her sheltering in a nightclub bathroom on the day dawn came early and the whole world went to shit.  Plaster tangled in her hair and her face stained with tears, she said nothing to me, just stared.  Then, when I gave up talking to her and moved on, she followed me anyway.
 
 Out on the street, the ash was still raining down.  I didn't know how long it would last -- I supposed that scientists had computers to work that out, but then the scientists were dead by now anyway.  Hours?  Days?  Years?  Nothing as violent as this had happened before, probably in the whole history of humanity, so maybe even the computers couldn't tell.
@@ -129,3 +130,4 @@ That took what seemed like hours of scrabbling around, hands grasping for neatly
 <br />
 
 The girl woke up to the smell of solder fumes and the crackle and pop of
+</div>

@@ -16,7 +16,8 @@ tags:
 
 <p><img src="//files.ianrenton.com/images/portraits/lilac.png" style="float:right" /></p>
 <h2>Introduction</h2>
-<div>
+
+<div class="story" markdown="1">
 <p>"Lilac is...  Lilac is unique," Shiiai said, taking over for me when I got all shy.  She tells a story about me that everyone knows, so it must be true, even if I don&#039;t remember it.</p>
 <p>"When she was six years old, she was travelling from one village to the next with her parents.  The snow had been heavy, and the frost thick, loosening the rocks on the canyon walls.  A rock-slide...  A rock-slide killed her parents.  Buried them completely, it was weeks before they were dug out.  But Lilac escaped death, and ran into the forest.  We- nobody knew where she was, for months.  We thought we&#039;d just somehow not seen her body when we were digging.</p>
 <p>"But two months later, she came back to the village.  By luck or some then-unknown skill, she&#039;d lasted that long in the freezing wild.  Her clothes were tattered, and her mind - she was somehow both vacant and intensely focussed, no-one knew what to make of it.  They called her ghost, and demon, and no family would take her in, not even mine.</p>

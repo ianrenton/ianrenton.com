@@ -25,6 +25,7 @@ tags:
 <div id="notes"><p>Oh boy.  Yet again, a children's television programme has driven me to the brink of insanity.  I return bearing this.  The worst thing of all is that I'm sober, though I have the sudden desire not to be.</p>
 <p>If you haven't watched Waybuloo before, you should probably <a href="http://www.bbc.co.uk/iplayer/search?q=waybuloo">experience the saccharine horror on iPlayer</a> before reading this travesty.</p></div>
 
+<div class="story" markdown="1">
 Crack-crack-crack, came the noise from the sky.
 
 "Look! Whizz-cracker!" said Lau-Lau, and the other Piplings joined her to watch.
@@ -136,3 +137,4 @@ Then, over the horizon, a brilliant flash lit up Nara's sky.
 <br />
 
 Years later, the once-green patch of Nara was as scorched and blackened as the rest of the land.  A gust of wind separated the last of the four glittering crystals from the Yogo device, and it splintered into a thousand tiny pieces on the ground.  Never again would it call the Piplings to perform for it -- the Piplings were free at last.  But the Piplings had not been seen since that day they and the Anything Machine were taken.  If they still somehow lived, they were the last things to live on Nara.
+</div>
