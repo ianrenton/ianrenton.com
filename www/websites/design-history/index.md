@@ -6,10 +6,6 @@ comments: false
 
 This page shows some of the designs that this website has had through its history as "The Mad Marmablue Web Portal", "Only Dreaming" and as IanRenton.com. A lot of awful stuff from my younger years is on display below!
 
-### 1998&mdash;2001
-
-I can't find much on the [Internet Archive](http://archive.org/web/) for the early days of the site. Its original URL may have been http://members.tripod.com/__lep, followed by http://www.geocities.com/marmablue, http://marmablue.cjb.net, http://members.dencity.com/marmablue/, http://marmablue777.f2s.net, and http://members.lycos.co.uk/marmablue7/php/index.php.
-
 ### 1998-ish
 
 My first foray onto the Web was a site created in MS Word. It was everything you imagine and more&mdash;animated GIF backgrounds, auto-playing MIDI music and all. Mercifully, no content appears to have survived on the [Internet Archive](http://archive.org/web/) or elsewhere. I believe its original URL may have been `http://members.tripod.com/__lep`.
