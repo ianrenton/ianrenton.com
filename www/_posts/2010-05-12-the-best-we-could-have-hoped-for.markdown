@@ -7,7 +7,6 @@ slug: the-best-we-could-have-hoped-for
 title: The Best We Could Have Hoped For?
 wordpress_id: 3165
 categories:
-- Blog
 - Politics
 tags:
 - Cameron
