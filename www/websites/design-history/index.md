@@ -6,7 +6,7 @@ comments: false
 
 This page shows some of the designs that this website has had through its history as "The Mad Marmablue Web Portal", "Only Dreaming" and as IanRenton.com. A lot of awful stuff from my younger years is on display below!
 
-### 1998-ish
+### April 1998
 
 My first foray onto the Web was a site created in MS Word. It was everything you imagine and more&mdash;animated GIF backgrounds, auto-playing MIDI music and all. Mercifully, no content appears to have survived on the [Internet Archive](http://archive.org/web/) or elsewhere. I believe its original URL may have been `http://members.tripod.com/__lep`.
 
@@ -36,9 +36,14 @@ A slightly nicer-looking version.
 {% img center http://files.ianrenton.com/sites/blog/sitehistory/2003-06-06.png %}
 
 
+### January 2004
+
+A [blog entry from this month](/blog/papapapayeah/) refers to the launch of "MMWP 9th Style", which presumably means I was onto the 9th redesign of the site at this point. Several of them must presumably be lost.
+
+
 ### May 2004
 
-We abandoned the Wiki after a while. With my blog on Livejournal, I made my homepage into a simple index page. Unfortunately the "chat" box on the left hand side was largely filled with spam.
+I [abandoned the Wiki](/blog/its-official/) around the end of January 2004, apparently because I was the only contributor and I intended friends to contribute more than they did. With my blog on LiveJournal, I made my homepage into a simple index page, and split off a number of smaller sub-sites. Unfortunately the "chat" box on the left hand side was largely filled with spam.
 
 {% img center http://files.ianrenton.com/sites/blog/sitehistory/2004-05-20.png %}
 
@@ -50,16 +55,23 @@ The chat box was quickly dropped, replaced inexplicably with direct links to stu
 {% img center http://files.ianrenton.com/sites/blog/sitehistory/2004-06-06.png %}
 
 
+### August 2004
+
+My blog was hosted on LiveJournal at this point, and looked something like this for the whole time I used it, from [my first post in 2003](/blog/let-the-blogging-begin/) to [the point I quit in 2011](/blog/the-rise-and-fall-of-livejournal/).
+
+{% img center http://files.ianrenton.com/sites/blog/sitehistory/2004-08-01.png %}
+
+
 ### March 2005
 
-Back to hosting real content, now centred around fiction and stories. This used a custom back-end written in PHP that I remember being very proud of at the time.
+Back to hosting real content on the Mad Marmablue Web Portal site, now centred around fiction and stories. This used a custom back-end written in PHP that I remember being very proud of at the time.
 
 {% img center http://files.ianrenton.com/sites/blog/sitehistory/2005-03-11.png %}
 
 
 ### July 2010
 
-The site migrated via Drupal to WordPress, and I can't find a lot of screenshots from this progression. The site was renamed from "The Mad Marmablue Web Portal" to "Only Dreaming", and was moved to `onlydreaming.net`. My blog moved over from LiveJournal in around 2009. Here's one of the still largely fiction-oriented WordPress themes.
+The site migrated via Drupal to WordPress between 2006 and 2009, and I can't find a lot of screenshots from this progression. The site was renamed from "The Mad Marmablue Web Portal" to "Only Dreaming", and was moved to `onlydreaming.net`. My blog moved over from LiveJournal in around 2009. Here's one of the still largely fiction-oriented WordPress themes.
 
 {% img center http://files.ianrenton.com/sites/blog/sitehistory/2010-07-31.png %}
 
