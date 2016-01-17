@@ -12,6 +12,7 @@ Options +FollowSymlinks
   RewriteRule ^raspberrytank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^raspberry-tank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
+  RewriteRule ^blog/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L]
   RewriteRule ^legoturtle(\/?)$ /hardware/lego-turtle [L]
