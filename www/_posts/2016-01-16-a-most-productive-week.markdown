@@ -22,13 +22,13 @@ It was long overdue&mdash;both rooms had mould problems that we'd been ignoring 
 
 {% img center http://files.ianrenton.com/sites/blog/2016/bathroom1.jpg %}
 
-> Attacking the mould in the bathroom.
+> Attacking the mould in the bathroom
 
 Our bedroom had problems along all the external walls, just like every other flat in this building, and the colour scheme of "new build magnolia" fading into "mould grey" had been around far too long.
 
 {% img center http://files.ianrenton.com/sites/blog/2016/bedroom1.jpg %}
 
-> Our grim-looking bathroom, after removing four bin bags and six large boxes of stuff
+> Our grim-looking bedroom, after removing four bin bags and six large boxes of stuff
 
 Three coats of paint later, plus three days of hosting and cooking for the in-laws, the bedroom was looking much better.
 
