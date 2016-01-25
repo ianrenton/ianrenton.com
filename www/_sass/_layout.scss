@@ -26,7 +26,7 @@
     float: right;
     line-height: 56px;
 
-    .menu-button {
+    .menu-icon {
         display: none;
     }
 
@@ -49,13 +49,11 @@
         border-radius: 5px;
         text-align: right;
 
-        .menu-button {
+        .menu-icon {
             display: block;
             float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
+            line-height: 2em;
+            padding: 0 10px;
             text-align: center;
         }
 
