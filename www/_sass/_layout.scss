@@ -112,6 +112,21 @@ div#homepagebanner {
     }
 }
 
+// Customised table columns for Hardware, Software and Websites pages
+.table-col-pic {
+  width:180px;
+  margin-bottom: 2em !important;
+  > a > img {
+    border: 2px solid lightgray;
+  }
+}
+.table-col-descrip {
+  width: 520px;
+  min-width:200px;
+  max-width:100%;
+  margin-bottom: 2em !important;
+}
+
 
 
 /**

@@ -8,47 +8,243 @@ This page is an index of various bits of software I've written in my spare time.
 
 ## Web Stuff
 
-* [SuccessWhale](https://github.com/ianrenton/SuccessWhale) (Social network client)
-* [SuccessWhale API](https://github.com/ianrenton/successwhale-api) (API for SuccessWhale and other clients)
-* [A Thousand Words](https://github.com/ianrenton/athousandwords) (Fiction community)
-* [Daily Promise](https://github.com/ianrenton/DailyPromise) (Social promise-tracking site)
-* [GitHub Readme Website](https://github.com/ianrenton/github-readme-website) (Generate a website from GitHub README.md files)
-* [Twixt](https://github.com/ianrenton/Twixt) (Twitter-oriented pastebin)
-* [Can I Call It...?](https://github.com/ianrenton/canicallit) (software project naming utility)
-* [Yet Another Single File Photo Gallery](https://github.com/ianrenton/yasfpg)
-* [Facefinder](https://github.com/ianrenton/Facefinder) (Intranet "Who's who" page)
-* [The Marvellator](https://github.com/ianrenton/Marvellator) (random comic name generator)
-* [Terrible Fanfiction Idea Generator](https://github.com/ianrenton/fanficidea)
-* [Cobb’s Quay Weather](https://github.com/ianrenton/Cobbs-Quay-Weather)
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/SuccessWhale"><img src="/websites/successwhale.png" alt="SuccessWhale" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/SuccessWhale">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. The frontend runs in Javascript, there is a separate repository for the <a href="https://github.com/ianrenton/successwhale-api">backend API</a> which is written in Ruby and supports third-party clients.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/canicallit"><img src="/websites/cici.png" alt="Can I Call It...?" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/canicallit">"Can I Call It...?"</a> is a utility that helps you name your new project, by finding any existing software packages that already have that name.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/DailyPromise"><img src="/websites/dailypromise.png" alt="Daily Promise" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/DailyPromise">Daily Promise</a> is a "1-bit" activity tracker that allows you to make "promises" and keep track of how many days in a row you kept them.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/athousandwords"><img src="/websites/1kw.png" alt="A Thousand Words" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/athousandwords">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/github-readme-website"><img src="githubreadme.png" alt="GitHub Readme Website" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/github-readme-website">GitHub README Website Generator</a> generates a website for your software based on README.md files in your GitHub repositories.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/twixt"><img src="twixt.png" alt="Twixt" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/Twixt">Twixt</a> is a pastebin for Twitter that's integrated with SuccessWhale.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/yasfpg"><img src="yasfpg.png" alt="YASFPG" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/yasfpg">Yet Another Single File Photo Gallery</a> is a simple bit of PHP that presents photos on a filesystem via an attractive web interface.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/Facefinder"><img src="nopic.png" alt="FaceFinder" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/Facefinder">FaceFinder</a> is a "who's who" page designed for corporate intranets. Two versions are available, one standalone that uses a PHP script and a flat file structure, and one that integrates with Microsoft SharePoint.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/Marvellator"><img src="/websites/marvellator.png" alt="Marvellator" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/Marvellator">The Marvellator</a> is a script that generates random silly comic book titles.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/fanficidea"><img src="/websites/fanficidea.png" alt="Terrible Fanfiction Idea Generator" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/fanficidea">The Terrible Fanfiction Idea Generator</a> is another silly random generator script. This one generates terrible scenarios to use as the basis for fanfiction.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/Cobbs-Quay-Weather"><img src="cobbs.png" alt="Cobbs Quay Weather" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/Cobbs-Quay-Weather">Cobb's Quay Weather</a> is a script that grabs the data behind a Flash-based weather monitoring interface and presents it as plain HTML for use on sailor's phones.
+</div>
+<div class="clear"></div>
 
 ## Games
 
-* [Sea Battle](https://github.com/ianrenton/SeaBattle) (Casual 2D RTS)
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/SeaBattle"><img src="seabattle.png" alt="Sea Battle" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/SeaBattle">Sea Battle</a> is a casual 2D RTS with a pixel-art style and game mechanics inspired by Warzone 2100.
+</div>
+<div class="clear"></div>
 
 ## Code for Hardware Projects
 
-* [Raspberry Tank](https://github.com/ianrenton/raspberrytank)
-* [Lego Turtle](https://github.com/ianrenton/legoturtle)
-* [Quadcopter](https://github.com/ianrenton/quadcopter)
-* [All-Terrain Pi](https://github.com/ianrenton/All-Terrain-Pi)
-* [Playbulb Tools](https://github.com/ianrenton/playbulb-tools)
-* [Gecko Cam](https://github.com/ianrenton/geckocam)
-* [Raspberry Pi Utils](https://github.com/ianrenton/raspi-utils)
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/raspberrytank"><img src="/hardware/tank.png" width="160" alt="Raspberry Tank" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/raspberrytank">Raspberry Tank</a> has various iterations of the code available in its repository, covering the C-based backend and web-based frontend.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/quadcopter"><img src="/hardware/quad.png" width="160" alt="Quadcopter" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/quadcopter">Quadcopter</a> repository contains a few initial test scripts for flying the quad via the Raspberry Pi.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/legoturtle"><img src="/hardware/legoturtle.png" width="160" alt="Lego Turtle" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/legoturtle">Lego Turtle</a> repository includes both pre-programmed examples and the version that has a Logo interpreter via UART to accept custom movement programs.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/All-Terrain-Pi"><img src="/hardware/atp.jpg" width="160" alt="All-Terrain Pi" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/All-Terrain-Pi">All-Terrain Pi</a> repository contains the Python backend, the web-based remote control frontend and example Scratch programs to drive the vehicle.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/geckocam"><img src="/hardware/geckocam.jpg" alt="Rimbaud's House" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/geckocam">Gecko Cam</a> software includes the Raspberry Pi-based backend and web frontend to the "Rimbaud's House" website.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/playbulb-tools"><img src="/hardware/playbulb.jpg" width="160" alt="Playbulb" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/playbulb-tools">Playbulb Tools</a> repository has a couple of example scripts showing how to configure a Playbulb LED light to show current weather and mailbox status.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/raspi-utils"><img src="piutils.png" alt="Raspberry Pi Utils" /></a>
+</div>
+<div class="table-col table-col-descrip">
+I also have a repository for general <a href="https://github.com/ianrenton/raspi-utils">Raspberry Pi Utils</a> and useful scripts for the Pi.
+</div>
+<div class="clear"></div>
 
 ## Utilities
 
-* [NaNoGenMo](https://github.com/ianrenton/NaNoGenMo) (Generator of semi-random 50,000-word novels)
-* [Iridium 9601 Satellite Modem Simulator](https://github.com/ianrenton/Iridium9601Sim)
-* [CrapTerminal](https://github.com/ianrenton/CrapTerminal)
-* [RPG Dice Roller](https://github.com/ianrenton/RPGDiceRoller)
-* [RPoL Thread Reformatter](https://github.com/ianrenton/RPoLThreadReformatter)
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/NaNoGenMo"><img src="nanogenmo.png" alt="NaNoGenMo" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/NaNoGenMo">My 2014 NaNoGenMo entry</a> is a generator of semi-random 50,000-word novels based on fanfiction.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/Iridium9601Sim"><img src="nopic.png" alt="Iridium9601Sim" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/Iridium9601Sim">Iridium9601Sim</a> is a variant of my <a href="https://github.com/ianrenton/CrapTerminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/RPGDiceRoller"><img src="nopic.png" alt="RPG Dice Roller" /></a>
+</div>
+<div class="table-col table-col-descrip">
+My first Python project was a simple <a href="https://github.com/ianrenton/RPGDiceRoller">RPG Dice Roller.</a> is a generator of semi-random 50,000-word novels based on fanfiction.
+</div>
+<div class="clear"></div>
 
 ## Abandoned Projects
 
-* [Westminster Hubble](https://github.com/ianrenton/westminsterhubble)
-* [Premier League Fantasy Football Team Picker](https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker)
-* [Telegraph Fantasy Football Team Picker](https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker)
-* [MusicMan](https://github.com/ianrenton/MusicMan) (Music player / library organiser)
-* [War of the Roses](https://github.com/ianrenton/WarOfTheRoses) (Strategy RPG)
-* [Gunboat](https://github.com/ianrenton/Gunboat) (Naval-themed 3D shooter)
-* [Type X29](https://github.com/ianrenton/TypeX29) (Experimental 1D bullet-hell shooter)
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/westminsterhubble"><img src="/websites/hubble.png" alt="Westminster Hubble" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/westminsterhubble">Westminster Hubble</a> was a website that tracked UK Members of Parliament, both their activities at Westminster and on social media.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker"><img src="nopic.png" alt="Telegraph Fantasy Football Team Picker" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2006-8.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker"><img src="nopic.png" alt="Premier League Fantasy Football Team Picker" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2007-9.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/MusicMan"><img src="nopic.png" alt="MusicMan" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/WarOfTheRoses"><img src="nopic.png" alt="War of the Roses" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/WarOfTheRoses">War of the Roses</a> was an attempt at making a strategy RPG, which never got very far.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/Gunboat"><img src="nopic.png" alt="Gunboat" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/Gunboat">Gunboat</a> was a 3D naval shooter game. Some basic graphics work and controls were in place, but the game was never finished.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/TypeX29"><img src="typex29.png" alt="Type X29" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/TypeX29">Type X29</a> is an experimental 1D "bullet hell" shooter. It's playable, but only just.
+</div>
+<div class="clear"></div>
+
