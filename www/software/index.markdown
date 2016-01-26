@@ -41,7 +41,7 @@ This page is an index of various bits of software I've written in my spare time.
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/github-readme-website"><img src="githubreadme.png" alt="GitHub Readme Website" /></a>
+<a href="https://github.com/ianrenton/github-readme-website"><img src="/websites/githubreadme.png" alt="GitHub Readme Website" /></a>
 </div>
 <div class="table-col table-col-descrip">
 The <a href="https://github.com/ianrenton/github-readme-website">GitHub README Website Generator</a> generates a website for your software based on README.md files in your GitHub repositories.
@@ -49,7 +49,7 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/twixt"><img src="twixt.png" alt="Twixt" /></a>
+<a href="https://github.com/ianrenton/twixt"><img src="/websites/twixt.png" alt="Twixt" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Twixt">Twixt</a> is a pastebin for Twitter that's integrated with SuccessWhale.
@@ -57,7 +57,7 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/yasfpg"><img src="yasfpg.png" alt="YASFPG" /></a>
+<a href="https://github.com/ianrenton/yasfpg"><img src="/websites/yasfpg.png" alt="YASFPG" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/yasfpg">Yet Another Single File Photo Gallery</a> is a simple bit of PHP that presents photos on a filesystem via an attractive web interface.
@@ -65,7 +65,7 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/Facefinder"><img src="nopic.png" alt="FaceFinder" /></a>
+<a href="https://github.com/ianrenton/Facefinder"><img src="/websites/nopic.png" alt="FaceFinder" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Facefinder">FaceFinder</a> is a "who's who" page designed for corporate intranets. Two versions are available, one standalone that uses a PHP script and a flat file structure, and one that integrates with Microsoft SharePoint.
@@ -89,7 +89,7 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/Cobbs-Quay-Weather"><img src="cobbs.png" alt="Cobbs Quay Weather" /></a>
+<a href="https://github.com/ianrenton/Cobbs-Quay-Weather"><img src="/websites/cobbs.png" alt="Cobbs Quay Weather" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Cobbs-Quay-Weather">Cobb's Quay Weather</a> is a script that grabs the data behind a Flash-based weather monitoring interface and presents it as plain HTML for use on sailor's phones.
@@ -99,7 +99,7 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 ## Games
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/SeaBattle"><img src="seabattle.png" alt="Sea Battle" /></a>
+<a href="https://github.com/ianrenton/SeaBattle"><img src="/websites/seabattle.png" alt="Sea Battle" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/SeaBattle">Sea Battle</a> is a casual 2D RTS with a pixel-art style and game mechanics inspired by Warzone 2100.
@@ -157,7 +157,7 @@ The <a href="https://github.com/ianrenton/playbulb-tools">Playbulb Tools</a> rep
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/raspi-utils"><img src="piutils.png" alt="Raspberry Pi Utils" /></a>
+<a href="https://github.com/ianrenton/raspi-utils"><img src="/websites/piutils.png" alt="Raspberry Pi Utils" /></a>
 </div>
 <div class="table-col table-col-descrip">
 I also have a repository for general <a href="https://github.com/ianrenton/raspi-utils">Raspberry Pi Utils</a> and useful scripts for the Pi.
@@ -167,7 +167,7 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 ## Utilities
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/NaNoGenMo"><img src="nanogenmo.png" alt="NaNoGenMo" /></a>
+<a href="https://github.com/ianrenton/NaNoGenMo"><img src="/websites/nanogenmo.png" alt="NaNoGenMo" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/NaNoGenMo">My 2014 NaNoGenMo entry</a> is a generator of semi-random 50,000-word novels based on fanfiction.
@@ -175,7 +175,7 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/Iridium9601Sim"><img src="nopic.png" alt="Iridium9601Sim" /></a>
+<a href="https://github.com/ianrenton/Iridium9601Sim"><img src="/websites/nopic.png" alt="Iridium9601Sim" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Iridium9601Sim">Iridium9601Sim</a> is a variant of my <a href="https://github.com/ianrenton/CrapTerminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
@@ -183,7 +183,7 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/RPGDiceRoller"><img src="nopic.png" alt="RPG Dice Roller" /></a>
+<a href="https://github.com/ianrenton/RPGDiceRoller"><img src="/websites/nopic.png" alt="RPG Dice Roller" /></a>
 </div>
 <div class="table-col table-col-descrip">
 My first Python project was a simple <a href="https://github.com/ianrenton/RPGDiceRoller">RPG Dice Roller.</a> is a generator of semi-random 50,000-word novels based on fanfiction.
@@ -201,7 +201,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker"><img src="nopic.png" alt="Telegraph Fantasy Football Team Picker" /></a>
+<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker"><img src="/websites/nopic.png" alt="Telegraph Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2006-8.
@@ -209,7 +209,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker"><img src="nopic.png" alt="Premier League Fantasy Football Team Picker" /></a>
+<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker"><img src="/websites/nopic.png" alt="Premier League Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2007-9.
@@ -217,7 +217,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/MusicMan"><img src="nopic.png" alt="MusicMan" /></a>
+<a href="https://github.com/ianrenton/MusicMan"><img src="/websites/nopic.png" alt="MusicMan" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager.
@@ -225,7 +225,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/WarOfTheRoses"><img src="nopic.png" alt="War of the Roses" /></a>
+<a href="https://github.com/ianrenton/WarOfTheRoses"><img src="/websites/nopic.png" alt="War of the Roses" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/WarOfTheRoses">War of the Roses</a> was an attempt at making a strategy RPG, which never got very far.
@@ -233,7 +233,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/Gunboat"><img src="nopic.png" alt="Gunboat" /></a>
+<a href="https://github.com/ianrenton/Gunboat"><img src="/websites/nopic.png" alt="Gunboat" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Gunboat">Gunboat</a> was a 3D naval shooter game. Some basic graphics work and controls were in place, but the game was never finished.
@@ -241,7 +241,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/TypeX29"><img src="typex29.png" alt="Type X29" /></a>
+<a href="https://github.com/ianrenton/TypeX29"><img src="/websites/typex29.png" alt="Type X29" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/TypeX29">Type X29</a> is an experimental 1D "bullet hell" shooter. It's playable, but only just.
