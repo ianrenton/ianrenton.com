@@ -65,7 +65,7 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/Facefinder"><img src="/websites/nopic.png" alt="FaceFinder" /></a>
+<a href="https://github.com/ianrenton/Facefinder"><img src="/websites/facefinder.png" alt="FaceFinder" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Facefinder">FaceFinder</a> is a "who's who" page designed for corporate intranets. Two versions are available, one standalone that uses a PHP script and a flat file structure, and one that integrates with Microsoft SharePoint.
@@ -96,6 +96,8 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 </div>
 <div class="clear"></div>
 
+<br/>
+
 ## Games
 
 <div class="table-col table-col-pic">
@@ -105,6 +107,8 @@ The <a href="https://github.com/ianrenton/github-readme-website">GitHub README W
 <a href="https://github.com/ianrenton/SeaBattle">Sea Battle</a> is a casual 2D RTS with a pixel-art style and game mechanics inspired by Warzone 2100.
 </div>
 <div class="clear"></div>
+
+<br/>
 
 ## Code for Hardware Projects
 
@@ -164,6 +168,8 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 </div>
 <div class="clear"></div>
 
+<br/>
+
 ## Utilities
 
 <div class="table-col table-col-pic">
@@ -175,7 +181,7 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/Iridium9601Sim"><img src="/websites/nopic.png" alt="Iridium9601Sim" /></a>
+<a href="https://github.com/ianrenton/Iridium9601Sim"><img src="/websites/iridium9601sim.png" alt="Iridium9601Sim" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/Iridium9601Sim">Iridium9601Sim</a> is a variant of my <a href="https://github.com/ianrenton/CrapTerminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
@@ -183,12 +189,14 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/RPGDiceRoller"><img src="/websites/nopic.png" alt="RPG Dice Roller" /></a>
+<a href="https://github.com/ianrenton/RPGDiceRoller"><img src="/websites/diceroller.png" alt="RPG Dice Roller" /></a>
 </div>
 <div class="table-col table-col-descrip">
 My first Python project was a simple <a href="https://github.com/ianrenton/RPGDiceRoller">RPG Dice Roller.</a> is a generator of semi-random 50,000-word novels based on fanfiction.
 </div>
 <div class="clear"></div>
+
+<br/>
 
 ## Abandoned Projects
 
@@ -201,7 +209,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker"><img src="/websites/nopic.png" alt="Telegraph Fantasy Football Team Picker" /></a>
+<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker"><img src="/websites/teampicker.png" alt="Telegraph Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2006-8.
@@ -209,7 +217,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker"><img src="/websites/nopic.png" alt="Premier League Fantasy Football Team Picker" /></a>
+<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker"><img src="/websites/teampicker.png" alt="Premier League Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2007-9.
@@ -217,7 +225,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/MusicMan"><img src="/websites/nopic.png" alt="MusicMan" /></a>
+<a href="https://github.com/ianrenton/MusicMan"><img src="/websites/musicman.png" alt="MusicMan" /></a>
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager.
