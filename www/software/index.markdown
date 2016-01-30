@@ -228,7 +228,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <a href="https://github.com/ianrenton/MusicMan"><img src="/images/musicman.png" alt="MusicMan" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager. It had some basic functionality but never compared with the likes od Winamp and Foobar.
+<a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager. It had some basic functionality but never compared with the likes of Winamp and Foobar.
 </div>
 <div class="clear"></div>
 
