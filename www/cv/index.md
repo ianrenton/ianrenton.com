@@ -55,7 +55,7 @@ Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.
 </td></tr><tr><td>
 Specific packages
 </td><td>
-DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Jenkins, MySQL, MSSQL, Microsoft Office, $\LaTeX$, Windows & Linux.
+DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Jenkins, MySQL, MSSQL, Microsoft Office, <i>L<sup>A</sup>T<sub>E</sub>X</i>, Windows & Linux.
 </td></tr></table>
 
 ## Professional Experience

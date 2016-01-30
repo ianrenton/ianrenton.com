@@ -16,6 +16,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.10)
     hitimes (1.2.2)
+    itextomml (1.5.2)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -105,6 +106,7 @@ PLATFORMS
 
 DEPENDENCIES
   facets
+  itextomml
   jekyll-archives
   jekyll-sitemap
   octopress (~> 3.0)
@@ -114,3 +116,6 @@ DEPENDENCIES
   octopress-paginate
   octopress-quote-tag
   octopress-video-tag
+
+BUNDLED WITH
+   1.10.6

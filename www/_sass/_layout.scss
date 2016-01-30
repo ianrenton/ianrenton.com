@@ -317,25 +317,27 @@ div#homepagebanner {
     }
 }
 
-.storynav, .notes, #storynav, #notes {
+.storynav, .notes, #storynav, #notes, .oldwarning {
   font-size: 0.9em;
   margin-bottom: 1em;
   padding: 0.1em;
-  border: 1px solid #A0A000;
-  background-color: #FFFFA0;
   > p {
     margin: 1em;
   }
 }
 
+.notes, #notes {
+  border: 1px solid #A0A0FF;
+  background-color: #E0E0FF;
+}
+
+.storynav, #storynav {
+  border: 1px solid #A0A000;
+  background-color: #FFFFA0;
+}
+
 .oldwarning {
-  font-size: 0.9em;
-  margin-bottom: 1em;
-  padding: 0.1em;
   color: #D00000;
   border: 1px solid #D00000;
   background-color: #FFDDDD;
-  > p {
-    margin: 1em;
-  }
 }

@@ -25,7 +25,7 @@ The second day dawns, and my wake up call comes in through the open window by vi
 
 {% img center //files.ianrenton.com/sites/blog/2015/spidercrab.jpg %}
 
-Our first full day in Vienna, we skip the hot-sounding zoo in favour of the likely air-conditioned aquarium (sadly not so), track down a highly-rated and air conditioned café for lunch (service levels lacking) and bake ourselves for three solid hours in order to take vaguely shameful selfies in front of the graves of Vienna's greats. Boltzmann's really does have $$S = k~log~w$$ on it, as our A-level textbooks assured us.
+Our first full day in Vienna, we skip the hot-sounding zoo in favour of the likely air-conditioned aquarium (sadly not so), track down a highly-rated and air conditioned café for lunch (service levels lacking) and bake ourselves for three solid hours in order to take vaguely shameful selfies in front of the graves of Vienna's greats. Boltzmann's really does have {% math display: inline %}S = k~log~w{% endmath %} on it, as our A-level textbooks assured us.
 
 {% img center //files.ianrenton.com/sites/blog/2015/boltzmann.jpg %}
 
