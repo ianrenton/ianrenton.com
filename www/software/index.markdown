@@ -20,7 +20,7 @@ This page is an index of various bits of software I've written in my spare time.
 <a href="https://github.com/ianrenton/canicallit"><img src="/images/cici.png" alt="Can I Call It...?" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/canicallit">"Can I Call It...?"</a> is a utility that helps you name your new project, by finding any existing software packages that already have that name.
+<a href="https://github.com/ianrenton/canicallit">"Can I Call It...?"</a> is a utility that helps you name your new software project, by checking for any existing software packages that already have that name.
 </div>
 <div class="clear"></div>
 
@@ -192,7 +192,7 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 <a href="https://github.com/ianrenton/RPGDiceRoller"><img src="/images/diceroller.png" alt="RPG Dice Roller" /></a>
 </div>
 <div class="table-col table-col-descrip">
-My first Python project was a simple <a href="https://github.com/ianrenton/RPGDiceRoller">RPG Dice Roller.</a> is a generator of semi-random 50,000-word novels based on fanfiction.
+My first Python project was a simple <a href="https://github.com/ianrenton/RPGDiceRoller">RPG Dice Roller</a> with support for different systems such as D&D, World of Darkness, Shadowrun etc.
 </div>
 <div class="clear"></div>
 
@@ -204,7 +204,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <a href="https://github.com/ianrenton/westminsterhubble"><img src="/images/hubble.png" alt="Westminster Hubble" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/westminsterhubble">Westminster Hubble</a> was a website that tracked UK Members of Parliament, both their activities at Westminster and on social media.
+<a href="https://github.com/ianrenton/westminsterhubble">Westminster Hubble</a> was a website that tracked UK Members of Parliament, both their activities at Westminster and on social media. It was shuttered due to a combination of lack of interest and API changes of the services it depended on.
 </div>
 <div class="clear"></div>
 
@@ -212,7 +212,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker"><img src="/images/tffpicker.png" alt="Telegraph Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2006-8.
+<a href="https://github.com/ianrenton/TelegraphFantasyFootballTeamPicker">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2006-8. This scraped the stats web pages from the game as there was no proper API; eventually I stopped playing fantasy football and thus stopped fighting the website's frequently changing markup.
 </div>
 <div class="clear"></div>
 
@@ -220,7 +220,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker"><img src="/images/plffpicker.png" alt="Premier League Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2007-9.
+<a href="https://github.com/ianrenton/PremierLeagueFantasyFootballTeamPicker">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2007-9. This scraped the stats web pages from the game as there was no proper API; eventually I stopped playing fantasy football and thus stopped fighting the website's frequently changing markup.
 </div>
 <div class="clear"></div>
 
@@ -228,7 +228,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <a href="https://github.com/ianrenton/MusicMan"><img src="/images/musicman.png" alt="MusicMan" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager.
+<a href="https://github.com/ianrenton/MusicMan">MusicMan</a> was an attempt at a music player and music library manager. It had some basic functionality but never compared with the likes od Winamp and Foobar.
 </div>
 <div class="clear"></div>
 
@@ -244,7 +244,7 @@ My first Python project was a simple <a href="https://github.com/ianrenton/RPGDi
 <a href="https://github.com/ianrenton/Gunboat"><img src="/images/gunboat.png" alt="Gunboat" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/Gunboat">Gunboat</a> was a 3D naval shooter game. Some basic graphics work and controls were in place, but the game was never finished.
+<a href="https://github.com/ianrenton/Gunboat">Gunboat</a> was a 3D naval shooter game, through which I tried to teach myself OpenGL. Some basic graphics work and controls were in place, but the game was never finished.
 </div>
 <div class="clear"></div>
 
