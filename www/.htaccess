@@ -13,10 +13,10 @@ Options +FollowSymlinks
   RewriteRule ^raspberry-tank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^blog/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
+  RewriteRule ^blog/tag/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L]
   RewriteRule ^legoturtle(\/?)$ /hardware/lego-turtle [L]
-  RewriteRule ^software/(.+)$ https://github.com/ianrenton/$1 [L,R=301]
 </IfModule>
 
 <IfModule mod_expires.c>
