@@ -10,7 +10,7 @@ wordpress_id: 2
 
 This site lists the few guides I have written to help out various people online. Most of them are now a little dated.
 
-  * [Install Linux on a Linx 1010B Tablet](./install-linux-on-a-linx-1010b-tablet)
+  * [Install Linux on a Linx 1010B Tablet](./howto-install-linux-on-a-linx-1010b-tablet)
   * [Convert WordPress Posts to Pages](./howto-convert-wordpress-posts-to-pages)
   * [Install Sun's JDK on Ubuntu (without the Command Line)](./howto-install-sun-s-jdk-on-ubuntu-without-the-command-line)
   * [Update ClockworkMod to flash CyanogenMod 7](./howto-update-clockworkmod-to-flash-cyanogenmod-7)
