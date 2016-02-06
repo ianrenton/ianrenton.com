@@ -105,6 +105,17 @@ xinput set-prop "Goodix Capacitive TouchScreen" 'Coordinate Transformation Matri
 
 If you want this to happen automatically when you log in, save both commands to a file (e.g. `~/scripts/rotate`), make it executable (`chmod +x ~/scripts/rotate`) and add it to Ubuntu's Startup Applications.
 
+### Rotating the Login Screen
+
+It should be possible to apply this to the login screen as well, by creating a file named `/etc/lightdm/lightdm.conf.d/80-display-setup.conf` with the following contents:
+
+```
+[SeatDefaults]
+display-setup-script=xrandr -o right && xinput set-prop "Goodix Capacitive TouchScreen" 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1
+```
+
+However, for me this produces a "low graphics mode" error on startup and the Unity greeter fails to run.
+
 ## Preparing for Touchscreen-only use
 
 Since you probably want to detach the keyboard at some point, it's a good idea to run Onboard (the on-screen keyboard) and configure it to your liking. The following settings make it behave a lot like the Windows keyboard:
@@ -120,6 +131,24 @@ Since you probably want to detach the keyboard at some point, it's a good idea t
 You should now be able to detach the keyboard and still use the tablet, though you might want to keep it connected for the upcoming sections which heavily use the terminal.
 
 If you use Firefox, you may want to install the [Grab and Drag](https://addons.mozilla.org/en-GB/firefox/addon/grab-and-drag/) add-on which will improve web browsing with a touchscreen.
+
+### Long-press to Right Click
+
+Ubuntu's "Universal Access" panel contains a "Simulated Secondary Click" option that should allow you to long-press on the touchscreen to get a right click effect. You can also achieve the same from the terminal with:
+
+```
+gsettings set org.gnome.desktop.a11y.mouse secondary-click-enabled "true"
+```
+
+Unfortunately, the touchscreen sensitivity seems to be very high, so even if you keep your finger relatively still, it is still counted as a left button drag rather than a right button click. No other GNOME/Unity settings appear to alter this.
+
+There are some xinput options that are configurable and should achieve this as well, such as those below, but I have not succeeded in getting them working so far.
+
+```
+xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Emulation" "1"
+xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Threshold" "100"
+xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "500"
+```
 
 ## Setting up WiFi
 
@@ -156,3 +185,4 @@ To get this far I've used information from the following places. I'm extremely g
 * [Installing Ubuntu on Bay Trail tablets (version 2)](https://sturmflut.github.io/linux/ubuntu/2015/02/04/installing-ubuntu-on-baytrail-tablets-version-2/)
 * [How do I repair grub2 (not) booting 32-bit EFI on a 64-bit machine?](http://unix.stackexchange.com/questions/206274/how-do-i-repair-grub2-not-booting-32-bit-efi-on-a-64-bit-machine/215546#215546)
 * [How to reinstall GRUB2 EFI?](http://superuser.com/questions/376470/how-to-reinstall-grub2-efi/376471#376471)
+* [lightdm - rotated monitor. login screen needs rotation](http://askubuntu.com/a/466618)
