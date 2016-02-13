@@ -116,6 +116,3 @@ DEPENDENCIES
   octopress-paginate
   octopress-quote-tag
   octopress-video-tag
-
-BUNDLED WITH
-   1.10.6
