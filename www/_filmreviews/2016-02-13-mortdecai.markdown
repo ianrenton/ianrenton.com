@@ -6,7 +6,7 @@ date: 2016-02-13T21:30:33+00:00
 
 ## Synopsis
 
-An INEPT TOFF, a TERRORIST and MI5 race to track down a STOLEN PAINTING containing a SECRET CODE to NAZI BANK ACCOUNTS, and somehow NOT A NIC CAGE IN SIGHT. It does however feature a bunch of EXTREMELY FAMOUS PEOPLE who for some reason chose to star in an EXTREMELY BAD FILM.
+In an ILL-CONCEIVED EXAMPLE of ODDLY VIOLENT JEEVES AND WOOSTER FANFICTION, an INEPT TOFF, a TERRORIST and MI5 race to track down a STOLEN PAINTING containing a SECRET CODE to NAZI BANK ACCOUNTS. Yet somehow NOT A NIC CAGE IN SIGHT! It does however feature a bunch of EXTREMELY FAMOUS PEOPLE who for some reason chose to star in an EXTREMELY BAD FILM.
 
 ## By the Numbers
 

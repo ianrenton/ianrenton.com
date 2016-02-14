@@ -12,7 +12,7 @@ My first foray onto the Web was a site created in MS Word. It was everything you
 
 ### 2000-ish
 
-I learned how to use frames, and how to code my HTML from scratch (by copying other sites), so there was another version of the site that proudly sported a "built in Notepad" badge. I remember a drop-down menu for navigation, a second drop-down to choose the auto-playing background MIDI (what luxury!) and a white on black/blue colour scheme. This version was hosted at `http://www.geocities.com/marmablue`, and no content has survived.
+I learned how to use frames, and how to code my HTML from scratch (by copying other sites), so there was another version of the site that proudly sported a "built in Notepad" badge. I remember a drop-down menu for navigation, a second drop-down to choose the auto-playing background MIDI (what luxury!) and a white on black/blue colour scheme, all of which may have been "borrowed" from emulation site [Zophar's Domain from about that era](https://web.archive.org/web/20000510041717/http://www.zophar.net/). This version of my site was hosted at `http://www.geocities.com/marmablue`, and no content has survived.
 
 ### February 2001
 
