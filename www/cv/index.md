@@ -55,7 +55,7 @@ Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.
 </td></tr><tr><td>
 Specific packages
 </td><td>
-DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Jenkins, MySQL, MSSQL, Microsoft Office, <i>L<sup>A</sup>T<sub>E</sub>X</i>, Windows & Linux.
+DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Jenkins, MySQL, MSSQL, Microsoft Office, <i>L<sup>A</sup>T<sub>E</sub>X</i>, Windows, Linux & Mac.
 </td></tr></table>
 
 ## Professional Experience
@@ -64,8 +64,8 @@ DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git
 Feb&nbsp;2014 &mdash; Present
 </td><td>
 <p><b>Principal Software engineer at (Current Employer)</b></p>
-<p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work.</p>
-<p>Currently leading a team of 5 to produce design documentation for CDR, with the team expected to grow to 7-8 engineers during the implementation phase from January 2016.</p>
+<p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work, followed by the full range of reuirements, architectural design, detailed design and test documentation during the design phase of the project.</p>
+<p>Currently leading a team of 4 to develop the software applications during the first half of 2016, with trials and testing to begin in July.</p>
 </td></tr><tr><td>
 
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
@@ -81,7 +81,7 @@ Oct&nbsp;2009 &mdash; Feb&nbsp;2014
 
 Jul&nbsp;2006 &mdash; Sep&nbsp;2009
 </td><td>
-<b>Software engineer at QinetiQ</b></p>
+<p><b>Software engineer at QinetiQ</b></p>
 <p>Worked on a variety of projects for defense and commercial customers, primarily in the naval arena.</p>
 <p>Responsibility for the complete engineering process from requirements capture to commissioning on a number of small projects.</p>
 <p>Worked to increase the adoption of configuration & issue management tools at the Winfrith site.</p>
