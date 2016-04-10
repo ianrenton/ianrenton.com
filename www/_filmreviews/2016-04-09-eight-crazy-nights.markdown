@@ -38,7 +38,7 @@ DEATH IS TOO GOOD FOR US
 * Times I have now seen Adam Sandler threaten to shit on a small child's bed: OH GOD WHAT
 * Surprise Eccentrica Gallumbits, the triple-breasted whore of Eroticon 6: WHAAAAAAT
 * Cheery musical numbers sang by shop mascots while Adam Sandler is strapped to a living chair with sinister eyes: WHAT WHAT WHAT WHAT
-* Pensioners pushed down a hill in a portaloo, the subsequenctly covered in shit, turned into a "poop-sickle", and had his balls licked clean by Adam Sandler the shit-eating reindeer:<br/>
+* Pensioners pushed down a hill in a portaloo, then subsequenctly covered in shit, turned into a "poop-sickle", and had his balls licked clean by Adam Sandler the shit-eating reindeer:<br/>
 <img src="//files.ianrenton.com/sites/filmreviews/badger.gif" width="400"/><br/>
 <img src="//files.ianrenton.com/sites/filmreviews/badger.gif" width="500"/><br/>
 <img src="//files.ianrenton.com/sites/filmreviews/badger.gif" width="640"/><br/>
