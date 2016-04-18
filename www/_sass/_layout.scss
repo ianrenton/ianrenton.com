@@ -90,6 +90,11 @@ div#homepagebanner {
     h1, h2 {
       display: inline-block;
     }
+    h1 {
+      font-size: 60px;
+      margin-bottom: 0.2em;
+      line-height: 1em;
+    }
   }
 }
 
@@ -206,7 +211,7 @@ div#homepagebanner {
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .post-list {
