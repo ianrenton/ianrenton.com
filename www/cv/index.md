@@ -118,8 +118,8 @@ Physics and Electronics.
 
 ## Security
 
-UK National, security information available on <a href="mailto:ian@ianrenton.com"request</a>.
+UK National, security information available on <a href="mailto:ian@ianrenton.com">request</a>.
 
 ## References
 
-References are available on <a href="mailto:ian@ianrenton.com"request</a>.
+References are available on <a href="mailto:ian@ianrenton.com">request</a>.
