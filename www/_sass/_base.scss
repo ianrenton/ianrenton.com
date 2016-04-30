@@ -119,6 +119,9 @@ a {
  * Blockquotes
  */
 blockquote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     color: $grey-color-dark;
     text-align: center;
     font-style: italic;
