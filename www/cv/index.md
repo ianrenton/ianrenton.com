@@ -110,10 +110,14 @@ Member of the Institution for Engineering and Technology (MIET). Presently worki
 </td><td>
 BSc (Hons) in Physics from the University of Southampton.
 </td></tr><tr><td>
+2002 &mdash; 2003
+</td><td>
+BTEC in Management from Pershore College, earned whilst on my Year in Industry placement at QinetiQ.
+</td></tr><tr><td>
 1995 &mdash; 2002
 </td><td>
 Attended Bournemouth School for Boys. Achieved A-levels in Maths, Further Maths,
-Physics and Electronics.
+Physics and Electronics, as well as a certificate in Japanese Language & Studies.
 </td></tr></table>
 
 ## Security
