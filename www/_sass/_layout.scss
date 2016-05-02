@@ -10,7 +10,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: $big-font-size;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -153,7 +153,7 @@ div#homepagebanner {
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $small-font-size;
     color: lighten($text-color, 15%);
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -211,7 +211,7 @@ div#homepagebanner {
 }
 
 .page-heading {
-    font-size: 30px;
+    font-size: $huge-font-size;
 }
 
 .post-list {
@@ -230,7 +230,7 @@ div#homepagebanner {
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: $huge-font-size;
 }
 
 
@@ -243,12 +243,12 @@ div#homepagebanner {
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: $massive-font-size;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: $huge-font-size;
     }
 }
 
@@ -256,26 +256,26 @@ div#homepagebanner {
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: $huge-font-size;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: $big-font-size;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: $big-font-size;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: $base-font-size;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: $base-font-size;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: $base-font-size;
         }
     }
 }
@@ -284,7 +284,10 @@ div#homepagebanner {
 /**
  * Nav
  */
-.pagination {  
+.pagination { 
+
+  margin-bottom: $spacing-unit;
+ 
   > .pagination-left {
     display: inline-block;
     width: 50%;
