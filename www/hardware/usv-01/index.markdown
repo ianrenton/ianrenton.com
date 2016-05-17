@@ -2,7 +2,7 @@
 comments: false
 layout: page
 slug: index
-title: Quadcopter
+title: USV-01 "Harry Paye"
 ---
 
 USV-01 "Harry Paye" is an off-the-shelf remote control boat refitted as a testbed for our military-grade autonomous navigation system. It's also a lot of fun to play with!
