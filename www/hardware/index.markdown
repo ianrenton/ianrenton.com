@@ -15,6 +15,14 @@ The <a href="./raspberry-tank">Raspberry Tank</a> was possibly the first tank-li
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
+<a href="./usv-01"><img src="/images/usv-01.jpg" width="160" alt="USV-01" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="./usv-01">USV-01 "Harry Paye"</a> is an off-the-shelf remote control boat refitted as a testbed for our military-grade autonomous navigation system. It's also a lot of fun to play with!
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
 <a href="./quadcopter"><img src="/images/quad.png" width="160" alt="Quadcopter" /></a>
 </div>
 <div class="table-col table-col-descrip">
