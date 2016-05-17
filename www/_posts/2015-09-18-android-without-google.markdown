@@ -24,7 +24,9 @@ Aside from what's provided in my AOSP-based CyanogenMod base software (much of w
 
 *Maps* features live traffic updates, a key feature when driving long distances to see friends and family. Although other apps have voice guided navigation (I also have [OsmAnd](http://osmand.net/) installed), I've been unable to find a free live traffic offering that matches Google's.
 
-*YouTube* doesn't seem to have a decent open source client for Android, either due to legal problems or just that there's little desire for one. To cope with my son's regular desire to watch the music videos for obscure pop songs on my phone, I've had to keep this installed too.
+<strike><i>YouTube</i> doesn't seem to have a decent open source client for Android, either due to legal problems or just that there's little desire for one. To cope with my son's regular desire to watch the music videos for obscure pop songs on my phone, I've had to keep this installed too.</strike>
+
+**EDIT:** Check out [NewPipe](https://f-droid.org/repository/browse/?fdid=org.schabi.newpipe) for a YouTube replacement!
 
 ## That means Google Play Services stays.
 
@@ -46,7 +48,7 @@ As far as standard productivity apps go, there has either been an open source eq
 
 * **K9 Mail** was my default mail client anyway. It has a few failings, but in my opinion is still the best mail client on Android.
 * **Firefox** was my default browser, and is open source as you would expect.
-* **SMS Secure** replaced TextSecure. It's a fork that is identical in every way bar the name.
+* **Silence** replaced TextSecure. It's a fork that is identical in every way bar the name.
 * **WeeChat**'s Android client is open source.
 * **VX ConnectBot** is open source.
 * **DAVDroid** replaced CalDAV-sync and CardDAV-sync. My self-signed SSL certificate had to be added to Android itself manually, but aside from that quirk this one app replaced two.
@@ -60,7 +62,7 @@ Here again, I didn't find much to change from my original apps, largely because 
 * [**OnoSendai**](http://onosendai.mobi) is written by a friend of mine, and is my normal Twitter client. It has its own F-Droid repository.
 * **FaceSlim** is a simple wrapper around the Facebook mobile website. Again, I have used this in preference to the permission-hungry "real" Facebook app for a long time.
 * I was already using **ownCloud** and **ownCloud News Reader** for file sync and RSS reading; both are open source.
-* **Diode** replaced Reddit Sync as my go-to Reddit client. There's another service I ought to ditch one of these days.
+* **Slide** replaced Reddit Sync as my go-to Reddit client. There's another service I ought to ditch one of these days.
 
 Everything else, I already used my browser for on Android.
 
