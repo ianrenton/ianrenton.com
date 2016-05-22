@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-With the [propulsion hardware fitted](../usv-01-hull-assembly) complete, it's time to fit a standard RC electronics set to enable remote control of the vehicle.
+With the [propulsion hardware fitted](../usv-01-hull-assembly), it's time to fit a set of electronics to enable remote control of the vehicle.
 
 The batteries in general are difficult to fit. In particular, on the port side the battery access is blocked by the ESC. The port battery must therefore be pushed forward on the starboard side, then brought around the front of the motor. This is not especially easy either.
 
@@ -26,4 +26,4 @@ The boat is now ready to be tested on the water&mdash;initially, in the bath.
 
 Here's a video of the first out-of-water and in-water propulsion tests:
 
-<center><iframe src="https://player.vimeo.com/video/167553873?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><iframe src="https://player.vimeo.com/video/167553873?title=0&byline=0&portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
