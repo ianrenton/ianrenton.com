@@ -17,7 +17,7 @@ USV-01 "Harry Paye" is an off-the-shelf remote control boat refitted as a testbe
 ## Other Information
 
 * [Bill of Materials](../usv-01-bill-of-materials)
-* Schematics
+* [Schematics](../usv-01-schematics)
 
 ## Videos
 

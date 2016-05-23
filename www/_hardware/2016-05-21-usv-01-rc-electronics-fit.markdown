@@ -20,6 +20,10 @@ The RC receiver is attached to the throttle ESC and rudder servo by the trailing
 
 {% img center //files.ianrenton.com/sites/usv01/rx.jpg Receiver fitted %}
 
+The schematic for the installed electronics now looks like this (click for PDF):
+
+[![Base RC Electronics Schematic](//files.ianrenton.com/sites/usv01/base-rc-schematic.png)](//files.ianrenton.com/sites/usv01/base-rc-schematic.pdf)
+
 The boat is now ready to be tested on the water&mdash;initially, in the bath.
 
 {% img center //files.ianrenton.com/sites/usv01/bath.jpg Boat in bath %}
