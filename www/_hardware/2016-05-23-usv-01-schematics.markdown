@@ -10,3 +10,8 @@ With the base remote control electronics fitted, the schematic for the installed
 
 [![Base RC Electronics Schematic](//files.ianrenton.com/sites/usv01/base-rc-schematic.png)](//files.ianrenton.com/sites/usv01/base-rc-schematic.pdf)
 
+
+When the full set of electronics to enable autonomous control are fitted, the schematic will look more like this (click for PDF):
+
+[![Full Electronics Schematic](//files.ianrenton.com/sites/usv01/full-schematic.png)](//files.ianrenton.com/sites/usv01/full-schematic.pdf)
+
