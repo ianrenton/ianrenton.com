@@ -22,7 +22,7 @@ Yes, it also has a Raspberry Pi on it.
 7. [Propeller Fit](../quad-propeller-fit)
 8. [Tethered Tests](../quad-tethered-tests)
 9. [KK Board Firmware Flash](../quad-kk-board-firmware-flash)
-10. [Raspberry Pi Setup & Fit](../quad-raspberry-pi-setup-and-fit)
+10. [Raspberry Pi Setup & Fit](../quad-raspberry-pi-setup-amp-fit)
 11. [Raspberry Pi Control Test](../quad-raspberry-pi-control-test)
 12. [Camera Fit & Test](../quad-camera-fit-amp-test)
 13. [Inside the Transmitter](../quad-inside-the-transmitter)
