@@ -14,6 +14,8 @@ USV-01 "Harry Paye" is an off-the-shelf remote control boat refitted as a testbe
 1. [Hull Assembly](../usv-01-hull-assembly)
 2. [RC Electronics Fit](../usv-01-rc-electronics-fit)
 2. [Camera & Raspberry Pi Fit](../usv-01-camera-raspberry-pi-fit)
+2. [Electronics Box](../usv-01-electronics-box)
+2. [GPS Test](../usv-01-gps-test)
 
 ## Other Information
 

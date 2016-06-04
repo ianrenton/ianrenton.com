@@ -11,7 +11,11 @@ With the base remote control electronics fitted, the schematic for the installed
 [![Base RC Electronics Schematic](//files.ianrenton.com/sites/usv01/base-rc-schematic.png)](//files.ianrenton.com/sites/usv01/base-rc-schematic.pdf)
 
 
-When the full set of electronics to enable autonomous control are fitted, the schematic will look more like this (click for PDF):
+<br/><br/>With the full set of electronics listed in [the BOM](../usv-01-bill-of-materials), the schematic will look more like this (click for PDF):
 
 [![Full Electronics Schematic](//files.ianrenton.com/sites/usv01/full-schematic.png)](//files.ianrenton.com/sites/usv01/full-schematic.pdf)
 
+
+<br/><br/>My current build, which doesn't quite match the BOM as I'm re-using some older components, looks like this (click for PDF):
+
+**TBD**

@@ -50,7 +50,7 @@ This is the bill of materials for USV-01, based loosely on my previous blog post
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://shop.pimoroni.com/products/raspberry-pi-3">Raspberry Pi 3</a></td>
+      <td><a href="https://shop.pimoroni.com/products/raspberry-pi-3">Raspberry Pi 3</a> &lowast;</td>
       <td>32.00</td>
       <td>0.045</td>
       <td>1</td>
@@ -68,7 +68,7 @@ This is the bill of materials for USV-01, based loosely on my previous blog post
     </tr>
     <tr>
       <td>6</td>
-      <td><a href="http://electronics.chroma.se/usbsb.php">USB Servo Board</a></td>
+      <td><a href="http://electronics.chroma.se/usbsb.php">USB Servo Board</a> &lowast;&lowast;</td>
       <td>15.47</td>
       <td>0.01</td>
       <td>1</td>
@@ -105,3 +105,6 @@ This is the bill of materials for USV-01, based loosely on my previous blog post
   </tbody>
 </table>
 
+<br/>&lowast; I'm using a Raspberry Pi 2 in my build because I had one lying around, but if you're starting from scratch there's no reason not to go for version 3. Note that while the Raspberry Pi 3 has on-board WiFi, its antenna is tiny, so I would recommend using a WiFi USB dongle with a large antenna anyway.
+
+&lowast;&lowast; Currently, my build is slightly different in that it uses the GPIO-mounted version of this, not the USB version. The disadvantage of this is that it takes up the Pi's UART, so a separate USB to UART adapter (CP2102) is required to communicate with the GPS. This is just because I had the bits lying around so could save some money&mdash;if starting from scratch, I would use the part listed here.
