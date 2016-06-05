@@ -31,7 +31,7 @@ Instead of a regulator, a switching DC/DC converter was chosen, specifically a [
 This component was bought and soldered to a small piece of veroboard, with flying leads to connect to the tank's power supply (via our choc block) and a hacked-up microUSB cable to connect to the Raspberry Pi.  (The USB cable I chose to cut up had the normal red, black, green and white cores as expected, but the black core was just a strain member -- full of fluff -- whilst the ground line was actually connected to the screen. I'm not sure how common this is, so watch out for it if you are recreating this build.)
 
 [![DCDC Converter](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_135946-300x155.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_135946.jpg)<br/>
-_Rachem hides many sins._
+_Raychem hides many sins._
 
 Once built, this board was tested with a power supply providing the 7.2V and a multimeter checking the 5V output.  Once I was happy that the output was clean and at the right voltage, the Raspberry Pi itself was connected and booted up.  During the boot process, the current draw on the 7.2A side peaked at 550mA, coming to stabilise at around 250mA once the Pi was idle.
 
