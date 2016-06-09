@@ -22,4 +22,12 @@ It also has some screw holes to fix the GPS and heading unit to the top:
 
 {% img center //files.ianrenton.com/sites/usv01/box4.jpg Box with GPS on top %}
 
+Like so:
+
+{% img center //files.ianrenton.com/sites/usv01/box5.jpg Box with GPS and CP2101 fitted %}
+
+There's a space for the Pololu servo multiplexer board next to it:
+
+{% img center //files.ianrenton.com/sites/usv01/box6.jpg Box with servo multiplexer fitted %}
+
 **To be continued...**
