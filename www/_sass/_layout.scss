@@ -183,6 +183,15 @@ div#homepagebanner {
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
+input.search {
+    background: none;
+    color: $text-color-inverted;
+    border: none;
+    border-bottom: 2px solid $text-color-inverted;
+    font-family: $base-font-family;
+    font-size: $small-font-size;
+}
+
 .footer-col-3 {
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
     width:         calc(30% - (#{$spacing-unit} / 2));
