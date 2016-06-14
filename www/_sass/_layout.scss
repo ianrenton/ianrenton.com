@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
+    background-color: $background-color-inverted;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -18,7 +18,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color-inverted;
     }
 }
 
@@ -31,7 +31,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $text-color-inverted;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -44,8 +44,8 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $background-color-inverted;
+        border: 1px solid $text-color-inverted;
         border-radius: 5px;
         text-align: right;
 
@@ -80,7 +80,7 @@
  */
 div#homepagebanner {
   margin-bottom: 2em;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color;
   
   .top {
     img {
@@ -138,7 +138,7 @@ div#homepagebanner {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    background-color: $background-color-inverted;
     padding: $spacing-unit 0;
 }
 
@@ -154,9 +154,17 @@ div#homepagebanner {
 
 .footer-col-wrapper {
     font-size: $small-font-size;
-    color: lighten($text-color, 15%);
+    color: $text-color-inverted;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    
+    > a {
+        &,
+        &:visited,
+        &:hover {
+        color: $brand-color;
+    }
+    }
 }
 
 .footer-col {
