@@ -30,4 +30,8 @@ There's a space for the Pololu servo multiplexer board next to it:
 
 {% img center //files.ianrenton.com/sites/usv01/box6.jpg Box with servo multiplexer fitted %}
 
-**To be continued...**
+A short USB cable allows the CP2101 board to connect to the Pi's USB ports. This increases the space envelope significantly due to the large bend radius of the cables, although it should still fit inside the boat. A future version will aim to make this arrangement neater, possibly by making my own USB cables rather than using COTS parts.
+
+A second USB cable of the same type is added to allow more flexibility in positioning the WiFi antenna inside the boat.
+
+{% img center //files.ianrenton.com/sites/usv01/box7.jpg Box with USB cables attached %}
