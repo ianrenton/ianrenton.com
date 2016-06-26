@@ -55,6 +55,9 @@
             font-size: 250%;
             text-align: center;
             color: $text-color-inverted;
+            &:hover, &:active {
+                text-decoration: none;
+            }
         }
 
         .trigger {
