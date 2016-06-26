@@ -46,14 +46,13 @@
         top: 9px;
         right: 30px;
         background-color: $background-color-inverted;
-        border: 1px solid $text-color-inverted;
-        border-radius: 5px;
         text-align: right;
 
         .menu-icon {
             display: block;
             float: right;
-            line-height: 2em;
+            line-height: 1em;
+            font-size: 150%;
             padding: 0 10px;
             text-align: center;
             color: $text-color-inverted;
