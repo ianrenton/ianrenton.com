@@ -1,0 +1,1 @@
+This is the directory used as a cache location when using the "steal" liquid tag to retrieve markdown files from the web as part of the build process. Clear all the (other) files from this directory to clear the cache, then rebuild for a fresh copy.
