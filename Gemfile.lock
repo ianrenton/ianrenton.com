@@ -82,7 +82,7 @@ GEM
     octopress-quote-tag (1.0.4)
       jekyll
       rubypants
-    octopress-video-tag (1.1.1)
+    octopress-video-tag (1.1.0)
       jekyll (~> 2.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
@@ -120,6 +120,3 @@ DEPENDENCIES
   octopress-paginate
   octopress-quote-tag
   octopress-video-tag
-
-BUNDLED WITH
-   1.12.5
