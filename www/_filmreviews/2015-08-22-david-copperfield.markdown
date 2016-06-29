@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "David Copperfield (1993)"
 date: 2015-08-22T21:52:18+01:00
 ---

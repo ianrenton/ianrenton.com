@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2012-04-16 22:00:38
-layout: frbtn
 slug: hellboy-ii-the-golden-army
+layout: post
 title: 'Hellboy II: The Golden Army'
 wordpress_id: 12047
 categories:

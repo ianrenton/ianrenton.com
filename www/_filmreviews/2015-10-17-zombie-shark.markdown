@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Zombie Shark"
 date: 2015-10-17T21:23:53+01:00
 ---

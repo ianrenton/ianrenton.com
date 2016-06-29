@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-12-20 12:49:59
-layout: frbtn
 slug: sleeping-beauty-2011
+layout: post
 title: Sleeping Beauty (2011)
 wordpress_id: 11904
 categories:

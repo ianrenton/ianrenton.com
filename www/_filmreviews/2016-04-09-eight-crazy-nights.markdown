@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Eight Crazy Nights"
 date: 2016-04-09T21:04:50+01:00
 ---

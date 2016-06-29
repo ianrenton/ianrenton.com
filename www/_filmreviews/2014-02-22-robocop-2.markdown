@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "RoboCop 2"
 date: 2014-02-22 20:58
 comments: true

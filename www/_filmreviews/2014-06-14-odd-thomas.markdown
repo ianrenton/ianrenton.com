@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Odd Thomas"
 date: 2014-06-14 21:08
 comments: true

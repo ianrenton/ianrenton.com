@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "The Shaggy Dog"
 date: 2015-12-19T21:13:53+01:00
 ---

@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "The Legend of the Titanic"
 date: 2015-06-06 21:22
 comments: true

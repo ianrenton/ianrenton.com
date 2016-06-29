@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "The Phantom"
 ---
 

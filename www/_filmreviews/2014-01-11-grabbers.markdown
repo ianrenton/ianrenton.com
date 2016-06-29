@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Grabbers"
 date: 2014-01-11 21:06
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Star Wars Episode V: The Empire Strikes Back"
 date: 2015-04-12 10:06
 comments: true

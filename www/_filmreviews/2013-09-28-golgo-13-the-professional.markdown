@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Golgo 13: The Professional"
 date: 2013-09-28 21:15
 comments: true

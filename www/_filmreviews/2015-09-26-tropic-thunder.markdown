@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Tropic Thunder"
 date: 2015-09-26T21:17:20+01:00
 ---

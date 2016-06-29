@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "John Dies at the End"
 date: 2014-06-28 21:16
 comments: true

@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2009-02-21 13:30:51
-layout: frbtn
 slug: bolt
+layout: post
 title: Bolt
 wordpress_id: 824
 categories:

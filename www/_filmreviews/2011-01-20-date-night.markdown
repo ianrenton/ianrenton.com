@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-01-20 19:11:06
-layout: frbtn
 slug: date-night
+layout: post
 title: Date Night
 wordpress_id: 11435
 categories:

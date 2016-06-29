@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "The Hunchback of Notre Dame"
 date: 2015-07-11 23:23
 comments: true

@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-01-29 22:45:04
-layout: frbtn
 slug: beetlejuice
+layout: post
 title: Beetlejuice
 wordpress_id: 11441
 categories:

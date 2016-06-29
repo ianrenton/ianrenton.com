@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-08-31 23:59:10
-layout: frbtn
 slug: conan-the-barbarian-2011
+layout: post
 title: Conan the Barbarian (2011)
 wordpress_id: 11810
 categories:

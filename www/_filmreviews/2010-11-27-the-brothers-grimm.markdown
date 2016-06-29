@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-11-27 22:32:25
-layout: frbtn
 slug: the-brothers-grimm
+layout: post
 title: The Brothers Grimm
 wordpress_id: 11341
 categories:

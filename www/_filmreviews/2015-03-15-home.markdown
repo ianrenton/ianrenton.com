@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Home"
 date: 2015-03-15 21:00
 comments: true

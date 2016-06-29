@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Captain America: The Winter Soldier"
 date: 2016-03-19T20:28:00+00:00
 ---

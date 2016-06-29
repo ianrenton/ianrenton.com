@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2012-04-25 22:46:01
-layout: frbtn
 slug: g-force
+layout: post
 title: G-Force
 wordpress_id: 12049
 categories:

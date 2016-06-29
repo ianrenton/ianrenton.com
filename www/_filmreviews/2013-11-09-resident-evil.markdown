@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Resident Evil"
 date: 2013-11-09 21:14
 comments: true

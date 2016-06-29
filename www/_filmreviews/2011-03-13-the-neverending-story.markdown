@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-03-13 22:12:37
-layout: frbtn
 slug: the-neverending-story
+layout: post
 title: The Neverending Story
 wordpress_id: 11498
 categories:

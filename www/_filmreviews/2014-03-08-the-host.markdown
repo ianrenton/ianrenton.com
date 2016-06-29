@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "The Host"
 date: 2014-03-08 20:54
 comments: true

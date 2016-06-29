@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-02-15 22:52:20
-layout: frbtn
 slug: beowulf
+layout: post
 title: Beowulf
 wordpress_id: 2739
 categories:

@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-03-21 22:28:56
-layout: frbtn
 slug: shes-the-man
+layout: post
 title: She's the Man
 wordpress_id: 2864
 categories:

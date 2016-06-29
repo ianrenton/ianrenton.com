@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Gattaca"
 date: 2015-04-06 21:40
 comments: true

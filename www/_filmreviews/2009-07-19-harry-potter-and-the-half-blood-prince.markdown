@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2009-07-19 18:13:57
-layout: frbtn
 slug: harry-potter-and-the-half-blood-prince
+layout: post
 title: Harry Potter and the Half-Blood Prince
 wordpress_id: 863
 categories:

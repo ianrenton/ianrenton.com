@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-08-07 15:24:32
-layout: frbtn
 slug: 2012
+layout: post
 title: '2012'
 wordpress_id: 11229
 categories:

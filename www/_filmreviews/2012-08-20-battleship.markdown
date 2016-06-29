@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2012-08-20 21:45:03
-layout: frbtn
 slug: battleship
+layout: post
 title: Battleship
 wordpress_id: 12097
 categories:

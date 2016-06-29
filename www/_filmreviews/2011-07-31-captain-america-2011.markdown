@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-07-31 12:03:19
-layout: frbtn
 slug: captain-america-2011
+layout: post
 title: Captain America (2011)
 wordpress_id: 11771
 categories:

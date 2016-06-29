@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2013-01-04 23:02:51
-layout: frbtn
 slug: the-room
+layout: post
 title: The Room
 wordpress_id: 12253
 categories:

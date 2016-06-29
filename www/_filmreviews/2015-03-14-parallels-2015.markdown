@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Parallels (2015)"
 date: 2015-03-14 21:25
 comments: true

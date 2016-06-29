@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Guardians of the Galaxy"
 date: 2014-12-05 22:27
 comments: true

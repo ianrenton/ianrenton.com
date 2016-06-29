@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2009-05-10 00:05:40
-layout: frbtn
 slug: twilight
+layout: post
 title: Twilight
 wordpress_id: 852
 categories:

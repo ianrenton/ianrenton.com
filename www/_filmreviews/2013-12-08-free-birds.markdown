@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Free Birds"
 date: 2013-12-08 16:23
 comments: true

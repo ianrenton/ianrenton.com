@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Sharknado"
 date: 2014-01-04 20:39
 comments: true

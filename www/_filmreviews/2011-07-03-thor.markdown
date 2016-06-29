@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-07-03 22:58:39
-layout: frbtn
 slug: thor
+layout: post
 title: Thor
 wordpress_id: 11691
 categories:

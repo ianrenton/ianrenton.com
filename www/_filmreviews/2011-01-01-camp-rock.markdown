@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-01-01 21:49:25
-layout: frbtn
 slug: camp-rock
+layout: post
 title: Camp Rock
 wordpress_id: 11395
 categories:

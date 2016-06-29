@@ -258,6 +258,10 @@ input.search {
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    > h3 {
+      margin-bottom: 0.2em;
+    }
 }
 
 .post-title {
@@ -314,7 +318,7 @@ input.search {
 
   > .pagination-right {
     display: inline-block;
-    width: 50%;
+    width: 49%;
     text-align: right;
     vertical-align: top;
   }

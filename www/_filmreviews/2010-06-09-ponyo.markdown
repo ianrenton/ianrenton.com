@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-06-09 22:24:20
-layout: frbtn
 slug: ponyo
+layout: post
 title: Ponyo
 wordpress_id: 3241
 categories:

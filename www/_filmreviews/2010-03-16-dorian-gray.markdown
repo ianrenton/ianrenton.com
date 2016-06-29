@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-03-16 22:24:28
-layout: frbtn
 slug: dorian-gray
+layout: post
 title: Dorian Gray
 wordpress_id: 2845
 categories:

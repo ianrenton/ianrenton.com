@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-08-25 22:44:03
-layout: frbtn
 slug: rachel-getting-married
+layout: post
 title: Rachel Getting Married
 wordpress_id: 11263
 categories:
@@ -18,7 +18,8 @@ Oh, then tries to COMMIT SUICIDE by DRIVING REALLY SLOWLY into a ROCK.  Surprisi
 ## By the Numbers
 
   * Minutes spent creating title sequence: 5
-  * Number of verbs the writers had left for the title: 0
+  * Number of verbs the writers had left for the layout: post
+title: 0
   * Minutes this movie spent convincing me it wasn't a RomCom: 1.5
   * Minutes this movie spent convincing me it was a RomCom: 9
   * Levels of comedy or romance actually in this movie: 0

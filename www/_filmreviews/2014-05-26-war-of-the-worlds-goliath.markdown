@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "War of the Worlds: Goliath"
 date: 2014-05-26 14:51
 comments: true

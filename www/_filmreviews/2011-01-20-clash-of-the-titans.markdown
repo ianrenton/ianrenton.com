@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-01-20 23:25:37
-layout: frbtn
 slug: clash-of-the-titans
+layout: post
 title: Clash of the Titans (2010)
 wordpress_id: 11436
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "UFO"
 date: 2015-04-25 21:08
 comments: true

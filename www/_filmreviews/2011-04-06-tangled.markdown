@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-04-06 22:37:16
-layout: frbtn
 slug: tangled
+layout: post
 title: Tangled
 wordpress_id: 11527
 categories:

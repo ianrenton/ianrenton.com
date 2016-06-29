@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-01-05 21:22:20
-layout: frbtn
 slug: scott-pilgrim-vs-the-world
+layout: post
 title: Scott Pilgrim vs the World
 wordpress_id: 11419
 categories:

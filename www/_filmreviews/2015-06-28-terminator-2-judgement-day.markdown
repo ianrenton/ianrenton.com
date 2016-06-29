@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Terminator 2: Judgement Day"
 date: 2015-06-28 11:30
 comments: true

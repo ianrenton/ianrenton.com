@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-02-05 23:14:09
-layout: frbtn
 slug: eragon
+layout: post
 title: Eragon
 wordpress_id: 11462
 categories:

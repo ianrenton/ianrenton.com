@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Terminator Genisys"
 date: 2015-07-10 22:08
 comments: true

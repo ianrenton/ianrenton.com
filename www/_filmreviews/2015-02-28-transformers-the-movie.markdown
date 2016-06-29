@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Transformers: The Movie"
 date: 2015-02-28 21:29
 comments: true

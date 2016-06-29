@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-05-25 23:30:13
-layout: frbtn
 slug: prince-of-persia-the-sands-of-time-more-colons-anyone
+layout: post
 title: 'Prince of Persia: The Sands of Time'
 wordpress_id: 3187
 categories:

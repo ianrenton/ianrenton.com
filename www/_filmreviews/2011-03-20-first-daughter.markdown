@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-03-20 23:26:53
-layout: frbtn
 slug: first-daughter
+layout: post
 title: First Daughter
 wordpress_id: 11509
 categories:

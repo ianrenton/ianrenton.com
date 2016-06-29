@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-12-12 23:41:00
-layout: frbtn
 slug: the-reader
+layout: post
 title: The Reader
 wordpress_id: 11360
 categories:

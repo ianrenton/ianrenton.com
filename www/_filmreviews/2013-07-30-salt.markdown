@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Salt"
 date: 2013-07-30 21:15
 comments: true

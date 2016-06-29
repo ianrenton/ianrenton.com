@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Toys"
 date: 2014-08-16 20:57
 comments: true

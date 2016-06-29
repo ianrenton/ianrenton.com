@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Mortdecai"
 date: 2016-02-13T21:30:33+00:00
 ---

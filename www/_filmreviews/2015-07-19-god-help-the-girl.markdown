@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "God Help the Girl"
 date: 2015-07-19 15:11
 comments: true

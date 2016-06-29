@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Star Wars Episode III: Revenge of the Sith"
 date: 2015-04-12 10:05
 comments: true

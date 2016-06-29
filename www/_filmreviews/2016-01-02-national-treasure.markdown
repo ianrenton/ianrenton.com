@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "National Treasure"
 date: 2016-01-02T21:07:35+00:00
 ---

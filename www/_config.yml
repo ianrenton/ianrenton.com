@@ -22,24 +22,45 @@ collections:
   fiction:
     output: true
     permalink: /fiction/:title/
+    collectiontitle: Stories & Fiction
+    collectionindex: /fiction/
+    showprevnext: false
   filmreviews:
     output: true
     permalink: /filmreviews/:title/
+    collectiontitle: Film Review by the Numbers
+    collectionindex: /filmreviews/
+    showprevnext: true
   guides:
     output: true
     permalink: /guides/:title/
+    collectiontitle: Guide
+    collectionindex: /guides/
+    showprevnext: false
   recipes:
     output: true
     permalink: /recipes/:title/
+    collectiontitle: Recipe
+    collectionindex: /recipes/
+    showprevnext: false
   rpgs:
     output: true
     permalink: /rpgs/:title/
+    collectiontitle: Roleplaying Games
+    collectionindex: /rpgs/
+    showprevnext: false
   software:
     output: true
     permalink: /software/:title/
+    collectiontitle: Software
+    collectionindex: /software/
+    showprevnext: false
   hardware:
     output: true
     permalink: /hardware/:title/
+    collectiontitle: Hardware
+    collectionindex: /hardware/
+    showprevnext: true
     
 pagination:
   limit: false

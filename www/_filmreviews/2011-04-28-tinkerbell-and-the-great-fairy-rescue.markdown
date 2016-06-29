@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2011-04-28 22:10:20
-layout: frbtn
 slug: tinkerbell-and-the-great-fairy-rescue
+layout: post
 title: Tinkerbell and the Great Fairy Rescue
 wordpress_id: 11634
 categories:

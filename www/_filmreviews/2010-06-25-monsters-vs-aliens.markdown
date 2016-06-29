@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2010-06-25 21:49:02
-layout: frbtn
 slug: monsters-vs-aliens
+layout: post
 title: Monsters vs Aliens
 wordpress_id: 3344
 categories:

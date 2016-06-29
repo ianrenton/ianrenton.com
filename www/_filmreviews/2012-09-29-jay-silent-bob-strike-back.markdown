@@ -1,8 +1,8 @@
 ---
 comments: true
 date: 2012-09-29 21:36:31
-layout: frbtn
 slug: jay-silent-bob-strike-back
+layout: post
 title: Jay & Silent Bob Strike Back
 wordpress_id: 12106
 categories:

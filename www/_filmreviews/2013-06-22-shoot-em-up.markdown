@@ -1,5 +1,5 @@
 ---
-layout: frbtn
+layout: post
 title: "Shoot 'em Up"
 date: 2013-06-22 22:21
 comments: true
