@@ -25,6 +25,12 @@ collections:
     collectiontitle: Stories & Fiction
     collectionindex: /fiction/
     showprevnext: false
+  characters:
+    output: true
+    permalink: /fiction/characters/:title/
+    collectiontitle: Characters
+    collectionindex: /fiction/characters/
+    showprevnext: false
   filmreviews:
     output: true
     permalink: /filmreviews/:title/
@@ -61,11 +67,41 @@ collections:
     collectiontitle: Hardware
     collectionindex: /hardware/
     showprevnext: true
-    
+  raspberrytank:
+    output: true
+    permalink: /hardware/raspberry-tank/:title/
+    collectiontitle: Raspberry Tank
+    collectionindex: /hardware/raspberry-tank/
+    showprevnext: true
+  quadcopter:
+    output: true
+    permalink: /hardware/quadcopter/:title/
+    collectiontitle: Quadcopter
+    collectionindex: /hardware/quadcopter/
+    showprevnext: true
+  usv01:
+    output: true
+    permalink: /hardware/usv-01/:title/
+    collectiontitle: USV-01 "Harry Paye"
+    collectionindex: /hardware/usv-01/
+    showprevnext: true
+  atp:
+    output: true
+    permalink: /hardware/atp/:title/
+    collectiontitle: All-Terrain Pi
+    collectionindex: /hardware/atp/
+    showprevnext: true
+  legoturtle:
+    output: true
+    permalink: /hardware/lego-turtle/:title/
+    collectiontitle: Lego Turtle
+    collectionindex: /hardware/lego-turtle/
+    showprevnext: true
+
 pagination:
   limit: false
   permalink: /page/:num/
-  
+
 # Category & Year archives for the blog posts
 jekyll-archives:
   enabled:

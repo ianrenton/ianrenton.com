@@ -32,5 +32,5 @@ Source code for the Lego Turtle's microcontroller can be found in the <a href="h
 
 ## More Detail
 
-* [Build Photos](../lego-turtle-build-photos)
-* [Lego Mindstorms RCX Internals](../lego-mindstorms-rcx-internals)
+* [Build Photos](./lego-turtle-build-photos)
+* [Lego Mindstorms RCX Internals](./lego-mindstorms-rcx-internals)

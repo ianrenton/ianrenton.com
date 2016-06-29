@@ -17,6 +17,10 @@ Options +FollowSymlinks
   RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L]
   RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L]
   RewriteRule ^legoturtle(\/?)$ /hardware/lego-turtle [L]
+  RewriteRule ^hardware/tank-(.*)$ /hardware/raspberry-tank/tank-$1 [L]
+  RewriteRule ^hardware/quad-(.*)$ /hardware/quadcopter/quad-$1 [L]
+  RewriteRule ^hardware/atp-(.*)$ /hardware/atp/atp-$1 [L]
+  RewriteRule ^hardware/usv-01-(.*)$ /hardware/usv-01/usv-01-$1 [L]
 </IfModule>
 
 <IfModule mod_expires.c>
@@ -25,9 +29,9 @@ Options +FollowSymlinks
   # Perhaps better to whitelist expires rules? Perhaps.
   ExpiresDefault                          "access plus 1 week"
 
-  # your document html 
+  # your document html
   ExpiresByType text/html                 "access plus 0 seconds"
-  
+
   # data
   ExpiresByType text/xml                  "access plus 0 seconds"
   ExpiresByType application/xml           "access plus 0 seconds"
@@ -37,7 +41,7 @@ Options +FollowSymlinks
   ExpiresByType application/rss+xml       "access plus 1 hour"
 
   # favicon
-  ExpiresByType image/x-icon              "access plus 1 week" 
+  ExpiresByType image/x-icon              "access plus 1 week"
 
   # media: images, video, audio
   ExpiresByType image/gif                 "access plus 1 month"
@@ -48,21 +52,21 @@ Options +FollowSymlinks
   ExpiresByType audio/ogg                 "access plus 1 month"
   ExpiresByType video/mp4                 "access plus 1 month"
   ExpiresByType video/webm                "access plus 1 month"
-  
+
   # webfonts
   ExpiresByType font/truetype             "access plus 1 month"
   ExpiresByType font/opentype             "access plus 1 month"
   ExpiresByType application/x-font-woff   "access plus 1 month"
   ExpiresByType image/svg+xml             "access plus 1 month"
   ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
-    
+
   # css and javascript
   ExpiresByType text/css                  "access plus 1 week"
   ExpiresByType application/javascript    "access plus 1 week"
   ExpiresByType text/javascript           "access plus 1 week"
-  
+
   <IfModule mod_headers.c>
     Header append Cache-Control "public"
   </IfModule>
-  
+
 </IfModule>

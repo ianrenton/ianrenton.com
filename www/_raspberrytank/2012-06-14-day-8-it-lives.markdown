@@ -23,7 +23,7 @@ tags:
 - YouTube
 ---
 
-[Day 7 of the Raspberry Tank build diary](/hardware/tank-day-7-bridging-the-gap/) saw us with nothing left to do but to plug the Raspberry Pi into the tank via the transistor board we built, and see if it works!
+[Day 7 of the Raspberry Tank build diary](../tank-day-7-bridging-the-gap/) saw us with nothing left to do but to plug the Raspberry Pi into the tank via the transistor board we built, and see if it works!
 
 ### Final Preparations
 

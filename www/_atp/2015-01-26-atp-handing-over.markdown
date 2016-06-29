@@ -3,12 +3,12 @@ layout: post
 title: "ATP: Handing Over"
 date: 2015-01-26 20:28
 comments: true
-categories: 
+categories:
 ---
 
-With [Scratch support completed](../atp-starting-from-scratch), I've reached the end of what I wanted to achieve with the All-Terrain Pi. It's been about 20 hours' work overall &mdash; quicker than I expected, particularly getting the webcam streaming and creating the Scratch interface, which I thought would be a lot more painful than they were.
+With [Scratch support completed](./atp-starting-from-scratch), I've reached the end of what I wanted to achieve with the All-Terrain Pi. It's been about 20 hours' work overall &mdash; quicker than I expected, particularly getting the webcam streaming and creating the Scratch interface, which I thought would be a lot more painful than they were.
 
-Just like the [tank](../raspberry-tank) before it, it's time to hand this toy over to my son. We took it to the [Constructorium hackerspace](http://constructorium.org) meeting at the library last Saturday and put it through its paces, first with the phone controls and then by programming it.
+Just like the [tank](../raspberry-tank) before it, it's time to hand this toy over to my son. We took it to the Constructorium hackerspace meeting at the library last Saturday and put it through its paces, first with the phone controls and then by programming it.
 
 {% img center Programming the robot in Scratch //files.ianrenton.com/sites/atp/53.jpg %}
 

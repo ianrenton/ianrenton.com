@@ -21,7 +21,7 @@ tags:
 - Tank
 ---
 
-[Day 15 of the Raspberry Tank build diary](/hardware/tank-day-15-web-interface-prototyping/) saw me on my home turf of UI prototyping, and I promised that today I'd show you how I put together the Javascript that powers the web-based user interface.  Well, I did a little better than that -- not only is the Web UI up and running, it's communicating with a new version of the tank control software too, so now almost -- almost! -- have a fully web-enabled tank.
+[Day 15 of the Raspberry Tank build diary](../tank-day-15-web-interface-prototyping/) saw me on my home turf of UI prototyping, and I promised that today I'd show you how I put together the Javascript that powers the web-based user interface.  Well, I did a little better than that -- not only is the Web UI up and running, it's communicating with a new version of the tank control software too, so now almost -- almost! -- have a fully web-enabled tank.
 
 [![Raspberry Tank HTTP Interfaces](//files.ianrenton.com/sites/raspberrytank/http_interfaces-600x225.png)](//files.ianrenton.com/sites/raspberrytank/http_interfaces.png)
 

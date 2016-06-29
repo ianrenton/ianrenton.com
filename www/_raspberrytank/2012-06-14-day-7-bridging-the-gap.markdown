@@ -20,7 +20,7 @@ tags:
 - Tank
 ---
 
-[Yesterday](/hardware/tank-day-6-gpio-funtimes/), we finished up with a Raspberry Pi which could output the appropriate command signal on one of its GPIO ports, but we had concerns about the output voltage level. At 3.3 volts, this is lower than the 4V input that the main controller board is used to seeing from the TK-YL101-3 board that we intend to replace.
+[Yesterday](../tank-day-6-gpio-funtimes/), we finished up with a Raspberry Pi which could output the appropriate command signal on one of its GPIO ports, but we had concerns about the output voltage level. At 3.3 volts, this is lower than the 4V input that the main controller board is used to seeing from the TK-YL101-3 board that we intend to replace.
 
 Following the general theme of advice on the [Raspberry Pi forums](http://www.raspberrypi.org/phpBB3), I decided to add a transistor circuit between the Pi and the tank to prevent excess current draw from the GPIO pin, which can damage the device. While doing so, it costs nothing to bump that 3.3V output up to the expected 4V -- so we did. Rather than using the 4.5V output from the RX-18, we decided to use the 7.2V power line that previously powered the TK board. This meant that we could use just the three wires that connect the RX and TK boards, rather than taking power from somewhere else.
 

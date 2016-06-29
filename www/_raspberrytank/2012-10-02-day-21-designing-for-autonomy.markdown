@@ -17,7 +17,7 @@ tags:
 - Raspberry Tank Build Diary
 ---
 
-At the end of [day 20](/hardware/tank-day-20-to-youtube-once-more/) of the build diary, we had a fully working tank that could be remotely controlled over a web interface that also featured streaming video from the on-board webcam. Phase 1 of the Raspberry Tank development was finally complete!
+At the end of [day 20](../tank-day-20-to-youtube-once-more/) of the build diary, we had a fully working tank that could be remotely controlled over a web interface that also featured streaming video from the on-board webcam. Phase 1 of the Raspberry Tank development was finally complete!
 
 So naturally, of course, it's time for phase 2: making the tank fully autonomous. This will require a few additions to the build.
 
@@ -43,7 +43,7 @@ This will act as an override on whatever other activity the tank is conducting, 
 
 The new hardware could use a variety of methods of communicating with the Raspberry Pi, but perhaps the simplest and easiest is [I2C](https://en.wikipedia.org/wiki/I%C2%B2C). This would allow me to chain the new hardware together, and hang it all off just four pins of the Pi's GPIO header.
 
-Unfortunately, there is a disadvantage -- the [Raspbian ](http://raspbian.org)operating system that I use does not include an I2C kernel module. Luckily I shouldn't have to compile one myself, as the folks at [AdaFruit](http://adafruit.com/) have already done the job, baking their modules into another RasPi-targeted operating system called [Occidentalis](http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview). While this does mean another re-flash of the SD card and another re-install of all the tank-related software, I've got [that process](/hardware/tank-day-19-the-move-to-raspbian/) pretty streamlined now.
+Unfortunately, there is a disadvantage -- the [Raspbian ](http://raspbian.org)operating system that I use does not include an I2C kernel module. Luckily I shouldn't have to compile one myself, as the folks at [AdaFruit](http://adafruit.com/) have already done the job, baking their modules into another RasPi-targeted operating system called [Occidentalis](http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview). While this does mean another re-flash of the SD card and another re-install of all the tank-related software, I've got [that process](../tank-day-19-the-move-to-raspbian/) pretty streamlined now.
 
 I am hoping to avoid some of the low-level coding of the autonomy system by basing it around the open source [ROS (Robot Operating System)](http://www.ros.org/wiki/) framework.  The wiki already has a [guide to building and running ROS on the Raspberry Pi](http://www.ros.org/wiki/ROSberryPi/Setting%20up%20ROS%20on%20RaspberryPi), though the author of the page does note that some of ROS's high-level functions may be too much for the Pi's CPU to handle. If ROS proves to be too bloated for the Pi, I will simply drop back to implementing the functionality in C without the middleware.
 
@@ -54,12 +54,12 @@ ROS also provides easy integration with [OpenCV](http://opencv.willowgarage.com/
 ## What Shall We Do With an Autonomous Tank?
 
 At the moment, I'm really not sure.
-	
+
   * The **Robotics 101 behaviour** of "go forward until you nearly hit something, then turn and repeat" seems like as good a place as any to start, though it's not particularly exciting.
   * **Target following** would be great, but as mentioned above, this may be beyond the capabilities of the Raspberry Pi hardware.
   * You can now buy magnetometer chips that also include an accelerometer and a gyroscope. This can form the beginnings of an **inertial navigation system**. My parent company has a really good one of these, which probably took a team of people much smarter than me a very long time to get right. For us mere mortals, inertial navigation is difficult, as [Katy Levinson](https://twitter.com/katylevinson) will now drunkenly explain:<br/><br/><iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/Drk3Dz3_yLE?start=1286" frameborder="0" allowfullscreen></iframe><br/>
   * **GPS-based behaviours** could be possible if we added a GPS receiver. This would remove the problem of relying on inertial navigation, and the tank could conduct all kinds of interesting missions. However, it only works outdoors, and despite being a tracked vehicle, the Raspberry Tank definitely prefers operating in dry and carpeted places.
   * **Beacon-based navigation** similar to that used by [Roombas](http://www.irobot.com/en/us/robots/home/roomba.aspx) is a possibility, though that requires even more additional hardware, and means that the tank's environment must be carefully set up before it can be used.
   * If we had a nice way of determining position, we could combine that with the rangefinder to make the tank **map its surroundings**. Over to Ms Levinson again for an explanation of why that's also pretty hard (but by no means impossible):<br/><br/><iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/gFW0schumkE?start=415" frameborder="0" allowfullscreen></iframe><br/>
-  
+
 So, what do you think? Is there anything you'd like to see an autonomous Raspberry Tank do? Any input or output devices you'd like to see integrated? Let me know, and I'll see what we can do!

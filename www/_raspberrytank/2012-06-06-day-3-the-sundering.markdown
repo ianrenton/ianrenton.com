@@ -20,7 +20,7 @@ tags:
 - Tank
 ---
 
-[Last time around](/hardware/tank-day-2-remote-control-tests/), we fired the tank up, gave it a test run and shot just about everything in the office that was unfortunate enough to be within a foot of the floor (legs included). Which is great if you like radio control tanks (and who doesn't?), but today on the Raspberry Tank build diary, it's time to _break it completely_.
+[Last time around](../tank-day-2-remote-control-tests/), we fired the tank up, gave it a test run and shot just about everything in the office that was unfortunate enough to be within a foot of the floor (legs included). Which is great if you like radio control tanks (and who doesn't?), but today on the Raspberry Tank build diary, it's time to _break it completely_.
 
 Yep, we can't put anything inside without opening it up, so today's job is disassembling the tank -- which as you might gather by the size of your scrollbar, is not an easy job.
 

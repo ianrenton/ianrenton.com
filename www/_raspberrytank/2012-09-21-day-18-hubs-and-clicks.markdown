@@ -18,7 +18,7 @@ tags:
 - USB
 ---
 
-On [day 17](/hardware/tank-day-17-what-s-missing/), we identified two major issues with the Raspberry Tank's setup -- the Raspberry Pi's inability to power both the WiFi dongle and the camera via its USB ports, and that the "press and hold" web interface causes problems in mobile browsers (its main target).
+On [day 17](../tank-day-17-what-s-missing/), we identified two major issues with the Raspberry Tank's setup -- the Raspberry Pi's inability to power both the WiFi dongle and the camera via its USB ports, and that the "press and hold" web interface causes problems in mobile browsers (its main target).
 
 Today, we fix both of those.
 

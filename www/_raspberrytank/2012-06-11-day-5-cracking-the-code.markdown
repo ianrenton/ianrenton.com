@@ -21,7 +21,7 @@ tags:
 - Tank
 ---
 
-On [Day 4 of the Raspberry Tank build diary](/hardware/tank-day-4-point-of-entry/), we figured that the best way of putting the Pi in control of this tank would be to remove the TK-YL101-3 board that normally receives and decodes the RF signal from the remote control, and get the Pi to replicate the commands it sends to the main controller.  The underwater vehicle autonomy community often refers to this as the "backseat driver" paradigm -- one processor handles things like missions and behaviours (the Raspberry Pi, in this case) while another handles things like motors and firing mechanisms (here, the RX-18).
+On [Day 4 of the Raspberry Tank build diary](/../tank-day-4-point-of-entry/), we figured that the best way of putting the Pi in control of this tank would be to remove the TK-YL101-3 board that normally receives and decodes the RF signal from the remote control, and get the Pi to replicate the commands it sends to the main controller.  The underwater vehicle autonomy community often refers to this as the "backseat driver" paradigm -- one processor handles things like missions and behaviours (the Raspberry Pi, in this case) while another handles things like motors and firing mechanisms (here, the RX-18).
 
 ### Step 1: Wiretapping
 

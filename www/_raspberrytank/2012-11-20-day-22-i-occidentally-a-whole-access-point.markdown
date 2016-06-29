@@ -17,11 +17,11 @@ tags:
 - Tank
 ---
 
-On [day 21](/hardware/tank-day-21-designing-for-autonomy/) of the build diary, I put up a list of things to do that would turn this now remote-controlled tank into a fully autonomous one.  The first software task was to replace the [Raspbian](http://www.raspbian.org/) operating system on my Raspberry Pi with [Adafruit's](http://www.adafruit.com/) [Occidentalis](http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview), an almost identical OS that also includes pre-built kernel drivers for [I2C](http://en.wikipedia.org/wiki/I%C2%B2C).
+On [day 21](../tank-day-21-designing-for-autonomy/) of the build diary, I put up a list of things to do that would turn this now remote-controlled tank into a fully autonomous one.  The first software task was to replace the [Raspbian](http://www.raspbian.org/) operating system on my Raspberry Pi with [Adafruit's](http://www.adafruit.com/) [Occidentalis](http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview), an almost identical OS that also includes pre-built kernel drivers for [I2C](http://en.wikipedia.org/wiki/I%C2%B2C).
 
 ## Installing Occidentalis
 
-Installing Occidentalis was very easy indeed -- identical to installing Raspbian, as you might expect.  [Day 19](/hardware/tank-day-19-the-move-to-raspbian/) covered the move from the original Raspberry Pi software to Debian, and the same procedure was followed this time to move from Raspbian to Occidentalis.
+Installing Occidentalis was very easy indeed -- identical to installing Raspbian, as you might expect.  [Day 19](../tank-day-19-the-move-to-raspbian/) covered the move from the original Raspberry Pi software to Debian, and the same procedure was followed this time to move from Raspbian to Occidentalis.
 
 As before, Raspbian's `raspi-config` utility popped up on first run, offering the ability to expand the image to fill the SD card, enable `ssh`, and so on.
 
@@ -37,7 +37,7 @@ At this point I also took the opportunity to upgrade the tank's WiFi capabilitie
 [![Rear of Lower Chassis, showing new WiFi Adapter](//files.ianrenton.com/sites/raspberrytank/2012-11-19_12-30-39_406-600x338.jpg)](//files.ianrenton.com/sites/raspberrytank/2012-11-19_12-30-39_406.jpg)<br/>
 _Rear of Lower Chassis, showing new WiFi Adapter_
 
-I also suggested on [day 17](/hardware/tank-day-17-whats-missing/) that I would like the Raspberry Tank to be its own WiFi access point, rather than having to create a hotspot with the control device and have the tank connect to that. Whilst configuring networking on the new Occidentalis install, I figured that it would be a good time to set that up.
+I also suggested on [day 17](../tank-day-17-whats-missing/) that I would like the Raspberry Tank to be its own WiFi access point, rather than having to create a hotspot with the control device and have the tank connect to that. Whilst configuring networking on the new Occidentalis install, I figured that it would be a good time to set that up.
 
 ## Configuring the Access Point
 
@@ -50,12 +50,12 @@ I deviated a little from the guide in that I chose to run the Raspberry Tank's W
 My eventual configuration was as follows:
 
 `/etc/defaults/hostapd`
-    
+
     DAEMON_CONF="/etc/hostapd/hostapd.conf"
 
 
 `/etc/hostapd/hostapd.conf`
-    
+
     interface=wlan0
     driver=nl80211
     ssid=RaspberryTank
@@ -77,9 +77,9 @@ My eventual configuration was as follows:
 
     auto lo
     iface lo inet loopback
-    
+
     iface eth0 inet dhcp
-    
+
     allow-hotplug wlan0
     iface wlan0 inet static
     address 192.168.0.1
@@ -90,7 +90,7 @@ My eventual configuration was as follows:
 With these files set up as above, and both `hostapd` and `dnsmasq` restarted, my laptop could see and connect to the tank's wireless network. However, I did encounter one odd problem with this configuration, which was that the laptop was not being given an IP address by `dnsmasq`'s DHCP server.
 
 Running `tail /var/log/syslog` revealed messages of the form:
-    
+
     DHCP request received on wlan0 which has no address
 
 Even though `wlan0` had an address set in `/etc/network/interfaces`, that address was no longer assigned to the interface after `hostapd` bound to it.  Running `sudo ifconfig wlan0 192.168.0.1` reassigned the right IP address to `wlan0`, at which point the laptop could then connect and be given a proper IP address.
@@ -105,7 +105,7 @@ I "fixed" the problem with the ugly hack of editing the init script for `hostapd
 My `/etc/init.d/hostapd` file now reads:
 
     #!/bin/sh
-    
+
     ### BEGIN INIT INFO
     # Provides:		hostapd
     # Required-Start:	$remote_fs
@@ -118,7 +118,7 @@ My `/etc/init.d/hostapd` file now reads:
     # Description:		Userspace IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/EAP
     #			Authenticator
     ### END INIT INFO
-    
+
     PATH=/sbin:/bin:/usr/sbin:/usr/bin
     DAEMON_SBIN=/usr/sbin/hostapd
     DAEMON_DEFS=/etc/default/hostapd
@@ -126,15 +126,15 @@ My `/etc/init.d/hostapd` file now reads:
     NAME=hostapd
     DESC="advanced IEEE 802.11 management"
     PIDFILE=/var/run/hostapd.pid
-    
+
     [ -x "$DAEMON_SBIN" ] || exit 0
     [ -s "$DAEMON_DEFS" ] && . /etc/default/hostapd
     [ -n "$DAEMON_CONF" ] || exit 0
-    
+
     DAEMON_OPTS="-B -P $PIDFILE $DAEMON_OPTS $DAEMON_CONF"
-    
+
     . /lib/lsb/init-functions
-    
+
     case "$1" in
       start)
     	log_daemon_msg "Starting $DESC" "$NAME"
@@ -170,7 +170,7 @@ My `/etc/init.d/hostapd` file now reads:
     	exit 1
     	;;
     esac
-    
+
     exit 0
 
 This works, but is a very ugly hack, so I welcome any comments teaching me how to do this properly!

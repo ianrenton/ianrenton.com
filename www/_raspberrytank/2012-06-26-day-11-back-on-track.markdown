@@ -26,7 +26,7 @@ Although the tracks were originally removed to allow access to six screws attach
 
 ### Step 1: Move the Wheels Back
 
-On [Day 3 of the Build Diary](/hardware/tank-day-3-the-sundering/), we removed one set of wheels from each side of the tank, and used the extra space to move three more wheels on each side to allow access to the screws. Undoing this procedure in reverse order, I first returned the three moved wheels to their rightful place -- with their axle extending into the curved slot which provides the suspension.
+On [Day 3 of the Build Diary](../tank-day-3-the-sundering/), we removed one set of wheels from each side of the tank, and used the extra space to move three more wheels on each side to allow access to the screws. Undoing this procedure in reverse order, I first returned the three moved wheels to their rightful place -- with their axle extending into the curved slot which provides the suspension.
 
 ### Step 2: Reattach the Missing Wheels
 

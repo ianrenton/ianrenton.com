@@ -42,36 +42,36 @@ The "Raspberry Tank" is a project to create an autonomous vehicle with a web int
 *   [Day 29: FPS Mode][52]
 *   [Day 30: Cracking the Code, Third Time Luckier][55]
 
- [1]: ../tank-day-1-accessories-assemble/
- [2]: ../tank-day-2-remote-control-tests/
- [3]: ../tank-day-3-the-sundering/
- [4]: ../tank-day-4-point-of-entry/
- [5]: ../tank-day-5-cracking-the-code/
- [6]: ../tank-day-6-gpio-funtimes/
- [7]: ../tank-day-7-bridging-the-gap/
- [8]: ../tank-day-8-it-lives/
- [9]: ../tank-day-9-power-to-the-pi/
- [10]: ../tank-day-10-wireless-enabled/
- [11]: ../tank-day-11-back-on-track/
- [12]: ../tank-day-12-cracking-the-code-redux/
- [13]: ../tank-day-13-lucky-for-us/
- [14]: ../tank-day-14-video-streaming/
- [15]: ../tank-day-15-web-interface-prototyping/
- [16]: ../tank-day-16-by-the-power-of-pthreads/
- [17]: ../tank-day-17-what-s-missing/
- [18]: ../tank-day-18-hubs-and-clicks/
- [19]: ../tank-day-19-the-move-to-raspbian/
- [20]: ../tank-day-20-to-youtube-once-more/
- [21]: ../tank-day-21-designing-for-autonomy/
- [22]: ../tank-day-22-i-occidentally-a-whole-access-point/
- [23]: ../tank-day-23-range-and-bearing/
- [24]: ../tank-day-24-from-i2c-to-http/
- [25]: ../tank-day-25-the-beginnings-of-autonomy/
- [26]: ../tank-day-26-barcamp-or-bust/
- [48]: ../tank-day-27-more-power/
- [49]: ../tank-day-28-first-person-view/
- [52]: ../tank-day-29-fps-mode/
- [55]: ../tank-day-30-cracking-the-code-third-time-luckier/
+ [1]: ./tank-day-1-accessories-assemble/
+ [2]: ./tank-day-2-remote-control-tests/
+ [3]: ./tank-day-3-the-sundering/
+ [4]: ./tank-day-4-point-of-entry/
+ [5]: ./tank-day-5-cracking-the-code/
+ [6]: ./tank-day-6-gpio-funtimes/
+ [7]: ./tank-day-7-bridging-the-gap/
+ [8]: ./tank-day-8-it-lives/
+ [9]: ./tank-day-9-power-to-the-pi/
+ [10]: ./tank-day-10-wireless-enabled/
+ [11]: ./tank-day-11-back-on-track/
+ [12]: ./tank-day-12-cracking-the-code-redux/
+ [13]: ./tank-day-13-lucky-for-us/
+ [14]: ./tank-day-14-video-streaming/
+ [15]: ./tank-day-15-web-interface-prototyping/
+ [16]: ./tank-day-16-by-the-power-of-pthreads/
+ [17]: ./tank-day-17-what-s-missing/
+ [18]: ./tank-day-18-hubs-and-clicks/
+ [19]: ./tank-day-19-the-move-to-raspbian/
+ [20]: ./tank-day-20-to-youtube-once-more/
+ [21]: ./tank-day-21-designing-for-autonomy/
+ [22]: ./tank-day-22-i-occidentally-a-whole-access-point/
+ [23]: ./tank-day-23-range-and-bearing/
+ [24]: ./tank-day-24-from-i2c-to-http/
+ [25]: ./tank-day-25-the-beginnings-of-autonomy/
+ [26]: ./tank-day-26-barcamp-or-bust/
+ [48]: ./tank-day-27-more-power/
+ [49]: ./tank-day-28-first-person-view/
+ [52]: ./tank-day-29-fps-mode/
+ [55]: ./tank-day-30-cracking-the-code-third-time-luckier/
 
 ## Videos
 
