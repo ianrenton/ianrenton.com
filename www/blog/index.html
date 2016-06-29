@@ -22,4 +22,4 @@ paginate: true
   {% endfor %}
 </ul>
 
-<div class="pagination">{% if paginator.previous_page_path != nil %}<div class="pagination-left"><a href="{{paginator.previous_page_path}}">&laquo; Newer Posts</a></div>{% endif %}{% if paginator.next_page_path != nil %}<div class="pagination-right"><a href="{{paginator.next_page_path}}">Older Posts &raquo;</a></div>{% endif %}</div>
+<div class="pagination">{% if paginator.next_page_path != nil %}<div class="pagination-left"><a href="{{paginator.next_page_path}}">&laquo; Older Posts</a></div>{% endif %}{% if paginator.previous_page_path != nil %}<div class="pagination-right"><a href="{{paginator.previous_page_path}}">Newer Posts &raquo;</a></div>{% endif %}</div>
