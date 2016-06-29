@@ -7,20 +7,20 @@ Options +FollowSymlinks
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^about-me(\/?)$ / [L]
-  RewriteRule ^about(\/?)$ / [L]
-  RewriteRule ^raspberrytank(\/?)$ /hardware/raspberry-tank [L]
-  RewriteRule ^raspberry-tank(\/?)$ /hardware/raspberry-tank [L]
-  RewriteRule ^raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
-  RewriteRule ^blog/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
-  RewriteRule ^blog/tag/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L]
-  RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L]
-  RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L]
-  RewriteRule ^legoturtle(\/?)$ /hardware/lego-turtle [L]
-  RewriteRule ^hardware/tank-(.*)$ /hardware/raspberry-tank/tank-$1 [L]
-  RewriteRule ^hardware/quad-(.*)$ /hardware/quadcopter/quad-$1 [L]
-  RewriteRule ^hardware/atp-(.*)$ /hardware/atp/atp-$1 [L]
-  RewriteRule ^hardware/usv-01-(.*)$ /hardware/usv-01/usv-01-$1 [L]
+  RewriteRule ^about-me(\/?)$ / [L,R=301]
+  RewriteRule ^about(\/?)$ / [L,R=301]
+  RewriteRule ^raspberrytank(\/?)$ /hardware/raspberry-tank [L,R=301]
+  RewriteRule ^raspberry-tank(\/?)$ /hardware/raspberry-tank [L,R=301]
+  RewriteRule ^raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L,R=301]
+  RewriteRule ^blog/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L,R=301]
+  RewriteRule ^blog/tag/raspberry-tank-build-diary(\/?)$ /hardware/raspberry-tank [L,R=301]
+  RewriteRule ^hardware/raspberrytank(\/?)$ /hardware/raspberry-tank [L,R=301]
+  RewriteRule ^quadcopter(\/?)$ /hardware/quadcopter [L,R=301]
+  RewriteRule ^legoturtle(\/?)$ /hardware/lego-turtle [L,R=301]
+  RewriteRule ^hardware/tank-(.*)$ /hardware/raspberry-tank/tank-$1 [L,R=301]
+  RewriteRule ^hardware/quad-(.*)$ /hardware/quadcopter/quad-$1 [L,R=301]
+  RewriteRule ^hardware/atp-(.*)$ /hardware/atp/atp-$1 [L,R=301]
+  RewriteRule ^hardware/usv-01-(.*)$ /hardware/usv-01/usv-01-$1 [L,R=301]
 </IfModule>
 
 <IfModule mod_expires.c>
