@@ -5,6 +5,7 @@ layout: default
 {% capture threshold %}{{'2009-10-15 00:00:00 +0000' | date: '%s'}}{% endcapture %}
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 
+<div class="wrapper">
 <div class="post">
 
   <header class="post-header">
@@ -62,7 +63,8 @@ layout: default
     </div>
   {% endif %}
 
-  {% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "old post" threshold, show comments box {% endcomment %}
-  {% if pagedate >= threshold or page.collection != nil %}{% include juvia.html %}{% endif %}
-
 </div>
+</div>
+
+{% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "old post" threshold, show comments box {% endcomment %}
+{% if pagedate >= threshold or page.collection != nil %}{% include juvia.html %}{% endif %}
