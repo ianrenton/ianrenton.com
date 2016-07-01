@@ -1,0 +1,102 @@
+/**
+ * Site header & homepage banner style
+ */
+.site-header {
+    background-color: $background-color-inverted;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.3);
+}
+
+.site-title {
+    font-size: $big-font-size;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $text-color-inverted;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color-inverted;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color-inverted;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            line-height: 0.8em;
+            font-size: 250%;
+            text-align: center;
+            color: $text-color-inverted;
+            &:hover, &:active {
+                text-decoration: none;
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+/**
+ * Homepage banner
+ */
+div#homepagebanner {
+  margin-bottom: 2em;
+  border-bottom: 1px solid $grey-color-light;
+
+  .top {
+    img {
+      float:left;
+      margin-right: 2em;
+    }
+    h1, h2 {
+      display: inline-block;
+    }
+    h1 {
+      font-size: 60px;
+      margin-bottom: 0.2em;
+      line-height: 1em;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+/**
+ * Tables
+ */
+td {
+    vertical-align: top;
+}
+
+/**
+ * Left/right tables in post content
+ */
+.table-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-right: $spacing-unit / 2;
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+}
+@include media-query($on-palm) {
+    .table-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+// Customised table columns for Hardware, Software and Websites pages
+.table-col-pic {
+  width:180px;
+  margin-bottom: 2em !important;
+  > a > img {
+    border: 2px solid lightgray;
+  }
+}
+.table-col-descrip {
+  width: 520px;
+  min-width:200px;
+  max-width:100%;
+  margin-bottom: 2em !important;
+}

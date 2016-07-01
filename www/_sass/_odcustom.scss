@@ -1,0 +1,51 @@
+/* Styles for custom elements that date back to the "Only Dreaming" days -
+ special formatting for "story" text; "notes", "storynav" and "oldwarning"
+ blocks. */
+
+/**
+ * More book-like formatting for things tagged as "story".
+ * Remember to use <div class="story" markdown="1"> to parse internal markdown!
+ */
+.story {
+    p + p {
+        text-indent: 2em;
+    }
+
+    /**
+     * Subsequent paragraphs indent without margin-bottom until they reach another
+     * element
+     */
+    p {
+        margin-bottom: 0;
+    }
+
+    p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, p + blockquote, p + pre,
+    p + ul, p + ol, p + dl, p + figure, p + img, p + div {
+        margin-top: $spacing-unit / 2;
+    }
+}
+
+.storynav, .notes, #storynav, #notes, .oldwarning {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  padding: 0.1em;
+  > p {
+    margin: 1em;
+  }
+}
+
+.notes, #notes {
+  border: 1px solid #A0A0FF;
+  background-color: #E0E0FF;
+}
+
+.storynav, #storynav {
+  border: 1px solid #A0A000;
+  background-color: #FFFFA0;
+}
+
+.oldwarning {
+  color: #D00000;
+  border: 1px solid #D00000;
+  background-color: #FFDDDD;
+}

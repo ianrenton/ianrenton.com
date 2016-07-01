@@ -3,56 +3,16 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
-$base-font-size:   20px;
-$massive-font-size:  $base-font-size * 2.1;
-$huge-font-size:  $base-font-size * 1.6;
-$big-font-size:  $base-font-size * 1.3;
-$small-font-size:  $base-font-size * 0.9;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$text-color-inverted:       #fffff0;
-$background-color: #fffff0;
-$background-color-inverted: #444;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "print",
-        "syntax-highlighting"
+  "defines",
+  "base",
+  "header",
+  "footer",
+  "tables",
+  "pagepost",
+  "odcustom",
+  "comments",
+  "print",
+  "syntax-highlighting"
 ;
