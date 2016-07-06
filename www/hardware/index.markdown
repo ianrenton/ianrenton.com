@@ -10,7 +10,7 @@ Welcome to the hardware & robots area of my site. Here you'll find build diaries
 <a href="./raspberry-tank"><img src="/images/tank.png" width="160" alt="Raspberry Tank" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="./raspberry-tank">Raspberry Tank</a> was possibly the first tank-like robot powered by a Raspberry Pi.</a> It's smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously.
+The <a href="./raspberry-tank">Raspberry Tank</a> was possibly the first tank-like robot powered by a Raspberry Pi. It's smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously.
 </div>
 <div class="clear"></div>
 
