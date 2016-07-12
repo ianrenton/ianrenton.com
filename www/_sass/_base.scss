@@ -127,6 +127,10 @@ blockquote {
     text-align: center;
     font-style: italic;
 
+    > * {
+        text-align: left;
+    }
+
     > :last-child {
         margin-bottom: 0;
     }
