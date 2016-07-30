@@ -3,6 +3,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    > a {
+         text-decoration: underline;
+    }
 }
 
 .page-heading {
@@ -78,6 +82,11 @@
             font-size: $base-font-size;
         }
     }
+
+    > a {
+         text-decoration: underline;
+    }
+
 }
 
 
