@@ -44,6 +44,10 @@
     font-size: 160%;
 }
 
+.juvia-comment-content p {
+  line-height: $base-line-height;
+}
+
 .juvia-textarea-field textarea {
   max-width: 100% !important;
 }
