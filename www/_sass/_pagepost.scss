@@ -30,8 +30,8 @@
 .post-link {
     display: block;
     font-size: $huge-font-size;
+    text-decoration: none;
 }
-
 
 
 /**
@@ -43,6 +43,10 @@
     > h3 {
       margin-bottom: 0.2em;
       font-weight: 300;
+
+      > a {
+        text-decoration: none;
+      }
     }
 }
 
@@ -101,6 +105,10 @@
     display: inline-block;
     width: 50%;
     vertical-align: top;
+
+    > a {
+      text-decoration: none;
+    }
   }
 
   > .pagination-right {
@@ -108,5 +116,9 @@
     width: 49%;
     text-align: right;
     vertical-align: top;
+
+    > a {
+      text-decoration: none;
+    }
   }
 }

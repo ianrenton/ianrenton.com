@@ -103,14 +103,10 @@ h1, h2 {
  */
 a {
     color: $brand-color;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
         color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        text-decoration: underline;
     }
 }
 
@@ -127,8 +123,12 @@ blockquote {
     text-align: center;
     font-style: italic;
 
-    > * {
+    /* Blockquotes with more than one paragraph are left-aligned, those with only one paragraph are picture captions and are centre aligned. */
+    > p {
         text-align: left;
+    }
+    > p:only-child {
+        text-align: center;
     }
 
     > :last-child {

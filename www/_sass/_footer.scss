@@ -15,6 +15,11 @@
 .footer-list {
     list-style: none;
     margin-left: 0;
+
+    > li > a, a:visited, a:hover {
+        color: $brand-color !important;
+        text-decoration: none !important;
+    }
 }
 
 .footer-col-wrapper {
@@ -23,8 +28,9 @@
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 
-    > a, a:visited, a:hover {
+    > * > a, a:visited, a:hover {
         color: $brand-color !important;
+        text-decoration: none !important;
     }
 }
 
