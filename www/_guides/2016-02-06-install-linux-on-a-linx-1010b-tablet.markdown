@@ -105,6 +105,13 @@ xinput set-prop "Goodix Capacitive TouchScreen" 'Coordinate Transformation Matri
 
 If you want this to happen automatically when you log in, save both commands to a file (e.g. `~/scripts/rotate`), make it executable (`chmod +x ~/scripts/rotate`) and add it to Ubuntu's Startup Applications.
 
+The equivalent script to set the screen back to portrait mode is as follows (thanks to Scott in the comments!):
+
+```
+xrandr -o normal
+xinput set-prop "Goodix Capacitive Touchscreen" 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1
+```
+
 ### Rotating the Login Screen
 
 It should be possible to apply this to the login screen as well, by creating a file named `/etc/lightdm/lightdm.conf.d/80-display-setup.conf` with the following contents:
@@ -171,11 +178,12 @@ So far we are still relying on the USB stick to boot into Ubuntu. The following 
           GRUB_DEFAULT=0
           GRUB_TIMEOUT=5
 
-8. Save and close the file.
-9. Install GRUB with `sudo update-grub && sudo update-grub2`.
-10. Check that GRUB has added "ubuntu" as an option to the EFI boot manager by running `sudo efibootmgr -v`. Check the four-digit numbers of each partition against the boot order shown, and it should list your Ubuntu install as the first one. If not, manually add this install to your EFI boot list with `sudo efibootmgr -c --disk /dev/mmcblk0 --part 1`.
-11. Shut down your tablet and remove the USB stick.
-12. Start up the tablet (no need to hold Volume Up any more!), and it should show you GRUB for a few seconds, then start up to the Ubuntu login screen.
+8. If you have a line that sets `GRUB_HIDDEN_TIMEOUT`, comment it out.
+9. Save and close the file.
+10. Install GRUB with `sudo update-grub && sudo update-grub2 && sudo grub-install`.
+11. Check that GRUB has added "ubuntu" as an option to the EFI boot manager by running `sudo efibootmgr -v`. Check the four-digit numbers of each partition against the boot order shown, and it should list your Ubuntu install as the first one. If not, manually add this install to your EFI boot list with `sudo efibootmgr -c --disk /dev/mmcblk0 --part 1`.
+12. Shut down your tablet and remove the USB stick.
+13. Start up the tablet (no need to hold Volume Up any more!), and it should show you GRUB for a few seconds, then start up to the Ubuntu login screen.
 
 ## Thanks To...
 
