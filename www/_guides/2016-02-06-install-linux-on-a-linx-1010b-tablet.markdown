@@ -6,7 +6,7 @@ date: 2016-02-06T11:43:41+00:00
 
 <div class="notes"><p>This guide is a work in progress. I have not yet got everything I'd like to have working, but it is bootable and most of the hardware works. I will be updating this post if and when I get more features working properly.</p></div>
 
-{% img center //files.ianrenton.com/sites/guides/linx1010b-ubuntu.jpg %}
+{% img center https://files.ianrenton.com/sites/guides/linx1010b-ubuntu.jpg %}
 
 In this guide I will be demonstrating how to install Linux on the [Linx 1010B tablet](http://www.currys.co.uk/gbuk/computing/tablets-and-ereaders/tablets/linx-1010b-10-1-tablet-32-gb-black-10138450-pdt.html), a low-cost 10-inch Windows 10 tablet. It uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit.
 
