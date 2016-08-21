@@ -57,9 +57,14 @@ At the moment, I'm really not sure.
 
   * The **Robotics 101 behaviour** of "go forward until you nearly hit something, then turn and repeat" seems like as good a place as any to start, though it's not particularly exciting.
   * **Target following** would be great, but as mentioned above, this may be beyond the capabilities of the Raspberry Pi hardware.
-  * You can now buy magnetometer chips that also include an accelerometer and a gyroscope. This can form the beginnings of an **inertial navigation system**. My parent company has a really good one of these, which probably took a team of people much smarter than me a very long time to get right. For us mere mortals, inertial navigation is difficult, as [Katy Levinson](https://twitter.com/katylevinson) will now drunkenly explain:<br/><br/><iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/Drk3Dz3_yLE?start=1286" frameborder="0" allowfullscreen></iframe><br/>
+  * You can now buy magnetometer chips that also include an accelerometer and a gyroscope. This can form the beginnings of an **inertial navigation system**. My parent company has a really good one of these, which probably took a team of people much smarter than me a very long time to get right. For us mere mortals, inertial navigation is difficult, as [Katy Levinson](https://twitter.com/katylevinson) will now drunkenly explain:
+
+  <iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/Drk3Dz3_yLE?start=1286" frameborder="0" allowfullscreen></iframe>
+
   * **GPS-based behaviours** could be possible if we added a GPS receiver. This would remove the problem of relying on inertial navigation, and the tank could conduct all kinds of interesting missions. However, it only works outdoors, and despite being a tracked vehicle, the Raspberry Tank definitely prefers operating in dry and carpeted places.
   * **Beacon-based navigation** similar to that used by [Roombas](http://www.irobot.com/en/us/robots/home/roomba.aspx) is a possibility, though that requires even more additional hardware, and means that the tank's environment must be carefully set up before it can be used.
-  * If we had a nice way of determining position, we could combine that with the rangefinder to make the tank **map its surroundings**. Over to Ms Levinson again for an explanation of why that's also pretty hard (but by no means impossible):<br/><br/><iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/gFW0schumkE?start=415" frameborder="0" allowfullscreen></iframe><br/>
+  * If we had a nice way of determining position, we could combine that with the rangefinder to make the tank **map its surroundings**. Over to Ms Levinson again for an explanation of why that's also pretty hard (but by no means impossible):
+
+  <iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/gFW0schumkE?start=415" frameborder="0" allowfullscreen></iframe>
 
 So, what do you think? Is there anything you'd like to see an autonomous Raspberry Tank do? Any input or output devices you'd like to see integrated? Let me know, and I'll see what we can do!

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "ATP: Video Streaming"
-date: 2015-01-12 21:57
+date: 2015-01-11 21:57
 comments: true
-categories: 
+categories:
 ---
 
 One of the goals of the All-Terrain Pi was to have a "game-like" smartphone control experience, where touch and tilt input controls the vehicle, and the feedback is full-screen video streamed from the vehicle &mdash; and all of it in the browser for maximum cross-platform compatability.
