@@ -43,7 +43,7 @@ I am an experienced developer of unmanned maritime systems for global Naval forc
 <table cellspacing="0"><tr><td>
 Domain knowledge
 </td><td>
-Autonomous/unmanned vehicles, naval combat systems, mine countermeasures, RF & sub-sea communications, GIS applications.
+Autonomous/unmanned vehicles, maritime navigation, naval combat systems, mine countermeasures, RF & sub-sea communications, GIS applications.
 </td></tr><tr><td>
 Engineering processes
 </td><td>
@@ -64,8 +64,9 @@ DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git
 Feb&nbsp;2014 &mdash; Present
 </td><td>
 <p><b>Principal Software Engineer at (Current Employer)</b></p>
-<p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work, followed by the full range of requirements, architectural design, detailed design and test documentation during the design phase of the project.</p>
-<p>Currently leading a team of 4 to develop the software applications during the first half of 2016, with trials and testing to begin in the summer. Interviewed and selected new members of the team.</p>
+<p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work, followed by the full range of requirements, architectural design, detailed design and test documentation.</p>
+<p>Interviewed and selected three new members of the team to support the work.</p>
+<p>Currently leading a team of 4 to finish up development of the software applications during the autumn of 2016, alongside our ongoing trials and testing programme.</p>
 </td></tr><tr><td>
 
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
@@ -83,7 +84,7 @@ Jul&nbsp;2006 &mdash; Sep&nbsp;2009
 </td><td>
 <p><b>Software Engineer at QinetiQ</b></p>
 <p>Worked on a variety of projects for defense and commercial customers, primarily in the naval arena.</p>
-<p>Responsibility for the complete engineering process from requirements capture to commissioning on a number of small projects.</p>
+<p>Responsibility for the complete engineering process from requirements capture to commissioning on a number of smaller projects.</p>
 <p>Worked to increase the adoption of configuration & issue management tools at the Winfrith site.</p>
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ Summer&nbsp;2004, 2005
 Sep&nbsp;2002 &mdash; Sep&nbsp;2003
 </td><td>
 <p><b>Year in Industry Student at QinetiQ</b></p>
-<p>First experience of the engineering process. Took on a spin-off from a major QinetiQ project and saw it through from initial R&D work to demonstration of a prototype and patent application.</p>
+<p>First experience of the engineering process. Alongside working on a major QinetiQ project, I also took on a spin-off development and saw it through from initial R&D work to demonstration of a prototype and patent application.</p>
 </td></tr></table>
 
 ## Qualifications, Education & Memberships
@@ -119,6 +120,12 @@ BTEC in Management from Pershore College, earned whilst on my Year in Industry p
 Attended Bournemouth School for Boys. Achieved A-levels in Maths, Further Maths,
 Physics and Electronics, as well as a certificate in Japanese Language & Studies.
 </td></tr></table>
+
+## Published Work
+
+Mediavilla Varas, J.; Caharija, W.; Smith, R.; Bhuiyan, Z.; Naeem, W.; Carter, P. and Renton, I. (2016) *Autonomous COLREGs Compliant Ship Navigation, Using Bridge Simulators and an Unmanned Vessel*, 15th International Conference on Computer and IT Applications in the Maritime Industries (COMPIT) &mdash; [Available online](http://data.hiper-conf.info/compit2016_lecce.pdf) pp. 280-286
+
+Cowling, D.; Kanouras, A.; Renton, I. and Stinchcombe, D. *Apparatus and method for sorting objects by colour*. Patent application PCT/GB2003/005027, June 2004 &mdash; [Available online](https://www.google.com/patents/WO2004045781A1?cl=en)
 
 ## Security
 
