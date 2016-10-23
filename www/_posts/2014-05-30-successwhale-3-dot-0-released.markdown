@@ -14,7 +14,7 @@ tags:
 
 It turns out that [my previous post about SuccessWhale](http://blog.ianrenton.com/state-of-the-whale-address/), bemoaning how it had stagnated and become more trouble than it was worth, was just enough venting to kick me up the arse and get me going again. And so, not long later, I am proud to announce the release of [SuccessWhale version 3](https://successwhale.com).
 
-{%img center //files.ianrenton.com/successwhale-screenshot.png SuccessWhale 3.0 Screenshot %}
+![SuccessWhale 3.0 Screenshot](https://files.ianrenton.com/successwhale-screenshot.png)
 
 As promised, it is a complete rewrite from the ground up, transforming a ugly mash of PHP, HTML and JavaScript into a neatly separated JavaScript client and Ruby API. In terms of the user experience, not a lot has changed &mdash; a lot of work has been done just to keep things the way they are. But the best bits about SuccessWhale v3 are where it goes from here.
 

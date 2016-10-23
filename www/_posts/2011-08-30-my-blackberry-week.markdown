@@ -24,7 +24,7 @@ My phone, an [HTC Desire HD](http://www.htc.com/www/smartphones/htc-desire-hd/),
 
 Repeatedly frustrated at not being able to use my phone to make calls or navigate at the end of car journeys with my son, I set to thinking about what I actually use my phone for. The majority of my phone use boils down to, roughly in order:
 
-{% img right //files.ianrenton.com/sites/blog/2011/08/blackberry-curve-9300-2-300x298.jpg%}
+![](https://files.ianrenton.com/sites/blog/2011/08/blackberry-curve-9300-2-300x298.jpg){: .right}
 
   1. Twitter
   2. Facebook
