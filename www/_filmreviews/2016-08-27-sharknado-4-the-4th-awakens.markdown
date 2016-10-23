@@ -6,11 +6,11 @@ date: 2016-08-27T21:00:00+01:00
 
 ## Synopsis
 
-![There hasn't been a Sharknado for five years!](//files.ianrenton.com/sites/filmreviews/sharknado4-1.gif)
+![There hasn't been a Sharknado for five years!](https://files.ianrenton.com/sites/filmreviews/sharknado4-1.gif)
 
 Suddenly,
 
-![A Sharknado!](//files.ianrenton.com/sites/filmreviews/sharknado4-2.gif)
+![A Sharknado!](https://files.ianrenton.com/sites/filmreviews/sharknado4-2.gif)
 
 Inconceivable!
 
@@ -49,11 +49,11 @@ And that's the intro done! Moving on...
 * Ice-sharknadoes: WHAAAT
 * Yellowstone Supervolcano...-Lightning-sand-boulder-sharknadoes: WHAAAAAAAAAT
 * Nuclear-lightning-sharknadoes: WHAAAAAAAAAAAAAAAT
-* COWNADOES: LITERALLY. CANNOT. EVEN<br/>![Literally cannot even](//files.ianrenton.com/sites/filmreviews/cannot-even.gif)
+* COWNADOES: LITERALLY. CANNOT. EVEN<br/>![Literally cannot even](https://files.ianrenton.com/sites/filmreviews/cannot-even.gif)
 
-* ![I'm mad as hell and I'm not going to take it any more!](//files.ianrenton.com/sites/filmreviews/mad-as-hell.gif): 1
+* ![I'm mad as hell and I'm not going to take it any more!](https://files.ianrenton.com/sites/filmreviews/mad-as-hell.gif): 1
 * Sharks killed by sensible landmarks: 12
-* Sharks killed by ![World's Largest Ball of Twine (Sam and Max)](//files.ianrenton.com/sites/filmreviews/ball-of-twine.jpg): 4
+* Sharks killed by ![World's Largest Ball of Twine (Sam and Max)](https://files.ianrenton.com/sites/filmreviews/ball-of-twine.jpg): 4
 * Wizard of Oz references: fucking continuous
 * Kylo Ren stupid cross-guard lightsabers inevitably reproduced as chainsaws: *sigh*
 * Minutes for which Gabrielle survives, despite being both a love interest and black: Astoundingly, 78
@@ -66,6 +66,6 @@ And that's the intro done! Moving on...
 * Pop-up Pirates: 1
 * Cyborgs and people in poorly CGI'd power armour flying through the air blasting sharks as they reverse the flow of Niagara Falls to neutralise a glowing green Nuclear Sharknado: A SYFY ORIGINAL, LADIES AND GENTLEMEN
 * Heroes hacked out of a shark out of a shark out of a shark out of a shark out of a whale by a small child sensibly armed with a miniature chainsaw: Yep, that happened
-* ![Shark defibrilator](//files.ianrenton.com/sites/filmreviews/sharknado4-3.gif): That too
+* ![Shark defibrilator](https://files.ianrenton.com/sites/filmreviews/sharknado4-3.gif): That too
 
-## Overall: ![Male stripper pelvic thrusting a shark](//files.ianrenton.com/sites/filmreviews/sharknado4.gif) / 5
+## Overall: ![Male stripper pelvic thrusting a shark](https://files.ianrenton.com/sites/filmreviews/sharknado4.gif) / 5

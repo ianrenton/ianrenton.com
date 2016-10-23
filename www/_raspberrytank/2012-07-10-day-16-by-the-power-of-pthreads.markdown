@@ -23,7 +23,7 @@ tags:
 
 [Day 15 of the Raspberry Tank build diary](../tank-day-15-web-interface-prototyping/) saw me on my home turf of UI prototyping, and I promised that today I'd show you how I put together the Javascript that powers the web-based user interface.  Well, I did a little better than that -- not only is the Web UI up and running, it's communicating with a new version of the tank control software too, so now almost -- almost! -- have a fully web-enabled tank.
 
-[![Raspberry Tank HTTP Interfaces](//files.ianrenton.com/sites/raspberrytank/http_interfaces-600x225.png)](//files.ianrenton.com/sites/raspberrytank/http_interfaces.png)
+[![Raspberry Tank HTTP Interfaces](https://files.ianrenton.com/sites/raspberrytank/http_interfaces-600x225.png)](https://files.ianrenton.com/sites/raspberrytank/http_interfaces.png)
 
 ### Step 1: The HTML
 
@@ -51,6 +51,6 @@ Mongoose's single C file was included in the build, and the code modified to inc
 
 ...now the Raspberry Tank can be controlled remotely from a web interface, complete with streaming video.
 
-[![Web UI on Tank](//files.ianrenton.com/sites/raspberrytank/IMG_20120709_124816-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120709_124816.jpg) [![Close-up of Web UI](//files.ianrenton.com/sites/raspberrytank/IMG_20120709_124826-225x300.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120709_124826.jpg)
+[![Web UI on Tank](https://files.ianrenton.com/sites/raspberrytank/IMG_20120709_124816-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120709_124816.jpg) [![Close-up of Web UI](https://files.ianrenton.com/sites/raspberrytank/IMG_20120709_124826-225x300.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120709_124826.jpg)
 
 You may notice in these photos that the Pi is not currently inside the tank.  There are a couple more issues that need to be addressed before full integration can occur, and these will be explained on day 17 of the Raspberry Tank Build Diary!

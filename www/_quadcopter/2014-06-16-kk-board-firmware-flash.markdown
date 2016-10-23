@@ -8,12 +8,12 @@ categories:
 
 Laptop connected to KK board:
 
-![](//files.ianrenton.com/sites/quadcopter/55.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/55.jpg)
 
 USB ASP detail:
 
-![](//files.ianrenton.com/sites/quadcopter/56.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/56.jpg)
 
 10-6 way connector and KK end detail:
 
-![](//files.ianrenton.com/sites/quadcopter/57.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/57.jpg)

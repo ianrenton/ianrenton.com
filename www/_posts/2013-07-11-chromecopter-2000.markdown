@@ -37,7 +37,7 @@ The AR.drone comes with a great [Android and iOS app](http://ardrone2.parrot.com
 
 Aside from the price and the Oculus Rift's lack of a release date, the big problem here is that the pilot will have to operate the phone's on-screen controls &mdash; such as altitude &mdash; by feel alone because she won't be able to see her own fingers.
 
-{% img center //files.ianrenton.com/sites/blog/2013/07/chromecopter-2.png Chromecopter Phase 1 diagram %}
+![Chromecopter Phase 1 diagram](https://files.ianrenton.com/sites/blog/2013/07/chromecopter-2.png){: .center}
 
 Replacing that on-screen control with motion sensors is the other 99% of the effort.
 
@@ -56,7 +56,7 @@ With the Raspberry Pi running Nodecopter software, it becomes pretty easy to int
 
 For the control of the drone, the feeling of "jacking in" is enhanced by applying control through body motion. The Oculus Rift includes sensors which could allow the pilot to rotate the quadcopter by rotating her head. [Cheap solid-state magnetometers](http://www.robot-electronics.co.uk/htm/cmps10doc.htm) like those [used in the Raspberry Tank](http://raspberrytank.ianrenton.com/day-23-range-and-bearing/) can be embedded in gloves to control the three-dimensional motion of the drone. For example, tilting the right hand forwards and backwards could decrease and increase altitude.
 
-{% img center //files.ianrenton.com/sites/blog/2013/07/chromecopter-1.png Chromecopter control scheme %}
+![Chromecopter control scheme](https://files.ianrenton.com/sites/blog/2013/07/chromecopter-1.png){: .center}
 
 Finally, a safe "hover" mode is required that will allow the pilot to move her hands without controlling and potentially crashing the drone. This could be achieved by metal contacts on the thumb and forefinger, which must be touching in order to actively command the drone.
 
@@ -64,7 +64,7 @@ These sensors can easily be fed into the Raspberry Pi via its GPIO port, with a 
 
 When flying a drone, speed is of the essence, and a lot of work will be required to decrease the time between the pilot moving and the drone responding. Delays here can cause difficulty in piloting the drone, not to mention the possibility of motion sickness since the pilot's field of view consists only of the (possibly delayed) video from the drone.
 
-{% img center //files.ianrenton.com/sites/blog/2013/07/chromecopter-3.png Chromecopter Phase 2 diagram %}
+![Chromecopter Phase 2 diagram](https://files.ianrenton.com/sites/blog/2013/07/chromecopter-3.png){: .center}
 
 In Summary
 ----------

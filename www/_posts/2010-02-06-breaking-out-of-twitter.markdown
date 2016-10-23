@@ -26,7 +26,7 @@ Earlier this evening, [@HolyHaddock](http://www.twitter.com/HolyHaddock) linked 
 > 
 > 
 
-[![Twitter Conversation Thread](//files.ianrenton.com/sites/blog/2010/02/twitterconvo-158x300.png)](//files.ianrenton.com/sites/blog/2010/02/twitterconvo.png)
+[![Twitter Conversation Thread](https://files.ianrenton.com/sites/blog/2010/02/twitterconvo-158x300.png)](https://files.ianrenton.com/sites/blog/2010/02/twitterconvo.png)
 
 Which is fair enough.  I would argue that Twitter has every right to be bad at conversation -- that's not what it was created for.  Once upon a time, it asked a simple question: "What are you doing?".  The user base has shaped Twitter over the years, most notably in the formalisation of @usernames and #tags which began simply as trends among users.  But it has stuck resolutely to its 140-character limit, without which I think the service would change for the poorer.
 

@@ -16,4 +16,4 @@ This is a pretty easy interface to add, building on top of the existing javascri
 
 The code is now available in the [Web UI folder of the Raspberry Tank code repository](https://github.com/ianrenton/raspberrytank/tree/master/web-ui). You can chek out what it looks like (including my ssh debug readout and my very messy living room!) below.
 
-![FPS Mode Screenshot](//files.ianrenton.com/sites/raspberrytank/fpsmode.png)
+![FPS Mode Screenshot](https://files.ianrenton.com/sites/raspberrytank/fpsmode.png)

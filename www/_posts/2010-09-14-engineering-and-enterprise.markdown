@@ -22,7 +22,7 @@ tags:
 I stoop low over the table, squinting in the flickering light of an incandescent bulb not long for this world.  My fingers clutch and twist wires, forming tiny twigs of copper into shapes that would join and hold fast.  I am Making Ethernet Happen.  Without benefit of crimping tools or solder, or even sellotape to separate each contact from its kin, I have zero technology, and with it I bring our species' greatest technology to this place.
 
 I feel I should renounce my status as an engineer after creating this ridiculous mess of anti-design.  And yet I feel good about it, that feeling of taking two things that do not go together and making them go.
-[![Mah Ethernet](//files.ianrenton.com/sites/blog/2010/09/1284308753366-300x300.jpg)](//files.ianrenton.com/sites/blog/2010/09/1284308753366.jpg)
+[![Mah Ethernet](https://files.ianrenton.com/sites/blog/2010/09/1284308753366-300x300.jpg)](https://files.ianrenton.com/sites/blog/2010/09/1284308753366.jpg)
 
 The compound has levelled up in recent days, and gained the ability to provide take-away Thai food.  It's served out of someone's kitchen, and the fact I still only barely parse Saudi Riyals as 'real money' brings to mind Maelstrom's opportunistic food stalls, feeding a tiny and bizarre community in exchange for bits of metal that are only worth something there.
 

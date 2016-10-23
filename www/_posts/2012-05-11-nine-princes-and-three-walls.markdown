@@ -21,7 +21,7 @@ I think I recall reading [Roger Zelazny](https://en.wikipedia.org/wiki/Roger_Zel
 
 The writing style I can handle, just about, as it fluctuates between overly casual and more traditional fantasy fare.  But what really grates is the continual demolition of the "fourth wall"; the series never lets the reader get absorbed in its world for more than ten pages before they are reminded abruptly of their own.
 
-{% img right https://www.worldswithoutend.com/covers/rz_signofth.jpg "Sign of the Unicorn" cover %}
+!["Sign of the Unicorn" cover](https://www.worldswithoutend.com/covers/rz_signofth.jpg){: .right}
 
 I've gotten used to the constant [Freud](https://en.wikipedia.org/wiki/Sigmund_Freud) name-dropping -- that he was a patient of Freud's is important to the protagonist, if not especially so for the reader.  It's slightly more bizarre that a character of near-Godlike magical powers compares an obviously magical experience to [Hilbert space](http://mathworld.wolfram.com/HilbertSpace.html), or that a mortal from a fantasy world takes to aircraft and modern military tactics without mention of it being weird.
 

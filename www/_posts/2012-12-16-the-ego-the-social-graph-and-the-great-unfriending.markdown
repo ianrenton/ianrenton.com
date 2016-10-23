@@ -20,7 +20,7 @@ tags:
 
 Long ago, in the early years of Facebook's rise to power, it became apparent that it had another key feature alongside feeds and wall posts -- the friends list. Not only was it a good way to keep in touch with friends after University, it also became a good way of _declaring who those friends were_. This aspect was emphasized more and more as the site's user base increased; you could now keep a quite exhaustive catalogue of who you knew. There were even apps on Facebook's fledgling platform that allowed to to map those friends, and see interesting groups and connections form.
 
-[![Facebook Friends Graph](//files.ianrenton.com/sites/blog/2012/12/Screenshot-10-233x300.png)](//files.ianrenton.com/sites/blog/2012/12/Screenshot-10.png)
+[![Facebook Friends Graph](https://files.ianrenton.com/sites/blog/2012/12/Screenshot-10-233x300.png)](https://files.ianrenton.com/sites/blog/2012/12/Screenshot-10.png)
 
 > My Facebook Friends Graph
 

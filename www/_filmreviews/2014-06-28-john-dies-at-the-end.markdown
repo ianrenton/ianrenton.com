@@ -30,7 +30,7 @@ By the Numbers
 * Bible bashers: 1
 * Gory death: OVER 9000
 * What's in the container: BUFFERING
-![Buffering](//files.ianrenton.com/sites/filmreviews/buffering.jpg)
+![Buffering](https://files.ianrenton.com/sites/filmreviews/buffering.jpg)
 
 Overall: 2 / 5
 --------------

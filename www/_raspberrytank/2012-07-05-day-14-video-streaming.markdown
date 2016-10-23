@@ -42,7 +42,7 @@ Luckily, the maintainer of the WiFi driver build had a new version available wit
 
 ### Step 3: Stream the Video
 
-[![Raspberry Tank with (Semi-Working) Webcam Image](//files.ianrenton.com/sites/raspberrytank/IMG_20120703_134145-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120703_134145.jpg)
+[![Raspberry Tank with (Semi-Working) Webcam Image](https://files.ianrenton.com/sites/raspberrytank/IMG_20120703_134145-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120703_134145.jpg)
 
 With both webcam and WiFi working, we could finally look at the camera imagery.  I took the advice of [Miklós](http://balubati.atw.hu/blog) from [Day 13](../tank-day-13-lucky-for-us/)'s comment thread, and used [mjpg-streamer](https://sourceforge.net/projects/mjpg-streamer/) for this.
 

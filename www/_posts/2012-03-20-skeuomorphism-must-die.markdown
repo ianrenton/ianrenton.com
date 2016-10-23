@@ -23,7 +23,7 @@ There have been a [lot](http://appadvice.com/appnn/2012/03/quickadvice-iphoto) [
 
 [Skeuomorphism](https://en.wikipedia.org/wiki/Skeuomorphism) is defined as "[producing] a derivative object that retains ornamental design cues to a structure that was necessary in the original", which in software terms usually refers to making a software interface look like a real-world object.  For example, the Apple applications that have recently raised designers' ire:
 
-[![OSX Lion iCal](//files.ianrenton.com/sites/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily1.jpg)](//files.ianrenton.com/sites/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily.jpg) [![iOS 5 iPhoto](//files.ianrenton.com/sites/blog/2012/03/IMG_53781.jpeg)](//files.ianrenton.com/sites/blog/2012/03/IMG_5378.jpeg)
+[![OSX Lion iCal](https://files.ianrenton.com/sites/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily1.jpg)](https://files.ianrenton.com/sites/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily.jpg) [![iOS 5 iPhoto](https://files.ianrenton.com/sites/blog/2012/03/IMG_53781.jpeg)](https://files.ianrenton.com/sites/blog/2012/03/IMG_5378.jpeg)
 
 Skeuomorphism in software can be useful if (a) the concept the designer is trying to convey is difficult to get across without resorting to real-world objects, and (b) the skeuomorphic interface actually improves things.
 
@@ -39,7 +39,7 @@ Back in the mid-1990s, new and inexperienced users were joining the "computer re
 
 They could make their fax program... _look like a fax machine._
 
-[![Horrible 90s Fax App](//files.ianrenton.com/sites/blog/2012/03/C10_UI.jpg)](//files.ianrenton.com/sites/blog/2012/03/C10_UI.jpg)
+[![Horrible 90s Fax App](https://files.ianrenton.com/sites/blog/2012/03/C10_UI.jpg)](https://files.ianrenton.com/sites/blog/2012/03/C10_UI.jpg)
 
 Buttons that look like textured plastic!  Fake 7-segment displays to tell the time!  _Eight_ speed-dials!  Huge amounts of wasted space!  Curved corners!  Cyan!  _A giant useless phone-shape attached to the side!  A "handsfree" button that cannot possibly make the device more hands-free!_  This interface, and hundreds like it, are things of horror.
 
@@ -47,4 +47,4 @@ And of course, one company took it too far. They produced a skeuomorphic interfa
 
 Kids: don't do skeuomorphism.  Or you might end up like Uncle Bob.
 
-[![Microsoft Bob](//files.ianrenton.com/sites/blog/2012/03/bobhome1p.png)](//files.ianrenton.com/sites/blog/2012/03/bobhome1p.png)
+[![Microsoft Bob](https://files.ianrenton.com/sites/blog/2012/03/bobhome1p.png)](https://files.ianrenton.com/sites/blog/2012/03/bobhome1p.png)

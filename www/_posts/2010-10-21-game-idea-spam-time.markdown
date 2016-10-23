@@ -38,7 +38,7 @@ Each ship is composed of four bits:
 Ships can shoot at other ships (submarines are a possibility too) and if they get close enough, the enemy base.  They can be moved around the playing field, and will automatically fire on any enemy ship within range.
 
 Here's the rest of my thought processes (and doodles) in Awful Handwriting form:
-[![](//files.ianrenton.com/sites/blog/2010/10/Untitled001-150x150.jpg)](//files.ianrenton.com/sites/blog/2010/10/Untitled001.jpg)[![](//files.ianrenton.com/sites/blog/2010/10/Untitled002-150x150.jpg)](//files.ianrenton.com/sites/blog/2010/10/Untitled002.jpg)[![](//files.ianrenton.com/sites/blog/2010/10/Untitled003-150x150.jpg)](//files.ianrenton.com/sites/blog/2010/10/Untitled003.jpg)[![](//files.ianrenton.com/sites/blog/2010/10/Untitled004-150x150.jpg)](//files.ianrenton.com/sites/blog/2010/10/Untitled004.jpg)
+[![](https://files.ianrenton.com/sites/blog/2010/10/Untitled001-150x150.jpg)](https://files.ianrenton.com/sites/blog/2010/10/Untitled001.jpg)[![](https://files.ianrenton.com/sites/blog/2010/10/Untitled002-150x150.jpg)](https://files.ianrenton.com/sites/blog/2010/10/Untitled002.jpg)[![](https://files.ianrenton.com/sites/blog/2010/10/Untitled003-150x150.jpg)](https://files.ianrenton.com/sites/blog/2010/10/Untitled003.jpg)[![](https://files.ianrenton.com/sites/blog/2010/10/Untitled004-150x150.jpg)](https://files.ianrenton.com/sites/blog/2010/10/Untitled004.jpg)
 
 My big question is, if I were to make this -- and have the patience to _finish_ making it, which is a rare thing indeed -- for what platform should I be making it?
 

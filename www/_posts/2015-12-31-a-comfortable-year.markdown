@@ -15,13 +15,13 @@ Looking back on [previous](/blog/another-year-gone-by/) [posts](/blog/and-so-int
 
 We did manage [four days in Vienna](/blog/summer-in-the-city/), and whilst it went some way to broadening the family's geographic and cultural horizons, it mostly consisted of us improving our understanding of how to sleep in high temperatures, and whether it is possible to live on a diet of schnitzel alone.
 
-{% img center //files.ianrenton.com/sites/blog/2015/carriage.jpg %}
+![](https://files.ianrenton.com/sites/blog/2015/carriage.jpg){: .center}
 
 > The family on a carriage ride around Vienna
 
 But although our adventures have been small, they have been fun. And although the year has not been bursting with excitement, it has been a comfortable one and a good one.
 
-{% img center //files.ianrenton.com/sites/blog/2015/josephtree.jpg %}
+![](https://files.ianrenton.com/sites/blog/2015/josephtree.jpg){: .center}
 
 > Joseph climbing a tree in the New Forest
 
@@ -29,13 +29,13 @@ The summer also saw Joseph's eighth birthday, and Alicia's second. Joseph is now
 
 Unfortunately his birthday coincides with each season of the Great British Bake-Off, which this year caused his birthday cake to be somewhat more *structural* than previous years. Not exactly the neatest thing I have ever produced, but well-received anyway.
 
-{% img center //files.ianrenton.com/sites/blog/2015/cake.jpg %}
+![](https://files.ianrenton.com/sites/blog/2015/cake.jpg){: .center}
 
 > My Minecraft-themed cake for Joseph's 8th birthday
 
 Alicia is just starting to talk using understandable words, so her Spanish is at about my level already. We joined her for her party up in Sheffield, where I roughly remembered how to make balloon animals, and Joseph nearly took out a group of small children along with the piñata.
 
-{% img center //files.ianrenton.com/sites/blog/2015/pinyata.jpg %}
+![](https://files.ianrenton.com/sites/blog/2015/pinyata.jpg){: .center}
 
 > Joseph at Alicia's birthday
 
@@ -43,7 +43,7 @@ The autumn dropped a bombshell of drama in a friend's life. Between constant wor
 
 Nevertheless, we made it through to the end of the year&mdash;to Christmas and to my Grandparents' 60th anniversary, and were surrounded by our family once more. This year we stayed home in Bournemouth rather than making our traditional Christmas Eve trip to Guildford, meaning that for the first time Joseph could leave out mince pies for Santa and open his presents under the tree on Christmas morning. Apparently the in-laws intend to make up for our absence over Christmas by coming down to help me redecorate the house in January...
 
-{% img center //files.ianrenton.com/sites/blog/2015/xmasgroup.jpg %}
+![](https://files.ianrenton.com/sites/blog/2015/xmasgroup.jpg){: .center}
 
 > (Most of) The family together at Christmas
 

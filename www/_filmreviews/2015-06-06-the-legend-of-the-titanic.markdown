@@ -15,7 +15,7 @@ I'm starting to wonder if [THE FUCKING RAPPING DOG](../titanic-the-legend-goes-o
 ## By the Numbers
 
 * "Why did you give up sailing after being partially responsible for the deaths of 1517 people?": 1
-* THE TERRIBLE MR. ICE: 1<br/>![Mr. Ice](//files.ianrenton.com/sites/filmreviews/vanillaice.jpg)
+* THE TERRIBLE MR. ICE: 1<br/>![Mr. Ice](https://files.ianrenton.com/sites/filmreviews/vanillaice.jpg)
 * Inevitable Mexican mice: 1
 * Throuroughly inexplicable Brazilian football mice: 1
 * "Ratatouille" jokes: STOP IT
@@ -24,7 +24,7 @@ I'm starting to wonder if [THE FUCKING RAPPING DOG](../titanic-the-legend-goes-o
 * CGI budget: 1 bag of peanuts (dry roast)
 * Whalers: 3
 * Bob Marley: 0
-* PIRATE BURT REYNOLDS: present<br/>![Pirate Burt Reynolds](//files.ianrenton.com/sites/filmreviews/burtreynolds.jpg)
+* PIRATE BURT REYNOLDS: present<br/>![Pirate Burt Reynolds](https://files.ianrenton.com/sites/filmreviews/burtreynolds.jpg)
 * "But she's a woman and you're a mouse!" "I'm not racist!"
 * Flying dolphins telepathically communicating with Tesco Value Kate Winslet: KILL ME NOW THIS IS FUCKING TERRIBLE
 * Unconvincing arguments required to change the course of Elizabeth's life, in mice: 2
@@ -36,7 +36,7 @@ I'm starting to wonder if [THE FUCKING RAPPING DOG](../titanic-the-legend-goes-o
 * "We must be careful! The walls have ears!": STOP TAKING SO MANY DRUGS THEN
 * Electrically conductive moustaches: WHAT THE EVER-LOVING FUCK IS THIS
 * "I'll give it a try! I've always wanted to tentacle rape an ocean liner!"
-* **CTHULHU F'THAGN**<br/>![Tentacoo wape!](//files.ianrenton.com/sites/filmreviews/titanic4.png)
+* **CTHULHU F'THAGN**<br/>![Tentacoo wape!](https://files.ianrenton.com/sites/filmreviews/titanic4.png)
 * "It's a good job the impact won't kill us from this heiiiiiiiii..." *ptht*: 1
 * People who died on the Titanic: apparently, 0
 * Demonstrably electrocuted and mourned mice that died on the Titanic: Nope

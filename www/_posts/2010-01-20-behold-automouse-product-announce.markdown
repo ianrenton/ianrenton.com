@@ -16,7 +16,7 @@ tags:
 - Technology Abuse
 ---
 
-[![AutoMouse!](//files.ianrenton.com/sites/blog/2010/01/AutoMouse-1-300x182.jpg)](//files.ianrenton.com/sites/blog/2010/01/AutoMouse-1.jpg)  
+[![AutoMouse!](https://files.ianrenton.com/sites/blog/2010/01/AutoMouse-1-300x182.jpg)](https://files.ianrenton.com/sites/blog/2010/01/AutoMouse-1.jpg)  
 
 Apple, Razer, Logitech - you have nothing on this.  Yes this, ladies and gentlemen, is the greatest advancement in input peripheral technology to date and - if I may be so bold - the best mouse you will ever see.  Gone are the risks of RSI in your index finger, gone are the stresses of actually having to click anything.  The AutoMouse Mk. I clicks for you!
 
@@ -26,7 +26,7 @@ A set of tests I am currently involved with at work involve using a GUI app to t
 
 All credit to my colleague Daryl for building this.  For some reason, whenever I pick up a soldering iron, someone restrains me before I can do too much damage...
 
-[![AutoMouse with Signal Generator](//files.ianrenton.com/sites/blog/2010/01/AutoMouse-2-237x300.jpg)](//files.ianrenton.com/sites/blog/2010/01/AutoMouse-2.jpg)
+[![AutoMouse with Signal Generator](https://files.ianrenton.com/sites/blog/2010/01/AutoMouse-2-237x300.jpg)](https://files.ianrenton.com/sites/blog/2010/01/AutoMouse-2.jpg)
 
 ### Usage
 
@@ -50,6 +50,6 @@ The AutoMouse (TM) Mk. I is not available anywhere except our lab.  We may make 
 
 ### In Other News
 
-[![Solitaire on an Oscilloscope](//files.ianrenton.com/sites/blog/2010/01/Most-Useful-Feature-300x225.jpg)](//files.ianrenton.com/sites/blog/2010/01/Most-Useful-Feature.jpg)
+[![Solitaire on an Oscilloscope](https://files.ianrenton.com/sites/blog/2010/01/Most-Useful-Feature-300x225.jpg)](https://files.ianrenton.com/sites/blog/2010/01/Most-Useful-Feature.jpg)
 
 

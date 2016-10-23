@@ -38,19 +38,19 @@ In the notes below it's dubbed _healthi.ly_, though as that domain is parked, it
 
 ### Home Page
 
-[![Daily Promise Home Page](//files.ianrenton.com/sites/blog/2010/11/healthily-front-229x300.jpg)](//files.ianrenton.com/sites/blog/2010/11/healthily-front.jpg)The home page would largely be a "log in / register" affair, possibly also showcasing successful and popular users in a side-bar (not shown).  Big banner text explains the rough concept, with a "read more" link to a full "About" page.  On the registration side, we make it clear exactly what _Daily Promise_ does and doesn't do with access to your Twitter account.
+[![Daily Promise Home Page](https://files.ianrenton.com/sites/blog/2010/11/healthily-front-229x300.jpg)](https://files.ianrenton.com/sites/blog/2010/11/healthily-front.jpg)The home page would largely be a "log in / register" affair, possibly also showcasing successful and popular users in a side-bar (not shown).  Big banner text explains the rough concept, with a "read more" link to a full "About" page.  On the registration side, we make it clear exactly what _Daily Promise_ does and doesn't do with access to your Twitter account.
 
 ### Set Up Goals
 
-[![Daily Promise Goals Page](//files.ianrenton.com/sites/blog/2010/11/healthily-setup-228x300.jpg)](//files.ianrenton.com/sites/blog/2010/11/healthily-setup.jpg)The main setup page is where you set your goals.  Users can set any (reasonable) number of goals, they can drop and resurrect old ones, and add new ones, at any time.  Performance against all the goals is tracked and visible on this page.  Adding new goals and dropping old ones can be tweeted, but as with every tweet opportunity, the user is presented with an @Anywhere box that they can freely edit and can choose not to tweet as easily as they can choose _to_ tweet.  The tweet links to the list of goals on their profile.
+[![Daily Promise Goals Page](https://files.ianrenton.com/sites/blog/2010/11/healthily-setup-228x300.jpg)](https://files.ianrenton.com/sites/blog/2010/11/healthily-setup.jpg)The main setup page is where you set your goals.  Users can set any (reasonable) number of goals, they can drop and resurrect old ones, and add new ones, at any time.  Performance against all the goals is tracked and visible on this page.  Adding new goals and dropping old ones can be tweeted, but as with every tweet opportunity, the user is presented with an @Anywhere box that they can freely edit and can choose not to tweet as easily as they can choose _to_ tweet.  The tweet links to the list of goals on their profile.
 
 ### Daily Performance
 
-[![Daily Promise Daily Performance Page](//files.ianrenton.com/sites/blog/2010/11/healthily-daily-236x300.jpg)](//files.ianrenton.com/sites/blog/2010/11/healthily-daily.jpg)Once goals are set, the user logs in each day (and can fill in past gaps) with whether or not they have met each goal.  Each day's entry presents some brief statistics, and you get more stats on the week after filling in Sunday's performance.  Very good or very bad performance suggests a Tweet that a user might like to make.  The tweet links to their performance log on their profile.
+[![Daily Promise Daily Performance Page](https://files.ianrenton.com/sites/blog/2010/11/healthily-daily-236x300.jpg)](https://files.ianrenton.com/sites/blog/2010/11/healthily-daily.jpg)Once goals are set, the user logs in each day (and can fill in past gaps) with whether or not they have met each goal.  Each day's entry presents some brief statistics, and you get more stats on the week after filling in Sunday's performance.  Very good or very bad performance suggests a Tweet that a user might like to make.  The tweet links to their performance log on their profile.
 
 ### Performance Log
 
-[![Daily Promise Performance Log](//files.ianrenton.com/sites/blog/2010/11/healthily-log-232x300.jpg)](//files.ianrenton.com/sites/blog/2010/11/healthily-log.jpg)This is a user's main screen.  It displays a chart of passes and fails for the last month or so as green (pass), red (fail) or grey (goal not active) squares.  Below the chart, more detailed stats are presented, as well as an encouraging text summary of how the user is doing.
+[![Daily Promise Performance Log](https://files.ianrenton.com/sites/blog/2010/11/healthily-log-232x300.jpg)](https://files.ianrenton.com/sites/blog/2010/11/healthily-log.jpg)This is a user's main screen.  It displays a chart of passes and fails for the last month or so as green (pass), red (fail) or grey (goal not active) squares.  Below the chart, more detailed stats are presented, as well as an encouraging text summary of how the user is doing.
 
 ### Settings
 
@@ -58,7 +58,7 @@ Most of the core settings such as username, display name, avatar and bio are han
 
 ### Friends
 
-[![Daily Promise Friends Page](//files.ianrenton.com/sites/blog/2010/11/healthily-friends-232x300.jpg)](//files.ianrenton.com/sites/blog/2010/11/healthily-friends.jpg)The user's "following" list from Twitter is used to generate their list of _Daily Promise_ friends.  Avatars, usernames and _Daily Promise_ performance summaries are displayed here.  Clicking through to a user's profile shows the "performance log" page, topped with name / avatar / bio / etc.
+[![Daily Promise Friends Page](https://files.ianrenton.com/sites/blog/2010/11/healthily-friends-232x300.jpg)](https://files.ianrenton.com/sites/blog/2010/11/healthily-friends.jpg)The user's "following" list from Twitter is used to generate their list of _Daily Promise_ friends.  Avatars, usernames and _Daily Promise_ performance summaries are displayed here.  Clicking through to a user's profile shows the "performance log" page, topped with name / avatar / bio / etc.
 
   
 

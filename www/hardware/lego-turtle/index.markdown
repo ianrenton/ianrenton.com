@@ -6,7 +6,7 @@ title: Lego Turtle
 
 For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the RCX 2.0 module, which is now so old that programming it isn't supported on any modern operating system. Rather than let it go to waste, I have swapped the RCX 2.0 for an Arduino, turned the robot into a ["Turtle"](https://en.wikipedia.org/wiki/Turtle_%28robot%29) that the user can program by sending [Logo](https://en.wikipedia.org/wiki/Logo_programming_language) programs to it via UART.
 
-{% img center //files.ianrenton.com/sites/legoturtle/legoturtle.png %}
+![](https://files.ianrenton.com/sites/legoturtle/legoturtle.png){: .center}
 
 ## Videos
 
@@ -14,7 +14,7 @@ For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the
 
 ## UART Programming
 
-![UART Programming](//files.ianrenton.com/sites/legoturtle/logo-uart-screen.png)
+![UART Programming](https://files.ianrenton.com/sites/legoturtle/logo-uart-screen.png)
 
 ## Schematics
 

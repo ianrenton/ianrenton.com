@@ -19,7 +19,7 @@ Like many angsty young adults, I spent the last few months of my time at Univers
 
 Then, something magical happened.
 
-{% img center //files.ianrenton.com/sites/blog/2013/09/facebook-ipod.jpg Facebook app running on an iPod Touch %}
+![Facebook app running on an iPod Touch](https://files.ianrenton.com/sites/blog/2013/09/facebook-ipod.jpg){: .center}
 
 Suddenly, it was like the old times were back again. We could stay in touch forever, and share the minutiae of our lives just like always.
 
@@ -27,7 +27,7 @@ But since then, it's kind of taken over. I've caught myself checking Twitter and
 
 I saw [this comic](http://zenpencils.com/comic/129-marc-maron-the-social-media-generation/) the other day, and although its charicature of the social networking-obsessed user is a long way from the way I act most of the time, the intention behind it still rings true.
 
-[{% img center //files.ianrenton.com/sites/blog/2013/09/zenpencils-maron-crop.jpg Art (c) Gavin Aung Than of ZenPencils.com %}](http://zenpencils.com/comic/129-marc-maron-the-social-media-generation/)
+[![Art (c) Gavin Aung Than of ZenPencils.com](https://files.ianrenton.com/sites/blog/2013/09/zenpencils-maron-crop.jpg){: .center}](http://zenpencils.com/comic/129-marc-maron-the-social-media-generation/)
 
 How did we get to a point where I would rather share some witticism I think of with the internet at large than with my own wife, who matters far more to me than the rest of the web ever could? Why do I regularly spend my evenings idly refreshing Facebook, then complain that the flat is a mess because I never have time to do chores?
 

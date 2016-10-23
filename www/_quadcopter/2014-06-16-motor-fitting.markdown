@@ -8,16 +8,16 @@ categories:
 
 Motor parts:
 
-![](//files.ianrenton.com/sites/quadcopter/20.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/20.jpg)
 
 Fixing to motor mount:
 
-![](//files.ianrenton.com/sites/quadcopter/21.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/21.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/22.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/22.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/23.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/23.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/24.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/24.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/25.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/25.jpg)

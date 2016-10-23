@@ -8,10 +8,10 @@ categories:
 
 A long overdue tidy of the rat's nest of cables. Raspberry Pi and camera have been removed for now.
 
-![](//files.ianrenton.com/sites/quadcopter/79.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/79.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/80.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/80.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/81.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/81.jpg)
 
-![](//files.ianrenton.com/sites/quadcopter/82.jpg)
+![](https://files.ianrenton.com/sites/quadcopter/82.jpg)

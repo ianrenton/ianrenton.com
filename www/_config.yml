@@ -9,7 +9,7 @@ url: "https://ianrenton.com" # the base hostname & protocol for your site
 markdown: kramdown
 kramdown:
   input: GFM
-gems: [octopress-image-tag, octopress-quote-tag, octopress-codeblock, octopress-codefence, octopress-paginate, jekyll-sitemap, jekyll-archives]
+gems: [octopress-codeblock, octopress-codefence, octopress-paginate, jekyll-sitemap, jekyll-archives]
 permalink: /blog/:title/
 
 # Juvia
