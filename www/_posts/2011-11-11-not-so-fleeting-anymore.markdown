@@ -23,7 +23,7 @@ tags:
 
 I took my first faltering steps "online" in the mid-90s, courtesy of [Trumpet Winsock](http://www.trumpet.com.au/index.php/downloads.html) under Windows 3.1, followed by AOL's UK Games Chat, doubtless a gateway drug to the life of Usenet and IRC that followed; hoping and pleading that my parents wouldn't pick up the phone and hear the telltale 14.4 kilobit buzzing that gave away my illicit internet usage.
 
-{% img right //files.ianrenton.com/sites/blog/2011/11/winsock-300x185.gif Trumpet Winsock %}
+![Trumpet Winsock](https://files.ianrenton.com/sites/blog/2011/11/winsock-300x185.gif){: .right}
 
 Isn't "going online" such a strange notion now, when "offline" is only achieved by bloggers camping in the woods as a publicity stunt; a week without the internet in exchange for their fifteen seconds of internet fame?
 
@@ -37,7 +37,7 @@ Nothing is deleted anymore, nothing lost to history.  Those thoughts that I don'
 
 My son is four now; it won't be too many years before he's able to browse the 'net by himself and to stumble upon his father's teenage wittering.  What will he make of the way I [cryptically tried to figure out how to reject his mother](http://ianrenton.com/blog/dreaming-of-the-calm) when she first asked me out, or the [drama-tastic marker](http://ianrenton.com/blog/emo-update) I placed in apology for a post I removed -- a post made when I was not exactly espousing the virtues expected of a father.
 
-{% img left //files.ianrenton.com/sites/blog/2011/11/joseph-laptop-300x218.jpg Joseph's Laptop Now. %}
+![Joseph's Laptop Now.](https://files.ianrenton.com/sites/blog/2011/11/joseph-laptop-300x218.jpg){: .left}
 
 It's probably the kind of detail he won't want to know about my life, in much the same way as I'm happy with my lack of knowledge of my own father's young adulthood.  And, briefly, I considered deleting most of it -- the personal stuff, at least.
 

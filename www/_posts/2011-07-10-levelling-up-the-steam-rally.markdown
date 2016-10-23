@@ -24,7 +24,7 @@ Yesterday Joseph, my parents and I headed to "Steamed Up", a steam rally out nea
 
 When it comes to engines, I abide by a simple formula: power / weight = fun. Not to disparage the efforts of the men and women that restore and run these things, but as far as I'm concerned, they're lacking a little on the 'fun'. And also the 'ludicrous danger'.
 
-[![Steamrollers and Steam Tractors at 'Steamed Up'](//files.ianrenton.com/sites/blog/2011/07/IMG_7272-500x254.jpg)](//files.ianrenton.com/sites/blog/2011/07/IMG_7272.jpg)
+[![Steamrollers and Steam Tractors at 'Steamed Up'](https://files.ianrenton.com/sites/blog/2011/07/IMG_7272-500x254.jpg)](https://files.ianrenton.com/sites/blog/2011/07/IMG_7272.jpg)
 
 On the basis that these rallies seem to be engine-type specific: steam rallies for steam-powered vehicles, and there are no shortage of car and bike rallies for petrol- and diesel- engined vehicles, the natural next step would seem to be this:
 

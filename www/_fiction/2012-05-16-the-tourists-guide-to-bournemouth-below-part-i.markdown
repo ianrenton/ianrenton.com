@@ -43,7 +43,7 @@ Sniggers and chuckles echoed around the court chamber.
 
 Tregonwell was handed a photograph for his elucidation, and the Captain went white as a sheet.
 
-{% img center //files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg %}
+![](https://files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg){: .center}
 
 "But we are kind people," the Heron King continued.  "You may have your precious town.  But we will always be here, watching, pulling strings. Long after your death, we will be ensuring that the town proceeds according to our wishes.  And once a year, at the height of Summer, your descendants will again and again be compelled to make a blood sacrifice to the Heron Court..."
 

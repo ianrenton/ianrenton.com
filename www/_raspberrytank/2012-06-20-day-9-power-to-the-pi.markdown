@@ -30,25 +30,25 @@ Instead of a regulator, a switching DC/DC converter was chosen, specifically a [
 
 This component was bought and soldered to a small piece of veroboard, with flying leads to connect to the tank's power supply (via our choc block) and a hacked-up microUSB cable to connect to the Raspberry Pi.  (The USB cable I chose to cut up had the normal red, black, green and white cores as expected, but the black core was just a strain member -- full of fluff -- whilst the ground line was actually connected to the screen. I'm not sure how common this is, so watch out for it if you are recreating this build.)
 
-[![DCDC Converter](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_135946-300x155.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_135946.jpg)<br/>
+[![DCDC Converter](https://files.ianrenton.com/sites/raspberrytank/IMG_20120619_135946-300x155.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120619_135946.jpg)<br/>
 _Raychem hides many sins._
 
 Once built, this board was tested with a power supply providing the 7.2V and a multimeter checking the 5V output.  Once I was happy that the output was clean and at the right voltage, the Raspberry Pi itself was connected and booted up.  During the boot process, the current draw on the 7.2A side peaked at 550mA, coming to stabilise at around 250mA once the Pi was idle.
 
 (**Warning** to anyone recreating this build: Please use a bench power supply at this stage, don't go straight for the tank's battery as a power source.  Dodgy wiring or soldering could short the battery, leaving you with an exploded mess where your tank once was.)
 
-[![Raspberry Pi powered from 7.2V Supply](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_135849-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_135849.jpg)
+[![Raspberry Pi powered from 7.2V Supply](https://files.ianrenton.com/sites/raspberrytank/IMG_20120619_135849-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120619_135849.jpg)
 
 Once I was sure that the power supply to the Raspberry Pi was working correctly, we _then_ switched out the bench power supply for the tank's battery.  And voila -- we now have the tank powering the Pi as well as itself.
 
 With the upper chassis removed, the tank now looks like this:
 
-[![Current State of Raspberry Tank's Lower Chassis](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_141830-600x389.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120619_141830.jpg)
+[![Current State of Raspberry Tank's Lower Chassis](https://files.ianrenton.com/sites/raspberrytank/IMG_20120619_141830-600x389.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120619_141830.jpg)
 
 In case you've lost track over the last few days of the build diary, the electrical schematic now looks like this (including the upper chassis):
 
-[![Raspberry Tank Schematic (Day 9)](//files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-309x500.png)](//files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-1.png)
+[![Raspberry Tank Schematic (Day 9)](https://files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-309x500.png)](https://files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-1.png)
 
-You can download that as an SVG file here: [Raspberry Tank Schematic (Day 9)](//files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-1.svg)
+You can download that as an SVG file here: [Raspberry Tank Schematic (Day 9)](https://files.ianrenton.com/sites/raspberrytank/raspberry-tank-schematic-1.svg)
 
 Next time on the Raspberry Tank build diary, we will be integrating a WiFi dongle into the tank and enabling SSH on the Raspberry Pi in order to remove the last two cables keeping the tank from roaming freely.

@@ -20,7 +20,7 @@ Here's what I've learned.
 
 Aside from what's provided in my AOSP-based CyanogenMod base software (much of which was written by Google, but is at least open source), I have two Google apps left on my phone&mdash;Maps and YouTube.
 
-{% img right //files.ianrenton.com/sites/blog/2015/maps.jpg Google Maps %}
+![Google Maps](https://files.ianrenton.com/sites/blog/2015/maps.jpg){: .right}
 
 *Maps* features live traffic updates, a key feature when driving long distances to see friends and family. Although other apps have voice guided navigation (I also have [OsmAnd](http://osmand.net/) installed), I've been unable to find a free live traffic offering that matches Google's.
 
@@ -36,7 +36,7 @@ However, my main trust issues with Google stem from their tracking and the amoun
 
 ## You can Just About Survive on Open Source Apps
 
-{% img right //files.ianrenton.com/sites/blog/2015/fdroid.png F-Droid %}
+![F-Droid](https://files.ianrenton.com/sites/blog/2015/fdroid.png){: .right}
 
 My replacement for the Play Store is [F-Droid](https://f-droid.org/), a repository for open source apps, and in the spirit of trying to copy my laptop's (mostly) open source software, I have decided to use it almost exclusively.
 
@@ -72,7 +72,7 @@ Games have been the biggest difference between my phone before ditching the Play
 
 On the plus side, the exercise has given me a great excuse to dump a number of [potentially evil mobile games](http://t.co/roC1ymlMsm) that I seem to have picked up since [my last purge](/blog/on-game-design-time-to-quit/).
 
-{% img right //files.ianrenton.com/sites/blog/2015/castleclash.png Castle Clash %}
+![Castle Clash](https://files.ianrenton.com/sites/blog/2015/castleclash.png){: .right}
 
 > How many hours have I wasted on improving pixel people and harvesting ephemeral bits?
 

@@ -27,7 +27,7 @@ Before I have my way with this tank and probably irreparably break it, day 2 o
 
 Here it is posing on the grass:
 
-[![Tank on the Grass](//files.ianrenton.com/sites/raspberrytank/tank-grass.jpg)](//files.ianrenton.com/sites/raspberrytank/tank-grass.jpg)
+[![Tank on the Grass](https://files.ianrenton.com/sites/raspberrytank/tank-grass.jpg)](https://files.ianrenton.com/sites/raspberrytank/tank-grass.jpg)
 
 And the first attempt at video from a mounted camera, which turned out... who am I kidding, it's awful. There's no sound and the tank doesn't move in the video because when it does, the camera falls off.
 

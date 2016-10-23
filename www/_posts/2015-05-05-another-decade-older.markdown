@@ -17,21 +17,21 @@ Time flies when you're having fun. And somehow, without really realising it, I t
 
 I'd say I've come far from where I began &mdash; but though I've been a way, I came back, and now I'm not so very far away after all. I live in the same town; have the same comfortable life; have a son who for all the world looked at age one just like I did.
 
-{% img center Me, age zero //files.ianrenton.com/sites/blog/2015/age0.jpg %}
+![age zero //files.ianrenton.com/sites/blog/2015/age0.jpg](Me,){: .center}
 
 I might have longer hair and smaller glasses, but the "me" I remember from age 10 is not so different to me now &mdash; we like computer games and robots and long walks on frosty winter afternoons, and I ended up with the career I always knew I'd have.
 
-{% img center Me, age ten //files.ianrenton.com/sites/blog/2015/age10.jpg %}
+![age ten //files.ianrenton.com/sites/blog/2015/age10.jpg](Me,){: .center}
 
 And me at age 20, I remember him vividly. We still have the same friends, the same memories; we like the same films and most of the same music; we live for the light of the summer and the laughter of our friends.
 
-{% img center Me, age twenty //files.ianrenton.com/sites/blog/2015/age20.jpg %}
+![age twenty //files.ianrenton.com/sites/blog/2015/age20.jpg](Me,){: .center}
 
 And now I turn 30, surrounded by those same friends who have been with me so long, and the family who have been there even longer. I have a family of my own, and the cycle begins again.
 
 I have a wife and a son, a home and a job; a family and a life just like those back where I began.
 
-{% img center Me, age thirty //files.ianrenton.com/sites/blog/2015/age30.jpg %}
+![age thirty //files.ianrenton.com/sites/blog/2015/age30.jpg](Me,){: .center}
 
 My parents told me a story once; how they had a plant they couldn't identify growing in a pot on the front porch. One day, at last, it bloomed into flower &mdash; it was a lilac. My father brought the flower to my mother, who was in hospital about to have a child.
 

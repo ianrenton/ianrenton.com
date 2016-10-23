@@ -15,7 +15,7 @@ tags:
 
 This is a dish I cooked a lot at university - it's mostly potatoes, which are cheap as chips (groan), and it's a good warming winter dish for a house-full of hungry people.  It can happily be made without the chicken for vegetarians or tight budgets.  Needless to say, it was there that it was nicknamed "Grated Dolphin".
 
-{% img right //files.ianrenton.com/sites/recipes/grated-dolphin-300x225.jpg Grated Dolphin %}
+![Grated Dolphin](https://files.ianrenton.com/sites/recipes/grated-dolphin-300x225.jpg){: .right}
 
 ### Ingredients (to serve 4)
 

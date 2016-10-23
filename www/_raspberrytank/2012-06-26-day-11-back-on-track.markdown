@@ -32,7 +32,7 @@ On [Day 3 of the Build Diary](../tank-day-3-the-sundering/), we removed one set 
 
 With their space now freed up, the missing wheels were reattached. This was a slightly more fiddly process as the axles first had to be screwed into the spring-loaded suspension mechanism before they could be slotted into the curved holes.
 
-[![Reattaching the Wheels](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_135513-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_135513.jpg)
+[![Reattaching the Wheels](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_135513-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_135513.jpg)
 
 ### Step 3: Add the Tracks
 
@@ -40,11 +40,11 @@ The tracks were then reattached to the tank. The two rows of prongs on the under
 
 Once the tracks were lined up, they were pulled around the wheels as tightly as possible, and fixed in place with the pins that were removed on Day 3 -- pushing outwards from the centre of the vehicle (pictured below right).
 
-[![Lining up the Tracks with the Rear Guide Wheel](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_140246-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_140246.jpg) [![Reinserting the Pin](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_140116-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_140116.jpg)
+[![Lining up the Tracks with the Rear Guide Wheel](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_140246-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_140246.jpg) [![Reinserting the Pin](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_140116-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_140116.jpg)
 
 ### Step 4: Photoshoot!
 
-[![Tank with Tracks Reattached 1](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_140734-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_140734.jpg) [![Tank with Tracks Reattached 2](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_141557-300x225.jpg)](//files.ianrenton.com/sites/raspberrytank/IMG_20120621_141557.jpg)
+[![Tank with Tracks Reattached 1](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_140734-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_140734.jpg) [![Tank with Tracks Reattached 2](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_141557-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120621_141557.jpg)
 
 ### Step 5: On-floor Testing
 

@@ -29,7 +29,7 @@ ANGSTY SPACE SQUADDIE goes to SPACE SQUADDIE SCHOOL and sucks at it. Suddenly, A
 * Master Chief: 117
 * Kaiser Chiefs: 0
 * Training time required to use alien railgun: 0.2 seconds
-* "Four minutes to the Pelican!"<br/>![I don't want to live on this planet any more.](//files.ianrenton.com/sites/filmreviews/planet.jpg)
+* "Four minutes to the Pelican!"<br/>![I don't want to live on this planet any more.](https://files.ianrenton.com/sites/filmreviews/planet.jpg)
 * GET TO DA CHOPPA: 0.6
 * Percent of film that is flashback: 99.9%
 * Percent of film that is missing: 75%

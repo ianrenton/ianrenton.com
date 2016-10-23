@@ -25,7 +25,7 @@ tags:
 
 I love the way the BBC tries to make everything so _relateable_ to everyday human experience. Case in point: [this article about a new technique for measuring the mass of supermassive black holes](http://www.bbc.co.uk/news/science-environment-21259221). In order to convey just how heavy these things are, the caption on their first picture relates it to something we all understand -- the mass of a family car.
 
-{% img center //files.ianrenton.com/sites/blog/2013/01/wpid-blackhole.png %}
+![](https://files.ianrenton.com/sites/blog/2013/01/wpid-blackhole.png){: .center}
 
 Unfortunately, in making the unit relateable, they make the actual number involved _un_-relateable to a ridiculous extent. Can anyone reading the article visualise what "six billion trillion trillion family cars" would look like?
 

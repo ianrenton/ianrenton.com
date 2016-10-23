@@ -46,4 +46,4 @@ DEATH IS TOO GOOD FOR US
 
 ## Overall: <span style="font-size:40px;font-weight:900">ACTUAL HITLER</span> / 5
 
-{% img center //files.ianrenton.com/sites/filmreviews/imdb-eightcrazynights.png %}
+![](https://files.ianrenton.com/sites/filmreviews/imdb-eightcrazynights.png){: .center}

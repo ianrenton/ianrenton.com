@@ -23,7 +23,7 @@ How wrong I was.
 
 We eventually escaped almost an hour after the scheduled end of the event, once Joseph and the other kids &mdash; many his age &mdash; had had their fill of Minecraft and the [Raspberry Tank](http://raspberrytank.ianrenton.com).
 
-{% img center https://pbs.twimg.com/media/BkdSwL_IUAAgvsX.jpg The Minecraft Coding Workshop. Picture by @rhiancarter %}
+![The Minecraft Coding Workshop. Picture by @rhiancarter](https://pbs.twimg.com/media/BkdSwL_IUAAgvsX.jpg){: .center}
 
 Along the way we'd met the awesome people from [PiBorg](http://www.piborg.org/) with their much more impressive RPi tank, along with robot arm-wielding BigTraks and 3D LED matrices. We'd done a show-and-tell session, drunk a lot of coffee, and most importantly been part of a room of 20+ kids all learning to code for the first time using Python and Minecraft.
 

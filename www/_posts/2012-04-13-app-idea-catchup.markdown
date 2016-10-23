@@ -22,7 +22,7 @@ Here's some initial design ideas for a location-aware chat app that, as far as I
 
 ## Background
 
-{% img right https://upload.wikimedia.org/wikipedia/en/0/03/Pictochat.png Pictochat %}
+![Pictochat](https://upload.wikimedia.org/wikipedia/en/0/03/Pictochat.png){: .right}
 
 The inspiration for this idea came, more or less, from the Nintendo DS ["Pictochat"](https://en.wikipedia.org/wiki/PictoChat)application.  PictoChat allows up to 16 users to link their DS consoles over a peer-to-peer WiFi connection, and share doodled messages with each other in real time.  Between a couple of DS-using friends, PictoChat is an interesting gimmick, but I first encountered it coming into its own at an anime (Japanese animation) convention called [MinamiCon](http://www.minamicon.org.uk/).  Here, the concentration of DS users was so high that multiple 16-person PictoChat rooms came into existence, full of people chatting away with other convention-goers.
 
@@ -32,7 +32,7 @@ This was in 2005, before the now ever-present smartphone really came into its ow
 
 There is one big change to the PictoChat concept that we need to make to have a viable idea -- and one big addition.
 
-{% img right //files.ianrenton.com/sites/blog/2012/04/IMG_8830.jpg Attempting to write using DrawSomething %}
+![Attempting to write using DrawSomething](https://files.ianrenton.com/sites/blog/2012/04/IMG_8830.jpg){: .right}
 	
   * **Text, not pictures.**  The DS' stylus and resistive touchscreen were ideal for doodles, but not so much for text -- though a keyboard was available.  Modern smartphones have thumb-friendly capacitative screens, and anyone who's tried to give textual clues in [DrawSomething](http://www.omgpop.com/drawsomething) will tell you that writing text PictoChat-style is a non-starter.  This new app needs to be text-based, with optional picture and video sharing, much like MMS.
   * **Catching up.**  The idea of "catching up" provided the app's working title, and forms a secondary mode for the app.  As well as real-time chat between people in close proximity, the app also attempts to solve the problem of "how do I keep in touch with people I did [activity x] with?".  Say, for example, that you are at a concert.  Over the course of the event the app detects 20 people in your vicinity.  You could chat with them live (though hopefully you paid to watch the band not stare at your phone...), but the app remembers who was there so you can also chat to them _afterwards_.
@@ -45,13 +45,13 @@ There are a number of technical issues that the app would have to address.
   * **Identification.** Integration with Facebook would be desirable to allow users to find their friends on the service.  However, the app is providing a semi-public mapping of people to locations, so CatchUp users should not be identifiable to people who are not their friends.  Foursquare has struck a reasonable balance here.
   * **Connection technology.** PictoChat used device-to-device WiFi. This is not ideal for CatchUp as it would prevent users from using their WiFi for other things.  A low-power Bluetooth connection is a possibility which would also enforce the "chats must be local" idea. However, if we are going to enable "catch up" chats later, we need a server-side chat backend anyway, so it may be best to route everything through the server and determine user proximity for local chat groups on the server.  
 
-[![CatchUp Architecture](//files.ianrenton.com/sites/blog/2012/04/CatchUp-Arch.png)](//files.ianrenton.com/sites/blog/2012/04/CatchUp-Arch.png)
+[![CatchUp Architecture](https://files.ianrenton.com/sites/blog/2012/04/CatchUp-Arch.png)](https://files.ianrenton.com/sites/blog/2012/04/CatchUp-Arch.png)
 
 > CatchUp Architecture
 	
   * **Integration to other services.** Integration with the Facebook, FourSquare or Google Places API could give users the ability to "check in" and use the chat facility together, increasing uptake.  Integration with services like Last.fm could incorporate knowledge of event times and places, meaning that the "catch up" chats can have sensible names like "Justin Bieber Concert, Wembley Stadium, 1/1/2012" rather than "with 312 users at Wembley Stadium, 1/1/2012".  
 
-[![Last.fm's Events List](//files.ianrenton.com/sites/blog/2012/04/lastfm-events.png)](//files.ianrenton.com/sites/blog/2012/04/lastfm-events.png)
+[![Last.fm's Events List](https://files.ianrenton.com/sites/blog/2012/04/lastfm-events.png)](https://files.ianrenton.com/sites/blog/2012/04/lastfm-events.png)
 
 > Last.fm's Events List
 	
@@ -61,7 +61,7 @@ There are a number of technical issues that the app would have to address.
 
 I have produced a couple of user interface mockups for the potential design:
 
-[![CatchUp Main Menu](//files.ianrenton.com/sites/blog/2012/04/5.-CatchUp-2.png)](//files.ianrenton.com/sites/blog/2012/04/5.-CatchUp-2.png)
+[![CatchUp Main Menu](https://files.ianrenton.com/sites/blog/2012/04/5.-CatchUp-2.png)](https://files.ianrenton.com/sites/blog/2012/04/5.-CatchUp-2.png)
 
 > CatchUp Main Menu
 
@@ -73,7 +73,7 @@ Below this is a list of all your "catch up" opportunities.  If configured to do 
 
 Settings will have fine-grained privacy options, for example to prevent the user appearing in others' Catch Ups without explicit permission, to mark certain locations that Catch Up will automatically deactivate itself in, and so on.
 
-[![CatchUp Chat Interface](//files.ianrenton.com/sites/blog/2012/04/4.-CatchUp-1.png)](//files.ianrenton.com/sites/blog/2012/04/4.-CatchUp-1.png)
+[![CatchUp Chat Interface](https://files.ianrenton.com/sites/blog/2012/04/4.-CatchUp-1.png)](https://files.ianrenton.com/sites/blog/2012/04/4.-CatchUp-1.png)
 
 > CatchUp Chat Interface
 

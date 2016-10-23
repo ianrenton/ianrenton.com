@@ -20,6 +20,6 @@ For my current project, my mock-ups have now progressed to the PowerPoint stage,
 
 They're pinned up on the wall, alongside the following:
 
-[![Please Draw on my GUI!](//files.ianrenton.com/sites/blog/2011/11/IMG-20111125-00124-300x225.jpg)](//files.ianrenton.com/sites/blog/2011/11/IMG-20111125-00124.jpg)
+[![Please Draw on my GUI!](https://files.ianrenton.com/sites/blog/2011/11/IMG-20111125-00124-300x225.jpg)](https://files.ianrenton.com/sites/blog/2011/11/IMG-20111125-00124.jpg)
 
 So far, it appears to be working.  And astoundingly, no dicks yet either.  It can only be a matter of time.

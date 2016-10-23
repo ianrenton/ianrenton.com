@@ -26,7 +26,7 @@ tags:
 
 With every passing day, my Facebook feed is spending more and more time informing me that old school friends "like Amazon". (No shit, really?) In the background, it's fiddling our feeds, showing and hiding entries according to what it thinks is relevancy, and also what it thinks is [profit for itself](http://dangerousminds.net/comments/facebook_i_want_my_friends_back). Game spam is constant. On the other side of the fence, Twitter is [trying to force out the third-party clients](http://arstechnica.com/information-technology/2011/03/twitter-tells-third-party-devs-to-stop-making-twitter-client-apps/) that made it great, so that it can monetise its users more easily.
 
-[{% img right //files.ianrenton.com/sites/blog/2012/10/Screenshot_2012-10-26-20-15-11-168x300.png Facebook Pages You May Like %}](//files.ianrenton.com/sites/blog/2012/10/Screenshot_2012-10-26-20-15-11.png)
+[![Facebook Pages You May Like](https://files.ianrenton.com/sites/blog/2012/10/Screenshot_2012-10-26-20-15-11-168x300.png){: .right}](https://files.ianrenton.com/sites/blog/2012/10/Screenshot_2012-10-26-20-15-11.png)
 
 Should we be surprised? Feel betrayed? Not at all. Facebook and Twitter are in it to make money, yet we use them for free. It's pretty clear that [if you aren't paying for the product, you _are_ the product.](http://psoug.org/blogs/mike/2010/10/21/if-you-arent-paying-for-the-product-you-are-the-product/) We should only expect free-to-use websites to change in favour of their profits, never in favour of us as users.
 
@@ -36,7 +36,7 @@ I miss everyone being equal. I miss services that were honestly free. I miss bei
 
 Hell, I miss Web 0.1.
 
-{% img center //files.ianrenton.com/sites/blog/2012/10/irssi.png irssi %}
+![irssi](https://files.ianrenton.com/sites/blog/2012/10/irssi.png){: .center}
 
 There was a time, not so very long ago, when IRC was our Twitter. It was just as full of funny links and pithy comments, but it was communication between friends, not 140 character witticisms broadcast into the ether in the constant, vain hope of affirmation delivered by the retweets of strangers.
 

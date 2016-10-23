@@ -22,7 +22,7 @@ tags:
 
 I've spent much of the last few months resolutely *not* commenting on the [NSA spying scandal](https://en.wikipedia.org/wiki/2013_mass_surveillance_disclosures), [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden), [PRISM](https://en.wikipedia.org/wiki/PRISM) and all the other revelations that have been published by the Guardian and the New York Times recently.
 
-{% img right https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/National_Security_Agency.svg/240px-National_Security_Agency.svg.png NSA Seal %}
+![NSA Seal](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/National_Security_Agency.svg/240px-National_Security_Agency.svg.png){: .right}
 
 While 99% of the population continue without knowing or caring what the implications of the spy programmes are, the revelations have caused a surge in the number of people telling the world &mdash; largely online, for irony's sake &mdash; how stunned they are that their trust has been violated by the spy apparatus of their state.
 
@@ -35,7 +35,7 @@ So here's the long version. If you feel like there should be a secure way of com
 * Do you use popular, proprietary software? **It's compromised.** Microsoft Windows, for example, has [contained an NSA crypto key in all versions released since 1999](http://www.heise.de/tp/artikel/5/5263/1.html).
 * Do you use popular online services? **They're compromised.** The PRISM scandal highlights the big players involved: [Google, Facebook, Microsoft, Apple, Yahoo](https://en.wikipedia.org/wiki/File:PRISM_Collection_Details.jpg), the list goes on.
 
-{% img center http://img.gawkerassets.com/img/18q38gyuqtgufjpg/ku-bigpic.jpg Companies involved in PRISM (pic: Gawker Media) %}
+![Companies involved in PRISM (pic: Gawker Media)](http://img.gawkerassets.com/img/18q38gyuqtgufjpg/ku-bigpic.jpg){: .center}
 
 * Do you use professional cryptography products, or the hardware crypto capabilities of modern processors? **[Compromised.](http://www.bit-tech.net/news/bits/2013/09/06/snowden-backdoors/1)**
 * Do you or your ISP use popular network hardware? **[Compromised.](http://www.reuters.com/article/2013/07/19/us-huawei-security-idUSBRE96I06I20130719).** 
@@ -44,7 +44,7 @@ So here's the long version. If you feel like there should be a secure way of com
 * A big shout out to all the Ubuntu users who feel good about themselves now. *It's a good job you don't run any proprietary graphics drivers, right?*
 * Get the warm fuzzies when you see that little padlock icon in your browser? I hope you've reviewed your browser's Certificate Authority list and made sure none are **[hacked](http://threatpost.com/final-report-diginotar-hack-shows-total-compromise-ca-servers-103112/77170)** or **[in bed with the Chinese government](https://freedom-to-tinker.com/blog/felten/mozilla-debates-whether-trust-chinese-ca/)**.
 
-{% img center //files.ianrenton.com/sites/blog/2013/09/firefox-ca-list.png Certificate Authority list in Firefox 23.0 %}
+![Certificate Authority list in Firefox 23.0](https://files.ianrenton.com/sites/blog/2013/09/firefox-ca-list.png){: .center}
 
 * Have you gone the extra mile, using only Tor darknet sites to ensure your privacy? **[Compromised.](http://yro.slashdot.org/story/13/08/04/2054208/half-of-tor-sites-compromised-including-tormail)**
 * More broadly, have you communicated by unencrypted phone, fax or e-mail *at any time since the 1960s*? **[Compromised.](https://en.wikipedia.org/wiki/ECHELON)**
@@ -53,7 +53,7 @@ So here's the long version. If you feel like there should be a secure way of com
 
 The fact of the matter is, if you trusted that your communications were safe from the national security apparatus of a state, particularly your own, **you were almost certainly wrong**. For privacy fans like myself, the sad news is that countries always have and always will invest vast amounts of time and money on building and maintaining their surveillance capabilities. Large companies will always be given incentives or demands to assist the state in which they operate. And there is very little that the individual privacy-conscious citizen can do about it.
 
-{% img center https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/InflationAdjustedDefenseSpending.PNG/640px-InflationAdjustedDefenseSpending.PNG US Inflation-adjusted Defence Spending, from Wikimedia Commons, CC-by 3.0 %}
+![US Inflation-adjusted Defence Spending, from Wikimedia Commons, CC-by 3.0](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/InflationAdjustedDefenseSpending.PNG/640px-InflationAdjustedDefenseSpending.PNG){: .center}
 
 If you want a *guarantee of absolute privacy*, you must trust *every* algorithm you use, *every* piece of hardware and software that handles your data, and *everyone* you communicate with. **But you don't.**
 

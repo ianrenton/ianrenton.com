@@ -27,4 +27,4 @@ I can see how this feature could be useful for some people -- perhaps even the m
 
 For this reason, I suggest that Facebook's settings page needs the following options:
 
- ![image](//files.ianrenton.com/sites/blog/2011/07/wpid-Screen-shot-2011-07-04-at-07.26.52.png)
+ ![image](https://files.ianrenton.com/sites/blog/2011/07/wpid-Screen-shot-2011-07-04-at-07.26.52.png)

@@ -27,7 +27,7 @@ She lectured me on the joys of her old inland town, with its stone walls and can
 
 She branded me a 'flotsam person', and that was that. 
 
-[![Things that remind me of the sea](//files.ianrenton.com/sites/blog/2011/05/13068746321841-300x179.jpg)](//files.ianrenton.com/sites/blog/2011/05/13068746321841.jpg)
+[![Things that remind me of the sea](https://files.ianrenton.com/sites/blog/2011/05/13068746321841-300x179.jpg)](https://files.ianrenton.com/sites/blog/2011/05/13068746321841.jpg)
 
 But I suppose I am, really.  I carry things that remind me of the sea, so that I feel at home wherever I go.  The feeling of being tied to a place, a town with history, isn't for me.  Like the sand that drifts forever eastwards, despite the groynes that try to stop it, I'm happy anywhere near the sea.  I love the feel of transient beaches, transient lives, forever in motion.  Years come and go, bringing with them the ebb and flow of people -- students, summer students, tourists.
 

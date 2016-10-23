@@ -10,13 +10,13 @@ With [Scratch support completed](./atp-starting-from-scratch), I've reached the 
 
 Just like the [tank](../raspberry-tank) before it, it's time to hand this toy over to my son. We took it to the Constructorium hackerspace meeting at the library last Saturday and put it through its paces, first with the phone controls and then by programming it.
 
-{% img center Programming the robot in Scratch //files.ianrenton.com/sites/atp/53.jpg %}
+![the robot in Scratch //files.ianrenton.com/sites/atp/53.jpg](Programming){: .center}
 
 It turns out that thanks to his school and my mother, he's actually pretty good with Scratch already. By the end of the afternoon he was not only programming the All-Terrain Pi to drive around (and bash into things repeatedly), he was teaching the grown-ups how to use Scratch as well!
 
 [Here's](https://github.com/ianrenton/All-Terrain-Pi/raw/master/home/pi/Documents/Scratch%20Projects/Car%201.sb) the program he created, with a little help, to drive the robot around using keyboard input:
 
-{% img center Keyboard control in Scratch //files.ianrenton.com/sites/atp/52.png %}
+![control in Scratch //files.ianrenton.com/sites/atp/52.png](Keyboard){: .center}
 
 As I said, that's about it for what I originally set out to do. Some ideas my son and I have come up with for activities with the robot, which we may or may not get around to, include:
 

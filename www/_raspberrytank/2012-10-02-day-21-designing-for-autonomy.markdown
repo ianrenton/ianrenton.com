@@ -29,12 +29,12 @@ We also currently have no way of telling which way the turret is facing compared
 
 My first attempt at doing this will be to add two three-axis magnetometers to the tank -- one on the hull and one on the turret, as shown (sans wiring) below.
 
-[![Magnetometer Locations](//files.ianrenton.com/sites/raspberrytank/tank2-600x318.png)](//files.ianrenton.com/sites/raspberrytank/tank2.png)<br/>
+[![Magnetometer Locations](https://files.ianrenton.com/sites/raspberrytank/tank2-600x318.png)](https://files.ianrenton.com/sites/raspberrytank/tank2.png)<br/>
 _Magnetometer Locations (Magnetometer boards shown in red)_
 
 It would also be a good idea to prevent the tank crashing into things. For this reason, I will also mount an ultrasound rangefinder to the front of the tank, as shown below.
 
-[![Front of Tank, showing Rangefinder](//files.ianrenton.com/sites/raspberrytank/tank1-600x318.png)](//files.ianrenton.com/sites/raspberrytank/tank1.png)<br/>
+[![Front of Tank, showing Rangefinder](https://files.ianrenton.com/sites/raspberrytank/tank1-600x318.png)](https://files.ianrenton.com/sites/raspberrytank/tank1.png)<br/>
 _Front of Tank, showing Rangefinder_
 
 This will act as an override on whatever other activity the tank is conducting, to prevent damage to the vehicle. It would be nice to fit a similar device to the rear, although until now I have left the rear of the tank completely open to allow access to the Raspberry Pi's USB and Ethernet sockets.

@@ -32,7 +32,7 @@ Pretty much every software project I undertake these days begins with a sketch o
 
 The database hasn't changed much from the original design yet, but it will have to soon -- as designed, the vote ('stars') system doesn't record each user's vote on each story, so it can't support users changing their vote.  Sometime during development I'll have to devote a few hours to figure out the best way of handling it, though that probably comes down to a few minutes as someone on [Stack Overflow](http://www.stackoverflow.com) has inevitably asked about it already.
 
-[![a thousand words UI Sketch](//files.ianrenton.com/sites/blog/2010/08/1kw-mainui-217x300.jpg)](//files.ianrenton.com/sites/blog/2010/08/1kw-mainui.jpg)
-[![a thousand words Database Design](//files.ianrenton.com/sites/blog/2010/08/1kw-db-217x300.jpg)](//files.ianrenton.com/sites/blog/2010/08/1kw-db.jpg)
+[![a thousand words UI Sketch](https://files.ianrenton.com/sites/blog/2010/08/1kw-mainui-217x300.jpg)](https://files.ianrenton.com/sites/blog/2010/08/1kw-mainui.jpg)
+[![a thousand words Database Design](https://files.ianrenton.com/sites/blog/2010/08/1kw-db-217x300.jpg)](https://files.ianrenton.com/sites/blog/2010/08/1kw-db.jpg)
 
 Next up on a thousand words is coding the first few forms that will allow users to register and log in, submit photos and submit stories.  That should be done within the next few days, and will allow me to play with actually changing the contents of the database, rather than just showing views of it.

@@ -16,7 +16,7 @@ tags:
 - Toddler-Compatible
 ---
 
-{% img right //files.ianrenton.com/sites/recipes/Cornflake-Nests-300x216.jpg Cornflake Nests (as decorated by Joseph) %}
+![Cornflake Nests (as decorated by Joseph)](https://files.ianrenton.com/sites/recipes/Cornflake-Nests-300x216.jpg){: .right}
 
 This is so simple it can barely be called a recipe, but my when my son was two he was utterly enthralled by making them (and eating all the ingredients as we progress), so I posted it here anyway.
 

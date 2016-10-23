@@ -22,7 +22,7 @@ It feels odd to be writing about [Minecraft](http://www.minecraft.net) in 2014. 
 
 Today though, for the first time, I saw Minecraft through the eyes of a child.
 
-{% img center //files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-1.jpg Joseph's first steps in Minecraft %}
+![Joseph's first steps in Minecraft](https://files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-1.jpg){: .center}
 
 Raised on a self-imposed diet of videogames since he was old enough to shake a Wiimote, our son has never had the enthusiasm for Lego that I did at his age. While I would disappear to my room for an afternoon to build, he always wanted to spend it with gamepad in hand. On occasion I despaired for him and his generation. I worried that their entertainment had become so pre-packaged and targeted that they wouldn't want to create their own games. How could silent, limited, awkward Lego sets compare against a million man-hours of Nintendo's finest creators delivering pure entertainment?
 
@@ -30,7 +30,7 @@ But now I sit and watch Joseph at work, and I know how wrong I was.
 
 As night falls, his character flies up over the landscape and looks down to behold all that he has created. Torches spread out across the world like the fires of a nascent civilisation, casting light upon those things that human hands have built.
 
-{% img center //files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-3.png Torch-lit buildings at night %}
+![Torch-lit buildings at night](https://files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-3.png){: .center}
 
 There are houses, now, where once there was only grass. Some of the roofs are made of coal and supported only by bookshelves and hay bales, but they are houses nonetheless. They are dry when the rain pours outside. There was a bed for his character to rest in, but now there are more than a dozen&mdash;for his character's parents, siblings and cousins, Joseph explains.
 
@@ -40,7 +40,7 @@ The environment, once wild and random, was being tamed.
 
 Then Joseph noticed that water would flow if the ground around it was removed. The great lakes of his world could be channeled. The tunnel became a great underground river, bringing water near to the houses of his people.
 
-{% img center //files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-4.png Terraforming %}
+![Terraforming](https://files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-4.png){: .center}
 
 He built a black-lined room carved out of a hill, and decorated each block with a torch.<br/>
 "It's a Christian place," he explains. "My character is a Christian."<br/>
@@ -50,7 +50,7 @@ Dawn breaks. Among the high forest canopies there now stands something else&mdas
 
 The land was tamed, now; the world mastered. And so his one-man civilisation had reached for the stars.
 
-{% img center //files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-2.png A Tower Taller than the Clouds %}
+![A Tower Taller than the Clouds](https://files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-2.png){: .center}
 
 I am no longer under the illusion that neat, [rail-roaded](http://tvtropes.org/pmwiki/pmwiki.php/Main/Railroading) videogame adventures will leave us a generation lacking the desire to create for themselves.
 
@@ -58,4 +58,4 @@ He may not spend his afternoons building Lego cars, but that's okay. Within the 
 
 I think our children's generation will be *just fine*.
 
-{% img center //files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-5.png Stained glass bridge %}
+![Stained glass bridge](https://files.ianrenton.com/sites/blog/2014/02/joseph-minecraft-5.png){: .center}

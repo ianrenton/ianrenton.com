@@ -25,7 +25,7 @@ Although Twitter started out by enthusiastically embracing 3rd-party app develop
 
 I would be hard pushed to disagree. [Westminster Hubble](http://www.westminsterhubble.com) relied on Twitter's RSS feeds to let people follow their MPs more easily -- a feature broken by Twitter's API changes. [SuccessWhale](https://successwhale.com) survives, but hardly with Twitter's blessing -- if it were to ever have 100,000 users, it would be banned.
 
-{% img center //files.ianrenton.com/sites/blog/2013/03/Screenshot_2013-03-05-20-21-30-281x500.png TweetDeck's Merged "Mentions" and "Notifications" Column %}
+![TweetDeck's Merged "Mentions" and "Notifications" Column](https://files.ianrenton.com/sites/blog/2013/03/Screenshot_2013-03-05-20-21-30-281x500.png){: .center}
 
 > TweetDeck's Merged "Mentions" and "Notifications" Column
 
