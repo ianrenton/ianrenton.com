@@ -3,7 +3,7 @@ layout: post
 title: "\"Archive by Year\" Aside for Octopress"
 date: 2015-05-06 22:16
 comments: true
-categories: 
+categories:
 - Software
 tags:
 - Octopress
@@ -59,24 +59,24 @@ module Jekyll
     def render(context)
       html = ""
       yearData = Hash.new
-      
+
       # Get range of years for which there are posts
       posts = context.registers[:site].posts
       firstYear = posts[0].date.year
       lastYear = posts[posts.size-1].date.year
-      
+
       # Build up a map of {year => number of posts that year}
       for year in firstYear..lastYear
         yearData[year] = posts.select{ |post| post.date.year == year }.size
       end
-      
+
       # Build the html items
       yearData.sort.reverse_each { |year, numPosts|
         if numPosts > 0
           html << "<li class='post'><a href='/blog/archives##{year}'>#{year} (#{numPosts})</a></li>"
         end
       }
-      
+
       # Write out the html
       html
     end
@@ -91,7 +91,7 @@ The final piece of the puzzle is to create an aside to display the new tag, whic
 **source/_includes/asides/archive.html**
 
 {% raw %}
-```
+```html
 <section>
   <h1>Archive</h1>
   <ul id="archive">

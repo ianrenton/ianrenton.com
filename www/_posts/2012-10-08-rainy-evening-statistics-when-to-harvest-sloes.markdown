@@ -53,7 +53,6 @@ P<sub>h</sub> = R &times; f<sub>n</sub> &times; f<sub>h</sub> &times; f<sub>r</s
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 0.5
 </em></div>
 
-<br/>
 A worrying 50% probability that the sloes will be taken on any given day!
 
 ## In Conclusion

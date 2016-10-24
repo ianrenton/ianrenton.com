@@ -39,14 +39,12 @@ The surface area of the Earth, [according to Wolfram Alpha](http://www.wolframal
 A<sub>earth</sub> = 5.1&times;10<sup>14</sup> m<sup>2</sup>
 </em></div>
 
-<br/>
 Assume that a family car is approximately five metres long and two metres wide. So the area taken up by one car is:
 
 <div style="text-align:center"><em>
 A<sub>car</sub> = 5 &times; 2 = 10 m<sup>2</sup>
 </em></div>
 
-<br/>
 Our six billion trillion trillion cars would take up:
 
 <div style="text-align:center"><em>
@@ -54,7 +52,6 @@ A<sub>allcars</sub> = 6&times;10<sup>35</sup> &times; A<sub>car</sub><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 6&times;10<sup>36</sup> m<sup>2</sup>
 </em></div>
 
-<br/>
 Clearly this is much larger than the available surface area of the Earth. So in order to fit the cars onto the Earth's surface, how many do we need to stack on top of each other?
 
 <div style="text-align:center"><em>
@@ -63,7 +60,6 @@ n<sub>stack</sub> = A<sub>allcars</sub> / A<sub>earth</sub><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1.18&times;10<sup>22</sup>
 </em></div>
 
-<br/>
 That's still not a number we can really relate to. In fact we've created a very odd structure here, because we are imagining cars stacked up squarely one on top of another -- so as they get further from the surface, the stacks get further and further apart until there ends up being a lot of empty space between them. Earth ends up as a tiny dot at the centre of a bizarre [spiny sea-urchin](http://en.wikipedia.org/wiki/Diadema_antillarum) effect of family cars.
 
 A better question might be:
@@ -76,7 +72,6 @@ Now we're no longer talking about neat stacks of cars, just about cramming them 
 V<sub>car</sub> = 5 &times; 2 &times; 1.5 = 15 m<sup>3</sup>
 </em></div>
 
-<br/>
 Now if we were to have six billion trillion trillion of those, they would take up:
 
 <div style="text-align:center"><em>
@@ -84,7 +79,6 @@ V<sub>allcars</sub> = 6&times;10<sup>35</sup> &times; V<sub>car</sub><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 9&times;10<sup>36</sup> m<sup>3</sup>
 </em></div>
 
-<br/>
 If we were to pack those around the Earth, how far out would they reach? We need to add *V<sub>allcars</sub>* to the volume of the Earth, then find the radius of that spherical volume:
 
 <div style="text-align:center"><em>
@@ -93,7 +87,6 @@ r<sub>sphere</sub> = 3/(4&pi;) &times; <sup>3</sup>&radic;<span style="text-deco
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 4.966&times;10<sup>11</sup> m
 </em></div>
 
-<br/>
 Still a pretty big number, but we can relate that to a few other measurements that people may be a little more aware of:
 
 <div style="text-align:center"><em>
@@ -103,7 +96,6 @@ r<sub>sphere</sub> = 4.966&times;10<sup>11</sup> m<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 3.3 times the distance from Earth to the Sun
 </em></div>
 
-<br/>
 So with this many cars piled onto the Earth, the resulting car-planet would fill the entire solar system from the Sun out to the asteroid belt between Mars and Jupiter.
 
 Unfortunately for the people of Earth, this is somewhat of a moot point. The mass of these cars is significantly greater than any approximation of the [Jeans mass](http://en.wikipedia.org/wiki/Jeans_instability#Jeans_mass), an important quantity in the physics of star formation. This means that placing all these family cars together in space would cause them to collapse in on themselves, growing hotter and denser until fusion reactions ignite -- we would have created our own star.
@@ -114,7 +106,7 @@ Another black hole of this mass in the Milky Way galaxy would tear it apart, thr
 
 So.
 
-It's a lot of cars. 
+It's a lot of cars.
 
 Bonus questions:
 

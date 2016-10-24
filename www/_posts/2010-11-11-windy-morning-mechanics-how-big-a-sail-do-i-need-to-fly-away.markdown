@@ -29,7 +29,6 @@ Let's start with the pressure on a surface due to the wind, ignoring any issues 
 
 <div style="text-align:center"><em>dp = (v<sup>2</sup>/2) &rho;</em></div>
 
-<br/>
 Where *v* is the velocity of the air, and *&rho;* its density.
 
 The force, *F*, exerted by the wind on a solid of area *A<sub>p</sub>* perpendicular to it would then be:
@@ -39,7 +38,6 @@ F = dp A<sub>p</sub><br/>
 &nbsp;&nbsp;&nbsp;= (v<sup>2</sup>/2) &rho; A<sub>p</sub>
 </em></div>
 
-<br/>
 Assuming the wind is blowing horizontally, in order to generate the maximum amount of lift, the sail should be at 45° to the wind.  In this configuration, half the force exerted on the sail will push it in the direction of the wind, and half will push it up.
 
 However, tilting the sail by 45° (*&pi;/4* radians) reduces the area which it presents to the oncoming wind.  The area presented to the wind, *A<sub>p</sub>*, as a factor of its true area, *A*, is given by:
@@ -49,32 +47,26 @@ A<sub>p</sub> = A sin(&pi;/4)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= (&radic;<span style="text-decoration: overline">2</span>/2) A
 </em></div>
 
-<br/>
 Substituting this into our force equation, we get that:
 
 <div style="text-align:center"><em>F = (&radic;<span style="text-decoration: overline">2</span>/2) (v<sup>2</sup>/2) &rho; A</em></div>
 
-<br/>
 Or to simplify,
 
 <div style="text-align:center"><em>F = (A v<sup>2</sup> &rho;) / (2 &radic;<span style="text-decoration: overline">2</span>)</em></div>
 
-<br/>
 As mentioned earlier, only half that force is upwards, the other half being in the direction of the wind.  So the vertical component of the force, *F<sub>v</sub>*, is:
 
 <div style="text-align:center"><em>F<sub>v</sub> = (A v<sup>2</sup> &rho;) / (4 &radic;<span style="text-decoration: overline">2</span>)</em></div>
 
-<br/>
 This force is being employed to lift a mass *m* in Earth's gravity *g*, so we have that:
 
 <div style="text-align:center"><em>m g = (A v<sup>2</sup> &rho;) / (4 &radic;<span style="text-decoration: overline">2</span>)</em></div>
 
-<br/>
 Rearranging this for the sail area required gives us:
 
 <div style="text-align:center"><em>A = (4 &radic;<span style="text-decoration: overline">2</span> m g) / (v<sup>2</sup> &rho;)</em></div>
 
-<br/>
 Numbers time!  If we assume a bored software engineer of mass (*m*) 80 kg, Earth's gravity (*g*) of 9.8 m/s<sup>2</sup>, air density (*&rho;*) of 1.2 kg/m<sup>3</sup>, and the Met Office's current estimate of wind speed (*v*), 54 miles per hour or 24.14 m/s, our answer is:
 
 <div style="text-align:center"><em>
@@ -82,7 +74,6 @@ A = (4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times
 &nbsp;&nbsp;&nbsp;= 6.3 m<sup>2</sup>
 </em></div>
 
-<br/>
 That's quite a bit bigger than what I could achieve with bat-style wings between my arms and body, but not *totally* unachievable.
 
 For my 20 kg five-year-old self, that area would be four times less, at 1.6 m<sup>2</sup>.
@@ -95,7 +86,6 @@ Rearranging the equation for wind speed gives us:
 
 <div style="text-align:center"><em>v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-decoration: overline">2</span> m g) / (A &rho;))</span></em></div>
 
-<br/>
 Our engineer has a surface area (from behind) of approximately 1.5 m<sup>2</sup>, so all other things being equal, the wind speed, *v*, required is:
 
 <div style="text-align:center"><em>
@@ -104,7 +94,6 @@ v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-
 &nbsp;&nbsp;= 110 mph
 </em></div>
 
-<br/>
 This is well into hurricane territory on the [Beaufort scale](http://en.wikipedia.org/wiki/Beaufort_scale), although still a way short of the [fastest wind speed ever recorded](http://www.mountwashington.org/about/visitor/recordwind.php).
 
 As for my five-year-old past self, if I had quarter the mass and the same density, I also had around *(1/4)<sup>2/3</sup> = 0.4* times the surface area.  The air speed required to lift me off the ground at that age would have been:
@@ -115,7 +104,6 @@ v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-
 &nbsp;&nbsp;= 87.7 mph
 </em></div>
 
-<br/>
 Also comfortably in hurricane territory, though not quite as outrageous as 110 mph.  Maybe if, back then in 1989, I'd stretched my coat out and angled back at 45°...
 
 _Thanks to Tam Coton for correcting my original error in the final section._

@@ -7,6 +7,13 @@ title: Film Reviews (by the Numbers)
 wordpress_id: 3260
 ---
 
+{% capture posts %}
+  {% for post in site.filmreviews %}
+    |{{ post.title }}#{{ post.url }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedposts = posts | split: '|' | sort %}
+
 <p>By the combined powers of Netflix and Scotch whisky, I present... largely incoherent mocking of films!</p>
 
 <p>For reference, notes on <a href="./frbtn-overall-score-notes/">how I calculate the 'overall score'</a>, and the never-ending <a href="./waiting-list">waiting list</a> of films I have been asked to review.</p>
@@ -24,8 +31,9 @@ wordpress_id: 3260
 <div class="table-col">
   <h3>Sorted by Title</h3>
   <ul>
-    {% sorted_for post in site.filmreviews sort_by:title %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endsorted_for %}
+    {% for post in sortedposts %}
+      {% assign postitems = post | split: '#' %}
+      <li><a href={{ postitems[1] }}">{{ postitems[0] }}</a></li>
+    {% endfor %}
   </ul>
 </div>

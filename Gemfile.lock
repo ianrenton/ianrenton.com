@@ -16,7 +16,6 @@ GEM
       multipart-post (>= 1.2, < 3)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
-    itextomml (1.5.2)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -75,15 +74,8 @@ GEM
       octopress-hooks (~> 2.0)
     octopress-hooks (2.6.1)
       jekyll (>= 2.0)
-    octopress-image-tag (1.1.0)
-      jekyll
     octopress-paginate (1.1.2)
       octopress-hooks
-    octopress-quote-tag (1.0.4)
-      jekyll
-      rubypants
-    octopress-video-tag (1.1.0)
-      jekyll (~> 2.0)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
@@ -94,7 +86,6 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     redcarpet (3.3.4)
-    rubypants (0.2.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sawyer (0.7.0)
@@ -110,13 +101,9 @@ PLATFORMS
 
 DEPENDENCIES
   facets
-  itextomml
   jekyll-archives
   jekyll-sitemap
   octopress (~> 3.0)
   octopress-codeblock
   octopress-codefence
-  octopress-image-tag
   octopress-paginate
-  octopress-quote-tag
-  octopress-video-tag
