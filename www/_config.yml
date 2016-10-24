@@ -13,6 +13,7 @@ highlighter: pygments
 pygments_options: ['linenos=False']
 sass:
   sass_dir: _sass
+  style: compressed
 gems: [octopress-paginate, jekyll-sitemap, jekyll-archives]
 permalink: /blog/:title/
 
@@ -110,10 +111,10 @@ pagination:
 jekyll-archives:
   enabled:
   - year
-  - categories
+#  - categories
   layouts:
     year: archive-year
-    category: archive-category
+#    category: archive-category
   permalinks:
     year: '/blog/:year/'
-    category: '/blog/category/:name/'
+#    category: '/blog/category/:name/'
