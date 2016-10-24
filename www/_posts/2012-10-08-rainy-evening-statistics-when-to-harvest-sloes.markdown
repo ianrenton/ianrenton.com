@@ -41,20 +41,19 @@ The good news is, mild wet weather is good for letting the sloes ripen.  The lo
 
 The longer the sloes stay on the bush, the greater the change that nasty thieving hobbitses other people will make off with them.  We can follow the example of the [Drake Equation](http://en.wikipedia.org/wiki/Drake_equation) to estimate the likelihood of this.
 
-"My" sloe bush is in a relatively busy part of town.  Naturally, I shan't say where!  But I would estimate that something like a thousand people a day walk past this bush.  Let's call that the passer-by rate, {% math display: inline %}R{% endmath %}.  Our other important factors are {% math display: inline %}f_n{% endmath %}, the fraction of passers-by that will notice and identify the sloe bush, {% math display: inline %}f_h{% endmath %}, the fraction of passers-by that will want to harvest sloes, {% math display: inline %}f_r{% endmath %}, the fraction of passers-by who will identify sloes as ripe, and {% math display: inline %}N{% endmath %}, the number of helpings of sloes on the bush.
+"My" sloe bush is in a relatively busy part of town.  Naturally, I shan't say where!  But I would estimate that something like a thousand people a day walk past this bush.  Let's call that the passer-by rate, *R*.  Our other important factors are *f<sub>n</sub>*, the fraction of passers-by that will notice and identify the sloe bush, *f<sub>h</sub>*, the fraction of passers-by that will want to harvest sloes, *f<sub>r</sub>*, the fraction of passers-by who will identify sloes as ripe, and *N*, the number of helpings of sloes on the bush.
 
-A reasonable set of estimates may be {% math display: inline %}f_n = 0.01{% endmath %} (the bush is quite well hidden), {% math display: inline %}f_h = 0.1{% endmath %} (a reasonable proportion of people will make sloe gin given the chance), and {% math display: inline %}N = 1{% endmath %} (for there are only 200-300 accessible sloes).  {% math display: inline %}f_r{% endmath %} is trickier as it depends on the ripeness of the sloes themselves and thus will increase with time, but we can go for a reasonable guess that 50% of people think they're ripe, so {% math display: inline %}f_r = 0.5{% endmath %}.
+A reasonable set of estimates may be *f<sub>n</sub> = 0.01* (the bush is quite well hidden), *f<sub>h</sub> = 0.1* (a reasonable proportion of people will make sloe gin given the chance), and *N = 1* (for there are only 200-300 accessible sloes).  *f<sub>r</sub>* is trickier as it depends on the ripeness of the sloes themselves and thus will increase with time, but we can go for a reasonable guess that 50% of people think they're ripe, so *f<sub>r</sub> = 0.5*.
 
 This gives a total probability that the sloes will be harvested, per day, as:
 
-{% math %}
-\begin{aligned}
-P_h &= R \cdot f_n \cdot f_h \cdot f_r \cdot N\\
-&= 1000 \cdot 0.01 \cdot 0.1 \cdot 0.5 \cdot 1\\
-&= 0.5
-\end{aligned}
-{% endmath %}
+<div style="text-align:center"><em>
+P<sub>h</sub> = R &times; f<sub>n</sub> &times; f<sub>h</sub> &times; f<sub>r</sub> &times; N<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1000 &times; 0.01 &times; 0.1 &times; 0.5 &times; 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 0.5
+</em></div>
 
+<br/>
 A worrying 50% probability that the sloes will be taken on any given day!
 
 ## In Conclusion
