@@ -35,26 +35,26 @@ No? Me neither. But by the power of mathematics, we will in a couple of minutes.
 
 The surface area of the Earth, [according to Wolfram Alpha](http://www.wolframalpha.com/input/?i=surface+area+of+the+Earth+in+metres), is:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 A<sub>earth</sub> = 5.1&times;10<sup>14</sup> m<sup>2</sup>
 </em></div>
 
 Assume that a family car is approximately five metres long and two metres wide. So the area taken up by one car is:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 A<sub>car</sub> = 5 &times; 2 = 10 m<sup>2</sup>
 </em></div>
 
 Our six billion trillion trillion cars would take up:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 A<sub>allcars</sub> = 6&times;10<sup>35</sup> &times; A<sub>car</sub><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 6&times;10<sup>36</sup> m<sup>2</sup>
 </em></div>
 
 Clearly this is much larger than the available surface area of the Earth. So in order to fit the cars onto the Earth's surface, how many do we need to stack on top of each other?
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 n<sub>stack</sub> = A<sub>allcars</sub> / A<sub>earth</sub><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= (6&times;10<sup>36</sup> m<sup>2</sup>) / (5.1&times;10<sup>14</sup> m<sup>2</sup>)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1.18&times;10<sup>22</sup>
@@ -68,28 +68,28 @@ A better question might be:
 
 Now we're no longer talking about neat stacks of cars, just about cramming them in wherever possible. Rather than area, then, we must consider the volume of the family car:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 V<sub>car</sub> = 5 &times; 2 &times; 1.5 = 15 m<sup>3</sup>
 </em></div>
 
 Now if we were to have six billion trillion trillion of those, they would take up:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 V<sub>allcars</sub> = 6&times;10<sup>35</sup> &times; V<sub>car</sub><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 9&times;10<sup>36</sup> m<sup>3</sup>
 </em></div>
 
 If we were to pack those around the Earth, how far out would they reach? We need to add *V<sub>allcars</sub>* to the volume of the Earth, then find the radius of that spherical volume:
 
-<div style="text-align:center"><em>
-r<sub>sphere</sub> = 3/(4&pi;) &times; <sup>3</sup>&radic;<span style="text-decoration: overline">(V<sub>allcars</sub> + V<sub>earth</sub>)</span><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 3/(4&pi;) &times; <sup>3</sup>&radic;<span style="text-decoration: overline">(9&times;10<sup>36</sup> + 1.083&times;10<sup>21</sup>)</span> m<br/>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
+r<sub>sphere</sub> = 3/(4&pi;) &times; <sup>3</sup>&radic;<span>(V<sub>allcars</sub> + V<sub>earth</sub>)</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 3/(4&pi;) &times; <sup>3</sup>&radic;<span>(9&times;10<sup>36</sup> + 1.083&times;10<sup>21</sup>)</span> m<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 4.966&times;10<sup>11</sup> m
 </em></div>
 
 Still a pretty big number, but we can relate that to a few other measurements that people may be a little more aware of:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%; margin-bottom: 1em;"><em>
 r<sub>sphere</sub> = 4.966&times;10<sup>11</sup> m<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 77857 times the radius of the Earth<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 714 times the radius of the Sun<br/>

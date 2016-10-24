@@ -47,7 +47,7 @@ A reasonable set of estimates may be *f<sub>n</sub> = 0.01* (the bush is quite 
 
 This gives a total probability that the sloes will be harvested, per day, as:
 
-<div style="text-align:center"><em>
+<div style="display: inline-block; margin: 0px 15%;"><em>
 P<sub>h</sub> = R &times; f<sub>n</sub> &times; f<sub>h</sub> &times; f<sub>r</sub> &times; N<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1000 &times; 0.01 &times; 0.1 &times; 0.5 &times; 1<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 0.5
