@@ -1,6 +1,10 @@
 /**
  * Syntax highlighting styles
  */
+ span.line-numbers {
+    visibility: hidden;
+}
+
 .highlight {
     background: #fff;
     @extend %vertical-rhythm;
