@@ -79,7 +79,7 @@ Numbers time!  If we assume a bored software engineer of mass (*m*) 80 kg, Earth
 
 <div style="text-align:center"><em>
 A = (4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times; 9.8) / (24.14<sup>2</sup> &times; 1.2)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 6.3 m<sup>2</sup>
+&nbsp;&nbsp;&nbsp;= 6.3 m<sup>2</sup>
 </em></div>
 
 <br/>
@@ -100,8 +100,8 @@ Our engineer has a surface area (from behind) of approximately 1.5 m<sup>2</sup>
 
 <div style="text-align:center"><em>
 v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times; 9.8) / (1.5 &times; 1.2))</span><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 49.6 m/s<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 110 mph
+&nbsp;&nbsp;= 49.6 m/s<br/>
+&nbsp;&nbsp;= 110 mph
 </em></div>
 
 <br/>
@@ -111,8 +111,8 @@ As for my five-year-old past self, if I had quarter the mass and the same densit
 
 <div style="text-align:center"><em>
 v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times; 9.8) / (0.4 &times; 1.5 &times; 1.2))</span><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 39.2 m/s<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 87.7 mph
+&nbsp;&nbsp;= 39.2 m/s<br/>
+&nbsp;&nbsp;= 87.7 mph
 </em></div>
 
 <br/>
