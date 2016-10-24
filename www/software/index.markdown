@@ -4,7 +4,7 @@ title: "Software"
 comments: false
 ---
 
-This page is an index of various bits of software I've written in my spare time. Most of this software is released under the [BSD Licence](http://opensource.org/licenses/BSD-2-Clause), and source is hosted on [GitHub](/software).
+This page is an index of various bits of software I've written in my spare time. Most of this software is released under the [BSD Licence](http://opensource.org/licenses/BSD-2-Clause), and source is hosted on [GitHub](https://github.com).
 
 ## Web Stuff
 
@@ -255,4 +255,3 @@ My first Python project was a simple <a href="/software/rpgdiceroller">RPG Dice 
 <a href="/software/typex29">Type X29</a> is an experimental 1D "bullet hell" shooter. It's playable, but only just.
 </div>
 <div class="clear"></div>
-
