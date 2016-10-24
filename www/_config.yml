@@ -10,7 +10,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: pygments
-pygments_options: ['linenos=none']
+pygments_options: ['linenos=False']
 gems: [octopress-paginate, jekyll-sitemap, jekyll-archives]
 permalink: /blog/:title/
 
