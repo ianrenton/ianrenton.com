@@ -25,11 +25,9 @@ I recall walking to school in a hurricane in what must have been 1989 or 1990, g
 
 It seems intuitive to me that the answer to the exact question posed by my five-year-old self is "really bloody strong", and that a better question might be "how much surface area would I need, positioned at the optimum angle and given a certain wind speed, to counteract my weight?".  Or alternatively, "I'm off down to the workshops, how big a sail do I need to make myself?".
 
-Let's start with the pressure on a surface due to the wind, ignoring any issues of aerodynamic flow.  [Bernoulli's equation](http://en.wikipedia.org/wiki/Bernoulli's_principle) gives us a pressure differential, {% math display: inline %}dp{% endmath %}, by:
+Let's start with the pressure on a surface due to the wind, ignoring any issues of aerodynamic flow.  [Bernoulli's equation](http://en.wikipedia.org/wiki/Bernoulli's_principle) gives us a pressure differential *dp*, by:
 
-{% math %}
-dp = \frac{v^{2}}{2}\rho
-{% endmath %}
+<div style="text-align:center"><em>dp = v<sup>2</sup> / 2&rho;</em></div>
 
 Where {% math display: inline %}v{% endmath %} is the velocity of the air, and {% math display: inline %}\rho{% endmath %} its density.
 
