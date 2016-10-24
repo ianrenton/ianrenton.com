@@ -11,6 +11,8 @@ kramdown:
   input: GFM
 highlighter: pygments
 pygments_options: ['linenos=False']
+sass:
+  sass_dir: _sass
 gems: [octopress-paginate, jekyll-sitemap, jekyll-archives]
 permalink: /blog/:title/
 
