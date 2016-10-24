@@ -24,7 +24,9 @@ There are a couple of differences between the WordPress implementation and my Oc
 
 My first modification was to the "archives" page. To this I simply added a named `a` tag to each year title (see line 12 below). This allows each year title to be used as a bookmark and linked to appropriately.
 
-``` html source/blog/archives/index.html
+**source/blog/archives/index.html**
+
+```html
 ---
 layout: page
 title: Blog Archive
@@ -47,7 +49,9 @@ footer: false
 
 The code that generates the widget (or "aside", in Octopress parlance) can't be written in a single `.html` file using Liquid tags as it is too complex. Thus I implemented it by defining a new Liquid tag called `archive`, as follows.
 
-``` ruby plugins/archive_tag.rb
+**plugins/archive_tag.rb**
+
+```ruby
 module Jekyll
   class ArchiveTag < Liquid::Tag
     def render(context)
@@ -82,7 +86,9 @@ Liquid::Template.register_tag('archive', Jekyll::ArchiveTag)
 
 The final piece of the puzzle is to create an aside to display the new tag, which is done simply as follows:
 
-``` html source/_includes/asides/archive.html
+**source/_includes/asides/archive.html**
+
+```html
 <section>
   <h1>Archive</h1>
   <ul id="archive">
