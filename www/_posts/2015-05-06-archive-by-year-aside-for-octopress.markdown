@@ -88,7 +88,7 @@ The final piece of the puzzle is to create an aside to display the new tag, whic
 
 **source/_includes/asides/archive.html**
 
-```html
+```
 <section>
   <h1>Archive</h1>
   <ul id="archive">
