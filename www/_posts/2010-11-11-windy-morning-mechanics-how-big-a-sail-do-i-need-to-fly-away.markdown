@@ -27,70 +27,63 @@ It seems intuitive to me that the answer to the exact question posed by my five-
 
 Let's start with the pressure on a surface due to the wind, ignoring any issues of aerodynamic flow.  [Bernoulli's equation](http://en.wikipedia.org/wiki/Bernoulli's_principle) gives us a pressure differential *dp*, by:
 
-<div style="text-align:center"><em>dp = v<sup>2</sup> / 2&rho;</em></div>
+<div style="text-align:center"><em>dp = (v<sup>2</sup>/2) &rho;</em></div>
 
-Where {% math display: inline %}v{% endmath %} is the velocity of the air, and {% math display: inline %}\rho{% endmath %} its density.
+<br/>
+Where *v* is the velocity of the air, and *&rho;* its density.
 
-The force, {% math display: inline %}F{% endmath %}, exerted by the wind on a solid of area {% math display: inline %}{A}_{p}{% endmath %} perpendicular to it would then be:
+The force, *F*, exerted by the wind on a solid of area *A<sub>p</sub>* perpendicular to it would then be:
 
-{% math %}
-\begin{aligned}
-F &= dp {A}_{p} \\
-&= \frac{v^{2}}{2}\rho {A}_{p}
-\end{aligned}
-{% endmath %}
+<div style="text-align:center"><em>
+F = dp A<sub>p</sub><br/>
+&nbsp;&nbsp;&nbsp;= (v<sup>2</sup>/2) &rho; A<sub>p</sub>
+</em></div>
 
+<br/>
 Assuming the wind is blowing horizontally, in order to generate the maximum amount of lift, the sail should be at 45° to the wind.  In this configuration, half the force exerted on the sail will push it in the direction of the wind, and half will push it up.
 
-However, tilting the sail by 45° ({% math display: inline %}\pi/4{% endmath %} radians) reduces the area which it presents to the oncoming wind.  The area presented to the wind, {% math display: inline %}{A}_{p}{% endmath %}, as a factor of its true area, {% math display: inline %}A{% endmath %}, is given by:
+However, tilting the sail by 45° (*&pi;/4* radians) reduces the area which it presents to the oncoming wind.  The area presented to the wind, *A<sub>p</sub>*, as a factor of its true area, *A*, is given by:
 
-{% math %}
-\begin{aligned}
-{A}_{p} &= A\,sin(\frac{\pi}{4}) \\
-&= \frac{\sqrt{2}}{2}\,A
-\end{aligned}
-{% endmath %}
+<div style="text-align:center"><em>
+A<sub>p</sub> = A sin(&pi;/4)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= (&radic;<span style="text-decoration: overline">2</span>/2) A
+</em></div>
 
+<br/>
 Substituting this into our force equation, we get that:
 
-{% math %}
-F = \frac{\sqrt{2}}{2}\,\frac{v^{2}}{2}\,\rho\,A
-{% endmath %}
+<div style="text-align:center"><em>F = (&radic;<span style="text-decoration: overline">2</span>/2) (v<sup>2</sup>/2) &rho; A</em></div>
 
+<br/>
 Or to simplify,
 
-{% math %}
-F = \frac{A\,{v^{2}}\,\rho}{2\sqrt{2}}
-{% endmath %}
+<div style="text-align:center"><em>F = (A v<sup>2</sup> &rho;) / (2 &radic;<span style="text-decoration: overline">2</span>)</em></div>
 
-As mentioned earlier, only half that force is upwards, the other half being in the direction of the wind.  So the vertical component of the force, {% math display: inline %}{F}_{v}{% endmath %}, is:
+<br/>
+As mentioned earlier, only half that force is upwards, the other half being in the direction of the wind.  So the vertical component of the force, *F<sub>v</sub>*, is:
 
-{% math %}
-{F}_{v} = \frac{A\,{v^{2}}\,\rho}{4\sqrt{2}}
-{% endmath %}
+<div style="text-align:center"><em>F<sub>v</sub> = (A v<sup>2</sup> &rho;) / (4 &radic;<span style="text-decoration: overline">2</span>)</em></div>
 
-This force is being employed to lift a mass {% math display: inline %}m{% endmath %} in Earth's gravity {% math display: inline %}g{% endmath %}, so we have that:
+<br/>
+This force is being employed to lift a mass *m* in Earth's gravity *g*, so we have that:
 
-{% math %}
-m\,g = \frac{A\,{v^{2}}\,\rho}{4\sqrt{2}}
-{% endmath %}
+<div style="text-align:center"><em>m g = (A v<sup>2</sup> &rho;) / (4 &radic;<span style="text-decoration: overline">2</span>)</em></div>
 
+<br/>
 Rearranging this for the sail area required gives us:
 
-{% math %}
-A = \frac{4\sqrt{2}\,m\,g}{ {v^2}\,\rho}
-{% endmath %}
+<div style="text-align:center"><em>A = (4 &radic;<span style="text-decoration: overline">2</span> m g) / (v<sup>2</sup> &rho;)</em></div>
 
-Numbers time!  If we assume a bored software engineer of mass ({% math display: inline %}m{% endmath %}) 80 kg, Earth's gravity ({% math display: inline %}g{% endmath %}) of 9.8 m/s<sup>2</sup>, air density ({% math display: inline %}\rho{% endmath %}) of 1.2 kg/m<sup>3</sup>, and the Met Office's current estimate of wind speed ({% math display: inline %}v{% endmath %}), 54 miles per hour or 24.14 m/s, our answer is:
+<br/>
+Numbers time!  If we assume a bored software engineer of mass (*m*) 80 kg, Earth's gravity (*g*) of 9.8 m/s<sup>2</sup>, air density (*&rho;*) of 1.2 kg/m<sup>3</sup>, and the Met Office's current estimate of wind speed (*v*), 54 miles per hour or 24.14 m/s, our answer is:
 
-{% math %}
-\begin{aligned}
-A &= \frac{4\sqrt{2}\times80\times9.8}{24.14^2\times1.2} \\
-&= 6.3\,\text{m}^2
-\end{aligned}
-{% endmath %}
+<div style="text-align:center"><em>
+A = (4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times; 9.8) / (24.14<sup>2</sup> &times; 1.2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 6.3 m<sup>2</sup>
+</em></div>
 
-That's quite a bit bigger than what I could achieve with bat-style wings between my arms and body, but not _totally_ unachievable.
+<br/>
+That's quite a bit bigger than what I could achieve with bat-style wings between my arms and body, but not *totally* unachievable.
 
 For my 20 kg five-year-old self, that area would be four times less, at 1.6 m<sup>2</sup>.
 
@@ -100,32 +93,29 @@ Since we've got this far, we might as well check out my "really bloody strong" h
 
 Rearranging the equation for wind speed gives us:
 
-{% math %}
-v = \sqrt{\frac{4\sqrt{2}\,m\,g}{A\,\rho}}
-{% endmath %}
+<div style="text-align:center"><em>v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-decoration: overline">2</span> m g) / (A &rho;))</span></em></div>
 
-Our engineer has a surface area (from behind) of approximately 1.5 m<sup>2</sup>, so all other things being equal, the wind speed, {% math display: inline %}v{% endmath %}, required is:
+<br/>
+Our engineer has a surface area (from behind) of approximately 1.5 m<sup>2</sup>, so all other things being equal, the wind speed, *v*, required is:
 
-{% math %}
-\begin{aligned}
-v &= \sqrt{\frac{4\sqrt{2}\times80\times9.8}{1.5\times1.2}} \\
-&= 49.6\,\text{m}/\text{s} \\
-&= 110\,\mathrm{mph}
-\end{aligned}
-{% endmath %}
+<div style="text-align:center"><em>
+v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times; 9.8) / (1.5 &times; 1.2))</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 49.6 m/s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 110 mph
+</em></div>
 
+<br/>
 This is well into hurricane territory on the [Beaufort scale](http://en.wikipedia.org/wiki/Beaufort_scale), although still a way short of the [fastest wind speed ever recorded](http://www.mountwashington.org/about/visitor/recordwind.php).
 
-As for my five-year-old past self, if I had quarter the mass and the same density, I also had around {% math display: inline %}{(\frac{1}{4})^{\frac{2}{3}}} = 0.4{% endmath %} times the surface area.  The air speed required to lift me off the ground at that age would have been:
+As for my five-year-old past self, if I had quarter the mass and the same density, I also had around *(1/4)<sup>2/3</sup> = 0.4* times the surface area.  The air speed required to lift me off the ground at that age would have been:
 
-{% math %}
-\begin{aligned}
-v &= \sqrt{\frac{4\sqrt{2}\times20\times9.8}{0.4\times1.5\times1.2}} \\
-&= 39.2\,\text{m}/\text{s} \\
-&= 87.7\,\mathrm{mph}
-\end{aligned}
-{% endmath %}
+<div style="text-align:center"><em>
+v = &radic;<span style="text-decoration: overline">((4 &radic;<span style="text-decoration: overline">2</span> &times; 80 &times; 9.8) / (0.4 &times; 1.5 &times; 1.2))</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 39.2 m/s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 87.7 mph
+</em></div>
 
+<br/>
 Also comfortably in hurricane territory, though not quite as outrageous as 110 mph.  Maybe if, back then in 1989, I'd stretched my coat out and angled back at 45°...
 
 _Thanks to Tam Coton for correcting my original error in the final section._
