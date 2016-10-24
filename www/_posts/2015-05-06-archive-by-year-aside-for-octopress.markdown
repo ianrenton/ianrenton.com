@@ -26,6 +26,7 @@ My first modification was to the "archives" page. To this I simply added a named
 
 **source/blog/archives/index.html**
 
+{% raw %}
 ```html
 ---
 layout: page
@@ -46,6 +47,7 @@ footer: false
 {% endfor %}
 </div>
 ```
+{% endraw %}
 
 The code that generates the widget (or "aside", in Octopress parlance) can't be written in a single `.html` file using Liquid tags as it is too complex. Thus I implemented it by defining a new Liquid tag called `archive`, as follows.
 
@@ -88,14 +90,16 @@ The final piece of the puzzle is to create an aside to display the new tag, whic
 
 **source/_includes/asides/archive.html**
 
+{% raw %}
 ```
 <section>
   <h1>Archive</h1>
   <ul id="archive">
-    { % archive % }
+    {% archive %}
   </ul>
 </section>
 ```
+{% endraw %}
 
 Adding `asides/archive.html` to the `default_asides` section in Octopress' `_config.yml` adds the new aside to each page.
 
