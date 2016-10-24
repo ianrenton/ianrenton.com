@@ -88,16 +88,14 @@ The final piece of the puzzle is to create an aside to display the new tag, whic
 
 **source/_includes/asides/archive.html**
 
-{% raw %}
 ```
 <section>
   <h1>Archive</h1>
   <ul id="archive">
-    {% archive %}
+    { % archive % }
   </ul>
 </section>
 ```
-{% endraw %}
 
 Adding `asides/archive.html` to the `default_asides` section in Octopress' `_config.yml` adds the new aside to each page.
 
