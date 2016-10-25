@@ -1,7 +1,7 @@
 ---
 comments: true
 date: 2010-08-07 15:24:32
-slug: 2012
+slug: twentytwelve
 layout: post
 title: '2012'
 wordpress_id: 11229

@@ -6,15 +6,16 @@ baseurl: ""
 url: "https://ianrenton.com" # the base hostname & protocol for your site
 
 # Build settings
+#lsi: false
+#safe: true
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
-pygments_options: ['linenos=False']
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems: [octopress-paginate, jekyll-sitemap, jekyll-archives]
+gems: [octopress-paginate, jekyll-archives]
 permalink: /blog/:title/
 
 # Juvia

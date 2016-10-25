@@ -10,7 +10,7 @@ layout: default
 
   <header class="post-header">
     {% comment %} If the post is in a collection, display the collection name as a link above post title {% endcomment %}
-    {% if page.collection != nil %}
+    {% if page.collection != 'posts' %}
       {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
       <h3><a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}:</a></h3>
     {% endif %}
@@ -18,8 +18,8 @@ layout: default
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
   </header>
 
-  {% comment %} If old post and no collection (i.e. a blog post) display a warning {% endcomment %}
-  {% if pagedate < threshold and page.collection == nil %}
+  {% comment %} If old post and collection 'posts' (i.e. a blog post) display a warning {% endcomment %}
+  {% if pagedate < threshold and page.collection == 'posts' %}
     <div class="oldwarning"><p>This is a very old post that was automatically imported from LiveJournal. I have done my best to fix up the formatting, but some issues may remain. Comments have not been preserved.</p></div>
   {% endif %}
 
@@ -27,8 +27,8 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.collection == nil %}
-    {% comment %} If no collection (i.e. a blog post) look for previous/next posts the normal way {% endcomment %}
+  {% if page.collection == 'posts' %}
+    {% comment %} If collection 'posts' (i.e. a blog post) look for previous/next posts the normal way {% endcomment %}
     {% assign prevurl = page.previous.url %}
     {% assign prevtitle = page.previous.title %}
     {% assign nexturl = page.next.url %}
@@ -67,4 +67,4 @@ layout: default
 </div>
 
 {% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "old post" threshold, show comments box {% endcomment %}
-{% if pagedate >= threshold or page.collection != nil %}{% include juvia.html %}{% endif %}
+{% if pagedate >= threshold or page.collection != 'posts' %}{% include juvia.html %}{% endif %}
