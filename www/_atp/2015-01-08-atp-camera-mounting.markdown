@@ -10,7 +10,7 @@ With the All-Terrain Pi freely exploring, the next step is to add a camera to it
 
 I'm actually using the camera from the quadcopter, which is in the 'shop' (my very messy desk) at the moment.
 
-![Pi Camera //files.ianrenton.com/sites/atp/40.jpg](Raspberry){: .center}
+![Raspberry Pi Camera](//files.ianrenton.com/sites/atp/40.jpg){: .center}
 
 Unfortunately, there's no neat place on the All-Terrain Pi chassis to fit a camera. The front 80% of the chassis rolls around 30 degrees off vertical when the vehicle turns, which isn't ideal. The only section that remains vertical at all times is the rear section.
 
@@ -18,20 +18,20 @@ For this reason I decided to run the vehicle in reverse. This allows a fixed fro
 
 For a temporary fit, the camera was fitted with some sticky-backed velcro.
 
-![Pi Camera wit velcro //files.ianrenton.com/sites/atp/41.jpg](Raspberry){: .center}
+![Raspberry Pi Camera with velcro](//files.ianrenton.com/sites/atp/41.jpg){: .center}
 
 The counterpart was stuck to what's now the front section of the robot.
 
-![mount for camera //files.ianrenton.com/sites/atp/42.jpg](Velcro){: .center}
+![Velcro mount for camera](//files.ianrenton.com/sites/atp/42.jpg){: .center}
 
 The camera can now be fixed to the front:
 
-![fitted to robot //files.ianrenton.com/sites/atp/43.jpg](Camera){: .center}
+![Camera fitted to robot](//files.ianrenton.com/sites/atp/43.jpg){: .center}
 
 And a long camera cable was fitted to allow for the fact that the electronics stack will move from side to side during operation.
 
-![Pi with Camera //files.ianrenton.com/sites/atp/44.jpg](All-Terrain){: .center}
+![All-Terrain Pi with Camera](//files.ianrenton.com/sites/atp/44.jpg){: .center}
 
 I was hoping that for an initial test, the `raspivid` utility could be used from my desktop via X forwarding. Unfortunately, the preview functionality of `raspivid` doesn't seem to be compatible with X forwarding over SSH, so in the screenshot below I have taken an image with `raspistill` and opened that in an image viewer over SSH.
 
-![of Camera working //files.ianrenton.com/sites/atp/45.jpg](Demonstration){: .center}
+![Demonstration of Camera working](//files.ianrenton.com/sites/atp/45.jpg){: .center}
