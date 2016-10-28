@@ -22,9 +22,9 @@ It turns out that some time ago [the development team split acrimoniously](https
 
 It looks like I now have three options:
 
-1) Take over development of an abandoned project, which I am in terms of both time and experience ill-equipped to deal with
-2) Migrate from OwnCloud to NextCloud, a [complex process](https://help.nextcloud.com/t/migrating-from-owncloud-to-nextcloud/551/67) which also involves changing the software I use for file, contacts and calendar synchronisation
-3) Use a proprietary service like [Feedly](https://feedly.com/) instead.
+1. Take over development of an abandoned project, which I am in terms of both time and experience ill-equipped to deal with
+2. Migrate from OwnCloud to NextCloud, a [complex process](https://help.nextcloud.com/t/migrating-from-owncloud-to-nextcloud/551/67) which also involves changing the software I use for file, contacts and calendar synchronisation
+3. Use a proprietary service like [Feedly](https://feedly.com/) instead.
 
 As you might imagine, I picked option 3. I was up and running again within five minutes.
 
