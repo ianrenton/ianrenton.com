@@ -16,6 +16,6 @@ On the front end, I have implemented this as a web application to avoid the need
 
 The main control code is implemented in Python, and not only listens to websocket connections but serves the web application page as well, avoiding the need for a general-purpose web server such as Apache on the vehicle. Commands sent over websockets are converted into demands on the motors using the PicoBorg library. Web serving and websocket support use the ws4py and CherryPy libraries.
 
-![Pi control GUI //files.ianrenton.com/sites/atp/46.jpg](All-Terrain){: .center}
+![All-Terrain Pi control GUI](//files.ianrenton.com/sites/atp/46.jpg){: .center}
 
 The user interface isn't much to look at yet as video streaming is not yet working, but the control works well and is very responsive (<100ms response time). It's a lot of fun to drive around!
