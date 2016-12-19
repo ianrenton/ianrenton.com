@@ -69,4 +69,4 @@ I'm still waiting on a *real* Global ROM to appear eventually, so I can have Goo
 
 Bye byte Galaxy S5, with which I'd now be on 30% battery and hunting for a charger. I'm keeping my weird Chinese phone.
 
-![Battery use graph](https://files.ianrenton.com/sites/blog/2016/phonebattery.png){: .center}
+![Battery use graph](https://files.ianrenton.com/sites/blog/2016/phonebattery.jpg){: .center}
