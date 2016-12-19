@@ -68,3 +68,5 @@ At last I went to bed, now with an up-to-date official ROM, Google services and 
 I'm still waiting on a *real* Global ROM to appear eventually, so I can have Google Play Services and friends installed as real system apps, and fewer strange Chinese video streaming apps installed. But for now, I have a nice looking and feeling phone, regular software updates, and most importantly of all a battery that's currently sitting pretty on 90% after 7 hours' use.
 
 Bye byte Galaxy S5, with which I'd now be on 30% battery and hunting for a charger. I'm keeping my weird Chinese phone.
+
+![Battery use graph](https://files.ianrenton.com/sites/blog/2016/phonebattery.png){: .center}
