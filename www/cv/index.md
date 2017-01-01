@@ -8,6 +8,7 @@ comments: false
 <style>
 h1 {
   margin-top: 0;
+  font-size: 36px;
 }
 td {
   padding: 10px 5px;
@@ -25,6 +26,9 @@ td {
   .printme {
     display: none;
   }
+  .visualhook {
+    display: none;
+  }
   .contact {
     display: block;
   }
@@ -35,6 +39,12 @@ td {
 <div class="contact" style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
 <div style="display:block;"><h1 style="text-decoration: none">Ian&nbsp;Renton</h1>
 <h2 style="position: relative; top: -0.8em; text-decoration: none">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
+
+<div class="notes visualhook">
+<table cellspacing="10" border="0"><tr><td>
+<a href="/cv/visual/"><img src="/cv/visual-cv.png"></a></td>
+<td>Fancy a look at an interactive version of my CV? <a href="/cv/visual/">Click here to try it out!</a> You can always head back here for more detail or to print this page out.</td></tr></table>
+</div>
 
 I am an experienced developer of unmanned maritime systems for global Naval forces, and my company's lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
 

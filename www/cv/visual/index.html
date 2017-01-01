@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ian Renton's Visual CV</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+  <style>
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+    html, body, #wrapper {
+      height:100%;
+      width:100%;
+      padding:0;
+      margin:0;
+      background: #cedce7;
+      font-family: "Open Sans", sans-serif;
+    }
+    #header {
+      width:100%;
+      height: 60px;
+      padding:0;
+      margin:0;
+      background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+    }
+    span#name {
+      font-weight: bold;
+      font-size: 40px;
+      padding-left: 0.3em;
+    }
+    span#title {
+      font-weight: bold;
+      font-size: 25px;
+      padding-left: 1em;
+    }
+    #sidebar {
+      position:absolute;
+      top:60px;
+      bottom:0;
+      left:0;
+      right: 0;
+      width:270px;
+      padding:0 1em 0 1em;
+      margin:0;
+      background: #cedce7;
+      font-size: 0.9em;
+      overflow-y: auto;
+    }
+    #innernote {
+      position:absolute;
+      top:60px;
+      left:300px;
+      right: 0;
+      height: 25px;
+      margin:0;
+      padding: 0.2em 1em 0.2em 1em;
+      font-size: 0.8em;
+      background: #ffd65e; /* Old browsers */
+      background: -moz-linear-gradient(top,  #ffd65e 0%, #febf04 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #ffd65e 0%,#febf04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+      border-left: 1px solid #596a72;
+    }
+    #tools {
+      position:absolute;
+      top:90px;
+      right:5px;
+      z-index: 100;
+      margin:0.5em;
+      padding:0.5em 0.5em 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+    }
+    #tools img {
+      border: 0;
+    }
+    #toolstext {
+      position: relative;
+      top: -0.5em;
+    }
+    #map {
+      position:absolute;
+      top:85px;
+      bottom:0;
+      left:300px;
+      right: 0;
+      padding:0;
+      margin:0;
+      border-left: 1px solid #596a72;
+    }
+    .iconLabel {
+      padding-left: 40px;
+      padding-top: 7px;
+      font-size: 1.2em;
+      font-weight:bold;
+      color:black;
+      text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    }
+    .iconLabelNight {
+      color:white;
+      text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    }
+    </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <span id="name">Ian Renton</span><span id="title">Software &amp; Systems Engineer</span>
+    </div>
+      <div id="sidebar">
+        <p>I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.</p>
+        <p><b>Domain knowledge</b><br/>Autonomous/unmanned vehicles, maritime navigation, naval combat systems, mine countermeasures, RF & sub-sea communications, GIS applications.</p>
+        <p><b>Engineering processes</b><br/>Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle. IEC 61508 SIL2 systems.</p>
+        <p><b>Programming languages</b><br/>Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.</p>
+        <p><b>Specific packages</b><br/>DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Ant, Jenkins, SonarQube, MySQL, MSSQL, Microsoft Office, LATEX, Windows, Linux & Mac.</p>
+      </div>
+    <div id="tools">
+      <span id="toolstext">Style:</span> <a href="#" onclick="day()"><img src="day.png"/></a> <a href="#" onclick="night()"><img src="night.png"/></a>
+    </div>
+    <div id="innernote">
+      This map is interactive! Pan around and click on icons to discover work I've done and places I've been.
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+  <script>
+    // Initial view
+    var map = L.map('map').setView([50.6, -2.0], 10);
+
+    // Tile layers
+    var dayLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaWFucmVudG9uIiwiYSI6ImNpeGV3andtdzAwNDgyem52NXByNmg5eHIifQ.vP7MkKCkymCJHVbXJzmh5g');
+    var nightLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.dark/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaWFucmVudG9uIiwiYSI6ImNpeGV3andtdzAwNDgyem52NXByNmg5eHIifQ.vP7MkKCkymCJHVbXJzmh5g');
+    var seamarkLayer = L.tileLayer('http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png');
+
+    // Default layers enabled
+    dayLayer.addTo(map);
+    seamarkLayer.addTo(map);
+
+    // Symbol definitions
+    var MILSTDIcon = L.Icon.extend({
+      options: {
+        iconSize:     [60,60],
+        iconAnchor:   [30, 30],
+        popupAnchor:  [0, -33]
+        }
+    });
+    var usvMCM = new MILSTDIcon({iconUrl: 'SFSPCUM---_____.png'});
+    var c2 = new MILSTDIcon({iconUrl: 'SFGPUUSO--_____.png'});
+    var exmine = new MILSTDIcon({iconUrl: 'SFUPWMGX--_____.png'});
+    var mine = new MILSTDIcon({iconUrl: 'SHUPWMG---_____.png'});
+    var mineNeutral = new MILSTDIcon({iconUrl: 'SHUPWMGO--_____.png'});
+    var sub = new MILSTDIcon({iconUrl: 'SFUPSN----_____.png'});
+    var installation = new MILSTDIcon({iconUrl: 'SFGPI-----H____.png'});
+    var uni = new MILSTDIcon({iconUrl: 'EFFPDA----H____.png'});
+    var pershore = new MILSTDIcon({iconUrl: 'EFFPDA----H____.png'});
+    var school = new MILSTDIcon({iconUrl: 'EFFPDB----H____.png'});
+    var factory = new MILSTDIcon({iconUrl: 'EFFPCF----H____.png'});
+    var uw16 = new MILSTDIcon({iconUrl: 'SFUPWMGX--_____.png'});
+
+    // Text definitions
+    var usvMCMLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Unmanned&nbsp;Surface&nbsp;Vehicle'
+    });
+    var c2Label = L.divIcon({
+      className: 'iconLabel',
+      html: 'Command&nbsp;&amp;&nbsp;Control'
+    });
+    var exmineLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Exercise&nbsp;Mine'
+    });
+    var subLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Submarine'
+    });
+    var schoolLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Bournemouth&nbsp;School&nbsp;for&nbsp;Boys'
+    });
+    var uniLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Southampton&nbsp;University'
+    });
+    var pershoreLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Pershore&nbsp;College'
+    });
+    var qqLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'QinetiQ'
+    });
+    var currEmplLabel = L.divIcon({
+      className: 'iconLabel',
+      html: '(Current&nbsp;Employer)'
+    });
+    var homeLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Home'
+    });
+    var uw16Label = L.divIcon({
+      className: 'iconLabel',
+      html: 'Unmanned&nbsp;Warrior&nbsp;2016'
+    });
+
+    // Markers
+    L.marker([50.44, -2.3], {icon: usvMCMLabel}).addTo(map);
+    L.marker([50.44, -2.3], {icon: usvMCM}).addTo(map)
+      .bindPopup("<b>Mine Countermeasures and Multi-role USVs</b><br />My main domain experience is in unmanned surface vessels, with 10 years working on them in various forms. I am currently the lead software engineer for around £1m of work on a £15m 'game changer' project for the company, leading a team of three.");
+
+    L.marker([50.5837, -2.0483], {icon: c2Label}).addTo(map);
+    L.marker([50.5837, -2.0483], {icon: c2}).addTo(map)
+      .bindPopup("<b>Command & Control Systems</b><br />I lead my company's unmanned vehicle command & control software development, with a team that scales to match the effort needed by ongoing projects. I also have experience of Combat System architecture, and the design of control software for other applications.");
+
+    L.marker([50.633, -1.8], {icon: exmineLabel}).addTo(map);
+    L.marker([50.633, -1.8], {icon: exmine}).addTo(map)
+      .bindPopup("<b>Exercise Mine & Range Systems</b><br />Whilst working for QinetiQ, I developed user interface software used for UK exercise mines and range systems for export.");
+
+    L.marker([50.419, -1.649], {icon: subLabel}).addTo(map);
+    L.marker([50.419, -1.649], {icon: sub}).addTo(map)
+      .bindPopup("<b>Submarine Communications</b><br />I have designed and developed user interface and embedded software used for secure data communications between submarines.");
+
+    L.marker([50.471, -1.530], {icon: subLabel}).addTo(map);
+    L.marker([50.471, -1.530], {icon: sub}).addTo(map);
+
+    L.marker([50.4689, -2.1547], {icon: mine}).addTo(map);
+    L.marker([50.4278, -2.4582], {icon: mineNeutral}).addTo(map);
+    L.marker([50.3849, -2.7438], {icon: mineNeutral}).addTo(map);
+
+    L.marker([50.9356, -1.3963], {icon: uniLabel}).addTo(map);
+    L.marker([50.9356, -1.3963], {icon: uni}).addTo(map)
+      .bindPopup("<b>BSc (Hons) in Physics</b><br />I studied Physics at Southampton University from 2003 to 2006, including modules in quantum physics, relativity, optronics, electronics and semiconductor design.");
+
+    L.marker([52.1019579,-2.0666612], {icon: pershoreLabel}).addTo(map);
+    L.marker([52.1019579,-2.0666612], {icon: pershore}).addTo(map)
+      .bindPopup("<b>BTEC in Management</b><br />As part of my Year in Industry at QinetiQ, I achieved a BTEC in Management from Pershore College.");
+
+    L.marker([50.74845, -1.85871], {icon: schoolLabel}).addTo(map);
+    L.marker([50.74845, -1.85871], {icon: school}).addTo(map)
+      .bindPopup("<b>A-levels in Maths, Further Maths, Physics and Electronics</b><br />I studied at Bournemouth School for Boys from 1995-2002. As well as these A-levels I achieved 11 GCSEs and a Cambridge Language Certificate in Japanese & Japanese Studies.");
+
+    L.marker([50.60154, -2.45008], {icon: qqLabel}).addTo(map);
+    L.marker([50.60154, -2.45008], {icon: factory}).addTo(map)
+      .bindPopup("<b>Worked at QinetiQ (2006-2009)</b><br />During my time at QinetiQ I worked on a number of diverse projects, both military and commercial. You can see more details on many of them by clicking around the map. In addition to my full-time employment, I also did a Year in Industry placement at QinetiQ in 2002-2003, and worked there as a summer student in 2004 & 2005.");
+
+    L.marker([50.70983, -2.43965], {icon: currEmplLabel}).addTo(map);
+    L.marker([50.70983, -2.43965], {icon: factory}).addTo(map)
+      .bindPopup("<b>Employer details available on request.</b><br />I have worked at my current employer in the Dorset area since 2009. I have worked on a number of major and minor projects at the company, and currently am employed as a Principal Software Engineer.");
+
+    L.marker([50.71605, -1.87557], {icon: homeLabel}).addTo(map);
+    L.marker([50.71605, -1.87557], {icon: installation}).addTo(map)
+      .bindPopup("<b>I live in Bournemouth.</b><br />Although I have lived in several places around Dorset and Hampshire, I grew up here in Bournemouth, where I now live with my family.");
+
+    L.marker([57.40034,-5.93245], {icon: uw16Label}).addTo(map);
+    L.marker([57.40034,-5.93245], {icon: uw16}).addTo(map)
+      .bindPopup("<b>Unmanned Warrior 2016</b><br />As part of my employer's trials team, I attended the Navy's Unmanned Warrior 2016 trial and successfully demonstrated an unmanned minehunting system.");
+
+    // Day/night switch
+    function day(e) {
+      map.addLayer(dayLayer);
+      map.removeLayer(seamarkLayer);
+      map.removeLayer(nightLayer);
+      map.addLayer(seamarkLayer);
+      $('.iconLabel').removeClass('iconLabelNight');
+    }
+    function night(e) {
+      map.addLayer(nightLayer);
+      map.removeLayer(seamarkLayer);
+      map.removeLayer(dayLayer);
+      map.addLayer(seamarkLayer);
+      $('.iconLabel').addClass('iconLabelNight');
+    }
+
+  </script>
+</body>
+</html>
