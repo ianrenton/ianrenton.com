@@ -28,7 +28,7 @@ td {
   }
   .visualhook {
     display: none;
-    margin-bottom: 2em;
+    margin-bottom: 2em !important;
   }
   .contact {
     display: block;
