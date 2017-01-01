@@ -12,7 +12,7 @@
       width:100%;
       padding:0;
       margin:0;
-      background: #cedce7;
+      background: #eeeeee;
       font-family: "Open Sans", sans-serif;
     }
     #header {
@@ -20,15 +20,19 @@
       height: 60px;
       padding:0;
       margin:0;
-      background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+      background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
     }
     span#name {
       font-weight: bold;
       font-size: 40px;
       padding-left: 0.3em;
+    }
+    span#name img {
+      position: relative;
+      top: 7px;
     }
     span#title {
       font-weight: bold;
@@ -41,12 +45,23 @@
       bottom:0;
       left:0;
       right: 0;
-      width:270px;
-      padding:0 1em 0 1em;
+      width:300px;
+      padding:0
       margin:0;
-      background: #cedce7;
+      background: #eeeeee;
       font-size: 0.9em;
       overflow-y: auto;
+    }
+    #sidebar p.title {
+      padding:0.2em 1em 0.2em 1em;
+      background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+      font-weight: bold;
+    }
+    #sidebar p.text {
+      padding:0 1em 0 1em;
     }
     #innernote {
       position:absolute;
@@ -64,11 +79,19 @@
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
       border-left: 1px solid #596a72;
     }
+    #innernote div.right {
+      float: right;
+      font-weight: bold;
+    }
+    #innernote div.right a {
+      text-decoration: none;
+      color: black;
+    }
     #tools {
       position:absolute;
-      top:90px;
+      top:100px;
       right:5px;
-      z-index: 100;
+      z-index: 1000;
       margin:0.5em;
       padding:0.5em 0.5em 0;
       background-color: rgba(255, 255, 255, 0.8);
@@ -116,19 +139,20 @@
 <body>
   <div id="wrapper">
     <div id="header">
-      <span id="name">Ian Renton</span><span id="title">Software &amp; Systems Engineer</span>
+      <span id="name"><img src="me.png"> Ian Renton</span><span id="title">Software &amp; Systems Engineer</span>
     </div>
       <div id="sidebar">
-        <p>I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.</p>
-        <p><b>Domain knowledge</b><br/>Autonomous/unmanned vehicles, maritime navigation, naval combat systems, mine countermeasures, RF & sub-sea communications, GIS applications.</p>
-        <p><b>Engineering processes</b><br/>Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle. IEC 61508 SIL2 systems.</p>
-        <p><b>Programming languages</b><br/>Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.</p>
-        <p><b>Specific packages</b><br/>DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Ant, Jenkins, SonarQube, MySQL, MSSQL, Microsoft Office, LATEX, Windows, Linux & Mac.</p>
+        <p class="text">I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.</p>
+        <p class="title">Domain knowledge</p><p class="text">Autonomous/unmanned vehicles, maritime navigation, naval combat systems, mine countermeasures, RF & sub-sea communications, GIS applications.</p>
+        <p class="title">Engineering processes</p><p class="text">Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle. IEC 61508 SIL2 systems.</p>
+        <p class="title">Programming languages</p><p class="text">Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.</p>
+        <p class="title">Specific packages</p><p class="text">DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Ant, Jenkins, SonarQube, MySQL, MSSQL, Microsoft Office, LATEX, Windows, Linux & Mac.</p>
       </div>
     <div id="tools">
       <span id="toolstext">Style:</span> <a href="#" onclick="day()"><img src="day.png"/></a> <a href="#" onclick="night()"><img src="night.png"/></a>
     </div>
     <div id="innernote">
+      <div class="right"><a href="#" onclick="document.getElementById('innernote').style.display = 'none'; document.getElementById('map').style.top = '60px'; document.getElementById('tools').style.top = '75px'; return false;">x</a></div>
       This map is interactive! Pan around and click on icons to discover work I've done and places I've been.
     </div>
     <div id="map"></div>
@@ -169,6 +193,9 @@
     var school = new MILSTDIcon({iconUrl: 'EFFPDB----H____.png'});
     var factory = new MILSTDIcon({iconUrl: 'EFFPCF----H____.png'});
     var uw16 = new MILSTDIcon({iconUrl: 'SFUPWMGX--_____.png'});
+    var iet = new MILSTDIcon({iconUrl: 'SFGPI-----H____.png'});
+    var germany = new MILSTDIcon({iconUrl: 'EFFPCF----H____.png'});
+    var gulf = new MILSTDIcon({iconUrl: 'SUSP------_____.png'});
 
     // Text definitions
     var usvMCMLabel = L.divIcon({
@@ -214,6 +241,18 @@
     var uw16Label = L.divIcon({
       className: 'iconLabel',
       html: 'Unmanned&nbsp;Warrior&nbsp;2016'
+    });
+    var ietLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'IET'
+    });
+    var germanyLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Parent&nbsp;Company&nbsp;(Germany)'
+    });
+    var gulfLabel = L.divIcon({
+      className: 'iconLabel',
+      html: 'Middle&nbsp;East&nbsp;Projects'
     });
 
     // Markers
@@ -267,6 +306,18 @@
     L.marker([57.40034,-5.93245], {icon: uw16Label}).addTo(map);
     L.marker([57.40034,-5.93245], {icon: uw16}).addTo(map)
       .bindPopup("<b>Unmanned Warrior 2016</b><br />As part of my employer's trials team, I attended the Navy's Unmanned Warrior 2016 trial and successfully demonstrated an unmanned minehunting system.");
+
+    L.marker([51.5099502,-0.121424], {icon: ietLabel}).addTo(map);
+    L.marker([51.5099502,-0.121424], {icon: iet}).addTo(map)
+      .bindPopup("<b>Member of the IET</b><br />I have been a member of the Institution of Engineering and Technology since 2012, and am currently working towards Chartered Engineer status.");
+
+    L.marker([51.1661,10.4469], {icon: germanyLabel}).addTo(map);
+    L.marker([51.1661,10.4469], {icon: germany}).addTo(map)
+      .bindPopup("<b>Parent Company in Germany</b><br />My employer's parent company is based in Germany. I have liaised with their autonomous vehicles and GUI design teams to improve mutual understanding and cooperation between the UK and German branches of the business.");
+
+    L.marker([26.2902,52.3166], {icon: gulfLabel}).addTo(map);
+    L.marker([26.2902,52.3166], {icon: gulf}).addTo(map)
+      .bindPopup("<b>Middle East Projects</b><br />I have worked with Middle East navies on a number of projects, and have spent time in several Gulf states to conduct testing and achieve acceptance of those systems.");
 
     // Day/night switch
     function day(e) {
