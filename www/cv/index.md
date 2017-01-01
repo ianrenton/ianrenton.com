@@ -22,16 +22,23 @@ td {
 .contact {
   display: none;
 }
+.visualhook {
+  margin-bottom: 2em !important;
+}
 @media print {
   .printme {
     display: none;
   }
   .visualhook {
     display: none;
-    margin-bottom: 2em !important;
   }
   .contact {
     display: block;
+  }
+}
+@media screen and (max-width: 799px) {
+  .visualhook {
+    display: none;
   }
 }
 </style>

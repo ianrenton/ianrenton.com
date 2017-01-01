@@ -87,23 +87,6 @@
       text-decoration: none;
       color: black;
     }
-    #tools {
-      position:absolute;
-      top:100px;
-      right:5px;
-      z-index: 1000;
-      margin:0.5em;
-      padding:0.5em 0.5em 0;
-      background-color: rgba(255, 255, 255, 0.8);
-      border-radius: 10px;
-    }
-    #tools img {
-      border: 0;
-    }
-    #toolstext {
-      position: relative;
-      top: -0.5em;
-    }
     #map {
       position:absolute;
       top:85px;
@@ -148,11 +131,8 @@
         <p class="title">Programming languages</p><p class="text">Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.</p>
         <p class="title">Specific packages</p><p class="text">DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Ant, Jenkins, SonarQube, MySQL, MSSQL, Microsoft Office, LATEX, Windows, Linux & Mac.</p>
       </div>
-    <div id="tools">
-      <span id="toolstext">Style:</span> <a href="#" onclick="day()"><img src="day.png"/></a> <a href="#" onclick="night()"><img src="night.png"/></a>
-    </div>
     <div id="innernote">
-      <div class="right"><a href="#" onclick="document.getElementById('innernote').style.display = 'none'; document.getElementById('map').style.top = '60px'; document.getElementById('tools').style.top = '75px'; return false;">x</a></div>
+      <div class="right"><a href="#" onclick="document.getElementById('innernote').style.display = 'none'; document.getElementById('map').style.top = '60px'; return false;">x</a></div>
       This map is interactive! Pan around and click on icons to discover work I've done and places I've been.
     </div>
     <div id="map"></div>
@@ -161,16 +141,19 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
   <script>
+    // Start by kicking users out if their screen is too small, this isn't responsive.
+    if (window.innerWidth < 800) {
+      window.location = "./mobile.html";
+    }
     // Initial view
     var map = L.map('map').setView([50.6, -2.0], 10);
 
     // Tile layers
-    var dayLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaWFucmVudG9uIiwiYSI6ImNpeGV3andtdzAwNDgyem52NXByNmg5eHIifQ.vP7MkKCkymCJHVbXJzmh5g');
-    var nightLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.dark/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaWFucmVudG9uIiwiYSI6ImNpeGV3andtdzAwNDgyem52NXByNmg5eHIifQ.vP7MkKCkymCJHVbXJzmh5g');
+    var mapLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaWFucmVudG9uIiwiYSI6ImNpeGV3andtdzAwNDgyem52NXByNmg5eHIifQ.vP7MkKCkymCJHVbXJzmh5g');
     var seamarkLayer = L.tileLayer('http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png');
 
     // Default layers enabled
-    dayLayer.addTo(map);
+    mapLayer.addTo(map);
     seamarkLayer.addTo(map);
 
     // Symbol definitions
@@ -319,21 +302,6 @@
     L.marker([26.2902,52.3166], {icon: gulf}).addTo(map)
       .bindPopup("<b>Middle East Projects</b><br />I have worked with Middle East navies on a number of projects, and have spent time in several Gulf states to conduct testing and achieve acceptance of those systems.");
 
-    // Day/night switch
-    function day(e) {
-      map.addLayer(dayLayer);
-      map.removeLayer(seamarkLayer);
-      map.removeLayer(nightLayer);
-      map.addLayer(seamarkLayer);
-      $('.iconLabel').removeClass('iconLabelNight');
-    }
-    function night(e) {
-      map.addLayer(nightLayer);
-      map.removeLayer(seamarkLayer);
-      map.removeLayer(dayLayer);
-      map.addLayer(seamarkLayer);
-      $('.iconLabel').addClass('iconLabelNight');
-    }
 
   </script>
 </body>
