@@ -13,7 +13,6 @@ kramdown:
   input: GFM
 highlighter: rouge
 sass:
-  sass_dir: _sass
   style: compressed
 gems: [octopress-paginate, jekyll-archives]
 permalink: /blog/:title/
