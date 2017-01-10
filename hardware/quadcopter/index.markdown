@@ -3,6 +3,8 @@ comments: false
 layout: page
 slug: index
 title: Quadcopter
+redirect-from:
+  - /quadcopter
 ---
 
 Because the [Raspberry Tank](../raspberry-tank/) was just too... incapable of lift, I'm building a quadcopter!
