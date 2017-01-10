@@ -1,6 +1,5 @@
 ---
 layout: default
-paginate: true
 ---
 
 <div class="wrapper">
@@ -19,7 +18,7 @@ paginate: true
 </header>
 
 <ul class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
       <h2>
