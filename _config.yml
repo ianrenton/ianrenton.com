@@ -103,9 +103,8 @@ collections:
     collectionindex: /hardware/lego-turtle/
     showprevnext: true
 
-pagination:
-  limit: false
-  permalink: /page/:num/
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Category & Year archives for the blog posts
 jekyll-archives:
