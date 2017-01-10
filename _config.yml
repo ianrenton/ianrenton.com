@@ -14,7 +14,7 @@ kramdown:
 highlighter: rouge
 sass:
   style: compressed
-gems: [jekyll-paginate, jekyll-archives]
+gems: [jekyll-paginate]
 permalink: /blog/:title/
 
 # Juvia
@@ -103,17 +103,18 @@ collections:
     collectionindex: /hardware/lego-turtle/
     showprevnext: true
 
+# jekyll-paginate
 paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Category & Year archives for the blog posts
-jekyll-archives:
-  enabled:
-  - year
+#jekyll-archives:
+#  enabled:
+#  - year
 #  - categories
-  layouts:
-    year: archive-year
+#  layouts:
+#    year: archive-year
 #    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
+#  permalinks:
+#    year: '/blog/:year/'
 #    category: '/blog/category/:name/'
