@@ -3,7 +3,7 @@ title: Ian's Blog
 email: ian@ianrenton.com
 description: Coffee goes in, words come out.
 baseurl: ""
-url: "https://ianrenton.com" # the base hostname & protocol for your site
+url: "http://ianrenton.com" # the base hostname & protocol for your site
 
 # Build settings
 #lsi: false
