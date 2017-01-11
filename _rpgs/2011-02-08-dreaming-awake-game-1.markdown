@@ -28,8 +28,8 @@ Information regarding the system we used is documented here for archaeological p
 <ul>
 	<li><a href="../dreaming-awake-tabletop-character-creation">Character Creation</a></li>
 	<li><a href="../dreaming-awake-tabletop-game-rules">Rules</a></li>
-	<li><a href="../files/DreamingAwakeTabletop/DACharSheet.pdf">Blank Character Sheet</a></li>
-	<li><a href="../files/DreamingAwakeTabletop/DACharSheet-Tsuki.pdf">Tsuki&#039;s Character Sheet</a></li>
+	<li><a href="/fiction/characters/charsheets/DACharSheet-old.pdf">Blank Character Sheet</a></li>
+	<li><a href="/fiction/characters/charsheets/DACharSheet-old-tsuki.pdf">Tsuki&#039;s Character Sheet</a></li>
 </ul>
 
 <h4>Setting</h4>
@@ -39,4 +39,3 @@ The fact that I am deeply in love with Dreaming Awake as a setting should come a
 	<li><strong>...but not when the result is that they've made their task more difficult.</strong>  By their actions and word of mouth, the players managed to effectively start the evacuation of a whole country in the face of an oncoming army.  Regardless of whether it was a good or a bad decision, it was one that increased the players' fame, which Dreaming Awake prizes greatly.  As a "look how powerful your words are" scene, the characters stumbled upon one of many refugee camps that had formed -- but rather than impressing on the players the importance of the characters' actions, it instead demoralised them.</li>
 	<li><strong>Plot happening in the background is confusing.</strong>  At one point, the characters caught a glimpse of something big happening in a far-off land.  This was intended as a minor hook to suggest that other things are going on that the characters are not involved with, and that perhaps they might want to be involved.  But because it came across as "look, stuff happens without you!", the players did not feel much desire to investigate.</li>
 </ul>
-

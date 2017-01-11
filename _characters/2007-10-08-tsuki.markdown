@@ -24,5 +24,5 @@ tags:
 <p>Alongside his sword dancing, with which he often entertains at festivals, Tsuki&#039;s main hobby is cooking and baking. A fair amount of natural talent and both his mother&#039;s and Suto&#039;s experience, plus his own liking of food has led him to be fairly successful here and if life being one big adventure fails him, he&#039;d like to cook as a job. </p>
 <p>The Arcadian tradition is that once a young person finishes what education the villagers can give, he or she has a year and a day of freedom, to experience what they want of the world, to find out what life can hold for them. After this time, they are normally expected to settle down, decide on how they will live their life, and do it. For Tsuki, it has now been rather longer than a year, and he still shows no sign of giving up his intense desire for adventure. Secretly, most of the villagers probably excuse this away because of his fatherless upbringing, and feel sorry for him. Or perhaps they just realise that if he settles down he won&#039;t always be around to help out... </p>
 <h3>Character Sheets</h3>
-<ul><li><a href="//files.ianrenton.com/charsheets/tsuki-start.pdf">Tsuki (Dreaming Awake, Start of Game)</a></li>
-<li><a href="//files.ianrenton.com/charsheets/tsuki-end.pdf">Tsuki (Dreaming Awake, End of Game)</a></li></ul>
+<ul><li><a href="/fiction/characters/charsheets/tsuki-start.pdf">Tsuki (Dreaming Awake, Start of Game)</a></li>
+<li><a href="/fiction/characters/charsheets/tsuki-end.pdf">Tsuki (Dreaming Awake, End of Game)</a></li></ul>
