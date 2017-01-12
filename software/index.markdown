@@ -9,58 +9,58 @@ This page is an index of various bits of software I've written in my spare time.
 ## Web Stuff
 
 <div class="table-col table-col-pic">
-<a href="/software/successwhale"><img src="/images/successwhale.png" alt="SuccessWhale" /></a>
+<a href="http://ianrenton.github.io/SuccessWhale/"><img src="/images/successwhale.png" alt="SuccessWhale" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/successwhale">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. The frontend runs in Javascript, there is a separate repository for the <a href="/software/successwhale-api">backend API</a> which is written in Ruby and supports third-party clients.
+<a href="http://ianrenton.github.io/SuccessWhale/">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. The frontend runs in Javascript, there is a separate repository for the <a href="http://ianrenton.github.io/successwhale-api/">backend API</a> which is written in Ruby and supports third-party clients.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/canicallit"><img src="/images/cici.png" alt="Can I Call It...?" /></a>
+<a href="http://ianrenton.github.io/canicallit/"><img src="/images/cici.png" alt="Can I Call It...?" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/canicallit">"Can I Call It...?"</a> is a utility that helps you name your new software project, by checking for any existing software packages that already have that name.
+<a href="http://ianrenton.github.io/canicallit/">"Can I Call It...?"</a> is a utility that helps you name your new software project, by checking for any existing software packages that already have that name.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/dailypromise"><img src="/images/dailypromise.png" alt="Daily Promise" /></a>
+<a href="http://ianrenton.github.io/DailyPromise/"><img src="/images/dailypromise.png" alt="Daily Promise" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/dailypromise">Daily Promise</a> is a "1-bit" activity tracker that allows you to make "promises" and keep track of how many days in a row you kept them.
+<a href="http://ianrenton.github.io/DailyPromise/">Daily Promise</a> is a "1-bit" activity tracker that allows you to make "promises" and keep track of how many days in a row you kept them.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/athousandwords"><img src="/images/1kw.png" alt="A Thousand Words" /></a>
+<a href="http://ianrenton.github.io/athousandwords/"><img src="/images/1kw.png" alt="A Thousand Words" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/athousandwords">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
+<a href="http://ianrenton.github.io/athousandwords/">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/github-readme-website"><img src="/images/githubreadme.png" alt="GitHub Readme Website" /></a>
+<a href="http://ianrenton.github.io/github-readme-website/"><img src="/images/githubreadme.png" alt="GitHub Readme Website" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/github-readme-website">GitHub README Website Generator</a> generates a website for your software based on README.md files in your GitHub repositories.
+The <a href="http://ianrenton.github.io/github-readme-website/">GitHub README Website Generator</a> generates a website for your software based on README.md files in your GitHub repositories.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/twixt"><img src="/images/twixt.png" alt="Twixt" /></a>
+<a href="http://ianrenton.github.io/Twixt/"><img src="/images/twixt.png" alt="Twixt" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/twixt">Twixt</a> is a pastebin for Twitter that's integrated with SuccessWhale.
+<a href="http://ianrenton.github.io/Twixt/">Twixt</a> is a pastebin for Twitter that's integrated with SuccessWhale.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/yasfpg"><img src="/images/yasfpg.png" alt="YASFPG" /></a>
+<a href="http://ianrenton.github.io/yasfpg/"><img src="/images/yasfpg.png" alt="YASFPG" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/yasfpg">Yet Another Single File Photo Gallery</a> is a simple bit of PHP that presents photos on a filesystem via an attractive web interface.
+<a href="http://ianrenton.github.io/yasfpg/">Yet Another Single File Photo Gallery</a> is a simple bit of PHP that presents photos on a filesystem via an attractive web interface.
 </div>
 <div class="clear"></div>
 
@@ -73,26 +73,26 @@ The <a href="/software/github-readme-website">GitHub README Website Generator</a
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/marvellator"><img src="/images/marvellator.png" alt="Marvellator" /></a>
+<a href="https://github.com/ianrenton/Marvellator"><img src="/images/marvellator.png" alt="Marvellator" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/marvellator">The Marvellator</a> is a script that generates random silly comic book titles.
+<a href="https://github.com/ianrenton/Marvellator">The Marvellator</a> is a script that generates random silly comic book titles.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/fanficidea"><img src="/images/fanficidea.png" alt="Terrible Fanfiction Idea Generator" /></a>
+<a href="https://github.com/ianrenton/fanficidea"><img src="/images/fanficidea.png" alt="Terrible Fanfiction Idea Generator" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/fanficidea">The Terrible Fanfiction Idea Generator</a> is another silly random generator script. This one generates terrible scenarios to use as the basis for fanfiction.
+<a href="https://github.com/ianrenton/fanficidea">The Terrible Fanfiction Idea Generator</a> is another silly random generator script. This one generates terrible scenarios to use as the basis for fanfiction.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/cobbs-quay-weather"><img src="/images/cobbs.png" alt="Cobbs Quay Weather" /></a>
+<a href="https://github.com/ianrenton/Cobbs-Quay-Weather"><img src="/images/cobbs.png" alt="Cobbs Quay Weather" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/cobbs-quay-weather">Cobb's Quay Weather</a> is a script that grabs the data behind a Flash-based weather monitoring interface and presents it as plain HTML for use on sailor's phones.
+<a href="https://github.com/ianrenton/Cobbs-Quay-Weather">Cobb's Quay Weather</a> is a script that grabs the data behind a Flash-based weather monitoring interface and presents it as plain HTML for use on sailor's phones.
 </div>
 <div class="clear"></div>
 
@@ -113,58 +113,58 @@ The <a href="/software/github-readme-website">GitHub README Website Generator</a
 ## Code for Hardware Projects
 
 <div class="table-col table-col-pic">
-<a href="/software/raspberrytank"><img src="/images/tank.png" width="160" alt="Raspberry Tank" /></a>
+<a href="https://github.com/ianrenton/raspberrytank"><img src="/images/tank.png" width="160" alt="Raspberry Tank" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/raspberrytank">Raspberry Tank</a> has various iterations of the code available in its repository, covering the C-based backend and web-based frontend.
+The <a href="https://github.com/ianrenton/raspberrytank">Raspberry Tank</a> has various iterations of the code available in its repository, covering the C-based backend and web-based frontend.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/quadcopter"><img src="/images/quad.png" width="160" alt="Quadcopter" /></a>
+<a href="https://github.com/ianrenton/quadcopter"><img src="/images/quad.png" width="160" alt="Quadcopter" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/quadcopter">Quadcopter</a> repository contains a few initial test scripts for flying the quad via the Raspberry Pi.
+The <a href="https://github.com/ianrenton/quadcopter">Quadcopter</a> repository contains a few initial test scripts for flying the quad via the Raspberry Pi.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/legoturtle"><img src="/images/legoturtle.png" width="160" alt="Lego Turtle" /></a>
+<a href="https://github.com/ianrenton/legoturtle"><img src="/images/legoturtle.png" width="160" alt="Lego Turtle" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/legoturtle">Lego Turtle</a> repository includes both pre-programmed examples and the version that has a Logo interpreter via UART to accept custom movement programs.
+The <a href="https://github.com/ianrenton/legoturtle">Lego Turtle</a> repository includes both pre-programmed examples and the version that has a Logo interpreter via UART to accept custom movement programs.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/all-terrain-pi"><img src="/images/atp.jpg" width="160" alt="All-Terrain Pi" /></a>
+<a href="https://github.com/ianrenton/All-Terrain-Pi"><img src="/images/atp.jpg" width="160" alt="All-Terrain Pi" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/all-terrain-pi">All-Terrain Pi</a> repository contains the Python backend, the web-based remote control frontend and example Scratch programs to drive the vehicle.
+The <a href="https://github.com/ianrenton/All-Terrain-Pi">All-Terrain Pi</a> repository contains the Python backend, the web-based remote control frontend and example Scratch programs to drive the vehicle.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/geckocam"><img src="/images/geckocam.jpg" alt="Rimbaud's House" /></a>
+<a href="https://github.com/ianrenton/geckocam"><img src="/images/geckocam.jpg" alt="Rimbaud's House" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/geckocam">Gecko Cam</a> software includes the Raspberry Pi-based backend and web frontend to the "Rimbaud's House" website.
+The <a href="https://github.com/ianrenton/geckocam">Gecko Cam</a> software includes the Raspberry Pi-based backend and web frontend to the "Rimbaud's House" website.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/playbulb-tools"><img src="/images/playbulb.jpg" width="160" alt="Playbulb" /></a>
+<a href="http://ianrenton.github.io/playbulb-tools/"><img src="/images/playbulb.jpg" width="160" alt="Playbulb" /></a>
 </div>
 <div class="table-col table-col-descrip">
-The <a href="/software/playbulb-tools">Playbulb Tools</a> repository has a couple of example scripts showing how to configure a Playbulb LED light to show current weather and mailbox status.
+The <a href="http://ianrenton.github.io/playbulb-tools/">Playbulb Tools</a> repository has a couple of example scripts showing how to configure a Playbulb LED light to show current weather and mailbox status.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/raspi-utils"><img src="/images/piutils.png" alt="Raspberry Pi Utils" /></a>
+<a href="https://github.com/ianrenton/raspi-utils"><img src="/images/piutils.png" alt="Raspberry Pi Utils" /></a>
 </div>
 <div class="table-col table-col-descrip">
-I also have a repository for general <a href="/software/raspi-utils">Raspberry Pi Utils</a> and useful scripts for the Pi.
+I also have a repository for general <a href="https://github.com/ianrenton/raspi-utils">Raspberry Pi Utils</a> and useful scripts for the Pi.
 </div>
 <div class="clear"></div>
 
@@ -173,10 +173,10 @@ I also have a repository for general <a href="/software/raspi-utils">Raspberry P
 ## Utilities
 
 <div class="table-col table-col-pic">
-<a href="/software/nanogenmo"><img src="/images/nanogenmo.png" alt="NaNoGenMo" /></a>
+<a href="https://github.com/ianrenton/NaNoGenMo/"><img src="/images/nanogenmo.png" alt="NaNoGenMo" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/nanogenmo">My 2014 NaNoGenMo entry</a> is a generator of semi-random 50,000-word novels based on fanfiction.
+<a href="https://github.com/ianrenton/NaNoGenMo/">My 2014 NaNoGenMo entry</a> is a generator of semi-random 50,000-word novels based on fanfiction.
 </div>
 <div class="clear"></div>
 
@@ -201,10 +201,10 @@ My first Python project was a simple <a href="https://ianrenton.github.io/RPGDic
 ## Abandoned Projects
 
 <div class="table-col table-col-pic">
-<a href="/software/westminsterhubble"><img src="/images/hubble.png" alt="Westminster Hubble" /></a>
+<a href="https://github.com/ianrenton/westminsterhubble"><img src="/images/hubble.png" alt="Westminster Hubble" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/westminsterhubble">Westminster Hubble</a> was a website that tracked UK Members of Parliament, both their activities at Westminster and on social media. It was shuttered due to a combination of lack of interest and API changes of the services it depended on.
+<a href="https://github.com/ianrenton/westminsterhubble">Westminster Hubble</a> was a website that tracked UK Members of Parliament, both their activities at Westminster and on social media. It was shuttered due to a combination of lack of interest and API changes of the services it depended on.
 </div>
 <div class="clear"></div>
 
