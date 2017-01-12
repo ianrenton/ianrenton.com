@@ -55,6 +55,4 @@ Mostly this release is about new features.  Sea Battle now has:
 
 The only real bit of functionality that's still missing is the research / build options.  Currently, clicking the Build button produces a ship of a predefined configuration -- you can't change that config or research better ones.  The AI builds random ships up to and including as powerful as your default one, and has a reasonable amount of 'thought delay' to its actions, meaning that you can achieve victory fairly easily.  (Just fill up the build queue and send every ship North as soon as it's built -- you'll lose a few, but enough should survive to destroy the enemy base.)
 
-[You can play the current version of Sea Battle as a Java applet by clicking here.](http://files.ianrenton.com/Sea_Battle/)
-
-_Note: this blog post is old, and the applet now has more functionality than is described here. [The next blog post in the sequence is here.](/blog/sea-battle-here-comes-the-science-bit)_
+_Note: this blog post is old, and the game now has more functionality than is described here. [The next blog post in the sequence is here.](/blog/sea-battle-here-comes-the-science-bit)_

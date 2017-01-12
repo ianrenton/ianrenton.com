@@ -31,9 +31,7 @@ It neatly deals with the issue of what I should develop for.  The comments were 
 
 One lunchtime has produced 270 lines of code -- which already includes the game area of the GUI, controllable player ships, and the beginnings of AI for the enemy ships.
 
-[You can play around with it as an Applet here.](http://files.ianrenton.com/Sea_Battle/)
-
-_Note: this blog post is old, and the applet now has more functionality than is described here.  [The next blog post in the sequence is here.](/blog/sea-battle-thats-what-guns-are-for)_
+_Note: this blog post is old, and the game now has more functionality than is described here.  [The next blog post in the sequence is here.](/blog/sea-battle-thats-what-guns-are-for)_
 
 Currently there's no real gameplay -- you can't build, and ships can't shoot or be damaged.  You can move your ships (starting at the bottom of the screen) around, and the AI ship will hunt yours.  Click on a ship to select it (blue circle), then click elsewhere to set its destination.  Red lines, when they appear, show when ships would be shooting.
 

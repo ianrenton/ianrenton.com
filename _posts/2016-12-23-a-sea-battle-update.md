@@ -36,6 +36,6 @@ If you played Sea Battle ages ago and fancy trying it again, here's what to expe
 
 6) An extra bug fix&mdash;playing a new game after a win or loss now resets the world properly.
 
-If you fancy a go, [head to the game's page](/software/seabattle) where you'll find instructions and download links. As always, the [source is on Github](https://github.com/ianrenton/SeaBattle/).
+If you fancy a go, [head to the game's page](https://ianrenton.github.io/SeaBattle/) where you'll find instructions and download links. As always, the [source is on Github](https://github.com/ianrenton/SeaBattle/).
 
 Have fun!

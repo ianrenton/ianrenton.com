@@ -84,5 +84,3 @@ Still to come:
   
 
 If you'd like a good strategy for beating the game at this point, I recommend you begin by keeping your build queue about 3-4 ships full, building the best thing you can at any point.  Research-wise, rush down the weapons tree as far as Harpoon missiles, throwing in a couple of hulls and radars.  Avoid engines for now.  As soon as you have Frigates with Harpoons and Radar Mk 4, keep building them until you've fended off all the enemies near your base and you have a fleet of 15-20 of them, then move them all right up to the enemy base.  With that fleet you should be able to destroy the base before the ships they build wear yours down too much.
-
-[You can play the current version of Sea Battle as a Java applet by clicking here.](http://files.ianrenton.com/Sea_Battle/)

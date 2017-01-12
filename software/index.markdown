@@ -65,10 +65,10 @@ The <a href="/software/github-readme-website">GitHub README Website Generator</a
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/facefinder"><img src="/images/facefinder.png" alt="FaceFinder" /></a>
+<a href="https://ianrenton.github.io/Facefinder"><img src="/images/facefinder.png" alt="FaceFinder" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/facefinder">FaceFinder</a> is a "who's who" page designed for corporate intranets. Two versions are available, one standalone that uses a PHP script and a flat file structure, and one that integrates with Microsoft SharePoint.
+<a href="https://ianrenton.github.io/Facefinder">FaceFinder</a> is a "who's who" page designed for corporate intranets. Two versions are available, one standalone that uses a PHP script and a flat file structure, and one that integrates with Microsoft SharePoint.
 </div>
 <div class="clear"></div>
 
@@ -101,10 +101,10 @@ The <a href="/software/github-readme-website">GitHub README Website Generator</a
 ## Games
 
 <div class="table-col table-col-pic">
-<a href="/software/seabattle"><img src="/images/seabattle.png" alt="Sea Battle" /></a>
+<a href="https://ianrenton.github.io/SeaBattle/"><img src="/images/seabattle.png" alt="Sea Battle" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/seabattle">Sea Battle</a> is a casual 2D RTS with a pixel-art style and game mechanics inspired by Warzone 2100.
+<a href="https://ianrenton.github.io/SeaBattle/">Sea Battle</a> is a casual 2D RTS with a pixel-art style and game mechanics inspired by Warzone 2100.
 </div>
 <div class="clear"></div>
 
@@ -181,18 +181,18 @@ I also have a repository for general <a href="/software/raspi-utils">Raspberry P
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/iridium9601sim"><img src="/images/iridium9601sim.png" alt="Iridium9601Sim" /></a>
+<a href="https://ianrenton.github.io/iridium9601sim"><img src="/images/iridium9601sim.png" alt="Iridium9601Sim" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/iridium9601sim">Iridium9601Sim</a> is a variant of my <a href="/software/crapterminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
+<a href="https://ianrenton.github.io/iridium9601sim">Iridium9601Sim</a> is a variant of my <a href="https://ianrenton.github.io/crapterminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/rpgdiceroller"><img src="/images/diceroller.png" alt="RPG Dice Roller" /></a>
+<a href="https://ianrenton.github.io/RPGDiceRoller"><img src="/images/diceroller.png" alt="RPG Dice Roller" /></a>
 </div>
 <div class="table-col table-col-descrip">
-My first Python project was a simple <a href="/software/rpgdiceroller">RPG Dice Roller</a> with support for different systems such as D&D, World of Darkness, Shadowrun etc.
+My first Python project was a simple <a href="https://ianrenton.github.io/RPGDiceRoller">RPG Dice Roller</a> with support for different systems such as D&D, World of Darkness, Shadowrun etc.
 </div>
 <div class="clear"></div>
 
@@ -209,49 +209,49 @@ My first Python project was a simple <a href="/software/rpgdiceroller">RPG Dice 
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/TelegraphFantasyFootballTeamPicker"><img src="/images/tffpicker.png" alt="Telegraph Fantasy Football Team Picker" /></a>
+<a href="http://ianrenton.github.io/TelegraphFantasyFootballTeamPicker/"><img src="/images/tffpicker.png" alt="Telegraph Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/TelegraphFantasyFootballTeamPicker">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2009-2012. This scraped the stats web pages from the game as there was no proper API; eventually I stopped playing fantasy football and thus stopped fighting the website's frequently changing markup.
+<a href="http://ianrenton.github.io/TelegraphFantasyFootballTeamPicker/">Telegraph Fantasy Football Team Picker</a> automatically picked optimum teams for the Telegraph's Fantasy Football game, around 2009-2012. This scraped the stats web pages from the game as there was no proper API; eventually I stopped playing fantasy football and thus stopped fighting the website's frequently changing markup.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/PremierLeagueFantasyFootballTeamPicker"><img src="/images/plffpicker.png" alt="Premier League Fantasy Football Team Picker" /></a>
+<a href="http://ianrenton.github.io/PremierLeagueFantasyFootballTeamPicker/"><img src="/images/plffpicker.png" alt="Premier League Fantasy Football Team Picker" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/PremierLeagueFantasyFootballTeamPicker">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2009-2011. This scraped the stats web pages from the game as there was no proper API; eventually I stopped playing fantasy football and thus stopped fighting the website's frequently changing markup.
+<a href="http://ianrenton.github.io/PremierLeagueFantasyFootballTeamPicker/">Premier League Fantasy Football Team Picker</a> automatically picked optimum teams for the Premier League's official Fantasy Football game, around 2009-2011. This scraped the stats web pages from the game as there was no proper API; eventually I stopped playing fantasy football and thus stopped fighting the website's frequently changing markup.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/musicman"><img src="/images/musicman.png" alt="MusicMan" /></a>
+<a href="https://ianrenton.github.io/MusicMan"><img src="/images/musicman.png" alt="MusicMan" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/musicman">MusicMan</a> was an attempt at a music player and music library manager. It had some basic functionality but never compared with the likes of Winamp and Foobar.
+<a href="https://ianrenton.github.io/MusicMan">MusicMan</a> was an attempt at a music player and music library manager. It had some basic functionality but never compared with the likes of Winamp and Foobar.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/waroftheroses"><img src="/images/waroftheroses.png" alt="War of the Roses" /></a>
+<a href="http://ianrenton.github.io/WarOfTheRoses/"><img src="/images/waroftheroses.png" alt="War of the Roses" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/waroftheroses">War of the Roses</a> was an attempt at making a strategy RPG, which never got very far.
+<a href="http://ianrenton.github.io/WarOfTheRoses/">War of the Roses</a> was an attempt at making a strategy RPG, which never got very far.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/gunboat"><img src="/images/gunboat.png" alt="Gunboat" /></a>
+<a href="https://ianrenton.github.io/Gunboat"><img src="/images/gunboat.png" alt="Gunboat" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/gunboat">Gunboat</a> was a 3D naval shooter game, through which I tried to teach myself OpenGL. Some basic graphics work and controls were in place, but the game was never finished.
+<a href="https://ianrenton.github.io/Gunboat">Gunboat</a> was a 3D naval shooter game, through which I tried to teach myself OpenGL. Some basic graphics work and controls were in place, but the game was never finished.
 </div>
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/software/typex29"><img src="/images/typex29.png" alt="Type X29" /></a>
+<a href="https://github.com/ianrenton/TypeX29"><img src="/images/typex29.png" alt="Type X29" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="/software/typex29">Type X29</a> is an experimental 1D "bullet hell" shooter. It's playable, but only just.
+<a href="https://github.com/ianrenton/TypeX29">Type X29</a> is an experimental 1D "bullet hell" shooter. It's playable, but only just.
 </div>
 <div class="clear"></div>
