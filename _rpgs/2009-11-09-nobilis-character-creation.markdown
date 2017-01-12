@@ -202,10 +202,10 @@ Here's a fairly balanced example character.  She doesn't have any gifts - this i
 <h3>Elsa Langridge, the Power of Machinery</h3>
 <table cellspacing="10" border="1">
 <tr><td><b>Attribute</b></td><td><b>Level</b></td><td><b>Miracle Points</b></td></tr>
-<tr><td>Aspect</td><td><img src="//files.ianrenton.com/images/dots/2.png" /> (6)</td><td><img src="//files.ianrenton.com/images/dots/5.png" /><img src="//files.ianrenton.com/images/dots/0.png" /></td></tr>
-<tr><td>Domain</td><td><img src="//files.ianrenton.com/images/dots/3.png" /> (9)</td><td><img src="//files.ianrenton.com/images/dots/5.png" /><img src="//files.ianrenton.com/images/dots/1.png" /> (1)</td></tr>
-<tr><td>Realm</td><td><img src="//files.ianrenton.com/images/dots/1.png" /> (3)</td><td><img src="//files.ianrenton.com/images/dots/5.png" /><img src="//files.ianrenton.com/images/dots/0.png" /></td></tr>
-<tr><td>Spirit</td><td><img src="//files.ianrenton.com/images/dots/2.png" /> (6)</td><td><img src="//files.ianrenton.com/images/dots/5.png" /><img src="//files.ianrenton.com/images/dots/0.png" /></td></tr></table>
+<tr><td>Aspect</td><td><img src="/characters/dots/2.png" /> (6)</td><td><img src="/characters/dots/5.png" /><img src="/characters/dots/0.png" /></td></tr>
+<tr><td>Domain</td><td><img src="/characters/dots/3.png" /> (9)</td><td><img src="/characters/dots/5.png" /><img src="/characters/dots/1.png" /> (1)</td></tr>
+<tr><td>Realm</td><td><img src="/characters/dots/1.png" /> (3)</td><td><img src="/characters/dots/5.png" /><img src="/characters/dots/0.png" /></td></tr>
+<tr><td>Spirit</td><td><img src="/characters/dots/2.png" /> (6)</td><td><img src="/characters/dots/5.png" /><img src="/characters/dots/0.png" /></td></tr></table>
 
 <b>Handicaps:</b>
 Affiliation: Code of the Light

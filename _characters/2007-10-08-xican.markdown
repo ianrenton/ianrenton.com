@@ -15,7 +15,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="//files.ianrenton.com/images/avatars/xican.png" /></td>
+<td valign="top"><img src="/characters/avatars/xican.png" /></td>
 <td valign="top">
 <h3>Brief Summary</h3>
 <p>A focussed man who concentrates almost solely on his own strength and toughness, he is nevertheless a great person to know once you excavate his social side.</p></td>

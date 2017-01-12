@@ -16,7 +16,7 @@ tags:
 
 <table border="0" cellspacing="20">
 <tr>
-<td valign="center" width="50"><img src="//files.ianrenton.com/images/avatars/shiaru.gif" /></td>
+<td valign="center" width="50"><img src="/characters/avatars/shiaru.gif" /></td>
 <td valign="top">
 <b>Vital Statistics</b>
 <p>Name: Shiaru Shaoqi<br />

@@ -15,7 +15,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="//files.ianrenton.com/images/avatars/sayar.png" /></td>
+<td valign="top"><img src="/characters/avatars/sayar.png" /></td>
 <td valign="top">
 <h2>Vital Statistics</h2>
 <p>Name: Sayar<br />

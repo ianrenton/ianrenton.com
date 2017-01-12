@@ -12,7 +12,7 @@ tags:
 - Character
 ---
 
-<p><img src="//files.ianrenton.com/images/portraits/maria.png" style="float:right" /></p>
+<p><img src="/characters/portraits/maria.png" style="float:right" /></p>
 <div>
 <h2>Introduction</h2>
 <p>This town, for me, is peace. It&#039;s escape. And those things are rare indeed when you live a life like mine. In theory it is home, although these days I only get to visit a few times a year – I&#039;m far too busy in my City.</p>

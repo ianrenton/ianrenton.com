@@ -12,7 +12,7 @@ tags:
 - Character
 ---
 
-<p><img src="//files.ianrenton.com/images/portraits/lorelai.png" style="float:right" /></p>
+<p><img src="/characters/portraits/lorelai.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>I come here to see you, of course, and for the kids to play - this world seems so full of excitement for them.  Little things, physical things, like the smells of people or leaves rustling in the wind.  But me?  I&#039;m happy just sitting and watching.</p>

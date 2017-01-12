@@ -15,7 +15,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="//files.ianrenton.com/images/avatars/thiarir.png" /></td>
+<td valign="top"><img src="/characters/avatars/thiarir.png" /></td>
 <td valign="top">
 <h3>Brief Summary</h3>
 <p>The village Elder of Arcadia. </p></td>

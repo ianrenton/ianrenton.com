@@ -13,7 +13,7 @@ tags:
 - World of Darkness
 ---
 
-<p><img src="//files.ianrenton.com/images/portraits/malachai.png" style="float:right" /></p>
+<p><img src="/characters/portraits/malachai.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"Professor of Egyptian and Persian Mythology at the University of Bath," I said.  "But I&#039;m guessing you don&#039;t want to hear how the lecturing is going.  No, my younger days are what you&#039;re after, aren&#039;t you?  Hah!  &#039;Younger days,&#039; says the 28-year-old.</p>

@@ -15,7 +15,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="//files.ianrenton.com/images/avatars/zakaya.png" /></td>
+<td valign="top"><img src="/characters/avatars/zakaya.png" /></td>
 <td valign="top">
 <h3>Brief Summary</h3>
 <p>One of the most successful demon-hunters and exorcists in Kayir, but his lack of church affiliation and his death while hunting have conspired to miss out his name from the history books.</p>

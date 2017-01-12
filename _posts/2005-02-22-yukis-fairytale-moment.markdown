@@ -12,4 +12,4 @@ categories:
 
 For the third time in two days, it's snowing outside...  That thick, fairytale-like snow that blows around on the breeze as it drifts towards the ground - that kind of snow that barely looks real, it looks like the only place it belongs is in the props department for a movie company.  It's the kind of snow I feel blessed to have seen.  
 
-<a href="http://files.ianrenton.com/images/characters/snowdrift-art.jpg">I spam teh pseudo-art.</a>
+<a href="/characters/snowdrift-art.jpg">I spam teh pseudo-art.</a>
