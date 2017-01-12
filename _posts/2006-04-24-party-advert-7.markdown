@@ -10,4 +10,4 @@ categories:
 - Personal
 ---
 
-<img src="http://files.ianrenton.com/images/birthday-ads/bday-ad-yuri.jpg"/>
+<img src="/blog/2006/bday-ad-yuri.jpg"/>

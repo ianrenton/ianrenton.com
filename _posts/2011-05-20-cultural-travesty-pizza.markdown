@@ -30,7 +30,7 @@ There's still plenty of time for you to suggest more foods from more places!  Th
 **Suggesting Person**
 
   
-![](https://files.ianrenton.com/images/flags/at.png) Austria
+Austria
 
   
 [Schnitzel](https://secure.wikimedia.org/wikipedia/en/wiki/Schnitzel)
@@ -39,7 +39,7 @@ There's still plenty of time for you to suggest more foods from more places!  Th
 Eric
 
   
-![](https://files.ianrenton.com/images/flags/_England.png) England
+England
 
   
 [Fish and Chips](https://secure.wikimedia.org/wikipedia/en/wiki/Fish_and_Chips)  
@@ -52,7 +52,7 @@ Frankie
 Alex
 
   
-![](https://files.ianrenton.com/images/flags/fr.png) France
+France
 
   
 [Baguettes](https://secure.wikimedia.org/wikipedia/en/wiki/Baguette)  
@@ -65,7 +65,7 @@ Kirsty March
 Eric
 
   
-![](https://files.ianrenton.com/images/flags/_Galicia.png) Galicia
+Galicia
 
   
 [Octopus](https://secure.wikimedia.org/wikipedia/en/wiki/Polbo_%C3%A1_feira)
@@ -74,7 +74,7 @@ Eric
 Eric
 
   
-![](https://files.ianrenton.com/images/flags/de.png) Germany
+Germany
 
   
 [Bratwurst](https://secure.wikimedia.org/wikipedia/en/wiki/Bratwurst)
@@ -83,7 +83,7 @@ Eric
 Miri & Richard Kille
 
   
-![](https://files.ianrenton.com/images/flags/il.png) Israel
+Israel
 
   
 [Hummus](https://secure.wikimedia.org/wikipedia/en/wiki/Hummus)
@@ -92,7 +92,7 @@ Miri & Richard Kille
 Miri
 
   
-![](https://files.ianrenton.com/images/flags/it.png) Italy
+Italy
 
   
 [Pizza](https://secure.wikimedia.org/wikipedia/en/wiki/Pizza) ([ya rly](http://www.neatorama.com/2010/09/21/recursive-pizza/))  
@@ -105,7 +105,7 @@ Isa Santana
 Richard Kille
 
   
-![](https://files.ianrenton.com/images/flags/jp.png) Japan
+Japan
 
   
 [Mochi](https://secure.wikimedia.org/wikipedia/en/wiki/Mochi)  
@@ -118,7 +118,7 @@ Kieran Martin
 Alex
 
   
-![](https://files.ianrenton.com/images/flags/my.png) Malaysia
+Malaysia
 
   
 [Laksa Johor](https://secure.wikimedia.org/wikipedia/en/wiki/Laksa#Other_variants)
@@ -127,7 +127,7 @@ Alex
 Ali
 
   
-![](https://files.ianrenton.com/images/flags/mx.png) Mexico
+Mexico
 
   
 [Guacamole](https://secure.wikimedia.org/wikipedia/en/wiki/Guacamole)
@@ -136,7 +136,7 @@ Ali
 Isa Santana
 
   
-![](https://files.ianrenton.com/images/flags/no.png) Norway
+Norway
 
   
 [Lutefisk](https://secure.wikimedia.org/wikipedia/en/wiki/Lutefisk)
@@ -145,7 +145,7 @@ Isa Santana
 Esqui
 
   
-![](https://files.ianrenton.com/images/flags/om.png) Oman
+Oman
 
   
 [Halwa](http://www.omanet.om/english/culture/halwa.asp?cat=cult&subcat=cult2)  
@@ -156,7 +156,7 @@ Mark Pickering
 Mark Pickering
 
   
-![](https://files.ianrenton.com/images/flags/ru.png) Russia
+Russia
 
   
 [Varenyky](https://secure.wikimedia.org/wikipedia/en/wiki/Varenyky)
@@ -165,7 +165,7 @@ Mark Pickering
 Miri
 
   
-![](https://files.ianrenton.com/images/flags/it.png) Sardinia
+Sardinia
 
   
 [Casu Marzu](https://secure.wikimedia.org/wikipedia/en/wiki/Casu_marzu)
@@ -174,7 +174,7 @@ Miri
 Frankie
 
   
-![](https://files.ianrenton.com/images/flags/_Scotland.png) Scotland
+Scotland
 
   
 [Haggis](https://secure.wikimedia.org/wikipedia/en/wiki/Haggis)  
@@ -185,7 +185,7 @@ Cap'n Andy
 Frankie
 
   
-![](https://files.ianrenton.com/images/flags/es.png) Spain
+Spain
 
   
 [Torrijas](https://secure.wikimedia.org/wikipedia/en/wiki/French_toast)  
@@ -200,7 +200,7 @@ Eric
 Eric
 
   
-![](https://files.ianrenton.com/images/flags/se.png) Sweden
+Sweden
 
   
 [Meatballs](https://secure.wikimedia.org/wikipedia/en/wiki/Meatball)
@@ -209,7 +209,7 @@ Eric
 Alex
 
   
-![](https://files.ianrenton.com/images/flags/us.png) USA
+USA
 
   
 [Baked Alaska](https://secure.wikimedia.org/wikipedia/en/wiki/Baked_Alaska)

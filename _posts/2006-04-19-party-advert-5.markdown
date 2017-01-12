@@ -10,4 +10,4 @@ categories:
 - Personal
 ---
 
-<img src="http://files.ianrenton.com/images/birthday-ads/bday-ad-dnf.jpg"/>
+<img src="/blog/2006/bday-ad-dnf.jpg"/>

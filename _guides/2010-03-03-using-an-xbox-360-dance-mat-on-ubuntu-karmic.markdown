@@ -158,11 +158,11 @@ First, let's put `xboxdrv` somewhere sensible on your filesystem, rather than in
     sudo cp tools/xboxdrv-daemon.py /usr/local/bin/xboxdrv/xboxdrv-daemon.py
 
 
-Now we'll set up the init script.  The script itself is a few dozen lines, so rather than pasting it here, here's a download link instead: [xboxdrv init script](http://files.ianrenton.com/xboxdrv).  Download this, then copy it to `/etc/init.d`.  That requires root access, so from your terminal, run the following to download the above file and put it in the right place:
+Now we'll set up the init script.  The script itself is a few dozen lines, so rather than pasting it here, here's a download link instead: [xboxdrv init script](/guides/xboxdrv).  Download this, then copy it to `/etc/init.d`.  That requires root access, so from your terminal, run the following to download the above file and put it in the right place:
 
 
     cd ~
-    wget http://files.ianrenton.com/xboxdrv
+    wget http://ianrenton.com/guides/xboxdrv
     sudo mv xboxdrv /etc/init.d/xboxdrv
 
 

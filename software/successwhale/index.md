@@ -23,7 +23,7 @@ Features
 Screenshot
 ----------
 
-[![Successwhale 3 Screenshot](http://files.ianrenton.com/successwhale-screenshot.png)](http://files.ianrenton.com/successwhale-screenshot.png)
+[![Successwhale 3 Screenshot](/software/successwhale-screenshot.png)](http://files.ianrenton.com/successwhale-screenshot.png)
 
 Status
 ------
