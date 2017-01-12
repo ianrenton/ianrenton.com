@@ -19,7 +19,7 @@ tags:
 
 So, yesterday we had dinner at this place, which delights in the horrible name of "Georgie Porgie's Buffet World".
 
-![Restaurant Exterior](https://files.ianrenton.com/sites/blog/2011/07/georgie.jpg){: .right}
+![Restaurant Exterior](/blog/2011/07/georgie.jpg){: .right}
 
 Delighting in horror does not stop at the name.  It is this place's _ethos_, its _mission statement_.  It is an all-you-can-eat buffet restaurant that knows not the boundaries of culture, of taste, of cuisine, or of [web design](http://www.georgieporgiesbuffet.com/). (WARNING: Steaming steak flashblob ahead.)
 

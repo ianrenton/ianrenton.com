@@ -10,7 +10,7 @@ categories:
 - Where Only Lilies Grow
 ---
 
-<div><p>This is an in-character game thread from <a href="http://ianrenton.com/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p></div>
+<div><p>This is an in-character game thread from <a href="/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p></div>
 
 <DIV><DIV>The rest of the group left for the walls at a quick pace, leaving Alan and Scheherazade alone in what seemed the only place in the whole world in which there was any sense of calm.</DIV></DIV>
 <DIV><DIV>In time, servants came to refill their tea, and the faint sound of sphinxes arguing with US Army troops drifted in from beyond the tightly-shut doors.  It seemed neither group was quite expecting -- or quite trusted -- the other.</DIV></DIV>

@@ -16,32 +16,32 @@ When we were told, months ago, that we'd be spending much of October playing wit
 
 When we arrived, we drove down Loch Ness in glorious afternoon sunshine. Green leaves were just giving way to yellows and reds, bright in the sun, and we knew for a while that there was no better place than this to enjoy the colours of autumn.
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland1.jpg)
+![](/blog/2016/scotland1.jpg)
 
 > Loch Kishorn from Applecross Pass
 
 In truth we were lucky for the whole two weeks. Most days were sunny, a few overcast, and even on those couple of days that did turn out drizzly, I discovered that the place was just as beautiful in the rain.
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland2.jpg)
+![](/blog/2016/scotland2.jpg)
 
 > Kyleakin and Skye Bridge
 
 Our work occasionally took us far from the sea, up to the 600m heights of Creag Gorm along a road described as "normally impassable" in wintry conditions...
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland3.jpg)
+![](/blog/2016/scotland3.jpg)
 
 ...while our few hours of free time took us to more scenic spots like the harbour at Portree.
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland4.jpg)
+![](/blog/2016/scotland4.jpg)
 
 Unnamed islands loomed out of the mist...
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland6.jpg)
+![](/blog/2016/scotland6.jpg)
 
 ...while lochs still as mill-ponds reflected the land to perfection.
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland7.jpg)
+![](/blog/2016/scotland7.jpg)
 
 I'm back home now with my family around me, and glad to be back. But as our last sunrise here shone pink and gold through our steamed-up windows this morning, I did think for a while; that it wouldn't be too bad a thing to stay here forever.
 
-![](https://files.ianrenton.com/sites/blog/2016/scotland5.jpg)
+![](/blog/2016/scotland5.jpg)

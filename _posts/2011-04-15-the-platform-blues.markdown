@@ -20,7 +20,7 @@ tags:
 
 Hearts sink as the display updates from showing wildly inaccurate times to showing Delayed, Delayed, Delayed from top to bottom. "Signalling fault at Bournemouth", it says, and we know then that all hope is lost.
 
- ![image](https://files.ianrenton.com/sites/blog/2011/04/wpid-IMG_20110415_081419_edit0.jpg)
+ ![image](/blog/2011/04/wpid-IMG_20110415_081419_edit0.jpg)
  
 It is April now, and somewhere lilac trees and fields of dandelions are blooming. But here, fat drops of rain fall from steel-grey skies, and cranes tower high above the tunnel through which trains refuse to come.
 

@@ -26,7 +26,7 @@ But life isn't like that, especially not in the world of corporate IT.
 
 Particularly infuriating for those with no choice over their browser are the pop-ups that tell us to "upgrade our browser for the best experience", or worse still, landing pages that flat-out deny access to anyone not using a modern browser.  The IE6 users of the world agree with you! We don't like the browser much either.  But to rub our faces in it is kind of a dick move.
 
- ![image](https://files.ianrenton.com/sites/blog/2011/07/wpid-wordpress-ie.png) 
+ ![image](/blog/2011/07/wpid-wordpress-ie.png) 
 
 With version 3.2, WordPress is incorporating one of these "upgrade your browser" popups alongside an acknowledgement that their admin dashboard may no longer work.  I'm sure the many corporate bloggers who have no choice but to use WordPress from IE6 won't be too happy about that move, but even for the rest of us just trying to get to our site dashboard from work, it's annoying.  Much as we hate those popups, _our own sites_ (at least, their admin areas) will now be displaying them.
 

@@ -22,4 +22,4 @@ The other characters do not know what yours knows, geography-wise.  He can tell 
 
 <br/>
 
-<a href="//files.ianrenton.com/sites/rpgs/northernreaches.jpg"><img src="//files.ianrenton.com/sites/rpgs/northernreaches-792x1024.jpg" alt="Map of the Northern Reaches" title="Map of the Northern Reaches" width="500" height="646" class="aligncenter size-large wp-image-12069" /></a>
+<a href="/rpgs/northernreaches.jpg"><img src="/rpgs/northernreaches-792x1024.jpg" alt="Map of the Northern Reaches" title="Map of the Northern Reaches" width="500" height="646" class="aligncenter size-large wp-image-12069" /></a>

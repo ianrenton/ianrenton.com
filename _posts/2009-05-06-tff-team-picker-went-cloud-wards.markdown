@@ -19,12 +19,12 @@ The script itself now runs on a nightly cron job, so it should refresh its data 
 
 Links:  
 
-[TFF Team Picker](http://ianrenton.com/software/telegraph-fantasy-football-team-picker)  
+[TFF Team Picker](/software/telegraph-fantasy-football-team-picker)  
 
 [Current Optimum Team (View Results)](http://www.onlydreaming.net/tff-optimum-team)  
 
 [Source Code](http://files.ianrenton.com/TeamPicker/teampicker.py.txt) ([GPL v3](http://www.gnu.org/licenses/gpl.html) licenced)  
 
-[Changelog](http://ianrenton.com/software/tff-team-picker-changelog)
+[Changelog](/software/tff-team-picker-changelog)
 
 Also: This thing beat Alan Hansen and Jose Mourinho last week.  Hah!  Squishy famous football meatbags are no match for software!

@@ -31,4 +31,4 @@ An extra feature has been rolled into this release, which is the 'Reply All' but
 
 So that's version 1.1.  Share and enjoy!
 
-_SuccessWhale is a free, open, multi-platform web-based Twitter client.  It's hosted at [SuccessWhale.com](https://successwhale.com/), and you can [find out more about SuccessWhale here](http://ianrenton.com/software/successwhale).  It's [GPL](http://www.gnu.org/licenses/gpl.html)-licenced, so you can download yourself a copy too if you want one._
+_SuccessWhale is a free, open, multi-platform web-based Twitter client.  It's hosted at [SuccessWhale.com](https://successwhale.com/), and you can [find out more about SuccessWhale here](/software/successwhale).  It's [GPL](http://www.gnu.org/licenses/gpl.html)-licenced, so you can download yourself a copy too if you want one._

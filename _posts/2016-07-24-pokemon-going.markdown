@@ -14,7 +14,7 @@ tags:
 
 Bournemouth Gardens is packed on a sunny Sunday afternoon. Shoppers bustle past, teenagers play on the grass, but today more than usual their gaze is directed downwards at their phones. Kids, adults, old and young; cyclists, bus drivers and big hairy bikers all alike. In a parallel universe, the place is dotted with spinning cubes and buried under a thick drift of cherry petals.
 
-![Pokemon in the Gardens](https://files.ianrenton.com/sites/blog/2016/pokemon-gardens.png){: .center}
+![Pokemon in the Gardens](/blog/2016/pokemon-gardens.png){: .center}
 
 > "That's a lot of lures, I wonder if the Gardens will be... yep." Everyone in this picture is playing Pokemon.
 
@@ -22,7 +22,7 @@ So far today we have covered six miles in a morning and an afternoon walk, and J
 
 We've had all kinds of conversations that result from fully half of people you pass doing exactly the same as you&mdash;the two kids whose gym we took and then felt guilty; the dad whose girls were just picking their team while they walked the dog; and the 53-year-old woman whom we taught to battle, while she showed us pictures of the Ninetales she saw but couldn't catch.
 
-![Pokemon on the Beach](https://files.ianrenton.com/sites/blog/2016/pokemon-beach.png){: .center}
+![Pokemon on the Beach](/blog/2016/pokemon-beach.png){: .center}
 
 The mighty Duckbot 2000 held the Pier for ten minutes against the horde of rival team players, and by the time it was time for the walk home, our battery pack was coming in very handy.
 

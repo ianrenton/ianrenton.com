@@ -10,7 +10,7 @@ categories:
 - Personal
 ---
 
-And so, with the beginnings of Autumn, another year begins to draw to a close.  Today is the first of October - exactly a year since, worried by the future and by my rapidly-dwindling time at university, I made [a wish](http://ianrenton.com/blog/a-wish).  
+And so, with the beginnings of Autumn, another year begins to draw to a close.  Today is the first of October - exactly a year since, worried by the future and by my rapidly-dwindling time at university, I made [a wish](/blog/a-wish).  
 
 This is what I wished:
 

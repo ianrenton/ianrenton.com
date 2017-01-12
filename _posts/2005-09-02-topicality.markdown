@@ -16,4 +16,4 @@ On the subject of hope, I'm afraid my latest short-story-fragment-thing features
 
 It's only on its second draft, so it's far from perfect.  All comments appreciated!  
 
-<a href="http://ianrenton.com/fiction/katrina-s-legacy">Katrina's Legacy</a>
+<a href="/fiction/katrina-s-legacy">Katrina's Legacy</a>

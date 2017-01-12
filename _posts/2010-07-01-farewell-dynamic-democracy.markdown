@@ -24,7 +24,7 @@ tags:
 - Website
 ---
 
-Back in April, the Digital Economy Bill was rushed through the wash-up procedure of the outgoing government without the due debate and consideration that I and others believe such a far-reaching bill deserved.  My disillusionment with the government decision-making process over the following week led me to set up and [announce](http://ianrenton.com/blog/an-experiment-in-dynamic-democracy) a new site, called "Dynamic Democracy".  It was an experiment to see what would be discussed if _everyone_ was involved -- on an anonymous basis -- rather than just our elected representatives that often do not do a good job of representing us anyway.
+Back in April, the Digital Economy Bill was rushed through the wash-up procedure of the outgoing government without the due debate and consideration that I and others believe such a far-reaching bill deserved.  My disillusionment with the government decision-making process over the following week led me to set up and [announce](/blog/an-experiment-in-dynamic-democracy) a new site, called "Dynamic Democracy".  It was an experiment to see what would be discussed if _everyone_ was involved -- on an anonymous basis -- rather than just our elected representatives that often do not do a good job of representing us anyway.
 
 The site allowed all users to create and comment on 'Bills', encapsulated ideas or laws that they would be pushing for if they were in power.  Registering gave users the ability to vote bills (and comments) up and down, leading to a list of highest-ranked bills that represented the users' favourite potential policies.
 

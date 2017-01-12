@@ -24,9 +24,9 @@ MEANWHILE! A SHADY BLOKE talks SCARLET JOHANSSON into delivering WEIRD BLUE DRUG
 * Mothers casually telephoned while in surgery: 1
 * Percentage of brain capacity apparently required to Vulcan mind meld: apparently still 20...
 * Percentage of brain capacity apparently required to see pens on desks halfway across the world: 30... and rising
-* ![hacked.gif](https://files.ianrenton.com/sites/filmreviews/hacked.gif): 1
+* ![hacked.gif](/filmreviews/hacked.gif): 1
 * "You! Cloud of swirling dust where a human used to be! Please return to your seat.": 1
-* ![Shoop da Whoop!](https://files.ianrenton.com/sites/filmreviews/shoopdawhoop.jpg): 1
+* ![Shoop da Whoop!](/filmreviews/shoopdawhoop.jpg): 1
 * H. R. Giger gribbly bio-computer interfaces: 1
 * Innocent statues randomly fired upon: 1
 * Rocket launchers inexplicably brought to kidnap one person from a university: 1

@@ -20,7 +20,7 @@ A few short weeks ago, the sun shone and our town sweltered in the summer heat. 
 
 But then the wind blew cold, and the rain swept ashore in sheets.
 
-![A Rainy Day in Poole](https://files.ianrenton.com/sites/blog/2013/09/rain-poole.jpg){: .center}
+![A Rainy Day in Poole](/blog/2013/09/rain-poole.jpg){: .center}
 
 Now I shelter in the warm with my family, newly aware that I am not so young and carefree. I have a family and a place amongst them &mdash; as a father, husband and son.
 

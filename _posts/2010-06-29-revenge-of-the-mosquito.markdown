@@ -19,7 +19,7 @@ tags:
 
 The ["Mosquito"](http://www.compoundsecurity.co.uk/anti-loitering-equipment) anti-loitering system apparently still exists (shows how much I visit shopping centres), and somehow is still [up for discussion](http://www.theyworkforyou.com/wrans/?id=2010-06-28a.4089.h&s=speaker:11309#g4089.q0) in the House of Commons.  I don't believe I've publicly vented my spleen on this subject before, so here goes.
 
-I've said before that [society isn't broken](http://ianrenton.com/blog/society-isnt-broken), but if you're looking for an example of how it sometimes gets pretty close, you need look no further than the Mosquito.  For the unaware, it's a device designed to be installed in shopping centres and malls that emits a high-pitched whine supposedly only audible to children.  It's proven quite popular in recent years due to a rise in youth crime, or a rise in middle-class fears of kids in hoodies -- one of the two.
+I've said before that [society isn't broken](/blog/society-isnt-broken), but if you're looking for an example of how it sometimes gets pretty close, you need look no further than the Mosquito.  For the unaware, it's a device designed to be installed in shopping centres and malls that emits a high-pitched whine supposedly only audible to children.  It's proven quite popular in recent years due to a rise in youth crime, or a rise in middle-class fears of kids in hoodies -- one of the two.
 
 Let me just summarise that for effect: _We have created technology specifically to drive away our own children._
 

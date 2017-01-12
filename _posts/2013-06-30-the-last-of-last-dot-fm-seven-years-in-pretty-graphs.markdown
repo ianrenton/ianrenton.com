@@ -34,7 +34,7 @@ Last.fm offers their own visualisation tools in their "[Playground](http://playg
 
 For example, the [Gender Plot](http://playground.last.fm/demo/genderplot) uses your history to guess your gender and age. As you can see below, Last.fm pegs me as 24 (I'll take that as a compliment) and it's pretty indecisive on my gender &mdash; a largely manly playlist conflicts with my fondness for [Tokio Hotel](https://en.wikipedia.org/wiki/Tokio_Hotel), apparently only listened to by 18-year-old girls.
 
-[![Last.fm Gender Plot](https://files.ianrenton.com/sites/blog/2013/06/lastfm-gender.png)](https://files.ianrenton.com/sites/blog/2013/06/lastfm-gender.png)
+[![Last.fm Gender Plot](/blog/2013/06/lastfm-gender.png)](/blog/2013/06/lastfm-gender.png)
 
 Last.fm Graph
 -------------
@@ -43,7 +43,7 @@ Last.fm Graph
 
 According to my output, my main genres of metal and EBM don't intersect anywhere &mdash; perhaps they would have if more industrial acts had made the "top 50 artists" cut-off that I used for the data set. My 2006-2007 J-Pop phase is sitting on its own separate from everything else (and deservedly so).
 
-[![Last.fm Graph](https://files.ianrenton.com/sites/blog/2013/06/lastfm-graph.png)](https://files.ianrenton.com/sites/blog/2013/06/lastfm-graph.png)
+[![Last.fm Graph](/blog/2013/06/lastfm-graph.png)](/blog/2013/06/lastfm-graph.png)
 
 Last.fm Extra Stats
 -------------------
@@ -52,7 +52,7 @@ Last.fm Extra Stats
 
 Here, the *amount* of music I listened to &mdash; or at least, the number of tracks I scrobbled to Last.fm &mdash; dominates the chart causing a very bumpy output, but it's all there. The sheer volume of [Kotoko](https://en.wikipedia.org/wiki/Kotoko_%28singer%29) and [Scooter](https://en.wikipedia.org/wiki/Scooter_%28band%29) tracks I've listened to are now laid bare for the world to see and silently judge me on.
 
-[![Last.fm Graph](https://files.ianrenton.com/sites/blog/2013/06/lastfm-wave.png)](https://files.ianrenton.com/sites/blog/2013/06/lastfm-wave.png)
+[![Last.fm Graph](/blog/2013/06/lastfm-wave.png)](/blog/2013/06/lastfm-wave.png)
 
 LastHistory
 -----------
@@ -61,7 +61,7 @@ My favourite of the bunch has to be [LastHistory](http://www.frederikseiffert.de
 
 In this history I can see my varying sleep patterns as I changed from student to office worker to father. I can see the all-nighters I pulled and what music I chose to accompany me. The days when I listened to music only on my commute, and the rarer interludes where I managed a whole day of listening.
 
-[![Last.fm Graph](https://files.ianrenton.com/sites/blog/2013/06/lastfm-time.png)](https://files.ianrenton.com/sites/blog/2013/06/lastfm-time.png)
+[![Last.fm Graph](/blog/2013/06/lastfm-time.png)](/blog/2013/06/lastfm-time.png)
 
 Reminiscence rears its head in strange places, few stranger than a 30,000 point data set began one day with a 20-year-old thinking people on the internet would be interested in his music.
 

@@ -17,7 +17,7 @@ When I was born, thirty-one years ago, the UK was in the middle of some tough ec
 
 Over the last eight hours, much of that was undone.
 
-![Sterling one-day changes graph](https://files.ianrenton.com/sites/blog/2016/sterlingonedaychanges.jpg){: .center}
+![Sterling one-day changes graph](/blog/2016/sterlingonedaychanges.jpg){: .center}
 
 Yesterday, my country voted to leave the European Union. Today, the pound is worth as much as it was when I was born, back in 1985.
 
@@ -25,7 +25,7 @@ The impact of leaving the EU will trigger many shockwaves still to come. Besides
 
 It is the worst kind of nationalism and egotism that leads us to think Britain is so Great that it has no need for friends.
 
-![Front page of The Sun, 23 June 2016](https://files.ianrenton.com/sites/blog/2016/sunfrontpage.jpg){: .right}
+![Front page of The Sun, 23 June 2016](/blog/2016/sunfrontpage.jpg){: .right}
 
 So what have we learned, the morning after 17 million people voted for us to leave?
 
@@ -39,7 +39,7 @@ We've learned that *experts aren't trusted*, at least [not by prominent "Leave" 
 
 And we've learned that just as it always was, politics is where *the old screw over the young*. The young who have most to lose from leaving the EU overwhelmingly voted to remain, while the highest proportion of "Leave" voters were amongst the age group who are least likely to be around to deal with the fallout.
 
-![Intention to vote "Leave", by age group](https://files.ianrenton.com/sites/blog/2016/votesbyage.png){: .center}
+![Intention to vote "Leave", by age group](/blog/2016/votesbyage.png){: .center}
 
 Around Europe and the world, [the reaction is mostly one of shock](http://www.telegraph.co.uk/news/2016/06/23/eu-referendum-what-the-world-is-saying---britains-historic-decis/). And amongst those leaders in favour of our decision? [Trump](http://www.bbc.co.uk/news/uk-scotland-glasgow-west-36606184). [Putin](http://www.telegraph.co.uk/news/worldnews/europe/russia/12189082/Vladimir-Putin-wants-Britain-to-vote-for-Brexit-but-that-doesnt-mean-we-shouldnt.html). [Le Pen](https://www.theguardian.com/world/2016/jun/24/european-far-right-hails-britains-brexit-vote-marine-le-pen). And not forgetting [everyone's favourite terrorist group](http://www.theguardian.com/politics/2016/may/17/isis-leader-probably-in-favour-of-britain-leaving-eu-says-david-cameron).
 

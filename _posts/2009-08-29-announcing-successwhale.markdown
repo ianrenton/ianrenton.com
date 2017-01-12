@@ -26,6 +26,6 @@ The source code is licenced under the GNU GPL v3.
 
   * [SuccessWhale](http://successwhale.com) <<< Try Me!
 
-  * [About SuccessWhale, Source Code, etc.](http://ianrenton.com/software/successwhale)
+  * [About SuccessWhale, Source Code, etc.](/software/successwhale)
 
 Update: Due to a move to the proper OAuth API, the software could no longer continue to be called FailWhale, as someone's already written a Twitter app with that name!  Thus, until I or someone else comes up with a good idea, it's called SuccessWhale.

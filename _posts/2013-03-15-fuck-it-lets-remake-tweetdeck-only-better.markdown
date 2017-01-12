@@ -22,7 +22,7 @@ tags:
 
 It's no secret that, since [the launch of version 2.0](http://blog.ianrenton.com/announcing-successwhale-version-2-0/) back in July of 2011, my [SuccessWhale](https://successwhale.com) social network client has stagnated somewhat. It had reached that point at which it did everything that I needed it to do, and so my enthusiasm for updating it kind of disappeared.
 
-![](https://files.ianrenton.com/sites/blog/2013/03/successwhale2.png){: .center}
+![](/blog/2013/03/successwhale2.png){: .center}
 
 > SuccessWhale 2.0
 

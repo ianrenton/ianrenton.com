@@ -45,7 +45,7 @@ The best research / build priorities, and advanced tactics on the game field, ar
 
 Sea Battle is currently at version 0.4. It's playable and enjoyable, but there are a few tweaks that will be required before it can be properly released as v1.0.
 
-The development of Sea Battle was documented as a [series of blog posts](https://ianrenton.com/blog/sea-battle-now-with-more-processing/).
+The development of Sea Battle was documented as a [series of blog posts](/blog/sea-battle-now-with-more-processing/).
 
 ### Licence and Source Code
 

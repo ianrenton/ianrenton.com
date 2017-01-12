@@ -21,7 +21,7 @@ Luckily he talks HIS CAPTOR into returning to GREECE on a FLIMSY PRETENSE, uses 
 * Kings of Argos: 1
 * Managing Directors of Argos PLC: 0
 * Ghost fucking: GHOST FUCKING
-* Scenes of gratuitous sidemoob: 2<br/><br/>![moob intensifies](https://files.ianrenton.com/sites/filmreviews/hercules2.jpg)<br/><br/>
+* Scenes of gratuitous sidemoob: 2<br/><br/>![moob intensifies](/filmreviews/hercules2.jpg)<br/><br/>
 * Rolls on the random accent table: 23
 * Almost convincing Bulgarian accents (belonging to Egyptians): 2
 * Percentage of minor characters who, judging by credits, were actually Bulgarian: 80
@@ -37,4 +37,4 @@ Luckily he talks HIS CAPTOR into returning to GREECE on a FLIMSY PRETENSE, uses 
 
 ## Overall: 2 / 5
 
-![Channeling Russel Crowe](https://files.ianrenton.com/sites/filmreviews/hercules1.jpg)
+![Channeling Russel Crowe](/filmreviews/hercules1.jpg)

@@ -13,7 +13,7 @@ tags:
 
 It was suggested on IRC last night that the sad, cautionary [tale of Sultan Hamnvik](/blog/the-cautionary-tale-of-sultan-hamnvik) may have its roots in my simple lack of knowledge &mdash; particularly of the "cheats" that allow for easier navigation around IKEA's torturous, non-Euclidean shop floors.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-nav-irc.png){: .center}
+![](/blog/2015/ikea-nav-irc.png){: .center}
 
 I'd like to take this opportunity to refute that claim by presenting a set of simple IKEA navigational cheats that I feel will help newcomers avoid the Sultan's fate.
 
@@ -21,7 +21,7 @@ I'd like to take this opportunity to refute that claim by presenting a set of si
 
 Amid thousands of fleeing people, not only does the fire escape become an exit route that can be used without arousing suspicion, but the Dread Guardians of the Store will be forced to flee also. This gives you the perfect opportunity to make your escape and flee into the night, never to return.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-hammer.gif){: .center}
+![](/blog/2015/ikea-hammer.gif){: .center}
 
 > Break glass with IKEA for Mice&#8482; sledgehammer.
 
@@ -31,7 +31,7 @@ IKEA is known for forcing its victims on a torturous journey around what, once u
 
 If you have one, wear a high-vis jacket for this cheat. No-one questions why you're removing a wall if you're wearing a high-vis jacket.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-berlin-wall.jpg){: .center}
+![](/blog/2015/ikea-berlin-wall.jpg){: .center}
 
 > Beyond the wall lies freedom from tyranny.
 
@@ -41,7 +41,7 @@ Flat-pack products can, with some difficulty, be turned into functioning beds an
 
 This method will earn you 1240 exp and 300 gold.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-barricade.png){: .center}
+![](/blog/2015/ikea-barricade.png){: .center}
 
 > And a role in a prominent West End musical.
 
@@ -49,7 +49,7 @@ This method will earn you 1240 exp and 300 gold.
 
 For those who have knowledge of such dark and insidious things as the workings of IKEA, the subtle geometry of their stores can be exploited. Seek refuge in shadow, blend in and slip through darkened corners into worlds of eternal night, emerging at will in other places and other times. Hopefully ones well away from IKEA.  Beware the Yellow Sign.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-tindalos.jpg){: .center}
+![](/blog/2015/ikea-tindalos.jpg){: .center}
 
 > H&Uuml;NDEN &Auml;V TIND&Auml;L&Ouml;S, £10.99.
 
@@ -57,7 +57,7 @@ For those who have knowledge of such dark and insidious things as the workings o
 
 Navigating the store becomes easy when it is reduced to rubble by a period of sustained naval bombardment. Shelter in the basement until the explosions stop, then emerge to discover a brighter, IKEA-free world.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-destroyed.jpg){: .center}
+![](/blog/2015/ikea-destroyed.jpg){: .center}
 
 > Croydon IKEA (before bombardment)
 
@@ -67,7 +67,7 @@ Head to the bedroom section and seek out a pine-effect wardrobe called "N&Auml;R
 
 Defeat the witch to emerge in your grandparents' attic in the year 1942, conveniently giving you the opportunity to stop IKEA from being created in the first place.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-narnia.jpg){: .center}
+![](/blog/2015/ikea-narnia.jpg){: .center}
 
 > The IKEA board of directors meets for the Monday morning leadership briefing.
 
@@ -77,7 +77,7 @@ Nuke it from orbit. It is, as they say, the only way to be sure.
 
 Some collateral damage to local populations is to be expected, but I think you'll agree this is a small price to pay to rid the land of the monstrous beast that is IKEA.
 
-![](https://files.ianrenton.com/sites/blog/2015/ikea-nuke.jpg){: .center}
+![](/blog/2015/ikea-nuke.jpg){: .center}
 
 > All those poor meatballs. Rest in peace, mixed with delicious iodine-131 sauce.
 

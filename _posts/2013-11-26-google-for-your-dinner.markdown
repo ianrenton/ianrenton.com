@@ -18,8 +18,8 @@ My most popular pages are on the [Raspberry Tank](http://raspberrytank.ianrenton
 
 One other page stands out as unexpectedly popular, and this one is almost exclusively due to the British. My [Great Roast Dinner Timing Chart](http://recipes.ianrenton.com/the-great-roast-dinner-timing-chart) regularly flirts with the top of Google's search results, for no adequately-explained reason.
 
-![Inexplicable Google Juice](https://files.ianrenton.com/sites/blog/2013/11/roast-google.png){: .center}
+![Inexplicable Google Juice](/blog/2013/11/roast-google.png){: .center}
 
 And so, British culture creeps into my visitor stats. Because Brits love their Sunday roasts, which means Sunday's the day that a hundred or so of them hit the internet to figure out how the heck to make one. And against a background of stable trends from day to day, I get one that looks like this.
 
-![The Mountains of Meat Metadata](https://files.ianrenton.com/sites/blog/2013/11/roast-visits.png){: .center}
+![The Mountains of Meat Metadata](/blog/2013/11/roast-visits.png){: .center}

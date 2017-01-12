@@ -18,7 +18,7 @@ Six years on, it's obvious how much my coding style has changed&mdash;not only i
 
 If you played Sea Battle ages ago and fancy trying it again, here's what to expect:
 
-![Annotated screenshot showing what's new](https://files.ianrenton.com/sites/blog/2016/seabattlechanges.png){: .center}
+![Annotated screenshot showing what's new](/blog/2016/seabattlechanges.png){: .center}
 
 1) **Islands!** You now get some randomly-generated islands to break up the wide expanse of blue sea. They'll be different each time you run the game. Collision detection is based on the old code for detecting collisions with other ships, which is not great, but your ships shouldn't get stuck behind islands *too* much. Islands only affect movement, not the firing arcs of weapons.
 
@@ -26,7 +26,7 @@ If you played Sea Battle ages ago and fancy trying it again, here's what to expe
 
 3) **Equipment changes!** I've simplified some of the abbreviations for different equipment types so they're less confusing. Submarine types (SSK and SSN hulls) have been dropped, as it never really made sense to have submarines with 15-inch cannons anyway.
 
-![HMS M1](https://files.ianrenton.com/sites/blog/2016/hmsm1.jpg){: .center}
+![HMS M1](/blog/2016/hmsm1.jpg){: .center}
 
 > HMS M1, a submarine with a 12-inch cannon. It could only fire one shot before being reloaded, which required it to stay surfaced. Needless to say, it did not see operational service. (Image: [Wikimedia](https://en.wikipedia.org/wiki/HMS_M1#/media/File:HMS_M1_from_air_port_bow.jpg))
 

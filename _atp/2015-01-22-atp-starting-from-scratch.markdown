@@ -10,7 +10,7 @@ The smartphone control interface for the All-Terrain Pi is more-or-less finished
 
 Scratch is a great introduction to programming for kids, and the colourful drag-and-drop blocks are easy to get to grips with. Unfortunately, by default it doesn't have the ability to talk to I2C devices like the motor control board on the All-Terrain Pi. However, it does have a (just-about documented) ["Remote Sensors Protocol"](http://wiki.scratch.mit.edu/wiki/Remote_Sensors_Protocol) that allows Scratch variables to be written and read via a TCP socket.
 
-![Scratch with the Remote Sensor interface enabled](//files.ianrenton.com/sites/atp/50.png){: .center}
+![Scratch with the Remote Sensor interface enabled](/atp/50.png){: .center}
 
 A [new Python script](https://github.com/ianrenton/All-Terrain-Pi/blob/master/home/pi/atp/scratchrx.py) connects up to a running copy of Scratch, and listens for variables called "speed" and "turn" being set to numeric values. When it sees them, it sends the appropriate control messages to the motors.
 
@@ -24,7 +24,7 @@ I've also knocked up [a quick script](https://github.com/ianrenton/All-Terrain-P
 
 Here you can see the X-forwarded Scratch environment in the foreground, with debug information being printed by the Python script in the background:
 
-![Controlling the All-Terrain Pi from Scratch](//files.ianrenton.com/sites/atp/51.png){: .center}
+![Controlling the All-Terrain Pi from Scratch](/atp/51.png){: .center}
 
 Last of all, a quick video demo of a Scratch program driving the robot. The Scratch code you see in the video can also be found in my Github repository.
 

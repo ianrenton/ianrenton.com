@@ -75,6 +75,6 @@ I did a quick hack to make `mjpg_streamer` think that V4L 1 was installed:
     
     sudo ln -sf /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
 
-This makes a symlink from the location of a V4L 1 header file, pointing at the equivalent V4L 2 header. The majority of `mjpg_streamer` is actually compatible with V4L 2, so this allows most of it to compile. The only remaining issue is with a plugin, `input_gspcav1`, that thankfully is not necessary for the Logitech C200 webcam. References to this plugin were removed from `Makefile`, resulting in a file that looks like [this](https://files.ianrenton.com/sites/raspberrytank/Makefile.txt). After the modification, `make clean all` successfully built the program.
+This makes a symlink from the location of a V4L 1 header file, pointing at the equivalent V4L 2 header. The majority of `mjpg_streamer` is actually compatible with V4L 2, so this allows most of it to compile. The only remaining issue is with a plugin, `input_gspcav1`, that thankfully is not necessary for the Logitech C200 webcam. References to this plugin were removed from `Makefile`, resulting in a file that looks like [this](/raspberrytank/Makefile.txt). After the modification, `make clean all` successfully built the program.
 
 One restart later, with the WiFi dongle and webcam attached, and the Raspberry Tank was back in working order!

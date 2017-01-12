@@ -21,7 +21,7 @@ tags:
 - UX
 ---
 
-In one of my previous posts, "[In Which I Bemoan the Tech Level in the Navy](http://ianrenton.com/blog/in-which-i-bemoan-the-tech-level-in-the-navy)", I discussed the possibility of layering radar and targeting data as a heads-up display (HUD) over a ship's Bridge windows -- not necessarily to speed up reaction time as a fighter pilot requires, but just to remove the layer of separation between data and reality.
+In one of my previous posts, "[In Which I Bemoan the Tech Level in the Navy](/blog/in-which-i-bemoan-the-tech-level-in-the-navy)", I discussed the possibility of layering radar and targeting data as a heads-up display (HUD) over a ship's Bridge windows -- not necessarily to speed up reaction time as a fighter pilot requires, but just to remove the layer of separation between data and reality.
 
 Whilst this level of Augmented Reality might not be catching on any time soon in the Navy, it's starting to become popular in the civilian world (at least, the part of it that owns a smartphone).  That's great, but the problem is, _where do we go from here?_
 

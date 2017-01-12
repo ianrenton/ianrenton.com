@@ -26,13 +26,13 @@ Earlier this evening, [@HolyHaddock](http://www.twitter.com/HolyHaddock) linked 
 > 
 > 
 
-[![Twitter Conversation Thread](https://files.ianrenton.com/sites/blog/2010/02/twitterconvo-158x300.png)](https://files.ianrenton.com/sites/blog/2010/02/twitterconvo.png)
+[![Twitter Conversation Thread](/blog/2010/02/twitterconvo-158x300.png)](/blog/2010/02/twitterconvo.png)
 
 Which is fair enough.  I would argue that Twitter has every right to be bad at conversation -- that's not what it was created for.  Once upon a time, it asked a simple question: "What are you doing?".  The user base has shaped Twitter over the years, most notably in the formalisation of @usernames and #tags which began simply as trends among users.  But it has stuck resolutely to its 140-character limit, without which I think the service would change for the poorer.
 
 I have no real argument with Brian Hurt here -- his reason for leaving is a fine one, and he's certainly not suggesting anyone else should necessarily leave for that reason.  Personally, I didn't come to Twitter for extended conversation, and I won't be leaving for the lack of it.
 
-But ironically @HolyHaddock and I did discuss this problem on Twitter, and it was probably not long before the conversation became annoying to those that follow us both.  (To double up the irony, I was also using a [pastebin](http://ianrenton.com/software/twixt) to reply in more than 140 characters.)
+But ironically @HolyHaddock and I did discuss this problem on Twitter, and it was probably not long before the conversation became annoying to those that follow us both.  (To double up the irony, I was also using a [pastebin](/software/twixt) to reply in more than 140 characters.)
 
 I think the real issue here is that although Twitter does not well support conversations, people tweet things that are likely to start conversations, and there is no real way to _break out_ of Twitter once the conversation has started.  If we assume that Twitter has no intention of allowing long -- even infinite-length -- replies, then if there is to be any way to 'break out', it must be through another service.
 

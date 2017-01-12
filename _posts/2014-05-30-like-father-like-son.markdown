@@ -21,6 +21,6 @@ Faced with this daunting prospect, and knowing that it would be me writing most 
 
 So far, after an hour or so of work &mdash; me in NetBeans and him in MS Paint &mdash; we have this. It's not so much a game as a psychedelic grid, but it's something that can be flashed up on the screen to demonstrate that we are making progress.
 
-![](https://files.ianrenton.com/sites/blog/2014/psychedelic.jpg){: .center}
+![](/blog/2014/psychedelic.jpg){: .center}
 
 It's called "Sudden Death Supervisors", because apparently all six-year-old boys attend the ["Axe Cop"](http://axecop.com/) school of naming things, and you can follow our progress [here on Github](https://github.com/ianrenton/SuddenDeathSupervisors).

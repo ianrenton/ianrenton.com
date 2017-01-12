@@ -6,7 +6,7 @@ title: All-Terrain Pi
 
 The All-Terrain Pi is a "off-road" remote control toy fitted with a Rasbperry Pi, controllable from Scratch or by touch/tilt input from a smartphone.
 
-![The All-Terrain Pi](//files.ianrenton.com/sites/atp/44.jpg){: .center}
+![The All-Terrain Pi](/atp/44.jpg){: .center}
 
 ## Build Process
 

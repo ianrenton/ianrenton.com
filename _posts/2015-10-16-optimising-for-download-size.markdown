@@ -16,7 +16,7 @@ If, by some vanishing small probability, you are a regular visitor to this websi
 
 The answer, apparently, is just over quarter of a megabyte.
 
-![](https://files.ianrenton.com/sites/blog/2015/website-old.png){: .center}
+![](/blog/2015/website-old.png){: .center}
 
 Not a tremendous amount in this world of 8MB rants about how web pages are too big nowadays, but still unnecessarily large given that it contains only about two kilobytes of useful text and hyperlinks. After 65ms (10% of total load time) and 1.59kB (0.5% of total data size), the content and structure of the page is done &mdash; the remaining 90% of time and 99.5% of data are largely useless.
 
@@ -30,7 +30,7 @@ Over the past few days I have made a few changes to improve the performance of t
 
 The result has been a significant reduction in download size and load speed &mdash; the same page is now served in less than half the time and with less than 10% of the data usage.
 
-![](https://files.ianrenton.com/sites/blog/2015/website-new.png){: .center}
+![](/blog/2015/website-new.png){: .center}
 
 One extra addition was to explicitly set cache expiry times in the HTTP headers for the website and associated files. Since the CSS and image files are unlikely to change, and in any case it wouldn't matter much if a user used old ones, setting the cache timeout to a week and a month for various file types has helped speed up loading of subsequent pages after the first. I use the Apache server's `mod_expires` module, which has some [example config here](http://www.inmotionhosting.com/support/website/htaccess/apache-module-mod-expires).
 

@@ -14,4 +14,4 @@ Of course, I'm always doing bad things, but this one is particularly bad, in the
 
 This, I thinnk, is conclusive proof that coding in C++ makes me insane and I should never have to do it again.  
 
-Ladies and Gentlemen, I present: <a href="http://ianrenton.com/fiction/alice-s-adventures-in-c-land">Alice's Adventures in C++land</a>.
+Ladies and Gentlemen, I present: <a href="/fiction/alice-s-adventures-in-c-land">Alice's Adventures in C++land</a>.

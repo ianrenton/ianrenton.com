@@ -8,20 +8,20 @@ categories:
 
 In the current version of my build, I am using a servo control board that uses the Raspberry Pi's only UART as its control interface. As such, to communicate with the UART GPS, I need a second UART available. (See the footnotes on [the BOM](../usv-01-bill-of-materials).) The easiest way to achieve this is with the simple CP2102 USB to UART converter.
 
-![CP2102](https://files.ianrenton.com/sites/usv01/cp2102.jpg){: .center}
+![CP2102](/usv01/cp2102.jpg){: .center}
 
 The uBlox NEO-6M GPS requires a ~50mA 3.3V supply, which luckily the CP2102 can provide. Out of the factory it supplies 5V on its Vcc output pin, but a selector on the reverse of the board can be re-soldered so that 3.3V is provided instead.
 
-![CP2102 Vcc Selector](https://files.ianrenton.com/sites/usv01/cp2102-vcc-select.jpg){: .center}
+![CP2102 Vcc Selector](/usv01/cp2102-vcc-select.jpg){: .center}
 
 The board I have uses a connector compatible with the UART socket on an Ardupilot, which has six pins. We need Vcc, GND, Tx & Rx, but the 1PPS output and second Ground aren't needed in this application, so I've just chopped them off. One terrible soldering job later...
 
-![GPS connections](https://files.ianrenton.com/sites/usv01/gpswiring.jpg){: .center}
+![GPS connections](/usv01/gpswiring.jpg){: .center}
 
 [Raychem still hides many sins.](../tank-day-9-power-to-the-pi/) Now the GPS is wired up and the CP2102 board is providing a 3.3V power supply, it's a simple matter to connect it all up and power on.
 
-![GPS powered on](https://files.ianrenton.com/sites/usv01/gpspoweron.jpg){: .center}
+![GPS powered on](/usv01/gpspoweron.jpg){: .center}
 
 The device appears on the Pi as `/dev/ttyUSB0`, and the GPS transmits by default at 9600 baud, 8N1. Unfortunately the Raspbian operating system doesn't come with `minicom` or another useful way of streaming data from a serial port, so I wrote a quick Python script to read it. As you can see below, the GPS is sending data properly, but despite being able to see a number of satellites, isn't getting a position fix. This is likely because I'm using it indoors, so the test will be repeated outdoors soon to verify that the device does work correctly.
 
-![GPS Data in the terminal](https://files.ianrenton.com/sites/usv01/gpstest.png){: .center}
+![GPS Data in the terminal](/usv01/gpstest.png){: .center}

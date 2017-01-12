@@ -24,7 +24,7 @@ Last night I ended up watching the last few episodes of an anime series called [
 
 At the time, I suppose the main character's relentlessly chirpy attitude had quite an effect on me.  I watched a lot of similar stuff around that time, and somehow the idea that being somewhat self-sacrificing and being constantly happy at people would Make Everything Okay got stuck in my head.
 
-Actually it seemed to work pretty well when I was that age, but that attitude probably got stuck for rather too long -- case in point, [here's me still spaffing Cardcaptor Sakura song lyrics on my LiveJournal at age 19](http://ianrenton.com/blog/taking-down-posters).  Of course, approaching life with the attitude of a fictional, supernaturally-chirpy 10-year-old girl didn't really survive first contact with University life, and certainly not with fatherhood.
+Actually it seemed to work pretty well when I was that age, but that attitude probably got stuck for rather too long -- case in point, [here's me still spaffing Cardcaptor Sakura song lyrics on my LiveJournal at age 19](/blog/taking-down-posters).  Of course, approaching life with the attitude of a fictional, supernaturally-chirpy 10-year-old girl didn't really survive first contact with University life, and certainly not with fatherhood.
 
 But watching the series again still makes me happy, both to see the characters fall in love again, and to remind myself how glad I am that I am no longer that naive.
 

@@ -47,6 +47,6 @@ Now it is the YEAR 2015, we are ADULTS, and we realise that this was the most DE
 * Parental lives saved by water cannon: 230
 * "&#9834;We'll get higher, and higher!&#9834;": Fucking wish I was
 
-## Overall: <br/>![Smells like... teenagers.](https://files.ianrenton.com/sites/filmreviews/ooze.jpg)
+## Overall: <br/>![Smells like... teenagers.](/filmreviews/ooze.jpg)
 
 &#9834;Stop stop Power Rangers!&#9834; Please. Stop.

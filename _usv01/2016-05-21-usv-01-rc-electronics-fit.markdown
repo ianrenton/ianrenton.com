@@ -10,23 +10,23 @@ With the [propulsion hardware fitted](../usv-01-hull-assembly), it's time to fit
 
 The batteries in general are difficult to fit. In particular, on the port side the battery access is blocked by the ESC. The port battery must therefore be pushed forward on the starboard side, then brought around the front of the motor. This is not especially easy either.
 
-![Port Battery fit](https://files.ianrenton.com/sites/usv01/portbattery.jpg){: .center}
+![Port Battery fit](/usv01/portbattery.jpg){: .center}
 
 The starboard battery can then be fitted too, and velco straps&mdash;again with some difficulty&mdash;used to hold them in place.
 
-![Both batteries fitted](https://files.ianrenton.com/sites/usv01/bothbatteries.jpg){: .center}
+![Both batteries fitted](/usv01/bothbatteries.jpg){: .center}
 
 The RC receiver is attached to the throttle ESC and rudder servo by the trailing servo leads.
 
-![Receiver fitted](https://files.ianrenton.com/sites/usv01/rx.jpg){: .center}
+![Receiver fitted](/usv01/rx.jpg){: .center}
 
 The schematic for the installed electronics now looks like this (click for PDF):
 
-[![Base RC Electronics Schematic](https://files.ianrenton.com/sites/usv01/base-rc-schematic.png)](https://files.ianrenton.com/sites/usv01/base-rc-schematic.pdf)
+[![Base RC Electronics Schematic](/usv01/base-rc-schematic.png)](/usv01/base-rc-schematic.pdf)
 
 The boat is now ready to be tested on the water&mdash;initially, in the bath.
 
-![Boat in bath](https://files.ianrenton.com/sites/usv01/bath.jpg){: .center}
+![Boat in bath](/usv01/bath.jpg){: .center}
 
 Here's a video of the first out-of-water and in-water propulsion tests:
 

@@ -22,7 +22,7 @@ tags:
 
 Today, Joseph has been mostly asking for metal things, so that he can test their ferromagnetic properties.  With a magnetic giraffe.  He has already discovered that things the giraffe attaches to are always metal, but that there are some metals to which it will not attach.
 
-[![Magnetic Giraffe](https://files.ianrenton.com/sites/blog/2011/03/IMG_5891-300x199.jpg)](https://files.ianrenton.com/sites/blog/2011/03/IMG_5891.jpg)
+[![Magnetic Giraffe](/blog/2011/03/IMG_5891-300x199.jpg)](/blog/2011/03/IMG_5891.jpg)
 
 To put it another way:
 

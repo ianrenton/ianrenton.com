@@ -8,20 +8,20 @@ categories:
 
 RPi Camera attached to mounting bracket:
 
-![](https://files.ianrenton.com/sites/quadcopter/66.jpg)
+![](/quadcopter/66.jpg)
 
 RPi Camera attached to Pi:
 
-![](https://files.ianrenton.com/sites/quadcopter/67.jpg)
+![](/quadcopter/67.jpg)
 
 Temporary mount onto exposed PCB spacer:
 
-![](https://files.ianrenton.com/sites/quadcopter/68.jpg)
+![](/quadcopter/68.jpg)
 
 Quadcopter electronics stack with camera fitted:
 
-![](https://files.ianrenton.com/sites/quadcopter/69.jpg)
+![](/quadcopter/69.jpg)
 
 VLC streaming test: ([Camera capture script](https://github.com/ianrenton/raspi-utils/blob/master/capture.sh))
 
-![](https://files.ianrenton.com/sites/quadcopter/70.jpg)
+![](/quadcopter/70.jpg)

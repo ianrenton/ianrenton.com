@@ -36,13 +36,13 @@ The new codes that were discovered on [day 12](../tank-day-12-cracking-the-code-
 
 With the codes in place to operate the turret and firing mechanisms, the upper chassis was reattached to the tank. Firstly, the back panel was removed (below left) -- this remained off to allow easier access to the Raspberry Pi. Secondly, the 8-way cable was reconnected to the upper chassis daughter board to allow the control signals to get there from the RX-18 (below right).
 
-[![Removing the Back Panel](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_083433-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_083433.jpg) [![Reconnecting the Cable](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_121141-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_121141.jpg)
+[![Removing the Back Panel](/raspberrytank/IMG_20120627_083433-300x225.jpg)](/raspberrytank/IMG_20120627_083433.jpg) [![Reconnecting the Cable](/raspberrytank/IMG_20120627_121141-300x225.jpg)](/raspberrytank/IMG_20120627_121141.jpg)
 
 The upper chassis could then be screwed back on.  From the rear, the tank now looks like the photo below left, and from the front (posing with its remote control device), below right.
 
 A webcam has been added to the chassis in these pictures, though it is not yet integrated into the system.  (Keep checking the build diary!)
 
-[![Rebuilt Tank from Rear](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_121728-300x225.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_121728.jpg) [![Rebuilt Tank from Front](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_124407-225x300.jpg)](https://files.ianrenton.com/sites/raspberrytank/IMG_20120627_124407.jpg)
+[![Rebuilt Tank from Rear](/raspberrytank/IMG_20120627_121728-300x225.jpg)](/raspberrytank/IMG_20120627_121728.jpg) [![Rebuilt Tank from Front](/raspberrytank/IMG_20120627_124407-225x300.jpg)](/raspberrytank/IMG_20120627_124407.jpg)
 
 ### Step 3: Fifteen Minutes of Internet Fame
 

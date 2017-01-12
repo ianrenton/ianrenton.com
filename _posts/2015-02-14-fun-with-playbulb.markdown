@@ -11,7 +11,7 @@ categories:
 
 [Playbulbs](http://www.playbulb.com/en/index.html) are colour LED lights sold by a company called Mipow. They come with an iOS and Android app that can set their colour and various patterns via Bluetooth. There's no security on them whatsoever, so any nearby device can connect and change their colour. That seems pretty bad &mdash; especially when you consider that as well as the small "candle" style lights we have, they also sell [room lighting versions](http://www.playbulb.com/en/playbulb-color.html#meet-playbulb-color) that play music and can probably flash fast enough to trigger photosensitive epilepsy. Controlled by your neighbours!
 
-![Playbulb Candle](//files.ianrenton.com/sites/blog/2015/playbulb.jpg){: .center}
+![Playbulb Candle](/blog/2015/playbulb.jpg){: .center}
 
 Despite the security problem, this does have one advantage: it's easy to get any other device controlling the Playbulb, not just a phone with their official app. Anything with a Bluetooth 4.0 Low Energy transceiver can easily control the Playbulb using tools like those provided by [BlueZ](http://www.bluez.org/) under Linux, and the protocol is [somewhat understood](https://pdominique.wordpress.com/2015/01/02/hacking-playbulb-candles/). This means it's pretty easy to control a Playbulb programatically using the language of your choice.
 

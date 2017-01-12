@@ -41,4 +41,4 @@ Frankly, an improvement.
 
 ## Overall: 3 / 5
 
-![All Glory to the Hypnosquid](https://files.ianrenton.com/sites/filmreviews/hypnosquid.jpg)
+![All Glory to the Hypnosquid](/filmreviews/hypnosquid.jpg)

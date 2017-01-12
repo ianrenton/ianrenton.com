@@ -10,7 +10,7 @@ categories:
 - Where Only Lilies Grow
 ---
 
-<div><p>This is an in-character game thread from <a href="http://ianrenton.com/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p></div>
+<div><p>This is an in-character game thread from <a href="/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p></div>
 
 <DIV><DIV>Those that had followed the Sphinx stepped out of the palace into bright morning sunlight and the sound of clashing steel.  Between stone columns they could see a battle raging in the distance.</DIV></DIV>
 <DIV><DIV>"We hurry," said the Sphinx.  "There must be no delay in countering a breach of our walls."</DIV></DIV>

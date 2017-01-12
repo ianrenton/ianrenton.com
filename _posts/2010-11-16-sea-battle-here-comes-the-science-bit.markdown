@@ -18,7 +18,7 @@ tags:
 - Software
 ---
 
-Another day down, and somehow Sea Battle is remarkably close to the finish line.  (No idea what I'm talking about?  See previous blog entries [1](http://ianrenton.com/blog/game-idea-spam-time), [2](http://ianrenton.com/blog/sea-battle-now-with-more-processing) & [3](http://ianrenton.com/blog/sea-battle-thats-what-guns-are-for).)
+Another day down, and somehow Sea Battle is remarkably close to the finish line.  (No idea what I'm talking about?  See previous blog entries [1](/blog/game-idea-spam-time), [2](/blog/sea-battle-now-with-more-processing) & [3](/blog/sea-battle-thats-what-guns-are-for).)
 
 First things first, my failings: CPU use and mouse sensitivity are still not fixed.  I'm now having to re-render more of the window on each refresh than before, so if anything they might be slightly worse.
 

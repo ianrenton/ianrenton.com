@@ -37,5 +37,5 @@ By the Numbers
 * Tornadoes dispatched by propane canister: 4
 * Asylum factor: OVER 9000
 
-Overall: ![Chainsaw vs Shark](https://files.ianrenton.com/sites/filmreviews/sharknado.gif) / 5
+Overall: ![Chainsaw vs Shark](/filmreviews/sharknado.gif) / 5
 -------------

@@ -17,7 +17,7 @@ The free tier has now been downgraded so that it must "sleep" &mdash; i.e. be un
 
 As a long-term abuser of Heroku's free tier, I've enjoyed continuous uptime for all my sites courtesy of Heroku. A lot of sites.
 
-![Heroku Apps](https://files.ianrenton.com/sites/blog/2015/heroku-apps.png){: .center}
+![Heroku Apps](/blog/2015/heroku-apps.png){: .center}
 
 All of which I now have to slowly migrate off Heroku as freeloaders like me are no longer welcome!
 

@@ -23,7 +23,7 @@ My son is at the age where every question starts with "why" and everything, no m
 
 When playing with Google Maps, for example, he clicked on one of the stars I'd used to mark places we often go.  Up popped the bubble with the place's name:
 
-[![Google Maps screenshot with location bubble](https://files.ianrenton.com/sites/blog/2011/07/screenshot-1312118967365-500x300.png)](https://files.ianrenton.com/sites/blog/2011/07/screenshot-1312118967365.png)
+[![Google Maps screenshot with location bubble](/blog/2011/07/screenshot-1312118967365-500x300.png)](/blog/2011/07/screenshot-1312118967365.png)
 
 "What's that arrow for?"
 
@@ -33,7 +33,7 @@ An offline example came a few hours later at my parents' house.  They have a ne
 
 But the icon for the mode dial (which I'm afraid I didn't photograph) looked a bit like a square around everyone's favourite "loading" animated GIF:
 
-[![Oven Mode Symbol](https://files.ianrenton.com/sites/blog/2011/07/oven-mode.png)](https://files.ianrenton.com/sites/blog/2011/07/oven-mode.png)
+[![Oven Mode Symbol](/blog/2011/07/oven-mode.png)](/blog/2011/07/oven-mode.png)
 
 "What does that mean?" Joseph asked.
 

@@ -22,7 +22,7 @@ tags:
 - Web App
 ---
 
-Ladies and Gentlemen of the Internet, I am pleased to announce that [SuccessWhale](http://ianrenton.com/software/successwhale) version 2.0 has just been released and is now live on [SuccessWhale.com](https://successwhale.com).
+Ladies and Gentlemen of the Internet, I am pleased to announce that [SuccessWhale](/software/successwhale) version 2.0 has just been released and is now live on [SuccessWhale.com](https://successwhale.com).
 
 SuccessWhale is a web-based client for Twitter and Facebook, written in PHP, JavaScript and MySQL.  It offers a multi-column view that allows users to merge together information from all their connected accounts and view it at a glance from any web browser.
 
@@ -38,7 +38,7 @@ The big changes between version 1.1.2 and 2.0 are:
 
 You can see a screenshot of it in action below:
 
-[![SuccessWhale Screenshot](https://files.ianrenton.com/sites/blog/2011/09/successwhale2-600x318.png)](https://files.ianrenton.com/sites/blog/2011/09/successwhale2.png)
+[![SuccessWhale Screenshot](/blog/2011/09/successwhale2-600x318.png)](/blog/2011/09/successwhale2.png)
 
 I would particularly like to thank [Alex Hutter](http://twitter.com/aefaradien), [Hugo Day](http://twitter.com/Tontonis), [Erica Renton](http://twitter.com/eric_the_girl) and [Rg Enzon](http://twitter.com/rgenzon), whose help in finding bugs and suggesting new features has been instrumental in bringing SuccessWhale up to version 2.0 today.
 

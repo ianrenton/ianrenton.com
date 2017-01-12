@@ -14,7 +14,7 @@ Those of you who follow me on Twitter may have seen me dither about whether to r
 
 In doing so, I decided to update the old Octopress code on which many of my websites are based. This is a long, complicated process of "merge hell" where I try to keep my own customisations to core files, theme mods, new themes, and odd plugins, while making sure nothing conflicts with the changes that have taken place within Octopress itself. With eight different Octopress sites, each with their own oddities, this was a daunting task.
 
-![](https://files.ianrenton.com/sites/blog/2015/pipes.jpg){: .center}
+![](/blog/2015/pipes.jpg){: .center}
 
 While looking for the latest minor version of Octopress 2, I discovered that Octopress 3 was released *months* ago... and it changes everything.
 

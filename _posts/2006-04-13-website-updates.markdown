@@ -12,7 +12,7 @@ categories:
 
 This evening I spent n hours (where n is too many) redesigning my site a bit due to an idea I had earlier in the day.  Behold its shiny shiny glory!  
 
-<a href="http://ianrenton.com/">http://ianrenton.com/</a>  
+<a href="/">/</a>  
 
 Probably goes against every web style "rule" ever written, but what the heck.  Certainly suits the site more than the previous two versions.  
 

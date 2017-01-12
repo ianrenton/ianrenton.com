@@ -8,16 +8,16 @@ categories:
 
 RPi connected up like it was an actual computer!
 
-![](https://files.ianrenton.com/sites/quadcopter/61.jpg)
+![](/quadcopter/61.jpg)
 
 NOOBS Raspbian install:
 
-![](https://files.ianrenton.com/sites/quadcopter/62.jpg)
+![](/quadcopter/62.jpg)
 
 RPi Mounting:
 
-![](https://files.ianrenton.com/sites/quadcopter/58.jpg)
+![](/quadcopter/58.jpg)
 
-![](https://files.ianrenton.com/sites/quadcopter/59.jpg)
+![](/quadcopter/59.jpg)
 
-![](https://files.ianrenton.com/sites/quadcopter/60.jpg)
+![](/quadcopter/60.jpg)

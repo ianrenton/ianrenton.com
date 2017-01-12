@@ -16,6 +16,6 @@ As part of my irrational desire to teach myself OpenGL programming, I'm making a
 
 There's not that much of a game there at the moment (nothing happens if you beat all the enemies, nothing happens if you die...) but you can move around and shoot a few waves of enemies.
 
-If anyone would like to play around with it, [you can get it from here](http://ianrenton.com/software/gunboat).  Some degree of geek-fu is required to get it running, as there isn't an easy-to-use installer yet.
+If anyone would like to play around with it, [you can get it from here](/software/gunboat).  Some degree of geek-fu is required to get it running, as there isn't an easy-to-use installer yet.
 
 Comments / suggestions / bug reports / flames welcome!

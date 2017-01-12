@@ -17,17 +17,17 @@ tags:
 - Social Games
 ---
 
-So, the other day I cheated at a videogame for what is probably the first time in years.  Not for unfair advantage over other players, but merely because it was one of those [games with no end](http://ianrenton.com/blog/on-game-design-time-to-quit), and before consigning it to the dustbin of history, I wanted to see what the best weapons were like.
+So, the other day I cheated at a videogame for what is probably the first time in years.  Not for unfair advantage over other players, but merely because it was one of those [games with no end](/blog/on-game-design-time-to-quit), and before consigning it to the dustbin of history, I wanted to see what the best weapons were like.
 
 It was a pretty simple hack -- an in-game replacement of the contents of a certain memory address, the same thing I had no shame whatsoever in applying via a [Game Genie](http://en.wikipedia.org/wiki/Game_Genie) nearly two decades ago.  And, just as hoped, I eked out a few more hours of fun from the game with my new-found power to lay waste to civilisation.
 
-[![The Kraken weapon](https://files.ianrenton.com/sites/blog/2011/08/screenshot-1313360053126-600x360.png)](https://files.ianrenton.com/sites/blog/2011/08/screenshot-1313360053126.png)
+[![The Kraken weapon](/blog/2011/08/screenshot-1313360053126-600x360.png)](/blog/2011/08/screenshot-1313360053126.png)
 
 The best weapons in this game can only be purchased with the game's "premium" currency, which I simply awarded myself 9999 of with barely a second thought.  But in this world of in-app purchases and micropayments, the company who makes the game want me to have paid for that amount of in-game cash.  Out of interest, I calculated how much money I would have paid to acquire it through legitimate channels.
 
 £840.
 
-[![In-App Purchase Screen](https://files.ianrenton.com/sites/blog/2011/08/screenshot-1313362428347-300x180.png)](https://files.ianrenton.com/sites/blog/2011/08/screenshot-1313362428347.png)
+[![In-App Purchase Screen](/blog/2011/08/screenshot-1313362428347-300x180.png)](/blog/2011/08/screenshot-1313362428347.png)
 
 Now, although there's no way I've obtained £840 worth of value from my cheating, it raises an odd ethical dilemma that's relatively new to gaming.  Have I just cheated to gain myself another couple of hours' enjoyment?  Or have I just cheated someone out of the better part of a thousand pounds?
 

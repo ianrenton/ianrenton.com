@@ -18,6 +18,6 @@ Computers fixed: 0
 
 Short stories written: 1.  
 
-My latest effort is some kind of back-story for Knife.  Here goes: <a href="http://ianrenton.com/fiction/initiation">Initiation</a>.  Enjoy!  
+My latest effort is some kind of back-story for Knife.  Here goes: <a href="/fiction/initiation">Initiation</a>.  Enjoy!  
 
 

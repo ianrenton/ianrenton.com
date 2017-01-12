@@ -8,32 +8,32 @@ categories:
 
 ESCs before and after fitting female bullet connectors:
 
-![](https://files.ianrenton.com/sites/quadcopter/26.jpg)
+![](/quadcopter/26.jpg)
 
 ESCs before and after fitting female bullet connectors:
 
-![](https://files.ianrenton.com/sites/quadcopter/27.jpg)
+![](/quadcopter/27.jpg)
 
 Reterminated ESCs x4:
 
-![](https://files.ianrenton.com/sites/quadcopter/28.jpg)
+![](/quadcopter/28.jpg)
 
 Attachment to motor - temporary in case wires need to be switched to alter motor direction:
 
-![](https://files.ianrenton.com/sites/quadcopter/29.jpg)
+![](/quadcopter/29.jpg)
 
 ESC attached to arm by cable ties:
 
-![](https://files.ianrenton.com/sites/quadcopter/30.jpg)
+![](/quadcopter/30.jpg)
 
 All ESCs and motors fitted:
 
-![](https://files.ianrenton.com/sites/quadcopter/31.jpg)
+![](/quadcopter/31.jpg)
 
-![](https://files.ianrenton.com/sites/quadcopter/32.jpg)
+![](/quadcopter/32.jpg)
 
-![](https://files.ianrenton.com/sites/quadcopter/33.jpg)
+![](/quadcopter/33.jpg)
 
 ESCs connected to gyro stabiliser board:
 
-![](https://files.ianrenton.com/sites/quadcopter/34.jpg)
+![](/quadcopter/34.jpg)

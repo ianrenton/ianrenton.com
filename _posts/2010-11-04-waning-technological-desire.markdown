@@ -21,13 +21,13 @@ tags:
 - Technology
 ---
 
-What seems like a long time ago, I blogged about the unrelenting pace of technology and Internet-borne social interaction, and [how much I loved it](http://ianrenton.com/blog/multitasking-the-new-doing-things). But that was a February day with the promise of Spring in the near future. Now it is Autumn, and I am not altogether sure I feel the same way.
+What seems like a long time ago, I blogged about the unrelenting pace of technology and Internet-borne social interaction, and [how much I loved it](/blog/multitasking-the-new-doing-things). But that was a February day with the promise of Spring in the near future. Now it is Autumn, and I am not altogether sure I feel the same way.
 
 I've thought long and hard about my options now that my phone contract is up for renewal, and the more I consider, the less sure I am - not just of what I want, but of my innate gadget-fetishism as a whole.
 
 My first choice was going to be a Galaxy Tab, but having seen the prices, I'm not sure if it remains a sensible idea. For that money I could have an iPad - I'm typing this post from one and it sure is nice to type on, but everything else Appley would get on my nerves soon enough. Should I just go for an upgrade of my current hardware - the latest and greatest Android phone, rather than trying to split my usage into a separate tablet and dumbphone? Maybe just jack the whole business in and keep internet browsing to my laptop?
 
-[My previous post](http://ianrenton.com/blog/a-farewell-to-marmablues), in which I spent too much of everyone's time reminiscing about my horrific late-90s website, reminded me of simpler days. Windows 98, Yahoo dialup, AOL Instant Messenger, Netscape Navigator. A big beige box with 32MB of RAM and 1 hour-a-day usage limit imposed by my parents.
+[My previous post](/blog/a-farewell-to-marmablues), in which I spent too much of everyone's time reminiscing about my horrific late-90s website, reminded me of simpler days. Windows 98, Yahoo dialup, AOL Instant Messenger, Netscape Navigator. A big beige box with 32MB of RAM and 1 hour-a-day usage limit imposed by my parents.
 
 Pretty grim by today's standards. But yet I used AIM to talk to my friends every night, even though I'd seen them at school that day. And now we have Twitter and Facebook and all the rest, and I've IMed my own Best Man, someone I lived with for two years, maybe once a year - and most of my other friends less than that.
 

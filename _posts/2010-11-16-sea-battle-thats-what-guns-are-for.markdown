@@ -18,9 +18,9 @@ tags:
 - Software
 ---
 
-Another day -- or three, in this case -- brings another ton of functionality for Sea Battle.  (Previous posts: [1](http://ianrenton.com/blog/game-idea-spam-time), [2](http://ianrenton.com/blog/sea-battle-now-with-more-processing))
+Another day -- or three, in this case -- brings another ton of functionality for Sea Battle.  (Previous posts: [1](/blog/game-idea-spam-time), [2](/blog/sea-battle-now-with-more-processing))
 
-Today's release reduces the target frame rate from 60 to 30 frames per second, in an attempt to alleviate the CPU hogging [reported by aefaradien](http://ianrenton.com/blog/sea-battle-now-with-more-processing/comment-page-1#comment-2238) in the previous post's comments section.  As I said in the comments, it's not an issue I see on every machine, so I'd be grateful if any testers could tell me what PC setup they have, and how much CPU power the game takes up.
+Today's release reduces the target frame rate from 60 to 30 frames per second, in an attempt to alleviate the CPU hogging [reported by aefaradien](/blog/sea-battle-now-with-more-processing/comment-page-1#comment-2238) in the previous post's comments section.  As I said in the comments, it's not an issue I see on every machine, so I'd be grateful if any testers could tell me what PC setup they have, and how much CPU power the game takes up.
 
 Today's version also fixes the spinning ships bug that just about everyone reported.  What it doesn't do is make mouse clicks any more responsive, which is annoying me too.  Please bear with it for today, I'll see if I can work out how to deal with that soon.
 
@@ -57,4 +57,4 @@ The only real bit of functionality that's still missing is the research / build 
 
 [You can play the current version of Sea Battle as a Java applet by clicking here.](http://files.ianrenton.com/Sea_Battle/)
 
-_Note: this blog post is old, and the applet now has more functionality than is described here. [The next blog post in the sequence is here.](http://ianrenton.com/blog/sea-battle-here-comes-the-science-bit)_
+_Note: this blog post is old, and the applet now has more functionality than is described here. [The next blog post in the sequence is here.](/blog/sea-battle-here-comes-the-science-bit)_

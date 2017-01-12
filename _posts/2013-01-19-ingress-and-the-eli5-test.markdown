@@ -17,7 +17,7 @@ tags:
 - Ingress
 ---
 
-![](https://files.ianrenton.com/sites/blog/2013/01/wpid-Screenshot_2013-01-19-16-04-52-281x500.png){: .right}
+![](/blog/2013/01/wpid-Screenshot_2013-01-19-16-04-52-281x500.png){: .right}
 
 Ingress, a new Alternate Reality game from Niantic Labs at Google, has been working through its backlog of applications to its open Beta and has just made it as far as my e-mail address in its no-doubt huge list. For anyone still waiting, here's what it looks like.
 
@@ -27,7 +27,7 @@ The range at which you can interact with objects in Ingress's world is 50 metres
 
 "ELI5" is Reddit-speak for "Explain Like I'm 5", and handily enough, I have a real-life five-year-old to whom I have to explain just about everything I do in his presence.
 
-![](https://files.ianrenton.com/sites/blog/2013/01/wpid-Screenshot_2013-01-19-13-32-51-281x500.png){: .left}
+![](/blog/2013/01/wpid-Screenshot_2013-01-19-13-32-51-281x500.png){: .left}
 
 The unfortunate problem with Ingress is that I'm not sure I could convince him -- or my wife for that matter -- that spending the time on it makes any sense whatsoever. I foresee the conversation going roughly like this:
 

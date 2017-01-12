@@ -24,4 +24,4 @@ Here's [BoingBoing's page on the subject](http://www.boingboing.net/2009/09/15/b
 
 If you have a view on this proposal, the e-mail address to write to is: [Andrew.Dumbreck@ofcom.org.uk](mailto:Andrew.Dumbreck@ofcom.org.uk).
 
-If you wish to use it for inspiration, the contents of my e-mail can be found [here](http://ianrenton.com/blog/letter-to-ofcom-drm-in-next-gen-bbc-tv-signals).  **Please do not copy it word-for-word**, its effectiveness will be greatly reduced if everyone sends the same thing!
+If you wish to use it for inspiration, the contents of my e-mail can be found [here](/blog/letter-to-ofcom-drm-in-next-gen-bbc-tv-signals).  **Please do not copy it word-for-word**, its effectiveness will be greatly reduced if everyone sends the same thing!

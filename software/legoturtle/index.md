@@ -5,7 +5,7 @@ comments: true
 githublink: https://github.com/ianrenton/legoturtle/
 ---
 
-Arduino programs for controlling a Lego Mindstorms robot. See [http://ianrenton.com/hardware/lego-turtle](http://ianrenton.com/hardware/lego-turtle) for videos, schematics and build photos!
+Arduino programs for controlling a Lego Mindstorms robot. See [/hardware/lego-turtle](/hardware/lego-turtle) for videos, schematics and build photos!
 
 legoturtle-flippers
 -------------------

@@ -18,8 +18,8 @@ I decided to do this all as one entry rather than about 15 separate ones for the
 
 <i>These will become links as soon as I type up the stories themselves.</i>  
 
-Short Story / Fanfiction: <a href="http://ianrenton.com/fiction/bottle-pharoahs">Bottle Pharaohs</a>  
+Short Story / Fanfiction: <a href="/fiction/bottle-pharoahs">Bottle Pharaohs</a>  
 
-Fragment: <a href="http://ianrenton.com/fiction/endings-and-beginnings">Endings and Beginnings</a>  
+Fragment: <a href="/fiction/endings-and-beginnings">Endings and Beginnings</a>  
 
-Fragment: <a href="http://ianrenton.com/fiction/mai-e-s-first-day">Maiñe's First Day</a>  
+Fragment: <a href="/fiction/mai-e-s-first-day">Maiñe's First Day</a>  

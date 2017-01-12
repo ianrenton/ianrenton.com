@@ -24,7 +24,7 @@ But be warned.  What you see here in the Bournemouth that lies below, you will 
 
 <br/>
 
-<h4><a href="//files.ianrenton.com/sites/fiction/heroncourtroad-map.png"><img src="//files.ianrenton.com/sites/fiction/heroncourtroad-map.png" alt="Heron Court Road" title="Heron Court Road" width="500" height="166" class="aligncenter size-full wp-image-12044" /></a></h4>
+<h4><a href="/fiction/heroncourtroad-map.png"><img src="/fiction/heroncourtroad-map.png" alt="Heron Court Road" title="Heron Court Road" width="500" height="166" class="aligncenter size-full wp-image-12044" /></a></h4>
 
 <h2>Heron Court Road</h2>
 
@@ -43,7 +43,7 @@ Sniggers and chuckles echoed around the court chamber.
 
 Tregonwell was handed a photograph for his elucidation, and the Captain went white as a sheet.
 
-![](https://files.ianrenton.com/sites/fiction/unluckyrabbit01.jpg){: .center}
+![](/fiction/unluckyrabbit01.jpg){: .center}
 
 "But we are kind people," the Heron King continued.  "You may have your precious town.  But we will always be here, watching, pulling strings. Long after your death, we will be ensuring that the town proceeds according to our wishes.  And once a year, at the height of Summer, your descendants will again and again be compelled to make a blood sacrifice to the Heron Court..."
 
@@ -56,7 +56,7 @@ But we who dwell below have long memories, and we know this tale well.  And now 
 
 <br/>
 
-<h4><a href="//files.ianrenton.com/sites/fiction/townsvilleroad-map.png"><img src="//files.ianrenton.com/sites/fiction/townsvilleroad-map.png" alt="Townsville Road" title="Townsville Road" width="500" height="166" class="aligncenter size-full wp-image-12043" /></a></h4>
+<h4><a href="/fiction/townsvilleroad-map.png"><img src="/fiction/townsvilleroad-map.png" alt="Townsville Road" title="Townsville Road" width="500" height="166" class="aligncenter size-full wp-image-12043" /></a></h4>
 
 <h2>Townsville Road</h2>
 

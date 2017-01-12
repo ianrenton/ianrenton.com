@@ -16,7 +16,7 @@ tags:
 - Story
 ---
 
-<div id="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>I started writing this in the Summer of 2009, as an epilogue of sorts to my <a href="http://ianrenton.com/rpgs/changeling-in-love-and-war">Changeling game</a> and conveniently enough a third "Alice in Wonderland" tale.  I got about three paragraphs in and couldn't figure out where I wanted the story to go.  This is what I wrote:</p></div>
+<div id="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>I started writing this in the Summer of 2009, as an epilogue of sorts to my <a href="/rpgs/changeling-in-love-and-war">Changeling game</a> and conveniently enough a third "Alice in Wonderland" tale.  I got about three paragraphs in and couldn't figure out where I wanted the story to go.  This is what I wrote:</p></div>
 
 <div class="story" markdown="1">
 <p>Salutations, dear reader!  My name is Alice Pleasance Liddell, and without further ado, I shall begin with the tale of how I came to be back in this world after my third trip to the Looking-Glass world.</p>

@@ -6,7 +6,7 @@ githublink: https://github.com/ianrenton/raspberrytank/
 ---
 
 This repository contains a number of programs used to control a Heng Long RC tank using a Raspberry Pi.  For more
-information on the Raspberry Tank project, go to [https://ianrenton.com/hardware/raspberry-tank/](https://ianrenton.com/hardware/raspberry-tank/).
+information on the Raspberry Tank project, go to [/hardware/raspberry-tank/](/hardware/raspberry-tank/).
 
 rt_http
 -------

@@ -8,7 +8,7 @@ date: 2016-10-29T21:00:00+01:00
 
 Here is the DVD box art for this movie. It tells you everything you need to know&mdash;except, perhaps, why this ever made it to DVD.
 
-![Robo Vampire box art](https://files.ianrenton.com/sites/filmreviews/robovampire.jpg){: .center}
+![Robo Vampire box art](/filmreviews/robovampire.jpg){: .center}
 
 ## By the Numbers
 

@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-This is the bill of materials for USV-01, based loosely on my previous blog post ["A Base Hardware Set for USV Control"](https://ianrenton.com/blog/a-base-hardware-set-for-usv-control/):
+This is the bill of materials for USV-01, based loosely on my previous blog post ["A Base Hardware Set for USV Control"](/blog/a-base-hardware-set-for-usv-control/):
 
 <table border="1">
   <thead>

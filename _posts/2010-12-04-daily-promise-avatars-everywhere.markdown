@@ -26,23 +26,23 @@ tags:
 
 After a couple of days and one frantic family-free morning, _Daily Promise_ is getting near completion.  Here's what's new since last time.
 
-_(This is post number 3 in my series on the development of _Daily Promise_.  The others are here: [Design Sketches](http://ianrenton.com/blog/daily-promise-design-sketches), [Coming Together](http://ianrenton.com/blog/daily-promise-coming-together/).)_
+_(This is post number 3 in my series on the development of _Daily Promise_.  The others are here: [Design Sketches](/blog/daily-promise-design-sketches), [Coming Together](/blog/daily-promise-coming-together/).)_
 
 ### Friends Page
 
-[![Daily Promise: Friends](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-friends-300x201.png)](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-friends.png)Here's the Friends page - again, almost no deviation from the original design sketch.  The friends page pulls in the list of people that you follow on Twitter, matches it up against Daily Promise's user list, and if any match, they're your Daily Promise friends!  They're simply displayed in alphabetical order, along with a summary of their performance.  Invisible users (see later) don't appear, even to their friends.
+[![Daily Promise: Friends](/blog/2010/12/dailypromise-friends-300x201.png)](/blog/2010/12/dailypromise-friends.png)Here's the Friends page - again, almost no deviation from the original design sketch.  The friends page pulls in the list of people that you follow on Twitter, matches it up against Daily Promise's user list, and if any match, they're your Daily Promise friends!  They're simply displayed in alphabetical order, along with a summary of their performance.  Invisible users (see later) don't appear, even to their friends.
 
 ### Nicer User Pages
 
-[![Daily Promise: User Page](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-userpage-300x93.png)](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-userpage.png)Clicking on one of your friends takes you through to their 'view' page (minus any editing functionality).  It also shows you their Twitter bio, and how long they've been using Daily Promise.
+[![Daily Promise: User Page](/blog/2010/12/dailypromise-userpage-300x93.png)](/blog/2010/12/dailypromise-userpage.png)Clicking on one of your friends takes you through to their 'view' page (minus any editing functionality).  It also shows you their Twitter bio, and how long they've been using Daily Promise.
 
 ### Top Users Widget
 
-[![Daily Promise: Top Users Widget](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-topusers.png)](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-topusers.png)There's now a "top users this week" widget on the home page, showing the performance of the top 5 users.  This resets at midnight on Monday morning.
+[![Daily Promise: Top Users Widget](/blog/2010/12/dailypromise-topusers.png)](/blog/2010/12/dailypromise-topusers.png)There's now a "top users this week" widget on the home page, showing the performance of the top 5 users.  This resets at midnight on Monday morning.
 
 ### Spam your Friends!
 
-[![Daily Promise: Tweet Box](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-tweet-300x78.png)](https://files.ianrenton.com/sites/blog/2010/12/dailypromise-tweet.png)Twitter integration now includes boxes suggesting Tweets you might like to make after each significant activity.  Just as promised in the "How does it work" graphic, Daily Promise never posts to your Twitter account without you deliberately clicking a "Tweet" button each and every time.  Do no evil!
+[![Daily Promise: Tweet Box](/blog/2010/12/dailypromise-tweet-300x78.png)](/blog/2010/12/dailypromise-tweet.png)Twitter integration now includes boxes suggesting Tweets you might like to make after each significant activity.  Just as promised in the "How does it work" graphic, Daily Promise never posts to your Twitter account without you deliberately clicking a "Tweet" button each and every time.  Do no evil!
 
 ### Behind the Scenes
 

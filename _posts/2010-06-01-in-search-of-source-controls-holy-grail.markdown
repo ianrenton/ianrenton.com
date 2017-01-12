@@ -27,7 +27,7 @@ As it stands, our network features a [Subversion](http://subversion.tigris.org/)
     
     http://svn/SomeProject/trunk/BestAppEver/src/
 
-[![Existing Structure](https://files.ianrenton.com/sites/blog/2010/06/oldstructure.png)](https://files.ianrenton.com/sites/blog/2010/06/oldstructure.png)
+[![Existing Structure](/blog/2010/06/oldstructure.png)](/blog/2010/06/oldstructure.png)
 
 Libraries tend to be passed around freely in compiled forms, and many a [Java](http://java.sun.com) project begins with grabbing some JARs from a previous project and dumping them in the new project's `include/`.  Not ideal for re-using code in a sane way.
 
@@ -35,12 +35,12 @@ Clearly, the first-party libraries that we use should be brought properly under 
 
 This gives us four kinds of item that we need to place under source control: Projects, Applications, Libraries, and Library Groups.
 
-[![Proposed Structure 1](https://files.ianrenton.com/sites/blog/2010/06/proposedstructure11.png)](https://files.ianrenton.com/sites/blog/2010/06/proposedstructure11.png)
+[![Proposed Structure 1](/blog/2010/06/proposedstructure11.png)](/blog/2010/06/proposedstructure11.png)
 
 Our first proposed structure had top-level repositories for Projects, Applications and Library, to keep these classes of item separate.  Granted, this has its fair share of issues.  But regardless, here we ran foul of that old problem -- trusting the users.  It's a requirement for many development teams that their projects/applications/libraries be kept private, either invisible to or at least non-writeable by those not in the team.  Here, Subversion -- as well as every other [VCS](http://en.wikipedia.org/wiki/Revision_control) I'm aware of -- fails.  Permissions can be set per repository, but not with any greater granularity.
 
 Given this requirement, we seem to have no choice but to make all four classes of item into repositories in their own right.  But with this structure, if our plan to break code down into smaller, more generic, more re-usable components succeeds, we will eventually have hundreds of repositories.  We'll have shot ourselves in the foot -- although all the re-usable components are now neatly controlled, they will be impossible to find.
-[![Proposed Structure 2](https://files.ianrenton.com/sites/blog/2010/06/proposedstructure2.png)](https://files.ianrenton.com/sites/blog/2010/06/proposedstructure2.png)
+[![Proposed Structure 2](/blog/2010/06/proposedstructure2.png)](/blog/2010/06/proposedstructure2.png)
 
 So, how will we make the available components accessible to users?  Current thoughts centre around maintaining a list in SharePoint -- while it will provide proper filtering and searching options, and as much metadata per item as we could throw at it, it's a separate system.  Nothing I know of will tie the two nicely together, meaning that it's a manual job to update it -- every time a programmer releases a new version of the library, they must head to SharePoint, update the version number and release status, and update a link to point to the tag for that version.
 
@@ -48,7 +48,7 @@ There also remains the matter of how application developers will get hold of the
 
 That range of languages also kills off the likes of [Maven](http://maven.apache.org/), which if given control of our repository would solve a few of these problems -- but only for Java.
 
-[![Figure 4.  The Software Engineering Experience](https://files.ianrenton.com/sites/blog/2010/06/headdesk-300x224.png)](https://files.ianrenton.com/sites/blog/2010/06/headdesk.png)
+[![Figure 4.  The Software Engineering Experience](/blog/2010/06/headdesk-300x224.png)](/blog/2010/06/headdesk.png)
 
 A few systems exist that seem designed to address exactly these kind of problems -- [TeamForge](http://www.open.collab.net/products/ctf/) and [Github](http://fi.github.com/), to name a few popular ones.  Unfortunately, both are prohibitively expensive at this stage, and they also muscle in on the territory of our existing SVN, Mantis and SharePoint applications -- all of which have been a struggle to persuade people to use in the first place, thus our reluctance to change them.
 

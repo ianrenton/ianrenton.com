@@ -19,7 +19,7 @@ tags:
 
 Allow me to share with you one of the most bizarre and infuriating login forms I have ever seen.  This is it, the one for CPP Identity Protection.
 
-![CPP Identity Protection Login Form](https://files.ianrenton.com/sites/blog/2009/10/cpplogin.png)
+![CPP Identity Protection Login Form](/blog/2009/10/cpplogin.png)
 
 Yeah, you read that right.  "Password **or** username" followed by "E-mail address".  The site drops hints that apparently passwords are discontinued, and since last year every customer has a username instead.  Er, guys?  Do you even understand how this works?
 

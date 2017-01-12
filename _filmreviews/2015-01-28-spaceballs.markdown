@@ -18,7 +18,7 @@ And they DIDN'T USE LEGO. Also, [JOHN DIES IN THE END](../john-dies-at-the-end).
 * Red Dwarves: 0.6
 * Red Munchkins: 6
 * Unexpected Furries, in accurate representations: 1
-* Pizza The Hutt: One Million Space Bucks<br/>![One Million Space Bucks](https://files.ianrenton.com/sites/filmreviews/doctorhutt.jpg)
+* Pizza The Hutt: One Million Space Bucks<br/>![One Million Space Bucks](/filmreviews/doctorhutt.jpg)
 * Moustache, in evilness: 93
 * Special effects: lol, no
 * Jewish people: None, no, definitely none here. Nope.
@@ -36,7 +36,7 @@ And they DIDN'T USE LEGO. Also, [JOHN DIES IN THE END](../john-dies-at-the-end).
 * Virgin Galactic: 0
 * Ford Galaxies: 1
 * Mercedeses: 1
-* Space-Comvees:<br/>![Smashing](https://files.ianrenton.com/sites/filmreviews/spaceballs-smashing.jpg)
+* Space-Comvees:<br/>![Smashing](/filmreviews/spaceballs-smashing.jpg)
 * Star Trek references: of course, 2
 * Lost In Space references: 1
 * Thunderbirds references: 1

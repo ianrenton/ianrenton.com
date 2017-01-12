@@ -13,7 +13,7 @@ Scatter graphs are useful when you have two bits of information about some thing
  
 So for example, say you wanted to see if it was more expensive to buy coffee in the town centre than further away. You could go to a bunch of cafes, and write down how much their coffee costs, and how far from the town centre they are. You would end up with something like this:
  
-![Table of Values](https://files.ianrenton.com/sites/guides/scattergraph-1.png)
+![Table of Values](/guides/scattergraph-1.png)
  
 Now you have two bits of information on each cafe.
  
@@ -27,13 +27,13 @@ For each one, we need to make the numbers on the axis cover the whole range of v
  
 Like so:
  
-![Empty Graph](https://files.ianrenton.com/sites/guides/scattergraph-2.png)
+![Empty Graph](/guides/scattergraph-2.png)
  
 Now each cafe is going to be a point (a dot, or a cross) on this graph.  For each one, take its distance from the town centre (along the bottom) and imagine drawing a line going straight up. Then take its price (up the side) and imagine drawing a line straight across.  Where those lines meet, draw a point.
  
 Then move on to the next cafe, and keep going until you've done them all. The graph will look like this:
  
-![Scatter Points](https://files.ianrenton.com/sites/guides/scattergraph-3.png)
+![Scatter Points](/guides/scattergraph-3.png)
  
 Your scatter graph is complete!
  
@@ -45,4 +45,4 @@ On the left are the cafes that are close to the town centre, and they have high 
  
 If you have been asked to, you can draw a trend line on your graph to highlight this trend.  This doesn't involve any maths (until you reach A-levels... :) - you can just get a ruler, roughly line it up with the points on the graph, and draw a line through like this:
  
-![Trendline](https://files.ianrenton.com/sites/guides/scattergraph-4.png)
+![Trendline](/guides/scattergraph-4.png)

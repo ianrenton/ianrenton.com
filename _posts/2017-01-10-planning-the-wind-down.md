@@ -10,7 +10,7 @@ tags:
 - Migration
 ---
 
-It's been five years now since, full of enthusiasm and [convinced that SuccessWhale might make it big](https://ianrenton.com/blog/successwhale-is-terrifying-vps-edition/), I bought myself a server in London somewhere, and moved my web presence over from its previous shared hosting.
+It's been five years now since, full of enthusiasm and [convinced that SuccessWhale might make it big](/blog/successwhale-is-terrifying-vps-edition/), I bought myself a server in London somewhere, and moved my web presence over from its previous shared hosting.
 
 I've learnt a lot in those years.
 
@@ -22,7 +22,7 @@ I've learned that Linux Version Hell *will* bite you at some point, and Ruby Ver
 
 I've learned that drive-by hackers and DoS attackers will find your server, often within hours of it going online, and that fail2ban and mod-blacklist are the sysadmin's friend.
 
-I've learned that [Open Source community drama can break stuff you depend on](https://ianrenton.com/blog/the-open-source-disadvantage/), sometimes without a decent way to recover, and every time you do a package update you risk something not working.
+I've learned that [Open Source community drama can break stuff you depend on](/blog/the-open-source-disadvantage/), sometimes without a decent way to recover, and every time you do a package update you risk something not working.
 
 All in all, it's been a good experience. There have been some frustrating times and late nights fighting with configuration that should just work, but I've learned a lot in the process and gained a much greater understanding of how the internet works.
 

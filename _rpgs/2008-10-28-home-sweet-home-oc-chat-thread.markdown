@@ -35,7 +35,7 @@ Ilandra: Ready to play.<br />
 <hr />
 <p><b>Storyteller</b></p>
 <p>Burn your eyes with colour!  A shiny list of the characters currently in the game can be found at:</p>
-<p><a href="http://ianrenton.com/rpgs/changeling-in-love-and-war/">http://ianrenton.com/rpgs/changeling-in-love-and-war/</a></p>
+<p><a href="/rpgs/changeling-in-love-and-war/">/rpgs/changeling-in-love-and-war/</a></p>
 <hr />
 <p><b>Storyteller</b></p>
 <p>Okay, while we wait for the rest of the characters to show up, I&#039;m<br />
@@ -216,10 +216,10 @@ you might want him to do it!</p>
 <p>Shocking degrees of organisation have occurred!</p>
 <p>I&#039;ve collated all the important Changeling-related cruft on my website,<br />
 along with a summary page for new characters to catch up easily.</p>
-<p>Character Generation rules: <a href="../games/in-love-and-war/ians-modified-changeling-rules">http://ianrenton.com/rpgs/in-love-and-war/ians-modified-changeling-rules</a><br />
-Background Info: <a href="../games/in-love-and-war/fairyland-background-info">http://ianrenton.com/rpgs/in-love-and-war/fairyland-background-info</a><br />
-Intro Story (&#039;Let the Games Begin&#039;): <a href="http://ianrenton.com/fiction/let-the-games-begin">http://ianrenton.com/fiction/let-the-games-begin</a><br />
-New Character Catch-up: <a href="http://ianrenton.com/rpgs/in-love-and-war/in-love-and-war-stuff-characters-know">http://ianrenton.com/rpgs/in-love-and-war/in-love-and-war-stuff-characters-know</a></p>
+<p>Character Generation rules: <a href="../games/in-love-and-war/ians-modified-changeling-rules">/rpgs/in-love-and-war/ians-modified-changeling-rules</a><br />
+Background Info: <a href="../games/in-love-and-war/fairyland-background-info">/rpgs/in-love-and-war/fairyland-background-info</a><br />
+Intro Story (&#039;Let the Games Begin&#039;): <a href="/fiction/let-the-games-begin">/fiction/let-the-games-begin</a><br />
+New Character Catch-up: <a href="/rpgs/in-love-and-war/in-love-and-war-stuff-characters-know">/rpgs/in-love-and-war/in-love-and-war-stuff-characters-know</a></p>
 <hr />
 <p><b>Gustafssen</b></p>
 <p>*Cough cough*</p>
@@ -245,7 +245,7 @@ epic delay, I&#039;ve just had no ideas for the thread at all until now =S</p>
 <p>At last everyone is on the same day as each other, which probably means<br />
 intense pestering is going to put Ilandra and Nyano a day ahead *again*<br />
 now, but hey.</p>
-<p>Also, was bored the other day so there&#039;s a new info page up:  <a href="http://ianrenton.com/rpgs/in-love-and-war/fairylands-tech-level">Fairyland&#039;s Tech Level</a></p>
+<p>Also, was bored the other day so there&#039;s a new info page up:  <a href="/rpgs/in-love-and-war/fairylands-tech-level">Fairyland&#039;s Tech Level</a></p>
 <hr />
 <p><b>Ilandra</b></p>
 <p>Well, I wouldn&#039;t nag if my attention span hadn&#039;t significantly<br />
@@ -306,7 +306,7 @@ _months_ even though I have all the ideas in my head.</p>
 <hr />
 <p><b>Storyteller</b></p>
 <p>Got bored today, crappy unedited background-wank is here:</p>
-<p><a href="http://ianrenton.com/rpgs/in-love-and-war/the-history-of-the-fair-folk">http://ianrenton.com/rpgs/in-love-and-war/the-history-of-the-fair-folk</a></p>
+<p><a href="/rpgs/in-love-and-war/the-history-of-the-fair-folk">/rpgs/in-love-and-war/the-history-of-the-fair-folk</a></p>
 <hr />
 <p><b>Storyteller</b></p>
 <p>A fit of boredom hit me, and I decided to word-count the entire<br />
@@ -319,4 +319,4 @@ and we&#039;re on day 4, is not bad going at all.</p>
 <hr />
 <p><b>Storyteller</b></p>
 <p>More fluff.  This time, a children&#039;s story!</p>
-<p><a href="http://ianrenton.com/fiction/the-tale-of-duchess-hydrangea">http://ianrenton.com/fiction/the-tale-of-duchess-hydrangea</a></p>
+<p><a href="/fiction/the-tale-of-duchess-hydrangea">/fiction/the-tale-of-duchess-hydrangea</a></p>

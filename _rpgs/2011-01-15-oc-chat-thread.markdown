@@ -11,7 +11,7 @@ categories:
 ---
 
 <div class="notes">
-<p>This is the out-of-character game thread from <a href="http://ianrenton.com/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p>
+<p>This is the out-of-character game thread from <a href="/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p>
 </div>
 
 <B>Ian</B>

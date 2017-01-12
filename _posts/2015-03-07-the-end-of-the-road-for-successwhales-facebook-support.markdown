@@ -20,7 +20,7 @@ Facebook's permissions policy, [as I have ranted about before](http://blog.ianre
 
 But Facebook has now snuck something extra into the notes for some of its permissions, each of which must now be manually approved as part of the review process. Into pretty much all the permissions that are fundamental for SuccessWhale, such as `read_stream`:
 
-![Facebook dialog for read_stream permission](https://files.ianrenton.com/sites/blog/2015/fbperms.png){: .center}
+![Facebook dialog for read_stream permission](/blog/2015/fbperms.png){: .center}
 
 Yep, this permission will be denied, as a matter of policy, to apps running on Android, iOS, web, desktop, and more.
 

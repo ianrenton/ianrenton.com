@@ -14,6 +14,6 @@ I did something useful today.  Not work, you realise, because there's precious l
 
 Today: Character Creation.  Tomorrow: Playing the Game!  
 
-For players who haven't read it already: <a href="http://ianrenton.com/rpgs/dreaming-awake-tabletop-intro-paragraph/">Dreaming Awake Tabletop Intro Paragraph</a>  
+For players who haven't read it already: <a href="/rpgs/dreaming-awake-tabletop-intro-paragraph/">Dreaming Awake Tabletop Intro Paragraph</a>  
 
-Today's output, for players and anyone else who wants to pick holes in it: <a href="http://ianrenton.com/rpgs/dreaming-awake-tabletop-character-creation/">Dreaming Awake Tabletop Character Creation</a>
+Today's output, for players and anyone else who wants to pick holes in it: <a href="/rpgs/dreaming-awake-tabletop-character-creation/">Dreaming Awake Tabletop Character Creation</a>

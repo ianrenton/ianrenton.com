@@ -20,6 +20,6 @@ tags:
 
 However, it's become abundantly clear that if there's no kind of pressure on me, I just _don't do it_.  Thus, I'm going to serialise the damn thing on the internet.  Hopefully, the fact that a few people out there might be reading it and waiting for the next chapter will encourage me to get off my arse and write.  I can't promise my ability to write it quickly, or frankly even well, but I'm going to put it out there in case someone enjoys it.
 
-  * [Index Page](http://ianrenton.com/fiction/forgotten-children)
+  * [Index Page](/fiction/forgotten-children)
 
 

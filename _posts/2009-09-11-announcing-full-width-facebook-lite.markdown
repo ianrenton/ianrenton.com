@@ -31,7 +31,7 @@ There's no point putting this under the GPL, it's so simple, so it's public doma
 
   * [UserScripts.org Page](http://userscripts.org/scripts/show/57527)
 
-  * [Script Home Page](http://ianrenton.com/software/full-width-facebook-lite)
+  * [Script Home Page](/software/full-width-facebook-lite)
 
   * [Direct Download](http://files.ianrenton.com/fullwidthfacebooklite.user.js)
 
