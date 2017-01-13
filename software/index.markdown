@@ -49,10 +49,10 @@ The <a href="http://ianrenton.github.io/github-readme-website/">GitHub README We
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="http://ianrenton.github.io/Twixt/"><img src="/images/twixt.png" alt="Twixt" /></a>
+<a href="https://github.com/ianrenton/Twixt/"><img src="/images/twixt.png" alt="Twixt" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="http://ianrenton.github.io/Twixt/">Twixt</a> is a pastebin for Twitter that's integrated with SuccessWhale.
+<a href="https://github.com/ianrenton/Twixt/">Twixt</a> is a pastebin for Twitter that's integrated with SuccessWhale.
 </div>
 <div class="clear"></div>
 
