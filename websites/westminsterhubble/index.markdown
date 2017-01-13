@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Westminster Hubble"
 date: 2017-01-13 21:59
 comments: true

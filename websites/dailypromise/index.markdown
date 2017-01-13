@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Daily Promise"
 date: 2017-01-13 21:59
 comments: true
@@ -24,11 +24,11 @@ tags:
 ![Daily Promise scoreboard](/blog/2010/12/dailypromise-topusers.png){: .right}
 The main interface to the site was a simple chart display, with red or green squares depending on whether you'd kept each promise on each day. The Twitter API was used as the user account system on the site, and it pulled in the list of your Twitter friends who also used Daily Promise so that you automatically competed against your friends to keep the most promises.
 
+The code was open source from the start and can be [downloaded from GitHub](https://github.com/ianrenton/DailyPromise). I wrote this code a long time ago, and the quality of it is pretty bad, but it is functional. The site never really took off, and changes to the Twitter API have since broken the login mechanism, which is Twitter OAuth based.
+
 ![Daily Promise chart](/blog/2010/12/dailypromise-userpage.png){: .center}
 
 > The Daily Promise chart
-
-The code was open source from the start and can be [downloaded from GitHub](https://github.com/ianrenton/DailyPromise). I wrote this code a long time ago, and the quality of it is pretty bad, but it is functional. The site never really took off, and changes to the Twitter API have since broken the login mechanism, which is Twitter OAuth based.
 
 Development
 -----------
