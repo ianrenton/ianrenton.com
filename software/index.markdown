@@ -9,10 +9,10 @@ This page is an index of various bits of software I've written in my spare time.
 ## Web Stuff
 
 <div class="table-col table-col-pic">
-<a href="http://ianrenton.github.io/SuccessWhale/"><img src="/images/successwhale.png" alt="SuccessWhale" /></a>
+<a href="https://github.com/ianrenton/SuccessWhale/"><img src="/images/successwhale.png" alt="SuccessWhale" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="http://ianrenton.github.io/SuccessWhale/">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. The frontend runs in Javascript, there is a separate repository for the <a href="http://ianrenton.github.io/successwhale-api/">backend API</a> which is written in Ruby and supports third-party clients.
+<a href="https://github.com/ianrenton/SuccessWhale/">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. The frontend runs in Javascript, there is a separate repository for the <a href="https://github.com/ianrenton/successwhale-api/">backend API</a> which is written in Ruby and supports third-party clients.
 </div>
 <div class="clear"></div>
 
