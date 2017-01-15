@@ -17,11 +17,6 @@ sass:
 gems: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from, jekyll-seo-tag]
 permalink: /blog/:title/
 
-# Juvia
-juvia_site_key: jei5gff5948ceh4w90b0hvnsfor7841
-juvia_host: juvia.ianrenton.com
-juvia_comment_order: earliest-first
-
 # Collections
 collections:
   fiction:
