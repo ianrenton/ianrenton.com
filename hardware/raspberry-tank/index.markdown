@@ -75,10 +75,10 @@ The "Raspberry Tank" is a project to create an autonomous vehicle with a web int
  [24]: ./tank-day-24-from-i2c-to-http/
  [25]: ./tank-day-25-the-beginnings-of-autonomy/
  [26]: ./tank-day-26-barcamp-or-bust/
- [48]: ./tank-day-27-more-power/
- [49]: ./tank-day-28-first-person-view/
- [52]: ./tank-day-29-fps-mode/
- [55]: ./tank-day-30-cracking-the-code-third-time-luckier/
+ [48]: ./day-27-more-power/
+ [49]: ./day-28-first-person-view/
+ [52]: ./day-29-fps-mode/
+ [55]: ./day-30-cracking-the-code-third-time-luckier/
 
 ## Videos
 
