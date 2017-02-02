@@ -21,7 +21,7 @@ redirect_from:
 </header>
 
 <ul class="post-list">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:10 %}
     <li>
       <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
       <h2>
@@ -33,5 +33,5 @@ redirect_from:
   {% endfor %}
 </ul>
 
-<div class="pagination"><div class="pagination-left"><a href="/blog/page/2">&laquo; Older Posts </a></div></div>
+<div class="pagination"><div class="pagination-left"><a href="/blog/page2/">&laquo; Older Posts </a></div></div>
 </div>
