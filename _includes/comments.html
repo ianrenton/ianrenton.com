@@ -1,0 +1,17 @@
+{% if page.comments != false %}
+<div class="commentheader">
+  <div class="wrapper">
+    <h1>Comments</h1>
+  </div>
+</div>
+<div class="wrapper">
+  <script type="text/javascript">
+  var rows="4";
+  var passwd_on="no";
+  var sites_on="no";
+  var canon_url = (document.querySelector('link[rel="canonical"]') != null) ? '?canon_url=' + encodeURIComponent(document.querySelector('link[rel="canonical"]').getAttribute('href')) : '';
+  document.write('<script src="https://comments.ianrenton.com/hashover.php' + canon_url + '"><\/script>');
+  </script>
+  <noscript>You must have JavaScript enabled to use the comment system.</noscript>
+</div>
+{% endif %}
