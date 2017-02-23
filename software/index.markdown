@@ -196,6 +196,14 @@ My first Python project was a simple <a href="https://ianrenton.github.io/RPGDic
 </div>
 <div class="clear"></div>
 
+<div class="table-col table-col-pic">
+
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/disqus-to-hashover">Disqus to HashOver</a> is a quick and dirty Java application that converts blog comments in a Disqus export into HashOver's file structure.
+</div>
+<div class="clear"></div>
+
 <br/>
 
 ## Abandoned Projects
