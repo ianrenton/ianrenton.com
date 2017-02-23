@@ -10,52 +10,38 @@
    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.3);
 
    > .wrapper > h1 {
-     font-size: 160%;
+     font-size: 120%;
      color: $text-color-inverted;
      margin-bottom: 0;
    }
 }
 
-.juvia-container {
-    font-family: $base-font-family !important;
-    font-size: $base-font-size !important;
+span.cmtnumber {
+  position: relative;
+  left: -100px;
+  display: block;
+  height: 0px;
 }
 
-.juvia-comment .juvia-avatar {
-    margin-top: 0 !important;
-}
-
-.juvia-comment .juvia-metadata {
+div.cmtheader {
   background: transparent none repeat scroll 0% 0% !important;
   border-bottom: 2px solid $background-color-inverted;
+  margin-bottom: 0.5em;
 }
 
-.juvia-comment .juvia-creation-date {
-    font-size: 90% !important;
-}
-@include media-query($on-laptop) {
-  .juvia-comment .juvia-creation-date {
-      display: none;
-  }
+span.cmtdate {
+  margin-left: 1em;
 }
 
-.juvia-topic h1 {
-    margin-top: 1em;
-    font-size: 160%;
+span.cmtdate a {
+  color: $grey-color;
+  text-decoration: none;
 }
 
-.juvia-comment-content p {
-  line-height: $base-line-height;
-}
-
-.juvia-textarea-field textarea {
+div.cmtbox textarea {
   max-width: 100% !important;
 }
 
-.juvia-container blockquote p {
+div.cmtdata blockquote p {
     text-align: left !important;
-}
-
-.juvia-preview h4 {
-    margin-top: 1em;
 }
