@@ -61,8 +61,8 @@ Scene-setting: <a href="http://blog.monsteractive.com/showcase-24-marek-okon/">1
 I have summarised sections of rulebooks to help players of my games. The following links contain generic information for a system, interspersed with notes (in yellow) relating specific games of mine.
 <ul>
 	<li>Dreaming Awake: <a href="./dreaming-awake-tabletop-game">Intro &amp; System Information</a></li>
-	<li>Changeling: The Dreaming: <a href="./ian-s-modified-changeling-rules">House-Ruled Character Creation</a></li>
+	<li>Changeling: The Dreaming: <a href="./ians-modified-changeling-rules">House-Ruled Character Creation</a></li>
 	<li>Nobilis: <a href="./nobilis-character-creation">Character Creation</a> • <a href="./nobilis-chancel-creation">Chancel Creation</a> • <a href="./using-miracles-in-nobilis">Miracles Explained</a></li>
-	<li>D&amp;D: <a href="./let-s-fix-d-d-or-house-rules-by-a-guy-who-hates-rolling-dice">Let's Fix D&amp;D (or, House Rules by a Guy who Hates Rolling Dice)</a></li>
+	<li>D&amp;D: <a href="./lets-fix-dd-or-house-rules-by-a-guy-who-hates-rolling-dice">Let's Fix D&amp;D (or, House Rules by a Guy who Hates Rolling Dice)</a></li>
 	<li>Lego RPG: <a href="./lego-rpg-brainstorm-1">Brainstorm 1</a></li>
 </ul>
