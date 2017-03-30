@@ -24,6 +24,7 @@
 .footer-col-wrapper {
     font-size: $small-font-size;
     color: $text-color;
+    margin-top: 1em;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 
