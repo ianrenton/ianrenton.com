@@ -2,7 +2,7 @@
  * Site header & homepage banner style
  */
 .site-header {
-    background-color: $background-color-inverted;
+    background-color: $background-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -20,7 +20,8 @@
 
     &,
     &:visited {
-        color: $text-color-inverted;
+        color: $text-color;
+        font-weight: bold;
     }
 }
 
@@ -33,7 +34,7 @@
     }
 
     .page-link {
-        color: $text-color-inverted;
+        color: $text-color;
         line-height: $base-line-height;
         text-decoration: none;
 
@@ -47,7 +48,7 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color-inverted;
+        background-color: $background-color;
         text-align: right;
 
         .menu-icon {
@@ -56,7 +57,7 @@
             line-height: 0.8em;
             font-size: 250%;
             text-align: center;
-            color: $text-color-inverted;
+            color: $text-color;
             text-decoration: none;
         }
 
