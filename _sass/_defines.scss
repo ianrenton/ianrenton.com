@@ -10,13 +10,13 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$text-color-inverted:       #fffff0;
-$background-color: #fffff0;
-$background-color-inverted: #444;
+$text-color:       black;
+$text-color-inverted:       white;
+$background-color: white;
+$background-color-inverted: black;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #666666;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
