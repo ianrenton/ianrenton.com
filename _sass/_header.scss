@@ -20,7 +20,6 @@
     &,
     &:visited {
         color: $text-color;
-        font-weight: bold;
     }
 }
 
@@ -35,7 +34,6 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        font-weight: bold;
         text-decoration: none;
 
         // Gaps between nav items, but not on the first one
