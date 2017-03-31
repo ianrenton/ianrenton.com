@@ -110,10 +110,6 @@
     @include media-query($on-palm) {
       width: 100%;
     }
-      
-    > a {
-      text-decoration: none;
-    }
   }
 
   > .pagination-right {
@@ -124,10 +120,6 @@
 
     @include media-query($on-palm) {
       width: 100%;
-    }
-
-    > a {
-      text-decoration: none;
     }
   }
 }
