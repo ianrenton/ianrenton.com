@@ -4,6 +4,7 @@
 .site-footer {
     background-color: $background-color;
     padding: 0 0 $spacing-unit 0;
+    border-top: 2px solid $text-color;
 }
 
 .footer-heading {
@@ -24,7 +25,6 @@
 .footer-col-wrapper {
     font-size: $small-font-size;
     color: $text-color;
-    border-top: 2px solid $text-color;
     margin-left: -$spacing-unit / 2;
     padding-top: 2em;
     @extend %clearfix;
