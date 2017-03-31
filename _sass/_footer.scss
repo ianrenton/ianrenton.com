@@ -3,8 +3,7 @@
  */
 .site-footer {
     background-color: $background-color;
-    padding: $spacing-unit 0;
-    border-top: 2px solid $text-color;
+    padding: 0 0 $spacing-unit 0;
 }
 
 .footer-heading {
@@ -25,8 +24,9 @@
 .footer-col-wrapper {
     font-size: $small-font-size;
     color: $text-color;
-    margin-top: 1em;
+    border-top: 2px solid $text-color;
     margin-left: -$spacing-unit / 2;
+    padding-top: 2em;
     @extend %clearfix;
 
     > * > a, a:visited, a:hover {
