@@ -32,6 +32,10 @@
     font-size: $huge-font-size;
     text-decoration: none;
     line-height: 1em;
+    color: $text-color;
+    &:visited {
+        color: $text-color;
+    }
 }
 
 
