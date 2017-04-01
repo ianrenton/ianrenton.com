@@ -5,7 +5,7 @@
     background-color: $background-color-inverted;
     min-height: 56px;
     box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.3);
-    
+
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -84,11 +84,13 @@
 /**
  * Homepage banner
  */
-div#homepagebanner {
-  padding-bottom: 1em;
-  margin-bottom: 2em;
-  border-bottom: 2px solid $text-color;
+div#homepage-top-content {
+  background-color: $background-color-shaded;
+  padding-top: 1em;
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.3);
+}
 
+div#homepagebanner {
   .top {
     img {
       float:left;
