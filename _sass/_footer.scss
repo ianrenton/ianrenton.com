@@ -2,9 +2,10 @@
  * Site footer
  */
 .site-footer {
-    background-color: $background-color-shaded;
+    background-color: $background-color;
     padding: 0 0 $spacing-unit 0;
     box-shadow: 0px -6px 5px 0px rgba(0,0,0,0.3);
+    color: $text-color
 }
 
 .footer-heading {
