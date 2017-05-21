@@ -84,7 +84,7 @@ Feb&nbsp;2014 &mdash; Present
 <p><b>Principal Software Engineer at (Current Employer)</b></p>
 <p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work, followed by the full range of requirements, architectural design, detailed design and test documentation.</p>
 <p>Interviewed and selected three new members of the team to support the work.</p>
-<p>Currently leading a team of 4 to finish up development of the software applications during the autumn of 2016, alongside our ongoing trials and testing programme.</p>
+<p>Currently leading a team of 3 to finish up testing of the software applications during the spring and summer of 2017, alongside our ongoing trials and testing programme.</p>
 </td></tr><tr><td>
 
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
