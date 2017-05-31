@@ -179,6 +179,7 @@
     var iet = new MILSTDIcon({iconUrl: 'SFGPI-----H____.png'});
     var germany = new MILSTDIcon({iconUrl: 'EFFPCF----H____.png'});
     var gulf = new MILSTDIcon({iconUrl: 'SUSP------_____.png'});
+    var udt17 = new MILSTDIcon({iconUrl: 'SFGPI-----H____.png'});
 
     // Text definitions
     var usvMCMLabel = L.divIcon({
@@ -217,7 +218,7 @@
       className: 'iconLabel',
       html: '(Current&nbsp;Employer)'
     });
-    var homeLabel = L.divIcon({
+    var homeabel = L.divIcon({
       className: 'iconLabel',
       html: 'Home'
     });
@@ -236,6 +237,10 @@
     var gulfLabel = L.divIcon({
       className: 'iconLabel',
       html: 'Middle&nbsp;East&nbsp;Projects'
+    });
+    var udt17Label = L.divIcon({
+      className: 'iconLabel',
+      html: 'UDT&nbsp;2017'
     });
 
     // Markers
@@ -301,6 +306,11 @@
     L.marker([26.2902,52.3166], {icon: gulfLabel}).addTo(map);
     L.marker([26.2902,52.3166], {icon: gulf}).addTo(map)
       .bindPopup("<b>Middle East Projects</b><br />I have worked with Middle East navies on a number of projects, and have spent time in several Gulf states to conduct testing and achieve acceptance of those systems.");
+
+    L.marker([53.0888813,8.8138321], {icon: udt17Label}).addTo(map);
+    L.marker([53.0888813,8.8138321], {icon: udt17}).addTo(map)
+      .bindPopup("<b>UDT 2017</b><br />I attended the UDT conference in Bremen, Germany in 2017 as a speaker, presenting a paper entitled 'Approaches to testing of COLREGs-Compliant Collision Avoidance for Unmanned Surface Vessels'.");
+
 
 
   </script>
