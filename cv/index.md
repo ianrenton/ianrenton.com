@@ -141,11 +141,11 @@ Physics and Electronics, as well as a certificate in Japanese Language & Studies
 
 ## Published Work
 
-Renton, I.; Motson, D.; Dart, F. and Lane R. (2016) *Approaches to testing of COLREGs-Compliant Collision Avoidance Algorithms for Unmanned Surface Vessels*, UDT 2017, Bremen, Germany
+Renton, I., Motson, D., Dart, F. and Lane R. (2017). Approaches to testing of COLREGs-Compliant Collision Avoidance Algorithms for Unmanned Surface Vessels. In: *Undersea Defence Technology*. Bremen, Germany: UDT.
 
-Mediavilla Varas, J.; Caharija, W.; Smith, R.; Bhuiyan, Z.; Naeem, W.; Carter, P. and Renton, I. (2016) *Autonomous COLREGs Compliant Ship Navigation, Using Bridge Simulators and an Unmanned Vessel*, 15th International Conference on Computer and IT Applications in the Maritime Industries (COMPIT) &mdash; [Available online](http://data.hiper-conf.info/compit2016_lecce.pdf) pp. 280-286
+Mediavilla Varas, J., Caharija, W., Smith, R., Bhuiyan, Z., Naeem, W., Carter, P. and Renton, I. (2016). Autonomous COLREGs Compliant Ship Navigation, Using Bridge Simulators and an Unmanned Vessel. In: *15th International Conference on Computer and IT Applications in the Maritime Industries*. Lecce, Italy: COMPIT, pp. 280-286. Available at: [http://data.hiper-conf.info/compit2016_lecce.pdf](http://data.hiper-conf.info/compit2016_lecce.pdf).
 
-Cowling, D.; Kanouras, A.; Renton, I. and Stinchcombe, D. *Apparatus and method for sorting objects by colour*. Patent application PCT/GB2003/005027, June 2004 &mdash; [Available online](https://www.google.com/patents/WO2004045781A1?cl=en)
+Cowling, D., Kanouras, A., Renton, I. and Stinchcombe, D. (2004). *Apparatus and method for sorting objects by colour*. Patent application PCT/GB2003/005027. Available at: [https://www.google.com/patents/WO2004045781A1?cl=en](https://www.google.com/patents/WO2004045781A1?cl=en).
 
 ## Security
 
