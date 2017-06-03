@@ -2,6 +2,8 @@
 layout: default
 paginate: true
 ---
+
+<div class="page-content">
 <div class="wrapper">
 {% if paginator.page != 1 %}
   <header class="post-header">
@@ -23,4 +25,5 @@ paginate: true
 </ul>
 
 <div class="pagination">{% if paginator.next_page_path != nil %}<div class="pagination-left"><a href="{{paginator.next_page_path}}">&laquo; Older Posts</a></div>{% endif %}{% if paginator.previous_page_path != nil %}<div class="pagination-right"><a href="{{paginator.previous_page_path}}">Newer Posts &raquo;</a></div>{% endif %}</div>
+</div>
 </div>
