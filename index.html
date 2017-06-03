@@ -24,10 +24,10 @@ redirect_from:
     <ul class="post-list">
       {% for post in site.posts limit:10 %}
         <li>
-          <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
           <p>{{ post.excerpt }}</p>
           <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
         </li>
