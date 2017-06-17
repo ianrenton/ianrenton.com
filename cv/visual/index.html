@@ -180,6 +180,7 @@
     var germany = new MILSTDIcon({iconUrl: 'EFFPCF----H____.png'});
     var gulf = new MILSTDIcon({iconUrl: 'SUSP------_____.png'});
     var udt17 = new MILSTDIcon({iconUrl: 'SFGPI-----H____.png'});
+    var mcmtrial17 = new MILSTDIcon({iconUrl: 'SFUPWMGX--_____.png'});
 
     // Text definitions
     var usvMCMLabel = L.divIcon({
@@ -241,6 +242,10 @@
     var udt17Label = L.divIcon({
       className: 'iconLabel',
       html: 'UDT&nbsp;2017'
+    });
+    var mcmTrial17Label = L.divIcon({
+      className: 'iconLabel',
+      html: 'Belgium&nbsp;MCM&nbsp;Trials&nbsp;2017'
     });
 
     // Markers
@@ -310,6 +315,10 @@
     L.marker([53.0888813,8.8138321], {icon: udt17Label}).addTo(map);
     L.marker([53.0888813,8.8138321], {icon: udt17}).addTo(map)
       .bindPopup("<b>UDT 2017</b><br />I attended the UDT conference in Bremen, Germany in 2017 as a speaker, presenting a paper entitled 'Approaches to testing of COLREGs-Compliant Collision Avoidance for Unmanned Surface Vessels'.");
+
+    L.marker([51.3624537,2.9851921], {icon: mcmTrial17Label}).addTo(map);
+    L.marker([51.3624537,2.9851921], {icon: mcmTrial17}).addTo(map)
+      .bindPopup("<b>Belgium MCM Trials 2017</b><br />I was deputy trials officer and main mission planner / remote operator for our company during the Belgian Navy's maritime mine countermeasures trials in the North Sea in 2017. We successfully demonstrated an unmanned surface vessel with towed mine-hunting sonar and on-board remote mine disposal vehicles.");
 
 
 
