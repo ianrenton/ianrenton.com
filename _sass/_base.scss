@@ -47,16 +47,19 @@ img {
 img.left {
     float: left;
     margin-right: 1em;
+    box-shadow: 0px 0px 15px black;
 }
 
 img.right {
     float: right;
     margin-left: 1em;
+    box-shadow: 0px 0px 15px black;
 }
 
 img.center {
     margin: 0 auto;
     display: block;
+    box-shadow: 0px 0px 15px black;
 }
 
 
