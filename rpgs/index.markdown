@@ -4,7 +4,7 @@ comments: false
 date: 2009-09-24 09:22:30
 layout: page
 slug: roleplaying-games
-title: Ian's RPG Stuff 
+title: Ian's RPG Stuff
 wordpress_id: 895
 ---
 
@@ -13,7 +13,8 @@ This page is an index for various material related to pen-and-paper roleplaying 
 <div class="table-col">
 <h2>Current Games</h2>
 <ul>
-	<li><em>Watch this space...</em></li>
+<li>Smoke on the Horizon (D&amp;D 3rd Ed):<br/>
+<a href="./smoke-on-the-horizon-game-intro">Game Intro</a></li>
 </ul>
 <h2>Past Games</h2>
 <ul>
