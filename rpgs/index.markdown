@@ -15,7 +15,8 @@ This page is an index for various material related to pen-and-paper roleplaying 
 <ul>
 <li>Smoke on the Horizon (D&amp;D 3rd Ed):<br/>
 <a href="./smoke-on-the-horizon-game-intro">Game Intro</a><br/>
-Maps: <a href="./maps/lai-oronti.jpg">Lai Oronti</a></li>
+Maps: <a href="./maps/lai-oronti.jpg">Lai Oronti</a><br/>
+Session Notes: <a href="./smoke-on-the-horizon-session-1-notes/">1</a></li>
 </ul>
 <h2>Past Games</h2>
 <ul>
