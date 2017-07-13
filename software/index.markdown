@@ -181,10 +181,10 @@ I also have a repository for general <a href="https://github.com/ianrenton/raspi
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="https://ianrenton.github.io/iridium9601sim"><img src="/images/iridium9601sim.png" alt="Iridium9601Sim" /></a>
+<a href="https://ianrenton.github.io/Iridium9601Sim"><img src="/images/iridium9601sim.png" alt="Iridium9601Sim" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://ianrenton.github.io/iridium9601sim">Iridium9601Sim</a> is a variant of my <a href="https://ianrenton.github.io/crapterminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
+<a href="https://ianrenton.github.io/Itidium9601Sim">Iridium9601Sim</a> is a variant of my <a href="https://ianrenton.github.io/crapterminal">CrapTerminal</a> serial terminal app with some helpful shortcuts for use with Iridium 9601 SBD modems.
 </div>
 <div class="clear"></div>
 
