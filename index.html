@@ -13,7 +13,7 @@ redirect_from:
         <h1>Ian Renton</h1>
         <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
       </div>
-      <p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command & control of autonomous vehicles and communications networks. By night I build robots and web applications, alongside being a husband, father and amateur cook.</p>
+      <p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, alongside being a husband, father and amateur cook.</p>
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> &mdash; <a href="/cv/">View my CV</a> &mdash; <a href="/hardware/">Hardware Projects</a> &mdash; <a href="/software/">Software Projects</a></p>
     </div>
   </div>
@@ -27,7 +27,7 @@ redirect_from:
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
-          <span class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</span>
+          <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
           <p>{{ post.excerpt }}</p>
           <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
         </li>
