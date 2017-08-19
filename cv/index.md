@@ -12,7 +12,7 @@ h1 {
 }
 td {
   padding: 10px 5px;
-  min-width: 7em;
+  min-width: 7.1em;
 }
 .printme {
   text-align: center;
