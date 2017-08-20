@@ -11,13 +11,13 @@ tags:
 
 It's fifteen years today since I first posted something&mdash;specifically, [terrible teenage poetry](/blog/shining-future/)&mdash;on what would become my blog. Back then my website was a purple-and-black exhibition of my poor teenage sense of humour, and I started posting snippets of poetry to it under the category of "Thoughts".
 
-![Mad Marmablue Web Portal, circa 2001](/blog/2016/mmwp2001.png)
+![Mad Marmablue Web Portal, circa 2001](/blog/2016/mmwp2001.png){: .center}
 
 In 2002 I was invited to an up-and-coming site called "LiveJournal", a perfect platform for sharing my young adult angst and drama for the world to see. At university it became central to our social lives, a foreshadowing of the social network generation that was yet to come.
 
 LiveJournal came and went. By 2009 I was blogging on my own WordPress site and syndicating the posts to LJ, and by 2011 [I was reminiscing about what we had lost](/blog/the-rise-and-fall-of-livejournal/). In 2013, beset by buggy plugins and security problems with WordPress, I moved to about the nerdiest blog platform imaginable, the static site generator Octopress.
 
-![My Octopress blog, circa 2013](/blog/sitehistory/2013-09-15.png)
+![My Octopress blog, circa 2013](/websites/design-history/2013-09-15.png){: .center}
 
 Editing a site this way has its advantages&mdash;the end result is fast and secure, and appeals to my geekier tendencies by allowing me to keep it all under version control. But it has its disadvantages too, principally the fact that the site needs a "compile" step before the results can be seen. In recent months the combination of my old PC, 3000+ pages to render, and a few poorly-implemented plugins have resulted in compile times in excess of three minutes. That's not too bad for a one-off post, but it's particularly grating when we do [Film Review by the Numbers](/filmreviews/) on a Saturday night. Writing the reviews is something of a spontaneous group activity, and when it takes three minutes to see what a change will look like, those minutes feel a lot longer.
 
