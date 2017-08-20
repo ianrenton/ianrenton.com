@@ -1,5 +1,5 @@
 _site
+.bundle
 .sass-cache
 .code-highlighter-cache
-_deploy.yml
-openid/index.php
+.jekyll-metadata
