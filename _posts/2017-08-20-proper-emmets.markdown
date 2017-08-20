@@ -17,7 +17,7 @@ Vienna's wordy travelogue came courtesy of the many hot evenings where, sharing 
 
 The downside is, if you were expecting an interesting post to read, all I have for you are photos!
 
-<p><center><b><u>What I Did On My Holidays, by Ian Renton, age 23&frac14;</u></b></center></p>
+<p><center><b><u>What I Did On My Holidays, by Ian Renton, age 32&frac14;</u></b></center></p>
 
 We explored Par beach at night, and came back covered in mud...
 
