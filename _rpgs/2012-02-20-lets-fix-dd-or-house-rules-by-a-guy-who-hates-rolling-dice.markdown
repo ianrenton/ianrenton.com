@@ -34,7 +34,7 @@ Sneaky McRogueface can run ahead if she wants. The guy with 6 Strength and full 
 Look, I'll keep my levels consistent if you promise not to explore every damn corner while drawing the thing on a sheet of graph paper. I want to describe my rooms by telling you what you notice, not how many feet square it is.
 
 <strong>Spell preparation</strong>
-Let's just pretend you prepared whatever spell that you need to save your arse. No-one dies because they learned one too many Magic Missiles and one too few Cones of Cold.
+Let's just pretend you prepared whatever spell that you need to save your arse. No-one dies because they learned one too many Magic Missiles and one too few Cones of Cold.<br/><em>EDIT: Maybe not such a good idea, see the comments section below.</em>
 
 <strong>That First Meeting at the Inn</strong>
 Oh god, how many times have we done that scene now? It's painful. We can say your characters already know each other if you like. Unless of course you'd like to give a totally misleading first impression.

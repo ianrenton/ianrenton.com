@@ -46,7 +46,7 @@ Session Notes: <a href="./beyond-the-frontier-session-1-notes/">1</a> <a href=".
 Scene-setting: <a href="http://blog.monsteractive.com/showcase-24-marek-okon/">1</a> <a href="http://i.imgur.com/OamQd.jpg">2</a> <a href="http://i4.minus.com/iDom0um01SXqs.jpg">3</a> <a href="http://i.imgur.com/P5jTg.jpg">4</a> <a href="http://imgur.com/a/nBBEW">5</a> <a href="http://www.all-holidays.de/ght/media/rokgallery/0/0fe78847-c3b4-4272-af35-ab07d49b01ab/07c29308-afa3-4ed7-f392-d70ff12ef0f5.jpg">6</a> <a href="http://imgur.com/a/V6hu9">7</a> <a href="http://imgur.com/a/ixxhg">8</a> <a href="http://i.imgur.com/9GO1aJS.jpg">9</a> <a href="http://i.imgur.com/KyD23Zg.jpg">10</a> <a href="http://cghub.com/images/view/179719">11</a></li>
 	<li>Explorers in Exile (7th Sea):<br/><a href="./explorers-in-exile-game-intro">Game Intro</a></li>
 	<li>Beyond the Fields We Know (Mage):<br/>
-<a href="./mage-beyond-the-fields-we-know">Game Intro</a> • <a href="http://fiction.ianrenton.com/catching-the-bug">Intro Story</a></li>
+<a href="./mage-beyond-the-fields-we-know">Game Intro</a> • <a href="/fiction/catching-the-bug">Intro Story</a></li>
 	<li>What Lies Beyond Broadlands Road:<br/>
 <a href="./what-lies-beyond-broadlands-road">Game Intro &amp; Characters</a></li>
 	<li>War on Terror! The RPG:<br/>

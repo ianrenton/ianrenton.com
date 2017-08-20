@@ -18,7 +18,7 @@ Six years on, it's obvious how much my coding style has changed&mdash;not only i
 
 If you played Sea Battle ages ago and fancy trying it again, here's what to expect:
 
-![Annotated screenshot showing what's new](/blog/2016/seabattlechanges.png){: .center}
+![Annotated screenshot showing what's new](/blog/2016/seabattlechanges.png){: .center .noshadow}
 
 1) **Islands!** You now get some randomly-generated islands to break up the wide expanse of blue sea. They'll be different each time you run the game. Collision detection is based on the old code for detecting collisions with other ships, which is not great, but your ships shouldn't get stuck behind islands *too* much. Islands only affect movement, not the firing arcs of weapons.
 
