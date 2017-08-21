@@ -39,7 +39,7 @@ We ate pasties in Marazion, walked to St Michael's Mount and got the ferry back.
 
 ![St Michael's Mount](/blog/2017/cornwall6.jpg){: .center}
 
-We missed a boat, ate tapas and drank *Estella de Galicia* in Fowey, then explored the Lost Gardens of Heligan...
+We missed a boat, ate tapas and drank *Estrella de Galicia* in Fowey, then explored the Lost Gardens of Heligan...
 
 ![Giant's Head at Heligan](/blog/2017/cornwall7.jpg){: .center}
 
