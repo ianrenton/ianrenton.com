@@ -65,6 +65,11 @@ input.search {
     width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
+.yearlink {
+    width: 3em;
+	display: inline-block;
+}
+
 @include media-query($on-laptop) {
     .footer-col-1 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
