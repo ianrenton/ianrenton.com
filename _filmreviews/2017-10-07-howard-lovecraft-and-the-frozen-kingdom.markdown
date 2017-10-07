@@ -29,6 +29,7 @@ Young HP LOVECRAFT visits HIS FATHER in a MENTAL ASYLUM, where the FATHER largel
 * Girls called Abdul: 1
 * Nyarlathoteps just casually chilling in the background: 1
 * Goblins slapped to death by tiny Deep Ones: Yeah, that happened
+* ![This isn't even my final form!](/filmreviews/Final-Form.jpg): That too
 
 # Overall: ![Elder Sign](/filmreviews/elder-sign.png) / 5
 
