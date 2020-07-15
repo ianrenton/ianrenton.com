@@ -47,10 +47,26 @@ The <a href="./atp">All-Terrain Pi</a> is a "off-road" remote control toy fitted
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
+<a href="./flight-tracker"><img src="/hardware/flight-tracker/sw-small.png" width="160" alt="Flight Tracker" /></a>
+</div>
+<div class="table-col table-col-descrip">
+I built my own <a href="./flight-tracker">ADS-B receiver to track flights</a> taking off from the nearby airport, using a Raspberry Pi and an SDR dongle.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
 <a href="./geckocam"><img src="/images/geckocam.jpg" width="160" alt="Gecko Cam" /></a>
 </div>
 <div class="table-col table-col-descrip">
 Our pet gecko has an instrumented and automated vivarium. The <a href="./geckocam/">Gecko Cam</a> page explains the hardware and software setup.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="/guides/install-linux-on-a-linx-1010b-tablet"><img src="/guides/linx-small.png" width="160" alt="Linx 1010B Linux" /></a>
+</div>
+<div class="table-col table-col-descrip">
+I have written a guide on <a href="/guides/install-linux-on-a-linx-1010b-tablet">how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet</a>.
 </div>
 <div class="clear"></div>
 

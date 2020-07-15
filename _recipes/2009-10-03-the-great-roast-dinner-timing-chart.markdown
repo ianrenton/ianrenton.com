@@ -21,6 +21,10 @@ tags:
 - Vegetables
 ---
 
+<div class="notes">
+<p>The Great Roast Dinner Timing Chart has evolved into a JavaScript-powered web application that supports multiple ingredients and custom timing. <a href="https://ianrenton.github.io/roastdinner/">Check it out here!</a></p>
+</div>
+
 ![Saturday: PIGSTRAVAGANZA. This is not optional.](/recipes/IMG_0568-300x200.jpg){: .right}
 
 Roast dinners have become a regular occurrence in my house, to which guests are always invited.  I get asked occasionally about recipes for my roast, and my short answer is: there isn't one.  Roast dinners, are much more about timing than culinary skill.  All that really matters to produce a successful roast dinner is to plan ahead and make sure everything comes together at the right time to be served.

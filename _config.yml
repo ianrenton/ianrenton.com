@@ -1,7 +1,7 @@
 # Site settings
-title: Ian's Blog
+title: Ian Renton
 email: ian@ianrenton.com
-description: Coffee goes in, words come out.
+description: Software engineer and builder of robots
 baseurl: ""
 url: "https://ianrenton.com" # the base hostname & protocol for your site
 

@@ -50,11 +50,11 @@ td {
 
 <div class="notes visualhook">
 <table cellspacing="10" border="0"><tr><td>
-<a href="/cv/visual/"><img src="/cv/visual-cv.png" style="max-width: 300px !important;"></a></td>
+<a href="http://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" style="max-width: 300px !important;"></a></td>
 <td>Fancy trying out an interactive version of my CV? You can pan and zoom around a map to check out where I've worked and what I've worked on over the years. <a href="/cv/visual/">Click here to try it!</a> You can always head back here for more detail or to print this page out.</td></tr></table>
 </div>
 
-I am an experienced developer of unmanned maritime systems for global Naval forces, and my company's lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
+I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
 
 ## Technical Skills
 
@@ -65,7 +65,7 @@ Autonomous/unmanned vehicles, maritime navigation, naval combat systems, mine co
 </td></tr><tr><td>
 Engineering processes
 </td><td>
-Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. V-model & waterfall lifecycle. IEC 61508 SIL2 systems.
+Requirements capture, system & software design and modelling, User Interface design, usability testing, configuration management, integration & testing, post-sales support. Agile, V-model & waterfall lifecycle. IEC 61508 SIL2 systems.
 </td></tr><tr><td>
 Programming languages
 </td><td>
@@ -73,18 +73,25 @@ Java, LabVIEW, MATLAB, Ruby, JavaScript, Python, C, C++, PHP.
 </td></tr><tr><td>
 Specific packages
 </td><td>
-DOORS, Enterprise Architect (UML), NetBeans, SharePoint, Apache, Subversion, git, Ant, Jenkins, SonarQube, MySQL, MSSQL, Microsoft Office, <i>L<sup>A</sup>T<sub>E</sub>X</i>, Windows, Linux & Mac.
+DOORS 9 & N.G., RQM, Enterprise Architect (UML), Eclipse & NetBeans IDEs, Atlassian JIRA, Bitbucket & Confluence, Git & Subversion, Maven & Ant, Jenkins, SonarQube, MySQL & Derby DB, Microsoft Office & SharePoint, Apache Web Server, Microsoft Windows, Red Hat & Ubuntu Linux.
 </td></tr></table>
 
 ## Professional Experience
 
 <table cellspacing="0"><tr><td>
-Feb&nbsp;2014 &mdash; Present
+Jun&nbsp;2020 &mdash; Present
+</td><td>
+<p><b>Autonomy Expert at (Current Employer)</b></p>
+<p>In my new role as a company “Expert”, I continue to lead the development of our Command & Control and Autonomy software, now used on over a dozen platforms in the UK and abroad.</p>
+<p>I will be working closely with other members of the company’s Experts scheme, nationally and internationally, to support and direct vital R&D innovation work; pushing both the business and the state of the art forward.</p>
+</td></tr><tr><td>
+
+Feb&nbsp;2014 &mdash; Jun&nbsp;2020
 </td><td>
 <p><b>Principal Software Engineer at (Current Employer)</b></p>
-<p>Lead engineer for £1M+ of software effort on a major £15M+ "game-changer" project for the company. Produced customer-focused technical documentation at the bid stage to help secure the work, followed by the full range of requirements, architectural design, detailed design and test documentation.</p>
-<p>Interviewed and selected three new members of the team to support the work.</p>
-<p>Currently leading a team of 3 to finish up testing of the software applications during the spring and summer of 2017, alongside our ongoing trials and testing programme.</p>
+<p>As a Principal Software Engineer, I served as a system architect for the company’s internally-funded Combat System software framework, aiming to improve software re-use across the company and allow us to enter new markets with the ability to produce larger-scale systems. As well as core development work on the framework, I oversaw the roll-out of the framework as part of projects in the mine countermeasures and anti-submarine warfare spaces.</p>
+<p>I also continued to lead development of the company’s Unmanned Vehicle Command & Control and Autonomy systems, including bidding for work, management of requirements, design, implementation and test, as well as supporting in-service systems.</p>
+<p>Between 2016 and 2018 I led £1M+ of software effort on a major £15M+ “game-changer” project for the company through the full project life cycle, including hiring several new members of the team to improve our capability.</p>
 </td></tr><tr><td>
 
 Oct&nbsp;2009 &mdash; Feb&nbsp;2014
@@ -118,7 +125,7 @@ Sep&nbsp;2002 &mdash; Sep&nbsp;2003
 <p>First experience of the engineering process. Alongside working on a major QinetiQ project, I also took on a spin-off development and saw it through from initial R&D work to demonstration of a prototype and patent application.</p>
 </td></tr></table>
 
-## Qualifications, Education & Memberships
+## Academic Qualifications & Memberships
 
 <table cellspacing="0"><tr><td>
 2012 &mdash; Present
@@ -139,6 +146,12 @@ Attended Bournemouth School for Boys. Achieved A-levels in Maths, Further Maths,
 Physics and Electronics, as well as a certificate in Japanese Language & Studies.
 </td></tr></table>
 
+## Marine Qualifications
+
+VHF DSC Short Range Certificate
+
+STCW Personal Survival Techniques
+
 ## Published Work
 
 Renton, I., Motson, D., Dart, F. and Lane R. (2017). Approaches to testing of COLREGs-Compliant Collision Avoidance Algorithms for Unmanned Surface Vessels. In: *Undersea Defence Technology*. Bremen, Germany: UDT.
@@ -146,11 +159,3 @@ Renton, I., Motson, D., Dart, F. and Lane R. (2017). Approaches to testing of CO
 Mediavilla Varas, J., Caharija, W., Smith, R., Bhuiyan, Z., Naeem, W., Carter, P. and Renton, I. (2016). Autonomous COLREGs Compliant Ship Navigation, Using Bridge Simulators and an Unmanned Vessel. In: *15th International Conference on Computer and IT Applications in the Maritime Industries*. Lecce, Italy: COMPIT, pp. 280-286. Available at: [http://data.hiper-conf.info/compit2016_lecce.pdf](http://data.hiper-conf.info/compit2016_lecce.pdf).
 
 Cowling, D., Kanouras, A., Renton, I. and Stinchcombe, D. (2004). *Apparatus and method for sorting objects by colour*. Patent application PCT/GB2003/005027. Available at: [https://www.google.com/patents/WO2004045781A1?cl=en](https://www.google.com/patents/WO2004045781A1?cl=en).
-
-## Security
-
-UK National, security information available on <a href="mailto:ian@ianrenton.com">request</a>.
-
-## References
-
-References are available on <a href="mailto:ian@ianrenton.com">request</a>.

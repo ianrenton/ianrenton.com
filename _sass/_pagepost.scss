@@ -29,6 +29,22 @@
     font-size: $huge-font-size;
 }
 
+/**
+ * Wide sections for index pages
+ */
+div.widesection {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+    > h1 {
+        padding-top: $spacing-unit;
+    }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -90,34 +106,14 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: $huge-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: $big-font-size;
-        }
-    }
-
-    h3 {
-        font-size: $big-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: $base-font-size;
-        }
-    }
-
-    h4 {
-        font-size: $base-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: $base-font-size;
-        }
-    }
-
     > a {
          text-decoration: underline;
     }
 
+}
+
+hr {
+    margin: $spacing-unit 0 $spacing-unit 0;
 }
 
 

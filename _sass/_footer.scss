@@ -2,91 +2,44 @@
  * Site footer
  */
 .site-footer {
-    background-color: $background-color;
-    padding: 0 0 $spacing-unit 0;
-    color: $text-color;
+    background-color: $background-color-inverted;
+    line-height: $header-footer-height;
+    color: $text-color-inverted;
+    -webkit-box-shadow: 0px -6px 6px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px -6px 6px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         0px -6px 6px 0px rgba(0, 0, 0, 0.3);
+    clear: both;
 }
 
-.footer-heading {
-    margin-bottom: $spacing-unit / 2;
-    height: 60px;
+footer.hidden {
+    display: none;
 }
 
-.footer-list {
+/* Clamp footer to bottom of page or window */
+html{ height:100%; }
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body::after{ content:''; display:block; height:$header-footer-height; }
+
+footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:$header-footer-height; 
+}
+
+ul.footer-list {
     list-style: none;
-    margin-left: 0;
+    margin: 0;
 
-    > li > a, a:visited, a:hover {
-        color: $brand-color !important;
-        text-decoration: none !important;
-    }
-}
+    > li {
+        display:inline-block;
+        color: $text-color-inverted;
+        margin-right: 1em;
 
-.footer-col-wrapper {
-    font-size: $small-font-size;
-    color: $text-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-
-    > * > a, a:visited, a:hover {
-        color: $brand-color !important;
-        text-decoration: none !important;
-    }
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-input.search {
-    background: none;
-    color: $text-color;
-    border: none;
-    border-bottom: 2px solid $text-color;
-    font-family: $base-font-family;
-    font-size: $big-font-size;
-    width: 100%;
-}
-
-.footer-col-3 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
-}
-
-.yearlink {
-    width: 3em;
-	display: inline-block;
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-2,
-    .footer-col-3 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        > a, a:visited, a:hover {
+            color: $text-color-inverted !important;
+            text-decoration: none !important;
+        }
     }
 }

@@ -1,0 +1,19 @@
+---
+author: Ian
+comments: true
+date: 2005-10-19 21:55:00
+layout: post
+slug: ubuntu
+title: Ubuntu
+wordpress_id: 381
+categories:
+- Personal
+---
+
+That's it, I've had it with Ubuntu.  Damn "user-friendly" junk, it seems to develop problems if you're using anything except a generic GNOME environment and no -extras/-backports, and I rarely get replies to forum posts.  Back to Gentoo for me...  
+
+<b>Today on the interweb:</b>  
+
+Captain Jack is dead! [http://babelfish.altavista.com/babelfish/trurl_pagecontent?lp=de_en&url=...](http://babelfish.altavista.com/babelfish/trurl_pagecontent?lp=de_en&url=http://bz.berlin1.de/aktuell/boulevard/051021/jack.html) (Babelfish warning)  
+
+Long live Captain Jack! [http://smallscreen.monstersandcritics.com/article_1055556.php/Torchwood_...](http://smallscreen.monstersandcritics.com/article_1055556.php/Torchwood_from_the_BBC)

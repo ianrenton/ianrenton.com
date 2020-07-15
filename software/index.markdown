@@ -9,10 +9,12 @@ This page is an index of various bits of software I've written in my spare time.
 ## Web Stuff
 
 <div class="table-col table-col-pic">
-<a href="https://github.com/ianrenton/SuccessWhale/"><img src="/images/successwhale.png" alt="SuccessWhale" /></a>
+<a href="https://github.com/ianrenton/umid1090"><img src="/hardware/flight-tracker/sw-small.png" width="160" alt="U.M.I.D. 1090" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/SuccessWhale/">SuccessWhale</a> is a multi-column Twitter (and formerly Facebook) client. The frontend runs in Javascript, there is a separate repository for the <a href="https://github.com/ianrenton/successwhale-api/">backend API</a> which is written in Ruby and supports third-party clients.
+<p><a href="https://github.com/ianrenton/umid1090">U.M.I.D. 1090 (Unnecessary Military Interface for Dump1090)</a> is a web-based display for ADS-B flight tracking software Dump1090, using military symoblogy. (I got bored, OK?)</p>
+
+<p>(You can see it running using my own ADS-B receiver <a href="http://flightmap.ianrenton.com/">here</a>.)</p>
 </div>
 <div class="clear"></div>
 
@@ -37,6 +39,14 @@ This page is an index of various bits of software I've written in my spare time.
 </div>
 <div class="table-col table-col-descrip">
 <a href="http://ianrenton.github.io/athousandwords/">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/Skyblock-Bazaar-Flipping-Calculator"><img src="/software/bazaarflip.png" alt="Hypixel Skyblock Bazaar Flipping Calculator" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/Skyblock-Bazaar-Flipping-Calculator">Hypixel Skyblock Bazaar Flipping Calculator</a> helps you make stonks by flipping items in the Skyblock bazaar on the Hypixel Minecraft server.
 </div>
 <div class="clear"></div>
 
@@ -207,6 +217,14 @@ My first Python project was a simple <a href="https://ianrenton.github.io/RPGDic
 <br/>
 
 ## Abandoned Projects
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/SuccessWhale/"><img src="/images/successwhale.png" alt="SuccessWhale" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="https://github.com/ianrenton/SuccessWhale/">SuccessWhale</a> was a multi-column Twitter (and formerly Facebook) client. The frontend ran in Javascript, with a separate repository for the <a href="https://github.com/ianrenton/successwhale-api/">backend API</a> which was written in Ruby and supports third-party clients. It is now non-functional due to API changes at Twitter and Facebook, and seeking other maintainers if anyone is interested.
+</div>
+<div class="clear"></div>
 
 <div class="table-col table-col-pic">
 <a href="https://github.com/ianrenton/westminsterhubble"><img src="/images/hubble.png" alt="Westminster Hubble" /></a>

@@ -1,39 +1,94 @@
 ---
-layout: default
+layout: homepage
 redirect_from:
   - /about
   - /about-me
 ---
 
 <div id="homepage-top-content">
-  <div class="wrapper">
     <div id="homepagebanner">
       <div class="top">
         <img src="me.jpg" title="Photo of Ian Renton"/>
         <h1>Ian Renton</h1>
         <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
       </div>
-      <p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, alongside being a husband, father and amateur cook.</p>
-      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> &mdash; <a href="/cv/">View my CV</a> &mdash; <a href="/hardware/">Hardware Projects</a> &mdash; <a href="/software/">Software Projects</a></p>
+      <p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, alongside being a husband, father, cook and gardener.</p>
+      <p style="text-align: center;"><a href="mailto:{{ site.email }}">E-mail</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/cv">CV</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/i_renton">Twitter</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/ianrenton">GitHub</a></p>
+      <p style="margin-top: 3em;">Are some of my projects:</p>
     </div>
-  </div>
 </div>
-<div class="page-content">
-  <div class="wrapper">
+</div></div>
+<div class="widewrapper">
+  <div class="post">
+    <article class="post-content">
+      <div class="widesection">
+        <a href="/hardware/raspberry-tank"><img class="left" src="/raspberrytank/rtank-withlogo.png" height="250"/></a>
+        <h2><a href="/hardware/raspberry-tank">Raspberry Tank</a></h2>
+        <p>The Raspberry Tank was possibly the first tank-like robot powered by a Raspberry Pi. It’s smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously.</p>
+      </div>
+      <div class="widesection">
+        <a href="/hardware/quadcopter"><img class="right" src="/quadcopter/83.jpg" height="250"/></a>
+        <h2><a href="/hardware/quadcopter">Quadcopter</a></h2>
+        <p>Because the Raspberry Tank was just too… incapable of lift, here’s a quadcopter! Yes, it also has a Raspberry Pi on it.</p>
+      </div>
+      <div class="widesection">
+        <a href="/hardware/usv-01"><img class="left" src="/usv01/bath.jpg" height="250"/></a>
+        <h2><a href="/hardware/usv-01">USV-01 “Harry Paye”</a></h2>
+        <p>USV-01 “Harry Paye” is an off-the-shelf remote control boat refitted as a testbed for our autonomous navigation system.</p>
+      </div>
+      <div class="widesection">
+        <a href="/hardware/atp"><img class="right" src="/atp/37.jpg" height="250"/></a>
+        <h2><a href="/hardware/atp">All-Terrain Pi</a></h2>
+        <p>The All-Terrain Pi is a “off-road” remote control toy fitted with a Rasbperry Pi, controllable from Scratch or by touch/tilt input from a smartphone.</p>
+      </div>
+      <div class="widesection">
+        <a href="/hardware/lego-turtle"><img class="left" src="/legoturtle/legoturtle.png" height="250"/></a>
+        <h2><a href="/hardware/lego-turtle">Lego Turtle</a></h2>
+        <p>The Lego Turtle is an Arduino microcontroller retro-fitted onto an old Lego Mindstorms kit. It features a built-in interpreter for simple Logo programs loaded via the serial port.</p>
+      </div>
+      <div class="widesection">
+        <a href="/guides/install-linux-on-a-linx-1010b-tablet"><img class="right" src="/guides/linx1010b-ubuntu.jpg" height="250"/></a>
+        <h2><a href="/guides/install-linux-on-a-linx-1010b-tablet">Linux on Linx 1010B Tablet</a></h2>
+        <p>A guide on how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet.</p>
+      </div>
+      <div class="widesection">
+        <h3 style="text-align: center;"><a href="/hardware">More Hardware & Robotics »</a></h3>
+      </div>
+      <hr/>
 
-    <ul class="post-list">
-      {% for post in site.posts limit:10 %}
-        <li>
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
-          <p>{{ post.excerpt }}</p>
-          <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
-        </li>
-      {% endfor %}
-    </ul>
 
-    <div class="pagination"><div class="pagination-left"><a href="/blog/page2/">&laquo; Older Posts </a></div></div>
-  </div>
-</div>
+      <div class="widesection">
+        <a href="https://ianrenton.github.io/roastdinner/"><img class="left" src="/software/roast.jpg" height="250"/></a>
+        <h2><a href="https://ianrenton.github.io/roastdinner/">Roast Dinner Timing Chart</a></h2>
+        <p>Javascript magic to help you cook the perfect Sunday roast.</p>
+      </div>
+      <div class="widesection">
+        <a href="http://flightmap.ianrenton.com/"><img class="right" src="/software/flighttracker.jpg" height="250"/></a>
+        <h2><a href="http://flightmap.ianrenton.com/">Flight Tracker</a></h2>
+        <p>A flight tracking display using my home <a href="/hardware/flight-tracker">Raspberry Pi ADS-B receiver</a> and <a href="https://github.com/ianrenton/umid1090">custom display software</a>.</p>
+      </div>
+      <div class="widesection">
+        <a href="https://ianrenton.github.io/SeaBattle/"><img class="left" src="/software/seabattle-small.png" height="250"/></a>
+        <h2><a href="https://ianrenton.github.io/SeaBattle/">Sea Battle</a></h2>
+        <p>A quick-and-dirty 2D RTS game inspired by the unit customisation mechanics of Warzone 2100.</p>
+      </div>
+      <div class="widesection">
+        <h3 style="text-align: center;"><a href="/software/">More Software »</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/websites/">More Websites »</a></h3>
+      </div>
+      <hr/>
+
+
+      <div class="widesection">
+        <a href="http://careerexplorer.ianrenton.com"><img class="right" src="/software/careerexplorer.png" height="250"/></a>
+        <h2><a href="http://careerexplorer.ianrenton.com">Career Explorer</a></h2>
+        <p>“Career Explorer” is my online CV, an interactive map where you can pan around to see where I’ve been and what I’ve done in my professional career. I also have a <a href="/cv">more formal CV</a> online.</p>
+      </div>
+      <hr/>
+
+
+      <div class="widesection">
+        <a href="/filmreviews"><img class="left" src="/filmreviews/sharknado4-small.gif" height="250"/></a>
+        <h2><a href="/filmreviews">Film Reviews (by the Numbers)</a></h2>
+        <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!</p>
+      </div>
+    </div>

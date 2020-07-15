@@ -1,0 +1,15 @@
+---
+author: Ian
+comments: true
+date: 2005-10-02 04:48:00
+layout: post
+slug: a-wish
+title: A Wish
+wordpress_id: 368
+categories:
+- Personal
+---
+
+I'm here.  I'm back.  I'm home.  So much to do, so much to say...
+
+> If there is only one thing I do this year; only one thing I achieve, it will be this - I will indelibly etch every thought, every feeling, and every emotion that we experience together so strongly and so brightly in our minds that nothing, not even time itself, will dare to take them away from us.

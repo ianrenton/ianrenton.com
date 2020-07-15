@@ -1,0 +1,15 @@
+---
+author: Ian
+comments: true
+date: 2007-11-29 07:48:00
+layout: post
+slug: version-1-0
+title: Version 1.0
+wordpress_id: 735
+categories:
+- Personal
+---
+
+Guess how many bugs are left in my code?  None.  That I know of, anyway.  The last three and a half weeks have been quite insane but now, <i>now</i>, it is version 1.0.  
+
+Customer inspection of said software starts tomorrow.

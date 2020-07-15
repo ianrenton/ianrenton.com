@@ -1,0 +1,15 @@
+---
+author: Ian
+comments: true
+date: 2006-05-15 02:25:00
+layout: post
+slug: update
+title: Update
+wordpress_id: 488
+categories:
+- Personal
+---
+
+Good: Girlfriend's parents discovered to be non-scary.  
+
+Bad: Still have glorious flu/hayfever combo.

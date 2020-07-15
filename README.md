@@ -1,2 +1,2 @@
-# website
-Source for my main Octopress 3 powered website.
+# ianrenton.com
+Source for my main Github Pages powered website.
