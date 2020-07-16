@@ -19,9 +19,12 @@ layout: default
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
   </header>
 
-  {% comment %} If old post and collection 'posts' (i.e. a blog post) display a warning {% endcomment %}
+  {% comment %} If collection 'posts' (i.e. a blog post) display a warning {% endcomment %}
+  {% if pagedate >= threshold and page.collection == 'posts' %}
+    <div class="oldwarning"><p>This is a post from my blog, which I have long since stopped maintaining. The page has been preserved in case its content is of any interest. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
+  {% endif %}
   {% if pagedate < threshold and page.collection == 'posts' %}
-    <div class="oldwarning"><p>This is a very old post that was automatically imported from LiveJournal. I have done my best to fix up the formatting, but some issues may remain. Comments have not been preserved.</p></div>
+    <div class="oldwarning"><p>This is a very old post from my blog; so old that it was originally hosted on LiveJournal. The page has been preserved in case its content is of any interest, but formatting errors are likely and the page's original comments have been lost. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
   {% endif %}
 
   <article class="post-content">

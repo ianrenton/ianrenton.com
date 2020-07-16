@@ -28,18 +28,8 @@ footer{
   height:$header-footer-height; 
 }
 
-ul.footer-list {
-    list-style: none;
-    margin: 0;
-
-    > li {
-        display:inline-block;
-        color: $text-color-inverted;
-        margin-right: 1em;
-
-        > a, a:visited, a:hover {
-            color: $text-color-inverted !important;
-            text-decoration: none !important;
-        }
-    }
+span.subtitle {
+    padding-left: 1em;
+    font-size: $tiny-font-size;
+    color: $grey-color-light;
 }
