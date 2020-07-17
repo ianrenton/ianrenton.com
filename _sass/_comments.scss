@@ -1,0 +1,63 @@
+article.comment {
+    margin-bottom: $spacing-unit;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+div.commentinner, form.commentform {
+  margin-left: 100px;
+}
+
+div.commentauthor {
+  border-bottom: 2px solid black;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+span.commentdate {
+  float: right;
+  font-weight: normal;
+  color: $grey-color;
+
+  > a {
+    color: $grey-color;
+    text-decoration: none;
+  }
+}
+
+img.gravatar {
+  float: left;
+}
+
+div.commentnew {
+  margin-bottom: $spacing-unit * 2;
+}
+
+div.newcommentauthor {
+  border-bottom: 2px solid black;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+}
+
+input#comment-form-name, input#comment-form-email {
+  width: 16em;
+}
+
+textarea#comment-form-message {
+  width: 41em;
+  height: 10em;
+}
+
+button#comment-form-submit {
+  border: 2px solid black;
+}
+

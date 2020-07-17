@@ -2,6 +2,7 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
+wordpress_id: 1030
 ---
 
 <div class="oldwarning">

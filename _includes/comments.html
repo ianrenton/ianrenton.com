@@ -5,13 +5,32 @@
   </div>
 </div>
 <div class="wrapper">
-  <script type="text/javascript">
-  var rows="4";
-  var passwd_on="no";
-  var sites_on="no";
-  var canon_url = (document.querySelector('link[rel="canonical"]') != null) ? '?canon_url=' + encodeURIComponent(document.querySelector('link[rel="canonical"]').getAttribute('href')) : '';
-  document.write('<script src="https://comments.ianrenton.com/hashover.php' + canon_url + '"><\/script>');
-  </script>
-  <noscript>You must have JavaScript enabled to use the comment system.</noscript>
+  
+{% assign slug = (page.slug || (page.title | slugify)) %}
+{% if site.data.comments[slug] %}
+  <div class="commentsexisting">
+    {% assign comments = site.data.comments[slug] %}
+    {% assign comments_by_date = (comments | sort) %}
+    {% for comment in comments_by_date %}
+      {% assign index = forloop.index | plus: 1 %}
+      {% assign email = comment[1].email %}
+      {% assign name = comment[1].name %}
+      {% assign url = comment[1].url %}
+      {% assign date = comment[1].date %}
+      {% assign message = comment[1].message %}
+      {% include comment.html index=index email=email name=name url=url date=date message=message %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+<!-- New comment form -->
+<div id="respond" class="commentnew">
+  {% include comment_form.html %}
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="{{ '/js/main.js' | relative_url }}"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
 </div>
 {% endif %}

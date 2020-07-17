@@ -1,0 +1,36 @@
+{% assign slug = (page.slug || (page.title | slugify)) %}
+
+<form class="js-form form commentform" method="post" action="{{ site.staticman_url }}">
+  <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+  <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+  <input type="hidden" name="options[slug]" value="{{ slug }}">
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+  <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
+
+  <h3>Add Comment</h3>
+
+  <div class="newcommentauthor">
+      <label for="comment-form-name">Name:
+        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name"/>
+      </label>
+      <label for="comment-form-email">E-mail:
+        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email address (optional)"/>
+      </label>
+  </div>
+
+  <fieldset>
+  <div class="textfield">
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message"></textarea>
+  </div>
+  </fieldset>
+
+  <fieldset>
+    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+  </fieldset>
+
+  <fieldset>
+    <button class="button" id="comment-form-submit">Submit</button>
+  </fieldset>
+
+  <div class="mdl-card__supporting-text js-modal-text"></div>
+</form>
