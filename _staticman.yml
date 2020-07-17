@@ -1,0 +1,24 @@
+# staticman.yml (defaults)
+comments:
+  allowedFields      : ["name", "email", "url", "message"]
+  branch             : "master"
+  commitMessage      : "New comment by {fields.name}"
+  filename           : "comment-{@timestamp}"
+  format             : "yaml"
+  generatedFields:
+    date:
+      type           : "date"
+      options:
+        format       : "iso8601"
+  moderation         : true
+  name               : "IanRenton.com"
+  path               : "_data/comments/{options.slug}"
+  requiredFields     : ["name", "message"]
+  transforms:
+    email            : md5
+  reCaptcha:
+    enabled: true
+    # the siteKey is used as-is (no encryption)
+    siteKey: 6LeG1LwSAAAAADsQfXoCfeTCH6JuxAGyImxoIjux
+    # the secret is the encrypted blob you got back from the encrypt call
+    secret: IsYxi/A4zrs0bFV7/0j3QCsJaFbiW3++9m12lOL7HdW+deMeislTpiwNm30kgfX40frUv1hUXciwMD+HE4j2BQvXtCHnWcRspFwYi19D5iN2niBa3JMAvsEx2m1D2pQ5ZPynjjDUeMzKMRlSn68KguQC95wfnewCduhwohn6v23HHw3zFakdhKHFfmGByB2jddsIJ5/OTnfUuwX6/FOc85j+0pDRxnPCEliWDOGnqWps1Qr+UnkNHcwwtvI81O85QfqWwg0IU0uolAonJ3dKKClvdcUQ+gCXu/HSGza/i4RsmWKNYZRo8aGk5l9X0iKQyokawm1aZUa6RIXIawItu0rD1CGTYDgKhcbHpI5fTu3CxhtGtjURz8BLKQSd4bwgmDd4uyX+z8uXdg3O4pTCL3sh9oduOMeZSltefiGdbtYvGNtY6aVW4dCK2tHkjBgn0AiCpvkFvuV3p4VE9zyZgpxMD+u/Lu+F/Zl4HiZfOsqQzgwyMOmB06eyLKNPd4oygMvkWdtne3uGDwZlZhtMdPcPRHm8Nv+PmP8ur0unTdZ0BTAtLvrPNBhStq+SHNBBYJ6FrEV5+Ggn4BZQN81fbACuutvqV3NEdDgfaXx0F/JCr0JFcOIqKcxnPYzCLyQDSYC00pa6wlr4G5Rie9GNr8Vx5vFUE1M2Lh/YZZn0sWc=
