@@ -1,0 +1,15 @@
+name: Anders
+date: '2014-10-02 14:11:46'
+url: ''
+message: >-
+  <p><em>Ian wrote:</em></p><p></p><p></p><blockquote><p>Yes, it's like that for
+  me too. Do you also find that once reversing, you have to go forward slightly
+  before it will stop? (If you go from reverse to no demands, it keeps
+  reversing?) I haven't found a solution to these yet — I really need to knock
+  up a better way of testing combinations of bits 2-6 and 13-16 so we can figure
+  out how the main motor speeds work properly, rather than just guessing
+  codes.</p></blockquote><p></p><p></p><p><em>I had the same problem when
+  reversing. Another thing that I had some issues with was the need to increase
+  the timer on the I2c function (launch_sensors()) or else it crashed all the
+  time.</em></p>
+email: 079b775bdd7266f0f0ea33c7eb3304e8

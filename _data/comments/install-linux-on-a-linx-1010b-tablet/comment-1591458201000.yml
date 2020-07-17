@@ -1,0 +1,5 @@
+name: Ian
+date: '2020-06-06 16:43:21'
+url: ''
+message: "Hi Marc0, glad you have got it mostly working! I only have a 1010B not a 1020 so I may not be able to replicate all your problems but I will see what I can do.\r\n\r\nThe cameras are probably not going to work at all I'm afraid - like I say in the article I haven't managed to get them working so I think they are just unsupported on Linux at the moment. Unfortunately I don't have the skills to start writing device drivers!\r\n\r\nWhen you say the screen \"doesn't rotate in a good way\" - is it not rotating at all, or is it rotating but the angle is wrong e.g. it's always upside-down?\r\n\r\nLong press to right-click is covered in the article, although it does work out of the box on 1010B. Try the GNOME \"Universal Access\" settings as described, but if it still doesn't work, you may need to change times and sensitivities using xinput."
+email: b937df7b0b3631249ed5ec118e3bb9e0

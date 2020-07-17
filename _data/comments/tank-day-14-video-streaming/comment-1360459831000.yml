@@ -1,0 +1,12 @@
+name: D. Casey
+date: '2013-02-10 01:30:31'
+url: ''
+message: >-
+  <p>Sorry for the confusion.  Let me try to explain again.  Of the top two CPU
+  processes Motion was spiking as high as 90+% but averaged about 40% cpu load. 
+  The next highest cpu user was TOP at about 1.5% cpu usage.  I lowered the
+  camera resolution to 320x240 and the cpu load for Motion is now idling around
+  19%.  The FPS is the same, very slow.  I may try to completely rebuild the
+  image.  My early experiments with the other webcam driver may have created
+  this issue.</p>
+email: acb359478b5735024b5dff5b632355aa

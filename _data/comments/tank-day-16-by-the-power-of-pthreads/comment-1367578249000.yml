@@ -1,0 +1,11 @@
+name: Ian
+date: '2013-05-03 11:50:49'
+url: ''
+message: >-
+  <p>Sorry I took so long to respond, the notification emails for your comments
+  got caught in my spam filter. (You would have thought I'd remember to
+  whitelist my own website, but apparently not!)</p><p></p><p></p><p>The HTML
+  files go in whatever directory your web server on the Pi is set up to serve
+  from. If you're using lighttpd on something Debian derived (like me) this is
+  likely to be <code>/var/www</code>.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

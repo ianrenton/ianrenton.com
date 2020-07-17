@@ -1,0 +1,12 @@
+name: Ian
+date: '2012-07-02 00:35:26'
+url: ''
+message: >-
+  <p>Kirsch: I did think about doing that, but drawing current from the 5V GPIO
+  pin reduces the amount of current available to the Pi's USB devices.  (<a
+  href="http://elinux.org/Rpi_Low-level_peripherals#Power_pins" rel="nofollow
+  noopener">http://elinux.org/Rpi_Low-level_peripherals#Power_pins</a>)  Since I
+  wanted to attach a WiFi dongle and a webcam to the USB ports, I figured I'd
+  leave as much potential current spare as possible by drawing straight off the
+  tank's main battery here.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

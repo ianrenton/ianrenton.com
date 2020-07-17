@@ -1,0 +1,9 @@
+name: Marek
+date: '2013-02-08 23:34:12'
+url: ''
+message: >-
+  <p>chmm there shouldn't be any USB bandwidth limit if it's 2.0 hub, You can
+  read /sys/bus/usb/devices/usb?/speed - it'll give you the bus speed of the
+  root hub(s) in Mbps: either 1.5, 12 or 480. The first two indicate USB1 (low
+  speed or full speed) and the third USB2</p>
+email: 560389071eca2fb97320fa2dc0f0e2ba

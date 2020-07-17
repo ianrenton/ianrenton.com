@@ -1,0 +1,8 @@
+name: Ian
+date: '2013-02-09 21:05:00'
+url: ''
+message: >-
+  <p>I'm a bit confused that you say nothing on your top output is above 1.5%,
+  but that motion is 45%-96%. If motion is regularly maxing out your CPU that
+  <em>does</em> suggest that your RPi is the limiting factor, not USB.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

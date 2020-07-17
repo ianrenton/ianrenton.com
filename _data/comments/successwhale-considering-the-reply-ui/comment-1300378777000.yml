@@ -1,0 +1,10 @@
+name: Ian
+date: '2011-03-17 16:19:37'
+url: ''
+message: >-
+  <p>The poll problem seems to be a JavaScript issue - the Vote/View Results
+  buttons fired JS calls that didn't exist, because the plugins wasn't putting
+  any JS stuff in the headers. But even when I added the plugin's JS files
+  manually, it still didn't work.  So: screw it.  No poll, let's just use the
+  comments :)</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

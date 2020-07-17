@@ -1,0 +1,5 @@
+name: Drako
+date: '2020-01-04 19:59:11'
+url: ''
+message: "Every time I try this I get GRUB installation failed:\r\n\r\nthe 'grub-efi-ia32' package failed to install into /target/. Without the GRUB boot loader, the installed system will not boot. \r\n\r\nAm I doing something wrong?"
+email: 948572480cba7db91c4372cb7942c4f4

@@ -1,0 +1,12 @@
+name: Ian
+date: '2012-09-21 20:14:04'
+url: ''
+message: >-
+  <p>Marek: Do you definitely have a Logitech C200?  Mine uses the
+  <code>uvcvideo</code> driver, which doesn't appear in your <code>lsmod</code>
+  output.  Try running <code>sudo modprobe uvcvideo</code>, then (with your cam
+  connected) see if <code>uvcvideo</code> then appears in your
+  <code>lsmod</code> output.</p><p></p><p></p><p>It would also help if you could
+  run <code>mjpg_streamer</code> manually from the command-line and post the
+  output it produces, this should make it easier to diagnose the problem.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

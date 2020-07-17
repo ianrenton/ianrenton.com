@@ -1,0 +1,5 @@
+name: Don
+date: '2019-03-12 23:09:41'
+url: ''
+message: "Hi.\r\n\r\nThanks for this. It's helping me a great deal but I am getting stuck at the same point every time.\r\n\r\nWhen I install GRUB with:\r\n\r\n    sudo update-grub &amp;&amp; sudo update-grub2 &amp;&amp; sudo grub-install\r\n\r\nThe first 2 commands work just fine but then....\r\n\r\n    Installing for i386-efi platform.\r\n    Could not delete variable: No space left on device\r\n    Could not prepare Boot variable: No space left on device\r\n    grub-install: error: efibootmgr failed to register the boot entry:Input/output error.\r\n\r\nAny ideas please? I've Googled but to no avail.\r\n\r\nThanks in advance of any assistance.\r\nDon"
+email: d5849b428159a4ff5e85b0801a77e588

@@ -1,0 +1,27 @@
+name: Paul Herron
+date: '2013-04-04 03:53:22'
+url: ''
+message: >-
+  Hi Ian,<br><br>Thanks for your superb writeup of the build so far! I've been
+  recreating it myself and it's been great fun.<br><br>I wondered if you'd
+  considered serving up your web UI from the embedded mongoose server, thus
+  avoiding the need for lighttpd on a different port and the cross-domain
+  problems that causes?<br><br>I ended up just declaring a <code
+  style="white-space: pre;">documentroot</code> in your <code
+  style="white-space: pre;">rthttp.c</code> script, and running mongoose on port
+  80:<br><br><code style="white-space: pre;">const char *options[] =
+  {<br>&quot;listening_ports&quot;,
+  &quot;80&quot;,<br>&quot;document_root&quot;, &quot;www&quot;, // This is
+  where I have my web assets - you could also declare an absolute path such as
+  /home/pi/raspberrytank/web-ui<br>NULL<br>};</code><br><br>Then with the
+  following tweak to the <code style="white-space: pre;">if</code> statement in
+  <code style="white-space: pre;">http_callback</code>, you should see the web
+  UI in your browser:<br><br><code>if (event == MGNEWREQUEST &amp;&amp;
+  requestinfo-&gt;querystring) {</code><br><br>The fact everything's running on
+  port 80 should mean JavaScript will have no issues grabbing sensor data in the
+  background and displaying it on the page.<br><br>I imagine mongoose has a
+  pretty basic feature set compared to lighttpd, but it seems to be doing what I
+  need so far. I see it also has support for Websockets, which I'm hoping to
+  look into soon as a way of getting realtime communications between the tank
+  and the web UI.
+email: 9c47805880e31b471303ac87145759f8

@@ -1,0 +1,17 @@
+name: Ian
+date: '2011-04-20 12:18:36'
+url: ''
+message: >-
+  <p>Voting was locked down as follows:<br><ul><li>Registered users can only
+  vote once per bill</li><br><li>Unregistered users can only vote once per bill
+  -- limited to 1 per PC by cookie, and to 5 per public IP address.  Not an
+  exact science, but probably as good as you can achieve while still allowing
+  unregistered users to vote</li><br><li>Account registrations have a cooldown
+  time (per IP address) to limit users' ability to create many accounts to bump
+  up their own bills</li></ul><br>None of these are sure-fire ways of preventing
+  abuse, so as configured it wasn't appropriate for an official site -- though
+  arguably, the government's own Your Freedom site suffered from a couple of the
+  same weaknesses.<br>As always, there's a trade-off between accuracy and ease
+  of use. My experiment was to push for ease of use as far as possible (i.e. the
+  minimum possible barriers to a user interacting with the site).</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

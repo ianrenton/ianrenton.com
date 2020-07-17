@@ -1,0 +1,27 @@
+name: Alexandre Lugand
+date: '2014-04-03 02:54:02'
+url: ''
+message: >-
+  <p>Hi Ian !</p><p></p><p></p><p>My name is Alex (I'm French, sorry for my poor
+  English), and I created a Raspberry tank based on your work (with a German
+  Panther, not the Tiger).</p><p></p><p></p><p>I tried to improve the tank
+  control. I cracked CRC code for example. I can make dual actions together. See
+  excel file at this URL, if you want: <a
+  href="https://github.com/alexandrelugand/RaspiTank/blob/master/Docs/CRC.xls"
+  rel="nofollow
+  noopener">https://github.com/alexandrelugand/RaspiTank/blob/master/Docs/CRC.xls</a>
+  .</p><p></p><p></p><p>You can find C++ code at the end of this file:<br><a
+  href="https://github.com/alexandrelugand/RaspiTank/blob/master/RaspiTank/Command.cpp"
+  rel="nofollow
+  noopener">https://github.com/alexandrelugand/RaspiTank/blob/master/RaspiTank/Command.cpp</a></p><p></p><p></p><p>You
+  can watch my tank at this URL:<br><a
+  href="https://plus.google.com/u/0/102283018376698006991/posts" rel="nofollow
+  noopener">https://plus.google.com/u/0/102283018376698006991/posts</a></p><p></p><p></p><p>Some
+  functions are not completly ready (magnetic compass, gyro, accelerometer ...),
+  but all I2C devices work fine.<br>I remade all web UI design. I use two
+  gamepads to control the tank (all commands are sent over web socket. Thanks
+  Javascript, JQuery and HTML5 :-)</p><p></p><p></p><p>At this time, I use only
+  Chrome Browser, but it's work also on my tablet (Samsung galaxy Note 10.1
+  under Android).<br>I continue to improve my tank, gradually
+  ...</p><p></p><p></p><p>Alex</p>
+email: 4382557cce645849f744c0c995f1ac99

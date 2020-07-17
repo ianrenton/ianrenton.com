@@ -1,0 +1,15 @@
+name: Ian
+date: '2017-01-08 19:26:02'
+url: ''
+message: >-
+  <p>PiBoy, all the code is in my github repository
+  here:</p><p></p><p><ul><br><li><a
+  href="https://github.com/ianrenton/raspberrytank/tree/master/rt_http"
+  rel="nofollow noopener">C code</a></li><br><li><a
+  href="https://github.com/ianrenton/raspberrytank/tree/master/web-ui"
+  rel="nofollow noopener">Web interface</a></li><br></ul></p><p></p><p>You
+  should be able to get up and running by following roughly what I've done, you
+  don't necessarily need to learn C, unless something's different in your setup
+  and my code doesn't work for you. Let me know if you have any problems getting
+  it working!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

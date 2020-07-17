@@ -1,0 +1,10 @@
+name: Ian
+date: '2013-06-05 13:12:03'
+url: ''
+message: >-
+  <p>There is some lag in the video - I haven't done any accurate testing but it
+  feels like about half a second. It's alright if you drive slowly and
+  cautiously, but that's about it. If you're after faster streaming, you may be
+  able to achieve that using something like VLC talking straight to
+  mjpg-streamer, rather than using a web page.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

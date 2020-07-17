@@ -1,0 +1,10 @@
+name: Andreas
+date: '2013-03-10 13:03:31'
+url: ''
+message: >-
+  <p>Hi Ian, thanks for the flowers. I have a separate thread for the
+  measurement. It supplies at a frequency of about 10Hz (one arduino-sketch for
+  compass and two ultrasonics). I push in a kind of register and I have an
+  algorithm that smoothes(?) the measured values ??by average.<br>Next step will
+  be a kind of sensor-radar.</p>
+email: 6262da2483237ec71b90c54cc24014ed

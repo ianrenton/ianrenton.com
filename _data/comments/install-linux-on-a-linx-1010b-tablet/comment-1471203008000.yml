@@ -1,0 +1,14 @@
+name: Scott
+date: '2016-08-14 20:30:08'
+url: ''
+message: >-
+  <p>OK I found the problem: there's a missing step.</p><p></p><p></p><p>Before
+  step 11 in "Booting to Ubuntu properly" you need to install
+  grub:</p><p></p><p></p><p><code>sudo sudo
+  grub-install</code></p><p></p><p></p><p>Then shut down as per step 11.  Works
+  for me now (thanks again Ian).</p><p></p><p></p><p>BTW, here's instructions
+  for returning the screen to portrait mode in the hope it's
+  useful:</p><p></p><p></p><pre><code>xrandr -o normal<br>xinput set-prop
+  "Goodix Capacitive Touchscreen" 'Coordinate Transformation Matrix' 1 0 0 0 1 0
+  0 0 1<br></code></pre>
+email: 4faae44be8f6bd531d15d14f100b887e

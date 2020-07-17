@@ -1,0 +1,19 @@
+name: aefaradien
+date: '2010-06-01 22:56:58'
+url: ''
+message: >-
+  <p>The problem with open source source control systems is that they are
+  designed and written only with open source systems in mind.  So far as I can
+  tell there are no open source systems that support ACL (access control
+  levels).  Let alone provide any form of process management (like enforcing
+  reviews of change sets before they are delivered).</p><p></p><p></p><p>The
+  best system I know of is Rational Team Concert (<a
+  href="http://jazz.net/projects/rational-team-concert" rel="nofollow
+  noopener">http://jazz.net/projects/rational-team-concert</a>).  This is what I
+  use every day at work and so far it is going far better than anything else we
+  have used.  (and access to their defect tracker helps too :D ).  There is a
+  free version for 10 devs or less and this is what I intend to run on my new
+  server as soon as I get it working.</p><p></p><p></p><p>Obviously its not
+  free, but so far as I know there is nothing open source that comes even
+  close.</p>
+email: ce2d1bfab069b8d6aa9a0e95d736d9bd

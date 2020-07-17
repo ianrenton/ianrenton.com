@@ -1,0 +1,29 @@
+name: Ian
+date: '2011-03-04 02:10:56'
+url: ''
+message: >-
+  <p>I think the core mechanics of the site (Digg/Reddit-style voting on
+  'bills') were fairly good, but obviously it failed, so there's a lot of things
+  I'd do differently.</p><p></p><p></p><p>First off, no anonymous commenting
+  next time.  I thought it was a good idea to remove any possible barrier to
+  entry, but I spent far too much time trying to fight spam (unsuccessfully, in
+  the end).  I should have forced some kind of authentication, but minimised the
+  barrier to entry by including easier and more obvious ways to log in using
+  Facebook Connect, Twitter etc.</p><p></p><p></p><p>As far as the software
+  goes, the last few years has seen a real growth in software to generate this
+  kind of site.  Drigg on top of Drupal was functional but a bit rough around
+  the edges - nowadays there are dedicated packages for this kind of site
+  (largely Digg/Reddit/Stack Overflow clones, but still).  One of those might
+  have reduced some of the awkwardness factors involved with trying to turn a
+  CMS into a rating site.</p><p></p><p></p><p>On the subject of Stack Overflow,
+  a better-implemented Karma system with more obvious and more desirable rewards
+  would have been good.</p><p></p><p></p><p>Lastly, exposure is everything. 
+  Because creating on DD is relatively hard (it's easy to rate and comment, but
+  comparatively difficult to write a well-thought-out bill), a site like this
+  needs a lot of attention in order to have a reasonable base of content. 
+  Probably less than 1% of visitors will create a bill (certainly the case with
+  DD), so to have 100 bills, you might need over 10000 visitors.  DD never got
+  much exposure, mostly because I don't really know how to do that sort of
+  thing.  The lesson there for "next time" might be that programmers are all
+  well and good, but you need someone who's good at PR to spread the word.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

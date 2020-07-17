@@ -1,0 +1,7 @@
+name: Kirsch
+date: '2012-07-01 15:03:55'
+url: ''
+message: >-
+  <p>You can used Pin 2 from RPI-Header for +5V power supply, instead of the
+  USB.<br>Pin 4 is also GND (the other DNC Pins are GND too)</p>
+email: ef0406e0ae33da392d04f0f06ad746a2

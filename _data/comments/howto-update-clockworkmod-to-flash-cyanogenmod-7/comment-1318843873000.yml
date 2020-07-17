@@ -1,0 +1,19 @@
+name: Ian
+date: '2011-10-17 10:31:13'
+url: ''
+message: >-
+  <p>Yup, I'm afraid as far as phone manufacturers and carriers are concerned,
+  if you root your phone you're on your own.</p><p></p><p></p><p>As you've
+  probably found, the internet is pretty quiet on the status of wear levelling
+  in specific phones -- certainly I can't find any solid information for the
+  DHD, or in fact any HTC phones.  The most helpful thread I can find explaining
+  the issues is this one: <a
+  href="http://forum.xda-developers.com/showthread.php?t=900041" rel="nofollow
+  noopener">http://forum.xda-developers.com/showthread.php?t=900041</a></p><p></p><p></p><p>It's
+  for the Samsung Epic 4G, comparing RFS (which I believe is the default
+  filesystem) with ext4.  Besides that, all I can really say for sure is that in
+  the ~10 months since Gingerbread ROMs started appearing, I've never had any
+  problems and I don't recall seeing any threads about such problems on forums
+  such as XDA-dev.</p><p></p><p></p><p>Hope that helped, and sorry I'm not able
+  to give a definitive answer one way or the other!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

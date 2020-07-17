@@ -1,0 +1,35 @@
+name: Ian
+date: '2015-01-16 02:38:52'
+url: ''
+message: >-
+  <p>I'm afraid not — to be honest, most of the stuff I've written about in this
+  guide is now pretty old and the techniques to get stuff up and running have
+  changed.  For example, Raspbian comes with I2C drivers these days so you don't
+  need Occidentalis, my WiFi access point setup was a bit dodgy, there's an
+  official Raspberry Pi camera to take the place of the webcam I used,
+  etc.</p><p></p><p></p><p>If you want to recreate what I've done, I'd suggest
+  following <a
+  href="http://sirlagz.net/2012/08/09/how-to-use-the-raspberry-pi-as-a-wireless-access-pointrouter-part-1/"
+  rel="nofollow noopener">this guide for Access Point setup</a> and <a
+  href="http://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi"
+  rel="nofollow noopener">this guide for
+  mjpg-streamer</a>.</p><p></p><p></p><p>I think the complete set of system
+  packages I've installed to make my stuff work is: <code>build-essential cmake
+  libi2c-dev i2ctools lighttpd git subversion libjpeg8-dev imagemagick
+  libv4l-dev hostapd dnsmasq</code>.</p><p></p><p></p><p>After all that stuff is
+  set up, grab my code from Github. <a
+  href="https://github.com/ianrenton/raspberrytank/tree/master/web-ui"
+  rel="nofollow noopener">This stuff</a> goes in <code>/var/www/</code> where
+  lighttpd will serve it, then <a
+  href="https://github.com/ianrenton/raspberrytank/tree/master/rt_http"
+  rel="nofollow noopener">this stuff</a> goes wherever you want it, e.g.
+  <code>/home/pi/rt_http/</code>, and build it from there by simply running
+  <code>make</code>.</p><p></p><p></p><p>Last of all, you want to create some
+  init scripts to run <code>rt_http</code> and <code>mjpg-streamer</code> on
+  startup. I don't think I ever uploaded the init script for
+  <code>rt_http</code>, but it's pretty much identical to the one I posted for
+  <code>mjpg-streamer</code> in "Step 4" of <a
+  href="http://robots.ianrenton.com/day-14-video-streaming" rel="nofollow
+  noopener">this page</a>.</p><p></p><p></p><p>If you get stuck, let me know and
+  I'll do my best to answer your questions!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

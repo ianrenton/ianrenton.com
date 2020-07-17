@@ -1,0 +1,22 @@
+name: Zoomzky
+date: '2014-03-18 00:05:48'
+url: ''
+message: >-
+  <p>Hi Ian!</p><p></p><p></p><p>Im now equipped with a descent oscilloscope and
+  managed to capture tk-signal. Makes me wonder though if its manchestercode.
+  Start of signal with 4ms low and about 900 microsecs high  doesnt follow
+  manchesterstandard ? <a
+  href="https://drive.google.com/file/d/0B8OuH4GxJ9ZEM1NXQzhBaVRyVmM/edit?usp=sharing"
+  rel="nofollow
+  noopener">https://drive.google.com/file/d/0B8OuH4GxJ9ZEM1NXQzhBaVRyVmM/edit?usp=sharing</a></p><p></p><p></p><p>I
+  also have trouble matching your codes with my oscilloscope-readings.<br>Next
+  image shows 3 last groups of bits when tank is idling without enginestart.
+  Might be 3 bytes? Tricky to distinguish where each byte
+  begins/starts.</p><p></p><p></p><p><a
+  href="https://drive.google.com/file/d/0B8OuH4GxJ9ZETjBlU0RaZFcyR00/edit?usp=sharing"
+  rel="nofollow
+  noopener">https://drive.google.com/file/d/0B8OuH4GxJ9ZETjBlU0RaZFcyR00/edit?usp=sharing</a></p><p></p><p></p><p>According
+  your list idle no engine is<br>HEX=FE40121C
+  Binary=11111110010000000001001000011100<br>My last "byte" is either 0:s or 1:s
+  depending on where split the byte</p><p></p><p></p><p>/Z</p>
+email: 2b2149b3dc6aae3bc77712ceaaa295d5

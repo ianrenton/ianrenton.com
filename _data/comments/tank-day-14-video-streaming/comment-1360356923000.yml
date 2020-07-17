@@ -1,0 +1,9 @@
+name: Ian
+date: '2013-02-08 20:55:23'
+url: ''
+message: >-
+  <p>Not a problem. Out of interest, was motion (or anything camera-related)
+  using up significant amounts of your CPU? If so, it's likely that you're being
+  limited by the Pi's processing power - if not, something else is artificially
+  limiting the throughput.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

@@ -1,0 +1,22 @@
+name: D. Casey
+date: '2013-02-06 19:27:45'
+url: ''
+message: >-
+  <p>I hope this thread is still being monitored.  I am new to Linux and the
+  Raspberry Pi.  I bit off a bit more then I can chew and agreed to do a project
+  with my son for a special school science event.  The initial instructions from
+  Jeremy's Blog seem straight forward so I "assumed" I could simply follow the
+  steps and make it work too.</p><p></p><p></p><p>Nope, not
+  quite.</p><p></p><p></p><p>I have the latest Arm image (and v2 of the Pi) and
+  its been updated.  Tried jjstream and can get the Pi to run it, I see its
+  grabbing and outputting from the camera from my Putty session.  However, I
+  can't get either the browser or VLC to show the stream.  Very frustrating to
+  say the least.</p><p></p><p></p><p>One of the most frustrating steps in this
+  process was trying to find the proper command to start jjstreamer.  Jeremy
+  seemed to skip that step :(</p><p></p><p></p><p>I just found this blog
+  discussion and am willing to give it a whorl.  Only have a week and a half to
+  get this working and the presentation put together, but also have a federal
+  audit going on at work smack dab in the middle of it all. 
+  grrrr.....</p><p></p><p></p><p>Any advice would be much appreciated.  Be
+  kind....</p>
+email: acb359478b5735024b5dff5b632355aa

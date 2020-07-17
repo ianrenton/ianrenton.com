@@ -1,0 +1,20 @@
+name: Ian
+date: '2011-03-25 19:10:13'
+url: ''
+message: >-
+  <p>1, 1a & 2: The divide is that components aren't useful (ideally don't have
+  a main() method) on their own, products are. At the moment products are real
+  projects that have code and use components, but we could certainly move to a
+  setup where everything's a component and a product is just a build script.
+  I've been meaning to play with OSGi since BarCamp, and I still haven't gotten
+  around to it yet.</p><p></p><p></p><p>4: We'll have to go for the worst case
+  scenario I think, as we're trying to reduce the amount of crap that gets put
+  on the Windows network shares.</p><p></p><p></p><p>5: I've been tempted to try
+  for a "one repository per item" model for a while, but discoverability is a
+  big issue.  Unless our build scripts perform SVN checkouts themselves (and
+  since we don't have command-line SVN tools, they can't), it's a pain to track
+  down and manually check out every library that a product depends
+  on.</p><p></p><p></p><p>We're committed to Java, but also committed to using
+  NetBeans rather than Eclipse.</p><p></p><p></p><p>I'd definitely be interested
+  in you explaining Morrigan's build process! :)</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

@@ -1,0 +1,8 @@
+name: michael
+date: '2013-02-09 09:12:03'
+url: ''
+message: >-
+  <p>Thanks, I was also stuck at the "DHCP request received on wlan0 which has
+  no address" issue.  A more elegant solution is to add the line <code>auto
+  wlan0</code> to <code>/etc/network/interfaces</code></p>
+email: 48bda2e97a2248b4573fb733f9ff5981

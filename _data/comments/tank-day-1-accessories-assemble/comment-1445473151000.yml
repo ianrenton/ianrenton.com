@@ -1,0 +1,12 @@
+name: Ian
+date: '2015-10-22 01:19:11'
+url: ''
+message: >-
+  <p>Almost all the Heng Long brand ones use the same RX18 control board I
+  think, so they should be pretty much the same as mine internally. As for other
+  brands, I can't say for sure, but I can't imagine there are any for which it's
+  <em>completely</em> impossible to reverse engineer the control protocol and
+  fake it from a Pi. Just about any RC tank will do if you're prepared to put
+  the hours in figuring out the protocols, or for analogue systems, implementing
+  the motor driver with your own hardware.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

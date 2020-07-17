@@ -1,0 +1,13 @@
+name: tejonbikeronbiker
+date: '2013-03-10 19:36:24'
+url: ''
+message: >-
+  <p>Hi, to get more FPS you can lower the resolution, with a resolution of
+  320x240 you can get very fluid images, it's true, the resolution  lowers, but
+  trust me, the result of more FPS it's better.</p><p></p><p></p><p>This is how
+  I exec mjpg-streamer:</p><p></p><p></p><p>mjpg<em>streamer -i
+  "/usr/lib/input</em><a href="http://uvc.so" rel="nofollow noopener">uvc.so</a>
+  -d /dev/video0  -r 320x240 -f 28" -o "/usr/lib/output<em><a
+  href="http://http.so" rel="nofollow noopener">http.so</a> -p 8090 -w
+  /var/www/mjpg</em>streamer"</p><p></p><p></p><p>Greetings</p>
+email: ff1a3c4d08d255ceee4fe1010a5db644

@@ -1,0 +1,12 @@
+name: Ian
+date: '2013-02-04 01:41:29'
+url: ''
+message: >-
+  <p>I'm sure it's possible, but if you want to run your vision processing on
+  the machine that has the webcam, it's a little redundant since your C++ could
+  just talk straight to the webcam.</p><p></p><p></p><p>Either way, it's a
+  pretty standard format (either MJPEG if you're using the stream or uvcvideo if
+  you're talking direct) so you should be able to grab a library that supports
+  what you want. If you're using OpenCV for your processing, I believe it
+  already supports both of these.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

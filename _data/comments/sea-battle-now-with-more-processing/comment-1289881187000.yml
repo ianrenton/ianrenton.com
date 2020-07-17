@@ -1,0 +1,16 @@
+name: Ian
+date: '2010-11-16 04:19:47'
+url: ''
+message: >-
+  <p>The going-round-in-circles bug is fixed, and will be in today's release.
+  (Or tomorrow's if the headache wins tonight.)</p><p></p><p></p><p>Frame rate
+  limiting is built in - today's build has it cranked down from 60 to 30.  What
+  PC/OS/browser config are you using?  Usage is pretty low on my work laptop
+  (C2D 2.8GHz, 3GB, WinXP, IE8).  I've tried it on my temporary home machine
+  while my MacBook's in for repair, (1.4GHz, 512MB, Ubuntu 9.10 LiveCD, Chrome
+  9) but it's hopeless on that.</p><p></p><p></p><p>Sadly separating game code
+  and rendering doesn't actually seem possible in Processing - or at least, it's
+  not designed to work that way.  I'm sceptically putting up with it for now,
+  but if CPU load is an issue on all platforms, I'll scrap the way it's
+  currently working and hack some 'real' Java instead!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

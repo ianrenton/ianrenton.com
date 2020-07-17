@@ -1,0 +1,17 @@
+name: aefaradien
+date: '2011-03-04 03:45:03'
+url: ''
+message: >-
+  <p>That does indeed seem to be silly and pointless.  It not efficient either
+  from a programming or run-time point of view.  It looks like someone trying to
+  make their crazy idea stick so that can justify the existence of either the
+  silly idea or them selves.  Code like that makes me think egos are involved
+  (though its mostly a guess).</p><p></p><p></p><p>Every GUI system I have seen
+  uses data-source interfaces as providers (SWT, Android, etc.).  Storing data
+  in the GUI is a really bad idea... aside from being a PITA to code, it results
+  in data being stored in more than once place.  Much better to keep the data in
+  once place and reference it from multiple places - and I Java interfaces are a
+  good way of allowing / controlling this.</p><p></p><p></p><p>Can you measure
+  the cost / impact of this crazy system (run-time efficiency, buggyness of
+  code, developer headaches, etc.) and use that as evidence to get it fixed?</p>
+email: ce2d1bfab069b8d6aa9a0e95d736d9bd

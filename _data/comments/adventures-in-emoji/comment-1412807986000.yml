@@ -1,0 +1,10 @@
+name: Ian
+date: '2014-10-08 23:39:46'
+url: ''
+message: >-
+  <p>Yes, putting each character in a fixed-width <code><span/></code> or
+  <code><div/></code> would definitely fix it, but I was trying to come up with
+  a method that didn't rely on defining an HTML element for each character. If
+  you were going down that route, it's probably easier to make the whole thing a
+  big <code><table/></code>.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

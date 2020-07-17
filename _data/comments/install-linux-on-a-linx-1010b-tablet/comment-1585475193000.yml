@@ -1,0 +1,12 @@
+name: Ian
+date: '2020-03-29 10:46:33'
+url: ''
+message: >-
+  Do you have Secure Boot turned on in the EFI config? That could potentially
+  cause it to refuse to boot. It's worth checking if your USB stick appears as
+  an option in the EFI menus as well, as you can use that to force it to boot
+  from a certain device. Failing that - is the device definitely bootable? I
+  know I have one memory stick (a Kingston I think) which is just never bootable
+  regardless of that files are on it; a different stick with the same contents
+  works fine. If you have another stick maybe give that a try.
+email: b937df7b0b3631249ed5ec118e3bb9e0

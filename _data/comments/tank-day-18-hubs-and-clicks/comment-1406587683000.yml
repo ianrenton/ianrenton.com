@@ -1,0 +1,13 @@
+name: Ian
+date: '2014-07-28 23:48:03'
+url: ''
+message: >-
+  <p>Thanks!</p><p></p><p></p><p>There are currently two 5V DC/DCs in the
+  system. A 1A version supplies the Pi, while a 1.5A version supplies the hub
+  (and hence the attached Wifi dongle and webcam). As you say, the Pi could have
+  been powered from the hub, which would remove the need for one of the DC/DCs.
+  However, you'd have to upgrade the one supplying the hub to a 2A or 3A variant
+  to make sure it can supply enough current for
+  everything.</p><p></p><p></p><p>If I were starting again from scratch, that's
+  what I'd do for sure, as it would make the wiring a bit neater.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

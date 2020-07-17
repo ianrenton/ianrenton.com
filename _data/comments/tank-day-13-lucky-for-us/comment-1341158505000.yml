@@ -1,0 +1,10 @@
+name: ''
+date: '2012-07-01 17:01:45'
+url: ''
+message: >-
+  <p>If you use an UVC compatible webcamera (or some kind of camera which can
+  produce raw JPG frames) you can use the mjpg-streamer for streaming video.
+  Using it you can stream live video with low CPU load.</p><p></p><p></p><p><a
+  href="https://sourceforge.net/projects/mjpg-streamer/" rel="nofollow
+  noopener">https://sourceforge.net/projects/mjpg-streamer/</a></p>
+email: 1c35951e18b437fd4cb0088c93243577

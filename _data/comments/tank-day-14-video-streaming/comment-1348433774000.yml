@@ -1,0 +1,9 @@
+name: Simon Vans-Colina (@simonvc)
+date: '2012-09-23 21:56:14'
+url: ''
+message: >-
+  <p>Hi Thanks for the help, im building a little tank myself. One
+  thing:</p><p></p><p></p><p>I had to</p><p></p><p></p><p>ln -s
+  /usr/include/linux/videodev.h -> videodev2.h</p><p></p><p></p><p>to get it to
+  compile on my Rpi. Thanks again.</p>
+email: 4b0c435b53ce0b9dcf4dd6bc13dadfe3

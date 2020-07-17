@@ -1,0 +1,17 @@
+name: Ian
+date: '2013-03-09 02:50:17'
+url: ''
+message: >-
+  <p>That's up to whatever network your Raspberry Pi is on.  If you want it to
+  be accessible from the internet, and the local network it's on includes an
+  internet-connected router, you'll want to open a port on the router and point
+  it at the Raspberry Pi.</p><p></p><p></p><p>For example, if your RPi had IP
+  192.168.0.100, and your mjpg-streamer web interface was running on port 5000,
+  you could set up a port forwarding rule in your router to do something
+  like:</p><p></p><p></p><p>Incoming, port 80 --->
+  192.168.0.100:5000</p><p></p><p></p><p>If you then find your router's public
+  IP address (e.g. using <a href="http://whatismyip.com/" rel="nofollow
+  noopener">http://whatismyip.com</a>), someone else on the internet could type
+  your IP address into their web browser and they would see the mjpg-streamer
+  web interface.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

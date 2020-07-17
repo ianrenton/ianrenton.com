@@ -1,0 +1,13 @@
+name: Ian
+date: '2014-10-29 01:11:34'
+url: ''
+message: >-
+  <p>I'm not sure — I didn't have this problem with mine, so perhaps there are
+  two different versions of the EW-7711UAN, or perhaps something has changed to
+  break support in newer versions of Raspbian.</p><p></p><p></p><p>Do you know
+  which driver your device uses? I've seen some posts such as <a
+  href="http://jenssegers.be/blog/43/realtek-rtl8188-based-access-point-on-raspberry-pi"
+  rel="nofollow noopener">this one</a> suggesting that Realtek has a special
+  version of <code>hostapd</code> that supports their devices, so that could be
+  worth a try.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

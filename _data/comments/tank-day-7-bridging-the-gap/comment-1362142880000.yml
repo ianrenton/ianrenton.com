@@ -1,0 +1,14 @@
+name: Ian
+date: '2013-03-01 13:01:20'
+url: ''
+message: >-
+  <p>Thanks!</p><p></p><p></p><p>The resistor values in this circuit don't have
+  to be exactly the same as mine - anything roughly similar will do. The
+  potential divider created by the 310R and 390R resistors ensures that when the
+  transistor is off, the output is roughly 4V, but this 4V is fed into the RX-18
+  which isn't particularly picky about its input levels. In fact, even with my
+  resistors, the output is rarely exactly 4V as VCC varies between 6 and 8 volts
+  depending on how full the battery is.</p><p></p><p></p><p>So long as you get a
+  resistor close to 310 Ohms -- 330 will be absolutely fine -- you shouldn't run
+  into any problems.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

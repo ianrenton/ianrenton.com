@@ -1,0 +1,15 @@
+name: buzzmeister
+date: '2013-08-19 00:38:08'
+url: ''
+message: >-
+  <p>I use a very similar setup to yours. I use the RPi to provide an
+  information station, a wireless local content server at events. No Internet is
+  involved.</p><p></p><p></p><p>I have not had the issue you
+  describe.</p><p></p><p></p><p>I see that the netmask you show in your
+  network/interfaces and the network shown in your Windows connection
+  illustration are different. The Windows one seems correct. Shouldn't the
+  netmask for the address you specified be 255.255.255.0, not 255.255.0.0 as
+  your file currently reads?</p><p></p><p></p><p>I also don't understand the
+  idea of dnsmasq assigning the laptop an IP address. You have hard coded an
+  address in network/interfaces, so the one you put there should stick.</p>
+email: bfd6eb9d8b60537ce5befba8cbc5b513

@@ -1,0 +1,15 @@
+name: Ian
+date: '2011-04-11 14:16:21'
+url: ''
+message: >-
+  <p>I'm not sure, I'm afraid I just followed the guides around the 'net that
+  execute the <code>dd</code> command from the phone.  This might be one for the
+  xda-developers or CyanogenMod forums I'm afraid!</p><p></p><p></p><p>When you
+  say you can't get past the white HTC screen, is that booting normally (press
+  power button) or booting into HBOOT (vol down + power)?  It sounds to me like
+  you may not have a working ROM, and maybe not a working Recovery either, but
+  if you can't even get into HBOOT, you have bigger problems
+  :(</p><p></p><p></p><p>Retry getting into HBOOT by holding vol down, pressing
+  power, and releasing vol down when the display comes on.  If that drops you
+  into HBOOT, all is not lost!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

@@ -1,0 +1,11 @@
+name: Keelhaul
+date: '2012-07-09 04:46:42'
+url: ''
+message: >-
+  <p>I'm trying (in theory - my RPi is still in the mail) to use the same 7.2V
+  battery pack for an RC car DC motor and a RPi. Are any components required to
+  split the battery between the motor and the converter? Can I just fork the +/-
+  wires coming from the battery or do I need diodes or something (sorry, I'm
+  quite new to electronics)?</p><p></p><p></p><p>Also, what is your battery's
+  capacity and how long does it last?</p>
+email: 85c830618e28e505544d1fc69684a2bc

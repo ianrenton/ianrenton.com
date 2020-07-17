@@ -1,0 +1,37 @@
+name: Damien
+date: '2018-10-09 19:03:59'
+url: ''
+message: >-
+  Here in October 2018 the issues are still far from clobbered with Bay Trail.
+  However, I'm joining the 1010B fun due to a rash purchase yesterday.
+
+
+  I've not checked this with anything other than Mint 19, but I seem to have
+  sussed the brightness without resorting to kernel rebuilds.
+
+  Edit /etc/initramfs-tools/modules and add these lines in order:
+
+  pwm_lpss
+
+  pwm_lpss_platform
+
+  pwm_lpss_pci
+
+  i915
+
+
+  Then, sudo update-initramfs -u
+
+  And reboot.
+
+  This stops the i915 module loading ahead of the pwm_lpss modules.
+
+
+  Inspired by https://bugs.freedesktop.org/show_bug.cgi?id=96571
+
+
+  All the best, and thanks for the head start.
+
+
+  Damien
+email: ddafcdbe6682f812848f3e2e197832f3

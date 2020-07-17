@@ -1,0 +1,21 @@
+name: Ian
+date: '2014-04-03 23:38:14'
+url: ''
+message: >-
+  <p>That looks really cool, I like what you've done with the web interface!
+  Does the tablet support multi-touch in the browser so you can use both sticks
+  at the same time?</p><p></p><p></p><p>I would have used WebSockets originally
+  but I had the crazy idea that I should support Internet Explorer which didn't
+  have WebSockets back then. It looks like a better solution than the integrated
+  HTTP server.</p><p></p><p></p><p>I've been very lazy about the whole CRC code
+  issue — the solution was posted in the <a
+  href="http://www.rctanksaustralia.com/forum/viewtopic.php?f=149&t=383&start=10"
+  rel="nofollow noopener">RC Tanks Australia</a> thread ages ago, and GitHub
+  user TheTesla <a
+  href="https://github.com/TheTesla/raspberrytank/commit/59f2e20f6923b1be4c1ccd5c44e034ad246dbcae"
+  rel="nofollow noopener">implemented it on top of my original code</a> too. I
+  just need to find time to implement it myself — your code looks better written
+  than mine so I might use yours if that's OK!</p><p></p><p></p><p>(And don't
+  worry about your English, it's very good — and 1000x better than my
+  French!)</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

@@ -1,0 +1,15 @@
+name: Ian
+date: '2013-06-18 09:29:51'
+url: ''
+message: >-
+  <p>I haven't given up, I just have an acute shortage of free time! I used to
+  work on the tank during my lunch hour, as it's not really practical for me to
+  do it on evenings/weekends, but it's been about six months since I last had a
+  lunch hour that I didn't have to work through :)</p><p></p><p></p><p>I have a
+  number of plans in the short term, such as moving the pages served by lighttpd
+  onto the mongoose server, which would get around the current cross-site
+  Javascript problem on the web interface; improving the autonomous mode's
+  behaviour; and upgrading the battery.</p><p></p><p></p><p>Longer term, I still
+  hope to replace the RX-18 board with an Arduino and motor shields at some
+  point, to allow fine-grained control of motor speeds.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

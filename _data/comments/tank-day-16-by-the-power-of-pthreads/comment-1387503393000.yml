@@ -1,0 +1,27 @@
+name: Ian
+date: '2013-12-20 01:36:33'
+url: ''
+message: >-
+  <p>GeekRPI, building <code>mongoose</code> from the RaspberryTank repository
+  is very easy, because it happens automatically as part of the
+  <code>rt_http</code> makefile. So all you have to do
+  is:</p><p></p><p></p><p><code><br>cd rt_http &&
+  make<br></code></p><p></p><p></p><p>...and Mongoose will be compiled alongside
+  the Raspberry Tank code itself.</p><p></p><p></p><p>However, if you're
+  interested in PHP and CGI, the Mongoose server embedded in my code may not be
+  the ideal solution for you. I'm not using it to serve files on disk—rather,
+  I'm handling the queries internally in my code, and using it to drive the
+  tank. My tank uses a separate <code>lighttp</code> server to serve the static
+  pages of the web interface, because I can't get Mongoose serving both pages
+  from disk <em>and</em> handling certain queries in my own code at the same
+  time.</p><p></p><p></p><p>If you are interested in PHP via CGI in Mongoose,
+  it's supposed to be possible, although I've not tried it myself. <a
+  href="http://stackoverflow.com/questions/7266167/running-python-scripts-in-mongoose"
+  rel="nofollow noopener">This StackOverflow question</a> is about running it on
+  Windows, but similar things should be possible in
+  Linux.</p><p></p><p></p><p>If you want a setup similar to mine, I recommend
+  having both <code>lighttpd</code> and Mongoose running side by side. It's not
+  a great solution, but until it's possible to get Mongoose to do both internal
+  query handling <em>and</em> serving static files from disk, it's the best we
+  have.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

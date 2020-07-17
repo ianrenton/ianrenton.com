@@ -1,0 +1,11 @@
+name: Ian
+date: '2020-06-21 11:24:15'
+url: ''
+message: >-
+  This is really weird. I'm thinking the same as you -  I can't understand what
+  the Ubuntu install could be doing to the PC so that it can't then boot from
+  USB, because booting from USB should be handled at the BIOS/UEFI level and not
+  touched by Ubuntu. Rob Smith/Brt you using 20.04 as well as Marc0? I will add
+  a warning to the top of the page as this seems like a repeatable issue now
+  that more than one person has reported it.
+email: b937df7b0b3631249ed5ec118e3bb9e0

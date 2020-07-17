@@ -1,0 +1,16 @@
+name: Ian
+date: '2013-03-27 00:22:59'
+url: ''
+message: >-
+  <p>Occidentalis may name things a little differently, I don't have the
+  Raspberry Tank around at the moment so I can't check with a proper
+  Occidentalis install -- all I have is a vanilla Debian
+  box.</p><p></p><p></p><p><code>ssh.conf</code> sounds like config for the SSH
+  <em>client</em>, so you won't find <code>ListenAddress</code>
+  there.</p><p></p><p></p><p>If you don't have any files like
+  <code>/etc/ssh/sshd.conf</code> or <code>/etc/ssh/sshd_config</code> (the "d"
+  is the important bit that lets you know it's configuration for the
+  <em>daemon</em> -- i.e. the server) then perhaps Occidentalis stores the file
+  somewhere else. I will power up the tank when I get a chance and see if I can
+  find it.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

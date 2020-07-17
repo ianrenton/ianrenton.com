@@ -1,0 +1,13 @@
+name: Ian
+date: '2013-03-10 12:13:45'
+url: ''
+message: >-
+  <p>Hi Andreas, your project looks great! You may not have the gun turret on
+  yours, but it looks like your autonomous navigation is working a bit better
+  than mine.</p><p></p><p></p><p>Out of interest, how quickly do your ultrasound
+  sensors respond? Mine seems to take around 200ms to return a reading, (and
+  that reading is quite often wrong) which is why it tends to drive into things
+  a lot!</p><p></p><p></p><p>I have modified the timings of various things in my
+  code to produce a better autonomous behaviour than what you can see in the
+  video above, and I will post a new video soon.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

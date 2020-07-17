@@ -1,0 +1,15 @@
+name: Ian
+date: '2011-03-04 23:56:35'
+url: ''
+message: >-
+  <p>The toolkit isn't something I have any power over, so I can't really get it
+  fixed -- however, I can probably avoid using it at certain crucial
+  points.</p><p></p><p></p><p>In response to your second post, it all depends on
+  how you implement clone().  It's not something that your own classes support
+  unless you code the function yourself.  In my case the objects I'm cloning
+  only have primitive member variables, so I don't have that worry anyway, but
+  you're right, a factory is a more designpatterny way of doing
+  it.</p><p></p><p></p><p>A colleague of mine suggested a way to use Generics to
+  work around the ReallyCloneable hack as well, so I might even end up with some
+  non-WTF code sooner or later! :)</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

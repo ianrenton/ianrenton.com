@@ -1,0 +1,25 @@
+name: Ian
+date: '2012-09-26 13:37:55'
+url: ''
+message: >-
+  <p>Mour&#227o: Sorry I didn't notice your comment there for some reason!  The
+  CPU load from the video stream isn't significant -- the <code>top</code>
+  output below shows it using significantly less CPU than <code>top</code>
+  itself.  This is under Raspbian (<code>armhf</code> architecture) rather than
+  <code>armel</code> Debian.</p><p></p><p></p><pre><code>top - 15:12:05 up 5
+  min,  1 user,  load average: 0.50, 0.50, 0.25<br>Tasks:  67 total,   1
+  running,  66 sleeping,   0 stopped,   0 zombie<br>%Cpu(s):  5.1 us, 11.6 sy, 
+  0.0 ni, 69.8 id, 13.0 wa,  0.3 hi,  0.1 si,  0.0 st<br>KiB Mem:    189104
+  total,    61096 used,   128008 free,     9164 buffers<br>KiB Swap:   102396
+  total,        0 used,   102396 free,    29472 cached<br><br>  PID USER     
+  PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND<br> 1975 root      20   0
+  51048  680  524 S  11.1  0.4   0:24.72 rt_http<br> 2237 root      20   0  4648
+  1396 1044 R   1.6  0.7   0:00.15 top<br> 2081 root      20   0 21576 2020 1832
+  S   0.3  1.1   0:00.43 mjpg_streamer<br>    1 root      20   0  2136  732  624
+  S   0.0  0.4   0:01.64 init<br>    2 root      20   0     0    0    0 S   0.0 
+  0.0   0:00.00 kthreadd<br>    3 root      20   0     0    0    0 S   0.0 
+  0.0   0:00.03 ksoftirqd/0<br>    4 root      20   0     0    0    0 S   0.0 
+  0.0   0:00.00 kworker/0:0<br>    5 root      20   0     0    0    0 S   0.0 
+  0.0   0:00.08 kworker/u:0<br>    6 root       0 -20     0    0    0 S   0.0 
+  0.0   0:00.00 khelper<br></code></pre>
+email: b937df7b0b3631249ed5ec118e3bb9e0

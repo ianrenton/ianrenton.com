@@ -1,0 +1,10 @@
+name: Daniel
+date: '2012-07-23 20:53:16'
+url: ''
+message: >-
+  <p>Nice work!</p><p></p><p></p><p>I am having some issues with mjpg_streamer
+  when running under Raspbian. Namely, as soon as I start it, the raspi starts
+  crawling on its knees. The cpu load is around 30%, so that seems fine, but
+  everything is super slow, typing ls takes 10 sec.</p><p></p><p></p><p>Any
+  ideas?</p><p></p><p></p><p>thanks<br>Daniel</p>
+email: 8f069ea0a72370a8f85265080aca3b82

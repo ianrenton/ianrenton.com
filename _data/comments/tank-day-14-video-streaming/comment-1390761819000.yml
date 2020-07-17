@@ -1,0 +1,11 @@
+name: akshay
+date: '2014-01-26 18:43:39'
+url: ''
+message: >-
+  <p>what should be the extension of the init script...I use<br> "cd
+  mjpg-streamer/mjpg-streamer & mjpgstreamer -i "/usr/lib/<a
+  href="http://inputuvc.so" rel="nofollow noopener">inputuvc.so</a> -d
+  /dev/video0 -r 320x240 -f 28" -o "/usr/lib/<a href="http://outputhttp.so"
+  rel="nofollow noopener">outputhttp.so</a> -p 8080 -w /var/www/mjpgstreamer" to
+  start streamer..where sould i edit the given script</p>
+email: 06322cea448b371ab06762874c58e996

@@ -1,0 +1,23 @@
+name: Ian
+date: '2013-02-07 21:44:36'
+url: ''
+message: >-
+  <p>Trying your setup without the X server (the bit that provides a graphical
+  environment) is definitely a good idea. I've never really used a graphical
+  environment on my RPi so I don't know how much of a hit on the system
+  resources it is, but it's probably significant. If you can turn that off - not
+  just a matter of unplugging the monitor but making sure the software itself
+  isn't running - your video processing will probably run faster. If your
+  graphical environment runs automatically on startup, experienced Arch users
+  should be able to advise on the best way to disable it. (The distro I use
+  starts up in a terminal, and you have to run X
+  manually.)</p><p></p><p></p><p>Conky uses a reasonable amount of processing
+  power itself if you're running it with settings such as a transparent
+  background and 1 sec refresh interval. Using top is very easy - you just run
+  it from the console and it starts showing you the top 20-or-so processes
+  ordered by CPU usage, which is probably what you want. From within top, hit q
+  to quit and ? for help if you need to sort by something other than CPU
+  load.</p><p></p><p></p><p>If you wanted to avoid two PuTTY sessions you could
+  use a terminal multiplexer such as screen or tmux - but there's not really
+  anything wrong with running two PuTTY windows at the same time.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

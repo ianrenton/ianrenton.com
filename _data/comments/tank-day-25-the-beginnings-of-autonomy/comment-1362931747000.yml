@@ -1,0 +1,9 @@
+name: Ian
+date: '2013-03-10 16:09:07'
+url: ''
+message: >-
+  <p>I see - I also have an independent thread for monitoring data from my
+  sensors, but it doesn't poll as fast as yours. I also don't smooth the data
+  because my polling is so slow (I don't want to slow it even more with any
+  averaging).</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

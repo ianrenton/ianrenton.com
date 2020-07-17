@@ -1,0 +1,19 @@
+name: David
+date: '2013-04-10 16:28:34'
+url: ''
+message: >-
+  <p>Hi Ian. First of all very nice work!<br>I know the conversation has kind of
+  ended some days ago, but I hope you don't mind me bringing it up again,
+  because I have the same issue with hostapd + trying to ssh from my win7 laptop
+  via the raspi wifi AP.</p><p></p><p><ol><br><li>I can ssh via
+  ethernet</li><br><li>when connected to the raspi AP, ping goes ok but I can't
+  ssh (connection refused)</li><br><li>the sshd config file is set to listen
+  from all addresses</li><br><li>I did have run lsof command with the raspi
+  connected to a monitor and keyboard, and this is the result:<br><code>sshd
+  12807 root 3u IPv4 2489 0t0 TCP *:ssh (LISTEN)</code><br></li><br><li>If I
+  make an ad-hoc wireless network using win7, and connect to it from the raspi
+  (after stoping hostapd and dnsmasq services) I can ssh from win7 to the raspi
+  via wifi.</li><br></ol></p><p></p><p>So I still don't know what's happening,
+  but I guess there is some problem mixing hostapd and sshd services... Do you
+  have any idea?</p><p></p><p></p><p>Thank you!</p>
+email: 63bc74df860d60f84c1c596ba94b54d0

@@ -1,0 +1,12 @@
+name: Ian
+date: '2014-08-15 01:54:30'
+url: ''
+message: >-
+  <p>I may move to direct control of the main drive motors at some point using a
+  similar method to the one on Adafruit — I have some SN754410 chips lying
+  around (quad H-bridge) that will do the trick. (They're equivalent to the
+  L293D in the Adafruit guide.)</p><p></p><p></p><p>I've been too busy playing
+  with the <a href="http://quadcopter.ianrenton.com/" rel="nofollow
+  noopener">quad</a> to do much on the tank at the moment, but I'll get back
+  into it sometime soon!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

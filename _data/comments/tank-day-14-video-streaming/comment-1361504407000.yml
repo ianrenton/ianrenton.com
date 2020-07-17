@@ -1,0 +1,11 @@
+name: bjoern
+date: '2013-02-22 03:40:07'
+url: ''
+message: >-
+  <p>Is anyone able to explain why I only get a fairly smooth stream, if I
+  select the supported max resolution (MPEG, 1280x720)? Any other supported
+  resolution (except below 320x240) works bad (first picture after 20-30s,
+  ~0,1fps).<br>With the highest resolution, my connection (WLAN/internet/mobile)
+  is the bottleneck. So I would like to get a slightly lower resolution working
+  like 800x600.</p>
+email: 5b476d4fcb1d728285cb48b2ce9870d9

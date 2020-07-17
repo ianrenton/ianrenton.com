@@ -1,0 +1,15 @@
+name: Ian
+date: '2011-10-12 15:37:54'
+url: ''
+message: >-
+  <p>That's the tricky thing with shared hosting, there <em>is</em> no hard
+  limit on memory use.  Individual processes are killed if they use too much,
+  but the limit is a factor of not only what else you have running (e.g. other
+  PHP scripts) but also what the other people hosting on that server are
+  using.</p><p></p><p></p><p>It's particularly frustrating as there's no way to
+  gauge how responsive a website will be in the long run.  As a case in point,
+  when I wrote this post, SW and Only Dreaming were really suffering with around
+  50% of requests timing out or failing at peak times.  Today, it's much better,
+  and I'm not noticing any changes in my own stats.  That probably means it's
+  load on <em>someone else's</em> site contributing to my problems.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

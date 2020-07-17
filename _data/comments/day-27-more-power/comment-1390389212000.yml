@@ -1,0 +1,16 @@
+name: Ian
+date: '2014-01-22 11:13:32'
+url: ''
+message: >-
+  <p>I know there's a 1:24 scale version as well as my 1:16, so I guess you have
+  that? I'm not sure how much space the 1:24 has inside, but hopefully you'll be
+  OK—there's plenty spare in mine really, I just haven't used it
+  efficiently!</p><p></p><p></p><p>Taking out all the original electronics and
+  doing your own motors / speed control is definitely not a bad plan, and I'd
+  like to do that eventually in my tank too, I just haven't got around to it
+  yet! My method of reverse-engineering the control codes (as you may have seen
+  on this blog) was an "easy" way to get control, but it leaves you stuck with
+  doing what the RX18 board will let you do. As you say, redoing the electronics
+  yourself will give you proper speed control of the motors, which will result
+  in much easier control.</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0

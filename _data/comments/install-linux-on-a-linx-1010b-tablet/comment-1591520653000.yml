@@ -1,0 +1,5 @@
+name: Ian
+date: '2020-06-07 10:04:13'
+url: ''
+message: "I'm not sure how best to fix the rotation accelerometer - I will do some Googling as well. In the mean time, Gnome does have a Rotation Lock feature so you can get the orientation the right way, then lock it, then rotate the tablet to the proper position.\r\n\r\nFor the right-click problem, it could be a sensitivity issue as mentioned above, and the system is not treating it as a \"long press\" but as a sequence of very small movements. I'm not sure whether `xinput` settings work in Ubuntu 19.04 or if not what the replacement is, but it's worth searching around that to see if anyone else has a solution to touchscreen fingre movement sensitivity."
+email: b937df7b0b3631249ed5ec118e3bb9e0

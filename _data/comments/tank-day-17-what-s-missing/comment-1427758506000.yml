@@ -1,0 +1,8 @@
+name: Simon
+date: '2015-03-31 00:35:06'
+url: ''
+message: >-
+  <p>You might want to take a look at html5 touch events. You can detect touch
+  start, move and end. Just suppress the start event and you can prevent the
+  emulated right click on mobile browsers.</p>
+email: b1c5532d336766e675ea17bbea2eb8a4

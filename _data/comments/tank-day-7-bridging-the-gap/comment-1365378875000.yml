@@ -1,0 +1,28 @@
+name: Fivetide
+date: '2013-04-08 00:54:35'
+url: ''
+message: >-
+  <p>If anyone needs the part numbers for the above boards ( because I didnt
+  have a clue) I posted on the CNC forum I use to help me find them .. hope I
+  dont step on anyone toes Ian only I'm no electronics expert and there may be
+  more like me :) <a href="http://mycnc.co.uk" rel="nofollow
+  noopener">mycnc.co.uk</a></p><p></p><p></p><p>The 10k is simply to limit the
+  amount of current from the GPIO pin through the transistor. Without a resistor
+  the GPIO pin would see an almost short to gnd, leading to the Pi getting
+  toasted (should have a certain degree of protection I would think) or the
+  transistor gettign cooked (due to the limited amount of current, I;d expect
+  the Pi to die first). Anything in the 1k-10k range should work
+  fine.</p><p></p><p></p><p>The other 2 resistors are being used as a voltage
+  divider to reduce the 7.2V to aprox 4V. One thing to note is the 310R will
+  basically be connected direct to ground when the transistor is switched on, so
+  you want to ensure it's got a high enough power rating.<br>So current is
+  7.2V/310R = 23mA, then Power is 7.2V*0.023A=0.16W. An 1/8W resistor is only
+  0.125W, so you may want a 1/4W resistor for durability, or two 1/8w in series
+  or parallel, if you can't guarantee long periods of being the transistor being
+  switched on.</p><p></p><p></p><p>Just done a quick search, and 1/4W are
+  actually cheaper. I've been doing too much with SMD lately where 1/8W is
+  normal!</p><p></p><p></p><p>10k - RS own brand 1/4W- 707-7745 12p for
+  10<br>390R -RS 1/4W - 707-7634 16p for 10<br>309R (nearest to 310R) - either
+  Vishay 3/5 (0.6)W - 683-3500 -1.25 for 25 OR TE 1/4W - 754-9072 1.07 for
+  5<br>The TE have a tighter tolerance (0.1% v 1%)</p>
+email: 67ee7635d79b68e276c424f1c06f50e6

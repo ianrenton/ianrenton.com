@@ -1,0 +1,18 @@
+name: Ian
+date: '2011-10-17 03:32:49'
+url: ''
+message: >-
+  <p>I can only speak from experience, but I've been running my phone's main
+  partition as ext4 for around 10 months now without issues.  I'm not sure that
+  ext4 is significantly faster than ext3 -- it's certainly not so much faster
+  that it would cause any issues for the CPU or RAM in the phone (it's still an
+  order of magnitude slower than cache or RAM).</p><p></p><p></p><p>The only
+  related issue you <em>might</em> want to watch out for is ext3/4 partitions on
+  the SD card -- as SD cards are quoted to withstand a certain number of
+  read/write operations, it's possible that journalling file system such as
+  ext3/4 will chew through SD card life more quickly than non-journalling
+  filesystems such as ext2 or FAT32.</p><p></p><p></p><p>However, as you're
+  talking just about the phone's internal storage being bumped from ext3 to
+  ext4, this is not a concern. In fact, aside from the fact that Gingerbread
+  ROMs will work, I'd be surprised if you noticed any difference!</p>
+email: b937df7b0b3631249ed5ec118e3bb9e0
