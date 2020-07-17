@@ -6,10 +6,7 @@
   $('.js-form').submit(function () {
     var form = this;
 
-
-    $("#comment-form-submit").html(
-      '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...'
-    );
+    $("#comment-form-submit").html('Please Wait...');
     $(form).addClass('disabled');
 
     $.ajax({
@@ -19,10 +16,8 @@
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
         showModal('Comment submitted', 'Thanks! Your comment is pending. It will appear when approved.');
-
-        $("#comment-form-submit")
-          .html("Submit");
-
+        $('.js-modal-text').removeClass('js-modal-text-error');
+        $("#comment-form-submit").html("Submit");
         $(form)[0].reset();
         $(form).removeClass('disabled');
         grecaptcha.reset();
@@ -31,7 +26,8 @@
         console.log(err);
         var ecode = (err.responseJSON || {}).errorCode || "unknown";
         showModal('Error', 'An error occured.<br>[' + ecode + ']');
-        $("#comment-form-submit").html("Submit")
+        $('.js-modal-text').addClass('js-modal-text-error');
+        $("#comment-form-submit").html("Submit");
         $(form).removeClass('disabled');
         grecaptcha.reset();
       }
