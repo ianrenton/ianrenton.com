@@ -32,3 +32,9 @@ span.subtitle {
     font-size: $tiny-font-size;
     color: $grey-color-light;
 }
+
+@include media-query($on-palm) {
+  footer {
+    display: none;
+  }
+}

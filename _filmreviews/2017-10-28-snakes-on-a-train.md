@@ -5,8 +5,6 @@ slug: snakes-on-a-train
 id: 2131
 date: '2017-10-28 23:00:56'
 layout: post
-categories:
-  - Film Reviews (by the Numbers)
 ---
 
 ## Synopsis

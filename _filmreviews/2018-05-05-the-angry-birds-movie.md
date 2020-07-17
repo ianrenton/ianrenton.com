@@ -5,8 +5,6 @@ slug: the-angry-birds-movie
 id: 3919
 date: '2018-05-05 23:12:24'
 layout: post
-categories:
-  - Film Reviews (by the Numbers)
 ---
 
 ## Synopsis

@@ -5,8 +5,6 @@ slug: the-emoji-movie
 id: 5253
 date: '2019-06-29 21:15:01'
 layout: post
-categories:
-  - Film Reviews (by the Numbers)
 ---
 
 ## Synopsis

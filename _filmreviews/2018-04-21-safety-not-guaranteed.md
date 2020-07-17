@@ -5,8 +5,6 @@ slug: safety-not-guaranteed
 id: 3914
 date: '2018-04-21 10:15:37'
 layout: post
-categories:
-  - Film Reviews (by the Numbers)
 ---
 
 ## Synopsis

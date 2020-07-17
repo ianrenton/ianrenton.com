@@ -5,8 +5,6 @@ slug: phenomenon
 id: 3936
 date: '2018-06-15 06:25:14'
 layout: post
-categories:
-  - Film Reviews (by the Numbers)
 ---
 
 ## Synopsis
