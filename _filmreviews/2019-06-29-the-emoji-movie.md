@@ -9,13 +9,13 @@ layout: post
 
 ## Synopsis
 
-![](https://ianrenton.com/wp-content/uploads/2019/06/image.png)
+![](/blog/2019/06/image.png)
 
-![](https://ianrenton.com/wp-content/uploads/2019/06/1.png)
+![](/blog/2019/06/1.png)
 
-![](https://ianrenton.com/wp-content/uploads/2019/06/2.png)
+![](/blog/2019/06/2.png)
 
-![](https://ianrenton.com/wp-content/uploads/2019/06/3.png)
+![](/blog/2019/06/3.png)
 
 ## By the Numbers
 
@@ -39,5 +39,5 @@ layout: post
 *   Depth Patrick Stewart's career has now sunk to: MINUS NINE THOUSAND
 
 ## Overall: MEHHHH  
-![](https://ianrenton.com/wp-content/uploads/2019/06/emoji-movie-4-e1561835901731.png)  
+![](/blog/2019/06/emoji-movie-4-e1561835901731.png)  
 👉🎬💩

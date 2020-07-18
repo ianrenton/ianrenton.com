@@ -43,6 +43,10 @@ div.newcommentauthor {
   font-weight: bold;
 }
 
+label {
+    display: inline-block;
+}
+
 input, textarea, button {
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -71,4 +75,20 @@ div.js-modal-text {
 
 div.js-modal-text-error {
   color: red;
+}
+
+@include media-query($on-palm) {
+  input#comment-form-name, input#comment-form-email {
+    width: 17em;
+  }
+  textarea#comment-form-message {
+    width: 17em;
+    height: 5em;
+  }
+  img.gravatar {
+    display: none;
+  }
+  div.commentinner, form.commentform {
+    margin-left: 0px;
+  }
 }

@@ -9,7 +9,9 @@ layout: post
 
 ## Synopsis
 
-When a GANG OF EVIL PIGS arrive at BIRD ISLAND, it's up to three ANGRY and INEVITABLY COLOUR-CODED BIRDS to save the day by flinging themselves at the PIGS. Meanwhile, the audience learns an important lesson: JOHNNY FOREIGNER is here to STEAL YOUR CHILDREN and should immediately be distrusted, especially if they have BEARDS. And if they do turn out to be bad, LEVEL THEIR CITY and DESTROY THEIR ENTIRE CIVILISATION using HIGH-INTENSITY ARTILLERY BOMBARDMENT. ![29pw0d](https://ianrenton.com/wp-content/uploads/2018/05/29pw0d.jpg)
+When a GANG OF EVIL PIGS arrive at BIRD ISLAND, it's up to three ANGRY and INEVITABLY COLOUR-CODED BIRDS to save the day by flinging themselves at the PIGS. Meanwhile, the audience learns an important lesson: JOHNNY FOREIGNER is here to STEAL YOUR CHILDREN and should immediately be distrusted, especially if they have BEARDS. And if they do turn out to be bad, LEVEL THEIR CITY and DESTROY THEIR ENTIRE CIVILISATION using HIGH-INTENSITY ARTILLERY BOMBARDMENT.
+
+![29pw0d](/blog/2018/05/29pw0d.jpg)
 
 ## By the Numbers
 

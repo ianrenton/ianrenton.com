@@ -5,11 +5,15 @@ paginate: true
 
 <div class="page-content">
 <div class="wrapper">
-{% if paginator.page != 1 %}
   <header class="post-header">
-    <h1 class="post-title">Blog Archive &mdash; Page {{paginator.page}}</h1>
+    {% if paginator.page != 1 %}
+      <h1 class="post-title">Blog Archive &mdash; Page {{paginator.page}}</h1>
+    {% else %}
+      <h1 class="post-title">Blog Archive</h1>
+    {% endif %}
   </header>
-{% endif %}
+
+  <div class="oldwarning"><p>This is part of my blog, which I have long since stopped maintaining. The page has been preserved in case its content is of any interest. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
 
 <ul class="post-list">
   {% for post in paginator.posts %}

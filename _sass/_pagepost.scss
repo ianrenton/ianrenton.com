@@ -151,3 +151,10 @@ hr {
     }
   }
 }
+
+@include media-query($on-palm) {
+  div.mobileblock {
+    display: inline-block;
+    margin-top: 1em;
+  }
+}
