@@ -6,7 +6,7 @@ wordpress_id: 1030
 ---
 
 <div class="oldwarning">
-<p>Warning: A couple of people in the comments are reporting an inability for the tablet to boot from USB after installing Ubuntu 20.04, which is currently an unsolved problem. I have not tried 20.04 myself—I recommend reading the comments before continuing, and proceed at your own risk.</p>
+<p>Warning: A couple of people in the comments are reporting an inability for the tablet to boot from USB after installing Ubuntu 20.04, which is currently an unsolved problem. I have not tried 20.04 myself—I recommend sticking with 19.04 if possible. If you want to try 20.04, read the comments before continuing, and proceed at your own risk.</p>
 </div>
 
 
