@@ -14,7 +14,7 @@ This page is an index of various bits of software I've written in my spare time.
 <div class="table-col table-col-descrip">
 <p><a href="https://github.com/ianrenton/umid1090">U.M.I.D. 1090 (Unnecessary Military Interface for Dump1090)</a> is a web-based display for ADS-B flight tracking software Dump1090, using military symoblogy. (I got bored, OK?)</p>
 
-<p>(You can see it running using my own ADS-B receiver <a href="http://flightmap.ianrenton.com/">here</a>.)</p>
+<p>(You can see it running using my own ADS-B receiver <a href="https://flightmap.ianrenton.com/">here</a>.)</p>
 </div>
 <div class="clear"></div>
 

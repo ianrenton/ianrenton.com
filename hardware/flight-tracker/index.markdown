@@ -20,7 +20,9 @@ title: Flight Tracker
 
 ![Military symbology and airspace layer in U.M.I.D. 1090)](/hardware/flight-tracker/sw2.png){: .center}
 
-<p>When setting this up, I did encounter a problem, which is that Dump1090 by default has a problem with the <code>Access-Control-Allow-Origin</code> flag that it uses to enable cross-site script requests for the data. The version of Dump1090 installed by default in PiAware is no longer the latest, so I tried recompiling the latest version to see if the problem was resolved, but I ran into problems getting it to compile on the Pi. In order to allow my own software to access the data, I therefore to set up a reverse proxy on the Raspberry Pi using nginx. This allowed me to rewrite the headers as required.</p>
+When setting this up, I did encounter a problem, which is that PiAware's lighttpd web server config has a problem with the `Access-Control-Allow-Origin` flag that it uses to enable cross-site script requests for the data. [This commit](https://github.com/ianrenton/dump1090/commit/c89e3b9e9e2c02c722ffab40a8c1d4fcb5b92652), which hopefully will be merged into Dump 1090, shows you how I fixed that in `/etc/lighttpd/conf-available/89-dump1090-fa.conf`. I also made [this change](https://github.com/ianrenton/dump1090/commit/8aa9dc8b8fd43d4755a8042423af2ab841f104bf) while I was there there to expose the JSON files in `/db/` to the outside world as well as just those in `/data/`, so U.M.I.D. can fetch tail number and airframe IDs.
+
+Since I wanted HTTPS support, I also got a certificate from [Let's Encrypt](https://letsencrypt.org/) to serve the same web root on port 443 as well&mdash;[instructions can be found here](https://www.itzgeek.com/how-tos/linux/how-to-configure-lets-encrypt-ssl-in-lighttpd-server.html).
 
 ![Track table in U.M.I.D. 1090)](/hardware/flight-tracker/sw3.jpg){: .center}
 
@@ -31,4 +33,4 @@ title: Flight Tracker
 
 ![Flight Tracker system diagram)](/hardware/flight-tracker/arch.png){: .center .noshadow}
 
-<p>If you’d like to see what I’m currently tracking, my custom front-end is online at <a href="http://flightmap.ianrenton.com">http://flightmap.ianrenton.com</a>, and the software it runs is <a href="https://github.com/ianrenton/umid1090">on Github</a> under a Public Domain licence if you’d like your own copy.</p>
+<p>If you’d like to see what I’m currently tracking, my custom front-end is online at <a href="https://flightmap.ianrenton.com">https://flightmap.ianrenton.com</a>, and the software it runs is <a href="https://github.com/ianrenton/umid1090">on Github</a> under a Public Domain licence if you’d like your own copy.</p>
