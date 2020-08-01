@@ -18,7 +18,7 @@ The <a href="./raspberry-tank">Raspberry Tank</a> was possibly the first tank-li
 <a href="./usv-01"><img src="/images/usv-01.jpg" width="160" alt="USV-01" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="./usv-01">USV-01 "Harry Paye"</a> is an off-the-shelf remote control boat refitted as a testbed for our military-grade autonomous navigation system. It's also a lot of fun to play with!
+<a href="./usv-01">USV-01 "Harry Paye"</a> is an off-the-shelf remote control boat refitted as a testbed for an autonomous navigation system. It's also a lot of fun to play with!
 </div>
 <div class="clear"></div>
 
@@ -47,7 +47,7 @@ The <a href="./atp">All-Terrain Pi</a> is a "off-road" remote control toy fitted
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="./flight-tracker"><img src="/hardware/flight-tracker/sw-small.png" width="160" alt="Flight Tracker" /></a>
+<a href="./flight-tracker"><img src="/hardware/flight-tracker/hw-small.jpg" width="160" alt="Flight Tracker" /></a>
 </div>
 <div class="table-col table-col-descrip">
 I built my own <a href="./flight-tracker">ADS-B receiver to track flights</a> taking off from the nearby airport, using a Raspberry Pi and an SDR dongle.
@@ -55,7 +55,7 @@ I built my own <a href="./flight-tracker">ADS-B receiver to track flights</a> ta
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="./geckocam"><img src="/images/geckocam.jpg" width="160" alt="Gecko Cam" /></a>
+<a href="./geckocam"><img src="/hardware/geckocam/hw-small.jpg" width="160" alt="Gecko Cam" /></a>
 </div>
 <div class="table-col table-col-descrip">
 Our pet gecko has an instrumented and automated vivarium. The <a href="./geckocam/">Gecko Cam</a> page explains the hardware and software setup.

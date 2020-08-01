@@ -50,8 +50,8 @@ td {
 
 <div class="notes visualhook">
 <table cellspacing="10" border="0"><tr><td>
-<a href="http://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" style="max-width: 300px !important;"></a></td>
-<td>Fancy trying out an interactive version of my CV? You can pan and zoom around a map to check out where I've worked and what I've worked on over the years. <a href="/cv/visual/">Click here to try it!</a> You can always head back here for more detail or to print this page out.</td></tr></table>
+<a href="https://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" style="max-width: 300px !important;"></a></td>
+<td>Fancy trying out an interactive version of my CV? You can pan and zoom around a map to check out where I've worked and what I've worked on over the years. <a href="https://careerexplorer.ianrenton.com/">Click here to try it!</a> You can always head back here for more detail or to print this page out.</td></tr></table>
 </div>
 
 I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
