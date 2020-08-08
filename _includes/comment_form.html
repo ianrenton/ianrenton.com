@@ -21,6 +21,10 @@
       <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting."></textarea>
   </div>
   </fieldset>
+  
+  <fieldset>
+    <input type="checkbox" id="comment-form-subscribe" name="options[subscribe]" value="email"><label for="comment-form-subscribe">Send me an email when someone else comments on this post.</label>
+  </fieldset>
 
   <fieldset>
     <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
