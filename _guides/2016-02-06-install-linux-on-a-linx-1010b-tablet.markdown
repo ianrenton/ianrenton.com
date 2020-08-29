@@ -175,11 +175,11 @@ wordpress_id: 1030
 
 
 
-<p>As of the latest 76.4 build, it’s usable in “laptop mode”, but with the following issues (see <a href="https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-">forum thread</a>):</p>
+<p>As of version 83.4.4 (Auguse 2020), it’s usable in “laptop mode”, but with the following issues (see <a href="https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-">forum thread</a>). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.</p>
 
 
 
-<ul><li>No touchscreen support at all</li><li>No orientation detection – screen needs rotating to 90 deg manually if you want to use it in landscape mode</li><li>Brightness control doesn’t work</li><li>Wifi works but WPA2 doesn’t seem to – I had to switch on the legacy WPA mode on my router (as opposed to WPA2) in order to get CloudReady to connect</li><li>Cameras don’t work</li><li>No Bluetooth support</li><li>No Sleep/Suspend support</li></ul>
+<ul><li>No touchscreen support at all</li><li>No orientation detection – screen needs rotating to 90 deg manually if you want to use it in landscape mode</li><li>Brightness control doesn’t work</li><li>Wifi is tempramental - sometimes it works fine, sometimes it reconnects over and over again</li><li>Cameras don’t work</li><li>No Bluetooth support</li><li>No Sleep/Suspend support</li></ul>
 
 
 
