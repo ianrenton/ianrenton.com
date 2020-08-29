@@ -175,7 +175,7 @@ wordpress_id: 1030
 
 
 
-<p>As of version 83.4.4 (Auguse 2020), it’s usable in “laptop mode”, but with the following issues (see <a href="https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-">forum thread</a>). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.</p>
+<p>As of version 83.4.4 (August 2020), it’s usable in “laptop mode”, but with the following issues (see <a href="https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-">forum thread</a>). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.</p>
 
 
 
