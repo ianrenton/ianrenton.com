@@ -5,12 +5,6 @@ date: 2016-02-06T11:43:41+00:00
 wordpress_id: 1030
 ---
 
-<div class="oldwarning">
-<p>Warning: A couple of people in the comments are reporting an inability for the tablet to boot from USB after installing Ubuntu 20.04, which is currently an unsolved problem. I have not tried 20.04 myself—I recommend sticking with 19.04 if possible. If you want to try 20.04, read the comments before continuing, and proceed at your own risk.</p>
-</div>
-
-
-
 <p>In this guide I will be demonstrating how to install Linux on the <a href="https://www.currys.co.uk/gbuk/computing/tablets-and-ereaders/tablets/149_3402_32003_xx_xx/xx-criteria.html">Linx 1010B tablet</a>, a low-cost 10-inch Windows 10 tablet. It uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit. Linux support for the hardware in general is not perfect, but now provides most of the same functionality as Windows.</p>
 
 
@@ -35,7 +29,7 @@ wordpress_id: 1030
 
 
 
-<p>As of Ubuntu 19.04, the latest when this page was last updated, the following all work:</p>
+<p>As of Ubuntu 20.04.1, the latest when this page was last updated, the following all work:</p>
 
 
 
@@ -43,11 +37,11 @@ wordpress_id: 1030
 
 
 
-<p>The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 19.04, or any OS apart from Windows.</p>
+<p>The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.1, or any OS apart from Windows.</p>
 
 
 
-<p>If you’re happy to use Ubuntu 19.04 with GNOME, carry on reading! If not, you might want to jump down to the “<a href="#othersetups">Other Setups</a>” section.</p>
+<p>If you’re happy to use Ubuntu 20.04.1 with GNOME, carry on reading! If not, you might want to jump down to the “<a href="#othersetups">Other Setups</a>” section.</p>
 
 
 
@@ -59,7 +53,7 @@ wordpress_id: 1030
 
 
 
-<ul><li>Linx 1010B tablet and charger</li><li>Ubuntu Linux ISO image (19.04 64-bit recommended, download from <a href="https://ubuntu.com/download/desktop">here</a>, scroll down and be sure to select 19.04 and not 18.04 LTS)</li><li>A USB memory stick with at least 4GB capacity</li><li>The Linx 1010B keyboard attachment, or other USB keyboard is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.</li></ul>
+<ul><li>Linx 1010B tablet and charger</li><li>Ubuntu Linux ISO image (20.04.1 64-bit recommended, download from <a href="https://ubuntu.com/download/desktop">here</a>)</li><li>A USB memory stick with at least 4GB capacity</li><li>The Linx 1010B keyboard attachment, or other USB keyboard is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.</li></ul>
 
 
 
@@ -91,7 +85,7 @@ wordpress_id: 1030
 
 
 
-<p>If you’re choosing to dual-boot, choose “Install Ubuntu alongside Windows Boot Manager” when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage.</p>
+<p>If you’re choosing to dual-boot, choose “Install Ubuntu alongside existing operating system” when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage.</p>
 
 
 
@@ -103,7 +97,7 @@ wordpress_id: 1030
 
 
 
-<p><strong>Congratulations! </strong>At this point, if you’re using Ubuntu 19.04 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, etc.</p>
+<p><strong>Congratulations! </strong>At this point, if you’re using Ubuntu 20.04.1 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, etc.</p>
 
 
 
@@ -112,11 +106,6 @@ wordpress_id: 1030
 
 
 <ul><li>It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!</li><li>If you use Firefox, you may want to install the <a href="https://addons.mozilla.org/en-GB/firefox/addon/grab-and-drag/">Grab and Drag</a> add-on which will improve web browsing with a touchscreen. I find Chrome/Chromium has better touch scrolling support.</li></ul>
-
-
-
-<p>You’re done! Feel free to send me an email if you have any questions and problems.</p>
-
 
 
 <p></p>
@@ -131,7 +120,7 @@ wordpress_id: 1030
 
 
 
-<p>If you want an Ubuntu version prior to 19.04, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. <strong>The majority of users who have followed the instructions above can stop reading here!</strong></p>
+<p>If you want an Ubuntu version prior to 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. <strong>The majority of users who have followed the instructions above can stop reading here!</strong></p>
 
 
 
@@ -147,15 +136,11 @@ wordpress_id: 1030
 
 
 
-<h3>Ubuntu 18.04.1 LTS</h3>
+<h3>Ubuntu 20.04</h3>
 
 
 
-<p>Ubuntu 18.04.1 works reasonably well, and actually seems to have slightly more reliable WiFi than 19.04. However, the following issues are present over and above the non-functional camera, so in general this version is not recommended:</p>
-
-
-
-<ul><li>Sound doesn’t work</li><li>Bluetooth doesn’t work</li><li>Screen rotation accelerometer is inverted</li><li>Cannot control screen brightness</li><li>Long-press does not trigger right-click</li><li>GNOME on-screen keyboard does not work well with some applications e.g. Firefox (“<em>Onboard</em>” recommended as a replacement)</li></ul>
+<p>I have tested Ubuntu 20.04.1 and found it to be working very well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to 20.04.</p>
 
 
 
