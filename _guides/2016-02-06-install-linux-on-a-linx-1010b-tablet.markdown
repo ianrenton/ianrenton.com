@@ -104,8 +104,7 @@ wordpress_id: 1030
 <h2>Post-Install Usage Notes</h2>
 
 
-
-<ul><li>It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!</li><li>If you use Firefox, you may want to install the <a href="https://addons.mozilla.org/en-GB/firefox/addon/grab-and-drag/">Grab and Drag</a> add-on which will improve web browsing with a touchscreen. I find Chrome/Chromium has better touch scrolling support.</li></ul>
+<ul><<li>If you're encountering choppy scrolling, particularly noticeable in web browsers, it may be resolved by switching to Wayland as your graphics server. (<a href="https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1883534">See this bug report</a>.) To do that, log out, select your name on the login screen, and before entering your password click the "cogs" icon at the bottom right. Choose "Ubuntu on Wayland".</li><li>It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!</li><li>If you use Firefox, you may want to install the <a href="https://addons.mozilla.org/en-GB/firefox/addon/grab-and-drag/">Grab and Drag</a> add-on which will improve web browsing with a touchscreen. I find Chrome/Chromium has better touch scrolling support.</li></ul>
 
 
 <p></p>
