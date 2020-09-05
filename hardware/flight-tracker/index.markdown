@@ -10,7 +10,7 @@ title: Flight Tracker
 
 <p>I found the easiest setup was to use <a href="https://flightaware.com/adsb/piaware/build">PiAware</a> from <a href="https://flightaware.com/">FlightAware</a>. (This asks for a Raspberry Pi 3, but works just fine on the original Model B that I used.) The PiAware link has a good guide to getting it all set up.</p>
 
-<p>My SDR dongle is an R820T from <a href="https://www.rtl-sdr.com/">RTL-SDR.com</a>, and worked perfectly out of the box. I used the dipole antenna mount that came with it, and the two vertical antennas set to roughly 69mm long&mdash;quarter of the wavelength of ADS-B's 1090MHz signal. (You can see one antenna fitted in the photo above, adding the second antenna pointing downwards to make a dipole doubles the receive signal, an extra 3dB).</p>
+<p>My SDR dongle is an R820T from <a href="https://www.rtl-sdr.com/">RTL-SDR.com</a>, and worked perfectly out of the box. I used the dipole antenna mount that came with it, and the two vertical antennas set to roughly 69mm long&mdash;quarter of the wavelength of ADS-B's 1090MHz signal. (You can see one antenna fitted in the photo above, adding the second antenna pointing downwards to make a dipole doubles the receive signal, an extra 3dB.)</p>
 
 <p>Following the simple instructions from FlightAware gives you a device that will automatically upload tracking data to their website, and also provides a local web server (via the included <a href="https://www.satsignal.eu/raspberry-pi/dump1090.html">Dump1090</a> software) that shows what’s being tracked.</p>
 
