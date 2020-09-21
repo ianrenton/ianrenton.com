@@ -17,7 +17,7 @@ wordpress_id: 1030
 
 
 
-![](/guides/linx.png){: .center}
+![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}
 
 
 
@@ -121,6 +121,8 @@ wordpress_id: 1030
 
 <p>If you want an Ubuntu version prior to 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. <strong>The majority of users who have followed the instructions above can stop reading here!</strong></p>
 
+![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
+
 
 
 <h3>Other Desktop Environments</h3>
@@ -180,6 +182,8 @@ wordpress_id: 1030
 
 
 <h3>Ubuntu versions earlier than 18.04</h3>
+
+![Ubuntu 15.10 on a Linx 1010B tablet](/guides/linx-1510.jpg){: .center}
 
 
 

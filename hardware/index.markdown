@@ -63,7 +63,7 @@ Our pet gecko has an instrumented and automated vivarium. The <a href="./geckoca
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="/guides/install-linux-on-a-linx-1010b-tablet"><img src="/guides/linx-small.png" width="160" alt="Linx 1010B Linux" /></a>
+<a href="/guides/install-linux-on-a-linx-1010b-tablet"><img src="/images/linx.jpg" width="160" alt="Linx 1010B Linux" /></a>
 </div>
 <div class="table-col table-col-descrip">
 I have written a guide on <a href="/guides/install-linux-on-a-linx-1010b-tablet">how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet</a>.
