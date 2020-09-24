@@ -1,0 +1,6 @@
+_id: e3d858f0-fb30-11ea-b423-fb108bd6c6ac
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Rob
+email: 11b92072d7ec57bf1f1b226c32f3bc36
+message: "Hi me again. \r\n\r\nI've attempted this again with Ubuntu 20.04.1 and it's worked perfectly first time.\r\n\r\nI find it hard to believe that I missed the bit about bootia32.efi EVERY time I tried to install it previously, so it can't be as simple as that. \r\n\r\nAnyway, it's working now, a thousand thanks Ian"
+date: '2020-09-20T11:03:19.230Z'
