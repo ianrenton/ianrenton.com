@@ -3,7 +3,7 @@
 <form class="js-form form commentform" method="post" action="{{ site.staticman_url }}">
   <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
   <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
-  <input type="hidden" name="options[slug]" value="{{ slug }}">
+  <input type="hidden" name="options[slug]" value="{{ page.slug || (page.title | slugify) }}">
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
