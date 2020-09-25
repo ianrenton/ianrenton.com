@@ -2,6 +2,7 @@
 comments: true
 layout: page
 title: Lego Turtle
+slug: lego-turtle
 redirect-from:
   - /legoturtle
 ---

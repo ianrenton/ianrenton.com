@@ -1,7 +1,6 @@
 ---
-comments: false
 layout: page
-slug: index
+slug: gecko-cam
 title: Gecko Cam
 ---
 

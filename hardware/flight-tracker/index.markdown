@@ -2,6 +2,7 @@
 comments: true
 layout: page
 title: Flight Tracker
+slug: flight-tracker
 ---
 
 <p>I run a relatively simple home-made ADS-B aircraft tracker using and old Raspberry Pi, a cheap Software Defined Radio dongle, and some software. It’s installed in my shed, and provides <a href="http://flightmap.ianrenton.com">tracking of planes across the south of the UK</a>.</p>
