@@ -7,6 +7,14 @@ title: Hardware
 Welcome to the hardware & robots area of my site. Here you'll find build diaries, explanations, photos and videos of all the hardware I've built or hacked together by cramming Raspberry Pis inside childrens' toys.
 
 <div class="table-col table-col-pic">
+<a href="./planesailing"><img src="/images/planesailing.png" width="160" alt="Plane Sailing" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="/hardware/planesailing">Plane/Sailing</a> is my home aircraft and ship tracker. It receives ADS-B and AIS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
 <a href="./raspberry-tank"><img src="/images/tank.png" width="160" alt="Raspberry Tank" /></a>
 </div>
 <div class="table-col table-col-descrip">
