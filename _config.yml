@@ -110,6 +110,12 @@ collections:
     collectiontitle: Lego Turtle
     collectionindex: /hardware/lego-turtle/
     showprevnext: true
+  planesailing:
+    output: true
+    permalink: /hardware/planesailing/:title/
+    collectiontitle: Plane/Sailing
+    collectionindex: /hardware/planesailing/
+    showprevnext: true
 
 # jekyll-paginate
 paginate: 10
