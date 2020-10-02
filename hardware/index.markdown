@@ -58,7 +58,7 @@ The <a href="./atp">All-Terrain Pi</a> is a "off-road" remote control toy fitted
 <a href="./flight-tracker"><img src="/hardware/flight-tracker/hw-small.jpg" width="160" alt="Flight Tracker" /></a>
 </div>
 <div class="table-col table-col-descrip">
-I built my own <a href="./flight-tracker">ADS-B receiver to track flights</a> taking off from the nearby airport, using a Raspberry Pi and an SDR dongle.
+I built my own <a href="./flight-tracker">ADS-B receiver to track flights</a> taking off from the nearby airport, using a Raspberry Pi and an SDR dongle. This was the predecessor to "Plane/Sailing", and is still operational as part of it.
 </div>
 <div class="clear"></div>
 

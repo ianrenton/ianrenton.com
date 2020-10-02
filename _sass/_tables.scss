@@ -37,3 +37,9 @@ td {
   max-width:100%;
   margin-bottom: 2em !important;
 }
+
+table.bordered, table.bordered td, table.bordered th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 0.2em;
+}

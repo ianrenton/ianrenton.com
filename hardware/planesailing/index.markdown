@@ -15,8 +15,8 @@ The links below are to the design & build information in case you are interested
 
 1. [System Architecture](./system-architecture/)
 2. [Antenna & Receiver Choices](./antenna-and-receiver/)
-3. Raspberry Pis & Processing Software **COMING SOON**
-4. Web Front-End **COMING SOON**
-5. Bill of Materials **COMING SOON**
+3. [Raspberry Pis & Processing Software](./raspberry-pis-and-processing-software/)
+4. [Web Front-End](./web-front-end/)
+5. [Bill of Materials](./bill-of-materials/)
 
 You may also want to check out this project's predecessor, <a href="/hardware/flight-tracker">my first flight tracker</a>.
