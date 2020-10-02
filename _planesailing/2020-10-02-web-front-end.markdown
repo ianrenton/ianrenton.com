@@ -23,4 +23,7 @@ In addition to the code that pulls data from *Dump1090*, I extended it to also r
 
 A few other modifications were made to the code to improve quality, provide a theme toggle, allow for the addition of sea ports, and fetch METAR & TAF (weather) data for airports.
 
+![METAR Data](/hardware/planesailing/metar.png){: .center}
+<center><em>METAR Data</em></center><br/>
+
 And that's it&mdash;job done! ✈⛵🎉🍺
