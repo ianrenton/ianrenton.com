@@ -27,3 +27,5 @@ A few other modifications were made to the code to improve quality, provide a th
 <center><em>METAR Data</em></center><br/>
 
 And that's it&mdash;job done! ✈⛵🎉🍺
+
+[Source code is available on Github](https://github.com/ianrenton/planesailing) and is in the public domain.

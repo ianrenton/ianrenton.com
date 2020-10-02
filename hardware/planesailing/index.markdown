@@ -9,7 +9,7 @@ slug: plainsailing
 
 "Plane/Sailing" is the name given to my home aircraft and ship tracker. It receives ADS-B and AIS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.
 
-If you’d like to see what I’m currently tracking, check out <a href="https://planesailing.ianrenton.com">https://planesailing.ianrenton.com</a>!
+If you’d like to see what I’m currently tracking, check out [https://planesailing.ianrenton.com](https://planesailing.ianrenton.com)!
 
 The links below are to the design & build information in case you are interested or would like to build a similar setup for yourself! All the software is open source, and all the hardware chosen to be as inexpensive as possible.
 
@@ -19,4 +19,6 @@ The links below are to the design & build information in case you are interested
 4. [Web Front-End](./web-front-end/)
 5. [Bill of Materials](./bill-of-materials/)
 
-You may also want to check out this project's predecessor, <a href="/hardware/flight-tracker">my first flight tracker</a>.
+Tracking statistics are available on [FlightAware](https://flightaware.com/adsb/stats/user/ianrenton), [FlightRadar24](https://www.flightradar24.com/account/feed-stats/?id=28217), [ADS-B Exchange](https://www.adsbexchange.com/api/feeders/?feed=KqbIWnVGingH9fAz8OSyA5%2BkYcu323JazTh2ryTo8EMRbvcXfO3KWgb9%2FyjGvkxt), [Marine Traffic](https://www.marinetraffic.com/en/ais/details/stations/4601/_:c84491eef3bdfac87efda338636c1d20) & [Vessel Finder](https://stations.vesselfinder.com/stations/5528).
+
+You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
