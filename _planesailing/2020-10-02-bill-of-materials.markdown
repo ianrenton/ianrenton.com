@@ -24,8 +24,8 @@ The full Bill of Materials for the Plane/Sailing project is as follows. I re-use
 | SD Card                           | [Amazon][8]          | 2         | 3.78      | 7.56    |
 | USB Cable                         | [Amazon][9]          | 2         | 2.99      | 5.98    |
 | Ethernet Cable                    | [Amazon][10]         | 2         | 3.51      | 7.02    |
-| USB Plug                          | [Amazon][11]         | 1         | 9.99      | 9.99    |
-|                                   |                      |           | **TOTAL** | **249.37**  |
+| USB Plug                          | [Amazon][11]         | 1         | 8.99      | 8.99    |
+|                                   |                      |           | **TOTAL** | **248.37**  |
 
 [1]: https://www.nevadaradio.co.uk/product/diamond-x-50/
 [2]: https://shop.pimoroni.com/products/ads-b-1090-mhz-antenna-0-6m-5-5dbi
@@ -33,8 +33,8 @@ The full Bill of Materials for the Plane/Sailing project is as follows. I re-use
 [4]: https://shop.pimoroni.com/products/pro-stick-plus-high-performance-usb-sdr-ads-b-receiver
 [5]: https://shop.technofix.uk/super-stable-1ppm-tcxo-r820t2-tuner-rtl2832u-rtl-sdr-usb-stick-version-3
 [6]: https://cpc.farnell.com/raspberry-pi/raspberry-modb-512/raspberry-pi-board-model-b-512mb/dp/SC13456
-[7]: https://www.amazon.co.uk/gp/product/B00KAE1X70/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
-[8]: https://www.amazon.co.uk/gp/product/B07YGZ7FY7/ref=ppx_yo_dt_b_asin_title_o01_s03?ie=UTF8&psc=1
-[9]: https://www.amazon.co.uk/gp/product/B0171L4P6U/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1
-[10]: https://www.amazon.co.uk/gp/product/B004WCURXM/ref=ppx_yo_dt_b_asin_title_o01_s02?ie=UTF8&psc=1
-[11]: https://www.amazon.co.uk/gp/product/B07Y3DBNRW/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+[7]: https://www.amazon.co.uk/gp/product/B00KAE1X70/
+[8]: https://www.amazon.co.uk/gp/product/B07YGZ7FY7/
+[9]: https://www.amazon.co.uk/gp/product/B0171L4P6U/
+[10]: https://www.amazon.co.uk/gp/product/B004WCURXM/
+[11]: https://www.amazon.co.uk/gp/product/B07X1RW3RL/
