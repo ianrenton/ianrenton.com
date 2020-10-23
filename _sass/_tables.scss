@@ -28,7 +28,7 @@ td {
   width:180px;
   margin-bottom: 2em !important;
   > a > img {
-    border: 2px solid lightgray;
+    box-shadow: 0px 0px 15px black;
   }
 }
 .table-col-descrip {
@@ -38,6 +38,7 @@ td {
   margin-bottom: 2em !important;
 }
 
+// "Actually look like tables" tables by setting the "bordered" flag
 table.bordered, table.bordered td, table.bordered th {
   border: 2px solid black;
   border-collapse: collapse;
