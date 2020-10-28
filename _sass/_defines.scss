@@ -14,7 +14,7 @@ $spacing-unit:     30px;
 
 $text-color:       black;
 $text-color-inverted:       white;
-$background-color: #FFF5D1;
+$background-color: #FFF7DD;
 $background-color-inverted: #39415a;
 $brand-color:      #39415a;
 
@@ -43,4 +43,30 @@ $on-laptop:        900px;
 }
 
 // Font definition
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+/* lora-regular - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('lora-v16-latin-regular.woff2') format('woff2'),
+       url('lora-v16-latin-regular.woff') format('woff');
+}
+/* lora-700 - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('lora-v16-latin-700.woff2') format('woff2'),
+       url('lora-v16-latin-700.woff') format('woff');
+}
+/* lora-italic - latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('lora-v16-latin-italic.woff2') format('woff2'),
+       url('lora-v16-latin-italic.woff') format('woff');
+}
