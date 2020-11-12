@@ -1,0 +1,99 @@
+/* Styles specific to "index-like" pages, e.g. the home page, Software,
+   Harware and Websites main pages. */
+
+/* Top banner on the homepage */
+div#homepagebanner {
+  padding-top: 1em;
+
+  /* The inner "top" section contains the photo, name and tagline */
+  .top {
+    margin-bottom: 1.5em;
+
+    img {
+      float: left;
+      margin-right: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    h1,
+    h2 {
+      display: inline-block;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-bottom: 0.2em;
+      margin-top: 0.1em;
+      line-height: 1em;
+      letter-spacing: -1px;
+    }
+
+    h2 {
+      font-size: 26px;
+    }
+
+  }
+
+}
+
+/* Wide section for use with the large 250px images to the left and right
+   on the homepage */
+div.widesection {
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+
+  > h1 {
+    padding-top: $spacing-unit;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+/* Used inside the "wide sections" to ensure the link and text are flowed
+   underneath the picture when on small screens. */
+@include media-query($on-palm) {
+  div.mobileblock {
+    display: inline-block;
+    margin-top: 1em;
+  }
+
+}
+
+/* "Tables" (actually just divs) used for layout on Software, Hardware &
+   Websites pages */
+.table-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-right: $spacing-unit / 2;
+  width:-webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:calc(50% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+  .table-col {
+    float: none;
+    width:-webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+.table-col-pic {
+  width: 180px;
+  margin-bottom: 2em !important;
+
+  > a > img {
+    box-shadow: 0px 0px 15px black;
+  }
+}
+
+.table-col-descrip {
+  width: 520px;
+  min-width: 200px;
+  max-width: 100%;
+  margin-bottom: 2em !important;
+}

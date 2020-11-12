@@ -6,13 +6,16 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "defines",
+  "resets",
   "base",
+  "layouts",
   "header",
   "footer",
-  "tables",
   "pagepost",
-  "odcustom",
+  "indexpages",
+  "tables",
   "comments",
+  "odcustom",
   "print",
   "syntax-highlighting"
 ;

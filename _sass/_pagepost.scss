@@ -1,129 +1,90 @@
-/**
- * Styles for Page and Post content
- */
- .sectionheader {
-    margin: $spacing-unit*2 0 $spacing-unit 0;
-    position: relative;
-    border-top: 1px solid $grey-color-dark;
-
-    > h1 {
-      margin-bottom: 0;
-      font-weight: 400;
-	    line-height: 56px;
-      letter-spacing: -1px;
-      font-size: $big-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: $base-font-size;
-        }
-    }
- }
+/* Styles for the generic Jekyll "page" and "post" templates */
 
 .page-content {
-    padding: $spacing-unit 0 0 0;
+  padding: $spacing-unit 0 0 0;
 
-    > a {
-         text-decoration: underline;
-    }
+  > a {
+    text-decoration: underline;
+  }
+
 }
 
 .page-heading {
-    font-size: $huge-font-size;
-}
-
-/**
- * Wide sections for index pages
- */
-div.widesection {
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
-    > h1 {
-        padding-top: $spacing-unit;
-    }
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  font-size: $huge-font-size;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  margin-left: 0;
+  list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit*1.5;
+  > li {
+    margin-bottom: $spacing-unit*1.5;
 
-        > h2 {
-            margin-bottom: 0;
-        }
+    > h2 {
+      margin-bottom: 0;
     }
+
+  }
+
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-    margin-top: 0.3em;
-    font-style: italic;
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-top: 0.3em;
+  font-style: italic;
 }
 
 .post-link {
-    display: block;
-    font-size: $huge-font-size;
-    text-decoration: none;
-    line-height: 1em;
+  display: block;
+  font-size: $huge-font-size;
+  text-decoration: none;
+  line-height: 1em;
+  color: $text-color;
+
+  &:visited {
     color: $text-color;
-    &:visited {
-        color: $text-color;
-    }
+  }
+
 }
 
-
-/**
- * Posts
- */
 .post-header {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 
-    > h3 {
-      margin-bottom: 0.2em;
-      font-weight: 300;
+  > h3 {
+    margin-bottom: 0.2em;
+    font-weight: 300;
 
-      > a {
-        text-decoration: none;
-      }
+    > a {
+      text-decoration: none;
     }
+
+  }
+
 }
 
 .post-title {
-    font-size: $massive-font-size;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: $massive-font-size;
+  letter-spacing: -1px;
+  line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: $huge-font-size;
-    }
+  @include media-query($on-laptop) {
+    font-size: $huge-font-size;
+  }
+
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 
-    > a {
-         text-decoration: underline;
-    }
+  > a {
+    text-decoration: underline;
+  }
 
 }
 
-hr {
-    margin: $spacing-unit 0 $spacing-unit 0;
-}
-
-
-/**
- * Nav
- */
+/* Pagination */
 .pagination {
-
   margin-top: $spacing-unit*1.5;
   margin-bottom: $spacing-unit;
   font-weight: bold;
@@ -136,6 +97,7 @@ hr {
     @include media-query($on-palm) {
       width: 100%;
     }
+
   }
 
   > .pagination-right {
@@ -147,12 +109,7 @@ hr {
     @include media-query($on-palm) {
       width: 100%;
     }
-  }
-}
 
-@include media-query($on-palm) {
-  div.mobileblock {
-    display: inline-block;
-    margin-top: 1em;
   }
+
 }

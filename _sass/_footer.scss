@@ -1,37 +1,49 @@
-/**
- * Site footer
- */
+/* Styles for the footer. */
+
 .site-footer {
-    line-height: $header-footer-height;
-    border-top: 1px solid $grey-color-dark;
-    clear: both;
+  line-height: $header-footer-height;
+  border-top: 1px solid $grey-color-dark;
+  clear: both;
 }
 
-footer.hidden {
-    display: none;
-}
-
-/* Clamp footer to bottom of page or window */
-html{ height:100%; }
-body{ min-height:100%; padding:0; margin:0; position:relative; }
-
-body::after{ content:''; display:block; height:$header-footer-height - 5; }
-
-footer{ 
-  position:absolute; 
-  bottom:0;
-  /* Recreate the wrapper's width, since by absolute positioning we're moving the footer outside its control */
+footer {
+  position: absolute;
+  bottom: 0;  /* Recreate the wrapper's width, since by absolute positioning we're moving the footer outside its control */
   width: calc(900px - (30px * 2));
 }
 
 span.subtitle {
-    padding-left: 1em;
-    font-size: $tiny-font-size;
-    color: $grey-color-dark;
+  padding-left: 1em;
+  font-size: $tiny-font-size;
+  color: $grey-color-dark;
 }
 
+/* Clamp footer to bottom of page or window */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: $header-footer-height - 5;
+}
+
+/* Hide the footer on mobile */
 @include media-query($on-palm) {
   footer {
     display: none;
   }
+}
+
+/* Allow use of the "hidden" class on pages that want to hide the footer */
+footer.hidden {
+  display: none;
 }

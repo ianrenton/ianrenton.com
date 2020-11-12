@@ -1,32 +1,34 @@
 {% if page.comments != false %}
-<div class="sectionheader">
+  <div class="commentheader">
     <h1>Comments</h1>
-</div>
-  
-{% assign slug = (page.slug || (page.title | slugify)) %}
-{% if site.data.comments[slug] %}
-  <div class="commentsexisting">
-    {% assign comments = site.data.comments[slug] %}
-    {% assign comments_by_date = (comments | sort) %}
-    {% for comment in comments_by_date %}
-      {% assign index = forloop.index | plus: 1 %}
-      {% assign email = comment[1].email %}
-      {% assign name = comment[1].name %}
-      {% assign url = comment[1].url %}
-      {% assign date = comment[1].date %}
-      {% assign message = comment[1].message %}
-      {% include comment.html index=index email=email name=name url=url date=date message=message %}
-    {% endfor %}
   </div>
-{% endif %}
 
-<!-- New comment form -->
-<div id="respond" class="commentnew">
-  {% include comment_form.html %}
-</div>
+  {% comment %} Existing comments (if any) {% endcomment %}
+  {% assign slug = (page.slug || (page.title | slugify)) %}
+  {% if site.data.comments[slug] %}
+    <div class="commentsexisting">
+      {% assign comments = site.data.comments[slug] %}
+      {% assign comments_by_date = (comments | sort) %}
+      {% for comment in comments_by_date %}
+        {% assign index = forloop.index | plus: 1 %}
+        {% assign email = comment[1].email %}
+        {% assign name = comment[1].name %}
+        {% assign url = comment[1].url %}
+        {% assign date = comment[1].date %}
+        {% assign message = comment[1].message %}
+        {% include comment.html index=index email=email name=name url=url date=date message=message %}
+      {% endfor %}
+    </div>
+  {% endif %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="{{ '/js/main.js' | relative_url }}"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
+  {% comment %} New comment form {% endcomment %}
+  <div id="respond" class="commentnew">
+    {% include comment_form.html %}
+  </div>
+
+  {% comment %} ReCaptcha support {% endcomment %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="{{ '/js/comments.js' | relative_url }}"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
 
 {% endif %}

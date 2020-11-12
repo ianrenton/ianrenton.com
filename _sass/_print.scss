@@ -1,25 +1,29 @@
-/**
- * CSS overrides for print
- */
+/* CSS overrides for print */
 @media print {
   * {
     background: none;
     color: black;
   }
-  .page-content {
+
+  .wrapper {
+    max-width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 12px;
-    > .wrapper {
-      max-width: 100%;
+
+    > .page-content {
       margin: 0;
       padding: 0;
+      font-size: 12px;
     }
+
   }
+
   .post-content h2 {
-      font-size: 18px;
+    font-size: 18px;
   }
-  header, footer, .juvia-topic h1, .juvia-add-comment-form, .juvia-reply-to-comment {
+
+  header, footer, .commentheader, .commentsexisting, .commentnew {
     display: none;
   }
+
 }

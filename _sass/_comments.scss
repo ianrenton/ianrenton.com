@@ -1,13 +1,40 @@
-article.comment {
-    margin-bottom: $spacing-unit;
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
+/* Styles for the comment section */
+
+/* Section header */
+.commentheader {
+  margin: $spacing-unit*2 0 $spacing-unit 0;
+  position: relative;
+  border-top: 1px solid $grey-color-dark;
+
+  > h1 {
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -1px;
+    font-size: $big-font-size;
+
+    @include media-query($on-laptop) {
+      font-size: $base-font-size;
     }
+
+  }
+
 }
 
-div.commentinner, form.commentform {
+/* List of existing comments */
+article.comment {
+  margin-bottom: $spacing-unit;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+div.commentinner,
+form.commentform {
   margin-left: 100px;
 }
 
@@ -26,12 +53,14 @@ span.commentdate {
     color: $grey-color;
     text-decoration: none;
   }
+
 }
 
 img.gravatar {
   float: left;
 }
 
+/* New Comment section */
 div.commentnew {
   margin-bottom: $spacing-unit * 2;
 }
@@ -43,10 +72,11 @@ div.newcommentauthor {
 }
 
 label {
-    display: inline-block;
+  display: inline-block;
 }
 
-input#comment-form-name, input#comment-form-email {
+input#comment-form-name,
+input#comment-form-email {
   width: 14em;
   margin-right: 2em;
 }
@@ -75,18 +105,25 @@ div.js-modal-text-error {
   color: red;
 }
 
+/* Simplification and rearrangement on mobile */
 @include media-query($on-palm) {
-  input#comment-form-name, input#comment-form-email {
+  input#comment-form-name,
+  input#comment-form-email {
     width: 17em;
   }
+
   textarea#comment-form-message {
     width: 17em;
     height: 5em;
   }
+
   img.gravatar {
     display: none;
   }
-  div.commentinner, form.commentform {
+
+  div.commentinner,
+  form.commentform {
     margin-left: 0px;
   }
+
 }

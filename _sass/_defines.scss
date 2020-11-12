@@ -1,46 +1,30 @@
 /* Size, colour, font etc. definitions for use in the other SASS files */
 
-$base-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
+/* Layout */
+$header-footer-height: 56px;
+$spacing-unit:     30px;
+$base-line-height: 1.5;
+$content-width:    900px;
+$wide-content-width:    1200px;
+
+/* Text sizes */
 $base-font-size:   18px;
 $massive-font-size:  $base-font-size * 2.5;
 $huge-font-size:  $base-font-size * 2.0;
 $big-font-size:  $base-font-size * 1.5;
 $small-font-size:  $base-font-size * 0.9;
 $tiny-font-size:  $base-font-size * 0.7;
-$base-line-height: 1.5;
-$header-footer-height: 56px;
 
-$spacing-unit:     30px;
-
+/* Colours */
 $text-color:       #181818;
 $background-color: #FFF7E7;
 $brand-color:      #1A4C89;
-
 $grey-color:       #666666;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    900px;
-$wide-content-width:    1200px;
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-$on-palm:          600px;
-$on-laptop:        900px;
-
-// Font definition
-/* lora-regular - latin */
+/* Fonts */
+$base-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
 @font-face {
   font-family: 'Lora';
   font-style: normal;
@@ -49,7 +33,6 @@ $on-laptop:        900px;
        url('lora-v16-latin-regular.woff2') format('woff2'),
        url('lora-v16-latin-regular.woff') format('woff');
 }
-/* lora-700 - latin */
 @font-face {
   font-family: 'Lora';
   font-style: normal;
@@ -58,7 +41,6 @@ $on-laptop:        900px;
        url('lora-v16-latin-700.woff2') format('woff2'),
        url('lora-v16-latin-700.woff') format('woff');
 }
-/* lora-italic - latin */
 @font-face {
   font-family: 'Lora';
   font-style: italic;
@@ -67,3 +49,14 @@ $on-laptop:        900px;
        url('lora-v16-latin-italic.woff2') format('woff2'),
        url('lora-v16-latin-italic.woff') format('woff');
 }
+
+/* Mixins */
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+/* Definitions for Mixins */
+$on-palm:          600px;
+$on-laptop:        900px;

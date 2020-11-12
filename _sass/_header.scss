@@ -1,17 +1,11 @@
-/**
- * Site header & homepage banner style
- */
+/* Styles for the header and the menu it contains */
+
 .site-header {
     min-height: 56px;
     border-bottom: 1px solid $grey-color-dark;
     margin-bottom: $spacing-unit;
-
     // Positioning context for the mobile navigation icon
     position: relative;
-}
-
-header.hidden {
-    display: none;
 }
 
 .site-title {
@@ -26,8 +20,16 @@ header.hidden {
     &:visited {
         color: $text-color;
     }
+
 }
 
+/* Allow use of the "hidden" class on pages that want to hide the header */
+header.hidden {
+    display: none;
+}
+
+/* Navigation menu. Normally just a list of 4 links but becomes a drop-
+   down menu on mobile. */
 .site-nav {
     float: right;
     line-height: $header-footer-height;
@@ -40,11 +42,10 @@ header.hidden {
         color: $text-color;
         line-height: $base-line-height;
         text-decoration: none;
-
-        // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
+
     }
 
     @include media-query($on-palm) {
@@ -81,37 +82,7 @@ header.hidden {
             display: block;
             padding: 5px 10px;
         }
-    }
-}
 
+    }
 
-/**
- * Homepage banner
- */
-div#homepage-top-content {
-  padding-top: 1em;
-}
-
-div#homepagebanner {
-  .top {
-    margin-bottom: 1.5em;
-    img {
-      float:left;
-      margin-right: 2em;
-	  margin-bottom: 0.5em;
-    }
-    h1, h2 {
-      display: inline-block;
-    }
-    h1 {
-      font-size: 60px;
-      margin-bottom: 0.2em;
-      margin-top: 0.1em;
-      line-height: 1em;
-      letter-spacing: -1px;
-    }
-	h2 {
-	  font-size: 26px;
-	}
-  }
 }

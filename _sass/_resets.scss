@@ -1,0 +1,19 @@
+/* Resets */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Misc */
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
