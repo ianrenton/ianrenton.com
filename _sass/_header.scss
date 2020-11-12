@@ -2,11 +2,9 @@
  * Site header & homepage banner style
  */
 .site-header {
-    background-color: $background-color-inverted;
     min-height: 56px;
-    -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow:    0px 6px 6px 0px rgba(0, 0, 0, 0.3);
-    box-shadow:         0px 6px 6px 0px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid $grey-color-dark;
+    margin-bottom: $spacing-unit;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -26,7 +24,7 @@ header.hidden {
 
     &,
     &:visited {
-        color: $text-color-inverted;
+        color: $text-color;
     }
 }
 
@@ -39,7 +37,7 @@ header.hidden {
     }
 
     .page-link {
-        color: $text-color-inverted;
+        color: $text-color;
         line-height: $base-line-height;
         text-decoration: none;
 
@@ -53,7 +51,7 @@ header.hidden {
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color-inverted;
+        background-color: $background-color;
         text-align: right;
 
         .menu-icon {
@@ -62,14 +60,14 @@ header.hidden {
             line-height: 0.8em;
             font-size: 250%;
             text-align: center;
-            color: $text-color-inverted;
+            color: $text-color;
             text-decoration: none;
         }
 
         .trigger {
             clear: both;
             display: none;
-            background-color: $background-color-inverted;
+            background-color: $background-color;
             position: relative;
             top: 15px;
         }

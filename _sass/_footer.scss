@@ -2,12 +2,8 @@
  * Site footer
  */
 .site-footer {
-    background-color: $background-color-inverted;
     line-height: $header-footer-height;
-    color: $text-color-inverted;
-    -webkit-box-shadow: 0px -6px 6px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow:    0px -6px 6px 0px rgba(0, 0, 0, 0.3);
-    box-shadow:         0px -6px 6px 0px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid $grey-color-dark;
     clear: both;
 }
 
@@ -23,14 +19,15 @@ body::after{ content:''; display:block; height:$header-footer-height - 5; }
 
 footer{ 
   position:absolute; 
-  bottom:0; 
-  width:100%;
+  bottom:0;
+  /* Recreate the wrapper's width, since by absolute positioning we're moving the footer outside its control */
+  width: calc(900px - (30px * 2));
 }
 
 span.subtitle {
     padding-left: 1em;
     font-size: $tiny-font-size;
-    color: $grey-color-light;
+    color: $grey-color-dark;
 }
 
 @include media-query($on-palm) {

@@ -25,6 +25,7 @@ The full Bill of Materials for the Plane/Sailing project is as follows. I re-use
 | USB Cable                         | [Amazon][9]          | 2         | 2.99      | 5.98    |
 | Ethernet Cable                    | [Amazon][10]         | 2         | 3.51      | 7.02    |
 | USB Plug                          | [Amazon][11]         | 1         | 8.99      | 8.99    |
+|---------------------------------  |--------------------  |---------- |---------  |-------- |
 |                                   |                      |           | **TOTAL** | **248.37**  |
 
 [1]: https://www.nevadaradio.co.uk/product/diamond-x-50/

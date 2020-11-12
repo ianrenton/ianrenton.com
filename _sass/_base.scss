@@ -12,7 +12,20 @@ dl, dd, ol, ul, figure, fieldset {
 fieldset {
     border: none;
 }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
+/**
+ * Misc
+ */
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
 
 /**
  * Basic styling
@@ -69,6 +82,16 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, %vertical-rhythm
             font-size: $base-font-size;
         }
     }
+
+/**
+ * Paragraphs
+ */
+p {
+   text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+}
 
 /**
  * Images
@@ -141,7 +164,7 @@ a {
     text-decoration: underline;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color;
     }
 }
 
@@ -157,18 +180,14 @@ blockquote {
     color: $grey-color-dark;
     text-align: center;
     font-style: italic;
+}
 
-    /* Blockquotes with more than one paragraph are left-aligned, those with only one paragraph are picture captions and are centre aligned. */
-    > p {
-        text-align: left;
-    }
-    > p:only-child {
-        text-align: center;
-    }
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+/**
+ * HR
+ */
+hr {
+  border-top: 1px solid $grey-color-dark;
 }
 
 

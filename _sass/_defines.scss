@@ -12,11 +12,9 @@ $header-footer-height: 56px;
 
 $spacing-unit:     30px;
 
-$text-color:       black;
-$text-color-inverted:       white;
-$background-color: #FFF7DD;
-$background-color-inverted: #39415a;
-$brand-color:      #39415a;
+$text-color:       #181818;
+$background-color: #FFF7E7;
+$brand-color:      #1A4C89;
 
 $grey-color:       #666666;
 $grey-color-light: lighten($grey-color, 40%);
@@ -25,9 +23,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    900px;
 $wide-content-width:    1200px;
-
-$on-palm:          600px;
-$on-laptop:        900px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -41,6 +36,8 @@ $on-laptop:        900px;
         @content;
     }
 }
+$on-palm:          600px;
+$on-laptop:        900px;
 
 // Font definition
 /* lora-regular - latin */
