@@ -12,11 +12,6 @@
     line-height: 56px;
     letter-spacing: -1px;
     font-size: $big-font-size;
-
-    @include media-query($on-laptop) {
-      font-size: $base-font-size;
-    }
-
   }
 
 }
@@ -66,8 +61,6 @@ div.commentnew {
 }
 
 div.newcommentauthor {
-  border-bottom: 1px solid $grey-color-dark;
-  padding-bottom: 0.5em;
   margin-bottom: 0.5em;
 }
 
