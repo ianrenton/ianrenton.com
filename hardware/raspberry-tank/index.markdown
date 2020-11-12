@@ -14,7 +14,7 @@ redirect-from:
 
 The "Raspberry Tank" is a project to create an autonomous vehicle with a web interface, using a [cheap hobby RC tank](http://www.howesmodels.co.uk/RadioControl/viewProduct.php?ProdID=6782) and a [Raspberry Pi](http://www.raspberrypi.org/) computer. This page is the index to the build diary and other resources.
 
-![The Raspberry Tank](/raspberrytank/rtank-withlogo.png){: .center}
+![The Raspberry Tank](/hardware/raspberry-tank/rtank-withlogo.png){: .center}
 
 ## Build Diary
 

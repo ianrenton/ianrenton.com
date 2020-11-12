@@ -15,7 +15,7 @@ tags:
 - World of Darkness
 ---
 
-<img src="/characters/avatars/serin.png" style="float:left" />
+<img src="/fiction/characters/avatars/serin.png" style="float:left" />
 <h2>Vital Statistics</h2>
 <p>Name: Serin<br />
 Age: 28-35, depending on setting<br />

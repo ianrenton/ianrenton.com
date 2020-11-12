@@ -15,7 +15,7 @@ tags:
 - Fairyland
 ---
 
-<p><img src="/characters/portraits/alice-changeling.png" style="float:right" /></p>
+<p><img src="/fiction/characters/portraits/alice-changeling.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"It has been a very long time, by the reckoning of my old world, since I last visited.  I was but eleven years of age, and now I am sixteen.  I have had five years in which to consider what occurred back then, five years to grow stronger and more resistant to the ways in which your kind plays with the thoughts and perceptions of mine.</p>

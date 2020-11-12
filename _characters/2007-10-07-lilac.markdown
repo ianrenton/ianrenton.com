@@ -14,7 +14,7 @@ tags:
 - Exalted
 ---
 
-<p><img src="/characters/portraits/lilac.png" style="float:right" /></p>
+<p><img src="/fiction/characters/portraits/lilac.png" style="float:right" /></p>
 <h2>Introduction</h2>
 
 <div class="story" markdown="1">

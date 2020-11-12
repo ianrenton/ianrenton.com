@@ -8,7 +8,7 @@ categories:
 
 On the grass:
 
-![](/quadcopter/76.jpg)
+![](/hardware/quadcopter/76.jpg)
 
 Video:
 
@@ -16,8 +16,8 @@ Video:
 
 After losing control at 10m altitude:
 
-![](/quadcopter/77.jpg)
+![](/hardware/quadcopter/77.jpg)
 
 Snapped landing leg:
 
-![](/quadcopter/78.jpg)
+![](/hardware/quadcopter/78.jpg)

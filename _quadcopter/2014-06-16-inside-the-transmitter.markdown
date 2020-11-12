@@ -8,12 +8,12 @@ categories:
 
 Inside the transmitter, taken apart to trace a stray capacitance issue. Some dodgy soldering here, looks like I did it!
 
-![](/quadcopter/72.jpg)
+![](/hardware/quadcopter/72.jpg)
 
-![](/quadcopter/73.jpg)
+![](/hardware/quadcopter/73.jpg)
 
-![](/quadcopter/74.jpg)
+![](/hardware/quadcopter/74.jpg)
 
 This board nearly touches the two behind it! It shouldn't, so I wrapped some tape across it.
 
-![](/quadcopter/75.jpg)
+![](/hardware/quadcopter/75.jpg)

@@ -26,19 +26,19 @@ On [Day 3 of the Raspberry Tank build diary](../tank-day-3-the-sundering/), we t
 
 As shipped, the Heng Long Tiger I tank that this build is based around (the Smoke & Sound model with an RX-18 controller) has the following electrical schematic:
 
-[![Heng Long Tiger I Tank Circuit Diagram](/raspberrytank/tank-schematic-424x500.png)](/raspberrytank/tank-schematic.png)
+[![Heng Long Tiger I Tank Circuit Diagram](/hardware/raspberry-tank/tank-schematic-424x500.png)](/hardware/raspberry-tank/tank-schematic.png)
 
-_You can download that as an SVG file here: [Heng Long Tiger I Tank Schematic](/raspberrytank/tank-schematic.svg)_
+_You can download that as an SVG file here: [Heng Long Tiger I Tank Schematic](/hardware/raspberry-tank/tank-schematic.svg)_
 
 The colours of the wires shown are those on the tank I am using -- they may vary between models, as I have seen some photos with different cable colours.  Custom kits to upgrade tanks from an RX-13/14 controller to an RX-18 are also available and may come with different wire colours.  When in doubt, trust the markings on the boards and in the schematic above.  Case in point, the double-take that ensued when I looked at the connection between the RF receiver board (TK-YL101-3) and the main board:
 
-[![Edge of TK-YL101-3 Board](/raspberrytank/IMAG0040-e1339156628987-300x179.jpg)](/raspberrytank/IMAG0040-e1339156628987.jpg)
+[![Edge of TK-YL101-3 Board](/hardware/raspberry-tank/IMAG0040-e1339156628987-300x179.jpg)](/hardware/raspberry-tank/IMAG0040-e1339156628987.jpg)
 
 Yep, that really is green for VCC, red for Ground and black for data.
 
 During day 3, the upper half of the chassis was removed, along with the smoke and sound components from the lower half.  The following schematic shows what we are now left with.  (Day 3 did not explicitly mention unplugging the volume control and the smoke switch from the RX-18 -- ports CN4 and CN11.  However, as they are useless without a speaker and smoker unit anyway, they have been left off this diagram.)
 
-[![Reduced Circuit after day 3](/raspberrytank/after-day-3-524x500.png)](/raspberrytank/after-day-3.png)
+[![Reduced Circuit after day 3](/hardware/raspberry-tank/after-day-3-524x500.png)](/hardware/raspberry-tank/after-day-3.png)
 
 ### Choices, Choices
 

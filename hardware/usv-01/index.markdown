@@ -7,7 +7,7 @@ title: USV-01 "Harry Paye"
 
 USV-01 "Harry Paye" is an off-the-shelf remote control boat refitted as a testbed for our military-grade autonomous navigation system. It's also a lot of fun to play with!
 
-![USV-01](/usv01/hull.jpg){: .center}
+![USV-01](/hardware/usv-01/hull.jpg){: .center}
 
 ## Build Process
 

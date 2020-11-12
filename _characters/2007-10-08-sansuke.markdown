@@ -15,7 +15,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="/characters/avatars/sansuke.png" /></td>
+<td valign="top"><img src="/fiction/characters/avatars/sansuke.png" /></td>
 <td valign="top">
 <h2>Brief Summary</h2>
 <p>A self-styled samurai, Sansuke tries to hide away his own emotional problems and appear fiercely loyal and courageous.</p></td>

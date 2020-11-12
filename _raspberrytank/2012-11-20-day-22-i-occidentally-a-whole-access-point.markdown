@@ -25,7 +25,7 @@ Installing Occidentalis was very easy indeed -- identical to installing Raspbian
 
 As before, Raspbian's `raspi-config` utility popped up on first run, offering the ability to expand the image to fill the SD card, enable `ssh`, and so on.
 
-[![raspi-config](/raspberrytank/2012-11-19_14-01-58_793-600x338.jpg)](/raspberrytank/2012-11-19_14-01-58_793.jpg)<br/>
+[![raspi-config](/hardware/raspberry-tank/2012-11-19_14-01-58_793-600x338.jpg)](/hardware/raspberry-tank/2012-11-19_14-01-58_793.jpg)<br/>
 _raspi-config_
 
 Setting up the new install was simply a matter of copying files back to their original locations, and reinstalling `libjpeg8-dev` and `lighttpd`.  As we are now moving from one `armhf` environment to another, I didn't even need to recompile `rt_http` or `mjpg_streamer` -- they simply worked once they were copied into place.
@@ -34,7 +34,7 @@ Setting up the new install was simply a matter of copying files back to their or
 
 At this point I also took the opportunity to upgrade the tank's WiFi capabilities.  I replaced the tiny Edimax EW-7811UN adapter with an [Edimax EW-7711UAN](http://www.amazon.co.uk/Edimax-EW-7711UAN-150Mbps-Wireless-802-11n/dp/B001KOTDDU/ref=sr_1_1?ie=UTF8&qid=1353413204&sr=8-1), which has a large aerial that should improve coverage. It uses the `rt2800usb` driver, which is supported out of the box on Raspbian and Occidentalis.
 
-[![Rear of Lower Chassis, showing new WiFi Adapter](/raspberrytank/2012-11-19_12-30-39_406-600x338.jpg)](/raspberrytank/2012-11-19_12-30-39_406.jpg)<br/>
+[![Rear of Lower Chassis, showing new WiFi Adapter](/hardware/raspberry-tank/2012-11-19_12-30-39_406-600x338.jpg)](/hardware/raspberry-tank/2012-11-19_12-30-39_406.jpg)<br/>
 _Rear of Lower Chassis, showing new WiFi Adapter_
 
 I also suggested on [day 17](../tank-day-17-whats-missing/) that I would like the Raspberry Tank to be its own WiFi access point, rather than having to create a hotspot with the control device and have the tank connect to that. Whilst configuring networking on the new Occidentalis install, I figured that it would be a good time to set that up.
@@ -95,7 +95,7 @@ Running `tail /var/log/syslog` revealed messages of the form:
 
 Even though `wlan0` had an address set in `/etc/network/interfaces`, that address was no longer assigned to the interface after `hostapd` bound to it.  Running `sudo ifconfig wlan0 192.168.0.1` reassigned the right IP address to `wlan0`, at which point the laptop could then connect and be given a proper IP address.
 
-[![Laptop Connected to WiFi Network](/raspberrytank/connected.png)](/raspberrytank/connected.png)<br/>
+[![Laptop Connected to WiFi Network](/hardware/raspberry-tank/connected.png)](/hardware/raspberry-tank/connected.png)<br/>
 _Laptop Connected to WiFi Network_
 
 This was a repeatable issue, however -- even on boot, `wlan0` would be given its IP address, but as soon as `hostapd` ran, that address would be removed, causing the DHCP server to fail. I could not find anything useful on the internet about this issue. (It seems that this may not be a problem when using `hostapd` to bridge between two connections, and that is how most people use it.)

@@ -8,6 +8,6 @@ categories:
 
 A shock mounting plate arrived to stabilise the camera and reduce the effects of vibration on the Pi:
 
-![](/quadcopter/shockmount-1.jpg)
+![](/hardware/quadcopter/shockmount-1.jpg)
 
-![](/quadcopter/shockmount-2.jpg)
+![](/hardware/quadcopter/shockmount-2.jpg)

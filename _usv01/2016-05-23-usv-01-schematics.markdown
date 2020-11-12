@@ -8,12 +8,12 @@ categories:
 
 With the base remote control electronics fitted, the schematic for the installed electronics looks like this (click for PDF):
 
-[![Base RC Electronics Schematic](/usv01/base-rc-schematic.png)](/usv01/base-rc-schematic.pdf)
+[![Base RC Electronics Schematic](/hardware/usv-01/base-rc-schematic.png)](/hardware/usv-01/base-rc-schematic.pdf)
 
 
 <br/><br/>With the full set of electronics listed in [the BOM](../usv-01-bill-of-materials), the schematic will look more like this (click for PDF):
 
-[![Full Electronics Schematic](/usv01/full-schematic.png)](/usv01/full-schematic.pdf)
+[![Full Electronics Schematic](/hardware/usv-01/full-schematic.png)](/hardware/usv-01/full-schematic.pdf)
 
 
 <br/><br/>My current build, which doesn't quite match the BOM as I'm re-using some older components, looks like this (click for PDF):

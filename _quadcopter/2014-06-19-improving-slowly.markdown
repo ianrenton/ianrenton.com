@@ -12,14 +12,14 @@ I'm slowly getting better at flying this thing. Here's a video from today:
 
 Here's it lying wounded in the grass after all that:
 
-![](/quadcopter/83.jpg)
+![](/hardware/quadcopter/83.jpg)
 
 And the damage. Broken camera mount:
 
-![](/quadcopter/84.jpg)
+![](/hardware/quadcopter/84.jpg)
 
 Three of the legs are broken. Here's one:
 
-![](/quadcopter/85.jpg)
+![](/hardware/quadcopter/85.jpg)
 
 New legs on order.

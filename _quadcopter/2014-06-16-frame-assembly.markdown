@@ -8,55 +8,55 @@ categories:
 
 Should be everything on [this list](http://scraps.ianrenton.com/qcbudget.xls).
 
-![](/quadcopter/01.jpg)
+![](/hardware/quadcopter/01.jpg)
 
 All the frame parts:
 
-![](/quadcopter/02.jpg)
+![](/hardware/quadcopter/02.jpg)
 
 Central part with PCB mounting stubs:
 
-![](/quadcopter/03.jpg)
+![](/hardware/quadcopter/03.jpg)
 
 Motor mount:
 
-![](/quadcopter/04.jpg)
+![](/hardware/quadcopter/04.jpg)
 
 
-![](/quadcopter/05.jpg)
+![](/hardware/quadcopter/05.jpg)
 
 Assembed landing leg:
 
-![](/quadcopter/06.jpg)
+![](/hardware/quadcopter/06.jpg)
 
 Fitted landing leg:
 
-![](/quadcopter/07.jpg)
+![](/hardware/quadcopter/07.jpg)
 
 
-![](/quadcopter/09.jpg)
+![](/hardware/quadcopter/09.jpg)
 
 Getting messy:
 
-![](/quadcopter/08.jpg)
+![](/hardware/quadcopter/08.jpg)
 
 Spring detail on landing leg:
 
-![](/quadcopter/10.jpg)
+![](/hardware/quadcopter/10.jpg)
 
 Fitting arms to central part:
 
-![](/quadcopter/11.jpg)
+![](/hardware/quadcopter/11.jpg)
 
 Assembled central part:
 
-![](/quadcopter/12.jpg)
+![](/hardware/quadcopter/12.jpg)
 
 Assembled chassis (from underneath):
 
-![](/quadcopter/13.jpg)
+![](/hardware/quadcopter/13.jpg)
 
 Assembled chassis (standing on landing legs):
 
-![](/quadcopter/14.jpg)
+![](/hardware/quadcopter/14.jpg)
 

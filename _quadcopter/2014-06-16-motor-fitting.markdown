@@ -8,16 +8,16 @@ categories:
 
 Motor parts:
 
-![](/quadcopter/20.jpg)
+![](/hardware/quadcopter/20.jpg)
 
 Fixing to motor mount:
 
-![](/quadcopter/21.jpg)
+![](/hardware/quadcopter/21.jpg)
 
-![](/quadcopter/22.jpg)
+![](/hardware/quadcopter/22.jpg)
 
-![](/quadcopter/23.jpg)
+![](/hardware/quadcopter/23.jpg)
 
-![](/quadcopter/24.jpg)
+![](/hardware/quadcopter/24.jpg)
 
-![](/quadcopter/25.jpg)
+![](/hardware/quadcopter/25.jpg)

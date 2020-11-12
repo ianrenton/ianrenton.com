@@ -43,7 +43,7 @@ The driver install script was then executed by running `sudo sh /boot/install-rt
 
 The Pi was then rebooted, and within a minute of booting, the Pi was connected and accessible on the wireless network.
 
-[![Raspberry Pi with WiFi Dongle Attached](/raspberrytank/IMG_20120621_134848-300x225.jpg)](/raspberrytank/IMG_20120621_134848.jpg)
+[![Raspberry Pi with WiFi Dongle Attached](/hardware/raspberry-tank/IMG_20120621_134848-300x225.jpg)](/hardware/raspberry-tank/IMG_20120621_134848.jpg)
 
 At the end of the procedure, my `/etc/network/interfaces` file looked like this.  (Note that I had separately configured eth0, so your eth0 may look different.)
 

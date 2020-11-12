@@ -8,16 +8,16 @@ categories:
 
 Power distribution board:
 
-![](/quadcopter/15.jpg)
+![](/hardware/quadcopter/15.jpg)
 
-![](/quadcopter/16.jpg)
+![](/hardware/quadcopter/16.jpg)
 
 Gyro stabiliser board (KK 2.0):
 
-![](/quadcopter/17.jpg)
+![](/hardware/quadcopter/17.jpg)
 
-![](/quadcopter/18.jpg)
+![](/hardware/quadcopter/18.jpg)
 
 Assembled chassis with PCBs mounted:
 
-![](/quadcopter/19.jpg)
+![](/hardware/quadcopter/19.jpg)

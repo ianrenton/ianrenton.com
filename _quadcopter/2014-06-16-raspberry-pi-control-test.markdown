@@ -8,15 +8,15 @@ categories:
 
 RPi Attached and powered up:
 
-![](/quadcopter/63.jpg)
+![](/hardware/quadcopter/63.jpg)
 
 RPi Control Test:
 
-![](/quadcopter/64.jpg)
+![](/hardware/quadcopter/64.jpg)
 
 RPi Control Test (screen detail):
 
-![](/quadcopter/65.jpg)
+![](/hardware/quadcopter/65.jpg)
 
 <iframe src="//player.vimeo.com/video/96413704" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

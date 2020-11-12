@@ -9,7 +9,7 @@ redirect-from:
 
 For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the RCX 2.0 module, which is now so old that programming it isn't supported on any modern operating system. Rather than let it go to waste, I have swapped the RCX 2.0 for an Arduino, turned the robot into a ["Turtle"](https://en.wikipedia.org/wiki/Turtle_%28robot%29) that the user can program by sending [Logo](https://en.wikipedia.org/wiki/Logo_programming_language) programs to it via UART.
 
-![](/legoturtle/legoturtle.png){: .center}
+![](/hardware/lego-turtle/legoturtle.png){: .center}
 
 ## Videos
 
@@ -17,13 +17,13 @@ For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the
 
 ## UART Programming
 
-![UART Programming](/legoturtle/logo-uart-screen.png)
+![UART Programming](/hardware/lego-turtle/logo-uart-screen.png)
 
 ## Schematics
 
-I have uploaded the <a href="/legoturtle/legoturtle_schem.png">schematic</a>, <a href="/legoturtle/legoturtle_bb.png">physical layout</a>, and the <a href="http://fritzing.org">Fritzing</a> <a href="/legoturtle/legoturtle.fzz">source file</a> from which they were all generated.
+I have uploaded the <a href="/hardware/lego-turtle/legoturtle_schem.png">schematic</a>, <a href="/hardware/lego-turtle/legoturtle_bb.png">physical layout</a>, and the <a href="http://fritzing.org">Fritzing</a> <a href="/hardware/lego-turtle/legoturtle.fzz">source file</a> from which they were all generated.
 
-<a href="/legoturtle/legoturtle_schem.png" style="padding:0; background-color: white;"><img src="/legoturtle/legoturtle_schem.png" width="320px"/></a> <a href="/legoturtle/legoturtle_bb.png" style="padding:0; background-color: white;"><img src="/legoturtle/legoturtle_bb.png" width="320px"/></a>
+<a href="/hardware/legoturtle/legoturtle_schem.png" style="padding:0; background-color: white;"><img src="/hardware/lego-turtle/legoturtle_schem.png" width="320px"/></a> <a href="/lego-turtle/legoturtle_bb.png" style="padding:0; background-color: white;"><img src="/hardware/lego-turtle/legoturtle_bb.png" width="320px"/></a>
 
 ## Software
 

@@ -8,34 +8,34 @@ categories:
 
 Gyro board back-powered using ESC BECs:
 
-![](/quadcopter/35.jpg)
+![](/hardware/quadcopter/35.jpg)
 
 RC Tx &amp; Rx units:
 
-![](/quadcopter/36.jpg)
+![](/hardware/quadcopter/36.jpg)
 
 Rx unit with servo leads attached:
 
-![](/quadcopter/37.jpg)
+![](/hardware/quadcopter/37.jpg)
 
 Rx unit wired to gyro stabiliser board:
 
-![](/quadcopter/38.jpg)
+![](/hardware/quadcopter/38.jpg)
 
 RC control value test:
 
-![](/quadcopter/39.jpg)
+![](/hardware/quadcopter/39.jpg)
 
-![](/quadcopter/40.jpg)
+![](/hardware/quadcopter/40.jpg)
 
 Reversing channels using the transmitter's programming software (T6config):
 
-![](/quadcopter/71.jpg)
+![](/hardware/quadcopter/71.jpg)
 
 Arming the gyro stabiliser to enable motor output:
 
-![](/quadcopter/42.jpg)
+![](/hardware/quadcopter/42.jpg)
 
 String attached to check which way the motors turn:
 
-![](/quadcopter/44.jpg)
+![](/hardware/quadcopter/44.jpg)

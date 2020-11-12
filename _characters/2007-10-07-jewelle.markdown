@@ -15,7 +15,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="/characters/avatars/jewelle.png" /></td>
+<td valign="top"><img src="/fiction/characters/avatars/jewelle.png" /></td>
 <td valign="top">
 <h2>Vital Statistics</h2>
 <p>Name: Jewelle<br />

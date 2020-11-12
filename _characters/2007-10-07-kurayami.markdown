@@ -16,7 +16,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="/characters/avatars/kurayami.png" /></td>
+<td valign="top"><img src="/fiction/characters/avatars/kurayami.png" /></td>
 <td valign="top">
 <h3>Brief Summary</h3>
 <p>Kurayami is tha Kami (spirit) of darkness. Once a man whom Yuki fell in love with, the two are no longer on speaking terms. </p>

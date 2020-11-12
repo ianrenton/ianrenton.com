@@ -27,13 +27,13 @@ On [Day 4 of the Raspberry Tank build diary](/../tank-day-4-point-of-entry/), we
 
 I found an old bit of choc block ([not the tasty kind](http://www.ebay.co.uk/sch/items/?_nkw=choc+block&_sacat=&_ex_kw=&_mPrRngCbx=1&_udlo=&_udhi=&_sop=12&_fpos=&_fspt=1&_sadis=&LH_CAds=&clk_rvr_id=352588863604)) lying around, and split that red, black and green cable from yesterday with that in the middle.  Trailing leads were attached to the signal and ground lines (oddly coloured black and red respectively) and plugged into the only oscilloscope I had handy.
 
-[![Choc Block attached to signal cable](/raspberrytank/IMAG0041-e1339444675149-300x179.jpg)](/raspberrytank/IMAG0041.jpg)
+[![Choc Block attached to signal cable](/hardware/raspberry-tank/IMAG0041-e1339444675149-300x179.jpg)](/hardware/raspberry-tank/IMAG0041.jpg)
 
 ### Step 2: Sampling the Signal
 
 A bit of manual triggering revealed the approximate nature of the command signal, and verified that it changed slightly when the remote controls were altered, but unfortunately the scope was not advanced enough to reliably trigger on the beginning of each message, meaning that it was impossible to watch the waveform change with the remote controls in any sensible way.
 
-[![Oscilloscope Trace](/raspberrytank/IMAG0048-1-300x179.jpg)](/raspberrytank/IMAG0048-1.jpg)
+[![Oscilloscope Trace](/hardware/raspberry-tank/IMAG0048-1-300x179.jpg)](/hardware/raspberry-tank/IMAG0048-1.jpg)
 
 The signal was 20ms long, with a 4ms gap between each.  Within the signal itself, there were oscillations between 4V and 0V with the shortest mark or space taking around 300 microseconds.  The first 5ms or so of the signal were roughly constant, but that was as far as I got.
 
@@ -45,11 +45,11 @@ While I was trying to track down a logic analyser, [ancvi_pIII](http://www.rctan
 
 Reverse engineering is easy when other people do it for you :)
 
-_(In case that forum disappears from the 'net, [the relevant image is here](/raspberrytank/hl-codes.jpg).  All thanks to ancvi_pIII for producing this!)_
+_(In case that forum disappears from the 'net, [the relevant image is here](/hardware/raspberry-tank/hl-codes.jpg).  All thanks to ancvi_pIII for producing this!)_
 
 Now, there remains the slight issue that we have not yet figured out the checksum algorithm employed by the TK-YL101 chip.  I have had a go at looking for patterns, and checked the results of a 4-bit XOR and various 4-bit sections of an 8-bit XOR, but so far have achieved nothing besides increasing my respect for [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing#Cryptanalysis).
 
-[![Code Cracking Attempt](/raspberrytank/Screenshot-from-2012-06-08-235012-600x282.png)](/raspberrytank/Screenshot-from-2012-06-08-235012.png)
+[![Code Cracking Attempt](/hardware/raspberry-tank/Screenshot-from-2012-06-08-235012-600x282.png)](/hardware/raspberry-tank/Screenshot-from-2012-06-08-235012.png)
 
 Still, even without the checksum algorithm we still have 12 command sequences that can control each function of the tank -- all we are missing is the ability to use them in combination, which may be an issue for hobbyists improving their remote controls, but is less so for an autonomous vehicle where time and fluidity of motion are rarely paramount.
 

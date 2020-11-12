@@ -17,7 +17,7 @@ tags:
 <table border="0" cellspacing="20">
 <tr>
 <td valign="center" width="50">
-<img src="/characters/avatars/kai.gif" />
+<img src="/fiction/characters/avatars/kai.gif" />
 </td>
 <td valign="top">
 <b>Vital Statistics</b>

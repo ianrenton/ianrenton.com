@@ -35,7 +35,7 @@ There are also some more improvements to make in the future (excluding the devel
   * **Dual mode WiFi.**  If the tank cannot see a wireless network that it knows, I would like it to start its own that users can connect to using their phones/tablets.
   * **An App of its own.**  Writing a dedicated Android or iOS app for the tank would allow me to get over the web interface's "click and hold" problem, and would also allow for multiple simultaneous controls (e.g. turn left & turret right) via multi-touch.
 
-[![Mostly Assembled Tank](/raspberrytank/IMG_20120712_145425-600x358.jpg)](/raspberrytank/IMG_20120712_145425.jpg)
+[![Mostly Assembled Tank](/hardware/raspberry-tank/IMG_20120712_145425-600x358.jpg)](/hardware/raspberry-tank/IMG_20120712_145425.jpg)
 
 And finally, the road to autonomy:
 	

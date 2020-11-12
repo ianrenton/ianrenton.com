@@ -32,10 +32,10 @@ Originally, a smaller bus-powered hub was tried, with its host cable split to ta
 
 Inside the tank, the Raspberry Pi now sits quite neatly on top of the USB hub.  The electrical schematic now looks like this:
 
-[![Raspberry Tank Schematic (Day 18)](/raspberrytank/raspberry-tank-schematic-342x500.png)](/raspberrytank/raspberry-tank-schematic-2.png)<br/>
+[![Raspberry Tank Schematic (Day 18)](/hardware/raspberry-tank/raspberry-tank-schematic-342x500.png)](/hardware/raspberry-tank/raspberry-tank-schematic-2.png)<br/>
 _Raspberry Tank Schematic (Day 18)_
 
-_You can download that as an SVG file here: [Raspberry Tank Schematic (Day 18)](/raspberrytank/raspberry-tank-schematic-2.svg)_
+_You can download that as an SVG file here: [Raspberry Tank Schematic (Day 18)](/hardware/raspberry-tank/raspberry-tank-schematic-2.svg)_
 
 ## Modifying the Web GUI
 

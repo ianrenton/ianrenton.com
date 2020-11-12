@@ -11,7 +11,7 @@ Because the [Raspberry Tank](../raspberry-tank/) was just too... incapable of li
 
 Yes, it also has a Raspberry Pi on it.
 
-![The Quadcopter](/quadcopter/76.jpg){: .center}
+![The Quadcopter](/hardware/quadcopter/76.jpg){: .center}
 
 ## Build Photos & Videos
 
