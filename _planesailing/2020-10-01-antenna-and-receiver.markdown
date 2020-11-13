@@ -9,10 +9,10 @@ layout: post
 
 ![Plane Sailing Banner](/hardware/planesailing/banner5.png){: .center}
 
-If you've seen <a href="/hardware/flight-tracker">my first flight tracker</a>, you will probably have noticed that it uses a stock RTL-SDR v3 tuner, and the basic extendable dipole antenna that comes in the RTL-SDR kit. In converting that project to become "Plane Sailing", I decided to improve the antenna and receiver hardware for ADS-B tracking. Of course, I had to add a second antenna for the AIS tracking part of the project, since the two technologies use different frequencies and therefore benefit from different antenna lengths.
+If you've seen [my first flight tracker](/hardware/flight-tracker), you will probably have noticed that it uses a stock RTL-SDR v3 tuner, and the basic extendable dipole antenna that comes in the RTL-SDR kit. In converting that project to become "Plane Sailing", I decided to improve the antenna and receiver hardware for ADS-B tracking. Of course, I had to add a second antenna for the AIS tracking part of the project, since the two technologies use different frequencies and therefore benefit from different antenna lengths.
 
 ![Antenna setup](/hardware/planesailing/antennas-labelled.jpg){: .center}
-<center><em>Antennas on my roof</em></center><br/>
+*Antennas on my roof*
 
 ## ADS-B Antenna & Receiver
 
@@ -27,7 +27,7 @@ Although I didn't get the chance to test the new antenna and the change of heigh
 The AIS performance of my setup is much less impressive, for the simple reason that I don't have line of sight to the sea&mdash;to achieve that I would need an approximately 65-foot antenna pole, and none of my neighbours would ever speak to me again.
 
 ![Terrain altitude map](/hardware/planesailing/terrain.png){: .center}
-<center><em>Figure 2. The Problem.</em></center><br/>
+*Figure 2. The Problem.*
 
 However, I thought I'd give it a try anyway. I used a [Diamond X-50 antenna](https://www.nevadaradio.co.uk/product/diamond-x-50/), which has internal elements tuned for both the 2m and 70cm bands and thus can be used for general hamming when not in use as an AIS tracker. I re-used the stock RTL-SDR tuner to receive the AIS signals.
 

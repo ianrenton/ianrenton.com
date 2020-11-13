@@ -1,7 +1,7 @@
 /* Styles for the generic Jekyll "page" and "post" templates */
 
 .page-content {
-  padding: $spacing-unit 0 0 0;
+  margin: $spacing-unit 0 $spacing-unit+$header-footer-height 0;
 
   > a {
     text-decoration: underline;

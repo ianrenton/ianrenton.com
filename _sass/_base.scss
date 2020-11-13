@@ -1,5 +1,4 @@
 /* Base styling for all pages */
-
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -99,6 +98,17 @@ figcaption {
     padding-bottom: 1em;
 }
 
+/* Fake caption - best we can do in pure markdown, just do:
+     ![name](href)
+     *caption*
+   and we can pick it up as a kind-of-caption.*/
+img + em {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    padding-top: 1em;
+}
+
 /* Lists */
 ul, ol {
     margin-left: $spacing-unit;
@@ -141,24 +151,28 @@ hr {
 /* Code */
 pre, code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-    font-family: mono, monospace;
-}
-
-code {
-    padding: 1px 5px;
+    background-color: $code-background-color;
+    font-family: $code-font-family;
+    color: $code-text-color;
 }
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    border: 1px solid $grey-color;
+    border-radius: 3px;
+    overflow-x: auto;
+    -webkit-scrollbar-color: dark;
+    scrollbar-color: lighten($code-background-color, 40%) $code-background-color;
+}
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+code {
+    padding: 1px 5px;
+    border: 1px solid $grey-color;
+    border-radius: 3px;
+}
 
+pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
 }

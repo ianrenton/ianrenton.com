@@ -24,7 +24,7 @@ The same is true for the AIS side as well. While this isn't quite as common a pr
 Feeding your data to online trackers is a little less sophisticated for AIS than for ADS-B; each provider simply gives you an IP address and port to which you send the raw NMEA messages. SARCNET's image pre-installs *AIS Dispatcher*, essentially a utility that reads UDP from one socket and sends it to a number of others. It comes preconfigured with the appropriate ports for [Vessel Finder](https://stations.vesselfinder.com/become-partner), [Pocket Mariner](http://pocketmariner.com/ais-ship-tracking/cover-your-area/) and [Ship Finder](https://shipfinder.co/about/coverage/), while registering an account on [Marine Traffic](https://www.marinetraffic.com/en/users/register/1/12) and [AIShub](http://www.aishub.net/join-us) gets you a unique port on each of their servers that you can also send data to.
 
 ![Two Raspberry Pis with SDR dongles attached](/hardware/planesailing/pis.jpg){: .center}
-<center><em>Raspberry Pis with SDR dongles attached</em></center><br/>
+*Raspberry Pis with SDR dongles attached*
 
 ## Back-end Data Store & Web Server
 
