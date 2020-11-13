@@ -25,6 +25,9 @@ td {
 .visualhook {
   margin-bottom: 2em !important;
 }
+table, td {
+  border: none !important;
+}
 @media print {
   .printme {
     display: none;
@@ -34,6 +37,9 @@ td {
   }
   .contact {
     display: block;
+  }
+  .page-content {
+    padding: 0;
   }
 }
 @media screen and (max-width: 799px) {
@@ -48,10 +54,9 @@ td {
 <div style="display:block;"><h1 style="text-decoration: none">Ian&nbsp;Renton</h1>
 <h2 style="position: relative; top: -0.8em; text-decoration: none">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
 
-<div class="notes visualhook">
-<table cellspacing="10" border="0"><tr><td>
-<a href="https://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" style="max-width: 300px !important;"></a></td>
-<td>Fancy trying out an interactive version of my CV? You can pan and zoom around a map to check out where I've worked and what I've worked on over the years. <a href="https://careerexplorer.ianrenton.com/">Click here to try it!</a> You can always head back here for more detail or to print this page out.</td></tr></table>
+<div class="notes visualhook clear">
+<a href="https://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" class="left" style="max-width: 300px !important; margin: 1em"></a>
+<p>Fancy trying out an interactive version of my CV? You can pan and zoom around a map to check out where I've worked and what I've worked on over the years. <a href="https://careerexplorer.ianrenton.com/">Click here to try it!</a> You can always head back here for more detail or to print this page out.</p>
 </div>
 
 I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
@@ -148,14 +153,11 @@ Physics and Electronics, as well as a certificate in Japanese Language & Studies
 
 ## Marine Qualifications
 
-VHF DSC Short Range Certificate
-
-STCW Personal Survival Techniques
+* VHF DSC Short Range Certificate
+* STCW Personal Survival Techniques
 
 ## Published Work
 
-Renton, I., Motson, D., Dart, F. and Lane R. (2017). Approaches to testing of COLREGs-Compliant Collision Avoidance Algorithms for Unmanned Surface Vessels. In: *Undersea Defence Technology*. Bremen, Germany: UDT.
-
-Mediavilla Varas, J., Caharija, W., Smith, R., Bhuiyan, Z., Naeem, W., Carter, P. and Renton, I. (2016). Autonomous COLREGs Compliant Ship Navigation, Using Bridge Simulators and an Unmanned Vessel. In: *15th International Conference on Computer and IT Applications in the Maritime Industries*. Lecce, Italy: COMPIT, pp. 280-286. Available at: [http://data.hiper-conf.info/compit2016_lecce.pdf](http://data.hiper-conf.info/compit2016_lecce.pdf).
-
-Cowling, D., Kanouras, A., Renton, I. and Stinchcombe, D. (2004). *Apparatus and method for sorting objects by colour*. Patent application PCT/GB2003/005027. Available at: [https://www.google.com/patents/WO2004045781A1?cl=en](https://www.google.com/patents/WO2004045781A1?cl=en).
+* Renton, I., Motson, D., Dart, F. and Lane R. (2017). Approaches to testing of COLREGs-Compliant Collision Avoidance Algorithms for Unmanned Surface Vessels. In: *Undersea Defence Technology*. Bremen, Germany: UDT.
+* Mediavilla Varas, J., Caharija, W., Smith, R., Bhuiyan, Z., Naeem, W., Carter, P. and Renton, I. (2016). Autonomous COLREGs Compliant Ship Navigation, Using Bridge Simulators and an Unmanned Vessel. In: *15th International Conference on Computer and IT Applications in the Maritime Industries*. Lecce, Italy: COMPIT, pp. 280-286. Available at: [http://data.hiper-conf.info/compit2016_lecce.pdf](http://data.hiper-conf.info/compit2016_lecce.pdf).
+* Cowling, D., Kanouras, A., Renton, I. and Stinchcombe, D. (2004). *Apparatus and method for sorting objects by colour*. Patent application PCT/GB2003/005027. Available at: [https://www.google.com/patents/WO2004045781A1?cl=en](https://www.google.com/patents/WO2004045781A1?cl=en).

@@ -11,22 +11,21 @@ layout: post
 
 The full Bill of Materials for the Plane/Sailing project is as follows. I re-used a number of these components that were left over from previous projects, but I've included prices for everything (as of October 2020) in case you're recreating the build for yourself from scratch. (If that's the case, you may want to buy more up-to-date Raspberry Pis and cases to match.)
 
-{:.bordered}
-| Part                              | Purchase Link        | Quantity  | Cost/ea   | Cost    |
-|---------------------------------  |--------------------  |---------- |---------  |-------- |
-| Diamond X-50 Antenna              | [Nevada Radio][1]    | 1         | 59.95     | 59.95   |
-| Pimoroni ADS-B Antenna            | [Pimoroni][2]        | 1         | 24.90     | 24.90   |
-| Pimoroni 8m N-type to SMA Cable   | [Pimoroni][3]        | 2         | 10.50     | 21.00   |
-| FlightAware Pro Stick Plus        | [Pimoroni][4]        | 1         | 23.70     | 23.70   |
-| RTL-SDR v3 Dongle                 | [Technofix][5]       | 1         | 27.99     | 27.99   |
-| Raspberry Pi Model B              | [Farnell][6]         | 2         | 22.65     | 45.30   |
-| Short Crust case                  | [Amazon][7]          | 2         | 7.99      | 15.98   |
-| SD Card                           | [Amazon][8]          | 2         | 3.78      | 7.56    |
-| USB Cable                         | [Amazon][9]          | 2         | 2.99      | 5.98    |
-| Ethernet Cable                    | [Amazon][10]         | 2         | 3.51      | 7.02    |
-| USB Plug                          | [Amazon][11]         | 1         | 8.99      | 8.99    |
-|---------------------------------  |--------------------  |---------- |---------  |-------- |
-|                                   |                      |           | **TOTAL** | **248.37**  |
+| Part                              | Purchase Link        | Quantity  | Cost (GBP)/ea | Cost (GBP) |
+|---------------------------------  |--------------------  |---------- |-------------- |----------- |
+| Diamond X-50 Antenna              | [Nevada Radio][1]    | 1         | 59.95         | 59.95      |
+| Pimoroni ADS-B Antenna            | [Pimoroni][2]        | 1         | 24.90         | 24.90      |
+| Pimoroni 8m N-type to SMA Cable   | [Pimoroni][3]        | 2         | 10.50         | 21.00      |
+| FlightAware Pro Stick Plus        | [Pimoroni][4]        | 1         | 23.70         | 23.70      |
+| RTL-SDR v3 Dongle                 | [Technofix][5]       | 1         | 27.99         | 27.99      |
+| Raspberry Pi Model B              | [Farnell][6]         | 2         | 22.65         | 45.30      |
+| Short Crust case                  | [Amazon][7]          | 2         | 7.99          | 15.98      |
+| SD Card                           | [Amazon][8]          | 2         | 3.78          | 7.56       |
+| USB Cable                         | [Amazon][9]          | 2         | 2.99          | 5.98       |
+| Ethernet Cable                    | [Amazon][10]         | 2         | 3.51          | 7.02       |
+| USB Plug                          | [Amazon][11]         | 1         | 8.99          | 8.99       |
+|---------------------------------  |--------------------  |---------- |-------------- |----------- |
+|                                   |                      |           | **TOTAL**     | **248.37** |
 
 [1]: https://www.nevadaradio.co.uk/product/diamond-x-50/
 [2]: https://shop.pimoroni.com/products/ads-b-1090-mhz-antenna-0-6m-5-5dbi
