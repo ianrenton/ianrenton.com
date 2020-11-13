@@ -3,7 +3,7 @@
 
 /* Top banner on the homepage */
 div#homepagebanner {
-  padding-top: 1em;
+  margin: $spacing-unit 0 0 0;
 
   /* The inner "top" section contains the photo, name and tagline */
   .top {
