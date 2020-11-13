@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div id="notes">
+<div class="notes">
 <p>Lesson 1: Sangria and Oreo cookies doth not a story make.</p>
 </div>
 

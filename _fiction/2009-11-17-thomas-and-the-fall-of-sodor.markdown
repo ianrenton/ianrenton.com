@@ -24,7 +24,7 @@ tags:
 - WTF
 ---
 
-<div id="notes">
+<div class="notes">
 <p>This story is rated <i>Super-X</i>, and is thus not suitable for anyone whatsoever to read.  Flee now if you are in any way likely to be horrified by:  Fanfiction, <i>Bad</i> fanfiction, swearing, violence, death, sex, <i>train buttsex</i>, Ayn Rand, or the innermost evils of my mind.</p>
 <p>To anyone daring to proceed, I offer only this note of apology: If you had a toddler that forced you to watch Thomas the Tank engine non-stop, day after day, you would <a href="http://whiteradish.drowtales.com/animation/cutethulhu.html">go mad</a> too.</p>
 <p>Also, I am well aware how wildly this oscillates between the Rev. W Audry's writing style and horrid, florid prose.  This is because, having written whatever came to the front of my mind for the last two hours, I now never want to look at it ever again.</p>

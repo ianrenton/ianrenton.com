@@ -19,7 +19,7 @@ tags:
 - Science Fiction
 ---
 
-<div id="notes"><p>This short story came out of the retro-future / 1930s <em>Popular Mechanics</em> vibe of VNV Nation's album "Automatic". If you fancy something appropriate to listen to while reading, here's a YouTube link to one of the songs from the album: <a href="http://www.youtube.com/watch?v=7aCeY8i3Fto">VNV Nation -- Photon</a></p></div>
+<div class="notes"><p>This short story came out of the retro-future / 1930s <em>Popular Mechanics</em> vibe of VNV Nation's album "Automatic". If you fancy something appropriate to listen to while reading, here's a YouTube link to one of the songs from the album: <a href="http://www.youtube.com/watch?v=7aCeY8i3Fto">VNV Nation -- Photon</a></p></div>
 
 <div class="story" markdown="1">
 I parked up on the northern shore of Long Island, just in time to catch the dawn.  As the sun took its first tentative step into the sky, slivers of orange light flashed from horizon to horizon, lighting up the gleaming chrome of Boston's railgun spires.  The air hummed the song of stored electricity, punctuated by the pop-pop drum-beat as each one launched its precious Europe-bound cargo and the slow mechanical clanking of each one adjusting itself to changes in the wind high in the stratosphere.

@@ -16,7 +16,7 @@ tags:
 - Story
 ---
 
-<div id="storynav">
+<div class="storynav">
 <p><a href="../forgotten-children">Index</a> | First Chapter | Previous Chapter</p>
 </div>
 <div class="story" markdown="1">

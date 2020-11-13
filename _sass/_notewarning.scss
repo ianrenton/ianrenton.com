@@ -1,0 +1,22 @@
+/* Styles for "notes" and "warning" blocks */
+.notes, .warning {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  padding: 0.1em;
+
+  > p {
+    margin: 1em;
+  }
+
+}
+
+.notes {
+  border-left: 3px solid #555aff;
+  background-color: #d7d7ff;
+}
+
+.warning {
+  color: #D00000;
+  border-left: 3px solid #D00000;
+  background-color: #FFDDDD;
+}

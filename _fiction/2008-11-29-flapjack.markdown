@@ -16,7 +16,7 @@ tags:
 - WTF
 ---
 
-<div id="notes"><p>OH GOD WHAT THE FUCK.  I blame <a href="http://eric-the-girl.livejournal.com/">Eric</a> for this.</p>
+<div class="notes"><p>OH GOD WHAT THE FUCK.  I blame <a href="http://eric-the-girl.livejournal.com/">Eric</a> for this.</p>
 </div>
 <div class="story" markdown="1">
 <p>It was the fourth time that I&#039;d met that little girl in the alley behind the Coach and Horses.  Just as she had each of the previous three times, she stood there in the shadows, staring at me unblinking, daring me to make something of the fact that she was there.</p>

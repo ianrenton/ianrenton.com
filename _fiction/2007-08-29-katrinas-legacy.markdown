@@ -14,7 +14,7 @@ tags:
 - Story
 ---
 
-<div id="notes">Note to the hard of thinking:  This is a work of fiction!  I live thousands of miles away from, and have never been to, New Orleans.</div>
+<div class="notes">Note to the hard of thinking:  This is a work of fiction!  I live thousands of miles away from, and have never been to, New Orleans.</div>
 
 <div class="story" markdown="1">
 <p>"Haven&#039;t you heard?" enquired the woman in the coffee shop as I turned up there during my morning break. I confessed that I hadn&#039;t.</p>

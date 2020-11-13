@@ -3,31 +3,31 @@ layout: default
 paginate: true
 ---
 
-<div class="page-content">
 <div class="wrapper">
-  <header class="post-header">
-    {% if paginator.page != 1 %}
-      <h1 class="post-title">Blog Archive &mdash; Page {{paginator.page}}</h1>
-    {% else %}
-      <h1 class="post-title">Blog Archive</h1>
-    {% endif %}
-  </header>
+  <div class="page-content">
+    <header class="post-header">
+      {% if paginator.page != 1 %}
+        <h1 class="post-title">Blog Archive &mdash; Page {{paginator.page}}</h1>
+      {% else %}
+        <h1 class="post-title">Blog Archive</h1>
+      {% endif %}
+    </header>
 
-  <div class="oldwarning"><p>This is part of my blog, which I have long since stopped maintaining. The page has been preserved in case its content is of any interest. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
+    <div class="warning"><p>This is part of my blog, which I have long since stopped maintaining. The page has been preserved in case its content is of any interest. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
 
-<ul class="post-list">
-  {% for post in paginator.posts %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
-      <p>{{ post.excerpt }}</p>
-      <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
-    </li>
-  {% endfor %}
-</ul>
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+        <li>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
+          <p>{{ post.excerpt }}</p>
+          <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
+        </li>
+      {% endfor %}
+    </ul>
 
-<div class="pagination">{% if paginator.next_page_path != nil %}<div class="pagination-left"><a href="{{paginator.next_page_path}}">&laquo; Older Posts</a></div>{% endif %}{% if paginator.previous_page_path != nil %}<div class="pagination-right"><a href="{{paginator.previous_page_path}}">Newer Posts &raquo;</a></div>{% endif %}</div>
-</div>
+    <div class="pagination">{% if paginator.next_page_path != nil %}<div class="pagination-left"><a href="{{paginator.next_page_path}}">&laquo; Older Posts</a></div>{% endif %}{% if paginator.previous_page_path != nil %}<div class="pagination-right"><a href="{{paginator.previous_page_path}}">Newer Posts &raquo;</a></div>{% endif %}</div>
+  </div>
 </div>

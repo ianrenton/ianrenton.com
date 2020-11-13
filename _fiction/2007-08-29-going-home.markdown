@@ -15,7 +15,7 @@ tags:
 - Story
 ---
 
-<div id="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>This is a story I started writing back in 2007, but had no idea where I wanted to go with it.</p></div>
+<div class="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>This is a story I started writing back in 2007, but had no idea where I wanted to go with it.</p></div>
 
 <div class="story" markdown="1">
 <p>Sofia sighed deeply, her misty breath hanging in the air for a few seconds before disappearing into the twilight gloom. It was raining again - it always seemed to rain here, no matter what time of year it might be. Grey skies, grey buildings, grey streets, grey looks in peoples&#039; eyes... No wonder they called this place Slateham.</p>

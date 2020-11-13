@@ -20,7 +20,7 @@ tags:
 - Story
 ---
 
-<div id="notes"><p>This story was originally written for the website <a href="http://www.athousandwords.org.uk/">"a thousand words"</a>.  You can <a href="http://www.athousandwords.org.uk/story/1">see this story on "a thousand words"</a>, plus rate it, comment on it, and post your own short stories by <a href="http://www.athousandwords.org.uk/register">creating an account</a>!</p></div>
+<div class="notes"><p>This story was originally written for the website <a href="http://www.athousandwords.org.uk/">"a thousand words"</a>.  You can <a href="http://www.athousandwords.org.uk/story/1">see this story on "a thousand words"</a>, plus rate it, comment on it, and post your own short stories by <a href="http://www.athousandwords.org.uk/register">creating an account</a>!</p></div>
 
 <div class="story">
 <p>"There are patterns in everything," the woman said, her eyes still focussing somewhere far beyond the table.  "In the cards of the Tarot, the flickers of light in a crystal ball, the leaves twisting and turning in a pot of tea."  Tiny pockets of air bubbled to the surface of her cup as an iceberg of cream broke off and sank into the abyss.  "And so there are patterns in this."

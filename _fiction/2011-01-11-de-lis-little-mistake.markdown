@@ -22,7 +22,7 @@ tags:
 - Will Regret This in the Morning
 ---
 
-<div id="notes"><p>Oh boy.  Yet again, a children's television programme has driven me to the brink of insanity.  I return bearing this.  The worst thing of all is that I'm sober, though I have the sudden desire not to be.</p>
+<div class="notes"><p>Oh boy.  Yet again, a children's television programme has driven me to the brink of insanity.  I return bearing this.  The worst thing of all is that I'm sober, though I have the sudden desire not to be.</p>
 <p>If you haven't watched Waybuloo before, you should probably <a href="http://www.bbc.co.uk/iplayer/search?q=waybuloo">experience the saccharine horror on iPlayer</a> before reading this travesty.</p></div>
 
 <div class="story" markdown="1">

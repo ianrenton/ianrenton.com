@@ -16,7 +16,7 @@ tags:
 - Story
 ---
 
-<div id="notes">
+<div class="notes">
 <p>To my players:  It is Hallowe&#039;en now, a fitting time for drawing endeavours to a close.  And thus the Changeling game, which has flagged in recent months, is no more.  I would like to sincerely thank you all for taking part in a game that has lasted well into its third year and churned out nearly 200,000 words of some of the most enjoyable and amusing fiction I have ever had the pleasure of reading.  More than anything else, I hope you have all had as much fun with this game as I have.</p>
 <p>This is my present to you - the ending for the game that never ended, the finalé and the epilogue of <a href="../changeling-in-love-and-war">"Changeling: In Love and War"</a> as I hoped they would be.</p>
 </div>

@@ -5,7 +5,7 @@ title: Flight Tracker
 slug: flight-tracker
 ---
 
-<div id="notes"><p>The flight tracker project described here has now been incorporated into my combined aircraft and ship tracking system, <a href="/hardware/planesailing">"Plane/Sailing"</a>. Head to that link if you want to see what it's become, or carry on reading below to check out its predecessor!</p></div>
+<div class="notes"><p>The flight tracker project described here has now been incorporated into my combined aircraft and ship tracking system, <a href="/hardware/planesailing">"Plane/Sailing"</a>. Head to that link if you want to see what it's become, or carry on reading below to check out its predecessor!</p></div>
 
 <p>I run a relatively simple home-made ADS-B aircraft tracker using and old Raspberry Pi, a cheap Software Defined Radio dongle, and some software. It’s installed in my shed, and provides <a href="http://flightmap.ianrenton.com">tracking of planes across the south of the UK</a>.</p>
 

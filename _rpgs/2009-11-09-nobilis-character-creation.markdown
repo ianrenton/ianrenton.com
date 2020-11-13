@@ -20,7 +20,7 @@ tags:
 
 On this page, I will attempt to summarise character creation for those without a Nobilis book or without the time to pick through it in search of the actual <i>rules</i>.
 
-<div id="notes"><p>Blue boxes contain information that is specific to my Nobilis game, ["Where Only Lilies Grow"](/rpgs/nobilis-where-only-lilies-grow/), rather than to the Nobilis setting in general.</p></div>
+<div class="notes"><p>Blue boxes contain information that is specific to my Nobilis game, ["Where Only Lilies Grow"](/rpgs/nobilis-where-only-lilies-grow/), rather than to the Nobilis setting in general.</p></div>
 
 <h3>Resources (none of which were created by me):</h3>
 
@@ -31,7 +31,7 @@ On this page, I will attempt to summarise character creation for those without a
 
 As always, your character concept is the most important thing, and ideally you should have a clear idea of who your character is before starting to stat him or her.  A background, as bullet points, prose or even something stranger still, is strongly encouraged so that the GM can write better plot for your character.
 
-<div id="notes"><p>In "Where Only Lilies Bloom", your characters are newly ennobled.  The story begins at pretty much the moment your Imperator creates his or her Chancel on Earth and imbues the characters with soul-shards.  When coming up with a character concept and background, please bear this in mind - you will start the story with no real idea what the Nobilis are or what they do, and until this point you will have had a <i>reasonably</i> normal life.</p>
+<div class="notes"><p>In "Where Only Lilies Bloom", your characters are newly ennobled.  The story begins at pretty much the moment your Imperator creates his or her Chancel on Earth and imbues the characters with soul-shards.  When coming up with a character concept and background, please bear this in mind - you will start the story with no real idea what the Nobilis are or what they do, and until this point you will have had a <i>reasonably</i> normal life.</p>
 <p>I say "reasonably" because your characters were picked to be given your Imperator's soul-shards, so he or she probably saw some promise in you.  Perhaps your character is someone with power, or some particular talent.  Your character does not have to have originally been human - animals, mythical beings, fictional characters and, yes, super-intelligent shades of the colour blue, are all possible.  But whatever you <i>were</i>, you have now become something more.  Your background does not necessarily have to feature any fondness for what will become your Estate.</p></div>
 
 <h2>Estate</h2>
@@ -189,7 +189,7 @@ You have 20 Bond Points to allocate to any number of things that your character 
 <h2>Anchors</h2>
 Anchors are particular humans whom you have bonded with using the Servant's Rite.  You may see through their eyes and even control them, and you may transfer your Gifts to them and work miracles through them.  They are a great responsibility which is not to be entered into lightly.
 
-<div id="notes"><p>At the start of "Where Only Lilies Bloom", you are recently Ennobled and have not yet made any mortals into Anchors.</p></div>
+<div class="notes"><p>At the start of "Where Only Lilies Bloom", you are recently Ennobled and have not yet made any mortals into Anchors.</p></div>
 
 <h2>Wound Levels</h2>
 Take your character's Aspect, and add 4.  Divide these evenly among the Deadly, Serious and Surface wound categories.  If you have one left over, add it to Surface.  If you have two left over, add one to Surface and one to Serious.

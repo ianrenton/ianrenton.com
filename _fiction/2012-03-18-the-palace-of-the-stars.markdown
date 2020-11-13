@@ -15,7 +15,7 @@ tags:
 - Short Story
 ---
 
-<div id="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>I started writing this while on holiday in the Summer of 2010, but didn't finish and couldn't get back into it once I was back at home.  I think I was about 70% though what I wanted to write, but couldn't think of how to write the end.</p></div>
+<div class="notes"><p align="center"><strong>Warning: Unfinished</strong></p><p>I started writing this while on holiday in the Summer of 2010, but didn't finish and couldn't get back into it once I was back at home.  I think I was about 70% though what I wanted to write, but couldn't think of how to write the end.</p></div>
 
 <div class="story" markdown="1">
 I stared up into the empty sky, blinking and blinking until the stars came back into focus.  I wondered then for the first time, just how far away they were, and whether they were closer now than they had once been.  Millions of miles, billions, they said.  That's what they told us when they were kids.  Stars are giant balls of gas billions of miles away, just like the sun but set adrift in space.

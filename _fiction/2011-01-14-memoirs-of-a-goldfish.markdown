@@ -18,7 +18,7 @@ tags:
 - Memoirs of a Geisha
 ---
 
-<div id="notes"><p>With apologies to Arthur Golden and <a href="https://twitter.com/#!/Tontonis/status/25886026304061440">@Tontonis</a>.</p></div>
+<div class="notes"><p>With apologies to Arthur Golden and <a href="https://twitter.com/#!/Tontonis/status/25886026304061440">@Tontonis</a>.</p></div>
 Suppose that you and I were sitting in a quiet fish bowl,
 
 We're sitting in a quiet fish bowl.
