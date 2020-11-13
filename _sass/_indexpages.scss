@@ -36,6 +36,13 @@ div#homepagebanner {
 
 }
 
+/* No homepage photo if on mobile */
+@include media-query($on-palm) {
+  div#homepagebanner .top img {
+    display: none;
+  }
+}
+
 /* Wide section for use with the large 250px images to the left and right
    on the homepage */
 div.widesection {

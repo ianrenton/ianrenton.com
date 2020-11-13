@@ -1,9 +1,20 @@
 # Site settings
 title: Ian Renton
 email: ian@ianrenton.com
-description: Software engineer and builder of robots
+tagline: Software engineer and builder of robots
+description: The website of Ian Renton, a software engineer and builder of robots
 baseurl: ""
-url: "https://ianrenton.com" # the base hostname & protocol for your site
+url: "https://ianrenton.com"
+lang: en_GB
+
+# SEO plugin
+social:
+  name: Ian Renton
+  links:
+    - https://twitter.com/i_renton
+    - https://github.com/ianrenton
+twitter:
+  username: i_renton
 
 # Build settings
 #lsi: false

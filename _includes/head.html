@@ -1,13 +1,16 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }}{% if page.collection != nil and page.collection != 'posts' %} | {% if page.collection == 'filmreviews' %}Film Reviews (by the Numbers){% else %}{{ page.collection | capitalize }}{% endif %}{% endif %} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="pavatar" href="/pavatar.png" />
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#39415a">
-  <meta name="author" content="Ian Renton">
-  {% seo %}
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="preload" href="/css/lora-v16-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/css/lora-v16-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/css/lora-v16-latin-italic.woff2" as="font" type="font/woff2" crossorigin />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#FFF7E7" />
+  <meta name="author" content="Ian Renton" />
+  {% seo title=false %}
 </head>
