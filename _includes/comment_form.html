@@ -7,7 +7,11 @@
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
-  <h4>Add Comment</h4>
+  {% comment %} If there are existing comments, use an "add a comment" header - if not, "add a comment" will already have been put in the main comment header {% endcomment %}
+  {% assign slug = (page.slug || (page.title | slugify)) %}
+  {% if site.data.comments[slug] %}
+    <h4>Add a Comment</h4>
+  {% endif %}
 
   <div class="newcommentauthor">
       <label for="comment-form-name">Name:&nbsp;<input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name"/>
