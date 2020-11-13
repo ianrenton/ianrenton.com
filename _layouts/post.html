@@ -6,67 +6,65 @@ layout: default
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 
 <div class="page-content">
-  <div class="post">
 
-    <header class="post-header">
-      {% comment %} If the post is in a collection, display the collection name as a link above post title {% endcomment %}
-      {% if page.collection != 'posts' %}
-        {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
-        <h3><a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}:</a></h3>
+  <header class="post-header">
+    {% comment %} If the post is in a collection, display the collection name as a link above post title {% endcomment %}
+    {% if page.collection != 'posts' %}
+      {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
+      <h3><a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}:</a></h3>
+    {% endif %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
+  </header>
+
+  {% comment %} If collection 'posts' (i.e. a blog post) display a warning {% endcomment %}
+  {% if pagedate >= threshold and page.collection == 'posts' %}
+    <div class="oldwarning"><p>This is a post from my blog, which I have long since stopped maintaining. The page has been preserved in case its content is of any interest. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
+  {% endif %}
+  {% if pagedate < threshold and page.collection == 'posts' %}
+    <div class="oldwarning"><p>This is a very old post from my blog; so old that it was originally hosted on LiveJournal. The page has been preserved in case its content is of any interest, but formatting errors are likely and the page's original comments have been lost. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
+  {% endif %}
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  {% if page.collection == 'posts' %}
+    {% comment %} If collection 'posts' (i.e. a blog post) look for previous/next posts the normal way {% endcomment %}
+    {% assign prevurl = page.previous.url %}
+    {% assign prevtitle = page.previous.title %}
+    {% assign nexturl = page.next.url %}
+    {% assign nexttitle = page.next.title %}
+  {% elsif thispagecollection.showprevnext == true %}
+    {% comment %} If in a collection, and the collection is tagged to have prev/next links at the bottom of posts, look for previous/next posts inside the collection, the complicated way {% endcomment %}
+
+    {% for link in site[page.collection]  %}
+      {% if link.title == page.title %}
+
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+            {% assign prevtitle = prev.title %}
+        {% endunless %}
+
+        {% unless forloop.last %}
+            {% assign next = site[page.collection][forloop.index] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.title %}
+        {% endunless %}
       {% endif %}
-      <h1 class="post-title">{{ page.title }}</h1>
-      <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
-    </header>
 
-    {% comment %} If collection 'posts' (i.e. a blog post) display a warning {% endcomment %}
-    {% if pagedate >= threshold and page.collection == 'posts' %}
-      <div class="oldwarning"><p>This is a post from my blog, which I have long since stopped maintaining. The page has been preserved in case its content is of any interest. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
-    {% endif %}
-    {% if pagedate < threshold and page.collection == 'posts' %}
-      <div class="oldwarning"><p>This is a very old post from my blog; so old that it was originally hosted on LiveJournal. The page has been preserved in case its content is of any interest, but formatting errors are likely and the page's original comments have been lost. Please <a href="/">go back to the homepage</a> to see the current contents of this site.</p></div>
-    {% endif %}
+    {% assign prev = link %}
+    {% endfor %}
+  {% endif %}
 
-    <article class="post-content">
-      {{ content }}
-    </article>
+  {% comment %} If we got previous/next post links via either means, display pagination {% endcomment %}
+  {% if prevurl or nexturl %}
+    <div class="pagination">
+      <div class="pagination-left">{% if prevurl %}<a href="{{prevurl}}">&laquo; Previous Post<br/>{{ prevtitle }}</a>{% endif %}</div>
+      <div class="pagination-right">{% if nexturl %}<a href="{{nexturl}}">Next Post &raquo;<br/>{{ nexttitle }}</a>{% endif %}</div>
+    </div>
+  {% endif %}
 
-    {% if page.collection == 'posts' %}
-      {% comment %} If collection 'posts' (i.e. a blog post) look for previous/next posts the normal way {% endcomment %}
-      {% assign prevurl = page.previous.url %}
-      {% assign prevtitle = page.previous.title %}
-      {% assign nexturl = page.next.url %}
-      {% assign nexttitle = page.next.title %}
-    {% elsif thispagecollection.showprevnext == true %}
-      {% comment %} If in a collection, and the collection is tagged to have prev/next links at the bottom of posts, look for previous/next posts inside the collection, the complicated way {% endcomment %}
-
-      {% for link in site[page.collection]  %}
-        {% if link.title == page.title %}
-
-          {% unless forloop.first %}
-              {% assign prevurl = prev.url %}
-              {% assign prevtitle = prev.title %}
-          {% endunless %}
-
-          {% unless forloop.last %}
-              {% assign next = site[page.collection][forloop.index] %}
-              {% assign nexturl = next.url %}
-              {% assign nexttitle = next.title %}
-          {% endunless %}
-        {% endif %}
-
-      {% assign prev = link %}
-      {% endfor %}
-    {% endif %}
-
-    {% comment %} If we got previous/next post links via either means, display pagination {% endcomment %}
-    {% if prevurl or nexturl %}
-      <div class="pagination">
-        <div class="pagination-left">{% if prevurl %}<a href="{{prevurl}}">&laquo; Previous Post<br/>{{ prevtitle }}</a>{% endif %}</div>
-        <div class="pagination-right">{% if nexturl %}<a href="{{nexturl}}">Next Post &raquo;<br/>{{ nexttitle }}</a>{% endif %}</div>
-      </div>
-    {% endif %}
-
-  </div>
 </div>
 
 {% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "old post" threshold, show comments box {% endcomment %}
