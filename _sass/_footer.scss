@@ -42,8 +42,3 @@ body::after {
     display: none;
   }
 }
-
-/* Allow use of the "hidden" class on pages that want to hide the footer */
-footer.hidden {
-  display: none;
-}

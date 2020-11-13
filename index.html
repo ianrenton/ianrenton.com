@@ -5,115 +5,123 @@ redirect_from:
   - /about-me
 ---
 
-<div id="homepagebanner">
-  <div class="top">
-    <img src="me.png" title="Photo of Ian Renton"/>
-    <h1>Ian Renton</h1>
-    <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
+{% comment %} The homepage uses a very different layout to the rest, with no header or footer, and also is the only page that needs to "escape" the standard width wrapper, so it has its own minial template and manages its own wrapper, page-content, post & post-content divs unlike all other pages. {% endcomment %}
+
+<div class="wrapper">
+  <div class="page-content">
+    <div class="post">
+      <article class="post-content">
+        <div id="homepagebanner">
+          <div class="top">
+            <img src="me.png" title="Photo of Ian Renton"/>
+            <h1>Ian Renton</h1>
+            <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
+          </div>
+          <p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, and play with radios, alongside being a husband, father, cook and gardener.</p>
+          <p style="text-align: center;"><a href="mailto:{{ site.email }}">E-mail</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/cv">CV</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/i_renton">Twitter</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/ianrenton">GitHub</a></p>
+          <p style="margin-top: 3em;">Here are some of my projects:</p>
+        </div>
+      </article>
+    </div>
   </div>
-  <p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, and play with radios, alongside being a husband, father, cook and gardener.</p>
-  <p style="text-align: center;"><a href="mailto:{{ site.email }}">E-mail</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/cv">CV</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/i_renton">Twitter</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/ianrenton">GitHub</a></p>
-  <p style="margin-top: 3em;">Here are some of my projects:</p>
 </div>
-
-</div></div></div>
 <div class="widewrapper">
-<div class="pagecontent">
-<div class="post">
-
-  <article class="post-content">
-    <div class="widesection">
-      <a href="/hardware/planesailing"><img class="left" src="/images/250/planesailing.png"/></a>
-      <div class="mobileblock">
-        <h2><a href="/hardware/planesailing">Plane/Sailing</a></h2>
-        <p>"Plane/Sailing" is my home aircraft and ship tracker. It receives ADS-B and AIS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="/hardware/raspberry-tank"><img class="right" src="/images/250/tank.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/hardware/raspberry-tank">Raspberry Tank</a></h2>
-        <p>The Raspberry Tank was possibly the first tank-like robot powered by a Raspberry Pi. It’s smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="/hardware/quadcopter"><img class="left" src="/images/250/quad.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/hardware/quadcopter">Quadcopter</a></h2>
-        <p>Because the Raspberry Tank was just too… incapable of lift, here’s a quadcopter! Yes, it also has a Raspberry Pi on it.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="/hardware/usv-01"><img class="right" src="/images/250/usv.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/hardware/usv-01">USV-01 “Harry Paye”</a></h2>
-        <p>USV-01 “Harry Paye” is an off-the-shelf remote control boat refitted as a testbed for our autonomous navigation system.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="/hardware/atp"><img class="left" src="/images/250/atp.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/hardware/atp">All-Terrain Pi</a></h2>
-        <p>The All-Terrain Pi is a “off-road” remote control toy fitted with a Rasbperry Pi, controllable from Scratch or by touch/tilt input from a smartphone.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="/hardware/lego-turtle"><img class="right" src="/images/250/turtle.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/hardware/lego-turtle">Lego Turtle</a></h2>
-        <p>The Lego Turtle is an Arduino microcontroller retro-fitted onto an old Lego Mindstorms kit. It features a built-in interpreter for simple Logo programs loaded via the serial port.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="/guides/install-linux-on-a-linx-1010b-tablet"><img class="left" src="/images/250/linx.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/guides/install-linux-on-a-linx-1010b-tablet">Linux on Linx 1010B Tablet</a></h2>
-        <p>A guide on how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <h3 style="text-align: center;"><a href="/hardware">More Hardware & Robotics »</a></h3>
-    </div>
-    <hr/>
-
-
-    <div class="widesection">
-      <a href="https://ianrenton.github.io/roastdinner/"><img class="right" src="/images/250/roast.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="https://ianrenton.github.io/roastdinner/">Roast Dinner Timing Chart</a></h2>
-        <p>Javascript magic to help you cook the perfect Sunday roast.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <a href="https://ianrenton.github.io/SeaBattle/"><img class="left" src="/images/250/seabattle.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="https://ianrenton.github.io/SeaBattle/">Sea Battle</a></h2>
-        <p>A quick-and-dirty 2D RTS game inspired by the unit customisation mechanics of Warzone 2100.</p>
-      </div>
-    </div>
-    <div class="widesection">
-      <h3 style="text-align: center;"><a href="/software/">More Software »</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/websites/">More Websites »</a></h3>
-    </div>
-    <hr/>
+  <div class="pagecontent">
+    <div class="post">
+      <article class="post-content">
+        <div class="widesection">
+          <a href="/hardware/planesailing"><img class="left" src="/images/250/planesailing.png"/></a>
+          <div class="mobileblock">
+            <h2><a href="/hardware/planesailing">Plane/Sailing</a></h2>
+            <p>"Plane/Sailing" is my home aircraft and ship tracker. It receives ADS-B and AIS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="/hardware/raspberry-tank"><img class="right" src="/images/250/tank.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/hardware/raspberry-tank">Raspberry Tank</a></h2>
+            <p>The Raspberry Tank was possibly the first tank-like robot powered by a Raspberry Pi. It’s smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="/hardware/quadcopter"><img class="left" src="/images/250/quad.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/hardware/quadcopter">Quadcopter</a></h2>
+            <p>Because the Raspberry Tank was just too… incapable of lift, here’s a quadcopter! Yes, it also has a Raspberry Pi on it.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="/hardware/usv-01"><img class="right" src="/images/250/usv.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/hardware/usv-01">USV-01 “Harry Paye”</a></h2>
+            <p>USV-01 “Harry Paye” is an off-the-shelf remote control boat refitted as a testbed for our autonomous navigation system.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="/hardware/atp"><img class="left" src="/images/250/atp.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/hardware/atp">All-Terrain Pi</a></h2>
+            <p>The All-Terrain Pi is a “off-road” remote control toy fitted with a Rasbperry Pi, controllable from Scratch or by touch/tilt input from a smartphone.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="/hardware/lego-turtle"><img class="right" src="/images/250/turtle.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/hardware/lego-turtle">Lego Turtle</a></h2>
+            <p>The Lego Turtle is an Arduino microcontroller retro-fitted onto an old Lego Mindstorms kit. It features a built-in interpreter for simple Logo programs loaded via the serial port.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="/guides/install-linux-on-a-linx-1010b-tablet"><img class="left" src="/images/250/linx.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/guides/install-linux-on-a-linx-1010b-tablet">Linux on Linx 1010B Tablet</a></h2>
+            <p>A guide on how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <h3 style="text-align: center;"><a href="/hardware">More Hardware & Robotics »</a></h3>
+        </div>
+        <hr/>
 
 
-    <div class="widesection">
-      <a href="https://careerexplorer.ianrenton.com"><img class="right" src="/images/250/careerexplorer.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="https://careerexplorer.ianrenton.com">Career Explorer</a></h2>
-        <p>“Career Explorer” is my online CV, an interactive map where you can pan around to see where I’ve been and what I’ve done in my professional career. I also have a <a href="/cv">more formal CV</a> online.</p>
-      </div>
+        <div class="widesection">
+          <a href="https://ianrenton.github.io/roastdinner/"><img class="right" src="/images/250/roast.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="https://ianrenton.github.io/roastdinner/">Roast Dinner Timing Chart</a></h2>
+            <p>Javascript magic to help you cook the perfect Sunday roast.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <a href="https://ianrenton.github.io/SeaBattle/"><img class="left" src="/images/250/seabattle.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="https://ianrenton.github.io/SeaBattle/">Sea Battle</a></h2>
+            <p>A quick-and-dirty 2D RTS game inspired by the unit customisation mechanics of Warzone 2100.</p>
+          </div>
+        </div>
+        <div class="widesection">
+          <h3 style="text-align: center;"><a href="/software/">More Software »</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/websites/">More Websites »</a></h3>
+        </div>
+        <hr/>
+
+
+        <div class="widesection">
+          <a href="https://careerexplorer.ianrenton.com"><img class="right" src="/images/250/careerexplorer.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="https://careerexplorer.ianrenton.com">Career Explorer</a></h2>
+            <p>“Career Explorer” is my online CV, an interactive map where you can pan around to see where I’ve been and what I’ve done in my professional career. I also have a <a href="/cv">more formal CV</a> online.</p>
+          </div>
+        </div>
+        <hr/>
+
+
+        <div class="widesection">
+          <a href="/filmreviews"><img class="left" src="/images/250/sharknado.jpg"/></a>
+          <div class="mobileblock">
+            <h2><a href="/filmreviews">Film Reviews (by the Numbers)</a></h2>
+            <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!</p>
+          </div>
+        </div>
+      </article>
     </div>
-    <hr/>
-
-
-    <div class="widesection">
-      <a href="/filmreviews"><img class="left" src="/images/250/sharknado.jpg"/></a>
-      <div class="mobileblock">
-        <h2><a href="/filmreviews">Film Reviews (by the Numbers)</a></h2>
-        <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!</p>
-      </div>
-    </div>
-  </article>
-
+  </div>
 </div>

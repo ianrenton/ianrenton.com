@@ -1,15 +1,13 @@
----
-layout: default
-headerclass: hidden
-footerclass: hidden
----
+{% comment %} The homepage uses a very different layout to the rest, with no header or footer, and also is the only page that needs to "escape" the standard width wrapper, so it has its own template here. {% endcomment %}
+<!DOCTYPE html>
+<html>
 
-<div class="page-content">
-  <div class="post">
+  {% include head.html %}
 
-    <article class="post-content">
-      {{ content }}
-    </article>
+  <body>
 
-  </div>
-</div>
+    {{ content }}
+    
+  </body>
+
+</html>
