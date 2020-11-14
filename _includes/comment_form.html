@@ -22,7 +22,7 @@
 
   <fieldset>
   <div class="textfield">
-      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting."></textarea>
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting." onclick="document.querySelector('.g-recaptcha').style.display = 'block';"></textarea>
   </div>
   </fieldset>
   
@@ -31,7 +31,7 @@
   </fieldset>
 
   <fieldset>
-    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" style="display: none"></div>
   </fieldset>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 

@@ -83,9 +83,17 @@ input#comment-form-subscribe {
   margin-right: 0.5em;
 }
 
+input, textarea, select {
+  border: 1px solid black;
+}
+
 button#comment-form-submit {
   margin-top: 5px;
   border: 2px solid black;
+}
+
+div.g-recaptcha {
+  margin-top: 0.5em;
 }
 
 div.js-modal-text {

@@ -1,0 +1,126 @@
+/* Style overrides for dark mode */
+
+/* New defines */
+$text-color-darkmode: $background-color;
+$background-color-darkmode: $text-color;
+$brand-color-darkmode: lighten($brand-color, 20%);
+
+/* Media selector for dark mode */
+@media (prefers-color-scheme:dark) {
+  body {
+    color: $text-color-darkmode;
+    background-color: $background-color-darkmode;
+  }
+
+  blockquote {
+    color: $grey-color;
+  }
+
+  a {
+    color: $brand-color-darkmode;
+
+    &:visited {
+      color: $brand-color-darkmode;
+    }
+
+  }
+
+  .site-header {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  .site-title {
+    &, &:visited {
+      color: $text-color-darkmode;
+    }
+
+  }
+
+  .site-nav {
+    .page-link {
+      color: $text-color-darkmode;
+    }
+
+    @include media-query($on-palm) {
+      background-color: $background-color-darkmode;
+
+      .menu-icon {
+        color: $text-color-darkmode;
+      }
+
+      .trigger {
+        background-color: $background-color-darkmode;
+        border: 1px solid $grey-color;
+      }
+
+    }
+
+  }
+
+  .site-footer {
+    border-top: 1px solid $grey-color;
+  }
+
+  span.subtitle {
+    color: $grey-color;
+  }
+
+  hr {
+      border-top: 1px solid $grey-color-light;
+  }
+
+  .commentheader {
+    border-top: 1px solid $grey-color-light;
+  }
+
+  div.commentauthor {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  input, button, textarea, select {
+    color: $text-color-darkmode;
+    background-color: darken($background-color-darkmode, 10%);
+  }
+
+  input, textarea, select {
+    border: 1px solid $grey-color-light;
+  }
+
+  button#comment-form-submit {
+    border: 2px solid $grey-color-light;
+  }
+
+  .notes {
+    background-color: #000020;
+  }
+
+  .warning {
+    background-color: #200000;
+  }
+
+  /* Opacity change to make images appear darker until hovered */
+  img {
+    opacity: .5;
+    transition: opacity .5s ease-in-out;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
+
+  /* Scrollbar styles for Webkit because Chrome doesn't change its scrollbars to dark for some reason */
+  ::-webkit-scrollbar {
+    background-color: $background-color-darkmode;
+    width: 15px;
+    height: 10px;
+    padding: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $grey-color-dark;
+    border: 2px solid $background-color-darkmode;
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+}
