@@ -79,15 +79,19 @@ $brand-color-darkmode: lighten($brand-color, 20%);
 
   input, button, textarea, select {
     color: $text-color-darkmode;
-    background-color: darken($background-color-darkmode, 10%);
+    background-color: darken($background-color-darkmode, 5%);
   }
 
-  input, textarea, select {
+  input {
+    border-bottom: 1px solid $grey-color-light;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  textarea, button#comment-form-submit {
     border: 1px solid $grey-color-light;
-  }
-
-  button#comment-form-submit {
-    border: 2px solid $grey-color-light;
+    border-radius: 3px;
   }
 
   .notes {
