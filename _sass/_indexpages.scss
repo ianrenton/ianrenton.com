@@ -34,6 +34,20 @@ div#homepagebanner {
 
   }
 
+  p#personallinks {
+    text-align: center;
+    a {
+        &:not(:first-child) {
+            margin-left: 30px;
+        }
+
+    }
+  }
+
+  p#someofmyprojects {
+    margin-top: $spacing-unit * 1.5;
+  }
+
 }
 
 /* No homepage photo if on mobile */
