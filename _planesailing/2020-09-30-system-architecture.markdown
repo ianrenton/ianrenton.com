@@ -11,4 +11,6 @@ layout: post
 
 The Plane/Sailing system architecture is reproduced below. More information about each aspect of it is contained on the [other pages in the Plane/Sailing build guide](/hardware/planesailing/).
 
+Please note that the choice to use two old Raspberry Pis was made in order to re-use old hardware I had lying around&mdash;if you are looking to recreate this project for yourself, I would recommend the use of a single Raspberry Pi 4, which will simplify the system.
+
 ![Plane Sailing system architecture](/hardware/planesailing/arch.png)

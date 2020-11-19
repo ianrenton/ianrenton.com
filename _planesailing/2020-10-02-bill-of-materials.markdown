@@ -9,7 +9,9 @@ layout: post
 
 ![Plane Sailing Banner](/hardware/planesailing/banner2.png){: .center}
 
-The full Bill of Materials for the Plane/Sailing project is as follows. I re-used a number of these components that were left over from previous projects, but I've included prices for everything (as of October 2020) in case you're recreating the build for yourself from scratch. (If that's the case, you may want to buy more up-to-date Raspberry Pis and cases to match.)
+The full Bill of Materials for the Plane/Sailing project is as follows. I re-used a number of these components that were left over from previous projects, but I've included prices for everything (as of October 2020) for completeness.
+
+If you're recreating this project from scratch, I would recommend swapping my two Raspberry Pi Model B's for a single Raspberry Pi 4, which should be able to cope with the combined workload. You'll therefore only need one case, SD card, USB cable and Ethernet cable as well. This will reduce complexity, cost and space taken up by the project!
 
 | Part                              | Purchase Link        | Quantity  | Cost (GBP)/ea | Cost (GBP) |
 |---------------------------------  |--------------------  |---------- |-------------- |----------- |
