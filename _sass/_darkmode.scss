@@ -25,6 +25,27 @@ $brand-color-darkmode: lighten($brand-color, 20%);
 
   }
 
+  table {
+    border-top: 2.27px solid $text-color-darkmode;
+    border-bottom: 2.27px solid $text-color-darkmode;
+  }
+
+  /* Borders */
+  table tr > th[scope='col'] {
+    border-bottom: 1.36px solid $text-color-darkmode;
+  }
+  table tr > th[scope='row'] {
+    border-right: 1.36px solid $text-color-darkmode;
+  }
+  table > tbody > tr:first-child > td,
+  table > tbody > tr:first-child > th {
+    border-top: 1.36px solid $text-color-darkmode;
+  }
+  table > tbody > tr:last-child > td,
+  table > tbody > tr:last-child > th {
+    border-bottom: 1.36px solid $text-color-darkmode;
+  }
+
   .site-header {
     border-bottom: 1px solid $grey-color-light;
   }
