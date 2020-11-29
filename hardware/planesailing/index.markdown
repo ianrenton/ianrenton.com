@@ -23,6 +23,10 @@ The links below are to the design & build information in case you are interested
 
 You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
 
+## Future Plans
+
+1. [APRS Integration](./aprs-integration)
+
 ## Featured On...
 
 * [Hack a Day](https://hackaday.com/2020/10/22/tracking-boats-and-ships-in-real-time-at-the-same-time/)
