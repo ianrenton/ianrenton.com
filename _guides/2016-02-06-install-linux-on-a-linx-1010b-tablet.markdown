@@ -211,7 +211,7 @@ For example, in Ubuntu 15.04 using the default LightDM login screen, we achieve 
 
 ```ini
 [SeatDefaults]
-display-setup-script=xrandr -o right &amp;&amp; xinput set-prop "pointer:Goodix Capacitive TouchScreen" 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1
+display-setup-script=xrandr -o right && xinput set-prop "pointer:Goodix Capacitive TouchScreen" 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1
 ```
 
 However, depending on the choice of login screen this may produce a "low graphics mode" error on startup and fail to display the login screen. In this eventuality it’s easiest just to perform the login in portrait orientation.
