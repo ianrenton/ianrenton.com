@@ -170,7 +170,6 @@ pre {
 
 code {
     padding: 1px 5px;
-    white-space: nowrap;
     border-radius: 3px;
 }
 
@@ -178,4 +177,8 @@ pre > code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+}
+
+p > code, li > code {
+    white-space: nowrap;
 }

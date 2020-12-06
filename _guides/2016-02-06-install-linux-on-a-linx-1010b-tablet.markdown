@@ -243,7 +243,7 @@ There are some xinput options that are configurable and should achieve this as w
 ```shell
 xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Emulation" "1"
 xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Threshold" "100"
-xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "500"</code></pre>
+xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "500"
 ```
 
 ## Thanks To...
