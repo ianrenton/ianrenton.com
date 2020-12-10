@@ -1,0 +1,6 @@
+_id: 287106e0-3805-11eb-a78b-fdeb23fb2e91
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: EMB
+email: ''
+message: "For those with the screen orientation issue with the 1010L you can edit /usr/lib/udev/hwdb.d/60-sensor.hwdb\r\n\r\nThis file already has an entry for the 1010B\r\n\r\nFind the lines for the 1010B, copy them and change the 1010B to 1010L to apply the correct matrix for the 1010L too."
+date: '2020-12-06T20:53:57.488Z'
