@@ -1,0 +1,13 @@
+_id: 12b40c80-47be-11eb-959d-f54ed8374096
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Andreas
+email: 815f59a0d774fc58a439a7eb3e8e2696
+message: >-
+  Got an update on the situation! I tried the advanced partitioning in the
+  install process and deleted everything so there is no windows boot loader on
+  the system any more BUT after a successful installation on ubuntu, when the
+  system boots it says ubuntu boot failed. I go to the bios and i see that it
+  recognises ubuntu as an option to boot but it fails to boot and doesnt show
+  why. Using ubuntu from the usb stick performs as expected though and the
+  installation process completes. There has to be something I'm missing...
+date: '2020-12-26T21:05:25.399Z'
