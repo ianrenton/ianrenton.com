@@ -1,0 +1,6 @@
+_id: 68c0a8b0-47a3-11eb-b504-75a6b85f717c
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Andreas
+email: 815f59a0d774fc58a439a7eb3e8e2696
+message: "Hey Ian,\r\ntried to install the 20.04.1 and somewhere close to the end there's a message saying the grub-efi-ia32 package failed to install into /target/.\r\n\r\nDuring the 20.10 install everything was smooth. Any ideas?"
+date: '2020-12-26T17:54:33.407Z'
