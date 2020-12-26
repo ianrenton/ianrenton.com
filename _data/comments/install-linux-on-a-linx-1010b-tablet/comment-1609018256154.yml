@@ -1,0 +1,6 @@
+_id: a322d000-47c1-11eb-959d-f54ed8374096
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Andreas
+email: 815f59a0d774fc58a439a7eb3e8e2696
+message: "First of all, thank you for your support so far!\r\n\r\nDuring the partitioning yes indeed it was set to dev/mmcblk1 and now running the install again on the partitions I can see /dev/mmcblk1p1 as efi and mmcblkp2 as ex4 with ubuntu on it.\r\n\r\nDuring start up GRUB screen indeed does not show up and I directly get the error message. I ran the boot-repair on the linx and got the following (if you are familiar with it):\r\n\r\nhttp://paste.ubuntu.com/p/YjYFy9hKsN/\r\n\r\nWeird huh!"
+date: '2020-12-26T21:30:56.153Z'
