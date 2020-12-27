@@ -8,9 +8,10 @@ $('#comment-form-show-preview').change(function() {
  $('#commentpreviewsection').toggle(this.checked);
 });
 
-// Show Captcha and update preview on key up
+// Show Captcha and update preview on key up, so when the user types something in the comment field
 function commentTextFieldOnKeyUp() {
   $('.g-recaptcha').show();
+  $('#commentpreviewtoggle').show();
   $('#commentpreview').html(converter.makeHtml($('#comment-form-message').val()));
 }
 
