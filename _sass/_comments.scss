@@ -78,6 +78,7 @@ textarea#comment-form-message {
   width: 41em;
   height: 10em;
   font-family: monospace;
+  font-size: 0.9em;
 }
 
 input#comment-form-subscribe {
@@ -111,7 +112,7 @@ div.js-modal-text-error {
 @include media-query($on-palm) {
   input#comment-form-name,
   input#comment-form-email {
-    width: 17em;
+    width: 19em;
   }
 
   textarea#comment-form-message {
