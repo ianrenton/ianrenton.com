@@ -55,6 +55,14 @@ The <a href="./atp">All-Terrain Pi</a> is a "off-road" remote control toy fitted
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
+<a href="./radioshack/"><img src="/images/radio.jpg" width="160" alt="Radio Shack" /></a>
+</div>
+<div class="table-col table-col-descrip">
+My <a href="./radioshack/">"Radio Shack"</a> page has a few details of my current radio setup, including the hardware for Plane/Sailing and general Ham Radio equipment.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
 <a href="./flight-tracker"><img src="/hardware/flight-tracker/hw-small.jpg" width="160" alt="Flight Tracker" /></a>
 </div>
 <div class="table-col table-col-descrip">
