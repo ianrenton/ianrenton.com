@@ -1,0 +1,6 @@
+_id: eb20d9b0-4834-11eb-a2e4-390af4b19dc3
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Andreas
+email: 815f59a0d774fc58a439a7eb3e8e2696
+message: "Morning Ian!\r\n\r\nI have transferred your files inside and now on boot I get the grub rescue file /boot/grub/i386-efi/normal.mod not found.\r\n\r\nI have booted the system using the USB drive to look for the normal.mod and I have found it on /boot/grub/x64_86-efi/normal.mod\r\n\r\nSo I tried to tell grub rescue that it is on that folder but it insists of trying to find /i386-efi/normal.mod and not x64_86-efi/normal.mod.\r\n\r\nSo I said okay I will boot into ubuntu with live USB and rename that x64_86-efi folder name to i386-efi so that everything is cool BUT i found out I cannot change file names because i have no priviledges so I opened terminal gained superuser status with sudo -i and navigated to /boot/grub folder in terminal. When i hit ls it shows all the files inside but not the fonts and x86_64-efi folder so i cannot rename it! Hitting ls one step back in /boot shows all the files and the grub folder but not the efi folder. Are they hidden or something?"
+date: '2020-12-27T11:16:09.264Z'
