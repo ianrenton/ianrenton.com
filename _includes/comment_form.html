@@ -22,12 +22,11 @@
 
   <fieldset>
   <div class="textfield">
-      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting." onclick="commentTextFieldOnClick()" onkeyup="commentTextFieldOnKeyUp()"></textarea>
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting." onkeyup="commentTextFieldOnKeyUp()"></textarea>
   </div>
   </fieldset>
 
-  {% comment %} Comment Preview and reCaptcha have display:none at the start, JS in comments.js will show them. {% endcomment %}
-  <fieldset id="commentpreviewtoggle" style="display: none">
+  <fieldset id="commentpreviewtoggle">
     <input type="checkbox" id="comment-form-show-preview"><label for="comment-form-show-preview">Show Markdown formatting preview</label>
   </fieldset>
 
@@ -40,9 +39,9 @@
   </fieldset>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-  <div class="mdl-card__supporting-text js-modal-text"></div>
-
   <fieldset>
     <button class="button" id="comment-form-submit">Submit</button>
   </fieldset>
+
+  <div class="mdl-card__supporting-text js-modal-text"></div>
 </form>
