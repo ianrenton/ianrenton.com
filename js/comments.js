@@ -28,8 +28,9 @@ $('.js-form').submit(function () {
     data: $(this).serialize(),
     contentType: 'application/x-www-form-urlencoded',
     success: function (data) {
-      showModal('Comment submitted', 'Thanks! Your comment is pending. It will appear when approved.');
-      $('.js-modal-text').removeClass('js-modal-text-error');
+      $('#comment-form-submit-result').html('<p>Thanks! Your comment will go live in a couple of minutes.</p>');
+      $('#comment-form-submit-result').attr('class', 'notes');
+      $('#comment-form-submit-result').show();
       $("#comment-form-submit").html("Submit");
       $(form)[0].reset();
       $(form).removeClass('disabled');
@@ -38,8 +39,10 @@ $('.js-form').submit(function () {
     error: function (err) {
       console.log(err);
       var ecode = (err.responseJSON || {}).errorCode || "unknown";
-      showModal('Error', 'An error occured.<br>[' + ecode + ']');
-      $('.js-modal-text').addClass('js-modal-text-error');
+      var error = ecode.replaceAll("-", " ").replaceAll("_", " ").toLowerCase().replace(/(^\s*\w|[\.\!\?]\s*\w)/g,function(c){return c.toUpperCase()});
+      $('#comment-form-submit-result').html('<p>' + error + '. Your comment could not be posted, please fix the problem and try again.</p>');
+      $('#comment-form-submit-result').attr('class', 'warning');
+      $('#comment-form-submit-result').show();
       $("#comment-form-submit").html("Submit");
       $(form).removeClass('disabled');
       grecaptcha.reset();
@@ -47,9 +50,3 @@ $('.js-form').submit(function () {
   });
   return false;
 });
-
-function showModal(title, message) {
-  $('.js-modal-title').text(title);
-  $('.js-modal-text').html(message);
-  $('body').addClass('show-modal');
-}
