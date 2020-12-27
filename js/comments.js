@@ -1,4 +1,20 @@
-// Static comments
+// Showdown markdown preview code
+showdown.setFlavor('github');
+showdown.setOption('smoothLivePreview', 'true');
+var converter = new showdown.Converter();
+
+// Toggle
+$('#comment-form-show-preview').change(function() {
+ $('#commentpreviewsection').toggle(this.checked);
+});
+
+// Show Captcha and update preview on key up
+function commentTextFieldOnKeyUp() {
+  $('.g-recaptcha').show();
+  $('#commentpreview').html(converter.makeHtml($('#comment-form-message').val()));
+}
+
+// Static comments submission code
 // from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
 (function ($) {
   var $comments = $('.js-comments');

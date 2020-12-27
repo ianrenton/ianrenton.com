@@ -22,18 +22,28 @@
 
   <fieldset>
   <div class="textfield">
-      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting." onclick="document.querySelector('.g-recaptcha').style.display = 'block';"></textarea>
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting." onclick="commentTextFieldOnClick()" onkeyup="commentTextFieldOnKeyUp()"></textarea>
   </div>
   </fieldset>
+
+  {% comment %} Comment Preview and reCaptcha have display:none at the start, JS in comments.js will show them. {% endcomment %}
   
   <fieldset>
-    <input type="checkbox" id="comment-form-subscribe" name="options[subscribe]" value="email"><label for="comment-form-subscribe">Send me an email when someone else comments on this post.</label>
+    <input type="checkbox" id="comment-form-show-preview"><label for="comment-form-show-preview">Show Markdown formatting preview</label>
   </fieldset>
+
+  <div id="commentpreviewsection" style="display: none"/>
+    <div id="commentpreview"></div>
+  </div>
 
   <fieldset>
     <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" style="display: none"></div>
   </fieldset>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
+  <fieldset>
+    <input type="checkbox" id="comment-form-subscribe" name="options[subscribe]" value="email"><label for="comment-form-subscribe">Send me an email when someone else comments on this post.</label>
+  </fieldset>
 
   <div class="mdl-card__supporting-text js-modal-text"></div>
 

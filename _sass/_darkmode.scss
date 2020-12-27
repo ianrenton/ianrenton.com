@@ -110,7 +110,7 @@ $brand-color-darkmode: lighten($brand-color, 20%);
     border-right: none;
   }
 
-  textarea, button#comment-form-submit {
+  textarea, button#comment-form-submit, #commentpreview {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
   }

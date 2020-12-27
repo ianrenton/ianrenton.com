@@ -81,12 +81,22 @@ textarea#comment-form-message {
   font-size: 0.9em;
 }
 
-input#comment-form-subscribe {
+#commentpreview {
+  width: 35em;
+  padding: 1em 1em 0.1em 1em;
+}
+
+input#comment-form-subscribe, input#comment-form-show-preview {
   margin-right: 0.5em;
 }
 
-input, textarea, select {
+input, textarea, select, #commentpreview {
   border: 1px solid black;
+}
+
+#commentpreviewsection {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 button#comment-form-submit {
@@ -116,8 +126,12 @@ div.js-modal-text-error {
   }
 
   textarea#comment-form-message {
-    width: 17em;
+    width: 21em;
     height: 5em;
+  }
+
+  #commentpreview {
+    width: 17em;
   }
 
   img.gravatar {
