@@ -36,11 +36,8 @@ div#homepagebanner {
 
   p#personallinks {
     text-align: center;
-    a {
-        &:not(:first-child) {
-            margin-left: 30px;
-        }
-
+    a:not(:first-child) {
+      margin-left: 30px;
     }
   }
 
@@ -53,6 +50,13 @@ div#homepagebanner {
 /* No homepage photo if on mobile */
 @include media-query($on-palm) {
   div#homepagebanner .top img {
+    display: none;
+  }
+}
+
+/* No personal links after 4th if on mobile */
+@include media-query($on-palm) {
+  p#personallinks a:nth-child(1n+5) {
     display: none;
   }
 }
