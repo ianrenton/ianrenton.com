@@ -35,6 +35,7 @@ $('.js-form').submit(function () {
       $(form)[0].reset();
       $(form).removeClass('disabled');
       grecaptcha.reset();
+      setTimeout(function() { $("#comment-form-submit-result").fadeOut();}, 5000);
     },
     error: function (err) {
       console.log(err);
@@ -46,6 +47,7 @@ $('.js-form').submit(function () {
       $("#comment-form-submit").html("Submit");
       $(form).removeClass('disabled');
       grecaptcha.reset();
+      setTimeout(function() { $("#comment-form-submit-result").fadeOut();}, 5000);
     }
   });
   return false;
