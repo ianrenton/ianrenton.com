@@ -1,0 +1,6 @@
+_id: ad29fb90-4916-11eb-a60c-39e00ac4b5b2
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Andreas
+email: 815f59a0d774fc58a439a7eb3e8e2696
+message: "I managed to be able to boot into ubuntu from the flash drie and update grub etc but at the final step sudo update-grub had a problem and now I have to manually load the kernels every time i boot. I ran sudo update-grub and it finishes but I still have to manually enter kernels every time I boot. On further investigation I realised that it updated the grub.cfg file that is on the partition that the ubuntu is installed and not on the efi partition so I need to perform the sudo update-grub and tell it to update the efi folder. That's why I think the problem existed in first place. It was trying to locate /boot/grub on the big .ext4 where ubuntu was installed rather than the specifically efi created partition...\r\nGood news is that everything is up and running, but bad news I have to manually load kernels everytime. I'm sure there has to be a way to solve it."
+date: '2020-12-28T14:12:11.397Z'
