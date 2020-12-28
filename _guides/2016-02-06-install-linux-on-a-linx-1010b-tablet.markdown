@@ -137,7 +137,7 @@ These versions do not install alongside Windows properly or set up GRUB properly
 5.  After copying files and configuring the system, the installer will show an error message because it failed to install GRUB. This is OK — installing GRUB is the last step, so the rest of the install has worked fine.
 6.  Shut down the tablet, leaving the USB stick attached.
 
-{#bootinternalfromusb}Currently, there’s no boot loader that will let you boot your Ubuntu install. What we can do temporarily is use the copy of GRUB on the USB stick, and tweak it to boot the copy of Ubuntu on your internal storage instead of the one it normally boots.
+<p id="bootinternalfromusb">Currently, there’s no boot loader that will let you boot your Ubuntu install. What we can do temporarily is use the copy of GRUB on the USB stick, and tweak it to boot the copy of Ubuntu on your internal storage instead of the one it normally boots.</p>
 
 The easiest way I found to do that is as follows:
 
