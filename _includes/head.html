@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }}{% if page.collection != nil and page.collection != 'posts' %} | {% if page.collection == 'filmreviews' %}Film Reviews (by the Numbers){% else %}{{ page.collection | capitalize }}{% endif %}{% endif %} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% if page.collection != nil and page.collection != 'posts' %} | {% assign thispagecollection = site.collections | where: "label", page.collection | first %}{{ thispagecollection.collectiontitle }}{% endif %} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="icon" type="image/png" href="/favicon.png" />
