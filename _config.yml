@@ -127,6 +127,12 @@ collections:
     collectiontitle: Plane/Sailing
     collectionindex: /hardware/planesailing/
     showprevnext: true
+  radioshack:
+    output: true
+    permalink: /hardware/radioshack/:title/
+    collectiontitle: Radio Shack
+    collectionindex: /hardware/radioshack/
+    showprevnext: false
 
 # jekyll-paginate
 paginate: 10

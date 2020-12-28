@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: page
-slug: index
+slug: radio-shack
 title: Radio Shack
 ---
 
@@ -18,3 +18,7 @@ Outside, the largest antenna at the top is a Diamond X-50 antenna for 2m-70cm, w
 When time and money allows, I'm hoping to extend this equipment with an HF rig for DXing on SSB voice and digital modes such as FT8, and a suitable antenna such as a horizontal dipole down the length of the garden.
 
 <div class="clear"></div>
+
+## More Information
+
+* [Useful Files](/hardware/radioshack/useful-files/) including CHIRP configs
