@@ -41,4 +41,8 @@ body::after {
   footer {
     display: none;
   }
+  body::after {
+    display: none;
+    height: 0;
+  }
 }

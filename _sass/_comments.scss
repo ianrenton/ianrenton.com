@@ -57,7 +57,7 @@ img.gravatar {
 
 /* New Comment section */
 div.commentnew {
-  margin-bottom: $spacing-unit+$header-footer-height;
+  margin-bottom: $spacing-unit * 2;
 }
 
 div.newcommentauthor {
