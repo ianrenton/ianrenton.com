@@ -86,6 +86,14 @@ $brand-color-darkmode: lighten($brand-color, 20%);
     color: $grey-color;
   }
 
+  .post-link {
+    color: $text-color-darkmode;
+
+    &:visited {
+      color: $text-color-darkmode;
+    }
+  }
+
   hr {
       border-top: 1px solid $grey-color-light;
   }
