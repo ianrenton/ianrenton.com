@@ -17,7 +17,7 @@ The good news is, if you just want to use the latest Ubuntu on this tablet, it�
 
 Your first decision is the distribution and version of Linux to install. My personal preference is for Ubuntu Linux and the GNOME desktop environment, as this combination seems to provide the best tablet support at the current time.
 
-As of Ubuntu 20.04.1, the latest when this page was last updated, the following all work:
+With Ubuntu 20.04.1, the following all work:
 
 *   Installation
 *   Dual-booting with Windows 10
@@ -34,12 +34,17 @@ The one big omission seems to be the cameras. Neither front nor back camera work
 
 If you’re happy to use Ubuntu 20.04.1 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
 
+<div class="notes">
+  <p><strong>What about Ubuntu 20.10?</strong></p>
+  <p>As of the time of writing (January 2021), the latest release of Ubuntu is 20.10. However, this version seems to have a regression in terms of its support for Bay Trail tablets in the installer. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation. For this reason <strong>I still recommend installing Ubuntu 20.04.1</strong>. This is a Long Term Support release and should be fine for several years to come, but if you'd like to upgrade to 20.10, you should do that as an in-place upgrade <em>after</em> the install.</p>
+</div>
+
 ## Equipment Required
 
 To get started you will need:
 
 *   Linx 1010B tablet and charger
-*   Ubuntu Linux ISO image (20.04.1 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
+*   Ubuntu Linux ISO image (20.04.1 LTS 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
 *   A USB memory stick with at least 4GB capacity
 *   The Linx 1010B keyboard attachment, or other USB keyboard is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.
 
@@ -86,7 +91,7 @@ Once installation is complete, your tablet will prompt you to reboot. It should 
 
 ## Other Setups {#othersetups}
 
-If you want an Ubuntu version prior to 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
+If you want an Ubuntu version other than 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
 
 ![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
 
@@ -95,6 +100,10 @@ If you want an Ubuntu version prior to 20.04.1, a desktop environment other than
 GNOME seems to be the best set up for tablets at this time, although it can be slow. I have spent some time with XFCE on the tablet which is much faster, but has issues with tapping-to-click in some applications, and screen rotation must be managed manually (example commands below).
 
 If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations.
+
+### Ubuntu 20.10
+
+Ubuntu 20.10 is a more recent release than the recommended version, 20.04.1. However, 20.10 seems to have a regression in terms of its support for Bay Trail tablets in the installer, and it does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation without a lot of hassle. For this reason I don't recommend using it yet. If you'd like to use 20.10, the recommended approach is to do this as an in-place upgrade *after* a normal install of 20.04.1 following the instructions above.
 
 ### Ubuntu 20.04
 
