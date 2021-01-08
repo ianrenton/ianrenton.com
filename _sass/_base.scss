@@ -16,42 +16,23 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table, %vertical
 /* Headings */
 h1 {
     font-size: $massive-font-size;
-
-    @include media-query($on-laptop) {
-        font-size: $big-font-size;
-    }
-
 }
 
 h2 {
     font-size: $huge-font-size;
-
-    @include media-query($on-laptop) {
-        font-size: $big-font-size;
-    }
-
 }
 
 h3 {
     font-size: $big-font-size;
-
-    @include media-query($on-laptop) {
-        font-size: $base-font-size;
-    }
-
 }
 
 h4 {
     font-size: $base-font-size;
-
-    @include media-query($on-laptop) {
-        font-size: $base-font-size;
-    }
-
 }
 
 /* Paragraphs */
 p {
+    font-family: $text-font-family;
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
@@ -104,6 +85,7 @@ figure > img {
 
 figcaption {
     text-align: center;
+    font-family: $text-font-family;
     font-style: italic;
     padding-bottom: 1em;
 }
@@ -115,6 +97,7 @@ figcaption {
 img + em {
     display: block;
     text-align: center;
+    font-family: $text-font-family;
     font-style: italic;
     padding-top: 1em;
 }
@@ -122,6 +105,7 @@ img + em {
 /* Lists */
 ul, ol {
     margin-left: $spacing-unit;
+    font-family: $text-font-family;
 }
 
 li {
@@ -149,6 +133,7 @@ blockquote {
     width: 90%;
     color: $grey-color-dark;
     text-align: center;
+    font-family: $text-font-family;
     font-style: italic;
 }
 

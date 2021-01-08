@@ -26,7 +26,8 @@ $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
 
 /* Fonts */
-$base-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
+$base-font-family: "Lato", "Open Sans", "Nimbus", sans-serif;
+$text-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
 $code-font-family: "Consolas", "Lucida Console", mono, monospace;
 @font-face {
   font-family: 'Lora';
@@ -54,6 +55,22 @@ $code-font-family: "Consolas", "Lucida Console", mono, monospace;
   src: local(''),
        url('lora-v16-latin-italic.woff2') format('woff2'),
        url('lora-v16-latin-italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: local(''),
+       url('Lato-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: local(''),
+       url('Lato-Bold.woff') format('woff');
 }
 
 /* Mixins */

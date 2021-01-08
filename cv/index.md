@@ -7,11 +7,10 @@ comments: false
 
 <style>
 h1 {
-  margin-top: 0;
-  font-size: 36px;
+  margin-bottom: 0;
 }
 td {
-  padding: 10px 5px;
+  padding: 15px 10px;
   min-width: 7.1em;
 }
 .printme {
@@ -52,14 +51,14 @@ table, td {
 <p class="printme">[ <a href="#" onclick="window.print();">Print me!</a> ]</p>
 <div class="contact" style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
 <div style="display:block;"><h1 style="text-decoration: none">Ian&nbsp;Renton</h1>
-<h2 style="position: relative; top: -0.8em; text-decoration: none">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
+<h2 style="margin-top: 0;">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
+
+I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
 
 <div class="notes visualhook clear">
 <a href="https://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" class="left" style="max-width: 300px !important; margin: 1em"></a>
 <p>Fancy trying out an interactive version of my CV? You can pan and zoom around a map to check out where I've worked and what I've worked on over the years. <a href="https://careerexplorer.ianrenton.com/">Click here to try it!</a> You can always head back here for more detail or to print this page out.</p>
 </div>
-
-I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
 
 ## Technical Skills
 
