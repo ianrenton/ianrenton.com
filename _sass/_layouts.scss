@@ -34,7 +34,8 @@
 
 /* Windows */
 .window {
-    margin: 10px;
+    z-index: 2;
+    margin: 0 0 $spacing-unit 0;
     padding: 5px;
     background-color: $grey-color;
     box-shadow:
@@ -50,14 +51,15 @@
     font-size: $tiny-font-size;
     font-weight: bold;
     color: $text-color;
-    background: $tab-bottom-color;
-    background: linear-gradient(0deg, $tab-bottom-color 0%, $tab-top-color 100%);
+    cursor: default;
+    
     border-top: 1px solid darkgrey;
     border-left: 1px solid darkgrey;
     border-right: 1px solid darkgrey;
 
     > img {
-        padding-bottom: 4px;
+        padding-bottom: 5px;
+        margin-right: 3px;
     }
 
     > a {
@@ -66,13 +68,31 @@
     }
 }
 
-.windowtitlemeta {
-    color: darken($grey-color, 20%);
-    background: $grey-color-light;
+.windowtitleactive {
+    background: $tab-bottom-color;
+    background: linear-gradient(0deg, $tab-bottom-color 0%, $tab-top-color 100%);
+    z-index: 3;
+}
+
+.windowtitleinactive {
+    color: $tab-inactive-text-color;
+    background: $tab-inactive-color;
     position: relative;
-    left: -6px;
+    z-index: 1;
+
+    > a {
+        color: darken($tab-inactive-text-color, 20%);
+    }
+}
+
+.windowtitleinactiveleft {
     top: 2px;
-    z-index: -1;
+    left: 3px;
+}
+
+.windowtitleinactiveright {
+    top: 3px;
+    left: -3px;
 }
 
 /* Clear fix */

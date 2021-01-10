@@ -1,7 +1,6 @@
 /* Styles for the generic Jekyll "page" and "post" templates */
 
 .page-content {
-  margin: -1px 0 $spacing-unit 0;
   padding: 1em !important;
   background-color: white !important;
 }
@@ -75,14 +74,19 @@
 
 /* Pagination */
 .pagination {
-  margin-top: $spacing-unit*1.5;
-  margin-bottom: $spacing-unit;
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
   font-weight: bold;
 
   > .pagination-left {
     display: inline-block;
     width: 50%;
     vertical-align: top;
+
+    > div.img {
+      float: left;
+      margin-right: 0.5em;
+    }
 
     @include media-query($on-palm) {
       width: 100%;
@@ -95,6 +99,11 @@
     width: 49%;
     text-align: right;
     vertical-align: top;
+
+    > div.img {
+      float: right;
+      margin-left: 0.5em;
+    }
 
     @include media-query($on-palm) {
       width: 100%;

@@ -22,11 +22,14 @@ $background-color-2: rgb(24,50,76);
 $brand-color:      rgb(52,102,152);
 $grey-color:       lightgrey;
 $grey-color-light: lighten($grey-color, 40%);
+$grey-color-semidark: darken($grey-color, 20%);
 $grey-color-dark:  darken($grey-color, 60%);
 $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
 $tab-bottom-color: #FFCB00;
 $tab-top-color: #FFEEB1;
+$tab-inactive-color: lighten($grey-color, 40%);
+$tab-inactive-text-color: darken($grey-color, 20%);
 
 /* Fonts */
 $base-font-family: "Lato", "Open Sans", "Nimbus", sans-serif;

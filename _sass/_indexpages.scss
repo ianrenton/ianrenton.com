@@ -2,9 +2,11 @@
    Harware and Websites main pages. */
 
 /* Top banner on the homepage */
-div#homepagebanner {
-  margin: $spacing-unit 0 0 0;
+div.homepagetopmargin {
+  margin-top: $spacing-unit;
+}
 
+div#homepagebanner {
   /* The inner "top" section contains the photo, name and tagline */
   .top {
     margin-bottom: 1.5em;
@@ -34,31 +36,14 @@ div#homepagebanner {
 
   }
 
-  p#personallinks {
+  div#personallinks {
     text-align: center;
-    font-family: $base-font-family;
-    font-weight: bold;
-    a:not(:first-child) {
-      margin-left: 30px;
-    }
   }
-
-  p#someofmyprojects {
-    margin-top: $spacing-unit * 1.5;
-  }
-
 }
 
 /* No homepage photo if on mobile */
 @include media-query($on-palm) {
   div#homepagebanner .top img {
-    display: none;
-  }
-}
-
-/* No personal links after 4th if on mobile */
-@include media-query($on-palm) {
-  p#personallinks a:nth-child(1n+5) {
     display: none;
   }
 }

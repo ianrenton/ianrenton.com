@@ -1,20 +1,5 @@
 /* Styles for the comment section */
 
-/* Section header */
-.commentheader {
-  margin: $spacing-unit*2 0 $spacing-unit 0;
-  position: relative;
-  border-top: 1px solid $grey-color-dark;
-
-  > h1 {
-    margin-bottom: 0;
-    line-height: 56px;
-    letter-spacing: -1px;
-    font-size: $big-font-size;
-  }
-
-}
-
 /* List of existing comments */
 article.comment {
   margin-bottom: $spacing-unit;
@@ -33,7 +18,7 @@ form.commentform {
 }
 
 div.commentauthor {
-  border-bottom: 1px solid $grey-color-dark;
+  border-bottom: 1px solid $text-color;
   margin-bottom: 0.5em;
   font-weight: bold;
 }
@@ -41,10 +26,11 @@ div.commentauthor {
 span.commentdate {
   float: right;
   font-weight: normal;
-  color: $grey-color;
+  font-size: $tiny-font-size;
+  color: $grey-color-semidark;
 
   > a {
-    color: $grey-color;
+    color: $grey-color-semidark;
     text-decoration: none;
   }
 
@@ -55,8 +41,17 @@ img.gravatar {
 }
 
 /* New Comment section */
+
 div.commentnew {
-  margin-bottom: $spacing-unit * 2;
+  margin: $spacing-unit 0;
+}
+
+.commentform {
+  > h1 {
+    letter-spacing: -1px;
+    font-size: $big-font-size;
+  }
+
 }
 
 div.newcommentauthor {

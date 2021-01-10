@@ -1,12 +1,14 @@
 {% if page.comments != false %}
+<div class="windowtitle windowtitleactive">
+    <img src="/icons/comments_16.png"/>Comments
+</div>
+    
+<div class="window">
   {% comment %} Existing comments (if any) {% endcomment %}
   {% assign slug = (page.slug || (page.title | slugify)) %}
   {% if site.data.comments[slug] %}
-    <div class="commentheader">
-      <h1>Comments</h1>
-    </div>
 
-    <div class="commentsexisting">
+    <div class="page-content commentsexisting">
       {% assign comments = site.data.comments[slug] %}
       {% assign comments_by_date = (comments | sort) %}
       {% for comment in comments_by_date %}
@@ -18,11 +20,6 @@
         {% assign message = comment[1].message %}
         {% include comment.html index=index email=email name=name url=url date=date message=message %}
       {% endfor %}
-    </div>
-  {% else %}
-  {% comment %} No existing comments so make the header "add a comment" {% endcomment %}
-    <div class="commentheader">
-      <h1>Add a Comment</h1>
     </div>
   {% endif %}
 
@@ -36,5 +33,5 @@
   <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
   <script src="{{ '/js/comments.js' | relative_url }}"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+</div>
 {% endif %}

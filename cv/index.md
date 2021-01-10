@@ -13,14 +13,6 @@ td {
   padding: 15px 10px;
   min-width: 7.1em;
 }
-.printme {
-  text-align: center;
-  font-family: sans-serif;
-  text-decoration: none;
-}
-.contact {
-  display: none;
-}
 .visualhook {
   margin-bottom: 2em !important;
 }
@@ -48,9 +40,7 @@ table, td {
 }
 </style>
 
-<p class="printme">[ <a href="#" onclick="window.print();">Print me!</a> ]</p>
-<div class="contact" style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
-<div style="display:block;"><h1 style="text-decoration: none">Ian&nbsp;Renton</h1>
+<div style="display:block;"><h1 style="margin-top: 0;">Ian&nbsp;Renton</h1>
 <h2 style="margin-top: 0;">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
 
 I am an experienced developer of unmanned maritime systems for global Naval forces, and my company’s lead engineer for unmanned vehicle command & control and autonomous navigation systems. I work within the company, with other industry players and with international groups to help define the future of unmanned systems at sea. I have experience of the full engineering lifecycle, from the bid phase through to in-country support, and provide technical leadership to our in-house software development team.
