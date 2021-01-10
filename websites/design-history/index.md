@@ -159,3 +159,16 @@ Some nicer coloured accents to distinguish menus and headings.
 I quit "blogging proper" in 2018, leaving the old posts up for all to see. As of 2020, these are still available for interested visitors from search engines, but not linked to from anywhere. Instead, the main page showcases interesting hardware and software projects with alternating left and right images, a look inspired by some of the capabilities of Wordpress' Twenty Twenty theme.
 
 ![](/websites/design-history/2020-10-23.png){: .center}
+
+
+<hr/>
+
+## Concepts
+
+Some unused designs that never went "live" include this BeOS/Haiku inspired design for Jekyll:
+
+<p style="text-align: center">
+<a href="/websites/design-history/beos1.png"><img src="/websites/design-history/beos1.png" width="250"/></a>
+<a href="/websites/design-history/beos2.png"><img src="/websites/design-history/beos2.png" width="250"/></a>
+<a href="/websites/design-history/beos3.png"><img src="/websites/design-history/beos3.png" width="250"/></a>
+</p>
