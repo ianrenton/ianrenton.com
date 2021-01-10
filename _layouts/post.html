@@ -7,12 +7,11 @@ layout: default
 
 <div class="windowtitle">
     {% comment %} If the post is in a collection, display the collection name as a link {% endcomment %}
-    <img src="/icons/file_16.png"/>
     {% if page.collection != 'posts' %}
       {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
-      <a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}</a> &gt; 
+      <a href="{{ thispagecollection.collectionindex }}"><img src="/icons/folder_16.png"/> {{ thispagecollection.collectiontitle }}</a> &nbsp; &raquo; &nbsp; 
     {% endif %}
-    {{ page.title }}
+    <img src="/icons/file_16.png"/> {{ page.title }}
 </div>
 <div class="windowtitle windowtitlemeta">
     {{ page.date | date: "Written on %A %-d %B %Y" }}

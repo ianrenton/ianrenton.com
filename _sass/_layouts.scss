@@ -50,12 +50,11 @@
     font-size: $tiny-font-size;
     font-weight: bold;
     color: $text-color;
-    background: $background-color;
-    background: linear-gradient(0deg, $background-color 0%, lighten($background-color, 40%) 100%);
+    background: $tab-bottom-color;
+    background: linear-gradient(0deg, $tab-bottom-color 0%, $tab-top-color 100%);
     border-top: 1px solid darkgrey;
     border-left: 1px solid darkgrey;
     border-right: 1px solid darkgrey;
-    border-radius: 5px 5px 0 0;
 
     > img {
         padding-bottom: 4px;
