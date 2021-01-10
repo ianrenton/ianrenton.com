@@ -1,61 +1,36 @@
 /* Size, colour, font etc. definitions for use in the other SASS files */
 
 /* Layout */
-$header-footer-height: 56px;
+$header-footer-height: 76px;
 $spacing-unit:     30px;
-$base-line-height: 1.5;
+$base-line-height: 1.4;
 $content-width:    900px;
 $wide-content-width:    1200px;
 
 /* Text sizes */
-$base-font-size:   18px;
+$base-font-size:   16px;
 $massive-font-size:  $base-font-size * 2.5;
 $huge-font-size:  $base-font-size * 2.0;
 $big-font-size:  $base-font-size * 1.5;
 $small-font-size:  $base-font-size * 0.9;
-$tiny-font-size:  $base-font-size * 0.7;
+$tiny-font-size:  $base-font-size * 0.8;
 
 /* Colours */
 $text-color:       #181818;
-$background-color: #FFF7E7;
-$brand-color:      #1A4C89;
-$grey-color:       #666666;
+$background-color: rgb(52,102,152);
+$background-color-2: rgb(24,50,76);
+$brand-color:      rgb(52,102,152);
+$grey-color:       lightgrey;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 60%);
 $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
 
 /* Fonts */
 $base-font-family: "Lato", "Open Sans", "Nimbus", sans-serif;
-$text-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
+$text-font-family: "Lato", "Open Sans", "Nimbus", sans-serif;
 $code-font-family: "Consolas", "Lucida Console", mono, monospace;
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: local(''),
-       url('lora-v16-latin-regular.woff2') format('woff2'),
-       url('lora-v16-latin-regular.woff') format('woff');
-}
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: local(''),
-       url('lora-v16-latin-700.woff2') format('woff2'),
-       url('lora-v16-latin-700.woff') format('woff');
-}
-@font-face {
-  font-family: 'Lora';
-  font-style: italic;
-  font-weight: 400;
-  font-display: fallback;
-  src: local(''),
-       url('lora-v16-latin-italic.woff2') format('woff2'),
-       url('lora-v16-latin-italic.woff') format('woff');
-}
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;

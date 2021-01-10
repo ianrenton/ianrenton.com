@@ -4,7 +4,9 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     color: $text-color;
-    background-color: $background-color;
+    background: $background-color;
+    background: linear-gradient(0deg, $background-color 0%, $background-color-2 100%);
+    background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
 }
 

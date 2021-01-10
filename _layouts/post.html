@@ -5,16 +5,23 @@ layout: default
 {% capture threshold %}{{'2009-10-15 00:00:00 +0000' | date: '%s'}}{% endcapture %}
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 
-<div class="page-content">
-
-  <header class="post-header">
-    {% comment %} If the post is in a collection, display the collection name as a link above post title {% endcomment %}
+<div class="windowtitle">
+    {% comment %} If the post is in a collection, display the collection name as a link {% endcomment %}
+    <img src="/icons/file_16.png"/>
     {% if page.collection != 'posts' %}
       {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
-      <h3><a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}:</a></h3>
+      <a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}</a> &gt; 
     {% endif %}
+    {{ page.title }}
+</div>
+<div class="windowtitle windowtitlemeta">
+    {{ page.date | date: "Written on %A %-d %B %Y" }}
+</div>
+    
+<div class="page-content window">
+
+  <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
   </header>
 
   {% comment %} If collection 'posts' (i.e. a blog post) display a warning {% endcomment %}

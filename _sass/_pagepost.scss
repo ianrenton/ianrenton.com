@@ -1,7 +1,9 @@
 /* Styles for the generic Jekyll "page" and "post" templates */
 
 .page-content {
-  margin: $spacing-unit 0 $spacing-unit+$header-footer-height 0;
+  margin: -1px 0 $spacing-unit 0;
+  padding: 1em !important;
+  background-color: white !important;
 }
 
 .page-heading {
@@ -21,15 +23,6 @@
 
   }
 
-}
-
-.post-meta {
-  font-size: $small-font-size;
-  font-family: $base-font-family;
-  font-weight: bold;
-  color: $grey-color;
-  position: relative;
-  top: -0.5em;
 }
 
 .post-link {
