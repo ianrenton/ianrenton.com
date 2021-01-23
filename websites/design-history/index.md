@@ -165,8 +165,13 @@ I quit "blogging proper" in 2018, leaving the old posts up for all to see. As of
 
 ## Concepts
 
-Some unused designs that never went "live" include this BeOS/Haiku inspired design for Jekyll:
+Some unused designs that never went "live" include these Windows 3.1 and BeOS/Haiku inspired designs for Jekyll:
 
+<p style="text-align: center">
+<a href="/websites/design-history/win31-1.png"><img src="/websites/design-history/win31-1.png" width="250"/></a>
+<a href="/websites/design-history/win31-2.png"><img src="/websites/design-history/win31-2.png" width="250"/></a>
+<a href="/websites/design-history/win31-3.png"><img src="/websites/design-history/win31-3.png" width="250"/></a>
+</p>
 <p style="text-align: center">
 <a href="/websites/design-history/beos1.png"><img src="/websites/design-history/beos1.png" width="250"/></a>
 <a href="/websites/design-history/beos2.png"><img src="/websites/design-history/beos2.png" width="250"/></a>
