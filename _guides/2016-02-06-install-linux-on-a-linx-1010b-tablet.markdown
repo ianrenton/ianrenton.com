@@ -26,7 +26,7 @@ With Ubuntu 20.04.1, the following all work:
 *   Sleep
 *   Screen brightness
 *   Sound
-*   WiFi (although sometimes unreliable?)
+*   WiFi (although sometimes unreliable)
 *   Bluetooth
 *   Battery level
 
@@ -115,9 +115,11 @@ If you prefer Fedora, Dave H in the comments below reports that Fedora 29 with G
 
 ### Chrome OS
 
-Two varieties of Chrome OS exist for installation on generic PCs – [Arnold the Bat](https://arnoldthebat.co.uk/wordpress/chromium-os/) and [Neverware CloudReady](https://www.neverware.com/freedownload). I have had a pretty frustrating experience with Arnold the Bat’s builds, whereas CloudReady works a bit better, and provides a USB installer that "just works" without messing around with EFI files. However, its installer doesn’t support dual boot, so if you want to install it you’ll have to get rid of Windows.
+Two main builds of Chrome/Chromium OS exist for installation on generic PCs – [Arnold the Bat](https://arnoldthebat.co.uk/wordpress/chromium-os/) and [Neverware CloudReady](https://www.neverware.com/freedownload). As of January 2021, Arnold the Bat's arm 64-bit builds do boot (without any 32-bit EFI files required), but they do not recognise the tablet's WiFi adapter, or a USB WiFi adapter that I plugged in for testing. Unfortunately Chromium OS does not have a means to skip this section of the install, so I cannot test it any further.
 
-As of version 83.4.4 (August 2020), it’s usable in "laptop mode", but with the following issues (see [forum thread](https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-)). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.
+CloudReady works a bit better, and provides more drivers for generic PC hardware including the WiFi. However, note that its installer doesn’t support dual boot, so if you want to install it you’ll have to get rid of Windows.
+
+The last version of CloudReady that I tried is 87.3.41 (January 2021), which runs up fine (albeit slowly) in the USB stick environment, but does not successfully install. Prior to that I tried 83.4.4 (August 2020), which I did manage to install successfully. It's usable in "laptop mode", but with the following issues (see [forum thread](https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-)). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.
 
 *   No touchscreen support at all
 *   No orientation detection – screen needs rotating to 90 deg manually if you want to use it in landscape mode
@@ -132,6 +134,12 @@ As of version 83.4.4 (August 2020), it’s usable in "laptop mode", but with the
 The [Android x86](https://www.android-x86.org/) project allows Android to be run and installed on generic Intel hardware such as the Linx 1010B. As of their Oreo/8.1 release, this does work, but it is **very slow**! It’s just about usable for light web browsing but it can take over a minute just to get from the lock screen to the launcher. On that basis, it’s not recommended.
 
 If you want to try, you’ll need the same 32-bit EFI trick as with the standard Ubuntu instructions to get the USB stick to boot. It installs fine though and you can dual-boot with Windows. Sleep/suspend and cameras don’t work.
+
+### Windows 10
+
+As well as Linux-based operating systems, I have done several reinstalls of Windows 10 over my time playing with this tablet. While you would think Windows would provide the best experience on the tablet, as of January 2021 and Windows 10 20H2, there are several problems. Principally, the touchscreen, audio and cameras do not appear to work, despite scouring the web for suitable drivers.
+
+Since LINX have dropped support for this tablet, I don't imagine any fixes will be forthcoming. Therefore if you are intending to install an operating system from scratch, I would say that at this point Linux offers a better experience than Windows.
 
 ### Ubuntu versions earlier than 18.04
 
