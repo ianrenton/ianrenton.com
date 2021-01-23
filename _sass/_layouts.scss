@@ -34,65 +34,112 @@
 
 /* Windows */
 .window {
-    z-index: 2;
-    margin: 0 0 $spacing-unit 0;
-    padding: 5px;
-    background-color: $grey-color;
+    margin-bottom: $spacing-unit;
+    padding: 4px;
+    background-color: white;
     box-shadow:
-        inset 0 0 0 1px darkgrey,
-        inset 0 0 0 3px $grey-color,
-        inset 0 0 0 4px white,
-        inset 0 0 0 5px darkgrey;
+        inset 0 0 0 1px black,
+        inset 0 0 0 3px lightgrey,
+        inset 0 0 0 4px black;
+}
+
+.windowheader {
+    background-color: lightgrey;
+    color: black;
+    border-bottom: 1px solid black;
+    font-family: $ui-font-family;
+    font-size: 14px;
+    height: 20px; 
+}
+
+.selectedwindow .windowheader {
+    background-color: darkblue;
+    color: white;
 }
 
 .windowtitle {
-    display: inline-block;
-    padding: 5px 10px 4px 10px;
-    font-size: $tiny-font-size;
-    font-weight: bold;
-    color: $text-color;
+    padding: 2px;
+    line-height: 16px;
+    text-align: center;
     cursor: default;
-    
-    border-top: 1px solid darkgrey;
-    border-left: 1px solid darkgrey;
-    border-right: 1px solid darkgrey;
-
-    > img {
-        padding-bottom: 5px;
-        margin-right: 3px;
-    }
 
     > a {
+        color: white;
         text-decoration: none;
-        color: $text-color;
     }
 }
 
-.windowtitleactive {
-    background: $tab-bottom-color;
-    background: linear-gradient(0deg, $tab-bottom-color 0%, $tab-top-color 100%);
-    z-index: 3;
+.windowclose {
+    float: left;
+    display: inline-block;
+    width: 15px;
+    height: 19px;
+    line-height: 18px;
+    padding: 0 0 1px 5px;
+    background-color: lightgrey;
+    border-right: 1px solid black;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 1px 1px darkgrey;
+    cursor: default;
 }
 
-.windowtitleinactive {
-    color: $tab-inactive-text-color;
-    background: $tab-inactive-color;
-    position: relative;
-    z-index: 1;
-
-    > a {
-        color: darken($tab-inactive-text-color, 20%);
-    }
+.windowmenubar {
+    background-color: white;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    height: 12px;
+    padding: 4px;
+    line-height: 16px;
+    cursor: default;
 }
 
-.windowtitleinactiveleft {
-    top: 2px;
-    left: 3px;
+.windowclose::before {
+    content: '-';
 }
 
-.windowtitleinactiveright {
-    top: 3px;
-    left: -3px;
+.ui-icon-gripsmall-diagonal-se {
+    background-image: none !important;
+}
+
+/* Window contents */
+.windowinner {
+    height: calc(100% - 21px);
+    width: 100%;
+    overflow: hidden;
+}
+.windowmenubar + .windowinner {
+    height: calc(100% - 42px) !important;
+}
+
+.fullwindowhtml {
+    padding: 0px 8px;
+}
+
+.paddedwindowhtml {
+    padding: 16px 16px;
+}
+
+/* Icons */
+.icon {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-family: $ui-font-family;
+}
+
+.icon p {
+    display: block;
+    margin: 5px auto 0 auto;
+    padding: 2px;
+}
+
+.icon p.highlight {
+    background-color: darkblue;
+    color: white;
 }
 
 /* Clear fix */

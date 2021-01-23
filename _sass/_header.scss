@@ -44,58 +44,11 @@ a.icon:hover p span.iconname, a.icon:active p span.iconname {
     color: white;
 }
 
-/* Navigation menu. Normally just a list of 4 links but becomes a drop-
-   down menu on mobile. */
 .site-nav {
-    float: right;
+    margin: 0 auto;
+    text-align: center;
 
-    .menu-icon {
-        display: none;
+    a.icon {
+        margin-left: 10px;
     }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-        text-decoration: none;
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 34px;
-        right: 40px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            line-height: 0.8em;
-            font-size: 250%;
-            text-align: center;
-            color: $text-color;
-            text-decoration: none;
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-            position: relative;
-            top: 11px;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-
-    }
-
 }

@@ -8,7 +8,7 @@ $content-width:    900px;
 $wide-content-width:    1200px;
 
 /* Text sizes */
-$base-font-size:   16px;
+$base-font-size:   14px;
 $massive-font-size:  $base-font-size * 2.5;
 $huge-font-size:  $base-font-size * 2.0;
 $big-font-size:  $base-font-size * 1.5;
@@ -16,41 +16,31 @@ $small-font-size:  $base-font-size * 0.9;
 $tiny-font-size:  $base-font-size * 0.8;
 
 /* Colours */
-$text-color:       #181818;
-$background-color: rgb(52,102,152);
-$background-color-2: rgb(24,50,76);
-$brand-color:      rgb(52,102,152);
+$text-color:       black;
+$background-color: #00ADAC;
+$brand-color:      darkblue;
 $grey-color:       lightgrey;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-semidark: darken($grey-color, 20%);
 $grey-color-dark:  darken($grey-color, 60%);
 $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
-$tab-bottom-color: #FFCB00;
-$tab-top-color: #FFEEB1;
-$tab-inactive-color: lighten($grey-color, 40%);
-$tab-inactive-text-color: darken($grey-color, 20%);
 
 /* Fonts */
-$base-font-family: "Lato", "Open Sans", "Nimbus", sans-serif;
-$text-font-family: "Lato", "Open Sans", "Nimbus", sans-serif;
-$code-font-family: "Consolas", "Lucida Console", mono, monospace;
+$base-font-family: "Arial", sans-serif;
+$text-font-family: "Arial", sans-serif;
+$ui-font-family: "WinThreeOne", "Arial", sans-serif;
+$code-font-family: "DOS", monospace;
 
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: local(''),
-       url('Lato-Regular.woff') format('woff');
+    font-family: 'WinThreeOne';
+    src: url('w95fa.woff2') format('woff2'),
+         url('w95fa.woff') format('woff');
 }
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: local(''),
-       url('Lato-Bold.woff') format('woff');
+    font-family: 'DOS';
+    src: url('LessPerfectDOSVGA.woff2') format('woff2'),
+         url('LessPerfectDOSVGA.woff') format('woff');
 }
 
 /* Mixins */

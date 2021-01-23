@@ -2,19 +2,18 @@
 layout: default
 ---
 
-<div class="windowtitle windowtitleactive">
-    <img src="/icons/file_16.png"/> {{ page.title }}
-</div>
-<div class="page-content window">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+<div class="window selectedwindow" id="homepagebanner">
+  <div class="windowheader">
+    <div class="windowclose"></div>
+    <div class="windowtitle">{{ page.title }}</div>
+  </div>
+  <div class="windowinner">
+    <div class="paddedwindowhtml">
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+  </div>
 </div>
 
 {% include comments.html %}

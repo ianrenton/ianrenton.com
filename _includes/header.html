@@ -1,43 +1,46 @@
 <header class="window site-header {{ layout.headerclass }}">
-
-  <div class="site-title">
-    <h1>{{ site.title }}</h1>
-    <h2>{{ site.tagline }}</h2>
-  </div>
-
-  <nav class="site-nav">
-    <a href="#" class="menu-icon">&equiv;</a>
-
-    <div class="trigger">
-      <a class="icon" href="/">
-        <img src="/icons/home_32.png">
-        <p><span class="iconname">Home</span></p>
-      </a>
-      <a class="icon" href="/hardware/">
-        <img src="/icons/hardware_32.png">
-        <p><span class="iconname">Hardware</span></p>
-      </a>
-      <a class="icon" href="/software/">
-        <img src="/icons/software_32.png">
-        <p><span class="iconname">Software</span></p>
-      </a>
-      <a class="icon" href="/websites/">
-        <img src="/icons/websites_32.png">
-        <p><span class="iconname">Websites</span></p>
-      </a>
-      <a class="icon" href="/cv/">
-        <img src="/icons/cv_32.png">
-        <p><span class="iconname">CV</span></p>
-      </a>
-      <a class="icon" href="mailto:{{ site.email }}">
-        <img src="/icons/mail_32.png">
-        <p><span class="iconname">E-mail</span></p>
-      </a>
-      <a class="icon" href="/filmreviews/">
-        <img src="/icons/frbtn_32.png">
-        <p><span class="iconname">FRbtN</span></p>
-      </a>
+    <div class="windowheader">
+      <div class="windowclose"></div>
+      <div class="windowtitle">{{ site.title }} - {{ site.tagline }}</div>
     </div>
-  </nav>
-
+    <div class="windowinner">
+      <nav class="site-nav">
+        <a class="icon" href="/">
+          <img src="/icons/home_32.png">
+          <p><span class="iconname">Home</span></p>
+        </a>
+        <a class="icon" href="/hardware/">
+          <img src="/icons/hardware_32.png">
+          <p><span class="iconname">Hardware</span></p>
+        </a>
+        <a class="icon" href="/software/">
+          <img src="/icons/software_32.png">
+          <p><span class="iconname">Software</span></p>
+        </a>
+        <a class="icon" href="/websites/">
+          <img src="/icons/websites_32.png">
+          <p><span class="iconname">Websites</span></p>
+        </a>
+        <a class="icon" href="/filmreviews/">
+          <img src="/icons/frbtn_32.png">
+          <p><span class="iconname">FRbtN</span></p>
+        </a>
+        <a class="icon" href="/cv/">
+          <img src="/icons/cv_32.png">
+          <p><span class="iconname">CV</span></p>
+        </a>
+        <a class="icon" href="mailto:{{ site.email }}">
+          <img src="/icons/mail_32.png">
+          <p><span class="iconname">E-mail</span></p>
+        </a>
+        <a class="icon" href="https://twitter.com/i_renton">
+          <img src="/icons/twitter_32.png">
+          <p><span class="iconname">Twitter</span></p>
+        </a>
+        <a class="icon" href="https://github.com/ianrenton">
+          <img src="/icons/github_32.png">
+          <p><span class="iconname">GitHub</span></p>
+        </a>
+      </nav>
+  </div>
 </header>

@@ -4,9 +4,7 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     color: $text-color;
-    background: $background-color;
-    background: linear-gradient(0deg, $background-color 0%, $background-color-2 100%);
-    background-attachment: fixed;
+    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -51,23 +49,16 @@ img {
 img.left {
     float: left;
     margin-right: 2em;
-    box-shadow: 0px 0px 15px black;
 }
 
 img.right {
     float: right;
     margin-left: 2em;
-    box-shadow: 0px 0px 15px black;
 }
 
 img.center {
     margin: 0 auto;
     display: block;
-    box-shadow: 0px 0px 15px black;
-}
-
-img.noshadow {
-    box-shadow: none !important;
 }
 
 /* No left/right floating images on mobile */
@@ -117,17 +108,6 @@ li {
 
 }
 
-/* Links */
-a {
-    color: $brand-color;
-    text-decoration: underline;
-
-    &:visited {
-        color: $brand-color;
-    }
-
-}
-
 /* Blockquotes */
 blockquote {
     margin-left: auto;
@@ -151,7 +131,7 @@ div.highlight {
 }
 
 pre, code {
-    font-size: 15px;
+    font-size: 16px;
     background-color: $code-background-color;
     font-family: $code-font-family;
     color: $code-text-color;
