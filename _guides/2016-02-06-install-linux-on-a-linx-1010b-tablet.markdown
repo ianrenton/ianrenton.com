@@ -30,7 +30,7 @@ With Ubuntu 20.04.1, the following all work:
 *   Bluetooth
 *   Battery level
 
-The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.1, or any OS apart from Windows.
+The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.1, or any OS apart from older versions of Windows.
 
 If you’re happy to use Ubuntu 20.04.1 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
 
@@ -72,7 +72,7 @@ In Ubuntu 18.04 or later, this is now very easy as the installer understands abo
 If you’re choosing to dual-boot, choose "Install Ubuntu alongside existing operating system" when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage.
 
 <div class="warning">
-  <p><strong>Important:</strong> The only slight wrinkle is that you should <strong>not</strong> select to encrypt the disk when prompted on the formatting/partitioning screen. That’s not because of any boot problems in this configuration, but merely because there is no on-screen keyboard support on the disk unlock screen! If you set this option, you will require a keyboard every time you power on.</p>
+  <p><strong>Important:</strong> If you select advanced partitioning options, I would recommend you <strong>don't</strong> select to encrypt the disk. That’s not because of any boot problems in this configuration, but simply because there is no on-screen keyboard support on the disk unlock screen! If you set this option, you will require a keyboard every time you power on.</p>
 </div>
 
 Once installation is complete, your tablet will prompt you to reboot. It should now start up automatically into the new Ubuntu installation.
@@ -80,8 +80,9 @@ Once installation is complete, your tablet will prompt you to reboot. It should 
 ## Post-Install Usage Notes
 
 *   If you're encountering choppy scrolling, particularly noticeable in web browsers, it may be resolved by switching to Wayland as your graphics server. ([See this bug report](https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1883534).) To do that, log out, select your name on the login screen, and before entering your password click the "cogs" icon at the bottom right. Choose "Ubuntu on Wayland".
+*   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from Software Centre.
+*   If you'd like to reclaim some screen space, you can set the dock to auto-hide, or remove it entirely, also using GNOME Tweaks. It's provided by the Ubuntu Dock GNOME Shell extension. (If you remove it completely, press "Activities" in the top left to get an application menu.)
 *   It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!
-*   If you use Firefox, you may want to install the [Grab and Drag](https://addons.mozilla.org/en-GB/firefox/addon/grab-and-drag/) add-on which will improve web browsing with a touchscreen. I find Chrome/Chromium has better touch scrolling support.
 
 <div class="notes">
   <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.1 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
@@ -95,11 +96,13 @@ If you want an Ubuntu version other than 20.04.1, a desktop environment other th
 
 ![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
 
-### Other Desktop Environments
+### Other Desktop Environments {#otherdes}
 
-GNOME seems to be the best set up for tablets at this time, although it can be slow. I have spent some time with XFCE on the tablet which is much faster, but has issues with tapping-to-click in some applications, and screen rotation must be managed manually (example commands below).
+GNOME seems to be the best set up for tablets at this time, although it can be slow. If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations, which gives a slight improvement.
 
-If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations.
+I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments that have more of a traditional desktop feel, they are less demanding and therefore faster and more responsive than GNOME. However, they also don't fully cater for tablets in the way that GNOME does. None of the three support automatic rotation of the screen based on the accelerometer, or automatic rotation of touch inputs. That means you'll have to set your screen rotation to landscape manually if you want to use it in that orientation, and if you want to use the touchscreen in landscape orientation, you'll need to rotate it using the command-line scripts [shown here](#screenrotation).
+
+In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
 ### Ubuntu 20.10
 
@@ -108,6 +111,13 @@ Ubuntu 20.10 is a more recent release than the recommended version, 20.04.1. How
 ### Ubuntu 20.04
 
 I have tested Ubuntu 20.04.1 and found it to be working very well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to 20.04.
+
+### Linux Mint 20.1
+
+Mint 20.1 installs almost as well as the recommended Ubuntu 20.04.1, using the 32-bit EFI boot file trick. There are two caveats:
+
+1. While Ubuntu Live USB automatically boots into "Try Ubuntu" after a few seconds, Mint does not. You'll therefore need a physical keyboard (just to press Enter once during first boot!) If that's not possible for you, you can work around it by opening `<usb stick>:\boot\grub\grub.cfg` on the computer you used to make it, and add the line `GRUB_TIMEOUT=5`.
+2. See the note above on [Other Desktop Environments](#otherdes) regarding Cinnamon and MATE.
 
 ### Other Linux Distros
 
@@ -202,7 +212,7 @@ Now follow these steps to get GRUB set up permanently without requiring the USB 
 
 If you’re using a non-standard setup, some of the following sections might provide some useful information and code to fix problems you may have.
 
-### Screen Rotation
+### Screen Rotation {#screenrotation}
 
 If you’re using GNOME, the screen is probably rotating with tablet orientation as you would expect. If not, to rotate it, run the following commands. The first rotates the display to landscape mode, the second is required to rotate the touch input so it matches the screen.
 
