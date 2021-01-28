@@ -33,6 +33,7 @@ $('.js-form').submit(function () {
       $('#comment-form-submit-result').show();
       $("#comment-form-submit").html("Submit");
       $(form)[0].reset();
+      $('#commentpreviewsection').hide();
       $(form).removeClass('disabled');
       grecaptcha.reset();
       setTimeout(function() { $("#comment-form-submit-result").fadeOut();}, 5000);
