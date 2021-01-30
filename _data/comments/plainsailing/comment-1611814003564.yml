@@ -1,0 +1,12 @@
+_id: fe653e90-612e-11eb-bfc0-fb6884cc43fc
+_parent: 'https://ianrenton.com/hardware/planesailing/'
+name: Ian Renton
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: >-
+  Oh, definitely. [N7IPB here for
+  example](https://xastir.org/index.php/HowTo:Display_Aircraft_and_Ships#N7IPB.27s_configuration)
+  has four RTL-SDR dongles attached to a single PC in order to capture more
+  ADS-B and AIS channels simultaneously. Even a modern Raspberry Pi 4 could cope
+  with two at the same time - the only reason I use two separate RPis is because
+  I wanted to use up the old models I had lying around.
+date: '2021-01-28T06:06:43.559Z'
