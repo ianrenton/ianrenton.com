@@ -40,6 +40,7 @@ div#homepagebanner {
 
   p#personallinks {
     text-align: center;
+    font-family: $heading-font-family;
     font-weight: bold;
     a:not(:first-child) {
       margin-left: 30px;

@@ -3,7 +3,7 @@
 /* New defines */
 $text-color-darkmode: $background-color;
 $background-color-darkmode: $text-color;
-$brand-color-darkmode: lighten($brand-color, 20%);
+$brand-color-darkmode: $brand-color; //lighten($brand-color, 20%);
 
 /* Media selector for dark mode */
 @media (prefers-color-scheme:dark) {
@@ -59,7 +59,7 @@ $brand-color-darkmode: lighten($brand-color, 20%);
 
   .site-nav {
     .page-link {
-      color: $text-color-darkmode;
+      //color: $text-color-darkmode;
     }
 
     @include media-query($on-palm) {
@@ -80,10 +80,6 @@ $brand-color-darkmode: lighten($brand-color, 20%);
 
   .site-footer {
     border-top: 1px solid $grey-color-light;
-  }
-
-  span.subtitle {
-    color: $grey-color;
   }
 
   .post-link {

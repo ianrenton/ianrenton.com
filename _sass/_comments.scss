@@ -8,9 +8,7 @@
 
   > h1 {
     margin-bottom: 0;
-    font-weight: 400;
     line-height: 56px;
-    letter-spacing: -1px;
     font-size: $big-font-size;
   }
 
@@ -36,12 +34,15 @@ form.commentform {
 div.commentauthor {
   border-bottom: 1px solid $grey-color-dark;
   margin-bottom: 0.5em;
+  font-family: $heading-font-family;
   font-weight: bold;
 }
 
 span.commentdate {
   float: right;
   font-weight: normal;
+  font-family: $heading-font-family;
+  font-size: $small-font-size;
   color: $grey-color;
 
   > a {
@@ -69,12 +70,14 @@ div.newcommentauthor {
 
 label {
   display: inline-block;
+  font-family: $heading-font-family;
 }
 
 input#comment-form-name,
 input#comment-form-email {
   width: 14em;
   margin-right: 2em;
+  font-family: $heading-font-family;
 }
 
 textarea#comment-form-message {
@@ -91,6 +94,7 @@ textarea#comment-form-message {
 
 input#comment-form-show-preview {
   margin-right: 0.5em;
+  font-family: $heading-font-family;
 }
 
 input, textarea, select, #commentpreview {
@@ -105,6 +109,7 @@ input, textarea, select, #commentpreview {
 button#comment-form-submit {
   margin-top: 5px;
   border: 2px solid black;
+  font-family: $heading-font-family;
 }
 
 div.g-recaptcha {
@@ -113,6 +118,7 @@ div.g-recaptcha {
 
 #comment-form-submit-result {
   margin-top: 1em;
+  font-family: $heading-font-family;
 }
 
 /* Simplification and rearrangement on mobile */

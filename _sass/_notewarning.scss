@@ -1,6 +1,7 @@
 /* Styles for "notes" and "warning" blocks */
 .notes, .warning {
   font-size: 0.9em;
+  font-family: $heading-font-family;
   margin-bottom: 1em;
   padding: 0.1em;
 

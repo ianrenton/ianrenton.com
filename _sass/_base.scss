@@ -16,36 +16,56 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table, %vertical
 /* Headings */
 h1 {
     font-size: $massive-font-size;
+    font-family: $heading-font-family;
 
     @include media-query($on-laptop) {
         font-size: $big-font-size;
+    }
+
+    > a {
+        text-decoration: none;
     }
 
 }
 
 h2 {
     font-size: $huge-font-size;
+    font-family: $heading-font-family;
 
     @include media-query($on-laptop) {
         font-size: $big-font-size;
+    }
+
+    > a {
+        text-decoration: none;
     }
 
 }
 
 h3 {
     font-size: $big-font-size;
+    font-family: $heading-font-family;
 
     @include media-query($on-laptop) {
-        font-size: $base-font-size;
+        font-size: $slightlybig-font-size;
+    }
+
+    > a {
+        text-decoration: none;
     }
 
 }
 
 h4 {
-    font-size: $base-font-size;
+    font-size: $slightlybig-font-size;
+    font-family: $heading-font-family;
 
     @include media-query($on-laptop) {
         font-size: $base-font-size;
+    }
+
+    > a {
+        text-decoration: none;
     }
 
 }

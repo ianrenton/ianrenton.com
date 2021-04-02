@@ -25,9 +25,9 @@
 
 .post-meta {
   font-size: $small-font-size;
+  font-family: $heading-font-family;
   color: $grey-color;
   margin-top: 0.3em;
-  font-style: italic;
 }
 
 .post-link {
@@ -48,7 +48,7 @@
 
   > h3 {
     margin-bottom: 0.2em;
-    font-weight: 300;
+    font-size: $base-font-size;
 
     > a {
       text-decoration: none;
@@ -60,7 +60,6 @@
 
 .post-title {
   font-size: $massive-font-size;
-  letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
@@ -82,12 +81,17 @@
 .pagination {
   margin-top: $spacing-unit*1.5;
   margin-bottom: $spacing-unit;
+  font-family: $heading-font-family;
   font-weight: bold;
 
   > .pagination-left {
     display: inline-block;
     width: 50%;
     vertical-align: top;
+
+    > a {
+      text-decoration: none;
+    }
 
     @include media-query($on-palm) {
       width: 100%;
@@ -101,10 +105,18 @@
     text-align: right;
     vertical-align: top;
 
+    > a {
+      text-decoration: none;
+    }
+
     @include media-query($on-palm) {
       width: 100%;
     }
 
   }
 
+}
+
+.navarrow {
+  font-size: $big-font-size;
 }

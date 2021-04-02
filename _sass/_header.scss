@@ -3,12 +3,13 @@
 .site-header {
     min-height: 56px;
     border-bottom: 1px solid $grey-color-dark;
+    font-family: $heading-font-family;
+    font-weight: bold;
 }
 
 .site-title {
     font-size: $big-font-size;
     line-height: $header-footer-height;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
     text-decoration: none;
@@ -31,7 +32,6 @@
     }
 
     .page-link {
-        color: $text-color;
         line-height: $base-line-height;
         text-decoration: none;
         &:not(:first-child) {

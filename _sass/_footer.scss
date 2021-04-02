@@ -3,6 +3,8 @@
 .site-footer {
   line-height: $header-footer-height;
   border-top: 1px solid $grey-color-dark;
+  font-family: $heading-font-family;
+  font-weight: bold;
   clear: both;
 }
 
@@ -13,9 +15,8 @@ footer {
 }
 
 span.subtitle {
-  padding-left: 1em;
-  font-size: $tiny-font-size;
-  color: $grey-color-dark;
+  padding-left: 0.6em;
+  color: $grey-color;
 }
 
 /* Clamp footer to bottom of page or window */
