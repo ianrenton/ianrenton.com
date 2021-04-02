@@ -27,7 +27,7 @@ $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
 
 /* Fonts */
-$base-font-family: "New York", "tex_gyre_schola", "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$base-font-family: -apple-system, BlinkMacSystemFont, "tex_gyre_heros", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $heading-font-family: -apple-system, BlinkMacSystemFont, "tex_gyre_heros", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $code-font-family: "Consolas", "Lucida Console", mono, monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -45,28 +45,6 @@ $code-font-family: "Consolas", "Lucida Console", mono, monospace, "Apple Color E
     font-style: normal;
     font-display: fallback;
 }
-@font-face {
-    font-family: 'tex_gyre_schola';
-    src: url('texgyreschola-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-@font-face {
-    font-family: 'tex_gyre_schola';
-    src: url('texgyreschola-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: fallback;
-}
-@font-face {
-    font-family: 'tex_gyre_schola';
-    src: url('texgyreschola-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: fallback;
-}
-
 
 /* Mixins */
 @mixin media-query($device) {
