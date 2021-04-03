@@ -1,13 +1,15 @@
 /* Styles for the comment section */
 
+.commentsection {
+  border-top: 1px solid $grey-color-light;
+  background-color: darken($background-color,5%);
+  clear: both;
+}
+
 /* Section header */
 .commentheader {
-  margin: $spacing-unit*2 0 $spacing-unit 0;
-  position: relative;
-  border-top: 1px solid $grey-color-dark;
-
   > h1 {
-    margin-bottom: 0;
+    margin: $spacing-unit*0.5 0 $spacing-unit*0.5 0;
     line-height: 56px;
     font-size: $big-font-size;
   }

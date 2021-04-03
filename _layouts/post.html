@@ -6,6 +6,7 @@ layout: default
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 
 <div class="page-content">
+  <div class="wrapper">
 
   <header class="post-header">
     {% comment %} If the post is in a collection, display the collection name as a link above post title {% endcomment %}
@@ -65,6 +66,7 @@ layout: default
     </div>
   {% endif %}
 
+  </div>
 </div>
 
 {% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "old post" threshold, show comments box {% endcomment %}

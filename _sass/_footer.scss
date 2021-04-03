@@ -2,16 +2,16 @@
 
 .site-footer {
   line-height: $header-footer-height;
-  border-top: 1px solid $grey-color-dark;
+  border-top: 1px solid $grey-color-light;
   font-family: $heading-font-family;
-  font-weight: bold;
+  background-color: darken($background-color,5%);
   clear: both;
 }
 
 footer {
   position: absolute;
-  bottom: 0;  /* Recreate the wrapper's width, since by absolute positioning we're moving the footer outside its control */
-  width: calc(900px - (30px * 2));
+  bottom: 0;
+  width: 100%;
 }
 
 span.subtitle {

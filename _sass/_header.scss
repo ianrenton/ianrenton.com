@@ -2,13 +2,13 @@
 
 .site-header {
     min-height: 56px;
-    border-bottom: 1px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
     font-family: $heading-font-family;
-    font-weight: bold;
+    background-color: darken($background-color, 5%);
 }
 
 .site-title {
-    font-size: $big-font-size;
+    font-size: $slightlybig-font-size;
     line-height: $header-footer-height;
     margin-bottom: 0;
     float: left;
@@ -44,16 +44,13 @@
         position: absolute;
         top: 9px;
         right: 12px;
-        background-color: $background-color;
         text-align: right;
 
         .menu-icon {
             display: block;
             float: right;
-            line-height: 0.8em;
-            font-size: 250%;
+            line-height: 2em;
             text-align: center;
-            color: $text-color;
             text-decoration: none;
         }
 
