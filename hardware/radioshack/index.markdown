@@ -13,7 +13,7 @@ Under the monitor stand from left-to-right are a Nevada PS23SWI power supply, Ya
 
 ![Antenna Setup](/hardware/radioshack/antennas.jpg){: .left}
 
-Outside, the largest antenna at the top is a Diamond X-50 antenna for 2m-70cm, which is split between my SDRs and my transciever. In the middle, between that and the TV antenna, is a Pimoroni 1090MHz antenna for ADS-B.
+Outside, the largest antenna at the top is a Diamond X-50 antenna for 2m-70cm, which is split between my SDRs and my transciever using an MFJ-1708B-SDR splitter that prevents power going into the RTL-SDR when transmitting through the mobile radio. In the middle, between that and the TV antenna, is a Pimoroni 1090MHz antenna for ADS-B.
 
 When time and money allows, I'm hoping to extend this equipment with an HF rig for DXing on SSB voice and digital modes such as FT8, and a suitable antenna such as a horizontal dipole down the length of the garden.
 
