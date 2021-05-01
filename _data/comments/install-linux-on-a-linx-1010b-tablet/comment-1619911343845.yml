@@ -1,0 +1,6 @@
+_id: 155765d0-aad4-11eb-907d-cf256d712a8c
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Niklas
+email: 4100f2e0778e2c896e8b6cf41cc5d56b
+message: "Hello Ian,\r\n\r\nThanks for your answer,\r\n\r\nThe Windows 10 creation tool does create the bootia32.efi file, that I'm trying to run.\r\n\r\nWhen i did the initial installation of Linux I nuked all of the other partitions.\r\n\r\nThe BSOD only says the error that i started earlier, nothing more.\r\n\r\nYesterday i spent some time setting up a fresh win 10 installation on a VM, then cloned the partition onto the device, but it wouldn't boot from the cloned partition. (Did multiple combinations of MBR/GPT - FAT32/NTFS. As i understand it should be FAT32/GPT for the bios to read it correctly. Ofc I also checked the appropriate flags for the partition :)\r\n\r\nEven tried to install win 8 / 8.1, but without any progression.\r\n\r\nOne more thing i can note (don't really know if it will help) is that the BSOD will only be visible for a short period (had to use slow motion camera to even read the msg) if i have any partition on the disk. If the disk is blank the message will stay on screen until force reboot.\r\n\r\nAgain; thank you for taking your time to answer! :)"
+date: '2021-05-01T23:22:23.841Z'
