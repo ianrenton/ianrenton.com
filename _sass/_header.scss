@@ -2,9 +2,8 @@
 
 .site-header {
     min-height: 56px;
-    border-bottom: 1px solid $grey-color-light;
     font-family: $heading-font-family;
-    background-color: darken($background-color, 5%);
+    background-color: $alt-background-color;
 }
 
 .site-title {
@@ -16,7 +15,7 @@
 
     &,
     &:visited {
-        color: $text-color;
+        color: $alt-text-color;
     }
 
 }
@@ -34,6 +33,7 @@
     .page-link {
         line-height: $base-line-height;
         text-decoration: none;
+        color: $alt-text-color;
         &:not(:first-child) {
             margin-left: 20px;
         }
@@ -52,6 +52,7 @@
             line-height: 2em;
             text-align: center;
             text-decoration: none;
+            color: $alt-text-color;
         }
 
         .trigger {

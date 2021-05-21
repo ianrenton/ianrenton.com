@@ -2,9 +2,9 @@
 
 .site-footer {
   line-height: $header-footer-height;
-  border-top: 1px solid $grey-color-light;
   font-family: $heading-font-family;
-  background-color: darken($background-color,5%);
+  background-color: $alt-background-color;
+  color: $alt-text-color;
   clear: both;
 }
 
@@ -16,7 +16,8 @@ footer {
 
 span.subtitle {
   padding-left: 0.6em;
-  color: $grey-color;
+  font-size: $small-font-size;
+  color: $grey-color-light;
 }
 
 /* Clamp footer to bottom of page or window */
