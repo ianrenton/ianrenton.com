@@ -18,7 +18,7 @@ I learned how to use frames, and how to code my HTML from scratch (by copying ot
 
 This is possibly the third version of the "Mad Marmablue Web Portal". It was a static site and had a Javascript-based tree menu on the left, which the Internet Archive has not preserved. Again I learned by ripping off other sites' code.
 
-This version (or variations of it) seemed to jump between a number of free hosting providers over a couple of years, and may have been hosted at `http://marmablue.cjb.net` (probably itself a forwarder), `http://members.dencity.com/marmablue/`, `http://marmablue777.f2s.net`, and `http://members.lycos.co.uk/marmablue7/php/index.php`.
+This version (or variations of it) seemed to jump between a number of free hosting providers over a couple of years, and may have been hosted at `http://marmablue.cjb.net` (probably itself a forwarder), `http://members.dencity.com/marmablue/`, `http://marmablue777.f2s.net`, and `http://members.lycos.co.uk/marmablue7/p`.
 
 ![](/websites/design-history/2001-02-01.png){: .center}
 
@@ -43,7 +43,7 @@ A [blog entry from this month](/blog/papapapayeah/) refers to the launch of "MMW
 
 ### May 2004
 
-I [abandoned the Wiki](/blog/its-official/) around the end of January 2004, apparently because I was the only contributor and I intended friends to contribute more than they did. With my blog on LiveJournal, I made my homepage into a simple index page, and split off a number of smaller sub-sites. Unfortunately the "chat" box on the left hand side was largely filled with spam.
+I [abandoned the Wiki](/blog/its-official/) around the end of January 2004, apparently because I was the only contributor and I hoped friends to contribute more than they did. With my blog on LiveJournal, I made my homepage into a simple index page, and split off a number of smaller sub-sites. Unfortunately the "chat" box on the left hand side was largely filled with spam.
 
 ![](/websites/design-history/2004-05-20.png){: .center}
 
@@ -64,21 +64,21 @@ My blog was hosted on LiveJournal at this point, and looked something like this 
 
 ### March 2005
 
-Back to hosting real content on the Mad Marmablue Web Portal site, now centred around fiction and stories. This used a custom back-end written in PHP that I remember being very proud of at the time.
+Back to hosting real content on my webite, now centred around fiction and stories. The site was renamed from "The Mad Marmablue Web Portal" to "Only Dreaming", and was moved to `onlydreaming.net`. This used a custom back-end written in PHP that I remember being very proud of at the time.
 
 ![](/websites/design-history/2005-03-11.png){: .center}
 
 
 ### July 2010
 
-The site migrated via Drupal to WordPress between 2006 and 2009, and I can't find a lot of screenshots from this progression. The site was renamed from "The Mad Marmablue Web Portal" to "Only Dreaming", and was moved to `onlydreaming.net`. My blog moved over from LiveJournal in around 2009. Here's one of the still largely fiction-oriented WordPress themes.
+The site migrated via Drupal to WordPress between 2006 and 2009, but I can't find a lot of this progression on the Internet Archive. My blog moved over from LiveJournal in around 2009. Here's one of the still largely fiction-oriented WordPress themes.
 
 ![](/websites/design-history/2010-07-31.png){: .center}
 
 
 ### October 2011
 
-And a cleaner, sans-serif version. Use of CSS-minifying plugins has prevented the Internet Archive from capturing the stylesheets for a number of intermediate themes.
+And a cleaner, sans-serif version. Use of CSS-minifying plugins in Wordpress has prevented the Internet Archive from capturing the stylesheets for a number of theme variants from around this time.
 
 ![](/websites/design-history/2011-10-06.png){: .center}
 
@@ -160,6 +160,15 @@ I quit "blogging proper" in 2018, leaving the old posts up for all to see. As of
 
 ![](/websites/design-history/2020-10-23.png){: .center}
 
+
+### March 2021
+
+A brief flirtation with sans-serif, in the form of a somewhat iOS-inspired look, incorporating light and dark modes. Finally updated that photo from 2013 too...
+
+<p style="text-align: center">
+<a href="/websites/design-history/2021-03-01-1.png"><img src="/websites/design-history/2021-03-01-1.png" class="shadow" width="400"/></a>  
+<a href="/websites/design-history/2021-03-01-2.png"><img src="/websites/design-history/2021-03-01-2.png" class="shadow" width="400"/></a>
+</p>
 
 <hr/>
 
