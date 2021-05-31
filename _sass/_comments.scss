@@ -72,14 +72,12 @@ div.newcommentauthor {
 
 label {
   display: inline-block;
-  font-family: $heading-font-family;
 }
 
 input#comment-form-name,
 input#comment-form-email {
   width: 14em;
   margin-right: 2em;
-  font-family: $heading-font-family;
 }
 
 textarea#comment-form-message {
@@ -96,7 +94,6 @@ textarea#comment-form-message {
 
 input#comment-form-show-preview {
   margin-right: 0.5em;
-  font-family: $heading-font-family;
 }
 
 input, textarea, select, #commentpreview {
@@ -120,7 +117,6 @@ div.g-recaptcha {
 
 #comment-form-submit-result {
   margin-top: 1em;
-  font-family: $heading-font-family;
 }
 
 /* Simplification and rearrangement on mobile */
