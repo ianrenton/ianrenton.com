@@ -9,11 +9,6 @@ body {
     overscroll-behaviour-y: none;
 }
 
-/* Overscroll using header/footer colour */
-html {
-    background-color: $alt-background-color;
-}
-
 /* Vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, table, %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
