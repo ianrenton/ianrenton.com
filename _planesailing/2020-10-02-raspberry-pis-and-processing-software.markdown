@@ -51,7 +51,9 @@ User=pi
 WantedBy=multi-user.target
 ```
 
-No change was required to the *lighttpd* config.
+Note that the above parameters are based on AIS Dispatcher v1.2, which comes with the SARCNET image. This is now deprecated with an updated version availble from the [AIS Dispatcher website](https://www.aishub.net/ais-dispatcher), so if you are recreating this project for yourself, either use the deprecated v1.2, or if you'd prefer the updated version, follow their instructions on how to set it up. You may then need to configure AIS Dispatcher's web server to allow cross-origin requests, and tweak port configurations as required.
+
+No change is required to the default *lighttpd* config if you are sticking with v1.2, because we have simply configured AIS Dispatcher to write its file directly to the default web root directory.
 
 ## Common HTTPS Endpoint
 
