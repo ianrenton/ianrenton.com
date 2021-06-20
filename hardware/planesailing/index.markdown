@@ -26,6 +26,10 @@ You may also want to check out this project's predecessor, [my first flight trac
 ## Future Plans
 
 1. [APRS Integration](./aprs-integration)
+2. Address some design weaknesses, principally the following points, by writing my own back-end server.
+    * There is no consistency between data types currently - ADS-B data is fetched using JSON and AIS using KML, all tied into the out-of-the-box functionality of Dump1090 and AIS Dispatcher
+    * It is very dependent on things that may change, e.g. an automatic update of Dump1090 may revert my web server config, and the next version of AIS Dispatcher is known to be removing the KML functionality
+    * The web server reverse proxy setup is ugly.
 
 ## Featured On...
 
