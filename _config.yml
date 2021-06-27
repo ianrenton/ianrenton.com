@@ -6,6 +6,7 @@ description: The website of Ian Renton, a software engineer and builder of robot
 baseurl: ""
 url: "https://ianrenton.com"
 lang: en_GB
+future: true
 
 # SEO plugin
 social:
