@@ -11,6 +11,8 @@ slug: plainsailing
 
 If you’d like to see what I’m currently tracking, check out [https://planesailing.ianrenton.com](https://planesailing.ianrenton.com)!
 
+<div class="notes"><p>Over Summer 2021, I'm going to be upgrading Plane/Sailing to include a server-side component for better long-term tracking, adding APRS input for mobile amateur radio stations, moving the processing to a single modern Raspberry Pi for all three inputs, and conducting a visual overhaul of the web interface. I'm going to update the documentation alongside it, but you may find that for a few days or weeks the pages don't quite line up, or they reflect an older version of the software than what's visible on the web. If so, don't worry, I will catch up soon!</p></div>
+
 ## Build Guide
 
 The links below are to the design & build information in case you are interested or would like to build a similar setup for yourself! All the software is open source, and all the hardware chosen to be as inexpensive as possible.
