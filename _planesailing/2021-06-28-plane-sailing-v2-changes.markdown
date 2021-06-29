@@ -3,7 +3,6 @@ comments: true
 layout: post
 title: 'Plane/Sailing v2 Changes'
 slug: plane-sailing-v2-changes
-date: 2021-06-27 18:32:00
 ---
 
 This page lists the differences between version 1 and version 2 of Plane/Sailing. My intention is to keep the main build guide up-to-date with the latest state of the system, as this will be of most interest to readers, while maintaining pages like this one to explain what's changed for returning visitors.

@@ -19,7 +19,11 @@ The links below are to the design & build information in case you are interested
 
 1. [System Architecture](./system-architecture/)
 2. [Antenna & Receiver Choices](./antenna-and-receiver/)
-3. [Raspberry Pis & Processing Software](./raspberry-pis-and-processing-software/)
+3. [Raspberry Pi Setup](./raspberry-pi/)
+3. [ADS-B Receiver Setup](./adsb-receiver/)
+3. [AIS Receiver Setup](./ais-receiver/)
+3. [APRS Receiver Setup](./aprs-receiver/)
+3. [Plane/Sailing Server Setup](./raspberry-pi/)
 4. [Web Front-End](./web-front-end/)
 5. [Bill of Materials](./bill-of-materials/)
 5. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)

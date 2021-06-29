@@ -7,7 +7,7 @@ date: 2020-10-02 00:00:00
 layout: post
 ---
 
-![Plane Sailing Banner](/hardware/planesailing/banner4.png){: .center}
+<div class="notes"><p>This page still reflects Plane/Sailing version 1. Over Summer 2021, I'm upgrading Plane/Sailing to include a server-side component for better long-term tracking, adding APRS input for mobile amateur radio stations, moving the processing to a single modern Raspberry Pi for all three inputs, and conducting a visual overhaul of the web interface. This page will be updated to match soon!</p></div>
 
 One of my goals for the Plane/Sailing project was to use old hardware that I had lying around as far as possible. Although the entire system could likely have run on a single modern version such as the Raspberry Pi 4, I instead opted to use two of the original Model B units that were spare. Both sit at just over 50% CPU utilisation according to `top`, so it was definitely a good decision to use two rather than trying to only use one of these lower-spec computers.
 

@@ -7,8 +7,6 @@ date: 2020-10-01 00:00:00
 layout: post
 ---
 
-![Plane Sailing Banner](/hardware/planesailing/banner5.png){: .center}
-
 If you've seen [my first flight tracker](/hardware/flight-tracker), you will probably have noticed that it uses a stock RTL-SDR v3 tuner, and the basic extendable dipole antenna that comes in the RTL-SDR kit. In converting that project to become "Plane Sailing", I decided to improve the antenna and receiver hardware for ADS-B tracking. Of course, I had to add a second antenna for the AIS tracking part of the project, since the two technologies use different frequencies and therefore benefit from different antenna lengths.
 
 ![Antenna setup](/hardware/planesailing/antennas-labelled.jpg){: .center}

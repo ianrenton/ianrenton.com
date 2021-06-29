@@ -3,11 +3,7 @@ comments: true
 layout: post
 title: Bill of Materials
 slug: bill-of-materials
-date: 2020-10-02 00:00:02
-layout: post
 ---
-
-![Plane Sailing Banner](/hardware/planesailing/banner2.png){: .center}
 
 The full Bill of Materials for the Plane/Sailing project is as follows. I have updated the costs as of July 2021.
 
