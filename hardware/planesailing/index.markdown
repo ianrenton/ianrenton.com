@@ -5,11 +5,11 @@ title: Plane✈/Sailing⛵
 slug: plainsailing
 ---
 
-![Plane Sailing Banner](/hardware/planesailing/banner.png){: .center}
-
 "Plane/Sailing" is the name given to my home aircraft, ship and mobile amateur radio tracker. It receives ADS-B, AIS and APRS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.
 
 If you’d like to see what I’m currently tracking, check out [https://planesailing.ianrenton.com](https://planesailing.ianrenton.com)!
+
+![Plane Sailing Banner](/hardware/planesailing/banner7.png){: .center}
 
 <div class="notes"><p>Over Summer 2021, I'm upgrading Plane/Sailing to include a server-side component for better long-term tracking, adding APRS input for mobile amateur radio stations, moving the processing to a single modern Raspberry Pi for all three inputs, and conducting a visual overhaul of the web interface. I'm going to update the documentation alongside it, but you may find that for a few days or weeks the pages don't quite line up, or they reflect an older version of the software than what's visible on the web. If so, don't worry, I will catch up soon!</p></div>
 
