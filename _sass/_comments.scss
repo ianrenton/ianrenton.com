@@ -74,10 +74,13 @@ label {
   display: inline-block;
 }
 
-input#comment-form-name,
+input#comment-form-name {
+  width: 14em;
+  margin-right: 1em;
+}
+
 input#comment-form-email {
   width: 14em;
-  margin-right: 2em;
 }
 
 textarea#comment-form-message {

@@ -30,61 +30,36 @@ $code-text-color:  #282828;
 $code-background-color: #fbf1c7;
 
 /* Fonts */
-$base-font-family: "Latin Modern", "Computer Modern", "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
-$heading-font-family: "Prociono", "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
+$base-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
+$heading-font-family: "Lora", "Libre Baskerville", "Charter ITC", "Nimbus Serif", "Droid Serif", "Cambria", Georgia, "Times New Roman", Times, serif;
 $code-font-family: "Consolas", "Lucida Console", mono, monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 @font-face {
-  font-family: 'Latin Modern';
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-  src: url('LM-regular.woff2') format('woff2'),
-    url('LM-regular.woff') format('woff'),
-    url('LM-regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Latin Modern';
-  font-style: italic;
-  font-weight: normal;
-  font-display: swap;
-  src: url('LM-italic.woff2') format('woff2'),
-    url('LM-italic.woff') format('woff'),
-    url('LM-italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Latin Modern';
-  font-style: normal;
-  font-weight: bold;
-  font-display: swap;
-  src: url('LM-bold.woff2') format('woff2'),
-    url('LM-bold.woff') format('woff'),
-    url('LM-bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Latin Modern';
-  font-style: italic;
-  font-weight: bold;
-  font-display: swap;
-  src: url('LM-bold-italic.woff2') format('woff2'),
-    url('LM-bold-italic.woff') format('woff'),
-    url('LM-bold-italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Prociono';
+  font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  src: url('../css/prociono-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  font-display: fallback;
   src: local(''),
-       url('../css/prociono-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../css/prociono-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../css/prociono-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../css/prociono-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../css/prociono-v12-latin-regular.svg#Prociono') format('svg'); /* Legacy iOS */
+       url('lora-v16-latin-regular.woff2') format('woff2'),
+       url('lora-v16-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: local(''),
+       url('lora-v16-latin-700.woff2') format('woff2'),
+       url('lora-v16-latin-700.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: local(''),
+       url('lora-v16-latin-italic.woff2') format('woff2'),
+       url('lora-v16-latin-italic.woff') format('woff');
 }
 
 /* Mixins */

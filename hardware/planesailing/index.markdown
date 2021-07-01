@@ -5,11 +5,13 @@ title: Plane✈/Sailing⛵
 slug: plainsailing
 ---
 
-![Plane Sailing Banner](/hardware/planesailing/banner.png){: .center}
-
-"Plane/Sailing" is the name given to my home aircraft and ship tracker. It receives ADS-B and AIS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.
+"Plane/Sailing" is the name given to my home aircraft, ship and mobile amateur radio tracker. It receives ADS-B, AIS and APRS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.
 
 If you’d like to see what I’m currently tracking, check out [https://planesailing.ianrenton.com](https://planesailing.ianrenton.com)!
+
+![Plane Sailing Banner](/hardware/planesailing/banner7.png){: .center}
+
+<div class="notes"><p>Over Summer 2021, I'm upgrading Plane/Sailing to include a server-side component for better long-term tracking, adding APRS input for mobile amateur radio stations, moving the processing to a single modern Raspberry Pi for all three inputs, and conducting a visual overhaul of the web interface. I'm going to update the documentation alongside it, but you may find that for a few days or weeks the pages don't quite line up, or they reflect an older version of the software than what's visible on the web. If so, don't worry, I will catch up soon!</p></div>
 
 ## Build Guide
 
@@ -17,15 +19,16 @@ The links below are to the design & build information in case you are interested
 
 1. [System Architecture](./system-architecture/)
 2. [Antenna & Receiver Choices](./antenna-and-receiver/)
-3. [Raspberry Pis & Processing Software](./raspberry-pis-and-processing-software/)
+3. [Raspberry Pi Setup](./raspberry-pi/)
+3. [ADS-B Receiver Setup](./adsb-receiver/)
+3. [AIS Receiver Setup](./ais-receiver/)
+3. [APRS Receiver Setup](./aprs-receiver/)
+3. [Plane/Sailing Server Setup](./raspberry-pi/)
 4. [Web Front-End](./web-front-end/)
 5. [Bill of Materials](./bill-of-materials/)
+5. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
 
 You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
-
-## Future Plans
-
-1. [APRS Integration](./aprs-integration)
 
 ## Featured On...
 
