@@ -12,7 +12,7 @@ This page is an index of various bits of software I've written in my spare time.
 <a href="https://github.com/ianrenton/planesailing"><img src="/images/planesailing.png" width="160" alt="Plane Sailing" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<a href="https://github.com/ianrenton/planesailing">Plane/Sailing</a> is a completely unnecessary military situational awareness display for your home; the web front-end to my hardware project of the same name.
+<a href="https://github.com/ianrenton/planesailing">Plane/Sailing</a> is a completely unnecessary military situational awareness display for your home; the web front-end to my hardware project of the same name. The back-end server that provides data to the web interface is <a href="https://github.com/ianrenton/planesailing-server">here</a>.
 </div>
 <div class="clear"></div>
 
@@ -20,7 +20,7 @@ This page is an index of various bits of software I've written in my spare time.
 <a href="https://github.com/ianrenton/umid1090"><img src="/hardware/flight-tracker/sw-small.png" width="160" alt="U.M.I.D. 1090" /></a>
 </div>
 <div class="table-col table-col-descrip">
-<p><a href="https://github.com/ianrenton/umid1090">U.M.I.D. 1090 (Unnecessary Military Interface for Dump1090)</a> is a web-based display for ADS-B flight tracking software Dump1090, using military symoblogy. (I got bored, OK?) It's the predecessor to <em>Plane/Sailing</em>.</p>
+<p><a href="https://github.com/ianrenton/umid1090">U.M.I.D. 1090 (Unnecessary Military Interface for Dump1090)</a> is a web-based display for ADS-B flight tracking software Dump1090, using military symoblogy. It's the predecessor to <em>Plane/Sailing</em>.</p>
 </div>
 <div class="clear"></div>
 
