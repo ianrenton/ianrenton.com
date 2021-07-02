@@ -13,7 +13,7 @@ The SD card came pre-installed with the NOOBS environment, which is great for fi
 
 I began by using [Raspberry Pi OS Imager](https://www.raspberrypi.org/software/) from a separate machine. Once up and running, I chose the right operating system and flashed it to the MicroSD card. Then while the SD card was still in the host machine, I created a file named `ssh` in the first (boot) partition on the card. This is essential to make sure the Pi boots up with SSH enabled, otherwise there would be no way to remotely connect to it!
 
-![Raspberry Pi OS Imager](/hardware/planesailing/rpi-imager.png){: .center .noshadow}
+![Raspberry Pi OS Imager](/hardware/planesailing/rpi-imager.png){: .center}
 *Raspberry Pi OS Imager*
 
 I use a wired connection to improve reliability for this project, so there was no need for WiFi settings. Once powered up and connected to my network router, I used it's config pages to set a fixed IP address for DHCP to assign to the Pi, and then to forward incoming ports 80 & 443 to that device so it can operate as an HTTP and HTTPS server accessible from the web.
