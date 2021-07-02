@@ -23,7 +23,7 @@ The links below are to the design & build information in case you are interested
 3. [ADS-B Receiver Setup](./adsb-receiver/)
 3. [AIS Receiver Setup](./ais-receiver/)
 3. [APRS Receiver Setup](./aprs-receiver/)
-3. [Plane/Sailing Server Setup](./raspberry-pi/)
+3. [Plane/Sailing Server Setup](./plane-sailing-server/)
 4. [Web Front-End](./web-front-end/)
 5. [Bill of Materials](./bill-of-materials/)
 5. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)

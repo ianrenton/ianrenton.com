@@ -5,7 +5,7 @@ title: Web Front-End
 slug: web-front-end
 ---
 
-Having put together the full set of server-side processing software, the finishing touch for the Plane/Sailing project is the web interface by which the data is displayed to the end user.
+Having put together the [antennas, receivers](./antenna-and-receiver/), [Raspberry Pis and processing software](./raspberry-pis-and-processing-software/), the finishing touch for the Plane/Sailing project is the web interface by which the data is displayed to the end user.
 
 Luckily, I had already done most of the hard work in [UMID1090](https://github.com/ianrenton/umid1090), the predecessor to this project:
 
@@ -16,16 +16,13 @@ For Plane/Sailing, I decided to drop some of the more complex options for config
 
 Version 1 provided a more limited set of options and no track table:
 
-![Plane/Sailing v1 Interface](/hardware/planesailing/ui.png){: .center}
-*Plane/Sailing v1 Interface*
+![Plane/Sailing Interface](/hardware/planesailing/ui.png){: .center}
+*Plane/Sailing Interface*
 
 Version 2 re-added UMID1090's track table, and brought across a few extra configuration options.
 
-![Plane/Sailing v2 Interface](/hardware/planesailing/ui2.png){: .center}
-*Plane/Sailing v2 Interface*
+<div class="notes"><p>Version 2 screenshot coming soon.</p></div>
 
 And that's it&mdash;job done! ✈⛵🎉🍺
 
 [Source code is available on Github](https://github.com/ianrenton/planesailing) and is in the public domain.
-
-I host the front-end using GitHub Pages, as it's an easy way to make it available given that the software is already hosted there. If you're replicating this build for yourself, you can of course do the same, or alternatively it could be hosted from the same Raspberry Pi that runs the rest of the software if you prefer.
