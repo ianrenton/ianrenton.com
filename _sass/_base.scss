@@ -179,6 +179,8 @@ pre {
     padding: 8px 12px;
     border-radius: 3px;
     overflow-x: auto;
+    -webkit-scrollbar-color: dark;
+    scrollbar-color: lighten($code-background-color, 40%) $code-background-color;
 }
 
 code {
