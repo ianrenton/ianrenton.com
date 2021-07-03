@@ -13,11 +13,21 @@ The SD card came pre-installed with the NOOBS environment, which is great for fi
 
 I began by using [Raspberry Pi OS Imager](https://www.raspberrypi.org/software/) from a separate machine. Once up and running, I chose the right operating system and flashed it to the MicroSD card. Then while the SD card was still in the host machine, I created a file named `ssh` in the first (boot) partition on the card. This is essential to make sure the Pi boots up with SSH enabled, otherwise there would be no way to remotely connect to it!
 
-![Raspberry Pi OS Imager](/hardware/planesailing/rpi-imager.png){: .center}
+![Raspberry Pi OS Imager](/hardware/planesailing/rpi-imager.png){: .center .noshadow}
 *Raspberry Pi OS Imager*
 
 I use a wired connection to improve reliability for this project, so there was no need for WiFi settings. Once powered up and connected to my network router, I used it's config pages to set a fixed IP address for DHCP to assign to the Pi, and then to forward incoming ports 80 & 443 to that device so it can operate as an HTTP and HTTPS server accessible from the web.
 
 Upon first logging into the Pi via SSH, it nags about a couple of things&mdash;the default password, which can be set using `passwd`, and the country to use for setting the WiFi bands available. I went through `raspi-config` to set that anyway so it would stop complaining, but since this is a wired-only install it's not strictly necessary.
+
+One last thing to do is to ensure the DVB kernel drivers for the RTL chips are blacklisted. This ensures that the devices can be accessed directly via RTL-SDR libraries, rather than the kernel attaching its own drivers to them. To do so, create a new file at `/etc/modprobe.d/rtl-blacklist.conf` with the following contents:
+
+```
+blacklist dvb_usb_rtl28xxu
+blacklist rtl2832
+blacklist rtl2830
+```
+
+Then reboot the Pi.
 
 With the addition of a cheap USB hub, it's time to start attaching RTL-SDR dongles and installing software&mdash;see the [next page](/hardware/planesailing/adsb-receiver/)!

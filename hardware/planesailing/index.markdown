@@ -11,8 +11,6 @@ If you’d like to see what I’m currently tracking, check out [https://planesa
 
 ![Plane Sailing Banner](/hardware/planesailing/banner7.png){: .center}
 
-<div class="notes"><p>Over Summer 2021, I'm upgrading Plane/Sailing to include a server-side component for better long-term tracking, adding APRS input for mobile amateur radio stations, moving the processing to a single modern Raspberry Pi for all three inputs, and conducting a visual overhaul of the web interface. I'm going to update the documentation alongside it, but you may find that for a few days or weeks the pages don't quite line up, or they reflect an older version of the software than what's visible on the web. If so, don't worry, I will catch up soon!</p></div>
-
 ## Build Guide
 
 The links below are to the design & build information in case you are interested or would like to build a similar setup for yourself! All the software is open source, and all the hardware chosen to be as inexpensive as possible.
@@ -30,6 +28,11 @@ The links below are to the design & build information in case you are interested
 
 You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
 
+## Future Plans
+
+* Finish APRS integration
+* A nice project box for all the hardware to sit in
+
 ## Featured On...
 
 * [Hack a Day](https://hackaday.com/2020/10/22/tracking-boats-and-ships-in-real-time-at-the-same-time/)
@@ -46,3 +49,5 @@ You may also want to check out this project's predecessor, [my first flight trac
 ## Similar Projects
 
 * [How To: Display Aircraft and Ships (in Xastir)](https://xastir.org/index.php/HowTo:Display_Aircraft_and_Ships)
+* [SARCNET AIS Receiver](https://www.sarcnet.org/ais-receiver.html)
+* [KB9IQX AIS Receiver](http://kb9iqx.net/rtlsdr/ais/)
