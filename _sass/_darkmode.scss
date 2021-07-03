@@ -1,0 +1,114 @@
+/* Style overrides for dark mode */
+
+/* New defines */
+$text-color-darkmode: #d0d0d0;
+$background-color-darkmode: #282828;
+$link-color-darkmode: lighten($brand-color, 25%);
+$code-background-color-darkmode: #181818;
+
+/* Media selector for dark mode */
+@media (prefers-color-scheme:dark) {
+  body {
+    color: $text-color-darkmode;
+    background-color: $background-color-darkmode;
+  }
+
+  blockquote {
+    color: $grey-color;
+  }
+
+  a {
+    color: $link-color-darkmode;
+
+    &:visited {
+      color: $link-color-darkmode;
+    }
+
+  }
+
+  table {
+    border-top: 2.27px solid $text-color-darkmode;
+    border-bottom: 2.27px solid $text-color-darkmode;
+  }
+
+  /* Borders */
+  table tr > th[scope='col'] {
+    border-bottom: 1.36px solid $text-color-darkmode;
+  }
+  table tr > th[scope='row'] {
+    border-right: 1.36px solid $text-color-darkmode;
+  }
+  table > tbody > tr:first-child > td,
+  table > tbody > tr:first-child > th {
+    border-top: 1.36px solid $text-color-darkmode;
+  }
+  table > tbody > tr:last-child > td,
+  table > tbody > tr:last-child > th {
+    border-bottom: 1.36px solid $text-color-darkmode;
+  }
+
+  .post-link {
+    color: $text-color-darkmode;
+
+    &:visited {
+      color: $text-color-darkmode;
+    }
+  }
+  
+  pre, code {
+    background-color: $code-background-color-darkmode;
+  }
+  .highlight, .highlight .w {
+    background-color: $code-background-color-darkmode !important;
+  }
+
+  .commentsection {
+    border-top: 1px solid $grey-color-dark;
+    background-color: darken($background-color-darkmode,5%);
+  }
+
+  div.commentauthor {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  input, button, textarea, select {
+    color: $text-color-darkmode;
+    background-color: darken($background-color-darkmode, 5%);
+  }
+
+  input {
+    border-bottom: 1px solid $grey-color-light;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  textarea, button#comment-form-submit, #commentpreview {
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+  }
+
+  .notes {
+    background-color: #101030;
+  }
+
+  .warning {
+    background-color: #200000;
+  }
+
+  /* Scrollbar styles for Webkit because Chrome doesn't change its scrollbars to dark for some reason */
+  ::-webkit-scrollbar {
+    background-color: $background-color-darkmode;
+    width: 15px;
+    height: 10px;
+    padding: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $grey-color-dark;
+    border: 2px solid $background-color-darkmode;
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+}
