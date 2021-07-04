@@ -11,19 +11,12 @@ While AIS receiving isn't quite as common a project as ADS-B&mdash;not everyone 
 
 [rtl_ais](https://github.com/dgiardini/rtl-ais) is a simple command-line utility that does the complex job of interfacing with an RTL-SDR dongle and decoding AIS data, providing it on as the standard NMEA-0183 format.
 
-There aren't any public repositories with up-to-date builds of rtl_ais for `armhf` architecture on Raspberry Pi OS/Debian Buster as far as I'm aware, so I chose to build it myself using the instructions in the Github README, with one change to get it to build properly. To install the dependencies and download the source code:
+There aren't any public repositories with up-to-date builds of rtl_ais for `armhf` architecture on Raspberry Pi OS/Debian Buster as far as I'm aware, so I chose to build it myself using the instructions in the Github README. To build and install `rtl_ais`:
 
 ```bash
 sudo apt install librtlsdr-dev libpthread-workqueue-dev libusb-dev
 git clone https://github.com/dgiardini/rtl-ais
 cd rtl-ais
-```
-
-Following the instructions in [this bug report](https://github.com/dgiardini/rtl-ais/issues/30) I then needed to change line 3 of `Makefile` to read `LDFLAGS+=-lpthread -lm -lrtlsdr -L /usr/lib/arm-linux-gnueabihf/`. (I have requested the author make this a permanent change, so if that bug report is closed, this step may no longer be required.)
-
-Then, to build and install `rtl_ais` into `/usr/local/bin`:
-
-```bash
 make
 sudo make install
 ```
