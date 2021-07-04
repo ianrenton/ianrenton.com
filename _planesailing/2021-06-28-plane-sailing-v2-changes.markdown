@@ -35,6 +35,6 @@ These have their own share of disadvantages:
 1. The need for two separate Pis complicates the system architecture and leads to questions of "why would you design it this way?"&mdash;it was convenient to set up but not a good design choice.
 2. The PiAware image ties into FlightAware's system quite tightly, to the extent that you can update the whole system from FlightAware's web interface, and they offer automated updates. If the Pi was just sending data to FlightAware I wouldn't worry so much but since it's doing other tasks too, I don't like the fact that FlightAware can remotely break stuff.
 3. The SARCNET image isn't actively maintained, and while the software it runs is installed and configured relatively simply, I'm more nervous about updates breaking stuff than I would be if I installed the software myself.
-4. The old ARMv7 architecture used by the Pis is difficult to support with modern versions of Java, which the new server software requires.
+4. The old ARMv6 architecture used by the Pis is difficult to support with modern versions of Java, which the new server software requires.
 
 With these problems in mind I also chose this point to upgrade to a single new Raspberry Pi 4, which is more than capable of running all the software together, and starting from a base Raspberry Pi OS install so that I have complete control of the setup.
