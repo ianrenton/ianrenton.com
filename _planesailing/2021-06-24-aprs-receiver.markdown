@@ -136,7 +136,7 @@ The software should now be running in the background. You can keep on monitoring
 
 ### Checking the iGate Functionality
 
-If you set up iGate functionality as shown above, you should see Direwolf output lines like these:
+If you set up iGate functionality as shown above, you should see Direwolf output a line like this:
 
 ```
 [ig] M7BGT>APDW14:!5045.04NR00154.12W&/A=000148Plane/Sailing https://planesailing.ianrenton.com - RPi, RTL-SDR, Direwolf
