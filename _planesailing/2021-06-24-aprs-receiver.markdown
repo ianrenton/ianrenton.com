@@ -97,7 +97,42 @@ TODO
 
 ### Running on Startup
 
-TODO
+To run this combination on startup, I created a file at `/home/pi/direwolf.sh` with the following contents:
+
+```bash
+#!/bin/bash
+rtl_fm -d 1 -M fm -f 144.80M -s 24000 - | direwolf -t 0
+```
+
+Then `/etc/systemd/system/direwolf.service` as follows:
+
+```
+[Unit]
+Description=rtl_fm and direwolf
+After=network.target
+
+[Service]
+ExecStart=/home/pi/direwolf.sh
+WorkingDirectory=/home/pi
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Then the following commands:
+
+```bash
+chmod +x /home/pi/direwolf.sh
+sudo systemctl daemon-reload
+sudo systemctl enable direwolf
+sudo systemctl start direwolf
+```
+
+The software should now be running in the background. You can keep on monitoring it for messages received using `journalctl -u direwolf.service -f`.
 
 ### Checking the iGate Functionality
 
