@@ -1,0 +1,6 @@
+_id: e2f02a90-e0a8-11eb-9714-f5f8bcecb1a7
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Ziad,\r\nI'm not 100% sure as your device is slightly different to mine, but if the OEM Windows install doesn't work properly, you could always try downloading the Windows 10 installer from [Microsoft's page](https://www.microsoft.com/en-gb/software-download/windows10). Make sure to select 32-bit not 64-bit.\r\n\r\nYou may end up having to hunt for drivers though, I'm not sure if the stock Windows 10 install will have all the drivers it needs for a Linx 1020."
+date: '2021-07-09T11:29:13.871Z'
