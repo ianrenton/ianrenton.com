@@ -5,7 +5,7 @@ title: 'ARPS Receiver Setup'
 slug: aprs-receiver
 ---
 
-With the project initially being to extend my older ADS-B aircraft tracker into a combined tracker for AIS-equipped ships as well, the next step was to additionally support tracking of land-based contacts using APRS. The screenshot below shows the level of tracking that should be achievable, but that was on a good day&mdash;APRS reception at my location seems quite intermittent, and the slow rate of packet reception some days means that integration into Plane/Sailing is a slow process.
+With the project initially being to extend my older ADS-B aircraft tracker into a combined tracker for AIS-equipped ships as well, the next step was to additionally support tracking of land-based contacts using APRS. The screenshot below shows the level of tracking that is achievable on a good day, but as you may be able to make out from the map, the majority of contacts there were through Digipeaters MB7UG and F8KGJ&mdash;so if the RF path doesn't allow me to see either of those on any given day, tracking capability is much more limited.
 
 ![APRS data displayed on a PC](/hardware/planesailing/aprs.png){: .center}
 *APRS data on a PC, using SDR#, Direwolf and APRSISCE32*
@@ -72,7 +72,7 @@ MODEM 1200
 KISSPORT 8001
 ```
 
-This asks Direwolf to read mono audio at 24000 samples per second from `stdin` and decode it at 1200 baud; and not to output audio at all. It creates a KISS server on port 8001, where Plane/Sailing Server will look for it, and it changes the default port of the AGW server from 8000, which would conflict with Dump1090, to 8007.
+This asks Direwolf to read mono audio at 24000 samples per second from `stdin` and decode it at 1200 baud; and not to output audio at all. It creates a KISS server on port 8001, where Plane/Sailing Server will look for it.
 
 I also added lines following this template, so that APRS data I receive would be sent to a web server, making it an internet gateway or "iGate". If following this procedure for yourself, replace everything in square brackets&mdash;you'll need an amateur radio callsign, please don't set this up if you don't have one! You'll also need to generate an [APRS-IS passcode](https://apps.magicbug.co.uk/passcode/), enter your station's lat/long and altitude (in metres), and the regional [aprs2.net](https://aprs2.net) server to connect to, in my case "euro".
 
