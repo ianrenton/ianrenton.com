@@ -74,13 +74,13 @@ KISSPORT 8001
 
 This asks Direwolf to read mono audio at 24000 samples per second from `stdin` and decode it at 1200 baud; and not to output audio at all. It creates a KISS server on port 8001, where Plane/Sailing Server will look for it.
 
-I also added lines following this template, so that APRS data I receive would be sent to a web server, making it an internet gateway or "iGate". If following this procedure for yourself, replace everything in square brackets&mdash;you'll need an amateur radio callsign, please don't set this up if you don't have one! You'll also need to generate an [APRS-IS passcode](https://apps.magicbug.co.uk/passcode/), enter your station's lat/long and altitude (in metres), and the regional [aprs2.net](https://aprs2.net) server to connect to, in my case "euro".
+I also added lines following this template, so that APRS data I receive would be sent to a web server, making it an internet gateway or "iGate". If following this procedure for yourself, replace everything in square brackets&mdash;you'll need an amateur radio callsign, please don't set this up if you don't have one! You'll also need to generate an [APRS-IS passcode](https://apps.magicbug.co.uk/passcode/), enter your station's lat/long and altitude (in metres), and the regional [aprs2.net](https://aprs2.net) server to connect to, in my case "euro". You can also customise the timing, and the symbol if you like&mdash;`/-` is the [APRS symbol code](http://www.aprs.org/symbols/symbols-new.txt) for a house.
 
 ```
 MYCALL [call]
 IGLOGIN [call] [passcode]
 IGSERVER [region].aprs2.net
-PBEACON sendto=IG delay=0:30 every=30:00 symbol="igate" overlay=R lat=[lat] long=[lon] alt=[alt] comment="Plane/Sailing https://planesailing.ianrenton.com - RPi, RTL-SDR, Direwolf"
+PBEACON sendto=IG delay=0:30 every=30:00 symbol=/- lat=[lat] long=[lon] alt=[alt] comment="Plane/Sailing https://planesailing.ianrenton.com - RPi, RTL-SDR, Direwolf"
 IGTXLIMIT 6 10
 ```
 
