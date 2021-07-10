@@ -70,7 +70,6 @@ ARATE 24000
 CHANNEL 0
 MODEM 1200
 KISSPORT 8001
-AGWPORT 8007
 ```
 
 This asks Direwolf to read mono audio at 24000 samples per second from `stdin` and decode it at 1200 baud; and not to output audio at all. It creates a KISS server on port 8001, where Plane/Sailing Server will look for it, and it changes the default port of the AGW server from 8000, which would conflict with Dump1090, to 8007.
@@ -93,7 +92,9 @@ rtl_fm -d 1 -M fm -f 144.80M -s 24000 - | direwolf -t 0
 
 ### Checking the Received Messages
 
-TODO
+Direwolf's command-line output is very useful in that it decodes the messages into a human-readable format, so when you run the command above, you should after a while see some information being printed out. (If you don't, check to see if there's any actual APRS activity in your area! It may just be quiet at the moment where you live. Check [aprs.fi](https://aprs.fi), and use your RTL-SDR with software like SDR# to monitor the frequency.)
+
+Direwolf supports two TCP-based protocols for connecting other software, KISS and AGW. Plane/Sailing Server will use KISS, by default on port 8001 as we set up in the config above. You can make sure some data is coming out of that port using netcat, e.g. `nc 127.0.0.1 8001`, and every time Direwolf prints some information about an incoming message, some data should appear in netcat. However, it will be binary data so impossible to read by eye. That's OK&mdash;it's working as intended!
 
 ### Running on Startup
 
@@ -136,7 +137,7 @@ The software should now be running in the background. You can keep on monitoring
 
 ### Checking the iGate Functionality
 
-If you set up iGate functionality as shown above, you should see Direwolf output a line like this:
+If you set up iGate functionality as shown above, you should see Direwolf output a line like this at the interval you specified (in my example it's every 30 minutes):
 
 ```
 [ig] M7BGT>APDW14:!5045.04NR00154.12W&/A=000148Plane/Sailing https://planesailing.ianrenton.com - RPi, RTL-SDR, Direwolf

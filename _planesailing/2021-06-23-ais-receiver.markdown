@@ -89,7 +89,11 @@ chmod 755 install_dispatcher
 sudo ./install_dispatcher
 ```
 
-You can now access port 8080 on the Pi using a web browser, log in as `admin`/`admin`, and set it up. On the configuration page, set the input to be a UDP Server on port 10110.
+You can now access port 8080 on the Pi using a web browser and log in as `admin`/`admin`.
+
+(If you see an aircraft map at this point, you didn't disable Lighttpd in the instructions on the previous page! You'll need to do that before running AIS Dispatcher, or else deconflict the ports manually.)
+
+Now we can set up AIS Dispatcher. On the configuration page, set the input to be a UDP Server on port 10110.
 
 For Outputs it comes preconfigured with the appropriate host and port to submit data to  AISHub anonymously, but you may also want to [sign up for an AIShub account](http://www.aishub.net/join-us) and get a unique port to send to. The same applies to [Marine Traffic](https://www.marinetraffic.com/en/users/register/1/12); registration gets you a unique port to send data to, and other account benefits. There are also anonymous ports you can send data to for [Vessel Finder](https://stations.vesselfinder.com/become-partner), [Pocket Mariner](http://pocketmariner.com/ais-ship-tracking/cover-your-area/) and [Ship Finder](https://shipfinder.co/about/coverage/).
 
