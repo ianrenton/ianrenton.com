@@ -24,18 +24,18 @@ sudo apt install dump1090-fa
 
 This will automatically run now and on subsequent restarts, so it should be up and running already! You can use a web browser to visit the SkyAware web interface using the Pi's IP address and port 8080.
 
-### Checking SBS Data
+### Checking Mode S Data
 
-Plane/Sailing Server by default connects to Dump1090 on port 30003 to receive SBS data. By installing and running ncat, you can check this data is available:
+Plane/Sailing Server by default connects to Dump1090 on port 30002 to receive ADS-B Mode S data in hexadecimal encoding. By installing and running ncat, you can check this data is available:
 
 ```bash
 sudo apt install ncat
-ncat 127.0.0.1 30003
+ncat 127.0.0.1 30002
 ```
 
 Your output should look like this:
 
-![Terminal showing SBS data](/hardware/planesailing/sbs.png){: .center .noshadow}
+![Terminal showing ADS-B Mode S data encoded as hexadecimal](/hardware/planesailing/adsb.png){: .center .noshadow}
 
 ### Sharing your Data
 
