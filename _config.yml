@@ -24,6 +24,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
+auto_ids: true
 sass:
   style: compressed
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from, jekyll-seo-tag]

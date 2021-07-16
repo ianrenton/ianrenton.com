@@ -23,7 +23,7 @@ Naturally, [just like last time](../ais-receiver/), Linux decided that the dongl
 
 (The `rtl_test` command used above and `rtl_eeprom` used below are part of the `rtl_sdr` package, which you can install using `apt` in the normal way. Oddly it's not actually a dependency of anything used so far in the build guide!)
 
-I decided at this point that I had enough of not really knowing which device was which, so I used the `rtl_eeprom` package to set the serial numbers of the devices to something actually useful. To allow the program access to the devices, the services that use them must first be stopped.
+I decided at this point that I had enough of not really knowing which device was which, so I used the `rtl_eeprom` package to set the serial numbers of the devices to something actually useful. (Note that this step is entirely optional, but it does help to detect any re-ordering of devices on startup.) To allow the program access to the devices, the services that use them must first be stopped.
 
 ```bash
 sudo systemctl stop dump1090-fa

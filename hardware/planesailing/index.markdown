@@ -18,13 +18,14 @@ The links below are to the design & build information in case you are interested
 1. [System Architecture](./system-architecture/)
 2. [Antenna & Receiver Choices](./antenna-and-receiver/)
 3. [Raspberry Pi Setup](./raspberry-pi/)
-3. [ADS-B Receiver Setup](./adsb-receiver/)
-3. [AIS Receiver Setup](./ais-receiver/)
-3. [APRS Receiver Setup](./aprs-receiver/)
-3. [Plane/Sailing Server Setup](./plane-sailing-server/)
-4. [Web Front-End](./web-front-end/)
-5. [Bill of Materials](./bill-of-materials/)
-5. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
+4. [ADS-B Receiver Setup](./adsb-receiver/)
+5. [AIS Receiver Setup](./ais-receiver/)
+6. [APRS Receiver Setup](./aprs-receiver/)
+7. [Plane/Sailing Server Setup](./plane-sailing-server/)
+8. [Web Front-End](./web-front-end/)
+9. [Bill of Materials](./bill-of-materials/)
+10. [The Tracking Packet Format FAQ](./tracking-packet-format-faq)
+11. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
 
 You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
 
