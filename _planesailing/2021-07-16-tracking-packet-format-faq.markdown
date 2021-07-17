@@ -20,9 +20,9 @@ Throughout the course of creating Plane/Sailing, I have learned a lot about the 
 
 In the beginning (1950), there was radar. A typical air traffic control radar spins around, emitting radio-frequency waves. These bounce off a target and return to the radar installation. The known angle of the dish, combined with the measured time for the pulse to get back from the plane, gives a range and bearing to the aircraft. This is great for tracking aircraft in a horizontal plane, but rubbish at determining their altitude, and it has no way of identifying any particular plane.
 
-As the skies got busier, the "secondary radar" concept was developed to help solve this problem. Along with the "primary" radar that simply bounces radio-frequency waves off a target, secondary radar triggers a transponder within the aircraft, which responds with not just a pulse but with data *encoded* in the pulse. The secondary radar installation emits a signal at 1030 MHz, and the transponders reply at 1090 MHz, with messages such as "Mode A", which encodes a squawk code identifier for the aircraft, and "Mode C", that encodes the altitude. Great! Air traffic controllers could now see altitude and identify individual planes.
+As the skies got busier, the "secondary radar" concept was developed to help solve this problem. Along with the "primary" radar that simply bounces radio-frequency waves off a target, secondary radar triggers a transponder within the aircraft, which responds with not just a pulse but with [data *encoded* in the pulse](https://en.wikipedia.org/wiki/Aviation_transponder_interrogation_modes). The secondary radar installation emits a signal at 1030 MHz, and the transponders reply at 1090 MHz, with messages such as "Mode A", which encodes a squawk code identifier for the aircraft, and "Mode C", that encodes the altitude. Great! Air traffic controllers could now see altitude and identify individual planes.
 
-The skies got busier again. With so many aircraft in the air, a new method was required where the radar installation could selectively (hence "S") query certain aircraft, rather than sending out a signal and have every aircraft reply at virtually the same time. Alongside this new capability, Mode S was designed to carry much more data (up to 112 whole bits!) for future capabilities.
+The skies got busier again. With so many aircraft in the air, a new method was required where the radar installation could selectively (hence "S") query certain aircraft, rather than sending out a signal and have every aircraft reply at virtually the same time. Alongside this new capability, [Mode S](https://www.skybrary.aero/index.php/Mode_S) was designed to carry much more data (up to 112 whole bits!) for future capabilities.
 
 Every aircraft in UK & EU airspace has a Mode S transponder, and it's the Mode S replies (that is, what the aircraft are sending back to the radar installation) that we receive and decode. So the aircraft aren't really talking *to* us, but we can hear what they are sending out.
 
@@ -46,9 +46,13 @@ There's a good table [here](https://www.radartutorial.eu/13.ssr/sr24.en.html).
 
 ### What's ADS-B?
 
-ADS-B is one of the main uses of those extended squitter Mode S messages. It takes the Mode S transponder system to the next level, allowing aircraft to transmit many types of data in their response, including latitude & longitude, heading, speed, the status of their autopilot, and much more. Since the introduction of ADS-B on most aircraft, it has been easy for hobbyists to buy a simple software defined radio and antenna, tune to 1090 MHz, and start decoding the position of aircraft&mdash;tracking. It's this data on which Plane/Sailing largely depends.
+[ADS-B](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) is one of the main uses of those extended squitter Mode S messages. It takes the Mode S transponder system to the next level, allowing aircraft to transmit many types of data in their response, including latitude & longitude, heading, speed, the status of their autopilot, and much more.
 
-With so many aircraft in the air, easy line-of-sight, lots of data being transmitted *and* cheap hardware required to receive it, tracking planes has become a popular hobby for nerds.
+It's this data on which Plane/Sailing largely depends.
+
+ADS-B contains its own subset of messages, and with the restriction to 112 bits per message, each one contains only a small amount of information. In order to build up the full set of information, latitude and longitude must be received in one message type, along with altitude in another, heading and speed in another, and so on.
+
+Since the introduction of ADS-B on most aircraft, and so many planes in the air that it's easy to see *something* wherever you are, it has been easy for hobbyists to buy a simple software defined radio and antenna, tune to 1090 MHz, and start tracking aircraft.
 
 ![A lot of planes](/hardware/planesailing/lottaplanes.jpg){: .center}
 *That's a lotta planes.*
@@ -63,9 +67,11 @@ In the description of Plane/Sailing I make a point to say that it uses *your own
 
 ### What's Dump1090?
 
-Dump1090 is a piece of software that decodes 1090 MHz signals from a software defined radio dongle, or other radio receiver, and provides that data out in a number of formats, described below. It's also capable of receiving MLAT data from a server as well, and provides a web-based interface by which the user can view all the aircraft it's tracking. Other applications are available for doing this job, but Dump1090&mdash;and the FlightAware version of it in particular&mdash;is by far the most common.
+[Dump1090](https://github.com/adsbxchange/dump1090-fa) is a piece of software that decodes 1090 MHz signals from a software defined radio dongle, or other radio receiver, and provides that data out in a number of formats, described below. It's also capable of receiving MLAT data from a server as well, and provides a web-based interface called "SkyAware" by which the user can view all the aircraft it's tracking. Other applications are available for doing this job, but Dump1090&mdash;and the FlightAware version of it in particular&mdash;is by far the most common.
 
-Its web interface uses JSON to fetch the data from the software itself. In version 1 of Plane/Sailing, our web interface queried that JSON directly, rather than using our own back-end server and other data formats as we do now.
+![Dump1090 Skyaware screenshot](/hardware/planesailing/skyaware.png){: .center}
+
+The SkyAware web interface uses JSON to fetch the data from the processing software. In version 1 of Plane/Sailing, our web interface queried that JSON directly, but in version 2 we switched to using own back-end server that communicates with Dump1090 using other formats.
 
 ### What are the Common Formats of Mode S Data?
 
@@ -81,7 +87,7 @@ Two are named after the [Mode S Beast](https://shop.jetvision.de/Mode-S-Beast/en
 
 ![Mode S Data Formats](/hardware/planesailing/adsbformats.png){: .center .noshadow}
 
-Plane/Sailing supports all three formats, though Beast Binary is preferred.
+Plane/Sailing supports all three formats, though Beast Binary is preferred. It uses [OpenSky's adsblib](https://github.com/openskynetwork/java-adsb) to handle this format.
 
 ### What are Feeders?
 
@@ -95,7 +101,7 @@ Some of these servers do multilateration calculations for aircraft without ADS-B
 
 Aircraft have a number of different identifiers, which you may see in Plane/Sailing, Dump1090, FlightRadar24 and other software. They are:
 
-* A *24-bit address* for the specific aircraft and is globally unique. You'll often see this formatted as a six-character hexadecimal value, like "4CAFDO". Each Mode S message contains this 24-bit code, so it's ideal for use as a unique ID. ICAO manages the system and grants each country a block of addresses that it can then assign to aircraft. In some countries, these are algorithmically related to the aircraft registration, but in others they're not.
+* A *24-bit address* for the specific aircraft and is globally unique. You'll often see this formatted as a six-character hexadecimal value, like "4CAFD0". Each Mode S message contains this 24-bit code, so it's ideal for use as a unique ID. ICAO manages the system and grants each country a block of addresses that it can then assign to aircraft. In some countries, these are algorithmically related to the aircraft registration, but in others they're not.
 * A *registration*, or *tail number*, which also identifies a specific aircraft and is globally unique. This is painted on the side of the aircraft and is usually five letters, like "G-JZHG". The prefix identifies the country of registration, e.g. "G" for Great Britain. It's not transmitted in any Mode S message. Some countries allow vanity tail numbers...
 
 ![Track of M-RBIG](/hardware/planesailing/mrbig.png){: .center}
@@ -119,41 +125,107 @@ Plane/Sailing uses a customised version of these databases, along with its own m
 ![A lot of ships](/hardware/planesailing/aistracks.jpg){: .center}
 *Step 1, pick a sunny weekend and wait for the yachties to emerge.*
 
-TODO
+In the beginning, there was radar. (Sound familiar?) Most ships and shore stations such as Vessel Traffic Service (VTS) centres have radar, but it has its limitations for example in tracking vessels that are close together, or in heavy rain. It also provides no way of identifying each ship.
+
+[AIS](https://en.wikipedia.org/wiki/Automatic_identification_system) is a data system much like ADS-B but for ships, which is used to report data like identity, name, position, course and speed in order to improve safety at sea. Unlike Mode S and ADS-B, AIS transponders aren't triggered by ground-based secondary radar; instead all AIS transponders transmit on their own schedule using techniques like [SOTDMA](https://en.wikipedia.org/wiki/Self-organized_time-division_multiple_access) and CSTDMA to avoid talking over each other.
+
+Not all seagoing vessels have AIS. Larger ones are required to carry the more powerful Class A AIS transponders, while smaller vessels may carry Class B, or nothing at all. So unless supplemented with a radar, an AIS system will not be tracking small sailing dinghies, only larger yachts and ships.
 
 ### What's rtl_ais?
 
-TODO
+[rtl_ais](https://github.com/dgiardini/rtl-ais) is similar to RTL-SDR's [rtl_fm](http://kmkeen.com/rtl-demod-guide/) software, but it not only demodulates audio from the RF data coming from the dongle, it also decodes the data packets from both AIS channels at the same time. It's a simple command-line utility that should work automatically without much configuration. It outputs AIS data in the standard NMEA-0183 protocol over UDP.
 
 ### What AIS Data is Available?
 
-TODO
+The AIS protocol contains within it around [two dozen separate message types](https://www.navcen.uscg.gov/?pageName=AISMessages), which contain different information and can be transmitted at different rates. Furthermore, Class A and Class B transponders have their own message types, as do shore stations, aids to navigation, etc. Much like ADS-B, the receiver must aggregate data from many different messages in order to build up the full set of information about a vessel.
+
+Each vessel is identified by its MMSI, a numeric value that is globally unique and assigned when a radio licence is granted to the vessel. Every message contains this MMSI, along with the other information for that message type.
+
+Vessel names are also transmitted via AIS, but only in message types 5 & 24, which are not typically transmitted as often as those containing position, course and speed. That's why you'll often find Plane/Sailing showing a track for "MMSI 123456789" with a known position and other data, but the vessel name hasn't yet been received.
 
 ### What's the Common Format for AIS Data?
 
-TODO
+![Crazy Alert](/hardware/planesailing/crazy.gif){: .center}
+*Leaked video from the NMEA-0183 AIS planning meeting*
+
+NMEA-0183 specifies a human-readable, comma-separated serial data format. If you've ever worked with GPS devices, it will look familiar to you:
+
+`$GPGLL,3751.65,S,14507.36,E*77`
+
+There's a header identifying the message type, a latitude, longitude, and a checksum. All NMEA-0183 messages are designed to be human-readable like this... except one.
+
+```
+!AIVDM,2,1,1,A,55?MbV02;H;s<HtKR20EHE:0@T4@Dn2222222216L961O5Gf0NSQEp6ClRp8,0*1C
+!AIVDM,2,2,1,A,88888888880,2*25
+```
+
+AIS is essentially a binary format paying lip service to the NMEA format, encoding itself with [Base64](https://en.wikipedia.org/wiki/Base64)&mdash;but not with the same characters everyone else uses for Base64&mdash;and allowing a single AIS message to span across multiple NMEA-0183 messages.
+
+This is pretty crazy, and frustrating for anyone trying to understand the messages without the aid of parser software, but that's what we're stuck with. We use [tbsalling's aismessages library](https://github.com/tbsalling/aismessages) to handle this data.
 
 ### How can we distribute AIS Data?
 
-TODO
+Unlike the aircraft tracking world, where each tracking website comes with its own dedicated client application you have to install, the ship tracking world is a little more low-tech. When you sign up for a site like Marine Traffic, you are essentially given an IP address and a port to send your NMEA-0183 data to over UDP.
+
+Now `rtl_ais` can only send to a single UDP port, so in order to send that data to multiple locations (Plane/Sailing, Marine Traffic, AIS Hub etc.) we need to re-send the data in multiple UDP streams.
+
+Although you could achieve this simply with a combination of command-line utilities such as `tee` and `ncat`, the commonly used software for this is AIS Hub's [AIS Dispatcher](https://www.aishub.net/ais-dispatcher). As well as providing the basic functionality of receiving UDP messages on one port and sending them out to several others, it performs useful additional functions such as downsampling. In recent years it's also been given its own web interface for configuration and a map display.
+
+![AIS Dispatcher screenshot](/hardware/planesailing/ais-dispatcher.png){: .center}
+
+Version 1 of Plane/Sailing used the undocumented ability of AIS Dispatcher v1.2 to save a KML file of its data, and our web interface queried that file directly. More recent versions of AIS Dispatcher have removed that feature, which is one of the reasons we moved to having a Plane/Sailing server that could receive data in the standard NMEA format.
 
 ### How can we Track Amateur Radio Users?
 
 ![My desk with computer and radio equipment](/hardware/planesailing/nerdstuff.jpg){: .center}
 *Figure 12. The Domain of a Nerd*
 
-### What's Direwolf?
-
-TODO
+[APRS](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) is a system for transmitting small packets of data, often including positions, used by amateur radio hobbyists and some weather stations. Although Hams with APRS transponders in their cars are not a common sight, I added support for them to Plane/Sailing to complete the set&mdash;since we are tracking air and sea, why not land too?
 
 ### What are APRS and AX.25?
 
-TODO
+APRS can be extended to transfer all sorts of information, including user-to-user messaging and email, what we're interested in for Plane/Sailing is APRS transponders that are reporting their position. APRS packets are broadcast by convention on 144.8 MHz in Europe, although the frequency varies in different areas. Plane/Sailing receives and decodes these messages, and if any contain information useful to us like position, course and speed, these are recorded in the system.
+
+The APRS network is aided by a system of digital repeaters, or "digipeaters", that receive and rebroadcast APRS packets up to a certain number of "hops". Where radio amateurs have installed these digipeater systems high up with good line of sight, APRS tracks can be received not just from the local area but from much futher afield.
+
+APRS is built on top of a data transfer protocol called [AX.25](https://en.wikipedia.org/wiki/AX.25), and much like an ancient modem, data at (usually) 1200 bits per second is converted into audio, which is then modulated onto the VHF carrier. The reverse process at our end turns the VHF signal back into audio, then back into binary data.
+
+### What are rtl_fm and Direwolf?
+
+Traditionally, the job of encoding and decoding AX.25 packets was done by a dedicated hardware device known as a [Terminal Node Controller (TNC)](https://en.wikipedia.org/wiki/Terminal_node_controller). With modern technology, the job can be done in pure software.
+
+The two parts of this software decoding puzzle are [rtl_fm](http://kmkeen.com/rtl-demod-guide/) and [Direwolf](https://github.com/wb2osz/direwolf). rtl_fm takes the radio frequency input and demodulates it to an audio stream. Direwolf then takes that audio stream and decodes AX.25 packets from it, which typically are APRS. Direwolf has many more functions than this, for example it can operate as a transmitter, digipeater, iGate and more, though in this project we are only really interested in the receive side.
 
 ### What are Common Formats for APRS Data?
 
-TODO
+In the air, APRS packets conform to the [APRS spec](http://aprs.org/doc/APRS101.PDF) (PDF). Each packet consists of a number of fields, such as source and destination addresses, the addresses of the digipeaters the message has passed through, and the payload of the message. And just as with ADS-B and AIS, there are a number of different APRS payloads that provide different information.
+
+Each source and destination address is an up to 6-character callsign, and an up to 2-character SSID, so the field length is naturally... 6 + 2 = 7 bytes.
+
+Also, we hope you like Base 91, 'cos that's what we got.
+
+Now when Direwolf is set up and receiving these packets, you will notice it logging some roughly human-readable lines like this:
+
+```
+[0.2] G8CHQ-9>UQPPSP,WIDE1-1,WIDE2-1:`wQ4prA>/`"5>}_)<0x0d>
+MIC-E, normal car (side view), Yaesu FTM-100D, Off Duty
+N 51 00.3000, W 001 53.2400, 55 MPH, course 237, alt 427 ft
+```
+
+That first line shows the decoded source, destination and digipeater callsigns, followed by the Base 91 encoded payload. The other two lines then provide the decoded data from the payload. So how do you get access to a stream of this data, e.g. for Plane/Sailing? Of course... you can't.
+
+Direwolf's actual output formats are [KISS](https://en.wikipedia.org/wiki/KISS_(TNC)) and AGW, which replicates the output of [AGWPE](https://www.soundcardpacket.org/2agwget.aspx). Of these, KISS is the more common and the one we use for Plane/Sailing.
+
+KISS takes the binary bytes of an APRS AX.25 packet, and simply wraps them with some extra bytes that indicate the start and end of frames, and provide some command codes that are useful for transmission. In our receive-only code, it's fairly easy to ignore all of that and just parse the AX.25 packet within for APRS data. Plane/Sailing uses [ab0oo's javAPRSlib](https://github.com/ab0oo/javAPRSlib) to do this parsing.
+
+### What are Callsigns, SSIDs and Symbols?
+
+APRS uses Amateur Radio callsigns, but extends them with the concept of "SSIDs" which describe the type of installation that is transmitting. For example an SSID of 0 is commonly used for home receivers and transmitters, while 9 indicates a car, and so on.
+
+While the SSID can be used to determine a symbol to display (and Plane/Sailing does this), there is also a dedicated symbol field in APRS messages that provides a larger table of options to choose from, in case you want your symbol to be e.g. a car with a number superimposed on it.
 
 ### What's an iGate?
 
-TODO
+As well as direct point-to-point APRS transmission, and repeating via digipeaters, a common use of APRS is to receive data and upload it to an internet service, or APRS-IS. Much the same as FlightRadar24 for aircraft and Marine Traffic for ships, sites like [aprs.fi](https://aprs.fi/) aggregate the APRS data sent to them by "iGates" to provide a global picture of APRS tracks.
+
+![APRS.fi screenshot](/hardware/planesailing/aprsfi.png){: .center}
