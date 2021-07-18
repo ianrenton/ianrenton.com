@@ -17,14 +17,17 @@ For Plane/Sailing, I decided to drop some of the more complex options for config
 Version 1 provided a more limited set of options and no track table:
 
 ![Plane/Sailing v1 Interface](/hardware/planesailing/ui.png){: .center}
-*Plane/Sailing v1 Interface*
+*Plane/Sailing v1*
 
 Version 2 re-added UMID1090's track table, and brought across a few extra configuration options.
 
 ![Plane/Sailing v2 Interface](/hardware/planesailing/ui2.png){: .center}
-*Plane/Sailing v2 Interface*
+*Plane/Sailing v2*
 
-And that's it&mdash;job done! ✈⛵🎉🍺
+Version 2.1 made some slight improvements to the GUI, and made more server telemetry available.
+
+![Plane/Sailing v2.1 Interface](/hardware/planesailing/ui2.1.png){: .center}
+*Plane/Sailing v2.1*
 
 [Source code is available on Github](https://github.com/ianrenton/planesailing) and is in the public domain.
 
