@@ -1,0 +1,6 @@
+_id: 4fc0f510-e7d8-11eb-ac83-596197ddff74
+_parent: 'https://ianrenton.com/hardware/planesailing/'
+name: Rob Mac
+email: c3d32ceef76cbf1ea6b806b12f3fb9a9
+message: "Hi Ian, Yes my apologies I have misunderstood. I'm still learning so please excuse my newbiesness\U0001F60AOK I thought the changing of serials were to prevent technical/physical conflict.\r\nI could not get around this part when setting up gain. \r\nWhen I attached the ais hat it was only a matter of plugging in the dongle and changing the Adsb http config port to 8085 so that it did not interfere with AIS on port 8080.\r\nIm wondering if its maybe possible to blacklist the flightaware dongle (it is just an RTL8xxx)and run your webserver frontend also?\r\n\r\nI think there may be too much going on to succeed at this though as I'm running separate feeders for a few sites.\r\n\r\nAnyway Ian once again excellent work you've done here.\r\n\r\nReally appreciated Rob MM7BVP"
+date: '2021-07-18T14:56:20.779Z'
