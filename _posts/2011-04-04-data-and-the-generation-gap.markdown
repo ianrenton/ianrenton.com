@@ -33,8 +33,8 @@ I'm guessing that my parents' passive data consumption is near zero -- they both
 
 It's not just the rate of technological progress that is extreme, it's the inevitable way in which it transforms our lives.  Back in the late seventies, the computers my parents used at university were giant things, all mainframes and time-sharing and punch cards.  Consumer hard drives of 10MB were [a thing of the _eighties_](https://secure.wikimedia.org/wikipedia/en/wiki/History_of_hard_disk_drives#1980s.2C_the_PC_era). And here was I, not thirty years later, coming back from university with the idea that I should be able to download that amount of data every hour, without asking for it, and mostly without even looking at it.  With the idea that not only should I not fight for time on a single computer, but that my computer should be left to talk to others over the internet without me being involved.
 
-I'm not saying my folks are stuck with a 70s idea of computing; far from it.  But the extent to which our lives are data-saturated now compared to thirty years ago is monumental.  And I wonder what, in thirty years' time, my son will make of our archaic blogs, social networks and video streaming.
+I'm not saying my folks are stuck with a 70s idea of computing; far from it.  But the extent to which our lives are data-saturated now compared to thirty years ago is monumental.  And I wonder what, in thirty years' time, our children will make of our archaic blogs, social networks and video streaming.
 
   
 
-* 2006.
+\* 2006.

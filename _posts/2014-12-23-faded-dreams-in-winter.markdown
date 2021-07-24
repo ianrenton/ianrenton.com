@@ -13,6 +13,6 @@ This is now my thirieth winter on this Earth. If my early twenties were "about" 
 
 If my late twenties were "about" something, they may have been about letting old dreams die quietly, replaced with newer and more realistic things. It's inevitable that those dreams needed to fade and die some time; too many are dependent on things outside my control &mdash; responsibilities to family and friends, jobs, even the state of the economy that will forever keep that old cottage by the sea out of my grasp.
 
-I have a flat in town and a son in school there; I couldn't move to the country even if we had the money. I have in-laws to placate and one day will have parents to look after. My house will always be messy and our savings account always empty.
+I have a flat in town and a child in school there; I couldn't move to the country even if we had the money. I have in-laws to placate and one day will have parents to look after. My house will always be messy and our savings account always empty.
 
 But I have a family now, and friends, and a home here. I am older. Time to let the dreams of a child fade and die like the passing year, and replace them with new ones.

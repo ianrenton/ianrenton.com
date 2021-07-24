@@ -24,7 +24,7 @@ Ah yes, Spanish. Like the author of the article I loaded up with about ten minut
 
 ![The Languages of Spain](/blog/2013/11/languagesofspain.jpg){: .center}
 
-To communicate, I first have to ask my wife's family to speak *Castillian* Spanish. And *then* I have to compound my embarassment by admitting that I don't even speak much of that. Worst of all, the author of that article isn't being that hyperbolic when she refers to herself as "speaking like a one year old" &mdash; my worst realisation of just how poorly I speak Spanish was helping my son talk to a five-year-old girl he was playing with on the beach. Not only did I not understand what she was saying, but I couldn't even find the words to tell her that I didn't understand.
+To communicate, I first have to ask my wife's family to speak *Castillian* Spanish. And *then* I have to compound my embarassment by admitting that I don't even speak much of that. Worst of all, the author of that article isn't being that hyperbolic when she refers to herself as "speaking like a one year old" &mdash; my worst realisation of just how poorly I speak Spanish was helping my child talk to a five-year-old girl they were playing with on the beach. Not only did I not understand what she was saying, but I couldn't even find the words to tell her that I didn't understand.
 
 I could only imagine the number of times I would be reduced to frustrated tears if I lived there.
 

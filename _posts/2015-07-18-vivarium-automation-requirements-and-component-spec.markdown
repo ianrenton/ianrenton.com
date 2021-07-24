@@ -14,9 +14,7 @@ tags:
 - Sensors
 ---
 
-It's a little over a month until we are getting our first pet - a [crested gecko](https://en.wikipedia.org/wiki/Crested_gecko). Joseph has decided that if it's female it will be called "Scarlet", and Eric has decided that if it's male it will be called "Rimbaud" after the surrealist poet, partially because it is also a homonym of "Rambo". I almost hope we get a female as it will be easier to explain.
-
-In the mean time, we are getting our vivarium set up ready for our pet. We have just about everything we need, but managing the environment is a manual process &mdash; turning the lights on in the morning and off in the evening; maintaining heat and humidity.
+It's a little over a month until we are getting our first pet - a [crested gecko](https://en.wikipedia.org/wiki/Crested_gecko). In the mean time, we are getting our vivarium set up ready for our pet. We have just about everything we need, but managing the environment is a manual process &mdash; turning the lights on in the morning and off in the evening; maintaining heat and humidity.
 
 ![Vivarium](/blog/2015/vivarium.jpg){: .center}
 

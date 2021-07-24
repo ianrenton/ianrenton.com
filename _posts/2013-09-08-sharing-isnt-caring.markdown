@@ -23,7 +23,7 @@ Then, something magical happened.
 
 Suddenly, it was like the old times were back again. We could stay in touch forever, and share the minutiae of our lives just like always.
 
-But since then, it's kind of taken over. I've caught myself checking Twitter and Facebook on my phone while crossing the street, as if that iota of interaction couldn't wait thirty seconds for me to ensure my own safety. My son has started talking to me while I was using my phone, and in my mind it was the phone that had priority and Joseph that was the inconvenience.
+But since then, it's kind of taken over. I've caught myself checking Twitter and Facebook on my phone while crossing the street, as if that iota of interaction couldn't wait thirty seconds for me to ensure my own safety. People have started talking to me while I was using my phone, and in my mind it was the phone that had priority and them that was the inconvenience.
 
 I saw [this comic](http://zenpencils.com/comic/129-marc-maron-the-social-media-generation/) the other day, and although its charicature of the social networking-obsessed user is a long way from the way I act most of the time, the intention behind it still rings true.
 

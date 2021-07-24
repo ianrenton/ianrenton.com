@@ -15,7 +15,7 @@ tags:
 
 Time flies when you're having fun. And somehow, without really realising it, I turned thirty years old.
 
-I'd say I've come far from where I began &mdash; but though I've been a way, I came back, and now I'm not so very far away after all. I live in the same town; have the same comfortable life; have a son who for all the world looked at age one just like I did.
+I'd say I've come far from where I began &mdash; but though I've been a way, I came back, and now I'm not so very far away after all. I live in the same town; have the same comfortable life; have a child who for all the world looked at age one just like I did.
 
 ![Me, age zero](/blog/2015/age0.jpg){: .center}
 
@@ -29,7 +29,7 @@ And me at age 20, I remember him vividly. We still have the same friends, the sa
 
 And now I turn 30, surrounded by those same friends who have been with me so long, and the family who have been there even longer. I have a family of my own, and the cycle begins again.
 
-I have a wife and a son, a home and a job; a family and a life just like those back where I began.
+I have a wife and a child, a home and a job; a family and a life just like those back where I began.
 
 ![Me, age thirty](/blog/2015/age30.jpg){: .center}
 

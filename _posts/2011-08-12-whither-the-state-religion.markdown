@@ -25,7 +25,7 @@ We do not just live in a "Church of England" country, or a Protestant one, or ev
 
 There is an English language, which there are some reasonable arguments in favour of requiring those who live here to speak.  Of course no-one in their right mind would suggest that people who live here adopt the "English religion", so why have such a concept in the first place?  It can only serve as a small but niggling reminder to the nation's Muslims and Sikhs that they aren't quite as "English" as others.
 
-I find the number of state-funded church schools quite odd too -- in my town, there are only two _non_-faith schools, neither of which we are in the catchment area of.  So I am paying money in the form of taxes for my son to be taught as fact something that is only an opinion, and one that I disagree with at that.
+I find the number of state-funded church schools quite odd too -- in my town, there are only two _non_-faith schools, neither of which we are in the catchment area of.  So I am paying money in the form of taxes for my child to be taught as fact something that is only an opinion, and one that I disagree with at that.
 
 I understand the historical reasons behind the system, why the Church of England exists and why the concept of a state religion exists.  But is it not a little out-dated now?
 

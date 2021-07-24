@@ -47,7 +47,7 @@ Still holding out for a real space to call home, one of our members offered the 
 
 The library allowed us use of a back room to get started, and we had some excited conversations with the head librarian about the library getting 3D printers and our group running soldering and Raspberry Pi coding courses.
 
-![Joseph at the Library](/blog/2016/IMG_20150126_173221.jpg){: .center}
+![At the Library](/blog/2016/IMG_20150126_173221.jpg){: .center}
 
 We had big plans, but by then attendance at our events was waning. Our meetings in the back room of the library averaged only four of us, and we never found the time or the confidence to offer courses. Our Facebook page attracted some interest, but we were never able to provide the organised experience that new visitors were expecting. Before long, we stopped meeting there, and for the third time in three years, we were without a place to meet.
 

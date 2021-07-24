@@ -18,7 +18,7 @@ tags:
 
 I'm not sure if this problem exists with many Linux distros on all laptops with Synaptics touchpads, or just Ubuntu on my Macbook 3,1, but as shipped it has a minor issue that has probably never reared its head for 99% of users: the touchpad only registers presses from adult-sized fingers.
 
-Although my son has long since figured out how to say "screw that" and reboot into Mac OS, I figured I should have a crack at fixing the problem.
+Although my kid has long since figured out how to say "screw that" and reboot into Mac OS, I figured I should have a crack at fixing the problem.
 
 The sensitivity of the touchpad is defined by two values, "FingerHigh" and "FingerLow".  These define the amount of contact between finger and touchpad that is required to register a click.  There are two values, High and Low, to introduce some hysteresis -- to stop a touch at just the right heaviness from repeatedly oscillating between touching and not-touching.  By default, these are set to 35 (FingerHigh) and 29 (FingerLow) -- perfect for grown-up fingers, but too high (too heavy a press) for three- and four-year-olds to comfortably use.
 

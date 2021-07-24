@@ -22,7 +22,7 @@ tags:
 - Spaff
 ---
 
-I lie unmoving on the floor of Joseph's bedroom, stretching my back into shape as I listen to the splattering of raindrops against his window.  A cold north wind blows them on, a rare wind in these parts.  So rare is this wind, and so sheltered is our flat from all other directions, that the sound of rain against glass seems alien for a moment.
+I lie unmoving on the floor of the bedroom, stretching my back into shape as I listen to the splattering of raindrops against the window.  A cold north wind blows them on, a rare wind in these parts.  So rare is this wind, and so sheltered is our flat from all other directions, that the sound of rain against glass seems alien for a moment.
 
 Seven hours we spent on the patio today, eating and drinking and being merry, happy for our extra holiday and not giving a damn as to the reasons why.  My feet ache, my back aches, and I've been through about half a bottle of Pimm's since lunchtime.
 

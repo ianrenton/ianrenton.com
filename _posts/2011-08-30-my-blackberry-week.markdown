@@ -20,9 +20,9 @@ tags:
 - Review
 ---
 
-My phone, an [HTC Desire HD](http://www.htc.com/www/smartphones/htc-desire-hd/), is a gorgeous slate of metal and glass; thin but with a huge screen, and when I bought it back in December of 2010, it was the most powerful and capable phone on the market. It is part of the future of 'computing', capable of 99% of what I use my laptop computer for. It's also irresistible to my [Cut the Rope-completionist son](http://twitpic.com/6cr9gz), and unfortunately, heavy gaming use drains the battery in a little under three hours. Normal use, for me, toasts it in between 8 and 12.
+My phone, an [HTC Desire HD](http://www.htc.com/www/smartphones/htc-desire-hd/), is a gorgeous slate of metal and glass; thin but with a huge screen, and when I bought it back in December of 2010, it was the most powerful and capable phone on the market. It is part of the future of 'computing', capable of 99% of what I use my laptop computer for. It's also irresistible to my [Cut the Rope-completionist child](http://twitpic.com/6cr9gz), and unfortunately, heavy gaming use drains the battery in a little under three hours. Normal use, for me, toasts it in between 8 and 12.
 
-Repeatedly frustrated at not being able to use my phone to make calls or navigate at the end of car journeys with my son, I set to thinking about what I actually use my phone for. The majority of my phone use boils down to, roughly in order:
+Repeatedly frustrated at not being able to use my phone to make calls or navigate at the end of car journeys with my family, I set to thinking about what I actually use my phone for. The majority of my phone use boils down to, roughly in order:
 
 ![](/blog/2011/08/blackberry-curve-9300-2-300x298.jpg){: .right}
 
@@ -31,7 +31,7 @@ Repeatedly frustrated at not being able to use my phone to make calls or navigat
   3. Text messaging
   4. Actually calling people
 
-I wondered what would be the phone that minimised cost, maximised battery life, allowed me to do those four things happily, and most of all was completely unattractive to my son.  I settled on a [BlackBerry Curve 3G (9300)](http://uk.blackberry.com/devices/blackberrycurve3G/).  So without further ado, after a week's worth of use, my thoughts about my new second phone. In case any other Android users are tempted to come to the dark side, this is roughly what to expect:
+I wondered what would be the phone that minimised cost, maximised battery life, allowed me to do those four things happily, and most of all was completely unattractive to my child.  I settled on a [BlackBerry Curve 3G (9300)](http://uk.blackberry.com/devices/blackberrycurve3G/).  So without further ado, after a week's worth of use, my thoughts about my new second phone. In case any other Android users are tempted to come to the dark side, this is roughly what to expect:
 
 ## _Like:_
 

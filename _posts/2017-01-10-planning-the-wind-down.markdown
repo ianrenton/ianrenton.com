@@ -41,5 +41,4 @@ As such I am working up a plan to migrate important things to other services ove
 A few potential sticking points are:
 
 * I host **three WordPress sites** for other people. Two are potentially old enough that they can be deleted or replaced with static pages; the other I could migrate to WordPress.com although that would involve paying extra.
-* **[My son's Minecraft server](http://joseph.renton.es/)** is turned off 99% of the time, but if we do want to bring it back at some point, losing the server would mean losing that capability.
 * I do use the server as a **VPN** occasionally when on unsecured WiFi, but almost every critical app and website uses HTTPS these days, it's not necessarily essential any more.

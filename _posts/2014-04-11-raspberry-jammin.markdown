@@ -17,11 +17,11 @@ tags:
 - Minceraft
 ---
 
-Last Saturday was the [Linux User & Developer](http://www.linuxuser.co.uk/) [Raspberry Jam](https://www.eventbrite.co.uk/e/the-linux-user-raspberry-jam-tickets-10095482861) event at Poole RNLI college. I took the tank, of course, and Joseph too &mdash; worrying all the while that he'd be the youngest kid there by about ten years, and he'd get bored within half an hour.
+Last Saturday was the [Linux User & Developer](http://www.linuxuser.co.uk/) [Raspberry Jam](https://www.eventbrite.co.uk/e/the-linux-user-raspberry-jam-tickets-10095482861) event at Poole RNLI college. I took the tank, of course, and the child too &mdash; worrying all the while that they'd be the youngest kid there by about ten years, and would get bored within half an hour.
 
 How wrong I was.
 
-We eventually escaped almost an hour after the scheduled end of the event, once Joseph and the other kids &mdash; many his age &mdash; had had their fill of Minecraft and the [Raspberry Tank](http://raspberrytank.ianrenton.com).
+We eventually escaped almost an hour after the scheduled end of the event, once all the kids had had their fill of Minecraft and the [Raspberry Tank](http://raspberrytank.ianrenton.com).
 
 ![The Minecraft Coding Workshop. Picture by @rhiancarter](https://pbs.twimg.com/media/BkdSwL_IUAAgvsX.jpg){: .center}
 

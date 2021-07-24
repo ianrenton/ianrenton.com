@@ -8,7 +8,7 @@ categories:
 
 With [Scratch support completed](./atp-starting-from-scratch), I've reached the end of what I wanted to achieve with the All-Terrain Pi. It's been about 20 hours' work overall &mdash; quicker than I expected, particularly getting the webcam streaming and creating the Scratch interface, which I thought would be a lot more painful than they were.
 
-Just like the [tank](../raspberry-tank) before it, it's time to hand this toy over to my son. We took it to the Constructorium hackerspace meeting at the library last Saturday and put it through its paces, first with the phone controls and then by programming it.
+Just like the [tank](../raspberry-tank) before it, it's time to hand this toy over to my child. We took it to the Constructorium hackerspace meeting at the library last Saturday and put it through its paces, first with the phone controls and then by programming it.
 
 ![Programming the robot in Scratch](/hardware/atp/53.jpg){: .center}
 
@@ -18,7 +18,7 @@ It turns out that thanks to his school and my mother, he's actually pretty good 
 
 ![Keyboard control in Scratch](/hardware/atp/52.png){: .center}
 
-As I said, that's about it for what I originally set out to do. Some ideas my son and I have come up with for activities with the robot, which we may or may not get around to, include:
+As I said, that's about it for what I originally set out to do. Some ideas we have come up with for activities with the robot, which we may or may not get around to, include:
 
 * Control of an on-screen "All-Terrain Pi" sprite in Scratch, so the sprite moves the same way as the real robot
 * Hook it up to the Minecraft API, so the robot moves the way your character does, or control it with in-game redstone inputs
