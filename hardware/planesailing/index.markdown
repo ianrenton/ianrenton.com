@@ -43,7 +43,7 @@ You may also want to check out this project's predecessor, [my first flight trac
 
 * [FlightAware](https://flightaware.com/adsb/stats/user/ianrenton)
 * [FlightRadar24](https://www.flightradar24.com/account/feed-stats/?id=28217)
-* [ADS-B Exchange](https://www.adsbexchange.com/api/feeders/?feed=KqbIWnVGingH9fAz8OSyA5%2BkYcu323JazTh2ryTo8EMRbvcXfO3KWgb9%2FyjGvkxt)
+* [ADS-B Exchange](https://www.adsbexchange.com/api/feeders/?feed=aeb9add2-e933-408b-82ee-36e5f41edeb8)
 * [Marine Traffic](https://www.marinetraffic.com/en/ais/details/stations/4601/_:c84491eef3bdfac87efda338636c1d20)
 * [Vessel Finder](https://stations.vesselfinder.com/stations/5528)
 
