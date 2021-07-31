@@ -27,7 +27,7 @@ Every aircraft in UK & EU airspace has a Mode S transponder, and it's the Mode S
 ![Spitfire ADS-B track](/hardware/planesailing/spitfire.png){: .center}
 *Every aircraft. No exceptions.*
 
-There's an excellent write-up of the history and implementation of these protocols [here](https://mode-s.org/decode/content/introduction.html), and some additional information about idents/squawk codes [here](https://www.skybrary.aero/index.php/Transponder).
+There's an excellent write-up of the history and implementation of these protocols at [The 1090MHz Riddle](https://mode-s.org/decode/content/introduction.html), and some additional information about idents/squawk codes [here](https://www.skybrary.aero/index.php/Transponder).
 
 ### What's an Extended Squitter?
 
@@ -35,7 +35,7 @@ It's what happens the morning after you drink five pints and eat a vindaloo.
 
 No, alright. Mode S was designed to send more data, and be more flexible, than Mode A & C before it. It has a concept called a "downlink format", which says what kind of message it is. Some of these are equivalents to the old formats, so DF4 provides altitude, and DF5 provides the squawk code.
 
-DF17 and DF18 are what's known as "extended squitter" messages, which are like expansions to the Mode S format. Within DF17 and DF18 messages, a further identifier says what kind of data is encoded, so these extended squitter messages can be used to carry many different types of data alongside those specified by the main Mode S downlink formats.
+DF17 and DF18 are what's known as "extended squitter" messages, which are like expansions to the Mode S format. Within DF17 and DF18 messages, a further identifier called a type selector says what kind of data is encoded, so these extended squitter messages can be used to carry many different types of data alongside those specified by the main Mode S downlink formats.
 
 There's a good table [here](https://www.radartutorial.eu/13.ssr/sr24.en.html).
 
@@ -48,12 +48,23 @@ There's a good table [here](https://www.radartutorial.eu/13.ssr/sr24.en.html).
 
 It's this data on which Plane/Sailing largely depends.
 
-ADS-B contains its own subset of messages, and with the restriction to 112 bits per message, each one contains only a small amount of information. In order to build up the full set of information, latitude and longitude must be received in one message type, along with altitude in another, heading and speed in another, and so on.
+ADS-B contains its own subset of messages, each identified by a type selector, and with the restriction to 112 bits per message, each one contains only a small amount of information. In order to build up the full set of information, latitude and longitude must be received in one message type, along with altitude in another, heading and speed in another, and so on.
 
 Since the introduction of ADS-B on most aircraft, and so many planes in the air that it's easy to see *something* wherever you are, it has been easy for hobbyists to buy a simple software defined radio and antenna, tune to 1090 MHz, and start tracking aircraft.
 
 ![A lot of planes](/hardware/planesailing/lottaplanes.jpg){: .center}
 *That's a lotta planes.*
+
+### What's Comm-B?
+
+![xkcd #927: Standards](/hardware/planesailing/standards.png){: .center}
+*Leaked footage from the Mode-S Downlink Formats planning meeting ([xkcd](https://xkcd.com/927/))*
+
+Along with ADS-B Extended Squitter messages with DF17 and 18, Comm-B is another similar set of Mode S messages using DF20 & 21. These contain at the top level some basic data such as altitude and squawk, much like the old Mode A & C or Mode-S DF4 & 5. However, they also contain an extra payload that contains useful information. This can include the aircraft flight number/callsign, and in fact some aircraft *only* send their callsign this way, and not using the equivalent ADS-B message. (This callsign is [Base64](https://en.wikipedia.org/wiki/Base64) encoded, but in what will become a recurring theme in this page of fitting alphanumeric callsigns into fewer bytes than you might expect, *not using the same characters everyone else uses for Base64 encoding*.)
+
+The contents of the extra payload of a Comm-B message can include various things, based on the Comm-B Data Selector (BDS), which is similar to the type selector in ADS-B. However here there is an additional complication in that the BDS is only sent in the *Comm-A* message from secondary radar installation to the aircraft. The reply does not always indicate obviously what it is. As an amateur monitoring station, we therefore sometimes need to [infer](https://mode-s.org/decode/content/mode-s/9-inference.html) what type of message it is in order to decode it, since we can't see what the radar actually asked for.
+
+Now Plane/Sailing is of course only tall by virtue of standing on the shoulders of giants, and thus far the [OpenSky libadsb Java library](https://github.com/openskynetwork/java-adsb) has provided all the code required to decode Mode-S and ADS-B messages until now. Comm-B data, apart from the basic altitude and squawk identity, are not yet supported. So at this point I had to do some of my own decoding within Plane/Sailing. As always, [The 1090MHz Riddle](https://mode-s.org/decode/content/mode-s/5-commb.html) comes through with the full details.
 
 ### What's Multilateration (MLAT)?
 
@@ -61,7 +72,9 @@ Although all aircraft in UK & European airspace have Mode S transponders, not al
 
 Websites such as FlightAware can provide position fixes for these aircraft using an approach called multilateration, or MLAT. This takes advantage of the fact that there are many receivers detecting and decoding Mode S information for any one aircraft. Provided these receivers have synchronised clocks, their time of packet reception can be measured very accurately, and used to determine the position of the aircraft via triangulation. Each individual receiver knows what time it received a message from the aircraft, and when the server puts that together with two or three others, factoring in the speed of light, the position can then be estimated.
 
-In the description of Plane/Sailing I make a point to say that it uses *your own radios*, and isn't pulling publicly available tracking data from sites like FlightAware, Marine Traffic and aprs.fi. However, here's where the waters get muddied. Because that MLAT data is only calculated server-side, we actually *do* rely on FlightAware to provide this. This data is provided back to the client, in a ["synthetic extended squitter"](https://github.com/mutability/mlat-client/blob/master/mlat/client/synthetic_es.py) format, i.e. it looks just like "real" ADS-B position and velocity data received from the radio. This can then be ingested into Dump1090 and Plane/Sailing.
+In the description of Plane/Sailing I make a point to say that it uses *your own radios*, and isn't pulling publicly available tracking data from sites like FlightAware, Marine Traffic and aprs.fi. However, here's where the waters get muddied. Because that MLAT data is only calculated server-side, we actually *do* rely on FlightAware to provide this. This data is provided back to the client, in a ["synthetic extended squitter"](https://github.com/mutability/mlat-client/blob/master/mlat/client/synthetic_es.py) format, i.e. it looks just like "real" ADS-B position and velocity data received from the radio. This can then be ingested into Dump1090 and Plane/Sailing... almost!
+
+Again we hit a minor speed bump in that the `libadsb` library has almost everything it needs to decode these messages, but not quite! Until [libadsb supports them](https://github.com/openskynetwork/java-adsb/issues/32), I implemented a work-around in Plane/Sailing's code to interpret the MLAT messages properly.
 
 ### What's Dump1090?
 
@@ -81,11 +94,13 @@ Two are named after the [Mode S Beast](https://shop.jetvision.de/Mode-S-Beast/en
 
 * The [Beast Binary format](https://wiki.jetvision.de/wiki/Mode-S_Beast:Data_Output_Formats) is what the vast majority of applications, including Plane/Sailing and feeders such as PiAware, use for their data. It consists of an `0x1a` escape character, a message type byte, a timestamp, a signal level byte, then the actual Mode A, C or S bytes themselves. The fact that it contains a timestamp is key to its use in multilateration, as it preserves the time the time at which the message was received. Dump1090 provides a TCP server on port 30005 for this data.
 * The [Beast AVR format](https://wiki.jetvision.de/wiki/Mode-S_Beast:Data_Output_Formats) is the raw data bytes converted to hexadecimal. Each packet starts with an asterisk, then the hexadecimal bytes, finishing with a semicolon, carriage return and line feed. There's no additional information here like timestamps or signal levels. Dump1090 provides a TCP server on port 30002 for this data.
-* The [SBS/BaseStation format](http://woodair.net/sbs/article/barebones42_socket_data.htm) is human-readable and looks similar to a CSV file or NMEA-0813. It's very easy to use, but unfortunately does not contain all the data that's available in the other formats. Signal strength is not included, and neither are aircraft categories. Dump1090 provides a TCP server on port 30003 for this data.
+* The [SBS/BaseStation format](http://woodair.net/sbs/article/barebones42_socket_data.htm) is human-readable and looks similar to a CSV file or NMEA-0183. It's very easy to use, but unfortunately does not contain all the data that's available in the other formats. Signal strength is not included, and neither are aircraft categories. Dump1090 provides a TCP server on port 30003 for this data.
 
 ![Mode S Data Formats](/hardware/planesailing/adsbformats.png){: .center .noshadow}
 
-Plane/Sailing supports all three formats, though Beast Binary is preferred. It uses [OpenSky's adsblib](https://github.com/openskynetwork/java-adsb) to handle this format.
+Plane/Sailing supports all three formats, though Beast Binary is preferred. It uses [OpenSky's adsblib](https://github.com/openskynetwork/java-adsb) to handle the Mode-S messages in Beast format.
+
+Dump1090 also writes its internal data out to a JSON file, which is what its own web interface picks up. This isn't exactly a common standard format, but it's what Plane/Sailing v1 used to get aircraft data, and Plane/Sailing v2 continues to support it as an option.
 
 ### What are Feeders?
 
@@ -144,7 +159,7 @@ Vessel names are also transmitted via AIS, but only in message types 5 & 24, whi
 ### What's the Common Format for AIS Data?
 
 ![Crazy Alert](/hardware/planesailing/crazy.gif){: .center}
-*Leaked video from the NMEA-0183 AIS planning meeting*
+*Leaked footage from the NMEA-0183 AIS planning meeting*
 
 NMEA-0183 specifies a human-readable, comma-separated serial data format. If you've ever worked with GPS devices, it will look familiar to you:
 
@@ -157,7 +172,7 @@ There's a header identifying the message type, a latitude, longitude, and a chec
 !AIVDM,2,2,1,A,88888888880,2*25
 ```
 
-AIS is essentially a binary format paying lip service to the NMEA format, encoding itself with [Base64](https://en.wikipedia.org/wiki/Base64)&mdash;but not with the same characters everyone else uses for Base64&mdash;and allowing a single AIS message to span across multiple NMEA-0183 messages.
+AIS is essentially a binary format paying lip service to the NMEA format, encoding itself with [Base64](https://en.wikipedia.org/wiki/Base64)&mdash;but not with the same characters everyone else uses for Base64, or the ones Comm-B callsigns use for Base64&mdash;and allowing a single AIS message to span across multiple NMEA-0183 messages.
 
 This is pretty crazy, and frustrating for anyone trying to understand the messages without the aid of parser software, but that's what we're stuck with. We use [tbsalling's aismessages library](https://github.com/tbsalling/aismessages) to handle this data.
 
