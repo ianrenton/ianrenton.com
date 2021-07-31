@@ -7,6 +7,8 @@ slug: plane-sailing-v2-changes
 
 This page lists the differences between version 1 and version 2 of Plane/Sailing. My intention is to keep the main build guide up-to-date with the latest state of the system, as this will be of most interest to readers, while maintaining pages like this one to explain what's changed for returning visitors.
 
+![Plane/Sailing Screenshot](/hardware/planesailing/goldenhorizon.jpg){: .center}
+
 ## Software Changes
 
 One of my original goals with Plane/Sailing (and the flight tracker before it) was to only spend time doing the "fun code", i.e. the flashy web-based stuff that people will actually see. I tried to avoid the need for any back-end code, by making existing open source software accessible via the web, and tying the web-based front end directly into those endpoints. In version 1 of the system therefore, I ran Dump1090 and AIS Dispatcher on Raspberry Pis, and the web interface directly queried Dump1090's JSON interface and called up a KML file written by AIS Dispatcher.
