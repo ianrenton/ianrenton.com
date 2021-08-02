@@ -31,3 +31,9 @@ blacklist rtl2830
 Then reboot the Pi.
 
 With the addition of a cheap USB hub, it's time to start attaching RTL-SDR dongles and installing software&mdash;see the [next page](/hardware/planesailing/adsb-receiver/)!
+
+### Current Draw
+
+Knowing that both the Raspberry Pi 4 and RTL-SDR dongles can be quite power hungry, I have added an in-line USB current meter to the build that will allow me to monitor and check that the current and voltage stay within bounds. With the Pi, three RTL-SDR dongles and a AIS pre-amp all powered from the same supply, Plane/Sailing reaches around 1.6A of current draw and voltage remains above 4.8V, so with my 3A power supply the system seems happy.
+
+![USB tester](/hardware/planesailing/currentdraw.jpg){: .center}

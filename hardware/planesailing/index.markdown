@@ -23,16 +23,12 @@ The links below are to the design & build information in case you are interested
 6. [APRS Receiver Setup](./aprs-receiver/)
 7. [Plane/Sailing Server Setup](./plane-sailing-server/)
 8. [Web Front-End](./web-front-end/)
-9. [Bill of Materials](./bill-of-materials/)
-10. [The Tracking Packet Format FAQ](./tracking-packet-format-faq)
-11. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
+9. [Electronics Enclosure](./electronics-enclosure/)
+10. [Bill of Materials](./bill-of-materials/)
+11. [The Tracking Packet Format FAQ](./tracking-packet-format-faq)
+12. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
 
 You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
-
-## Future Plans
-
-* Finish APRS integration
-* A nice project box for all the hardware to sit in
 
 ## Featured On...
 

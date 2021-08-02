@@ -29,7 +29,7 @@ The AIS performance of my setup is much less impressive, for the simple reason t
 
 However, I thought I'd give it a try anyway. I used a [Diamond X-50 antenna](https://www.nevadaradio.co.uk/product/diamond-x-50/), which has internal elements tuned for both the 2m and 70cm bands and thus can be used for general hamming when not in use as an AIS tracker. I re-used the stock RTL-SDR tuner to receive the AIS signals.
 
-Performance is, to be honest, poor&mdash;but I wasn't expecting great things. My "to do" list for the Plane Sailing setup includes trying out filters, pre-amps and possibly a directional antenna in order to improve sensitivity (after all, there aren't likely to be too many ships to the north of the receiver!) However, none of these will solve the main line-of-sight problem, so I'm resisting the urge to throw too much money at it.
+Performance is, to be honest, poor&mdash;but I wasn't expecting great things. I have since added an [Uputronics AIS filtered pre-amp](https://store.uputronics.com/index.php?route=product/product&product_id=93) to the receiver but any increase in performance has been modest&mdash;there really is no cheating the laws of physics. However, I regularly get some packets off 4-5 ships on a bad day, up to 20-30 on a nice summer day, so it's good enough for me.
 
 ## APRS Receiver
 
