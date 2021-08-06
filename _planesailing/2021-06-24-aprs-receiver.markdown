@@ -84,15 +84,29 @@ PBEACON sendto=IG delay=0:30 every=30:00 symbol=/- lat=[lat] long=[lon] alt=[alt
 IGTXLIMIT 6 10
 ```
 
-You can then plug them both together on the command-line, leave it for a while, and make sure you receive some messages! (I use `-t 0` in Direwolf's command-line to remove the colours and flashing effect it has by default.)
+You can then plug them both together on the command-line, leave it for a while, and make sure you receive some messages! (I use `-t 0` in Direwolf's command-line to remove the colours and flashing effect it has by default, and `-A 10` to print out some audio debug information every 10 seconds.)
 
 ```bash
-rtl_fm -d 1 -M fm -f 144.80M -s 24000 - | direwolf -t 0
+rtl_fm -d 1 -M fm -f 144.80M -s 24000 - | direwolf -t 0 -A 10
 ```
 
 ### Checking the Received Messages
 
 Direwolf's command-line output is very useful in that it decodes the messages into a human-readable format, so when you run the command above, you should after a while see some information being printed out. (If you don't, check to see if there's any actual APRS activity in your area! It may just be quiet at the moment where you live. Check [aprs.fi](https://aprs.fi), and use your RTL-SDR with software like SDR# to monitor the frequency.)
+
+The command-line use of `-A 10` adds audio debugging to the output, so every 10 seconds you should see a line like this:
+
+```
+ADEVICE0: Sample rate approx. 24.0 k, 0 errors, receive audio level CH0 74
+```
+
+You want the value at the end of the line to be between 30 & 150 to give Direwolf the best chance of decoding messages. I found the best performance was obtained by turning `rtl_fm`'s automatic gain control off, manually setting it to 31, and adding oversampling to the output. The complete command line to run `rtl_fm` and Direwolf together is therefore:
+
+```bash
+rtl_fm -d 1 -M fm -f 144.80M -o 4 -g 31 -s 24000 - | direwolf -t 0
+```
+
+Your device may perform slightly differently and need different values.
 
 Direwolf supports two TCP-based protocols for connecting other software, KISS and AGW. Plane/Sailing Server will use KISS, by default on port 8001 as we set up in the config above. You can make sure some data is coming out of that port using netcat, e.g. `nc 127.0.0.1 8001`, and every time Direwolf prints some information about an incoming message, some data should appear in netcat. However, it will be binary data so impossible to read by eye. That's OK&mdash;it's working as intended!
 
@@ -102,7 +116,7 @@ To run this combination on startup, I created a file at `/home/pi/direwolf.sh` w
 
 ```bash
 #!/bin/bash
-rtl_fm -d 1 -M fm -f 144.80M -s 24000 - | direwolf -t 0
+rtl_fm -d 1 -M fm -f 144.80M -o 4 -g 31 -s 24000 - | direwolf -t 0
 ```
 
 Then `/etc/systemd/system/direwolf.service` as follows:
