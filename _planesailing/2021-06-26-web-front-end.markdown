@@ -19,15 +19,18 @@ Version 1 provided a more limited set of options and no track table:
 ![Plane/Sailing v1 Interface](/hardware/planesailing/ui.png){: .center}
 *Plane/Sailing v1*
 
-Version 2 re-added UMID1090's track table, and brought across a few extra configuration options.
+Version 2 re-added UMID1090's track table, and brought across a few extra configuration options, along with the major rewrite in order to have it communicate with a dedicated back-end Plane/Sailing server rather than directly accessing data within Dump1090 and AIS Dispatcher.
 
 ![Plane/Sailing v2 Interface](/hardware/planesailing/ui2.png){: .center}
 *Plane/Sailing v2*
 
-Version 2.1 made some slight improvements to the GUI, and made more server telemetry available.
+Subsequent minor versions have improved the UI and added more features, such as selectable background layers and overlays, classifying targets, and accessing server telemetry.
 
 ![Plane/Sailing v2.1 Interface](/hardware/planesailing/ui2.1.png){: .center}
 *Plane/Sailing v2.1*
+
+![Plane/Sailing v2.3 Interface](/hardware/planesailing/ui2.3.png){: .center}
+*Plane/Sailing v2.3*
 
 [Source code is available on Github](https://github.com/ianrenton/planesailing) and is in the public domain.
 
