@@ -29,7 +29,7 @@ The AIS performance of my setup is much less impressive, for the simple reason t
 
 However, I thought I'd give it a try anyway. I used a [Diamond X-50 antenna](https://www.nevadaradio.co.uk/product/diamond-x-50/), which has internal elements tuned for both the 2m and 70cm bands and thus can be used for general hamming when not in use as an AIS tracker. I re-used the stock RTL-SDR tuner to receive the AIS signals.
 
-Performance is, to be honest, poor&mdash;but I wasn't expecting great things. I have since added an [Uputronics AIS filtered pre-amp](https://store.uputronics.com/index.php?route=product/product&product_id=93) to the receiver but any increase in performance has been modest&mdash;there really is no cheating the laws of physics. However, I regularly get some packets off 4-5 ships on a bad day, up to 20-30 on a nice summer day, so it's good enough for me.
+Performance is, to be honest, poor&mdash;but I wasn't expecting great things. I have tried adding a [Uputronics AIS filtered pre-amp](https://store.uputronics.com/index.php?route=product/product&product_id=93) to the receiver but any increase in performance has been modest at best&mdash;there really is no cheating the laws of physics. When building the electronics enclosure for the project, I chose not to include this. With or without it, I regularly get some packets off 4-5 ships on a bad day, up to 20-30 on a nice summer day, so it's good enough for me.
 
 ## APRS Receiver
 

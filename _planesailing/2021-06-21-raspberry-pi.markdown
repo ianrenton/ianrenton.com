@@ -34,6 +34,8 @@ With the addition of a cheap USB hub, it's time to start attaching RTL-SDR dongl
 
 ### Current Draw
 
-Knowing that both the Raspberry Pi 4 and RTL-SDR dongles can be quite power hungry, I have added an in-line USB current meter to the build that will allow me to monitor and check that the current and voltage stay within bounds. With the Pi, three RTL-SDR dongles and a AIS pre-amp all powered from the same supply, Plane/Sailing reaches around 1.6A of current draw and voltage remains above 4.8V, so with my 3A power supply the system seems happy.
+Knowing that both the Raspberry Pi 4 and RTL-SDR dongles can be quite power hungry, I used an [in-line USB current meter](https://www.amazon.co.uk/Voltage-Multimeter-Voltmeter-Ammeter-Multifunction/dp/B07GTDRVDM/) to monitor and check that the current and voltage stay within bounds. With the Pi, three RTL-SDR dongles and the AIS pre-amp all powered from the same supply, Plane/Sailing reaches around 1.6A of current draw and voltage remains above 4.8V, so with my 3A power supply the system seems happy.
 
 ![USB tester](/hardware/planesailing/currentdraw.jpg){: .center}
+
+I originally wanted to include this current meter as part of the Plane/Sailing electronics enclosure, but given that both current draw and temperature proved relatively stable, I kept it for testing on other future projects instead.

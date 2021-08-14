@@ -35,23 +35,21 @@ For the electronics enclosure, to take it from a messy desk setup to a nice self
 
 | Part                              | Purchase Link        | Quantity  | Cost (GBP)/ea | Cost (GBP) |
 |---------------------------------  |--------------------  |---------- |-------------- |----------- |
-| Aluminium Enclosure 270x200x80mm  | [Amazon][21]         | 1         | 34.98         | 34.98      |
+| 50mm high Eurocard Enclosure      | [CPC][21]            | 1         | 22.50         | 22.50      |
 | USB C Panel Mount Connector       | [Amazon][22]         | 1         | 14.48         | 14.48      |
 | RJ45 Panel Mount Connector        | [Amazon][23]         | 1         | 5.83          | 5.83       |
 | Raspberry Pi 4 Heat Sink Case     | [Amazon][24]         | 1         | 12.99         | 12.99      |
-| USB C Tester                      | [Amazon][25]         | 1         | 14.99         | 14.99      |
-| USB C Cable                       | [Amazon][26]         | 1         | 5.57          | 5.57       |
-| USB C Female-Female Adapter       | [Amazon][27]         | 1         | 6.99          | 6.99       |
-| Ethernet Cable                    | [Amazon][28]         | 1         | 2.99          | 2.99       |
-| Cable Ties & Adhesive Mounts      | [Amazon][29]         | 1         | 5.99          | 5.99       |
-| Thermal Adhesive Tape             | [Amazon][30]         | 1         | 10.99         | 10.99      |
+| USB C Right-Angle Adapter         | [Amazon][25]         | 1         | 6.99          | 6.99       |
+| Ethernet Cable                    | [Amazon][26]         | 1         | 2.99          | 2.99       |
+| Cable Ties & Adhesive Mounts      | [Amazon][27]         | 1         | 5.99          | 5.99       |
+| Thermal Adhesive Tape             | [Amazon][28]         | 1         | 10.99         | 10.99      |
 |---------------------------------  |--------------------  |---------- |-------------- |----------- |
-|                                   |                      |           | **TOTAL**     | **115.80** |
+|                                   |                      |           | **TOTAL**     | **82.76**  |
 
 Again if you are recreating this, you have plenty of cost saving options:
 
-1. The extra USB C male-male cable and female-female adapter are just to work around the unfortunate orientation of the USB C tester. If you're not using the tester you don't need those either.
-2. If you're not using wired ethernet you can skip the RJ45 panel mount connector and cable. WiFi may be bad inside the metal box, but you could use the spare USB-A socket on the USB panel mount connector to bring a WiFi dongle to the outside of the box.
+1. As discussed in on the [electronics enclosure page](/hardware/planesailing/electronics-enclosure), the chosen enclosure is not that big and very fiddly due to the lack of a removable lid. You may want to investigate different enclosure options and find one that works better for you.
+2. If you're not using wired ethernet you can skip the RJ45 panel mount connector and cable. WiFi may be bad inside the metal box, but you can use the spare USB-A socket on the USB panel mount connector to bring a WiFi dongle to the outside of the box.
 3. The cable ties and thermal tape are massive quantities compared to what's needed, but they are the most cost-effective ways I found to buy them. If you're in the UK I will happily post you some as I now have a lifetime's supply!
 
 
@@ -67,13 +65,11 @@ Again if you are recreating this, you have plenty of cost saving options:
 [10]: https://thepihut.com/collections/raspberry-pi-power-supplies/products/raspberry-pi-psu-uk
 [11]: https://www.amazon.co.uk/Kingston-microSD-SDCS2-Adapter-Included/dp/B07YGZQ4H8/ref=sr_1_9?dchild=1&keywords=microsd&qid=1627920412&sr=8-9
 
-[21]: https://www.amazon.co.uk/270x200x80mm-Professional-Aluminium-Enclosure-Electronic/dp/B07D8VRDV6/
+[21]: https://cpc.farnell.com/hammond/1455t2202bk/extruded-enclosure-black/dp/EN84361?ost=1455t2202bk
 [22]: https://www.amazon.co.uk/Duttek-USB2-0-Female-Extension-Motorcycle/dp/B08LVRMY7K/
 [23]: https://www.amazon.co.uk/luosh-Connector-Ethernet-Extension-Interface/dp/B08GYGHYFC/
 [24]: https://www.amazon.co.uk/Geekworm-Raspberry-Enclosure-Dissipation-fan-Black/dp/B07VD5L1VY/
-[25]: https://www.amazon.co.uk/Voltage-Multimeter-Voltmeter-Ammeter-Multifunction/dp/B07GTDRVDM/
-[26]: https://www.amazon.co.uk/AmazonBasics-USB-Type-C-2-0-Cable/dp/B01LONPUM4/
-[27]: https://www.amazon.co.uk/Cellularize-Extension-Extender-Connector-Nintendo/dp/B07S292X2V/
-[28]: https://www.amazon.co.uk/C2G-Booted-Unshielded-Network-Patch-Black/dp/B00H7CPXEW/
-[29]: https://www.amazon.co.uk/Adhesive-Self-Locking-Mounting-Organizer-Management/dp/B08Q31X748/
-[30]: https://www.amazon.co.uk/GCCL-Thermal-Adhesive-Compound-Conductive/dp/B08H7QFN4J/
+[25]: https://www.amazon.co.uk/Adapter-Cellularize-Degree-Extension-Nintendo/dp/B07M75JXS1/
+[26]: https://www.amazon.co.uk/C2G-Booted-Unshielded-Network-Patch-Black/dp/B00H7CPXEW/
+[27]: https://www.amazon.co.uk/Adhesive-Self-Locking-Mounting-Organizer-Management/dp/B08Q31X748/
+[28]: https://www.amazon.co.uk/GCCL-Thermal-Adhesive-Compound-Conductive/dp/B08H7QFN4J/
