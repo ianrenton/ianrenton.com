@@ -6,7 +6,7 @@ comments: false
 ---
 
 <p>A bunch of my best photos over the years&mdash;or at least the few I'm not embarassed of!</p>
-<p style="margin-top: 2em">
+<div id="photographyindexwrapper">
   {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
   {% for photo_page in photo_pages reversed %}
     <div class="photographyindexcontainer">
@@ -16,4 +16,4 @@ comments: false
       </a>
     </div>
   {% endfor %}
-</p>
+</div>

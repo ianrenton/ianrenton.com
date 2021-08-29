@@ -1,14 +1,27 @@
 /* Styles specific to photography pages */
 
+div#photographyindexwrapper {
+  margin-top: 2em;
+  text-align: center;
+}
+
 div.photographyindexcontainer {
   display: inline-block;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
   margin-bottom: 2em;
   box-shadow: 0px 0px 15px black;
   border: 3px solid white;
 
   > a {
     text-decoration: none;
+  }
+}
+
+/* No left/right floating images on mobile */
+@include media-query($on-palm) {
+  div.photographyindexcontainer {
+    margin-right: 0;
   }
 }
 
@@ -44,7 +57,8 @@ div.photographyindextext {
 
 img.galleryphoto {
   box-shadow: 0px 0px 15px black;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   margin-bottom: 1em;
   max-height: 280px;
 }
