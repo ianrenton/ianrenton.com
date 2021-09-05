@@ -35,8 +35,14 @@ div#homepagebanner {
     h2 {
       font-size: 26px;
       font-weight: 400;
+      font-style: italic;
     }
 
+    p {
+      hyphens: none;
+      -webkit-hyphens: none;
+      -moz-hyphens: none;
+    }
   }
 
   p#personallinks {
