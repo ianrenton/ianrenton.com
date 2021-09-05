@@ -1,0 +1,6 @@
+_id: c0a7b1e0-0e54-11ec-9f61-015c40dd790e
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: James
+email: ''
+message: "Hi, many thanks for the really useful article. I've installed 20.04.1 on a Linx 1010B, but mouse gestures are not working, only single/double primary click, and drag. The simulated secondary click option doesn't work either (I'm aware of the precision issue but you indicated this was only on older versions).\r\nI'm wondering what the difference is as I've used exactly the same hardware and software as in the article, and presumably this wasn't a problem for you?\r\nAny suggestions for enabling mouse gestures or confirming the touchscreen type? lspci and lsusb don't list anything that looks like a touchscreen. I've tried 20.04.3 but had the same problem. Thanks again."
+date: '2021-09-05T14:22:52.006Z'
