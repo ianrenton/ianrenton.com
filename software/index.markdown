@@ -25,34 +25,26 @@ This page is an index of various bits of software I've written in my spare time.
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
-<a href="http://ianrenton.github.io/canicallit/"><img src="/images/cici.png" alt="Can I Call It...?" /></a>
-</div>
-<div class="table-col table-col-descrip">
-<a href="http://ianrenton.github.io/canicallit/">"Can I Call It...?"</a> is a utility that helps you name your new software project, by checking for any existing software packages that already have that name.
-</div>
-<div class="clear"></div>
-
-<div class="table-col table-col-pic">
-<a href="http://ianrenton.github.io/DailyPromise/"><img src="/images/dailypromise.png" alt="Daily Promise" /></a>
-</div>
-<div class="table-col table-col-descrip">
-<a href="http://ianrenton.github.io/DailyPromise/">Daily Promise</a> is a "1-bit" activity tracker that allows you to make "promises" and keep track of how many days in a row you kept them.
-</div>
-<div class="clear"></div>
-
-<div class="table-col table-col-pic">
-<a href="http://ianrenton.github.io/athousandwords/"><img src="/images/1kw.png" alt="A Thousand Words" /></a>
-</div>
-<div class="table-col table-col-descrip">
-<a href="http://ianrenton.github.io/athousandwords/">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
-</div>
-<div class="clear"></div>
-
-<div class="table-col table-col-pic">
 <a href="https://github.com/ianrenton/Skyblock-Bazaar-Flipping-Calculator"><img src="/software/bazaarflip.png" alt="Hypixel Skyblock Bazaar Flipping Calculator" /></a>
 </div>
 <div class="table-col table-col-descrip">
 The <a href="https://github.com/ianrenton/Skyblock-Bazaar-Flipping-Calculator">Hypixel Skyblock Bazaar Flipping Calculator</a> helps you make stonks by flipping items in the Skyblock bazaar on the Hypixel Minecraft server.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="https://github.com/ianrenton/wspr_crt"><img src="/images/wsprcrt.png" alt="WSPRnet INFORMATION SYSTEM" /></a>
+</div>
+<div class="table-col table-col-descrip">
+The <a href="https://github.com/ianrenton/wspr_crt">WSPRnet Information System</a> is a prototype for a display of WSPRnet data with an 80s-style user interface. It currently only shows pre-canned data but will be implemented properly with live data when time allows.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="http://ianrenton.github.io/canicallit/"><img src="/images/cici.png" alt="Can I Call It...?" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="http://ianrenton.github.io/canicallit/">"Can I Call It...?"</a> is a utility that helps you name your new software project, by checking for any existing software packages that already have that name.
 </div>
 <div class="clear"></div>
 
@@ -229,6 +221,22 @@ My first Python project was a simple <a href="https://ianrenton.github.io/RPGDic
 </div>
 <div class="table-col table-col-descrip">
 <a href="https://github.com/ianrenton/SuccessWhale/">SuccessWhale</a> was a multi-column Twitter (and formerly Facebook) client. The frontend ran in Javascript, with a separate repository for the <a href="https://github.com/ianrenton/successwhale-api/">backend API</a> which was written in Ruby and supports third-party clients. It is now non-functional due to API changes at Twitter and Facebook, and seeking other maintainers if anyone is interested.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="http://ianrenton.github.io/DailyPromise/"><img src="/images/dailypromise.png" alt="Daily Promise" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="http://ianrenton.github.io/DailyPromise/">Daily Promise</a> was a "1-bit" activity tracker that allows you to make "promises" and keep track of how many days in a row you kept them.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
+<a href="http://ianrenton.github.io/athousandwords/"><img src="/images/1kw.png" alt="A Thousand Words" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="http://ianrenton.github.io/athousandwords/">A Thousand Words</a> was an attempt at a fiction-writing community where contributors would post a photo and encourage others to use it as an idea for short stories.
 </div>
 <div class="clear"></div>
 
