@@ -34,93 +34,88 @@
 
 /* Windows */
 .window {
-    margin-bottom: $spacing-unit;
-    padding: 4px;
-    background-color: white;
-    box-shadow:
-        inset 0 0 0 1px black,
-        inset 0 0 0 3px lightgrey,
-        inset 0 0 0 4px black;
+  position: relative;
+  z-index: 2;
+  display: table;
+  min-width: 400px;
+  max-width: 80%;
+  margin: 0 auto;
+  border: 1px solid #111;
+  background: #fff;
+  box-shadow: 1px 1px #111;
 }
 
-.windowheader {
-    background-color: lightgrey;
-    color: black;
-    border-bottom: 1px solid black;
-    font-family: $ui-font-family;
-    font-size: 14px;
-    height: 20px; 
+@include media-query($on-palm) {
+  .window {
+    max-width: 99%;
+  }
 }
 
-.selectedwindow .windowheader {
-    background-color: darkblue;
-    color: white;
+.title {
+  max-height: 20px;
+  overflow: none;
+  text-align: center;
+  font-size: 12px;
+  font-family: $title-font-family;
+  font-weight: normal;
+  padding: 1px 0;
+  margin: 1px 0 0 0;
+  border-bottom: 1px solid #111;
+  background-color: #f0f0f0;
+  box-shadow: inset 1px -3px 0px -2px #a8a9b6;
+  background: url("../images/lines.png") repeat;
 }
 
-.windowtitle {
-    padding: 2px;
-    line-height: 16px;
-    text-align: center;
-    cursor: default;
-
-    > a {
-        color: white;
-        text-decoration: none;
-    }
+.closebox {
+  float: left;
+  padding: 1px;
+  margin: 4px;
+  background-color: #d1d2e3;
+  border-top: 1px solid #38394a;
+  border-left: 1px solid #38394a;
+  box-shadow: 0 0 0px 1px #f0f0f0;
 }
 
-.windowclose {
-    float: left;
-    display: inline-block;
-    width: 15px;
-    height: 19px;
-    line-height: 18px;
-    padding: 0 0 1px 5px;
-    background-color: lightgrey;
-    border-right: 1px solid black;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 1px 1px darkgrey;
-    cursor: default;
+.closebox-link {
+  display: block;
+  height: 8px;
+  width: 8px;
+  background-color: #a2a5ae;
+  border-bottom: 1px solid #38394a;
+  border-right: 1px solid #38394a;
+  text-indent: -99999em;
 }
 
-.windowmenubar {
-    background-color: white;
-    border-bottom: 1px solid black;
-    font-size: 14px;
-    height: 12px;
-    padding: 4px;
-    line-height: 16px;
-    cursor: default;
+.closebox-link:hover {
+  background-color: #ccc;
 }
 
-.windowclose::before {
-    content: '-';
+.maxbox {
+  float: right;
+  padding: 1px;
+  margin: 4px;
+  background-color: #d1d2e3;
+  border-top: 1px solid #38394a;
+  border-left: 1px solid #38394a;
+  box-shadow: 0 0 0px 1px #f0f0f0;
 }
 
-.ui-icon-gripsmall-diagonal-se {
-    background-image: none !important;
+.maxbox-link {
+  height: 8px;
+  width: 8px;
+  background-color: #a2a5ae;
+  border-bottom: 1px solid #38394a;
+  border-right: 1px solid #38394a;
 }
 
-/* Window contents */
-.windowinner {
-    height: calc(100% - 21px);
-    width: 100%;
-    overflow: hidden;
-}
-.windowmenubar + .windowinner {
-    height: calc(100% - 42px) !important;
-}
-
-.fullwindowhtml {
-    padding: 0px 8px;
-}
-
-.paddedwindowhtml {
-    padding: 16px 16px;
+.maxbox-link:before {
+  height: 5px;
+  width: 5px;
+  border-bottom: 1px solid #38394a;
+  border-right: 1px solid #38394a;
+  background-color: #a2a4ae;
+  display: block;
+  content: "";
 }
 
 /* Icons */
@@ -128,18 +123,12 @@
     display: inline-block;
     margin: 10px;
     text-align: center;
-    font-family: $ui-font-family;
 }
 
 .icon p {
     display: block;
     margin: 5px auto 0 auto;
     padding: 2px;
-}
-
-.icon p.highlight {
-    background-color: darkblue;
-    color: white;
 }
 
 /* Clear fix */

@@ -17,7 +17,7 @@ $tiny-font-size:  $base-font-size * 0.8;
 
 /* Colours */
 $text-color:       black;
-$background-color: #00ADAC;
+$background-color: #929292;
 $brand-color:      darkblue;
 $grey-color:       lightgrey;
 $grey-color-light: lighten($grey-color, 40%);
@@ -27,20 +27,18 @@ $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
 
 /* Fonts */
-$base-font-family: "Arial", sans-serif;
-$text-font-family: "Arial", sans-serif;
-$ui-font-family: "WinThreeOne", "Arial", sans-serif;
-$code-font-family: "DOS", monospace;
+$base-font-family: "NuSans", sans-serif;
+$text-font-family: "NuSans", sans-serif;
+$title-font-family: "virtue", sans-serif;
+$code-font-family: monospace;
 
 @font-face {
-    font-family: 'WinThreeOne';
-    src: url('w95fa.woff2') format('woff2'),
-         url('w95fa.woff') format('woff');
+  font-family: 'virtue';
+  src: url('virtue.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'DOS';
-    src: url('LessPerfectDOSVGA.woff2') format('woff2'),
-         url('LessPerfectDOSVGA.woff') format('woff');
+  font-family: 'NuSans';
+  src: url('NuSansDm.ttf') format('truetype');
 }
 
 /* Mixins */

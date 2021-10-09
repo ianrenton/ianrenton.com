@@ -3,7 +3,6 @@
     min-height: $header-footer-height;
     margin-bottom: $spacing-unit;
     margin-top: $spacing-unit / 2;
-    font-weight: bold;
 }
 
 .site-title {
@@ -29,7 +28,6 @@ a.icon {
     > p {
       display: block;
       margin: 5px auto 0 auto;
-      font-size: $tiny-font-size;
       color: $text-color;
       text-align: center;
 
