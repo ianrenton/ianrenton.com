@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% assign num = page.photos.size %}
+
+<div class="page-content">
+  <div class="wrapper">
+
+    <header class="post-header">
+      <h3 class="backtocollectionindex"><a href="/photography/">« Photography</a></h3>
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+  </div>
+
+  <div class="photosetwrapper">
+      {% for i in (1..num) %}
+        <a href="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/{{ i }}.jpg"><img class="galleryphoto" src="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}"></a>
+      {% endfor %}
+  </div>
+
+  <div class="wrapper">
+    <p><a href="/photography/">« Back to Photography Index</a></p>
+  </div>
+</div>
+
+{% include comments.html %}

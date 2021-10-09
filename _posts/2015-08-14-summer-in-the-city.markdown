@@ -43,11 +43,11 @@ Lunch is the traditional zoo fare of fried junk and sugary drinks, served somewh
 
 Having seen our first real-life pandas and polar bears, we escape with only one new cuddly toy and an expensive trip through the nearby air-conditioned Lindt store. It was worth the money just to stand in there for fifteen minutes.
 
-Having filled up on Schnitzel for previous dinners and found ourselves too full for pudding, we decide on a different plan for dinner tonight. Our main course is Sachertorte; our dessert is apple strudel. All goes well until Eric and Joseph decide they need savoury food instead, leaving me to mop up the rest of their uneaten puddings. Today has not been an exemplary "being an adult" day.
+Having filled up on Schnitzel for previous dinners and found ourselves too full for pudding, we decide on a different plan for dinner tonight. Our main course is Sachertorte; our dessert is apple strudel. All goes well until the others decide they need savoury food instead, leaving me to mop up the rest of their uneaten puddings. Today has not been an exemplary "being an adult" day.
 
 ## Thursday
 
-Somehow I miss the six o'clock start of the masonry drilling, only to be thrust into consciousness at seven by a fire engine blaring its horn down the street outside. The night was better for the adults but worse for Joseph, and I can tell the short hot nights are starting to take their toll on him.
+Somehow I miss the six o'clock start of the masonry drilling, only to be thrust into consciousness at seven by a fire engine blaring its horn down the street outside. The night was better for the adults but worse for the child, and I can tell the short hot nights are starting to take their toll.
 
 ![](/blog/2015/danube.jpg){: .center}
 
@@ -59,7 +59,7 @@ We round the evening off with an obscenely expensive carriage ride around Vienna
 
 ## Friday
 
-Our final day is a day of calm; of lounging around the hotel room until checkout time; slowly winding our way towards the airport and the plane that would take us home. Joseph is exhausted, and any actual activities would be a write-off.
+Our final day is a day of calm; of lounging around the hotel room until checkout time; slowly winding our way towards the airport and the plane that would take us home. We are exhausted, and any actual activities would be a write-off.
 
 ![](/blog/2015/britain.jpg){: .center}
 

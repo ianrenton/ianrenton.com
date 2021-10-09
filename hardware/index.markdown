@@ -94,3 +94,11 @@ My <a href="/blog/fun-with-playbulb/">"Fun with Playbulb"</a> post includes exam
 </div>
 <div class="clear"></div>
 
+<div class="table-col table-col-pic">
+<a href="./catscarer/"><img src="/images/catscarer.jpg" width="160" alt="Over-Engineered Cat Deterrent" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="./catscarer/">Over-Engineered Cat Deterrent</a> is currently just a few sketches, from which I might build something eventually.
+</div>
+<div class="clear"></div>
+

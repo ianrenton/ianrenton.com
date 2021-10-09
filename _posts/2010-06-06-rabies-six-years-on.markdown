@@ -44,7 +44,7 @@ I had no imminent leaving to forget that year.  But as a father-to-be with a bra
 As the now increasingly inaccurate RABIES 4 approached, a thread appeared on the Games Society forum asking what on earth "RABIES" stood for.  It dawned on me then: _they don't know who Racheet and Andy are_.  Three years had passed.  Those graduating that year could have spent three whole years of University life in the time since we'd said goodbye to those two.
 
 [![RABIES 4](/blog/2010/06/RABIES4-2-300x225.jpg){: .right}](/blog/2010/06/RABIES4-2.jpg)
-And when I arrived, people clustered around me, asking how I was, bemoaning how long it had been since we'd last met, asking how my job was, how my son was.  I was old.
+And when I arrived, people clustered around me, asking how I was, bemoaning how long it had been since we'd last met, asking how my job was, how my family was.  I was old.
 
 New traditions were born here -- the location moved once more, though the barbecues remained.  It was here that the dubious tradition of "Shirtless O'Clock" was born, and where our fondness for fire staves and poi blossomed into fire-swords, fire-chucks and the fire-naginata.  Truly, it was a new generation of drunken recklessness!
 

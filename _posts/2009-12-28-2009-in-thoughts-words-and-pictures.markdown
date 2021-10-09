@@ -19,7 +19,7 @@ It is a very strange feeling indeed to increasingly shuffle towards adulthood wh
 
 [![Snow in Bournemouth Gardens, February](/blog/2009/12/review-feb-300x225.jpg)](/blog/2009/12/review-feb.jpg)
 
-2009's beginning feels like an eternity ago now, even though events of 2008 seem like they happened only yesterday.      As the year began, Joseph's speech was just starting to change from baby-speak into proper language, and yet now I can barely imagine him in a state in which he couldn't speak in multi-word sentences.  A cake was baked for Eric's birthday, we tried to go to a zoo and failed, so went to the aquarium on a damp January day instead.  We celebrated Obama's election as President of the USA, a presidency that started full of promise for the world like no other we'd known.  And with that a mild January gave way to a frozen February, icing up the roads and making us trudge to work through inches of hard-packed snow.  I worked on software I barely remember, and dreamed of fulfilling my ever-present wanderlust.
+2009's beginning feels like an eternity ago now, even though events of 2008 seem like they happened only yesterday. A mild January gave way to a frozen February, icing up the roads and making us trudge to work through inches of hard-packed snow.  I worked on software I barely remember, and dreamed of fulfilling my ever-present wanderlust.
 
 Little did I know that that feeling would be squashed sooner and much more impressively than I could have imagined.  In March, and again in May, I traveled farther across the world and across cultures than I ever had before.  As I blogged from the plane on my first trip out:
 
@@ -51,13 +51,7 @@ Back in the UK, August kicked off a splurge of commitment to personal projects, 
 
 [![The Adventuring Party, August](/blog/2009/12/review-aug-300x200.jpg)](/blog/2009/12/review-aug.jpg)
 
-The month ended with Joseph's second birthday.  Now a year since his first unaided steps, he now has no problem walking, running, jumping, sliding, and hiking for what probably totaled several miles, as his birthday visit to Honeybrook Farm proved well.
-
-Around that time we also started getting in touch more often with Pete, probably the most rarely-remembered of the Soton Kiddies.  He turned up as our official photographer (and provider of transport) for Joseph's birthday, and has probably been the Soton Kiddie we've seen most of this year.
-
-[![Joseph in Christchurch, September](/blog/2009/12/review-oct-200x300.jpg)](/blog/2009/12/review-oct.jpg)
-
-In September and on into October, the world around us grew cold once more.  Days were spent on trips with Joseph, exploring and photographing more of the county now that he no longer requires an afternoon nap and all the associated infrastructure.  Possibly that's the best bit of toddlers' development - as time goes by they need less special consideration and fewer bags of Baby Stuff.  First goes the pram, then the bottles, the jars of baby food, the pushchair, and one day, at long last, the nappies.
+In September and on into October, the world around us grew cold once more.  Days were spent on trips, exploring and photographing more of the county now that our kid no longer requires an afternoon nap and all the associated infrastructure.  Possibly that's the best bit of toddlers' development - as time goes by they need less special consideration and fewer bags of Baby Stuff.  First goes the pram, then the bottles, the jars of baby food, the pushchair, and one day, at long last, the nappies.
 
 Also in October, I leaped aboard the Guardian vs. Carter-Ruck bandwagon as it stormed through Twitter and blogs, and moved my own website from Drupal to Wordpress, an achievement that did not come without a loss of both hair and post metadata.  My branch of my company got sold - to the Germans, so I guess I now do U-Boats for a living.  Apart from the traditional recycling of middle management, very little has changed.
 
@@ -70,8 +64,6 @@ Through all that I churned out three short stories, which marks my only literary
 And so the year rolled around to December once again.  As the weather closed in and ice coated the streets, we hung our Christmas decorations and prepared for the Christmas Onslaught.  This year came with even more celebration than normal - Christmas Eve and Christmas Day with the in-laws in Guildford, followed by Boxing Day with my family back in Bournemouth.  Today was a brief respite before the descent of Southampton and ex-Southampton geeks tomorrow for Christmas #4, and then at last Christmas #5 with my family again next Sunday.  
 
 Then down will come the decorations, on will go our scarves and coats, and it will be January once again.
-
-[![Joseph vs Grandad's Face, December](/blog/2009/12/review-dec-300x274.jpg)](/blog/2009/12/review-dec.jpg)  
 
 [![Christmas Dinner with the In-Laws, December](/blog/2009/12/review-dec2-300x200.jpg)](/blog/2009/12/review-dec2.jpg)
 

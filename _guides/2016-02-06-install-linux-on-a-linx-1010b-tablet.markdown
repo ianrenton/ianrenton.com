@@ -17,7 +17,7 @@ The good news is, if you just want to use the latest Ubuntu on this tablet, it�
 
 Your first decision is the distribution and version of Linux to install. My personal preference is for Ubuntu Linux and the GNOME desktop environment, as this combination seems to provide the best tablet support at the current time.
 
-As of Ubuntu 20.04.1, the latest when this page was last updated, the following all work:
+With Ubuntu 20.04.1, the following all work:
 
 *   Installation
 *   Dual-booting with Windows 10
@@ -26,20 +26,25 @@ As of Ubuntu 20.04.1, the latest when this page was last updated, the following 
 *   Sleep
 *   Screen brightness
 *   Sound
-*   WiFi (although sometimes unreliable?)
+*   WiFi (although sometimes unreliable)
 *   Bluetooth
 *   Battery level
 
-The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.1, or any OS apart from Windows.
+The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.1, or any OS apart from older versions of Windows.
 
 If you’re happy to use Ubuntu 20.04.1 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
+
+<div class="notes">
+  <p><strong>What about Ubuntu 20.10?</strong></p>
+  <p>As of the time of writing (January 2021), the latest release of Ubuntu is 20.10. However, this version seems to have a regression in terms of its support for Bay Trail tablets in the installer. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation. For this reason <strong>I still recommend installing Ubuntu 20.04.1</strong>. This is a Long Term Support release and should be fine for several years to come, but if you'd like to upgrade to 20.10, you should do that as an in-place upgrade <em>after</em> the install.</p>
+</div>
 
 ## Equipment Required
 
 To get started you will need:
 
 *   Linx 1010B tablet and charger
-*   Ubuntu Linux ISO image (20.04.1 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
+*   Ubuntu Linux ISO image (20.04.1 LTS 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
 *   A USB memory stick with at least 4GB capacity
 *   The Linx 1010B keyboard attachment, or other USB keyboard is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.
 
@@ -67,7 +72,7 @@ In Ubuntu 18.04 or later, this is now very easy as the installer understands abo
 If you’re choosing to dual-boot, choose "Install Ubuntu alongside existing operating system" when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage.
 
 <div class="warning">
-  <p><strong>Important:</strong> The only slight wrinkle is that you should <strong>not</strong> select to encrypt the disk when prompted on the formatting/partitioning screen. That’s not because of any boot problems in this configuration, but merely because there is no on-screen keyboard support on the disk unlock screen! If you set this option, you will require a keyboard every time you power on.</p>
+  <p><strong>Important:</strong> If you select advanced partitioning options, I would recommend you <strong>don't</strong> select to encrypt the disk. That’s not because of any boot problems in this configuration, but simply because there is no on-screen keyboard support on the disk unlock screen! If you set this option, you will require a keyboard every time you power on.</p>
 </div>
 
 Once installation is complete, your tablet will prompt you to reboot. It should now start up automatically into the new Ubuntu installation.
@@ -75,8 +80,9 @@ Once installation is complete, your tablet will prompt you to reboot. It should 
 ## Post-Install Usage Notes
 
 *   If you're encountering choppy scrolling, particularly noticeable in web browsers, it may be resolved by switching to Wayland as your graphics server. ([See this bug report](https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1883534).) To do that, log out, select your name on the login screen, and before entering your password click the "cogs" icon at the bottom right. Choose "Ubuntu on Wayland".
+*   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from Software Centre.
+*   If you'd like to reclaim some screen space, you can set the dock to auto-hide, or remove it entirely, also using GNOME Tweaks. It's provided by the Ubuntu Dock GNOME Shell extension. (If you remove it completely, press "Activities" in the top left to get an application menu.)
 *   It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!
-*   If you use Firefox, you may want to install the [Grab and Drag](https://addons.mozilla.org/en-GB/firefox/addon/grab-and-drag/) add-on which will improve web browsing with a touchscreen. I find Chrome/Chromium has better touch scrolling support.
 
 <div class="notes">
   <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.1 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
@@ -86,19 +92,32 @@ Once installation is complete, your tablet will prompt you to reboot. It should 
 
 ## Other Setups {#othersetups}
 
-If you want an Ubuntu version prior to 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
+If you want an Ubuntu version other than 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
 
 ![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
 
-### Other Desktop Environments
+### Other Desktop Environments {#otherdes}
 
-GNOME seems to be the best set up for tablets at this time, although it can be slow. I have spent some time with XFCE on the tablet which is much faster, but has issues with tapping-to-click in some applications, and screen rotation must be managed manually (example commands below).
+GNOME seems to be the best set up for tablets at this time, although it can be slow. If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations, which gives a slight improvement.
 
-If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations.
+I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments that have more of a traditional desktop feel, they are less demanding and therefore faster and more responsive than GNOME. However, they also don't fully cater for tablets in the way that GNOME does. None of the three support automatic rotation of the screen based on the accelerometer, or automatic rotation of touch inputs. That means you'll have to set your screen rotation to landscape manually if you want to use it in that orientation, and if you want to use the touchscreen in landscape orientation, you'll need to rotate it using the command-line scripts [shown here](#screenrotation).
+
+In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
+
+### Ubuntu 20.10
+
+Ubuntu 20.10 is a more recent release than the recommended version, 20.04.1. However, 20.10 seems to have a regression in terms of its support for Bay Trail tablets in the installer, and it does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation without a lot of hassle. For this reason I don't recommend using it yet. If you'd like to use 20.10, the recommended approach is to do this as an in-place upgrade *after* a normal install of 20.04.1 following the instructions above.
 
 ### Ubuntu 20.04
 
 I have tested Ubuntu 20.04.1 and found it to be working very well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to 20.04.
+
+### Linux Mint 20.1
+
+Mint 20.1 installs almost as well as the recommended Ubuntu 20.04.1, using the 32-bit EFI boot file trick. There are two caveats:
+
+1. While Ubuntu Live USB automatically boots into "Try Ubuntu" after a few seconds, Mint does not. You'll therefore need a physical keyboard (just to press Enter once during first boot!) If that's not possible for you, you can work around it by opening `<usb stick>:\boot\grub\grub.cfg` on the computer you used to make it, and add the line `GRUB_TIMEOUT=5`.
+2. See the note above on [Other Desktop Environments](#otherdes) regarding Cinnamon and MATE.
 
 ### Other Linux Distros
 
@@ -106,9 +125,11 @@ If you prefer Fedora, Dave H in the comments below reports that Fedora 29 with G
 
 ### Chrome OS
 
-Two varieties of Chrome OS exist for installation on generic PCs – [Arnold the Bat](https://arnoldthebat.co.uk/wordpress/chromium-os/) and [Neverware CloudReady](https://www.neverware.com/freedownload). I have had a pretty frustrating experience with Arnold the Bat’s builds, whereas CloudReady works a bit better, and provides a USB installer that "just works" without messing around with EFI files. However, its installer doesn’t support dual boot, so if you want to install it you’ll have to get rid of Windows.
+Two main builds of Chrome/Chromium OS exist for installation on generic PCs – [Arnold the Bat](https://arnoldthebat.co.uk/wordpress/chromium-os/) and [Neverware CloudReady](https://www.neverware.com/freedownload). As of January 2021, Arnold the Bat's arm 64-bit builds do boot (without any 32-bit EFI files required), but they do not recognise the tablet's WiFi adapter, or a USB WiFi adapter that I plugged in for testing. Unfortunately Chromium OS does not have a means to skip this section of the install, so I cannot test it any further.
 
-As of version 83.4.4 (August 2020), it’s usable in "laptop mode", but with the following issues (see [forum thread](https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-)). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.
+CloudReady works a bit better, and provides more drivers for generic PC hardware including the WiFi. However, note that its installer doesn’t support dual boot, so if you want to install it you’ll have to get rid of Windows.
+
+The last version of CloudReady that I tried is 87.3.41 (January 2021), which runs up fine (albeit slowly) in the USB stick environment, but does not successfully install. Prior to that I tried 83.4.4 (August 2020), which I did manage to install successfully. It's usable in "laptop mode", but with the following issues (see [forum thread](https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-)). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.
 
 *   No touchscreen support at all
 *   No orientation detection – screen needs rotating to 90 deg manually if you want to use it in landscape mode
@@ -123,6 +144,12 @@ As of version 83.4.4 (August 2020), it’s usable in "laptop mode", but with the
 The [Android x86](https://www.android-x86.org/) project allows Android to be run and installed on generic Intel hardware such as the Linx 1010B. As of their Oreo/8.1 release, this does work, but it is **very slow**! It’s just about usable for light web browsing but it can take over a minute just to get from the lock screen to the launcher. On that basis, it’s not recommended.
 
 If you want to try, you’ll need the same 32-bit EFI trick as with the standard Ubuntu instructions to get the USB stick to boot. It installs fine though and you can dual-boot with Windows. Sleep/suspend and cameras don’t work.
+
+### Windows 10
+
+As well as Linux-based operating systems, I have done several reinstalls of Windows 10 over my time playing with this tablet. While you would think Windows would provide the best experience on the tablet, as of January 2021 and Windows 10 20H2, there are several problems. Principally, the touchscreen, audio and cameras do not appear to work, despite scouring the web for suitable drivers.
+
+Since LINX have dropped support for this tablet, I don't imagine any fixes will be forthcoming. Therefore if you are intending to install an operating system from scratch, I would say that at this point Linux offers a better experience than Windows.
 
 ### Ubuntu versions earlier than 18.04
 
@@ -185,7 +212,7 @@ Now follow these steps to get GRUB set up permanently without requiring the USB 
 
 If you’re using a non-standard setup, some of the following sections might provide some useful information and code to fix problems you may have.
 
-### Screen Rotation
+### Screen Rotation {#screenrotation}
 
 If you’re using GNOME, the screen is probably rotating with tablet orientation as you would expect. If not, to rotate it, run the following commands. The first rotates the display to landscape mode, the second is required to rotate the touch input so it matches the screen.
 

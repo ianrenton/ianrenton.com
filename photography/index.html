@@ -1,0 +1,19 @@
+---
+layout: page
+title: Photography
+permalink: /photography/
+comments: false
+---
+
+<p>A bunch of my best photos over the years&mdash;or at least the few I'm not embarassed of!</p>
+<div id="photographyindexwrapper">
+  {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
+  {% for photo_page in photo_pages reversed %}
+    <div class="photographyindexcontainer">
+      <a href="{{ photo_page.url | prepend: site.baseurl }}">
+        <img class="photographyindeximage" src="{{ site.baseurl }}/photography/images/thumbs/{{ photo_page.photos.set }}.jpg"/>
+        <div class="photographyindextext">{{ photo_page.photos.set }}</div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

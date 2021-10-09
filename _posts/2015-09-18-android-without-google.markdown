@@ -24,7 +24,7 @@ Aside from what's provided in my AOSP-based CyanogenMod base software (much of w
 
 *Maps* features live traffic updates, a key feature when driving long distances to see friends and family. Although other apps have voice guided navigation (I also have [OsmAnd](http://osmand.net/) installed), I've been unable to find a free live traffic offering that matches Google's.
 
-<strike><i>YouTube</i> doesn't seem to have a decent open source client for Android, either due to legal problems or just that there's little desire for one. To cope with my son's regular desire to watch the music videos for obscure pop songs on my phone, I've had to keep this installed too.</strike>
+<strike><i>YouTube</i> doesn't seem to have a decent open source client for Android, either due to legal problems or just that there's little desire for one. To cope with my kid's regular desire to watch the music videos for obscure pop songs on my phone, I've had to keep this installed too.</strike>
 
 **EDIT:** Check out [NewPipe](https://f-droid.org/repository/browse/?fdid=org.schabi.newpipe) for a YouTube replacement!
 

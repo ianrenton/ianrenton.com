@@ -18,7 +18,7 @@ Bournemouth Gardens is packed on a sunny Sunday afternoon. Shoppers bustle past,
 
 > "That's a lot of lures, I wonder if the Gardens will be... yep." Everyone in this picture is playing Pokemon.
 
-So far today we have covered six miles in a morning and an afternoon walk, and Joseph is still keen to go out again. We have levelled up twice and caught more than a hundred Pokemon. We've heard the strange ripple of people talking about a Squirtle when one showed up, like the chatter about a PvE boss spawn weirdly transposed into real life.
+So far today we have covered six miles in a morning and an afternoon walk, and the child is still keen to go out again. We have levelled up twice and caught more than a hundred Pokemon. We've heard the strange ripple of people talking about a Squirtle when one showed up, like the chatter about a PvE boss spawn weirdly transposed into real life.
 
 We've had all kinds of conversations that result from fully half of people you pass doing exactly the same as you&mdash;the two kids whose gym we took and then felt guilty; the dad whose girls were just picking their team while they walked the dog; and the 53-year-old woman whom we taught to battle, while she showed us pictures of the Ninetales she saw but couldn't catch.
 

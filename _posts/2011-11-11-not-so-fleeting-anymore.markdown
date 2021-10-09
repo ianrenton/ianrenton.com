@@ -35,11 +35,7 @@ The eighteen-year-old spouting [bad philosophy](/blog/burning-dreams-fallen-worl
 
 Nothing is deleted anymore, nothing lost to history.  Those thoughts that I don't commit to bloggery, Twitter and Facebook keep for posterity or for marketing potential.
 
-My son is four now; it won't be too many years before he's able to browse the 'net by himself and to stumble upon his father's teenage wittering.  What will he make of the way I [cryptically tried to figure out how to reject his mother](/blog/dreaming-of-the-calm) when she first asked me out, or the [drama-tastic marker](/blog/emo-update) I placed in apology for a post I removed -- a post made when I was not exactly espousing the virtues expected of a father.
-
-![Joseph's Laptop Now.](/blog/2011/11/joseph-laptop-300x218.jpg){: .left}
-
-It's probably the kind of detail he won't want to know about my life, in much the same way as I'm happy with my lack of knowledge of my own father's young adulthood.  And, briefly, I considered deleting most of it -- the personal stuff, at least.
+It's mostly the kind of detail nobody will ever want to know about my life, and briefly, I considered deleting most of it -- the personal stuff, at least.
 
 But as I considered it, walking home in the dark, I passed the nursing home that advertises "a special neighbourhood for the memory impaired".  Should I ever get to that point, and should my family not follow my explicit instructions to pack me off to [Dignitas](http://en.wikipedia.org/wiki/Dignitas_(assisted_dying_organisation)) the minute I become a burden on them, I can't think of a better way to hold onto my memories than to have them accessible and searchable from wherever I may be.
 

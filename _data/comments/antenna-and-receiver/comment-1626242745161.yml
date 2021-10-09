@@ -1,0 +1,6 @@
+_id: 8695b7f0-e469-11eb-8b4e-9d6dde52d040
+_parent: 'https://ianrenton.com/hardware/planesailing/antenna-and-receiver/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Hi, it's good to hear from someone else doing similar things! Pretty cool that you have your own radar, do you have any details or photos of that? I'd love to do something like that in future, so long as I don't annoy the neighbours too much...\r\n\r\nI'm not sure how much processing power your radar needs from the Pi, but my setup with three lots of processing uses only ~7% CPU on a Raspberry Pi 4, so it certainly sounds feasible to do all that on one Pi."
+date: '2021-07-14T06:05:45.159Z'

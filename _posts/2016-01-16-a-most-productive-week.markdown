@@ -10,11 +10,7 @@ tags:
 - family
 ---
 
-January, it seems, has become our decorating month. Last year around this time, we finally sorted out Joseph's bedroom, replacing the magnolia and jungle theme with something more to his current taste (and much tidier).
-
-![](/blog/2016/josephroom.jpg){: .center}
-
-> Joseph's room, before and after redecoration
+January, it seems, has become our decorating month. 
 
 This year it was the turn of our bathroom and bedroom, unwisely at the same time and with both sets of parents helping.
 

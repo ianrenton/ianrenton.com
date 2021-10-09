@@ -67,5 +67,4 @@ I have summarised sections of rulebooks to help players of my games. The followi
 	<li>Changeling: The Dreaming: <a href="./ians-modified-changeling-rules">House-Ruled Character Creation</a></li>
 	<li>Nobilis: <a href="./nobilis-character-creation">Character Creation</a> • <a href="./nobilis-chancel-creation">Chancel Creation</a> • <a href="./using-miracles-in-nobilis">Miracles Explained</a></li>
 	<li>D&amp;D: <a href="./lets-fix-dd-or-house-rules-by-a-guy-who-hates-rolling-dice">Let's Fix D&amp;D (or, House Rules by a Guy who Hates Rolling Dice)</a></li>
-	<li>Lego RPG: <a href="./lego-rpg-brainstorm-1">Brainstorm 1</a></li>
 </ul>
