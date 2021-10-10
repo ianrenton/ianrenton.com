@@ -6,16 +6,16 @@ layout: default
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 
 <div class="window selectedwindow" id="homepagebanner">
-  <div class="windowheader">
-    <div class="windowclose"></div>
-    <div class="windowtitle">
+  <div class="closebox"><a class="closebox-link" href="#">Close</a></div>
+  <div class="maxbox"><div class="maxbox-link"></div></div>
+  <div class="titlebar"><h1 class="title">
       {% comment %} If the post is in a collection, display the collection name as a link {% endcomment %}
       {% if page.collection != 'posts' %}
         {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
         <a href="{{ thispagecollection.collectionindex }}">{{ thispagecollection.collectiontitle }}</a>
-      {% endif %} - {{ page.title }}</div>
+      {% endif %} - {{ page.title }}</h1></div>
   </div>
-  <div class="windowinner">
+  <div class="windowcontent">
     <div class="paddedwindowhtml">
       <div class="page-content">
 

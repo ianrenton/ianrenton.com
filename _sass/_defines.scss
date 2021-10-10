@@ -2,7 +2,7 @@
 
 /* Layout */
 $header-footer-height: 76px;
-$spacing-unit:     30px;
+$spacing-unit:     15px;
 $base-line-height: 1.4;
 $content-width:    900px;
 $wide-content-width:    1200px;
@@ -27,18 +27,14 @@ $code-text-color:  #D0D0D0;
 $code-background-color: #282828;
 
 /* Fonts */
-$base-font-family: "NuSans", sans-serif;
-$text-font-family: "NuSans", sans-serif;
+$base-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+$text-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 $title-font-family: "virtue", sans-serif;
 $code-font-family: monospace;
 
 @font-face {
   font-family: 'virtue';
   src: url('virtue.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'NuSans';
-  src: url('NuSansDm.ttf') format('truetype');
 }
 
 /* Mixins */

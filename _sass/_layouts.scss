@@ -39,7 +39,7 @@
   display: table;
   min-width: 400px;
   max-width: 80%;
-  margin: 0 auto;
+  margin: $spacing-unit auto;
   border: 1px solid #111;
   background: #fff;
   box-shadow: 1px 1px #111;
@@ -51,19 +51,30 @@
   }
 }
 
-.title {
+.titlebar {
   max-height: 20px;
+  overflow: none;
+  padding: 1px 0;
+  margin: 1px 0 0 0;
+  text-align: center;
+  border-bottom: 1px solid #111;
+  background-color: #f0f0f0;
+  box-shadow: inset 1px -3px 0px -2px #a8a9b6;
+  background: url("../images/lines.png") repeat;
+}
+
+.title {
+  display: inline-block;
+  padding: 0 0.5em;
+  margin: 0 auto;
+  position: relative;
+  top: -2px;
   overflow: none;
   text-align: center;
   font-size: 12px;
   font-family: $title-font-family;
   font-weight: normal;
-  padding: 1px 0;
-  margin: 1px 0 0 0;
-  border-bottom: 1px solid #111;
   background-color: #f0f0f0;
-  box-shadow: inset 1px -3px 0px -2px #a8a9b6;
-  background: url("../images/lines.png") repeat;
 }
 
 .closebox {
@@ -116,6 +127,10 @@
   background-color: #a2a4ae;
   display: block;
   content: "";
+}
+
+.paddedwindowhtml {
+  margin: 2em;
 }
 
 /* Icons */

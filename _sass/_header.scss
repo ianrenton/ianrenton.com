@@ -1,8 +1,6 @@
 /* Styles for the header and the menu it contains */
 .site-header {
     min-height: $header-footer-height;
-    margin-bottom: $spacing-unit;
-    margin-top: $spacing-unit / 2;
 }
 
 .site-title {
@@ -22,6 +20,7 @@
 a.icon {
     display: inline-block;
     margin: 10px 6px;
+    font-size: 12px;
     text-decoration: none;
     text-align: center;
 
@@ -38,7 +37,7 @@ a.icon {
 }
 
 a.icon:hover p span.iconname, a.icon:active p span.iconname {
-    background-color: $brand-color;
+    background-color: black;
     color: white;
 }
 
