@@ -15,7 +15,16 @@ Let's track some ships!
 
 [rtl_ais](https://github.com/dgiardini/rtl-ais) is a simple command-line utility that does the complex job of interfacing with an RTL-SDR dongle and decoding AIS data, providing it on as the standard NMEA-0183 format.
 
-There aren't any public repositories with up-to-date builds of rtl_ais for `armhf` architecture on Raspberry Pi OS/Debian Buster as far as I'm aware, so I chose to build it myself using the instructions in the Github README. To build and install `rtl_ais`:
+OpenPlotter maintains [Ubuntu packages for rtl_ais](https://launchpad.net/~sailoog/+archive/ubuntu/openplotter/+sourcepub/11585432/+listing-archive-extra), including for the `armhf` architecture which we need for the Raspberry Pi. You can download and install with e.g.:
+
+```bash
+wget https://launchpad.net/~sailoog/+archive/ubuntu/openplotter/+files/rtl-ais_0.4.2-stable_armhf.deb
+sudo dpkg -i rtl-ais_0.4.2-stable_armhf.deb
+```
+
+If the download doesn't work, visit the page and see if it's because a new version has been released.
+
+If you prefer to build `rtl_ais` from source, that's an option too:
 
 ```bash
 sudo apt install librtlsdr-dev libpthread-workqueue-dev libusb-dev
@@ -24,6 +33,12 @@ cd rtl-ais
 make
 sudo make install
 ```
+
+If the `make` throws errors, you may need to edit the `Makefile` line that begins "`LDFLAGS`" as follows:
+
+`LDFLAGS+=-lpthread -lm -lrtlsdr -L /usr/lib/arm-linux-gnueabihf/`
+
+*(Thanks to Marc for reporting this, and linking to [this page](https://pysselilivet.blogspot.com/2020/05/ais-reciever-for-raspberry-pi-2-channel.html) that provides some more detail on installing rtl_ais.)*
 
 ### Deconflicting Dongles
 
