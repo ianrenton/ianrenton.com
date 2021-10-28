@@ -5,9 +5,9 @@ slug: radio-shack
 title: Radio Shack
 ---
 
-The photo below shows my current "shack" setup. The left-hand monitor here is displaying my aircraft, ship and APRS tracker called ["Plane/Sailing"](/hardware/planesailing), while the right is showing a prototype of an 80s-style interface for WSPRnet.
+The photo below shows my current "shack" setup, set up for FT-8. On the left monitor is WSJT-X and N1MM+, and on the right monitor is GridTracker.
 
-Under the monitors from left-to-right are a Yaesu FT-840 HF transceiver, MFJ 949C antenna tuner, Nevada PS23SWI power supply, Yaesu FT-7800 VHF/UHF transceiver, and the box that contains the Plane/Sailing hardware. Largely invisible in the tangle of wires in the background are my two handhelds, a Yaesu FT-60 and a Baofeng UV-82.
+To the left of the monitors are my Yaesu FT-840 HF transceiver, MFJ 949C antenna tuner, and Signalink USB sound card. Underneath the left monitor is my Nevada PS23SWI power supply and Yaesu FT-7800 VHF/UHF transceiver. Largely invisible in the background are my two handhelds, a Yaesu FT-60 and a Baofeng UV-82, and the Plane/Sailing hardware.
 
 ![Radio Shack Setup](/hardware/radioshack/shack.jpg){: .center}
 
