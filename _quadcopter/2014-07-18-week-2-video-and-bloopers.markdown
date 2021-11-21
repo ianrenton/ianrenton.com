@@ -8,8 +8,8 @@ categories:
 
 Here's a video of the best bits from week two of flying the quadcopter:
 
-<iframe src="//player.vimeo.com/video/101125429" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/flighttestweek2.mp4" type="video/mp4"></video></center>
 
 And here's the worst bits! Complete with obligatory Yakety Sax background music.
 
-<iframe src="//player.vimeo.com/video/101131322" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/worstbits.mp4" type="video/mp4"></video></center>

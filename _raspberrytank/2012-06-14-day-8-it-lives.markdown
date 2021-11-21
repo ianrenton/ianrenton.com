@@ -43,7 +43,7 @@ Components connected, battery inserted, tank and Pi powered up.
 
 Aaaaaaand....
 
-<center><iframe src="//player.vimeo.com/video/78955489" width="500" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/motorcontrolfrompi.mp4" type="video/mp4"></video></center>
 
 It lives!
 

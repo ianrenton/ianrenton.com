@@ -31,4 +31,4 @@ It was really an amazing thing to see and be part of, and my heartfelt thanks go
 
 Here's the kids playing with our tank:
 
-<center><iframe src="//player.vimeo.com/video/91092305" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/infinitefun.mp4" type="video/mp4"></video></center>

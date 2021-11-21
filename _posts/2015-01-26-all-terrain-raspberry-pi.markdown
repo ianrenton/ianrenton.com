@@ -22,11 +22,11 @@ The result is the "All-Terrain Pi", a robot which can be controlled by smartphon
 
 Here's a video of the smartphone interface. It all runs in the web browser, with no need to install an app on the phone. Full-screen (ish) video streams from the robot's on-board camera, while speed and turning are controlled using touch and tilt controls implemented in Javascript.
 
-<center><iframe src="//player.vimeo.com/video/116594321" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/atp/firstoutdoor.mp4" type="video/mp4"></video></center>
 
 Programming in Scratch is possible too, recreating the 80s/90s Logo "Turtle" experience for a new generation. As with the smartphone interface there's a Python program behind the scenes controlling the motor driver board, but this time it receives commands via Scratch's ["Remote Sensors Protocol"](http://wiki.scratch.mit.edu/wiki/Remote_Sensors_Protocol).
 
-<center><iframe src="//player.vimeo.com/video/117524704" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/atp/scratch.mp4" type="video/mp4"></video></center>
 
 It didn't take long for my child to get into controlling the robot, both with the game-like smartphone interface and using Scratch, which he has some experience with from school. (They start programming young now!)  We took it to last weekend's [Constructorium hackerspace](http://constructorium.org) event at the library, where it was a big hit &mdash; by the end of the afternoon, he was teaching the grown-ups!
 

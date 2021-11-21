@@ -54,4 +54,4 @@ Now we're free to roam!
 
 Here's a video of its first run using the PicoBorg example GUI:
 
-<iframe src="//player.vimeo.com/video/116202120" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/atp/remotecontroltest.mp4" type="video/mp4"></video></center>

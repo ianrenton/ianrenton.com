@@ -48,4 +48,4 @@ A webcam has been added to the chassis in these pictures, though it is not yet i
 
 Here's the video of the Raspberry Tank's first day out!
 
-<center><iframe src="//player.vimeo.com/video/78955492" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/firstdayout.mp4" type="video/mp4"></video></center>

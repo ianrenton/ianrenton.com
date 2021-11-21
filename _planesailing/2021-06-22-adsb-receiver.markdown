@@ -57,3 +57,7 @@ Other community-sourced flight tracking websites offer offer their own packages 
 ### Disabling lighttpd
 
 Dump1090 includes a dependency on the Lighttpd web browser, which it uses to provide access to its web page. This runs by default on port 80 and 8080, the former of which we want to use for Plane/Sailing, and the latter is the default port used by AIS Dispatcher. [Later in the build guide](/hardware/planesailing/plane-sailing-server) we will set up Nginx as the web server on the Raspberry Pi, because we want to use its easier HTTPS setup using Let's Encrypt's Certbot&mdash;a task that is nice and easy with Nginx but a pain with Lighttpd. If you're following this guide yourself, once you're happy that Dump1090 is set up properly, you will want to disable Lighttpd before continuing. You can do that with `sudo systemctl disable lighttpd`. Don't worry, the guide also covers configuring Nginx to serve the Dump1090 pages as well.
+
+We're done with ADS-B setup!
+
+<center><video width="640" controls><source src="https://video.ianrenton.com/planesailing/RedArrows-Sax.mp4" type="video/mp4"></video></center>

@@ -8,7 +8,7 @@ categories:
 
 With the [smartphone control interface](../atp-smartphone-control) and [streaming video](../atp-video-streaming) working well, all that remains is to give the All-Terrain Pi its first run outdoors!
 
-<center><iframe src="//player.vimeo.com/video/116594321" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/atp/firstoutdoor.mp4" type="video/mp4"></video></center>
 
 The interface is very responsive, with ~100ms lag in control and ~500ms lag in the video, which runs at 320x240 @ 10fps. These are much better figures than the Raspberry Tank's interface (~1 second lag on each, 2fps) thanks to the use of WebSockets and the Raspberry Pi camera module for mjpg_streamer.
 

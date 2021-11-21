@@ -9,7 +9,7 @@ categories:
 
 On previous days, I've shown plenty of videos of the tank shot using a camera, but so far I haven't shown what it looks like on the screen of the laptop used to drive the tank. It looks a bit like this:
 
-<center><iframe src="//player.vimeo.com/video/84807725" width="500" height="231" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/adido.mp4" type="video/mp4"></video></center>
 
 The video is a screencast using the [Skiblz Cam](https://chrome.google.com/webstore/detail/pcdkccdcpolgiolpicppmooleojaacnp) Chrome extension on my ARM Chromebook. It's not the best video quality&mdash;the video feed from the tank is a little less jerky in real life&mdash;but the blur can be clearly seen, as well as the slow automatic brightness adjustment. Both of these make driving the tank in unfamiliar areas a slow and cautious process.
 

@@ -13,7 +13,9 @@ For ages I've had an old Lego Mindstorms robot sat on my desk. It's based on the
 
 ## Videos
 
-<iframe src="//player.vimeo.com/video/88391233" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <iframe src="//player.vimeo.com/video/88480999" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/legoturtle/flippers.mp4" type="video/mp4"></video></center>
+
+<center><video width="640" controls><source src="https://video.ianrenton.com/legoturtle/logo.mp4" type="video/mp4"></video></center>
 
 ## UART Programming
 

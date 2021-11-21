@@ -34,4 +34,4 @@ Fitting the Pi is a bit of a squeeze, not helped by the large WiFi antenna requi
 
 Since I've borrowed the Pi from the quadcopter, it works straight away with no extra setup&mdash;Access Point settings etc. were pre-configured. If you're following along at home, I have [instructions for this when I did it for the tank](../tank-day-22-i-occidentally-a-whole-access-point/). It was thus very simple to power up, connect to the WiFi, SSH in and send some UART commands to test the motors.
 
-<center><iframe src="https://player.vimeo.com/video/168463091?title=0&byline=0&portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/usv01/sshcontrol.mp4" type="video/mp4"></video></center>

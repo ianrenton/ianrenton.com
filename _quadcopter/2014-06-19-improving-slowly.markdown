@@ -8,7 +8,7 @@ categories:
 
 I'm slowly getting better at flying this thing. Here's a video from today:
 
-<iframe src="//player.vimeo.com/video/98681881" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/secondfreeflight.mp4" type="video/mp4"></video></center>
 
 Here's it lying wounded in the grass after all that:
 

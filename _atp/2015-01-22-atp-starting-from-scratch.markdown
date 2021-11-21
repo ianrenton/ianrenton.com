@@ -28,4 +28,4 @@ Here you can see the X-forwarded Scratch environment in the foreground, with deb
 
 Last of all, a quick video demo of a Scratch program driving the robot. The Scratch code you see in the video can also be found in my Github repository.
 
-<center><iframe src="//player.vimeo.com/video/117524704" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/atp/scratch.mp4" type="video/mp4"></video></center>

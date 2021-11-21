@@ -30,4 +30,4 @@ The boat is now ready to be tested on the water&mdash;initially, in the bath.
 
 Here's a video of the first out-of-water and in-water propulsion tests:
 
-<center><iframe src="https://player.vimeo.com/video/167553873?title=0&byline=0&portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/usv01/benchandbath.mp4" type="video/mp4"></video></center>

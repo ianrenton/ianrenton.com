@@ -12,7 +12,7 @@ redirect-from:
   - /hardware/raspberrytank
 ---
 
-The "Raspberry Tank" is a project to create an autonomous vehicle with a web interface, using a [cheap hobby RC tank](http://www.howesmodels.co.uk/RadioControl/viewProduct.php?ProdID=6782) and a [Raspberry Pi](http://www.raspberrypi.org/) computer. This page is the index to the build diary and other resources.
+The "Raspberry Tank" was a project to create an autonomous vehicle with a web interface, using a [cheap hobby RC tank](http://www.howesmodels.co.uk/RadioControl/viewProduct.php?ProdID=6782) and a [Raspberry Pi](http://www.raspberrypi.org/) computer. It was one of the first Pi-enabled toy tanks, back in 2012. This page is the index to the build diary and other resources.
 
 ![The Raspberry Tank](/hardware/raspberry-tank/rtank-withlogo.png){: .center}
 
@@ -95,18 +95,18 @@ The "Raspberry Tank" is a project to create an autonomous vehicle with a web int
 *   [Raspberry Tank: Infinite Fun!][54]
 *   [On the Firing Range][56]
 
- [27]: https://vimeo.com/78955015
- [28]: https://vimeo.com/78955490
- [29]: https://vimeo.com/78955489
- [30]: https://vimeo.com/78955492
- [31]: https://vimeo.com/78955493
- [32]: https://vimeo.com/78955496
- [33]: https://vimeo.com/79005947
- [34]: https://vimeo.com/79005948
- [35]: https://vimeo.com/79005949
- [50]: https://vimeo.com/84807725
- [54]: https://vimeo.com/91092305
- [56]: https://vimeo.com/91786149
+ [27]: https://video.ianrenton.com/raspberrytank/rctest1.mp4
+ [28]: https://video.ianrenton.com/raspberrytank/motortestofdisassembledtank.mp4
+ [29]: https://video.ianrenton.com/raspberrytank/motorcontrolfrompi.mp4
+ [30]: https://video.ianrenton.com/raspberrytank/firstdayout.mp4
+ [31]: https://video.ianrenton.com/raspberrytank/webcamtest-uvccapture.mp4
+ [32]: https://video.ianrenton.com/raspberrytank/webcamtest-mjpg-streamer.mp4
+ [33]: https://video.ianrenton.com/raspberrytank/webinterfacetest.mp4
+ [34]: https://video.ianrenton.com/raspberrytank/simpleautonomytest.mp4
+ [35]: https://video.ianrenton.com/raspberrytank/tankvscupboard.mp4
+ [50]: https://video.ianrenton.com/raspberrytank/adido.mp4
+ [54]: https://video.ianrenton.com/raspberrytank/infinitefun.mp4
+ [56]: https://video.ianrenton.com/raspberrytank/firingrange.mp4
 
 ## As featured on...
 
@@ -125,6 +125,8 @@ The "Raspberry Tank" is a project to create an autonomous vehicle with a web int
  [47]: http://www.abc.es/tecnologia/informatica-hardware/20130721/abci-raspberry-disenos-inventos-201307172128.html
 
 ## Other Awesome Raspberry Pi Robots
+
+More great robots from the early days of Raspberry Pi robotics:
 
 *   [Raspberry Tortoise][41]
 *   [FishPi][42]

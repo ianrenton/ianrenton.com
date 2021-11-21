@@ -41,10 +41,10 @@ As always, you can [download the public domain source code from my GitHub](https
 
 In the video below, the tank is having its sensors and autonomous behaviour tested on the bench:
 
-<center><iframe src="//player.vimeo.com/video/79005948" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/simpleautonomytest.mp4" type="video/mp4"></video></center>
 
 And below, it's first venture into autonomously navigating the world.
 
-<center><iframe src="//player.vimeo.com/video/79005949" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/tankvscupboard.mp4" type="video/mp4"></video></center>
 
 Well, that didn't go quite according to plan. But it is progress! Next time on the Raspberry Tank Build Diary, we'll tweak the parameters that autonomy uses and see if we can get a better result!

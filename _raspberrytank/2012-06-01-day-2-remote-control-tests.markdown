@@ -31,7 +31,7 @@ Here it is posing on the grass:
 
 And the first attempt at video from a mounted camera, which turned out... who am I kidding, it's awful. There's no sound and the tank doesn't move in the video because when it does, the camera falls off.
 
-<center><iframe src="//player.vimeo.com/video/78955490" width="500" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/rctest1.mp4" type="video/mp4"></video></center>
 
 When this thing gets its Raspberry Pi installed I'm keen to add a webcam and get it to follow a laser dot, but when that happens it will have to be a much better-secured camera!
 

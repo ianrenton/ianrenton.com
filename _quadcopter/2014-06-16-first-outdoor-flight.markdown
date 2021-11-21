@@ -12,7 +12,7 @@ On the grass:
 
 Video:
 
-<iframe src="//player.vimeo.com/video/98481526" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/firstfreeflight.mp4" type="video/mp4"></video></center>
 
 After losing control at 10m altitude:
 

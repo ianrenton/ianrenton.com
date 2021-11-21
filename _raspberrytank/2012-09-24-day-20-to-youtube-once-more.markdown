@@ -21,6 +21,6 @@ tags:
 
 With the web interface up and running, the first phase of development is complete.  To the YouTube-atron!
 
-<center><iframe src="//player.vimeo.com/video/79005947" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/webinterfacetest.mp4" type="video/mp4"></video></center>
 
 Carry on following the Raspberry Tank Build Diary as the project moves into the second phase -- the move from remote control to complete autonomy.

@@ -33,7 +33,7 @@ Yes, it also has a Raspberry Pi on it.
 16. [Improving Slowly](./improving-slowly)
 17. [Fitting New Legs](./fitting-new-legs)
 18. [Shock Mounting](./shock-mounting)
-19. [Week 2 Video & Bloopers](./week-2-video-amp-bloopers)
+19. [Week 2 Video & Bloopers](./week-2-video-and-bloopers)
 
 ## Other Stuff
 

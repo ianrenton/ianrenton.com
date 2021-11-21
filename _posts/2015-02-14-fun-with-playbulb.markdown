@@ -17,6 +17,6 @@ Despite the security problem, this does have one advantage: it's easy to get any
 
 Here's a demonstration I knocked up this morning: [mailcheck](https://github.com/ianrenton/playbulb-tools/blob/master/mailcheck/mailcheck.py). This python script checks an IMAP mailbox at a defined interval, and will set the Playbulb colour to red if there are no unread messages, or green (with a brief flash) when you have unread mail. It was inspired by similar "ambient electronic devices" such as [Nabaztag](https://en.wikipedia.org/wiki/Nabaztag). Here it is in action:
 
-<center><iframe src="//player.vimeo.com/video/119624218" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/playbulb/mailboxcheck.mp4" type="video/mp4"></video></center>
 
 It's BSD-licenced open source, so if you have a Playbulb you want to have some fun with, please take my code and use it for your own ends!

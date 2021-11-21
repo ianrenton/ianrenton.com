@@ -24,5 +24,5 @@ USV-01 "Harry Paye" is an off-the-shelf remote control boat refitted as a testbe
 
 ## Videos
 
-* [Bench & Bath Test](https://vimeo.com/167553873)
-* [WiFi/SSH Control Test](https://vimeo.com/168463091)
+* [Bench & Bath Test](https://video.ianrenton.com/usv01/benchandbath.mp4)
+* [WiFi/SSH Control Test](https://video.ianrenton.com/usv01/sshcontrol.mp4)

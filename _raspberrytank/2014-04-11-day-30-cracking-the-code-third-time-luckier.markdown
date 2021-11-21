@@ -96,7 +96,7 @@ Video
 
 Here's a video of the tank on the target range at the end of day 30, showing off remote ignition control, multiple simultaneous commands, and the newly fixed gun!
 
-<center><iframe src="//player.vimeo.com/video/91786149" width="600" height="337" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/firingrange.mp4" type="video/mp4"></video></center>
 
 
 Bonus Content!

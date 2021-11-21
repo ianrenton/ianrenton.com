@@ -18,6 +18,6 @@ RPi Control Test (screen detail):
 
 ![](/hardware/quadcopter/65.jpg)
 
-<iframe src="//player.vimeo.com/video/96413704" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/firstpicontrol.mp4" type="video/mp4"></video></center>
 
-<iframe src="//player.vimeo.com/video/96528855" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/firstkeyboardspinup.mp4" type="video/mp4"></video></center>

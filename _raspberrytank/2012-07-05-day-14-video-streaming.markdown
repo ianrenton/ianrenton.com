@@ -55,7 +55,7 @@ With that done, `mjpg-streamer` could be run by issuing the following commands (
 
 This runs a simple built-in web server on port 8080, to which we could connect and stream video:
 
-<center><iframe src="//player.vimeo.com/video/78955496" width="500" height="266" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><video width="640" controls><source src="https://video.ianrenton.com/raspberrytank/webcamtest-mjpg-streamer.mp4" type="video/mp4"></video></center>
 
 ### Step 4: Automate It
 

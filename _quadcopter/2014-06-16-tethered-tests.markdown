@@ -6,6 +6,6 @@ comments: true
 categories: 
 ---
 
-<iframe src="//player.vimeo.com/video/84987538" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/firstproptest.mp4" type="video/mp4"></video></center>
 
-<iframe src="//player.vimeo.com/video/87942240" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><video width="640" controls><source src="https://video.ianrenton.com/quadcopter/liftingturning.mp4" type="video/mp4"></video></center>
