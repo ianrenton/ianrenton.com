@@ -8,7 +8,7 @@ title: 'Changeling: In Love And War'
 wordpress_id: 907
 ---
 
-<div><p>Changeling: In Love and War is no longer being played, and all the RPoL threads are now archived here.  The final story of In Love and War can be found <a href="http://fiction.ianrenton.com/at-the-end-of-the-dream">here</a>.</p></div>
+<div><p>Changeling: In Love and War is no longer being played, and all the RPoL threads are now archived here.  The final story of In Love and War can be found <a href="/fiction/at-the-end-of-the-dream">here</a>.</p></div>
 <table border="0" cellpadding="5" cellspacing="20" width="100%">
 <tr>
 <td valign="top">
@@ -64,36 +64,37 @@ wordpress_id: 907
 <a href="../home-sweet-home-oc-chat-thread">OC Chat Thread</a></p>
 <h2>Short Stories</h2>
 <p><a href="../the-history-of-the-fair-folk">The History of the Fair Folk</a><br />
-<a href="http://fiction.ianrenton.com/the-tale-of-duchess-hydrangea">The Tale of Duchess Hydrangea</a><br />
-<a href="http://fiction.ianrenton.com/the-tale-of-indigo-something">The Tale of Indigo Something</a><br />
-<a href="http://fiction.ianrenton.com/let-the-games-begin">Let the Games Begin</a> (Intro)<br />
-<a href="http://fiction.ianrenton.com/at-the-end-of-the-dream">At the End of the Dream</a> (Finalé)</p>
+<a href="/fiction/the-tale-of-duchess-hydrangea">The Tale of Duchess Hydrangea</a><br />
+<a href="/fiction/the-tale-of-indigo-something">The Tale of Indigo Something</a><br />
+<a href="/fiction/let-the-games-begin">Let the Games Begin</a> (Intro)<br />
+<a href="/fiction/at-the-end-of-the-dream">At the End of the Dream</a> (Finalé)</p>
 <h2>Characters</h2>
 <h3>PCs</h3>
-<p><a href="http://fiction.ianrenton.com/characters/akane">Akane</a><br />
-<a href="http://fiction.ianrenton.com/characters/azimov">Azimov</a><br />
-<a href="http://fiction.ianrenton.com/characters/gustafssen">Gustafssen</a><br />
-<a href="http://fiction.ianrenton.com/characters/hugh-fearnley-whittingstall">Hugh Fearnley-Whittingstall</a><br />
-<a href="http://fiction.ianrenton.com/characters/ilandra">Ilandra</a><br />
-<a href="http://fiction.ianrenton.com/characters/nyano-sgiathatch">Nyano-Sgiathatch</a><br />
-<a href="http://fiction.ianrenton.com/characters/saledenre">Saledenre</a></p>
+<p><a href="/fiction/characters/akane">Akane</a><br />
+<a href="/fiction/characters/azimov">Azimov</a><br />
+<a href="/fiction/characters/gustafssen">Gustafssen</a><br />
+<a href="/fiction/characters/hugh-fearnley-whittingstall">Hugh Fearnley-Whittingstall</a><br />
+<a href="/fiction/characters/ilandra">Ilandra</a><br />
+<a href="/fiction/characters/nyano-sgiathatch">Nyano-Sgiathatch</a><br />
+<a href="/fiction/characters/saledenre">Saledenre</a></p>
 <h3>NPCs</h3>
-<p><a href="http://fiction.ianrenton.com/characters/abel">Abel</a><br />
-<a href="http://fiction.ianrenton.com/characters/an-hero">An Hero</a><br />
-<a href="http://fiction.ianrenton.com/characters/cain">Cain</a><br />
-<a href="http://fiction.ianrenton.com/characters/duchess-regara">Duchess Regara</a><br />
-<a href="http://fiction.ianrenton.com/characters/duke-cherry">Duke Cherry</a><br />
-<a href="http://fiction.ianrenton.com/characters/duke-hyacinth">Duke Hyacinth</a><br />
-<a href="http://fiction.ianrenton.com/characters/duke-pansy">Duke Pansy</a><br />
-<a href="http://fiction.ianrenton.com/characters/duke-red-rose">Duke Red Rose</a><br />
-<a href="http://fiction.ianrenton.com/characters/duke-white-rose">Duke White Rose</a><br />
+<p><a href="/fiction/characters/abel">Abel</a><br />
+<a href="./alice-liddell">Alice Liddell</a><br />
+<a href="/fiction/characters/an-hero">An Hero</a><br />
+<a href="/fiction/characters/cain">Cain</a><br />
+<a href="/fiction/characters/duchess-regara">Duchess Regara</a><br />
+<a href="/fiction/characters/duke-cherry">Duke Cherry</a><br />
+<a href="/fiction/characters/duke-hyacinth">Duke Hyacinth</a><br />
+<a href="/fiction/characters/duke-pansy">Duke Pansy</a><br />
+<a href="/fiction/characters/duke-red-rose">Duke Red Rose</a><br />
+<a href="/fiction/characters/duke-white-rose">Duke White Rose</a><br />
 Duke Willow<br />
-<a href="http://fiction.ianrenton.com/characters/elaine">Elaine</a><br />
-<a href="http://fiction.ianrenton.com/characters/jasmine">Jasmine</a><br />
-<a href="http://fiction.ianrenton.com/characters/jebodiah">Jebodiah</a><br />
-<a href="http://fiction.ianrenton.com/characters/mister-chicken">Mister Chicken</a><br />
-<a href="http://fiction.ianrenton.com/characters/serin">Serin</a><br />
-<a href="http://fiction.ianrenton.com/characters/solid-snape">Solid Snape</a></p>
+<a href="/fiction/characters/elaine">Elaine</a><br />
+<a href="/fiction/characters/jasmine">Jasmine</a><br />
+<a href="/fiction/characters/jebodiah">Jebodiah</a><br />
+<a href="/fiction/characters/mister-chicken">Mister Chicken</a><br />
+<a href="/fiction/characters/serin">Serin</a><br />
+<a href="/fiction/characters/solid-snape">Solid Snape</a></p>
 </td>
 </tr>
 </table>

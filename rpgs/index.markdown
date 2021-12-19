@@ -10,16 +10,12 @@ wordpress_id: 895
 
 This page is an index for various material related to pen-and-paper roleplaying games I have run, am running, or at least am somehow involved with. If you are looking for computer games I have written, please look under <a href="http://software.ianrenton.com">Software</a>.
 
-<div class="table-col">
-<h2>Current Games</h2>
+<h2>Past Games</h2>
 <ul>
 <li>Smoke on the Horizon (D&amp;D 3rd Ed):<br/>
 <a href="./smoke-on-the-horizon-game-intro">Game Intro</a><br/>
 Maps: <a href="./maps/lai-oronti.jpg">Lai Oronti</a><br/>
 Session Notes: <a href="./smoke-on-the-horizon-session-1-notes/">1</a></li>
-</ul>
-<h2>Past Games</h2>
-<ul>
 	<li>Beyond the Frontier (D&amp;D 3rd Ed):<br/>
 <a href="./beyond-the-frontier-game-intro">Game Intro</a><br/>
 Maps: <a href="./map-of-kingswald">Kingswald</a> • <a href="./map-of-the-northern-reaches">The Northern Reaches</a><br/>
@@ -33,8 +29,7 @@ Session Notes: <a href="./beyond-the-frontier-session-1-notes/">1</a> <a href=".
 	<li>Requiem of the Sun (Exalted):<br/>
 <a href="./twin-smoke-island">Description of Twin Smoke Island</a></li>
 </ul>
-</div>
-<div class="table-col">
+
 <h2>Possible Future Games</h2>
 <ul>
 	<li>Dreaming Awake Game 2:
@@ -57,8 +52,6 @@ Scene-setting: <a href="http://blog.monsteractive.com/showcase-24-marek-okon/">1
 <a href="./ye-standarde-roleplayinge-partie/">Pre-Gen Characters</a></li>
 	<li>The Time War (Doctor Who / Feng Shui)</li>
 </ul>
-</div>
-<div class="clear"></div>
 
 <h2>System Resources</h2>
 I have summarised sections of rulebooks to help players of my games. The following links contain generic information for a system, interspersed with notes (in yellow) relating specific games of mine.
@@ -68,3 +61,18 @@ I have summarised sections of rulebooks to help players of my games. The followi
 	<li>Nobilis: <a href="./nobilis-character-creation">Character Creation</a> • <a href="./nobilis-chancel-creation">Chancel Creation</a> • <a href="./using-miracles-in-nobilis">Miracles Explained</a></li>
 	<li>D&amp;D: <a href="./lets-fix-dd-or-house-rules-by-a-guy-who-hates-rolling-dice">Let's Fix D&amp;D (or, House Rules by a Guy who Hates Rolling Dice)</a></li>
 </ul>
+
+## Characters from Past Games
+A record of past player characters of mine that have information online:
+
+* Exalted (2002-3): Karashi
+* Maelstrom (2003-7): <a href="./vincent-thorne">Vincent Thorne</a>
+* Battlemaster High (2004-5): <a href="./kotori-hasegawa">Kotori Hasegawa</a>
+* New World of Darkness (2004-5): <a href="./malachai-black">Malachai Black</a>
+* 7th Sea (2004-5): Morgan
+* Demon: The Fallen (2005-6): Frank
+* Neverwhere (2007?): Knife, Coats & Mender
+* Exalted (2008?): <a href="/fiction/characters/skye">Skye</a> (as Shiiai)
+* Everlasting (2008?): <a href="/fiction/characters/sophiel">Sophiel</a></li>
+* ??: <a href="./joseph-zion">Joseph Zion</a>
+* ??: <a href="./maria-rosaria">Maria Rosaria</a>

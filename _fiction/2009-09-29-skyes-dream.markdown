@@ -3,8 +3,8 @@ author: Ian
 comments: true
 date: 2009-09-29 23:52:44
 layout: post
-slug: shiiais-dream
-title: Shiiai's Dream
+slug: skyes-dream
+title: Skye's Dream
 wordpress_id: 2031
 categories:
 - Short Stories
