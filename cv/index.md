@@ -22,8 +22,12 @@ td {
 }
 .printme {
   text-align: center;
-  font-family: sans-serif;
-  text-decoration: none;
+}
+.printme .link {
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 0.3em;
 }
 .contact {
   display: none;
@@ -55,7 +59,7 @@ table, td {
 }
 </style>
 
-<p class="printme">[ <a href="#" onclick="window.print();">Print me!</a> ]</p>
+<p class="printme"><span class="link"><a href="#" onclick="window.print();">Print me!</a></span></p>
 <div class="contact" style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
 <div style="display:block;"><h1>Ian&nbsp;Renton</h1>
 <h2>Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>

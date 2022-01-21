@@ -23,7 +23,7 @@ div#homepagebanner {
     h1 {
       font-size: 45px;
       margin-bottom: 0.2em;
-      margin-top: 0.2em;
+      padding-top: 0.2em;
       line-height: 1em;
       letter-spacing: -1px;
     }
@@ -46,6 +46,20 @@ div#homepagebanner {
     a:not(:first-child) {
       margin-left: 30px;
     }
+
+    a {
+      text-decoration: none;
+    }
+
+    .icon {
+      display: inline-block;
+      text-align: center;
+
+      span.iconname {
+        display: block;
+        text-align: center;
+      }
+    }
   }
 
   p#someofmyprojects {
@@ -54,17 +68,23 @@ div#homepagebanner {
 
 }
 
-/* No homepage photo if on mobile */
+/* Rearrange homepage banner if on mobile */
 @include media-query($on-palm) {
-  div#homepagebanner .top img {
+  div#homepagebanner {
+    padding: $spacing-unit/2.0 0 0 0;
+  }
+  div#homepagebanner .top h1 {
+    padding-top: 0.5em;
+  }
+  div#homepagebanner .top h2 {
     display: none;
   }
 }
 
-/* No personal links after 4th if on mobile */
+/* No personal links after 3rd if on mobile */
 @include media-query($on-palm) {
-  p#personallinks a:nth-child(1n+5) {
-    display: none;
+  p#personallinks a:nth-child(1n+4) {
+    display: none !important;
   }
 }
 
