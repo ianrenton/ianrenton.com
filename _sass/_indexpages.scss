@@ -32,12 +32,13 @@ div#homepagebanner {
       font-size: 20px;
       font-weight: 400;
     }
+  }
 
-    p {
-      hyphens: none;
-      -webkit-hyphens: none;
-      -moz-hyphens: none;
-    }
+  p#bio {
+    margin-top: $spacing-unit;
+    hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
   }
 
   p#personallinks {
