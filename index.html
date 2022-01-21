@@ -10,7 +10,7 @@ redirect_from:
 <div class="wrapper">
   <div id="homepagebanner">
     <div class="top">
-      <img src="me.png" alt="Pixel art of Ian Renton"/>
+      <img id="pfp" src="me.png" alt="Ian Renton"/>
       <h1>Ian Renton</h1>
       <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
     </div>
@@ -146,3 +146,11 @@ redirect_from:
     </div>
   </div>
 </div>
+
+<script>
+  // April fools
+  const today = new Date();
+  if (today.getDate() == 1 && today.getMonth() == 3) {
+    document.getElementById("pfp").src = 'me-aprilfools.png';
+  }
+</script>
