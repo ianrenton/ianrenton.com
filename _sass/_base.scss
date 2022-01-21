@@ -7,6 +7,7 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     overscroll-behaviour-y: none;
+    text-rendering: optimizelegibility;
 }
 
 /* Vertical rhythm */
@@ -173,19 +174,18 @@ pre, code {
     background-color: $code-background-color;
     font-family: $code-font-family;
     color: $code-text-color;
+    border: 1px solid $grey-color-superlight;
+    border-radius: 3px;
 }
 
 pre {
     padding: 8px 12px;
-    border-radius: 3px;
     overflow-x: auto;
-    -webkit-scrollbar-color: dark;
-    scrollbar-color: lighten($code-background-color, 40%) $code-background-color;
+    border-left: 3px solid $grey-color;
 }
 
 code {
     padding: 1px 5px;
-    border-radius: 3px;
 }
 
 pre > code {

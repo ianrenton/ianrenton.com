@@ -77,17 +77,25 @@ label {
 input#comment-form-name {
   width: 14em;
   margin-right: 1em;
+  border: 1px solid $grey-color;
+  background-color: $background-color;
+  color: $text-color;
 }
 
 input#comment-form-email {
   width: 14em;
+  border: 1px solid $grey-color;
+  background-color: $background-color;
+  color: $text-color;
 }
 
 textarea#comment-form-message {
   width: 41em;
   height: 10em;
   font-family: monospace;
-  font-size: 0.9em;
+  border: 1px solid $grey-color;
+  background-color: $background-color;
+  color: $text-color;
 }
 
 #commentpreview {
@@ -110,7 +118,8 @@ input, textarea, select, #commentpreview {
 
 button#comment-form-submit {
   margin-top: 5px;
-  border: 2px solid black;
+  background-color: $alt-background-color;
+  color: $alt-text-color;
   font-family: $heading-font-family;
 }
 
