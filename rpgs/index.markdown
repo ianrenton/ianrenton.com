@@ -66,13 +66,13 @@ I have summarised sections of rulebooks to help players of my games. The followi
 A record of past player characters of mine that have information online:
 
 * Exalted (2002-3): Karashi
-* Maelstrom (2003-7): <a href="./vincent-thorne">Vincent Thorne</a>
-* Battlemaster High (2004-5): <a href="./kotori-hasegawa">Kotori Hasegawa</a>
-* New World of Darkness (2004-5): <a href="./malachai-black">Malachai Black</a>
+* Maelstrom (2003-7): <a href="/fiction/characters/vincent-thorne">Vincent Thorne</a>
+* Battlemaster High (2004-5): <a href="/fiction/characters/kotori-hasegawa">Kotori Hasegawa</a>
+* New World of Darkness (2004-5): <a href="/fiction/characters/malachai-black">Malachai Black</a>
 * 7th Sea (2004-5): Morgan
 * Demon: The Fallen (2005-6): Frank
 * Neverwhere (2007?): Knife, Coats & Mender
 * Exalted (2008?): <a href="/fiction/characters/skye">Skye</a> (as Shiiai)
-* Everlasting (2008?): <a href="/fiction/characters/sophiel">Sophiel</a></li>
-* ??: <a href="./joseph-zion">Joseph Zion</a>
-* ??: <a href="./maria-rosaria">Maria Rosaria</a>
+* Everlasting (2008?): <a href="/fiction/characters/sophiel">Sophiel</a>
+* ??: <a href="/fiction/characters/joseph-zion">Joseph Zion</a>
+* ??: <a href="/fiction/characters/maria-rosaria">Maria Rosaria</a>
