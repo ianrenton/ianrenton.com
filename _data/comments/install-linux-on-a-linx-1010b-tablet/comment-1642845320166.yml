@@ -1,0 +1,6 @@
+_id: 685a1780-7b69-11ec-a7c7-edf1f8e31805
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Thanks Damien, I can confirm the same here.\r\n* Base install of Ubuntu 20.04.3, kernel 5.11.0-38, sound works\r\n* After applying latest update through apt, now on kernel 5.13.0-27, sound does not work."
+date: '2022-01-22T09:55:20.163Z'
