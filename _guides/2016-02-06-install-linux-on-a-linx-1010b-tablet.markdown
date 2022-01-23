@@ -9,8 +9,6 @@ In this guide I will be demonstrating how to install Linux on the [Linx 1010B ta
 
 The good news is, if you just want to use the latest Ubuntu Long Term Support (LTS) release on this tablet, it’s now pretty easy! The next few sections of this guide will show you how.
 
-(If you want to install other versions of Linux, Linux derivatives, different desktop environments etc, skip down to the "<a href="#othersetups">Other Setups</a>" section!)
-
 ![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}
 
 ## What’s Working?
@@ -88,14 +86,14 @@ Once installation is complete, your tablet will prompt you to reboot. It should 
 *   It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!
 
 <div class="notes">
-  <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.1 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
+  <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.3 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
 </div>
 
 * * *
 
 ## Other Setups {#othersetups}
 
-If you want an Ubuntu version other than 20.04.1, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
+If you want an Ubuntu version other than 20.04.3, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
 
 ![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
 
@@ -108,11 +106,11 @@ I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments
 In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
 ### Ubuntu 21.10, 21.04 & 20.10
-These are more recent releases than the recommended LTS version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation without a lot of hassle.
+These are more recent releases than the recommended LTS version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation.
 
-You should be able to install 20.04.3 LTS as recommended and do an in-place upgrade to a later release without encountering this problem, however note the following point as well.
+You can attempt to fix this by following [this procedure](#install32bitgrubafter), but it will be much easier (although more time consuming) to install 20.04.3 LTS as recommended and do an in-place upgrade to a later release.
 
-These more recent versions also include an kernel version 5.13 or above that has [a bug preventing sound from working](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) on the Linx 1010B. Even the 20.04 LTS that I recommend will offer you to update from 5.11 to 5.13; I don't recommend doing this unless you don't need sound support on your tablet.
+Whether upgrading from 20.04.3 LTS or installing the later versions from scratch, do note the following point about audio as well. These more recent versions also include an kernel version 5.13 or above that has [a bug preventing sound from working](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) on the Linx 1010B. Even the 20.04 LTS that I recommend will offer you to update from 5.11 to 5.13; I don't recommend doing this unless you don't need sound support on your tablet.
 
 ### Ubuntu 20.04
 
@@ -278,6 +276,25 @@ xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Emulation"
 xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Threshold" "100"
 xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "500"
 ```
+
+### Installing 32-bit Grub after a Botched Install {#install32bitgrubafter}
+
+If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) which installs a 64-bit grub and thus doesn't boot, my recommendation as above is still to start from 20.04.3 LTS and upgrade in place. If for any reason you aren't willing to do that, you may be able to make your installation bootable by following this procedure.
+
+First, boot from your Live USB and connect to WiFi. Then run the following commands:
+
+```shell
+sudo -i
+mkdir /temp
+mount /dev/mmcblk1p2 /temp
+chroot /temp
+apt update
+apt install grub-efi-ia32-bin
+grub-install /dev/mmcblk1
+grub-update
+```
+
+Restart the tablet without the Live USB inserted, and hopefully you get into your proper installed OS.
 
 ## Thanks To...
 
