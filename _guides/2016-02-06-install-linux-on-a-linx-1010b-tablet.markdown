@@ -36,7 +36,10 @@ If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, yo
 
 <div class="notes">
   <p><strong>What about later (non-LTS) versions of Ubuntu?</strong></p>
-  <p>At the time this page was last updated (January 2022), the latest release of Ubuntu is 21.10. However, this version uses an updated kernel that has <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">a bug preventing sound from working</a>. There may also a regression in terms of its support for Bay Trail tablets in the installer. If you install from an Ubuntu 21.10 image, you will likely find that you can't boot into your new installation. For this reason <strong>I still recommend installing Ubuntu 20.04.3</strong>, and not applying kernel updates until the bug is resolved.</p>
+  <p>At the time this page was last updated (January 2022), the latest release of Ubuntu is 21.10. However, this version has a couple of regressions in terms of its support for Bay Trail tablets:</p>
+  <ol><li>The installer by default leaves the system in an unbootable state, it will present a grub rescue prompt when booting to the installed system</li>
+  <li>By default it will install an updated kernel that has <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">a bug preventing sound from working</a>.</li></ol>
+  <p>For these reasons <strong>I still recommend installing Ubuntu 20.04.3</strong>, and not applying kernel updates to 5.13 or later until the audio bug is resolved.</p>
 </div>
 
 ## Equipment Required
@@ -105,9 +108,11 @@ I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments
 In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
 ### Ubuntu 21.10, 21.04 & 20.10
-These are more recent releases than the recommended LTS version, 20.04.3. However, 20.10 seems to have a regression in terms of its support for Bay Trail tablets in the installer, and it does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation without a lot of hassle.
+These are more recent releases than the recommended LTS version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation without a lot of hassle.
 
-These versions also include an kernel version 5.13 or above that has [a bug preventing sound from working](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) on the Linx 1010B. Even the 20.04 LTS that I recommend will offer you to update from 5.11 to 5.13; I don't recommend doing this unless you don't need sound support on your tablet.
+You should be able to install 20.04.3 LTS as recommended and do an in-place upgrade to a later release without encountering this problem, however note the following point as well.
+
+These more recent versions also include an kernel version 5.13 or above that has [a bug preventing sound from working](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) on the Linx 1010B. Even the 20.04 LTS that I recommend will offer you to update from 5.11 to 5.13; I don't recommend doing this unless you don't need sound support on your tablet.
 
 ### Ubuntu 20.04
 
