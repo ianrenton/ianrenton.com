@@ -20,7 +20,7 @@ comments:
     enabled: true
     # the siteKey is used as-is (no encryption)
     siteKey: 6LeG1LwSAAAAADsQfXoCfeTCH6JuxAGyImxoIjux
-    # the secret is the encrypted blob you got back from the encrypt call
+    # the secret is the encrypted blob you got back from the encrypt call: https://ianrentoncom-staticman.herokuapp.com/v2/encrypt/...secret...
     secret: IsYxi/A4zrs0bFV7/0j3QCsJaFbiW3++9m12lOL7HdW+deMeislTpiwNm30kgfX40frUv1hUXciwMD+HE4j2BQvXtCHnWcRspFwYi19D5iN2niBa3JMAvsEx2m1D2pQ5ZPynjjDUeMzKMRlSn68KguQC95wfnewCduhwohn6v23HHw3zFakdhKHFfmGByB2jddsIJ5/OTnfUuwX6/FOc85j+0pDRxnPCEliWDOGnqWps1Qr+UnkNHcwwtvI81O85QfqWwg0IU0uolAonJ3dKKClvdcUQ+gCXu/HSGza/i4RsmWKNYZRo8aGk5l9X0iKQyokawm1aZUa6RIXIawItu0rD1CGTYDgKhcbHpI5fTu3CxhtGtjURz8BLKQSd4bwgmDd4uyX+z8uXdg3O4pTCL3sh9oduOMeZSltefiGdbtYvGNtY6aVW4dCK2tHkjBgn0AiCpvkFvuV3p4VE9zyZgpxMD+u/Lu+F/Zl4HiZfOsqQzgwyMOmB06eyLKNPd4oygMvkWdtne3uGDwZlZhtMdPcPRHm8Nv+PmP8ur0unTdZ0BTAtLvrPNBhStq+SHNBBYJ6FrEV5+Ggn4BZQN81fbACuutvqV3NEdDgfaXx0F/JCr0JFcOIqKcxnPYzCLyQDSYC00pa6wlr4G5Rie9GNr8Vx5vFUE1M2Lh/YZZn0sWc=
   akismet:
     enabled: true
@@ -28,3 +28,8 @@ comments:
     authorEmail: "email"
     content: "message"
     type: "comment"
+  notifications:
+    enabled: true
+    # Both encrypted
+    apiKey: "HabBDBe8G9h0qndFKIHuq1Cq9FXbM6k5uX0z858FHRodnwO0amHoUzeZ5hFeqmD1uCWlIFpG3dVJVZWlSGD5qrATVw7EBS92/dAAMPR1QaWUTPQRoTLLjuy/6134wLFiqpXZhEu542U5gIbz9QBMBiCrGyfV8lnpQSVNB+Wnw/zrdSWHTsqv1sEcueqm/WOBVghWQ63NYsx9C49z4KJuQmBIeVG8TjKZHuLCmcvifk4d2aZ4VwTUmGI8UNkXgvJMQ4JZ10bIxHeUE80y+cgCAtMZy93lfG6lg0KYC7nOOCyUvGGJRWuDe++sQZujDNsy6O0MSIKeUrGxnvaIKQLTvZsO0w/NGRxnMm5YsodyHR3jqRzH7Cra6ozbOR+lZ6A/YAntvlQGByEaumb2DcIB4shmBKnHTVUjLsVO3T3zJt77wZzKut5dGcuvf0qWO0ey2lqkPKnjqOuFkR90tsjtIKJzxeCqE5uhoRaQ+kAEBbCLx6K3J+u2zkz9dcb0MYIAmR37YOmmaAwc+SKztTJ3Xv/sKFXOQZyeFQFYJtkKDw3cQhASRzZcIw1JAkrVLEU0XFiZwPnvlnWEtC1xQ5rEm8w6i4N6g58egJ07bQsVL31XzTzwl9j2BAvoaJp1lvLUZscihNAcEi7fS82AFU+8UoTnRpVbtUoayhNNvO4vPHo="
+    domain: "BmEPLyNnXU3+8EO4YZ5YIgqbfWPLPFclqiSQbXZr83h+XeCOoS2aVYbuY7sGQVF4vLJiNsMupZL74DvYelQFAw4wBVrUXRxRaU+6yYywLrRvZKyISuuzDSu1S//hYp5UV9mHduWUIEgQh48mb9zfS/gt01PgQC8rR7kDlRnfwE1BFQ+fCJ4F16IVOWMVqmVW4sJRxlkyRVNkKPz4S44nEQ9iy9+N0v2UogJmrfOLFBSuewLw+/3O8tt5XJe8T+xKxkRaFHz6WvrMSFrLqCPEWgdoc/LOVn05H/LWQUo5jyWfKKiK8s+3uYyYCn8HuwElBV2p40iuu5g/Bso+vLPt+JaUOimjlwlf23oWKtlPmsOKaXzIRD/jQyB4YrVcRFjV7DDaKk3SEsViKsa2RdcmctPWCCNWh/3oFGlxcDD80CdSvZWJKcdjSH5wKJQLjtbMvnOy/+W8E/g/MRb3cFS0aowrCH7aWG6SKGce+skXhy+7fIPZlm0vDoQPaPQsF9nvc4JIwXefySNwMaY9Q45m46ES+35FuQwuwglStZKsUbSBlSaqSNZtpIUjaL5IsBPApLamiM+K47xDKoWy74fd/p1zIOW0Gic5+OKknKENaqqr/Y7bckgBixPd+JLW1alPVA362QtSqDDk1qCylvI2g/gs7qKfxHWK6GbDD3SZhhY="
