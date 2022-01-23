@@ -7,7 +7,7 @@ wordpress_id: 1030
 
 In this guide I will be demonstrating how to install Linux on the [Linx 1010B tablet](https://www.currys.co.uk/gbuk/computing/tablets-and-ereaders/tablets/149_3402_32003_xx_xx/xx-criteria.html), a low-cost 10-inch Windows 10 tablet. It uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit. Linux support for the hardware in general is not perfect, but now provides most of the same functionality as Windows.
 
-The good news is, if you just want to use the latest Ubuntu on this tablet, it’s now pretty easy! The next few sections of this guide will show you how.
+The good news is, if you just want to use the latest Ubuntu Long Term Support (LTS) release on this tablet, it’s now pretty easy! The next few sections of this guide will show you how.
 
 (If you want to install other versions of Linux, Linux derivatives, different desktop environments etc, skip down to the "<a href="#othersetups">Other Setups</a>" section!)
 
@@ -17,7 +17,7 @@ The good news is, if you just want to use the latest Ubuntu on this tablet, it�
 
 Your first decision is the distribution and version of Linux to install. My personal preference is for Ubuntu Linux and the GNOME desktop environment, as this combination seems to provide the best tablet support at the current time.
 
-With Ubuntu 20.04.1, the following all work:
+With Ubuntu 20.04.3 LTS, the following all work:
 
 *   Installation
 *   Dual-booting with Windows 10
@@ -30,13 +30,13 @@ With Ubuntu 20.04.1, the following all work:
 *   Bluetooth
 *   Battery level
 
-The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.1, or any OS apart from older versions of Windows.
+The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.3, or any OS apart from older versions of Windows.
 
-If you’re happy to use Ubuntu 20.04.1 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
+If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
 
 <div class="notes">
-  <p><strong>What about Ubuntu 20.10?</strong></p>
-  <p>As of the time of writing (January 2021), the latest release of Ubuntu is 20.10. However, this version seems to have a regression in terms of its support for Bay Trail tablets in the installer. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation. For this reason <strong>I still recommend installing Ubuntu 20.04.1</strong>. This is a Long Term Support release and should be fine for several years to come, but if you'd like to upgrade to 20.10, you should do that as an in-place upgrade <em>after</em> the install.</p>
+  <p><strong>What about later (non-LTS) versions of Ubuntu?</strong></p>
+  <p>At the time this page was last updated (January 2022), the latest release of Ubuntu is 21.10. However, this version uses an updated kernel that has <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">a bug preventing sound from working</a>. There may also a regression in terms of its support for Bay Trail tablets in the installer. If you install from an Ubuntu 21.10 image, you will likely find that you can't boot into your new installation. For this reason <strong>I still recommend installing Ubuntu 20.04.3</strong>, and not applying kernel updates until the bug is resolved.</p>
 </div>
 
 ## Equipment Required
@@ -104,17 +104,18 @@ I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments
 
 In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
-### Ubuntu 20.10
+### Ubuntu 21.10, 21.04 & 20.10
+These are more recent releases than the recommended LTS version, 20.04.3. However, 20.10 seems to have a regression in terms of its support for Bay Trail tablets in the installer, and it does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation without a lot of hassle.
 
-Ubuntu 20.10 is a more recent release than the recommended version, 20.04.1. However, 20.10 seems to have a regression in terms of its support for Bay Trail tablets in the installer, and it does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10 image, you will likely find that you can't boot into your new installation without a lot of hassle. For this reason I don't recommend using it yet. If you'd like to use 20.10, the recommended approach is to do this as an in-place upgrade *after* a normal install of 20.04.1 following the instructions above.
+These versions also include an kernel version 5.13 or above that has [a bug preventing sound from working](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) on the Linx 1010B. Even the 20.04 LTS that I recommend will offer you to update from 5.11 to 5.13; I don't recommend doing this unless you don't need sound support on your tablet.
 
 ### Ubuntu 20.04
 
-I have tested Ubuntu 20.04.1 and found it to be working very well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to 20.04.
+I have tested Ubuntu 20.04.1 and 20.04.3 and found them to be working very well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to the base 20.04.
 
 ### Linux Mint 20.1
 
-Mint 20.1 installs almost as well as the recommended Ubuntu 20.04.1, using the 32-bit EFI boot file trick. There are two caveats:
+Mint 20.1 installs almost as well as the recommended Ubuntu 20.04.3, using the 32-bit EFI boot file trick. There are two caveats:
 
 1. While Ubuntu Live USB automatically boots into "Try Ubuntu" after a few seconds, Mint does not. You'll therefore need a physical keyboard (just to press Enter once during first boot!) If that's not possible for you, you can work around it by opening `<usb stick>:\boot\grub\grub.cfg` on the computer you used to make it, and add the line `GRUB_TIMEOUT=5`.
 2. See the note above on [Other Desktop Environments](#otherdes) regarding Cinnamon and MATE.
