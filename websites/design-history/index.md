@@ -163,12 +163,19 @@ I quit "blogging proper" in 2018, leaving the old posts up for all to see. As of
 
 ### March 2021
 
-A brief flirtation with sans-serif, in the form of a somewhat iOS-inspired look, incorporating light and dark modes. Finally updated that photo from 2013 too...
+A change from serif to sans-serif fonts and a more modern design, in the form of a somewhat iOS-inspired look incorporating light and dark modes. Finally updated that photo from 2013 too...
 
 <p style="text-align: center">
 <a href="/websites/design-history/2021-03-01-1.png"><img src="/websites/design-history/2021-03-01-1.png" class="shadow" width="400"/></a>  
 <a href="/websites/design-history/2021-03-01-2.png"><img src="/websites/design-history/2021-03-01-2.png" class="shadow" width="400"/></a>
 </p>
+
+
+### January 2022
+
+Some minor font and layout improvements, improved iconography, and more subtle colour scheme.
+
+![](/websites/design-history/2022-01-23.png){: .center}
 
 <hr/>
 
