@@ -1,0 +1,6 @@
+_id: 0baf0090-7c7c-11ec-9275-91fb3bf4262d
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Damien
+email: ''
+message: "So.. the 5.13.0-27 on 21.10.. sound works. Have updated on launchpad.\r\n\r\nReverting /etc/default/grub, it still boots. Auto-rotate is still absent.\r\n\r\nBefore I chrooted to revert grub and run update-grub, I had seen two options to boot the USB from the Linx's boot menus (esc at boot) \"ubuntu (SanDisk)\" and \"EFI USB Device (SanDisk)\", and as I mentioned in my last post, I had to select the non EFI one to get a successful boot. After the chroot/revert/update-grub, I only see the EFI variant, which boots fine. Oddness!\r\n\r\nBack in Mint XFCE... happpier.\r\nRe: the WiFi thing. It seems to work better in 5.13, best in 5.14, but quirky in all. Also, an error.. my script on mint doesn't replug the modules, it used to, but now it just uses rfkill block/unblock. I only use/need it when the wifi fails to connect after boot."
+date: '2022-01-23T18:41:16.235Z'

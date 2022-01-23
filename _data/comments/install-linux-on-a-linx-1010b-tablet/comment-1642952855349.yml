@@ -1,0 +1,6 @@
+_id: c85b35b0-7c63-11ec-9501-93ffc5b5fc00
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "What a bizarre way of doing it!\r\n\r\nLet me know if you manage to get 21.04 to install properly, for me it boots from Live USB but not after install&mdash;I think maybe it's not installing 32 bit grub support or not setting up grub properly."
+date: '2022-01-23T15:47:35.347Z'
