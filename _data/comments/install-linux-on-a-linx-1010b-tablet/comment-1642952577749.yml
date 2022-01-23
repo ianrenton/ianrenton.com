@@ -1,0 +1,6 @@
+_id: 22f74640-7c63-11ec-9501-93ffc5b5fc00
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Damien
+email: ''
+message: "I'm installing 21.10 to a USB stick to see if the newer kernels break audio on that rel.\r\n\r\nFigured I'd use \"minimal install\" for speed. Crazy! It installs everything, then uninstalls libreoffice and stuff, so minimal needs as much space, and more time, than 'all'."
+date: '2022-01-23T15:42:57.747Z'
