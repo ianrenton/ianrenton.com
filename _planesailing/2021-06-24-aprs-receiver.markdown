@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'ARPS Receiver Setup'
 slug: aprs-receiver
+last_update: 2021-08-15T00:00:00+00:00
 ---
 
 With the project initially being to extend my older ADS-B aircraft tracker into a combined tracker for AIS-equipped ships as well, the next step was to additionally support tracking of land-based contacts using APRS. The screenshot below shows the level of tracking that is achievable on a good day, but as you may be able to make out from the map, the majority of contacts there were through Digipeaters MB7UG and F8KGJ&mdash;so if the RF path doesn't allow me to see either of those on any given day, tracking capability is much more limited.

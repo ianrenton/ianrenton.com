@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: Web Front-End
 slug: web-front-end
+last_update: 2021-08-14T00:00:00+00:00
 ---
 
 Having put together the full set of server-side processing software, the finishing touch for the Plane/Sailing project is the web interface by which the data is displayed to the end user.

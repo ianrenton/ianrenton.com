@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'AIS Receiver Setup'
 slug: ais-receiver
+last_update: 2021-10-22T00:00:00+00:00
 ---
 
 While AIS receiving isn't quite as common a project as ADS-B&mdash;not everyone lives close to the sea after all&mdash;the tools are all out there on the internet and fairly easy to set up. The first version of Plane/Sailing used a dedicated Raspberry Pi for AIS, separate to the one used for ADS-B. [SARCNET's AIS Receiver page](https://www.sarcnet.org/ais-receiver.html) provided the pre-configured SD card image that I used. For version 2 I wanted to start from scratch with a standard Raspberry Pi OS install, so the instructions below cover setting it up manually.

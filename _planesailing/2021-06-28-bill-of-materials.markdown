@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: Bill of Materials
 slug: bill-of-materials
+last_update: 2021-08-14T00:00:00+00:00
 ---
 
 The Bill of Materials for the Plane/Sailing project is shown on this page. I have updated the costs as of July 2021.

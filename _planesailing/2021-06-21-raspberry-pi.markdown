@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'Raspberry Pi Setup'
 slug: raspberry-pi
+last_update: 2021-08-14T00:00:00+00:00
 ---
 
 The first step to setting up Plane/Sailing was to configure the Raspberry Pi. With Plane/Sailing version 1, I used two separate Pis (one for ADS-B and one for AIS) using pre-built images from [FlightAware](https://uk.flightaware.com/adsb/piaware/) and [SARCNET](https://www.sarcnet.org/ais-receiver.html), but for version 2 I wanted to combine them into a single Raspberry Pi 4 Model B.

@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'Plane/Sailing Server Setup'
 slug: plane-sailing-server
+last_update: 2021-07-03T00:00:00+00:00
 ---
 
 The final piece of the puzzle on the server side is Plane/Sailing Server itself. This is responsible for gathering all the information provided by Dump1090, rtl_ais and Direwolf into a single consistent format that the web front-end can use. As well as the core functionality, it has a number of other features that improve the Plane/Sailing experience:

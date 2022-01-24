@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'ADS-B Receiver Setup'
 slug: adsb-receiver
+last_update: 2021-11-21T00:00:00+00:00
 ---
 
 They say something about "standing on the shoulders of giants", and this project is no exception. Making an ADS-B receiver with a Raspberry Pi is not an uncommon project, and there are plenty of resources out there to help set one up. In the original "version 1" of Plane/Sailing, I used [FlightAware's](https://flightaware.com/) pre-configured ["PiAware"](https://flightaware.com/adsb/piaware/build) disk image to be the easiest way of getting started. For version 2 I wanted complete control of my own OS installation, so I started from scratch with a base Raspberry Pi OS image, but even when not using the PiAware image, FlightAware's repositories are still the best way to get the right packages installed.

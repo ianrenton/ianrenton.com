@@ -15,7 +15,7 @@ layout: default
       <h3 class="backtocollectionindex"><a href="{{ thispagecollection.collectionindex }}">&laquo; {{ thispagecollection.collectiontitle }}</a></h3>
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}</p>
+    <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}{{ page.last_update | date: "<br/>Last updated on %A %-d %B %Y" }}</p>
   </header>
 
   {% comment %} If collection 'posts' (i.e. a blog post) display a warning {% endcomment %}

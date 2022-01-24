@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'Electronics Enclosure'
 slug: electronics-enclosure
+last_update: 2021-08-14T00:00:00+00:00
 ---
 
 With a pi, three RTL-SDRs, a separate pre-amp for AIS and miscellaneous other clutter on my desk, it's no surprise that the Plane/Sailing build was getting rather messy...

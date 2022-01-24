@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: 'The Tracking Packet Format FAQ'
 slug: tracking-packet-format-faq
+last_update: 2021-07-31T00:00:00+00:00
 ---
 
 Throughout the course of creating Plane/Sailing, I have learned a lot about the various packets and formats involved with tracking aircraft, ships and amateur radio users. This page is a Frequently Asked Questions list, but I'm not exactly a guru people come to for answers&mdash;really, this is a list of questions I've asked, and answers I've found, while developing the system. If you are creating a similar system for yourself, I hope this list helps to summarise and explain the key points of all these various packets and messages. Certainly if this page had existed when I started writing code, it would have been a whole lot quicker!
