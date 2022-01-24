@@ -34,10 +34,7 @@ If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, yo
 
 <div class="notes">
   <p><strong>What about later (non-LTS) versions of Ubuntu?</strong></p>
-  <p>At the time this page was last updated (January 2022), the latest release of Ubuntu is 21.10. However, this version has a couple of regressions in terms of its support for Bay Trail tablets:</p>
-  <ol><li>The installer by default leaves the system in an unbootable state, it will present a grub rescue prompt when booting to the installed system</li>
-  <li>By default it will install an updated kernel that has <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">a bug preventing sound from working</a>.</li></ol>
-  <p>For these reasons <strong>I still recommend installing Ubuntu 20.04.3</strong>, and not applying kernel updates to 5.13 or later until the audio bug is resolved.</p>
+  <p>At the time this page was last updated (January 2022), there have been three releases since 20.04 LTS. However, their installers don't work properly on the Linx tablet and will leave the system in an unbootable state, presenting a grub rescue prompt when trying to boot up the installed system. For this reason <strong>I still recommend installing Ubuntu 20.04.3</strong>. You can then do an in-place upgrade to 21.10 if you like.</p>
 </div>
 
 ## Equipment Required
@@ -72,11 +69,13 @@ In Ubuntu 18.04 or later, this is now very easy as the installer understands abo
 
 If you’re choosing to dual-boot, choose "Install Ubuntu alongside existing operating system" when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage.
 
-<div class="warning">
-  <p><strong>Important:</strong> If you select advanced partitioning options, I would recommend you <strong>don't</strong> select to encrypt the disk. That’s not because of any boot problems in this configuration, but simply because there is no on-screen keyboard support on the disk unlock screen! If you set this option, you will require a keyboard every time you power on.</p>
-</div>
+You shouldn't need to select "advanced partitioning options", but if you do it will offer to let you encrypt the disk. I would recommend you *don't* select this option&mdash;not because it'll break anything, but simply because there is no on-screen keyboard support on the disk unlock screen. If you set this option, you will require a keyboard every time you power on.
 
 Once installation is complete, your tablet will prompt you to reboot. It should now start up automatically into the new Ubuntu installation.
+
+<div class="notes">
+  <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.3 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
+</div>
 
 ## Post-Install Usage Notes
 
@@ -85,8 +84,8 @@ Once installation is complete, your tablet will prompt you to reboot. It should 
 *   If you'd like to reclaim some screen space, you can set the dock to auto-hide, or remove it entirely, also using GNOME Tweaks. It's provided by the Ubuntu Dock GNOME Shell extension. (If you remove it completely, press "Activities" in the top left to get an application menu.)
 *   It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!
 
-<div class="notes">
-  <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.3 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
+<div class="warning">
+  <p><strong>Warning:</strong> As of January 2022, there is a <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">known bug that prevents sound from working on the tablet</a> after updating your kernel. When applying system updates, I recommend at the moment that you don't accept any kernel updates (packages of the form <code>linux-image-*</code>), otherwise you may lose sound capability. There is no known solution to this at the moment, feel free to keep an eye on the linked bug page and if you're affected, let people know there.</p>
 </div>
 
 * * *
@@ -106,11 +105,12 @@ I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments
 In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
 ### Ubuntu 21.10, 21.04 & 20.10
+
 These are more recent releases than the recommended LTS version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation.
 
 You can attempt to fix this by following [this procedure](#install32bitgrubafter), but it will be much easier (although more time consuming) to install 20.04.3 LTS as recommended and do an in-place upgrade to a later release.
 
-Whether upgrading from 20.04.3 LTS or installing the later versions from scratch, do note the following point about audio as well. These more recent versions also include an kernel version 5.13 or above that has [a bug preventing sound from working](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) on the Linx 1010B. Even the 20.04 LTS that I recommend will offer you to update from 5.11 to 5.13; I don't recommend doing this unless you don't need sound support on your tablet.
+Additionally, automatic screen rotation based on the accelerometer seems to be broken in Ubuntu 21.10.
 
 ### Ubuntu 20.04
 
@@ -279,19 +279,60 @@ xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "5
 
 ### Installing 32-bit Grub after a Botched Install {#install32bitgrubafter}
 
-If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) which installs a 64-bit grub and thus doesn't boot, my recommendation as above is still to start from 20.04.3 LTS and upgrade in place. If for any reason you aren't willing to do that, you may be able to make your installation bootable by following this procedure.
+If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) which installs a 64-bit grub and thus doesn't boot, my recommendation as above is still to start from 20.04.3 LTS and upgrade in place. If for any reason you aren't willing to do that, you may be able to make your installation bootable by following this procedure, provided by Damien in the comments.
 
-First, boot from your Live USB and connect to WiFi. Then run the following commands:
+First, boot from your Live USB and connect to WiFi. Then run the following commands.
+
+<div class="warning">
+  <p><strong>Warning:</strong> The disk and partition names included here are correct for the internal disk of my tablet. You may need to change them depending on your setup. Be very careful if you are trying to dual boot with Windows as your partitions will be different!</p>
+</div>
 
 ```shell
-sudo -i
-mkdir /temp
-mount /dev/mmcblk1p2 /temp
-chroot /temp
-apt update
+# Gain root permissions
+sudo -iH
+
+# The disk you will install grub into the bootloader of. The example here
+# is my internal storage on the tablet.
+disk=/dev/mmcblk1
+# The EFI partition on that disk. The example here is the default if you
+# have chosen to remove everything and install only Linux.
+efi=/dev/mmcblk1p1
+# The root partition on that disk used by Linux. The example here is the
+# default if you have chosen to remove everything and install only Linux.
+root=/dev/mmcblk1p2
+# A temporary location in which to mount the root partition.
+tempmount=/mnt/target
+
+# Mount everything we need to perform a chroot into the tablet's installed
+# Linux environment
+mkdir -p $tempmount
+mount $root $tempmount
+mount $efi $tempmount/boot/efi
+for i in dev dev/pts sys proc run ; do mount --bind /$i $tempmount/$i; done
+
+# chroot in. From this point forward you will effectively be working within
+# the installed environment, and not the Live USB environment
+chroot $tempmount /bin/bash
+
+# change the prompt so we know we're in the chroot, for safety
+export PS1="(chroot) $PS1" 
+
+# Install 32-bit grub
 apt install grub-efi-ia32-bin
-grub-install /dev/mmcblk1
-grub-update
+grub-install $disk
+
+# Update grub so it picks up your partitions, kernel version etc
+update-grub
+
+# Leave the chroot
+exit
+
+# Now we have left the chroot. Time to unmount it all.
+# (note the "" to umount target /)
+for i in dev/pts dev sys proc run boot/efi "" ; do umount $tempmount/$i; done
+
+#check we've not missed any umounts - should return blank.
+mount | grep $tempmount
 ```
 
 Restart the tablet without the Live USB inserted, and hopefully you get into your proper installed OS.
@@ -305,3 +346,4 @@ To get this far I’ve used information from the following places. I’m extreme
 *   [How do I repair grub2 (not) booting 32-bit EFI on a 64-bit machine?](https://unix.stackexchange.com/questions/206274/how-do-i-repair-grub2-not-booting-32-bit-efi-on-a-64-bit-machine/215546#215546)
 *   [How to reinstall GRUB2 EFI?](https://superuser.com/questions/376470/how-to-reinstall-grub2-efi/376471#376471)
 *   [lightdm – rotated monitor. login screen needs rotation](https://askubuntu.com/questions/408302/rotated-monitor-login-screen-needs-rotation/466618)
+*   And all the many commenters down below who have contributed to this page.
