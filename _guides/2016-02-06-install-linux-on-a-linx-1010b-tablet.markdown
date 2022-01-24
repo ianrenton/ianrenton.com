@@ -285,23 +285,20 @@ If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) 
 First, boot from your Live USB and connect to WiFi. Then run the following commands.
 
 <div class="warning">
-  <p><strong>Warning:</strong> The disk and partition names included here are correct for the internal disk of my tablet. You may need to change them depending on your setup. Be very careful if you are trying to dual boot with Windows as your partitions will be different!</p>
+  <p><strong>Warning:</strong> The disk and partition names included here are correct for the internal disk of my tablet. You may need to change them depending on your setup. Note there are <strong>four</strong> variables to set&mdash;three at the top and one inside the chroot. Be very careful if you are trying to dual boot with Windows as your partitions will be different!</p>
 </div>
 
 ```shell
 # Gain root permissions
 sudo -iH
 
-# The disk you will install grub into the bootloader of. The example here
-# is my internal storage on the tablet.
-disk=/dev/mmcblk1
-# The EFI partition on that disk. The example here is the default if you
+# Set the EFI partition on the disk. The example here is the default if you
 # have chosen to remove everything and install only Linux.
 efi=/dev/mmcblk1p1
-# The root partition on that disk used by Linux. The example here is the
+# Set the root partition on the disk used by Linux. The example here is the
 # default if you have chosen to remove everything and install only Linux.
 root=/dev/mmcblk1p2
-# A temporary location in which to mount the root partition.
+# Set a temporary location in which to mount the root partition.
 tempmount=/mnt/target
 
 # Mount everything we need to perform a chroot into the tablet's installed
@@ -314,6 +311,10 @@ for i in dev dev/pts sys proc run ; do mount --bind /$i $tempmount/$i; done
 # chroot in. From this point forward you will effectively be working within
 # the installed environment, and not the Live USB environment
 chroot $tempmount /bin/bash
+
+# Set the disk you will install grub into the bootloader of. The example here
+# is my internal storage on the tablet.
+disk=/dev/mmcblk1
 
 # change the prompt so we know we're in the chroot, for safety
 export PS1="(chroot) $PS1" 
@@ -332,7 +333,7 @@ exit
 # (note the "" to umount target /)
 for i in dev/pts dev sys proc run boot/efi "" ; do umount $tempmount/$i; done
 
-#check we've not missed any umounts - should return blank.
+# check we've not missed any umounts - should return blank.
 mount | grep $tempmount
 ```
 
