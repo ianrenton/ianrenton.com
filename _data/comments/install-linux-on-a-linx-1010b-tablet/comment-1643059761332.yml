@@ -1,0 +1,6 @@
+_id: b156ed10-7d5c-11ec-9cc8-3515bcde6e56
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Damien
+email: ''
+message: "The example above should of course read:\r\n\r\n    chroot / /usr/bin/env disk=\"$disk\" /bin/bash\r\n\r\nI realised half way through writing up my antics that the bind mount was superfluous, but forgot to edit that one. Clearly you'd be doing $tempmount, not / in your instrucs.\r\n\r\nIan, if you're leaving some of this thread here, please just edit the previous post ( / instead of /mnt/bind ) and zap this one."
+date: '2022-01-24T21:29:21.332Z'
