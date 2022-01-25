@@ -2,5 +2,5 @@ _id: 319b7b10-7c6f-11ec-a8d1-e9c7a5392a3f
 _parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
 name: Damien
 email: ''
-message: "So you posted it directly anyway :-| Never mind.\r\nThat seems to work... ish.\r\nGrub appears fine. It loads initrd then seems to reboot instantly, in my case returning to the grub on SSD. Same for recovery mode.\r\nInvestigating."
+message: "That seems to work... ish.\r\nGrub appears fine. It loads initrd then seems to reboot instantly, in my case returning to the grub on SSD. Same for recovery mode.\r\nInvestigating."
 date: '2022-01-23T17:09:16.324Z'
