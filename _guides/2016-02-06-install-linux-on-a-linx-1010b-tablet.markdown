@@ -2,7 +2,7 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
-last_update: 2022-01-24T00:00:00+00:00
+last_update: 2022-02-04T00:00:00+00:00
 wordpress_id: 1030
 ---
 
@@ -43,9 +43,11 @@ If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, yo
 To get started you will need:
 
 *   Linx 1010B tablet and charger
-*   Ubuntu Linux ISO image (20.04.1 LTS 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
+*   Ubuntu Linux ISO image (20.04.3 LTS 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
+*   32-bit EFI boot image (download from [here](https://github.com/jfwells/linux-asus-t100ta/blob/master/boot/bootia32.efi?raw=true) or [here](/guides/bootia32.efi))
 *   A USB memory stick with at least 4GB capacity
-*   The Linx 1010B keyboard attachment, or other USB keyboard is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.
+
+The Linx 1010B keyboard attachment (or other USB keyboard) is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.
 
 ## Considering Dual-Boot
 
@@ -56,12 +58,11 @@ Whichever way you choose, the Ubuntu installer will handle if for you during the
 ## Preparing for the Install
 
 1.  Begin flashing your Ubuntu ISO onto your memory stick using [Unetbootin](https://unetbootin.github.io/).
-2.  The USB stick will currently be bootable on EFI systems in 64-bit mode, but not in 32-bit mode (which is all this tablet supports). To fix this, grab [this bootia32.efi file](https://github.com/jfwells/linux-asus-t100ta/blob/master/boot/bootia32.efi?raw=true) and place it in `<usb stick>:\EFI\boot\`.
+2.  The USB stick will currently be bootable on EFI systems in 64-bit mode, but not in 32-bit mode (which is all this tablet supports). To fix this, grab the `bootia32.efi` file they you downloaded above, and place it in `<usb stick>:\EFI\boot\`.
 3.  Turn your tablet off.
-4.  Connect your Linx or USB keyboard.
-5.  Turn the tablet on while holding the Volume Up button. The screen should say something like "Esc is pressed", then you will be given a setup menu.
-6.  My tablet had Secure Boot disabled by default, so you should be able to press "Boot Manager" and you’ll see your USB device in the list. Press it to continue. (If you don’t see it, play around in the setup menu until you find the option to disable Secure Boot, then press F10 on the keyboard to save, and repeat this step.)
-7.  You will boot from the memory stick and get to the GRUB bootloader screen, following which Ubuntu will boot automatically.
+4.  Turn the tablet on while holding the Volume Up button. The screen should say something like "Esc is pressed", then you will be given a setup menu.
+5.  My tablet had Secure Boot disabled by default, so you should be able to press "Boot Manager" and you’ll see your USB device in the list. Press it to continue. (If you don’t see it, play around in the setup menu until you find the option to disable Secure Boot, then press F10 on the keyboard to save, and repeat this step.)
+6.  You will boot from the memory stick and get to the GRUB bootloader screen, following which Ubuntu will boot automatically.
 
 
 ## Installing Ubuntu
@@ -154,7 +155,9 @@ If you want to try, you’ll need the same 32-bit EFI trick as with the standard
 
 As well as Linux-based operating systems, I have done several reinstalls of Windows 10 over my time playing with this tablet. While you would think Windows would provide the best experience on the tablet, as of January 2021 and Windows 10 20H2, there are several problems. Principally, the touchscreen, audio and cameras do not appear to work, despite scouring the web for suitable drivers.
 
-Since LINX have dropped support for this tablet, I don't imagine any fixes will be forthcoming. Therefore if you are intending to install an operating system from scratch, I would say that at this point Linux offers a better experience than Windows.
+Since LINX have dropped support for this tablet, I don't imagine any support for current versions of Windows 10 or 11 will be forthcoming.
+
+The last recovery image we know about from the manufacturer can be downloaded [here](https://mega.nz/#!HUYV1IzZ!Gu5qiTjHZOS5TbzDg5z6dZD9RA7QRqKokz2Tkp3gyx4); I have a backup [here](https://ianrenton-my.sharepoint.com/:u:/p/ian/ERPcCpwHpZtOvUg8SP5lmk0BXSpPIXfH8KnKG0fJj6d1vQ?e=OeQluk) just in case they take it offline for any reason. This is Windows 10 Home 32-bit 19H1 with Linx tablet drivers included, and should work although I have not yet personally tried it.
 
 ### Ubuntu versions earlier than 18.04
 
