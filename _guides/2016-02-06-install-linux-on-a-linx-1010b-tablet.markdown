@@ -6,9 +6,9 @@ last_update: 2022-02-04T00:00:00+00:00
 wordpress_id: 1030
 ---
 
-In this guide I will be demonstrating how to install Linux on the [Linx 1010B tablet](https://www.currys.co.uk/gbuk/computing/tablets-and-ereaders/tablets/149_3402_32003_xx_xx/xx-criteria.html), a low-cost 10-inch Windows 10 tablet. It uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit. Linux support for the hardware in general is not perfect, but now provides most of the same functionality as Windows.
+Do you have an old [Linx 1010B tablet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_of_hpOb1AhXYilwKHZOVAlAQFnoECAUQAQ&url=https%3A%2F%2Fwww.amazon.co.uk%2FLinx-1010B-10-1-Tablet-Black%2Fdp%2FB014D847FS&usg=AOvVaw0SFLrDOW1XztJo4YE4GcIm) sat around doing nothing? These tablets were cheap, underpowered and are now very much showing their age, but if you'd like to give yours a new lease of life, consider installing Linux on it. This guide will show you how!
 
-The good news is, if you just want to use the latest Ubuntu Long Term Support (LTS) release on this tablet, it’s now pretty easy! The next few sections of this guide will show you how.
+There are a lot of sections to this page and a lot of comments providing useful tips as well, but don't be put off! The good news is, if you just want to use the latest Ubuntu Long Term Support (LTS) release on this tablet, it’s now pretty easy. Linux support for the tablet's hardware is not perfect, but the vast majority of the tablet features should be usable.
 
 ![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}
 
@@ -29,7 +29,7 @@ With Ubuntu 20.04.3 LTS, the following all work:
 *   Bluetooth
 *   Battery level
 
-The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.3, or any OS apart from older versions of Windows.
+The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.3, or any OS apart from Windows.
 
 If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
 
@@ -48,6 +48,10 @@ To get started you will need:
 *   A USB memory stick with at least 4GB capacity
 
 The Linx 1010B keyboard attachment (or other USB keyboard) is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.
+
+## Why the Extra Boot Image File?
+
+The Linx 1010B uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit. So while I recommend a 64-bit OS, you will need this file to get the installer to boot properly with the 32-bit EFI.
 
 ## Considering Dual-Boot
 
@@ -151,13 +155,13 @@ The [Android x86](https://www.android-x86.org/) project allows Android to be run
 
 If you want to try, you’ll need the same 32-bit EFI trick as with the standard Ubuntu instructions to get the USB stick to boot. It installs fine though and you can dual-boot with Windows. Sleep/suspend and cameras don’t work.
 
-### Windows 10
+### Windows
 
-As well as Linux-based operating systems, I have done several reinstalls of Windows 10 over my time playing with this tablet. While you would think Windows would provide the best experience on the tablet, as of January 2021 and Windows 10 20H2, there are several problems. Principally, the touchscreen, audio and cameras do not appear to work, despite scouring the web for suitable drivers.
+The Linx 1010B tablets came with Windows 8 preinstalled, and were supported up to Windows 10 19H1. If you're having problems with your device but want to stick with Windows, or you've installed Linux, found it wasn't for you and want to go back, the easiest way is to install Linx's own custom Windows recovery image. This is Windows 10 Home 32-bit 19H1 with all the Linx tablet drivers included, and you can download it from [this link provided by Linx tech support](https://mega.nz/#!HUYV1IzZ!Gu5qiTjHZOS5TbzDg5z6dZD9RA7QRqKokz2Tkp3gyx4). I have a backup [here](https://ianrenton-my.sharepoint.com/:u:/p/ian/ERPcCpwHpZtOvUg8SP5lmk0BXSpPIXfH8KnKG0fJj6d1vQ?e=OeQluk) just in case they take it offline for any reason.
 
-Since LINX have dropped support for this tablet, I don't imagine any support for current versions of Windows 10 or 11 will be forthcoming.
+From that base, you should be able to install updates to the current version of Windows 10 and keep everything working. I would recommend this approach rather than using a fresh download of Windows 10 21H2 direct from Microsoft, as the latter install will be missing several key drivers including touchscreen, audio and cameras. Despite scouring the web, I have yet to identify good sources for driver downloads to restore the missing functionality when installing Windows this way.
 
-The last recovery image we know about from the manufacturer can be downloaded [here](https://mega.nz/#!HUYV1IzZ!Gu5qiTjHZOS5TbzDg5z6dZD9RA7QRqKokz2Tkp3gyx4); I have a backup [here](https://ianrenton-my.sharepoint.com/:u:/p/ian/ERPcCpwHpZtOvUg8SP5lmk0BXSpPIXfH8KnKG0fJj6d1vQ?e=OeQluk) just in case they take it offline for any reason. This is Windows 10 Home 32-bit 19H1 with Linx tablet drivers included, and should work although I have not yet personally tried it.
+The Linx 1010B does not meet the minimum system requirements for Windows 11. Amongst other problems, Windows 11 drops support for 32-bit processors&mdash;although the tablet processor is technically 64-bit, the Linux "hack" of using a 32-bit EFI boot image has never worked with Windows. If you use Windows, plan to stay on Windows 10.
 
 ### Ubuntu versions earlier than 18.04
 
