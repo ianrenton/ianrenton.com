@@ -1,0 +1,6 @@
+_id: 6d72f310-a768-11ec-a586-f568b4bc4625
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Thanks, you make a good point about the need for `apt update` so I will include that in the script.\r\n\r\nGlad you have the 22.04 beta working, I will give that a try myself at some point in the run up to the release next month. It's a shame that with the 32-bit grub issue support for Bay Trail seems to have regressed since 20.04!"
+date: '2022-03-19T09:39:10.243Z'
