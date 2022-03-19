@@ -327,6 +327,7 @@ disk=/dev/mmcblk1
 export PS1="(chroot) $PS1" 
 
 # Install 32-bit grub
+apt update
 apt install grub-efi-ia32-bin
 grub-install $disk
 
