@@ -2,40 +2,44 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
-last_update: 2022-02-04T00:00:00+00:00
+last_update: 2022-03-26T00:00:00+00:00
 wordpress_id: 1030
 ---
 
-Do you have an old [Linx 1010B tablet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_of_hpOb1AhXYilwKHZOVAlAQFnoECAUQAQ&url=https%3A%2F%2Fwww.amazon.co.uk%2FLinx-1010B-10-1-Tablet-Black%2Fdp%2FB014D847FS&usg=AOvVaw0SFLrDOW1XztJo4YE4GcIm) sat around doing nothing? These tablets were cheap, underpowered and are now very much showing their age, but if you'd like to give yours a new lease of life, consider installing Linux on it. This guide will show you how!
+Do you have an old [Linx 1010B tablet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_of_hpOb1AhXYilwKHZOVAlAQFnoECAUQAQ&url=https%3A%2F%2Fwww.amazon.co.uk%2FLinx-1010B-10-1-Tablet-Black%2Fdp%2FB014D847FS&usg=AOvVaw0SFLrDOW1XztJo4YE4GcIm) sat around doing nothing? These tablets were cheap, underpowered and are now very much showing their age; in particular they no longer receive Windows updates. If you'd like to give yours a new lease of life, consider installing Linux on it. This guide will show you how.
 
-There are a lot of sections to this page and a lot of comments providing useful tips as well, but don't be put off! The good news is, if you just want to use the latest Ubuntu Long Term Support (LTS) release on this tablet, it’s now pretty easy. Linux support for the tablet's hardware is not perfect, but the vast majority of the tablet features should be usable.
+There are a lot of sections to this page and a lot of comments providing useful tips as well, but don't be put off! The good news is, if you are happy to use the latest version of Fedora Linux Workstation on this tablet, you should be able to get up and running within an hour with minimal Linux knowledge.
 
-![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}
+![Fedora Workstation 35 on a Linx 1010B tablet](/guides/linx-fedora-2022.jpg){: .center}
+*Fedora Workstation 35 on a Linx 1010B tablet*
 
 ## What’s Working?
 
-Your first decision is the distribution and version of Linux to install. My personal preference is for Ubuntu Linux and the GNOME desktop environment, as this combination seems to provide the best tablet support at the current time.
+Your first decision is the distribution and version of Linux to install. My personal preference is for Fedora Linux and the GNOME desktop environment, as this combination seems to provide the best support for the LINX1010B tablet's hardware at the time this page was last updated.
 
-With Ubuntu 20.04.3 LTS, the following all work:
+With Fedora Workstation 35, the following all work:
 
 *   Installation
 *   Dual-booting with Windows 10
 *   Touchscreen with multi-touch and on-screen keyboard
+*   Automatic screen rotation using accelerometer *(after applying system updates for the first time)*
 *   Gestures and long-press to right click
 *   Sleep
 *   Screen brightness
 *   Sound
-*   WiFi (although sometimes unreliable)
+*   WiFi
 *   Bluetooth
 *   Battery level
 
-The one big omission seems to be the cameras. Neither front nor back camera work on Ubuntu 20.04.3, or any OS apart from Windows.
+The following features do not work:
 
-If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
+*   Cameras *(drivers only seem to work for Windows)*
+
+If you’re happy to use Fedora Linux with the default GNOME desktop environment, carry on reading! If not, you might want to jump down to the "[Other Setups](#othersetups)" section.
 
 <div class="notes">
-  <p><strong>What about later (non-LTS) versions of Ubuntu?</strong></p>
-  <p>At the time this page was last updated (January 2022), there have been three releases since 20.04 LTS. However, their installers don't work properly on the Linx tablet and will leave the system in an unbootable state, presenting a grub rescue prompt when trying to boot up the installed system. For this reason <strong>I still recommend installing Ubuntu 20.04.3</strong>. You can then do an in-place upgrade to 21.10 if you like.</p>
+  <p><strong>Why not Ubuntu?</strong></p>
+  <p>For first-time Linux users, Ubuntu would normally be my distro recommendation, due to the incredible amount of help and resources available for it online. However, since around 2020 Ubuntu support for the Linx tablet has been getting steadily worse, particularly around the 32-bit EFI/grub issues, and now in 2022 a new problem with sound output. For this reason I have switched my recommendation to Fedora as it now offers the easiest setup and least bugs. If you still want to try Ubuntu, check out <a href="#ubuntu">the Ubuntu section of this page</a>.</p>
 </div>
 
 ## Equipment Required
@@ -43,84 +47,155 @@ If you’re happy to use Ubuntu 20.04.3 with GNOME, carry on reading! If not, yo
 To get started you will need:
 
 *   Linx 1010B tablet and charger
-*   Ubuntu Linux ISO image (20.04.3 LTS 64-bit recommended, download from [here](https://ubuntu.com/download/desktop))
-*   32-bit EFI boot image (download from [here](https://github.com/jfwells/linux-asus-t100ta/blob/master/boot/bootia32.efi?raw=true) or [here](/guides/bootia32.efi))
+*   A Fedora Workstation ISO image (download from [here](https://getfedora.org/en/workstation/download/))
+*   The [Rufus](http://rufus.ie/en/) tool to write the image to the USB stick
 *   A USB memory stick with at least 4GB capacity
 
-The Linx 1010B keyboard attachment (or other USB keyboard) is useful just in case you have touchscreen problems, though shouldn’t strictly be needed.
+The Linx 1010B keyboard attachment (or other USB keyboard) is useful to speed things up a little, but isn't strictly necessary.
 
-## Why the Extra Boot Image File?
-
-The Linx 1010B uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit. So while I recommend a 64-bit OS, you will need this file to get the installer to boot properly with the 32-bit EFI.
+<div class="notes">
+  <p><strong>Why Rufus and not Unetbootin or Fedora Media Writer?</strong></p>
+  <p>The Fedora image is unusual amongst Linux LiveUSB installers in that it uses the "ISOHybrid" format. Rufus is the only USB image writing program I know of that will automatically do the more advanced techniques required to write an ISOHybrid image to a USB stick and make it boot properly while keeping the stick in FAT32 format for later use. By contrast:</p>
+  <ul><li>Unetbootin will write the image to the USB stick in a more basic way, and while the result is bootable, the Fedora environment does not load properly within it and it cannot be installed.</li>
+  <li>Fedora Media Writer directly writes the image to the USB stick as if it were a DVD (ISO9660 file system). It will install fine from this, but afterwards the memory stick won't immediately be usable in the normal way. The Fedora Media Writer has a built-in "Restore" function intended to revert the USB stick back to a normal state, but during my testing I found that this didn't work and I had to recreate the partition table manually with GParted. I could not fix it with Windows Disk Management Console. Therefore, I don't recommend this approach for new users.</li></ul>
+</div>
 
 ## Considering Dual-Boot
 
-Whether you dual-boot with Windows or wipe out Windows completely and just use Ubuntu is up to you. Ubuntu is now suitable for daily use on this tablet, so I’ve wiped off Windows completely. If you’re not sure, you can dual-boot for a while, but note that when dual-booting, Linux will be very limited in the amount of space available.
+Whether you dual-boot with Windows or wipe out Windows completely and just use Linux is up to you. Linux is now suitable for daily use on this tablet, so I’ve wiped off Windows completely. If you’re not sure, you can dual-boot for a while&mdash;but note that if you have two operating systems on the tablet, Linux will be very limited in the amount of space available.
 
-Whichever way you choose, the Ubuntu installer will handle if for you during the installation, but if you’re dual-booting you may need to clear out some space from within Windows, then run a disk cleanup, to ensure at least 8GB of space is free.
+Whichever way you choose, the Linux installer will handle repartitioning the disk for you during the installation, but if you’re dual-booting you may need to delete some old files and applications from within Windows, then run a disk cleanup to ensure at least 8GB of space is free.
 
 ## Preparing for the Install
 
-1.  Begin flashing your Ubuntu ISO onto your memory stick using [Unetbootin](https://unetbootin.github.io/).
-2.  The USB stick will currently be bootable on EFI systems in 64-bit mode, but not in 32-bit mode (which is all this tablet supports). To fix this, grab the `bootia32.efi` file they you downloaded above, and place it in `<usb stick>:\EFI\boot\`.
-3.  Turn your tablet off.
-4.  Turn the tablet on while holding the Volume Up button. The screen should say something like "Esc is pressed", then you will be given a setup menu.
-5.  My tablet had Secure Boot disabled by default, so you should be able to press "Boot Manager" and you’ll see your USB device in the list. Press it to continue. (If you don’t see it, play around in the setup menu until you find the option to disable Secure Boot, then press F10 on the keyboard to save, and repeat this step.)
-6.  You will boot from the memory stick and get to the GRUB bootloader screen, following which Ubuntu will boot automatically.
+First, create your installation USB stick using Rufus. Select the ISO image and make sure you select the right drive for your USB stick. All other options can be left as the defaults, which should match those shown in the image below.
 
+You will be prompted whether to write the disk in ISO or DD mode, choose ISO (the default). You will also be prompted whether to download the right version of syslinux from the internet, choose "Yes" to this.
 
-## Installing Ubuntu
+![Rufus interface with options highlighted](/guides/linx-rufus-options.png){: .center .noshadow}
+*The Rufus interface with default options highlighted*
 
-In Ubuntu 18.04 or later, this is now very easy as the installer understands about the 32-bit UEFI issue. You can click the "Install Ubuntu" icon and select most options as you normally would in the installer.
+Once Rufus finishes writing to the USB stick, it's time to boot the LINX1010B tablet from it.
 
-If you’re choosing to dual-boot, choose "Install Ubuntu alongside existing operating system" when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage.
-
-You shouldn't need to select "advanced partitioning options", but if you do it will offer to let you encrypt the disk. I would recommend you *don't* select this option&mdash;not because it'll break anything, but simply because there is no on-screen keyboard support on the disk unlock screen. If you set this option, you will require a keyboard every time you power on.
-
-Once installation is complete, your tablet will prompt you to reboot. It should now start up automatically into the new Ubuntu installation.
+1.  Ensure your tablet is off.
+2.  Insert the USB stick into one of the USB ports.
+3.  Turn the tablet on while holding the Volume Up button. The screen should say "Esc is pressed. Go to boot options.", then you will be given a setup menu.
+4.  Press "Boot Manager" and you’ll see an "EFI USB Device" in the list. Press it to continue.
+5.  You will boot from the memory stick and get to the GRUB bootloader screen.
+6.  If you have a keyboard, press Up to select the top option, and Enter to run it immediately. (This saves having to wait for the default "Test this media" option.)
+7.  When the GUI appears, press once on the workspace, then press the "Install to Hard Drive" button. The installer will appear after a few seconds.
 
 <div class="notes">
-  <p><strong>Congratulations!</strong> At this point, if you’re using Ubuntu 20.04.3 as recommended, you’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
+  <p><strong>Can't see your USB device in the list?</strong></p>
+  <p>If you don’t see your USB device in the Boot Manager list, your tablet may have Secure Boot enabled. Go to "Secure Boot Option" from the menu, and check that at the top of the screen it shows "Secure Boot Status" as "Disabled". If not, look for where it says "Erase all Secure Boot Settings", press on "&lt;Disabled&gt;" under that, and change it to "Enabled". Here you will need a keyboard&mdash;press F10 on the keyboard to save and restart. Now power off the tablet again and start from step 3.</p>
+  <p>If you <em>still</em> don't see it, double-check that your device is really a USB Mass Storage device and not a USB Hard Disk, and that if you used Unetbootin or Rufus to write the ISO, that it's FAT32 formatted and not NTFS.</p>
 </div>
 
-## Post-Install Usage Notes
+## Installing Fedora
 
-*   If you're encountering choppy scrolling, particularly noticeable in web browsers, it may be resolved by switching to Wayland as your graphics server. ([See this bug report](https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1883534).) To do that, log out, select your name on the login screen, and before entering your password click the "cogs" icon at the bottom right. Choose "Ubuntu on Wayland".
-*   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from Software Centre.
-*   If you'd like to reclaim some screen space, you can set the dock to auto-hide, or remove it entirely, also using GNOME Tweaks. It's provided by the Ubuntu Dock GNOME Shell extension. (If you remove it completely, press "Activities" in the top left to get an application menu.)
-*   It’s not that intuitive how to summon the GNOME on-screen keyboard if it doesn’t pop up automatically. You do it by swiping up from the bottom of the screen!
+The Fedora installer is reasonably easy to use and will allow you to select a keyboard layout, time zone etc. in the expected way.
 
-<div class="warning">
-  <p><strong>Warning:</strong> As of January 2022, there is a <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">known bug that prevents sound from working on the tablet</a> after updating your kernel. When applying system updates, I recommend at the moment that you don't accept any kernel updates (packages of the form <code>linux-image-*</code>), otherwise you may lose sound capability. There is no known solution to this at the moment, feel free to keep an eye on the linked bug page and if you're affected, let people know there.</p>
+Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "I would like to make additional space available" to indicate you'd like to remove some of the existing partitions on the device, then click "Done". After a short delay, you will be presented with a list of the device's partitions, which you will need to modify to make space for Linux.
+
+* If you are removing everything currently on the tablet, you can press the "Delete All" button. This will free up all the space on the tablet's internal storage for your new Linux installation.
+* **If you are dual-booting** (e.g. with Windows), **do not remove any existing partitions**. Your "EFI System Partition" should be left unmodified. Then when selecting your Windows partition, click "Shrink" not "Delete", and reduce its size by 8GB to allow space for Fedora.
+
+Once complete, click the "Reclaim Space" button. You will then be returned to the main screen of the installer, ready to begin installation.
+
+The install will take around 10-15 minutes. Once it is complete, click "Finish Installation" and reboot the tablet. It should now start up automatically into the new Linux installation, and you can remove the USB stick.
+
+## Post-Install Notes
+
+*   You may initially find your screen is rotated to the portrait orientation and does not rotate automatically. This can be resolved temporarily by going into Display Settings and setting the orientation manually. When the first set of system updates is applied, screen rotation will start working properly.
+*   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from the "Software" app.
+*   The GNOME on-screen keyboard is pretty good at popping up automatically when you focus a text field in a GTK3 application. If it doesn’t pop up automatically, you can bring it up by swiping up from the bottom of the screen.
+
+<div class="notes">
+  <p><strong>Congratulations!</strong> You’re done! You should be able to connect to WiFi, use the tablet with or without the keyboard, and do almost everything you'd like to do with the tablet. Unless you'd like to explore other operating systems or desktop environments, you can stop reading here.</p>
 </div>
 
 * * *
 
 ## Other Setups {#othersetups}
 
-If you want an Ubuntu version other than 20.04.3, a desktop environment other than GNOME, a different Linux distribution, or a different Linux derivative such as Chrome OS or Android, the following sections gives some information and additional steps that may help you out. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc. **The majority of users who have followed the instructions above can stop reading here!**
-
-![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
+If you want to use a Linux distro other than Fedora, a desktop environment other than GNOME, or a different operating system entirely, the following sections gives some information and additional steps that may help you out. **The majority of users who have followed the instructions above can stop reading here!**
 
 ### Other Desktop Environments {#otherdes}
 
-GNOME seems to be the best set up for tablets at this time, although it can be slow. If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations, which gives a slight improvement.
+As the most touch-oriented of the big Linux desktop environments, GNOME seems to be the best set up for tablets at this time, although it can be slow on a low-powered tablet like the LINX 1010B. If you want to stay with GNOME but speed things up a bit, you can install "GNOME Tweaks" and turn off animations, which gives a slight improvement.
 
-I have also tried Cinnamon, MATE and XFCE on the tablet. As desktop environments that have more of a traditional desktop feel, they are less demanding and therefore faster and more responsive than GNOME. However, they also don't fully cater for tablets in the way that GNOME does. None of the three support automatic rotation of the screen based on the accelerometer, or automatic rotation of touch inputs. That means you'll have to set your screen rotation to landscape manually if you want to use it in that orientation, and if you want to use the touchscreen in landscape orientation, you'll need to rotate it using the command-line scripts [shown here](#screenrotation).
+The other big Linux desktop environment, KDE Plasma, also works fairly well. Again this is a heavyweight desktop like GNOME, so it can feel a little slow. It's also not quite as touch-oriented, but while I think it works better with a mouse or touchpad than the touchscreen, it's still perfectly usable. I have tested Fedora's KDE "spin" and can confirm it sets up KDE just fine, so if that's your preference, use the Fedora KDE spin image from the start.
+
+I have also tried Cinnamon, MATE and XFCE on the tablet. These are generally less demanding and therefore faster and more responsive than GNOME or KDE. However, they also don't fully cater for tablets in the way that the bigger desktop environments. For example, when I last tested them, none of the three support automatic rotation of the screen based on the accelerometer, or automatic rotation of touch inputs. That means you'll have to set your screen rotation to landscape manually if you want to use it in that orientation, and if you want to use the touchscreen in landscape orientation, you'll need to rotate it using the command-line scripts [shown here](#screenrotation).
 
 In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
-### Ubuntu 21.10, 21.04 & 20.10
+### Ubuntu {#ubuntu}
 
-These are more recent releases than the recommended LTS version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation.
+#### Ubuntu 20.04.3
 
-You can attempt to fix this by following [this procedure](#install32bitgrubafter), but it will be much easier (although more time consuming) to install 20.04.3 LTS as recommended and do an in-place upgrade to a later release.
+Before 2022, Ubuntu was my recommendation for installing Linux on this tablet. There are a few quirks to installing and using it, which mean that I can no longer recommend it as strongly as I recommend Fedora, but it is still an option. Of all the available versions of Ubuntu, 20.04.3 was the high point in terms of compatibility and lack of bugs, and is therefore what I recommend if you're set on using Ubuntu.
 
-Additionally, automatic screen rotation based on the accelerometer seems to be broken in Ubuntu 21.10.
+To install Ubuntu on the tablet, you will need your tablet and USB stick, plus:
+*   Ubuntu Linux ISO image (20.04.3 LTS 64-bit recommended, download from [here](https://old-releases.ubuntu.com/releases/focal/))
+*   32-bit EFI boot image (download from [here](https://github.com/jfwells/linux-asus-t100ta/blob/master/boot/bootia32.efi?raw=true) or [here](/guides/bootia32.efi))
+*   An application to write the ISO to the memory stick, such as [Unetbootin](http://unetbootin.github.io/) or [Rufus](http://rufus.ie/en/)
 
-### Ubuntu 20.04
+<div class="notes">
+  <p><strong>Why the 32-bit EFI boot image?</strong></p>
+  <p>The Linx 1010B uses the Bay Trail chipset, which has a history of causing frustration when trying to boot Linux, particularly because although it features a 64-bit processor, it uses an EFI system that only operates in 32-bit. So while I recommend a 64-bit OS, you will need this file to get the installer to boot properly with the 32-bit EFI.</p>
+</div>
 
-I have tested Ubuntu 20.04.1 and 20.04.3 and found them to be working very well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to the base 20.04.
+To install, follow this procedure:
+1.  Begin by flashing your Ubuntu ISO onto your memory stick using Unetbootin or Rufus.
+2.  Grab the `bootia32.efi` file that you downloaded above, and place it in `<usb stick>:\EFI\boot\`.
+3.  Turn your tablet off.
+4.  Turn the tablet on while holding the Volume Up button. The screen should say something like "Esc is pressed", then you will be given a setup menu.
+5.  Press "Boot Manager" and you’ll see your USB device in the list. Press it to continue. (If you don’t see it, your tablet may have Secure Boot enabled. Play around in the setup menu until you find the option to disable Secure Boot, then press F10 on the keyboard to save, and repeat this step.)
+6.  You will boot from the memory stick and get to the GRUB bootloader screen, following which Ubuntu will boot automatically.
+7.  When the GUI appears, click the "Install Ubuntu" icon and select most options as you normally would in the installer.
+8.  If you’re choosing to dual-boot, choose "Install Ubuntu alongside existing operating system" when prompted for where to install, and ensure that at least 8GB of space is allocated. Otherwise, you can choose to replace the existing Windows OS at this stage. (You shouldn't need to select "advanced partitioning options", but if you do it will offer to let you encrypt the disk. I would recommend you *don't* select this option&mdash;not because it'll break anything, but simply because there is no on-screen keyboard support on the disk unlock screen. If you set this option, you will require a keyboard every time you power on.)
+9.  Once installation is complete, your tablet will prompt you to reboot. It should now start up automatically into the new Ubuntu installation.
+10. If you're encountering choppy scrolling, particularly noticeable in web browsers, it may be resolved by switching to Wayland as your graphics server. ([See this bug report](https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1883534).) To do that, log out, select your name on the login screen, and before entering your password click the "cogs" icon at the bottom right. Choose "Ubuntu on Wayland".
+
+<div class="warning">
+  <p><strong>Warning:</strong> As of January 2022, there is a <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">known bug that prevents sound from working on the tablet</a> after updating your kernel. When applying system updates, I recommend at the moment that you don't accept any kernel updates (packages of the form <code>linux-image-*</code>), otherwise you may lose sound capability. If you do install a new kernel, the old one will not be removed immediately, so you can retain the ability to boot into it from your GRUB boot menu. So long as you continue using the old kernel, it shouldn't be automatically removed. There is no known solution to this at the moment, feel free to keep an eye on the linked bug page and if you're affected, let people know there.</p>
+</div>
+
+![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}
+*Ubuntu 20.04 on a Linx 1010B tablet*
+
+#### Later Versions: Ubuntu 21.10, 21.04, 20.10 & 20.04.4
+
+These are more recent releases of Ubuntu than the recommended version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image or even the updated .4 release of the 20.04 LTS, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation.
+
+You can attempt to fix this by following [this procedure](#install32bitgrubafter), but it will be much easier (although more time consuming) to install 20.04.3 and do an in-place upgrade to a later release.
+
+These versions are also subject to the audio problem when upgrading the kernel.
+
+#### Older Versions: Ubuntu 20.04, 19.10, 19.04, 18.10 & 18.04
+
+I have tested Ubuntu 20.04.3 and found it to be working well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to the base 20.04.
+
+Aside from that, all Ubuntu versions between 18.04 and 20.04.3 have installed and worked correctly, using the procedure above to enable booting the USB stick on 32-bit UEFI. If you choose to use one of these older Ubuntu versions, you should be able to without problems.
+
+![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
+*Ubuntu 18.10 on a Linx 1010B tablet*
+
+#### Ancient Versions (before 18.04)
+
+These versions do not install alongside Windows properly or set up GRUB properly with the system’s 32-bit UEFI. Follow this procedure to get them installed:
+
+1.  When it comes to step 3 of the installation, you should be offered to "Install Ubuntu alongside Windows Boot Manager". **Don’t** choose this, instead choose "Something Else".
+2.  In the free space you cleared, create a single **ext3** partition and choose to mount it at `/`. (I didn’t have much luck with ext4, the installer locked up every time.) Make a note of the partition name — it should be `/dev/mmcblk0p5`.
+3.  You’ll also be asked which disk/partition to install GRUB too &mdash; just leave this as the default as it won’t work anyway. We’ll fix that later.
+4.  You’ll be warned about the lack of a swap partition. To save the flash memory from excess writing, and because very little space is available for Linux anyway, I chose to do without one.
+5.  After copying files and configuring the system, the installer will show an error message because it failed to install GRUB. This is OK — installing GRUB is the last step, so the rest of the install has worked fine.
+6.  Shut down the tablet.
+7.  Now, follow the instructions in [this section](#install32bitgrubafter) to get grub installed.
+
+![Ubuntu 15.10 on a Linx 1010B tablet](/guides/linx-1510.jpg){: .center}
+*Ubuntu 15.10 on a Linx 1010B tablet*
 
 ### Linux Mint 20.1
 
@@ -128,10 +203,6 @@ Mint 20.1 installs almost as well as the recommended Ubuntu 20.04.3, using the 3
 
 1. While Ubuntu Live USB automatically boots into "Try Ubuntu" after a few seconds, Mint does not. You'll therefore need a physical keyboard (just to press Enter once during first boot!) If that's not possible for you, you can work around it by opening `<usb stick>:\boot\grub\grub.cfg` on the computer you used to make it, and add the line `GRUB_TIMEOUT=5`.
 2. See the note above on [Other Desktop Environments](#otherdes) regarding Cinnamon and MATE.
-
-### Other Linux Distros
-
-If you prefer Fedora, Dave H in the comments below reports that Fedora 29 with Gnome works well. There’s also [Fedlet](https://www.happyassassin.net/fedlet-a-fedora-remix-for-bay-trail-tablets/), a customised version specifically for Bay Trail computers, but it’s been out of development since 2016 so the main branch of Fedora is now much more likely to provide proper support for the tablet.
 
 ### Chrome OS
 
@@ -163,70 +234,13 @@ From that base, Windows should update itself to 20H2 and all the hardware, drive
 
 The Linx 1010B does not meet the minimum system requirements for Windows 11. Amongst other problems, Windows 11 drops support for 32-bit processors&mdash;although the tablet processor is technically 64-bit, the Linux "hack" of using a 32-bit EFI boot image has never worked with Windows. If you use Windows, plan to stay on Windows 10.
 
-### Ubuntu versions earlier than 18.04
-
-![Ubuntu 15.10 on a Linx 1010B tablet](/guides/linx-1510.jpg){: .center}
-
-These versions do not install alongside Windows properly or set up GRUB properly with the system’s 32-bit UEFI. Follow this procedure to get them installed:
-
-1.  When it comes to step 3 of the installation, you should be offered to "Install Ubuntu alongside Windows Boot Manager". **Don’t** choose this, instead choose "Something Else".
-2.  In the free space you cleared, create a single **ext3** partition and choose to mount it at `/`. (I didn’t have much luck with ext4, the installer locked up every time.) Make a note of the partition name — it should be `/dev/mmcblk0p5`.
-3.  You’ll also be asked which disk/partition to install GRUB too — just leave this as the default as it won’t work anyway. We’ll fix that later.
-4.  You’ll be warned about the lack of a swap partition. To save the flash memory from excess writing, and because very little space is available for Linux anyway, I chose to do without one.
-5.  After copying files and configuring the system, the installer will show an error message because it failed to install GRUB. This is OK — installing GRUB is the last step, so the rest of the install has worked fine.
-6.  Shut down the tablet, leaving the USB stick attached.
-
-<p id="bootinternalfromusb">Currently, there’s no boot loader that will let you boot your Ubuntu install. What we can do temporarily is use the copy of GRUB on the USB stick, and tweak it to boot the copy of Ubuntu on your internal storage instead of the one it normally boots.</p>
-
-The easiest way I found to do that is as follows:
-
-1.  Boot into Windows.
-2.  Open up your USB stick in Explorer, and open the file `<usb stick>:\boot\grub\grub.cfg` in a text editor.
-3.  Just above the line `menuentry "Try Ubuntu without installing" {`, add the following lines:
-
-```shell
-GRUB_DEFAULT=0
-GRUB_TIMEOUT=5
-menuentry "Run from internal disk" {
-    linux    (hd1,gpt5)/boot/vmlinuz-4.2.0-16-generic.efi.signed root=/dev/mmcblk0p5 intel_idle.max_cstate=0 quiet splash $vt_handoff
-    initrd   (hd1,gpt5)/boot/initrd.img-4.2.0-16-generic
-}
-```
-
-<div class="notes">
-  <p>Note: I believe this should be the right kernel version that gets installed with Ubuntu 15.10. If it doesn’t boot at all, when you try to boot from GRUB in a moment, press <code>C</code> and enter the <code>linux</code> and <code>initrd</code> commands yourself, using tab completion to find the right versions.
-  If it boots but you get a busybox console instead of a proper Ubuntu login GUI, check your partition numbering — <code>/dev/mmcblk0p5</code> may not be the right partition.</p>
-</div>
-
-Now turn your tablet off, and turn it on again with Volume Up held. As before you should be able to boot from the USB stick, but this time the GRUB menu will have a new "Run from internal disk" option. Ubuntu should start and you can log in as the user you set up.
-
-Now follow these steps to get GRUB set up permanently without requiring the USB stick:
-
-1.  Install the 32-bit version of grub by executing the following from a terminal: `sudo apt-get install grub-efi-ia32 grub-efi-ia32-bin`
-2.  As before, we still don’t have a proper 32-bit EFI file for grub, so download [this one](http://www.thinktwisted.com/gradschool/Public/grubia32.efi).
-3.  Place the downloaded file in the right location, instead of the 64-bit file that grub is expecting, which is at `/boot/efi/EFI/ubuntu/grubx64.efi`. (For example, `sudo mkdir -p /boot/efi/EFI/ubuntu && sudo cp grubia32.efi /boot/efi/EFI/ubuntu/grubx64.efi`.)
-4.  Edit the default GRUB configuration on your tablet by opening `/etc/default/grub` in a text editor as root (e.g. `sudo nano /etc/default/grub`).
-5.  There should be a line that reads `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"`. Edit that so it reads `GRUB_CMDLINE_LINUX_DEFAULT="intel_idle.max_cstate=0 quiet splash"`.
-6.  There should be a commented out line that reads `GRUB_TERMINAL="console"`. Uncomment that line.
-7.  To start up without a keyboard attached, you will want the default GRUB option to boot automatically without you having to press Enter. To do this, make sure the lines at the top of the file that read something like:
-
-        GRUB_DEFAULT=0
-        GRUB_TIMEOUT=5
-    
-8.  If you have a line that sets `GRUB_HIDDEN_TIMEOUT`, comment it out.
-9.  Save and close the file.
-10.  Install GRUB with `sudo update-grub && sudo update-grub2 && sudo grub-install`.
-11.  Check that GRUB has added "ubuntu" as an option to the EFI boot manager by running `sudo efibootmgr -v`. Check the four-digit numbers of each partition against the boot order shown, and it should list your Ubuntu install as the first one. If not, manually add this install to your EFI boot list with `sudo efibootmgr -c --disk /dev/mmcblk0 --part 1`.
-12.  Shut down your tablet and remove the USB stick.
-13.  Start up the tablet (no need to hold Volume Up any more!), and it should show you GRUB for a few seconds, then start up to the Ubuntu login screen.
-
 ## Other Useful Information
 
-If you’re using a non-standard setup, some of the following sections might provide some useful information and code to fix problems you may have.
+If you’re using a non-standard setup, some of the following sections might provide some useful information and code to fix problems you may have. From here on, we assume a reasonable level of knowledge with Linux, disk partitioning etc.
 
 ### Screen Rotation {#screenrotation}
 
-If you’re using GNOME, the screen is probably rotating with tablet orientation as you would expect. If not, to rotate it, run the following commands. The first rotates the display to landscape mode, the second is required to rotate the touch input so it matches the screen.
+If you’re using GNOME, the screen is probably rotating with tablet orientation as you would expect. If you're using an environment such as XFCE where this doesn't happen automatically, you can run the following commands to rotate it. The first rotates the display to landscape mode, the second is required to rotate the touch input so it matches the screen.
 
 ```shell
 xrandr -o right
@@ -244,7 +258,7 @@ xinput set-prop "pointer:Goodix Capacitive Touchscreen" 'Coordinate Transformati
 
 ### Rotating the Login Screen
 
-On Ubuntu 18.10 using the default GDM3 login screen, it should rotate automatically with tablet orientation as you would expect. Otherwise, it should be possible to apply the manual rotation above to the login screen as well by editing its configuration.
+On Ubuntu 18.10 or later using the default GDM3 login screen, it should rotate automatically with tablet orientation as you would expect. Otherwise, it should be possible to apply the manual rotation above to the login screen as well by editing its configuration.
 
 For example, in Ubuntu 15.04 using the default LightDM login screen, we achieve this by creating a file named `/etc/lightdm/lightdm.conf.d/80-display-setup.conf` with the following contents:
 
@@ -257,7 +271,7 @@ However, depending on the choice of login screen this may produce a "low graphic
 
 ### Onboard setup
 
-If you aren’t using GNOME, it’s a good idea to run "Onboard" (an on-screen keyboard) and configure it to your liking. (You may also prefer it to the GNOME on-screen keyboard anyway!) The following settings make it behave a lot like the Windows keyboard:
+If you aren’t using GNOME or KDE, it’s a good idea to run "Onboard" (an on-screen keyboard) and configure it to your liking. (You may also prefer it to the GNOME on-screen keyboard anyway!) The following settings make it behave a lot like the Windows keyboard:
 
 1.  General -> Auto-show when editing text
 2.  General -> Show status icon
@@ -269,7 +283,7 @@ If you aren’t using GNOME, it’s a good idea to run "Onboard" (an on-screen k
 
 ### Long-press to Right Click
 
-If you’re using Ubuntu 18.10 or above with the default GNOME environment, you should already be able to do a long press to right-click as you would expect. If not, Ubuntu’s "Universal Access" panel contains a "Simulated Secondary Click" option that should allow you to long-press on the touchscreen to get a right click effect. You can also achieve the same from the terminal with:
+If you’re using an older Linux (e.g. a pre-2018 version of Ubuntu) you may not be to do a long press to right-click as you would expect. If this isn't working for you, Ubuntu’s "Universal Access" panel contains a "Simulated Secondary Click" option that should allow you to long-press on the touchscreen to get a right click effect. You can also achieve the same from the terminal with:
 
 ```shell
 gsettings set org.gnome.desktop.a11y.mouse secondary-click-enabled "true"
@@ -287,7 +301,7 @@ xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "5
 
 ### Installing 32-bit Grub after a Botched Install {#install32bitgrubafter}
 
-If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) which installs a 64-bit grub and thus doesn't boot, my recommendation as above is still to start from 20.04.3 LTS and upgrade in place. If for any reason you aren't willing to do that, you may be able to make your installation bootable by following this procedure, provided by Damien in the comments.
+If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) which installs a 64-bit grub despite the 32-bit EFI and thus doesn't boot, you may be able to make your installation bootable by following this procedure, provided by Damien in the comments. It may also work for very old versions (pre-18.04) where grub installation fails; if not, see the next section.
 
 First, boot from your Live USB and connect to WiFi. Then run the following commands.
 
@@ -346,6 +360,52 @@ mount | grep $tempmount
 ```
 
 Restart the tablet without the Live USB inserted, and hopefully you get into your proper installed OS.
+
+### Installing 32-bit Grub after a Botched Install (Without chroot)
+
+Back in around 2015 when first trying to get Linux installed on the tablet, the chroot approach above did not work. What had to do is temporarily use the copy of GRUB on the USB stick, and tweak it to boot Linux from the internal storage instead of the one it normally boots.
+
+The easiest way I found to do that is as follows:
+
+1.  Boot into Windows.
+2.  Open up your USB stick in Explorer, and open the file `<usb stick>:\boot\grub\grub.cfg` in a text editor.
+3.  Just above the line `menuentry "Try Ubuntu without installing" {`, add the following lines:
+
+```shell
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=5
+menuentry "Run from internal disk" {
+    linux    (hd1,gpt5)/boot/vmlinuz-4.2.0-16-generic.efi.signed root=/dev/mmcblk0p5 intel_idle.max_cstate=0 quiet splash $vt_handoff
+    initrd   (hd1,gpt5)/boot/initrd.img-4.2.0-16-generic
+}
+```
+
+<div class="notes">
+  <p>Note: I believe this should be the right kernel version that gets installed with Ubuntu 15.10. If it doesn’t boot at all, when you try to boot from GRUB in a moment, press <code>C</code> and enter the <code>linux</code> and <code>initrd</code> commands yourself, using tab completion to find the right versions.
+  If it boots but you get a busybox console instead of a proper Ubuntu login GUI, check your partition numbering — <code>/dev/mmcblk0p5</code> may not be the right partition.</p>
+</div>
+
+Now turn your tablet off, and turn it on again with Volume Up held. As before you should be able to boot from the USB stick, but this time the GRUB menu will have a new "Run from internal disk" option. Ubuntu should start and you can log in as the user you set up.
+
+Now follow these steps to get GRUB set up permanently without requiring the USB stick:
+
+1.  Install the 32-bit version of grub by executing the following from a terminal: `sudo apt-get install grub-efi-ia32 grub-efi-ia32-bin`
+2.  As before, we still don’t have a proper 32-bit EFI file for grub, so download [this one](http://www.thinktwisted.com/gradschool/Public/grubia32.efi).
+3.  Place the downloaded file in the right location, instead of the 64-bit file that grub is expecting, which is at `/boot/efi/EFI/ubuntu/grubx64.efi`. (For example, `sudo mkdir -p /boot/efi/EFI/ubuntu && sudo cp grubia32.efi /boot/efi/EFI/ubuntu/grubx64.efi`.)
+4.  Edit the default GRUB configuration on your tablet by opening `/etc/default/grub` in a text editor as root (e.g. `sudo nano /etc/default/grub`).
+5.  There should be a line that reads `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"`. Edit that so it reads `GRUB_CMDLINE_LINUX_DEFAULT="intel_idle.max_cstate=0 quiet splash"`.
+6.  There should be a commented out line that reads `GRUB_TERMINAL="console"`. Uncomment that line.
+7.  To start up without a keyboard attached, you will want the default GRUB option to boot automatically without you having to press Enter. To do this, make sure the lines at the top of the file that read something like:
+
+        GRUB_DEFAULT=0
+        GRUB_TIMEOUT=5
+    
+8.  If you have a line that sets `GRUB_HIDDEN_TIMEOUT`, comment it out.
+9.  Save and close the file.
+10.  Install GRUB with `sudo update-grub && sudo update-grub2 && sudo grub-install`.
+11.  Check that GRUB has added "ubuntu" as an option to the EFI boot manager by running `sudo efibootmgr -v`. Check the four-digit numbers of each partition against the boot order shown, and it should list your Ubuntu install as the first one. If not, manually add this install to your EFI boot list with `sudo efibootmgr -c --disk /dev/mmcblk0 --part 1`.
+12.  Shut down your tablet and remove the USB stick.
+13.  Start up the tablet (no need to hold Volume Up any more!), and it should show you GRUB for a few seconds, then start up to the Ubuntu login screen.
 
 ## Thanks To...
 
