@@ -158,8 +158,13 @@ To install, follow this procedure:
 9.  Once installation is complete, your tablet will prompt you to reboot. It should now start up automatically into the new Ubuntu installation.
 10. If you're encountering choppy scrolling, particularly noticeable in web browsers, it may be resolved by switching to Wayland as your graphics server. ([See this bug report](https://bugs.launchpad.net/ubuntu/+source/xorg/+bug/1883534).) To do that, log out, select your name on the login screen, and before entering your password click the "cogs" icon at the bottom right. Choose "Ubuntu on Wayland".
 
-<div class="warning">
-  <p><strong>Warning:</strong> As of January 2022, there is a <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">known bug that prevents sound from working on the tablet</a> after updating your kernel. When applying system updates, I recommend at the moment that you don't accept any kernel updates (packages of the form <code>linux-image-*</code>), otherwise you may lose sound capability. If you do install a new kernel, the old one will not be removed immediately, so you can retain the ability to boot into it from your GRUB boot menu. So long as you continue using the old kernel, it shouldn't be automatically removed. There is no known solution to this at the moment, feel free to keep an eye on the linked bug page and if you're affected, let people know there.</p>
+<div class="notes">
+  <p><strong>Sound not working?</strong></p>
+  <p>As of January 2022, there is a <a href="https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410">known bug that prevents sound from working on the tablet</a> after updating your kernel. Hopefully this will be fixed properly in a future Ubuntu update, but at the moment this is one of the main reasons I recommend Fedora over Ubuntu on the LINX1010B. Barry in the comments below has let me know there is a fix you can apply to resolve this issue, which is:</p>
+  <ol><li>Open <code>/etc/modprobe.d/alsa-base.conf</code> in a text editor as <code>root</code> / using <code>sudo</code></li>
+  <li>Add the line <code>options snd-intel-dspcfg dsp_driver=2</code></li>
+  <li>Power off the tablet fully</li>
+  <li>Power on. Sound should now be working.</li></ol>
 </div>
 
 ![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}

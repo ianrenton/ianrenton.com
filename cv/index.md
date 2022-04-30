@@ -96,9 +96,10 @@ DOORS 9 & N.G., RQM, Enterprise Architect (UML), Eclipse & NetBeans IDEs, Atlass
 <table cellspacing="0"><tr><td>
 Jun&nbsp;2020 &mdash; Present
 </td><td>
-<p><b>Autonomy Expert at (Current Employer)</b></p>
+<p><b>Expert in Autonomy at (Current Employer)</b></p>
 <p>In my new role as a company “Expert”, I continue to lead the development of our Command & Control and Autonomy software, now used on over a dozen platforms in the UK and abroad.</p>
-<p>I will be working closely with other members of the company’s Experts scheme, nationally and internationally, to support and direct vital R&D innovation work; pushing both the business and the state of the art forward.</p>
+<p>I work closely with other members of the company’s Experts scheme to support and direct vital R&D innovation work, pushing both the business and the state of the art forward.</p>
+<p>In the past few years my team has enabled the delivery of four major programmes of work totalling over £30 million to the Royal Navy and export customers.</p>
 </td></tr><tr><td>
 
 Feb&nbsp;2014 &mdash; Jun&nbsp;2020
@@ -161,8 +162,10 @@ Attended Bournemouth School for Boys. Achieved A-levels in Maths, Further Maths,
 Physics and Electronics, as well as a certificate in Japanese Language & Studies.
 </td></tr></table>
 
-## Marine Qualifications
+## Other Qualifications
 
+* IOSH Managing Safely
+* RYA Powerboat Level 2
 * VHF DSC Short Range Certificate
 * STCW Personal Survival Techniques
 

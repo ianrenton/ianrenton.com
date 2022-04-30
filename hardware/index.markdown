@@ -63,6 +63,14 @@ My <a href="./radioshack/">"Radio Shack"</a> page has a few details of my curren
 <div class="clear"></div>
 
 <div class="table-col table-col-pic">
+<a href="./radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna/"><img src="/images/randomshitantenna.jpg" width="160" alt="The 2E0UXV 'Random Shit I Found in my Shed' Antenna" /></a>
+</div>
+<div class="table-col table-col-descrip">
+<a href="./radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna">The 2E0UXV "Random Shit I Found in my Shed" Antenna</a>, the first antenna I built, costing precisely £0.00.
+</div>
+<div class="clear"></div>
+
+<div class="table-col table-col-pic">
 <a href="./flight-tracker"><img src="/hardware/flight-tracker/hw-small.jpg" width="160" alt="Flight Tracker" /></a>
 </div>
 <div class="table-col table-col-descrip">

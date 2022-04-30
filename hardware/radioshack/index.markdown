@@ -19,4 +19,5 @@ Outside, the largest antenna at the top is a Diamond X-50 antenna for 2m-70cm, w
 
 ## More Information
 
+* [The 2E0UXV "Random Shit I Found in my Shed" Antenna](/hardware/radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna)
 * [Useful Files](/hardware/radioshack/useful-files/) including CHIRP configs
