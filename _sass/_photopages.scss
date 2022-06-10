@@ -7,8 +7,8 @@ div#photographyindexwrapper {
 
 div.photographyindexcontainer {
   display: inline-block;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
   margin-bottom: 2em;
   box-shadow: 0px 0px 15px black;
   border: 3px solid white;
@@ -26,7 +26,7 @@ div.photographyindexcontainer {
 }
 
 img.photographyindeximage {
-  width: 230px;
+  width: 240px;
   height: 160px;
   object-fit: cover;
 }
@@ -56,9 +56,12 @@ div.photographyindextext {
 }
 
 img.galleryphoto {
+  display: inline-block;
   box-shadow: 0px 0px 15px black;
   margin-left: 0.5em;
   margin-right: 0.5em;
   margin-bottom: 1em;
-  max-height: 280px;
+  width: 320px;
+  height: 280px;
+  object-fit: cover;
 }
