@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% assign num = page.photos.size %}
+{% assign set = page.photos.set %}
+{% assign setbasepath = 'photography/images/' | append: set | append: '/' %}
 
 <div class="page-content">
   <div class="wrapper">
@@ -15,8 +16,15 @@ layout: default
   </div>
 
   <div class="photosetwrapper">
-      {% for i in (1..num) %}
-        <a href="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/{{ i }}.jpg"><img class="galleryphoto" src="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/thumbs/{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}"></a>
+      {% for image in site.static_files %}
+          {% if image.path contains setbasepath %}
+              {% if image.path contains '/thumbs/' %}
+              {% else %}
+                  {% assign imagefilename = image.path | remove : setbasepath %}
+                  {% assign thumbnailpath = '/' | append: setbasepath | append: 'thumbs/' | append: imagefilename %}
+                  <a href="{{ image.path }}"><img class="galleryphoto" src="{{ thumbnailpath }}" alt="Photo from {{ set }}"></a>
+              {% endif %}
+          {% endif %}
       {% endfor %}
   </div>
 
