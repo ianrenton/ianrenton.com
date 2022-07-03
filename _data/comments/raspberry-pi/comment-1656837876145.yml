@@ -1,0 +1,6 @@
+_id: 5d8fd930-faac-11ec-9008-110445f569db
+_parent: 'https://ianrenton.com/hardware/planesailing/raspberry-pi/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Hi Bjarne,\r\n\r\nYes, the `ssh` file is just an empty file. Any contents of the file are ignored. This feature is described in the official documentation here: https://www.raspberrypi.com/documentation/computers/remote-access.html#enabling-the-server\r\n\r\nIf you have a monitor and keyboard attached to the Pi you can also turn on SSH the \"normal\" way using the interactive `raspi-config` utility.\r\n\r\nI am using the 2GB RAM variant of the Pi 4. It's plenty for this task, since I am not using a graphical user interface or any desktop software on it.\r\n\r\nPoE HAT sounds like a good addition, let me know how it goes!"
+date: '2022-07-03T08:44:36.141Z'
