@@ -16,7 +16,7 @@ layout: default
 
   <div class="photosetwrapper">
       {% for i in (1..num) %}
-        <a href="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/{{ i }}.jpg"><img class="galleryphoto" src="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}"></a>
+        <a href="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/{{ i }}.jpg"><img class="galleryphoto" src="{{ site.baseurl }}/photography/images/{{ page.photos.set }}/thumbs/{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}"></a>
       {% endfor %}
   </div>
 
