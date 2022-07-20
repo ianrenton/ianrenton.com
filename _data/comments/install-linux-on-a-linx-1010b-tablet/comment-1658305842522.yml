@@ -1,0 +1,13 @@
+_id: 3d55e9e0-0806-11ed-bf58-a9bda4bfb59d
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Oliver
+email: b2d4390c45aa4a4598d5d31f0ce91ae7
+message: >-
+  Hi Ian. I am new to Linux, just having dual boot installed Linux Mint on my
+  laptop. I have tried to install Fedora as recommended on my old Linx 1010
+  (wiping Windows) . Installation starts fine but in the middle it stops and
+  gives a message to say that it will not boot - "kernel or firmware problem". I
+  can continue installation but no boot at the end. Have also tried install g
+  Linux Mint adding the bootia32.Efi but fails also with message "Fatal error".
+  Any suggestions?
+date: '2022-07-20T08:30:42.516Z'
