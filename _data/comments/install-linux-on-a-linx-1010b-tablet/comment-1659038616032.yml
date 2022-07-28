@@ -1,0 +1,10 @@
+_id: 5cb71a10-0eb0-11ed-a51e-0b85e422237d
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: TJ
+email: 169818f83e451afb2e4707f3ddcf1ce4
+message: >-
+  With regards to installing 22.04 I copied the bootia32.efi into the folder and
+  all installed ok but on reboot I get stuck in efi shell, I can't see the 32
+  grub file in the directory just the 64bit is the process of rectifying this is
+  there a something I missed out, the script? 20.04 works fine btw.
+date: '2022-07-28T20:03:36.028Z'
