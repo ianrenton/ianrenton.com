@@ -106,7 +106,7 @@ The install will take around 10-15 minutes. Once it is complete, click "Finish I
 
 ## Post-Install Notes
 
-*   You may find that immediately after the post-install setup wizard, your screen is rotated to the portrait orientation and does not rotate automatically. This should sort itself out if you rotate the device back and forth. If not, it can be resolved by going into Display Settings and setting the orientation manually.
+*   If you have a keyboard attached, you may find that immediately after the post-install setup wizard, your screen is rotated to the portrait orientation and does not rotate automatically. This can be resolved by going into the "Display" area of Settings and setting the orientation manually to "Portrait Left". If you detach the keyboard, you should find that automatic rotation becomes available.
 *   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from the "Software" app.
 *   The GNOME on-screen keyboard is pretty good at popping up automatically when you focus a text field in a GTK3 application. If it doesn’t pop up automatically, you can bring it up by swiping up from the bottom of the screen.
 
