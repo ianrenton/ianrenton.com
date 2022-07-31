@@ -2,7 +2,7 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
-last_update: 2022-03-26T00:00:00+00:00
+last_update: 2022-07-31T00:00:00+00:00
 wordpress_id: 1030
 ---
 
@@ -10,14 +10,14 @@ Do you have an old [Linx 1010B tablet](https://www.google.com/url?sa=t&rct=j&q=&
 
 There are a lot of sections to this page and a lot of comments providing useful tips as well, but don't be put off! The good news is, if you are happy to use the latest version of Fedora Linux Workstation on this tablet, you should be able to get up and running within an hour with minimal Linux knowledge.
 
-![Fedora Workstation 35 on a Linx 1010B tablet](/guides/linx-fedora-2022.jpg){: .center}
-*Fedora Workstation 35 on a Linx 1010B tablet*
+![Fedora Workstation on a Linx 1010B tablet](/guides/linx-fedora-2022.jpg){: .center}
+*Fedora Workstation on a Linx 1010B tablet*
 
 ## What’s Working?
 
 Your first decision is the distribution and version of Linux to install. My personal preference is for Fedora Linux and the GNOME desktop environment, as this combination seems to provide the best support for the LINX1010B tablet's hardware at the time this page was last updated.
 
-With Fedora Workstation 35, the following all work:
+With Fedora Workstation 36, the following all work:
 
 *   Installation
 *   Dual-booting with Windows 10
@@ -47,7 +47,7 @@ If you’re happy to use Fedora Linux with the default GNOME desktop environment
 To get started you will need:
 
 *   Linx 1010B tablet and charger
-*   A Fedora Workstation ISO image (download from [here](https://getfedora.org/en/workstation/download/))
+*   A Fedora Workstation x86_64 Live ISO image (download from [here](https://getfedora.org/en/workstation/download/))
 *   The [Rufus](http://rufus.ie/en/) tool to write the image to the USB stick
 *   A USB memory stick with at least 4GB capacity
 
@@ -93,20 +93,20 @@ Once Rufus finishes writing to the USB stick, it's time to boot the LINX1010B ta
 
 ## Installing Fedora
 
-The Fedora installer is reasonably easy to use and will allow you to select a keyboard layout, time zone etc. in the expected way.
+The Fedora installer is reasonably easy to use. Firstly it will prompt you to select your keyboard layout; after that it will present the "Installation Summary" menu.
 
-Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "I would like to make additional space available" to indicate you'd like to remove some of the existing partitions on the device, then click "Done". After a short delay, you will be presented with a list of the device's partitions, which you will need to modify to make space for Linux.
+Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "I would like to make additional space available" to indicate you'd like to remove some of the existing partitions on the device, then click "Done" in the top left. After a short delay, you will be presented with a list of the device's partitions, which you will need to modify to make space for Linux.
 
 * If you are removing everything currently on the tablet, you can press the "Delete All" button. This will free up all the space on the tablet's internal storage for your new Linux installation.
-* **If you are dual-booting** (e.g. with Windows), **do not remove any existing partitions**. Your "EFI System Partition" should be left unmodified. Then when selecting your Windows partition, click "Shrink" not "Delete", and reduce its size by 8GB to allow space for Fedora.
+* **If you are dual-booting** (e.g. with Windows), **do not remove any existing partitions**. Your "EFI System Partition" should be left unmodified. Select your Windows partition, click "Shrink" (not "Delete"), and reduce its size by 8GB to allow space for Fedora.
 
-Once complete, click the "Reclaim Space" button. You will then be returned to the main screen of the installer, ready to begin installation.
+Once complete, click the "Reclaim Space" button. You will then be returned to the "Installation Summary" menu. You can now select your time zone using the third menu option, and then begin the install.
 
 The install will take around 10-15 minutes. Once it is complete, click "Finish Installation" and reboot the tablet. It should now start up automatically into the new Linux installation, and you can remove the USB stick.
 
 ## Post-Install Notes
 
-*   You may initially find your screen is rotated to the portrait orientation and does not rotate automatically. This can be resolved temporarily by going into Display Settings and setting the orientation manually. When the first set of system updates is applied, screen rotation will start working properly.
+*   You may find that immediately after the post-install setup wizard, your screen is rotated to the portrait orientation and does not rotate automatically. This should sort itself out if you rotate the device back and forth. If not, it can be resolved by going into Display Settings and setting the orientation manually.
 *   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from the "Software" app.
 *   The GNOME on-screen keyboard is pretty good at popping up automatically when you focus a text field in a GTK3 application. If it doesn’t pop up automatically, you can bring it up by swiping up from the bottom of the screen.
 
