@@ -1,0 +1,6 @@
+_id: 8ede19c0-13fc-11ed-b044-2b7921980485
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Oliver
+email: b2d4390c45aa4a4598d5d31f0ce91ae7
+message: "Ian - I reinstalled Windows 10, but I hate being beaten and have tried to reinstall Fedora 36 without bootloader. However when I try to mount grub2 manually, and try 'sudo mount /dev/mmcblk1p1 /mnt/boot/efi', I get the response '/mnt/boot/efi: mount point does not exist'.\r\nThen if I do dir of mmcblk1p1 I get only\r\n/mnt/sysroot/boot  and /mnt/sysimage/boot\r\nShould there be a mount point /mnt/boot/efi there?\r\nApologies for my limited knowledge of Linux terminal commands - although learning fast. \r\nIntereseting thing is that while I was installing Fedora having clicked not to load boot, I got a message during installation - 'Installing bootloader'"
+date: '2022-08-04T13:51:37.785Z'
