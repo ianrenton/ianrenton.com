@@ -2,7 +2,7 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
-last_update: 2022-07-31T00:00:00+00:00
+last_update: 2022-08-13T00:00:00+00:00
 wordpress_id: 1030
 ---
 
@@ -311,19 +311,24 @@ If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) 
 First, boot from your Live USB and connect to WiFi. Then run the following commands.
 
 <div class="warning">
-  <p><strong>Warning:</strong> The disk and partition names included here are correct for the internal disk of my tablet. You may need to change them depending on your setup. Note there are <strong>four</strong> variables to set&mdash;three at the top and one inside the chroot. Be very careful if you are trying to dual boot with Windows as your partitions will be different!</p>
+  <p><strong>Warning:</strong> The disk and partition names included here are correct for the internal disk of my tablet, having installed Ubuntu with the default options and no dual-boot setup. You may need to change them depending on your setup. In particular, if you are using this procedure to rescue a <strong>Fedora</strong> install, the partitions are going to be different&mdash;you will want to set <code>root</code> to <code>/dev/mmcblk1p3</code> instead of <code>/dev/mmcblk1p2</code>, and set <code>boot</code> to <code>/dev/mmcblk1p2</code>.</p>
 </div>
 
 ```shell
 # Gain root permissions
 sudo -iH
 
-# Set the EFI partition on the disk. The example here is the default if you
-# have chosen to remove everything and install only Linux.
+# Set the EFI partition on the disk. This example should be correct for
+# Ubuntu and Fedora.
 efi=/dev/mmcblk1p1
-# Set the root partition on the disk used by Linux. The example here is the
-# default if you have chosen to remove everything and install only Linux.
+# Set the root partition on the disk used by Linux. This example is *only*
+# correct for Ubuntu with standard install options and no dual-boot! On
+# Fedora for example, this should be /dev/mmcblk1p3
 root=/dev/mmcblk1p2
+# Set the boot partition on the disk used by Linux. You will probably need
+# to leave this blank for Ubuntu with standard install options and no dual-boot
+# But on Fedora for example, this should be set to /dev/mmcblk1p2.
+boot=
 # Set a temporary location in which to mount the root partition.
 tempmount=/mnt/target
 
@@ -331,6 +336,7 @@ tempmount=/mnt/target
 # Linux environment
 mkdir -p $tempmount
 mount $root $tempmount
+[ -z "$boot" ] && mount $boot $tempmount/boot
 mount $efi $tempmount/boot/efi
 for i in dev dev/pts sys proc run ; do mount --bind /$i $tempmount/$i; done
 
