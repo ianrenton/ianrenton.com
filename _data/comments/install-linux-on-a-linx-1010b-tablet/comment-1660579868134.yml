@@ -1,0 +1,6 @@
+_id: de9e22f0-1cb4-11ed-93f3-dbdaaf98e206
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Oliver
+email: b2d4390c45aa4a4598d5d31f0ce91ae7
+message: "Thanks for your reply Ian. I did the 'parted' command and got the following\r\nModel: MMC 032GE4 (sd/mmc)\r\nDisk /dev/mmcblk1: 31.3GB\r\nSector size (logical/physical): 512B/512B\r\nPartition Table: gpt\r\nDisk Flags:\r\n\r\nNumber Start End Size File system Name Flags\r\n1 1049kB 1075MB 1074MB ext4\r\n2 1075MB 31.3GB 30.2GB btrfs\r\n\r\nSimilar to yours, but no efi system partition showing.\r\nI then did mkdir and got:\r\n[liveuser@localhost-live /]$ mkdir -p /dev/boot/efi\r\nmkdir: cannot create directory ‘/dev/boot’: Permission denied\r\n\r\nNo idea why permission denied. However when I run the Disks utility it is showing my internal memory as an SD Card Reader; if I look at the Model I get MMC 032GE4 (sd/mmc). Could it be that with my device, Linux is interpreting the internal memory as an SD card. By the way I do not have an SD card attached. \r\nAn SD card does not show up on BIOS as a bootable device. So maybe it just will not boot from my internal memory. (Although it will boot happily from Windows)"
+date: '2022-08-15T16:11:08.131Z'
