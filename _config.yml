@@ -31,7 +31,7 @@ plugins: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from, jekyll-seo-tag]
 permalink: /blog/:title/
 
 # Staticman
-staticman_url: https://ianrentoncom-staticman.herokuapp.com/v2/entry/ianrenton/ianrenton.com/master/comments
+staticman_url: https://blog-staticman-sb7weykloa-ew.a.run.app/v2/entry/ianrenton/ianrenton.com/master/comments
 repository  : "ianrenton/ianrenton.com"
 comments:
   provider  : "staticman_v2"
