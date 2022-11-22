@@ -57,8 +57,10 @@ div#homepagebanner {
       text-align: center;
 
       span.iconname {
+        margin-top: 5px;
         display: block;
         text-align: center;
+        color: $text-color;
       }
     }
   }
