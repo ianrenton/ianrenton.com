@@ -69,5 +69,5 @@ layout: default
   </div>
 </div>
 
-{% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "old post" threshold, show comments box {% endcomment %}
-{% if pagedate >= threshold or page.collection != 'posts' %}{% include comments.html %}{% endif %}
+{% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "LJ imported post" threshold, show comments box {% endcomment %}
+{% if pagedate >= threshold1 or page.collection != 'posts' %}{% include comments.html %}{% endif %}
