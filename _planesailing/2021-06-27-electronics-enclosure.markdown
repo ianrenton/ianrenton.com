@@ -14,6 +14,8 @@ As well as just looking bad, the SDRs had a minor overheating problem, with them
 
 I have updated the [bill of materials](/hardware/planesailing/bill-of-materials/) with a list of the components used to build an enclosure for the project that will keep it neat and tidy, plus offer some extra heat sinking capability for the Pi and SDRs.
 
+<div class="warning"><p><strong>Note:</strong> Since building Plane/Sailing into my enclosure, I have noticed occasional drop-outs of one of the RTL-SDRs, after a few days of running. I initially thought this was a temperature problem, but I now believe it's power&mdash;the Pi's USB ports just don't seem to have enough juice for all three dongles, even with the 4A USB-C supply that I use. Your mileage may vary, so I would recommend soak testing your setup for at least a couple of weeks to determine its stability before committing to a certain build. (I ended up having to separately power the USB hub, but if you're going down that route please note the very important warning on the <a href="https://thepihut.com/products/usb-mini-hub-with-power-switch">product page</a> about opening the case and cutting the white wire before doing so!)</p></div>
+
 ### Build Steps
 
 My first step was to use some "CAD" (Crayon Aided Design) to decide on a suitable enclosure.

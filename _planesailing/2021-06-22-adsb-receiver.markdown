@@ -27,6 +27,8 @@ sudo apt install dump1090-fa
 
 This will automatically run now and on subsequent restarts, so it should be up and running already! You can use a web browser to visit the SkyAware web interface using the Pi's IP address and port 8080.
 
+<div class="notes"><p><strong>Recreating this setup on an x86 PC instead of a Raspberry Pi?</strong> Here's where you may run into difficulty, because FlightAware's repositories only carry packages for ARM processors. You can <a href="https://discussions.flightaware.com/t/howto-install-dump1090-fa-on-fedora-and-rhel-x86-64/60004">build the relevant packages from source</a>, or to save time use the pre-built ones referenced in <a href="https://discussions.flightaware.com/t/outdated-install-piaware-5-0-on-x86-64-machines-and-rpi-armv7l-aarch64/74699">this thread</a>. Note the linked binaries are for Ubuntu 20.04/10, but the same Github account also has pre-built binaries for <a href="https://github.com/abcd567a/ubuntu22">Ubuntu 22.04/10</a> as well as Debian and Arch.</p></div>
+
 ### Checking Mode S Data
 
 Plane/Sailing Server by default connects to Dump1090 on port 30002 to receive ADS-B Mode S data in hexadecimal encoding. By installing and running ncat, you can check this data is available:
