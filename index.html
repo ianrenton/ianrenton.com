@@ -36,19 +36,17 @@ redirect_from:
   </div>
 </div>
 <div class="widewrapper">
-  <ul class="post-list">
-    {% for post in site.posts limit:1 %}
-      <li>
-        <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
-        <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
-        <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
-        <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts limit:1 %}
+    <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
+    <div class="mobileblock">
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
+      <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
+      <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
+    </div>
+  {% endfor %}
   <h4 style="text-align: center;"><a href="/blog">More Blog Posts »</a></h4>
   <hr/>
 </div>
