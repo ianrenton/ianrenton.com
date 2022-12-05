@@ -7,6 +7,7 @@ categories:
 tags:
 - Cornwall
 - Photos
+image: /blog/2017/cornwall3.jpg
 ---
 
 In contrast to [two years ago](/blog/summer-in-the-city/), this year's holiday was mercifully free of stifling nights and sweltering days. This year we stayed in a caravan by the sea in Cornwall, a much more relaxed (and cheaper!) affair. Since we live by the sea anyway, a seaside beach holiday wasn't high on my list of priorities, and in truth grey skies and cold winds prevented any sunbathing opportunities. Instead we did proper <strike>grockle</strike> emmet stuff, touring some of the county's attractions.

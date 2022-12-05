@@ -8,6 +8,7 @@ tags:
 - Belgium
 - Bruges
 - Photos
+image: /blog/2017/belgium3.jpg
 ---
 
 Freshly back from a work trip to Bremen at the end of May, they sent me off again for two weeks in Belgium at the start of June, to the exciting seaside destination that is [Zeebruges](https://en.wikipedia.org/wiki/Zeebrugge)&mdash;a town famous for its commercial port, its 1980s ferry disaster, and very little else. By and large our days there were long and consisted of "hotel, naval base, pub, hotel, repeat", but the event turned out a great success.

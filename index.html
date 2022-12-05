@@ -32,8 +32,29 @@ redirect_from:
         <img src="/icons/github.png">
         <span class="iconname">Github</span>
       </a></p>
-    <p id="someofmyprojects">Here are some of my projects:</p>
+    <p id="someofmyprojects" style="margin-bottom: 2em;">Here's the latest from my blog:</p>
   </div>
+</div>
+<div class="widewrapper">
+  <ul class="post-list">
+    {% for post in site.posts limit:1 %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
+        <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
+        <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
+      </li>
+    {% endfor %}
+  </ul>
+  <h4 style="text-align: center;"><a href="/blog">More Blog Posts »</a></h4>
+  <hr/>
+</div>
+
+<div class="wrapper">
+  <p id="someofmyprojects">Here are some of my projects:</p>
 </div>
 <div class="widewrapper">
   <div class="widesection">

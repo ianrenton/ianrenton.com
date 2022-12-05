@@ -1,6 +1,6 @@
 ---
 author: ian
-title: 'Another Shenzhen Special:15 Minutes with the MAFAM M11'
+title: 'Another Shenzhen Special: 15 Minutes with the MAFAM M11'
 slug: another-shenzhen-special-15-minutes-with-the-mafam-m11
 id: 3887
 date: '2018-04-12 17:31:30'
@@ -13,6 +13,7 @@ tags:
   - Mobile Phones
   - Phone
   - Shenzhen
+image: /blog/2018/04/IMG_1542.jpg
 ---
 
 Thanks to an excitingly mis-sold internet purchase, we are now in possession of the latest in exciting mobile technology - the MAFAM M11. (If you're mentally incapacitated, you could [have one of your very own](https://www.aliexpress.com/item/4-Sim-Cards-4-Standby-Mini-Slim-Mobile-Phone-with-Metal-Cover-Analog-TV-Bluetooth-Camera/2035568627.html) for 24 whole US dollars!) Let's jump in and see what this technological marvel has in store.
