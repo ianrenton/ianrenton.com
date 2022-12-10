@@ -40,7 +40,7 @@ redirect_from:
     <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
     <div class="mobileblock">
       <h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link-homepage" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
       <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
