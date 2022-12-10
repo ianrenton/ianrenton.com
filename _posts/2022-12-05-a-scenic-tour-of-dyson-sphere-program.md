@@ -12,29 +12,25 @@ If you know much about me, you'll probably know that I like "factory games" a lo
 Rather than spamming Mastodon constantly with pictures no-one cares about, I thought I'd share some of my favourites here.
 
 ![Dyson Sphere Program screenshot showing EM Rail Ejectors launching solar sails](/blog/2022/dyson1.jpg){: .center}
-
-> Dawn, when the railguns come online
+*Dawn, when the railguns come online*
 
 ![Dyson Sphere Program screenshot showing a sun surrounded by solar sails rising over a volcanic planet](/blog/2022/dyson2.jpg){: .center}
-
-> The first sunrise on a strange new world
+*The first sunrise on a strange new world*
 
 ![Dyson Sphere Program screenshot showing the mecha in front of several rocket silos](/blog/2022/dyson3.jpg){: .center}
-
-> Launching the first rockets to start Dyson Sphere construction
+*Launching the first rockets to start Dyson Sphere construction*
 
 ![Dyson Sphere Program screenshot showing "artificial sun" power generators with a partially constructed Dyson Sphere in the background](/blog/2022/dyson4.jpg){: .center}
-
-> Artificial Suns online, powered by antimatter
+*Artificial Suns online, powered by antimatter*
 
 ![Dyson Sphere Program screenshot showing a small mining setup on an icy planet with a black hole in the backgorund](/blog/2022/dyson5.jpg){: .center}
-
-> A mining colony on a planet orbiting a black hole, 20 light-years from home
+*A mining colony on a planet orbiting a black hole, 20 light-years from home*
 
 ![Dyson Sphere Program screenshot showing eight rocket silos all launching](/blog/2022/dyson6.jpg){: .center}
-
-> More rockets. Always more rockets
+*More rockets. Always more rockets*
 
 ![Dyson Sphere Program screenshot showing a partially contructed sphere from space](/blog/2022/dyson7.jpg){: .center}
+*More panels filling in the sphere*
 
-> More panels filling in the sphere
+![Dyson Sphere Program screenshot showing a completed sphere around a sun rising from behind a gas giant](/blog/2022/dyson8.jpg){: .center}
+*One sphere down... and onto the next*
