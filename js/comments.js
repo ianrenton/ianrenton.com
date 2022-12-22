@@ -28,7 +28,7 @@ $('.js-form').submit(function () {
     data: $(this).serialize(),
     contentType: 'application/x-www-form-urlencoded',
     success: function (data) {
-      $('#comment-form-submit-result').html('<p>Thanks! Your comment has been submitted for moderation, and will go live shortly.</p>');
+      $('#comment-form-submit-result').html('<p>Thanks! Your comment has been submitted and will go live shortly.</p>');
       $('#comment-form-submit-result').attr('class', 'notes');
       $('#comment-form-submit-result').show();
       $("#comment-form-submit").html("Submit");
@@ -42,11 +42,7 @@ $('.js-form').submit(function () {
       console.log(err);
       var ecode = (err.responseJSON || {}).errorCode || "unknown";
       var error = ecode.replaceAll("-", " ").replaceAll("_", " ").toLowerCase().replace(/(^\s*\w|[\.\!\?]\s*\w)/g,function(c){return c.toUpperCase()});
-      if (error != "Unknown") {
-          $('#comment-form-submit-result').html('<p>' + error + '. Your comment could not be posted, please fix the problem and try again.</p>');
-      } else {
-        $('#comment-form-submit-result').html('<p>An unknown error occurred. I am having some trouble with my comment system at the moment, please either try again shortly or email <a href="mailto:ian@ianrenton.com">ian@ianrenton.com</a> to let me know about the problem.</p>');
-      }
+      $('#comment-form-submit-result').html('<p>' + error + '. Your comment could not be posted, please fix the problem and try again.</p>');
       $('#comment-form-submit-result').attr('class', 'warning');
       $('#comment-form-submit-result').show();
       $("#comment-form-submit").html("Submit");
