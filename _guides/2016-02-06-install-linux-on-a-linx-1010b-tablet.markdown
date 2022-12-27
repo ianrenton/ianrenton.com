@@ -20,12 +20,12 @@ Further down the page, there's also instructions on how to revert back to Window
 
 Your first decision is the distribution and version of Linux to install. My personal preference is for Fedora Linux and the GNOME desktop environment, as this combination seems to provide the best support for the LINX1010B tablet's hardware at the time this page was last updated.
 
-With Fedora Workstation 36, the following all work:
+With Fedora Workstation 37, the following all work:
 
 *   Installation
 *   Dual-booting with Windows 10
 *   Touchscreen with multi-touch and on-screen keyboard
-*   Automatic screen rotation using accelerometer *(after applying system updates for the first time)*
+*   Automatic screen rotation using accelerometer
 *   Gestures and long-press to right click
 *   Sleep
 *   Screen brightness
@@ -113,10 +113,10 @@ Once Rufus finishes writing to the USB stick, it's time to boot the LINX1010B ta
 
 The Fedora installer is reasonably easy to use. Firstly it will prompt you to select your keyboard layout; after that it will present the "Installation Summary" menu.
 
-Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "I would like to make additional space available" to indicate you'd like to remove some of the existing partitions on the device, then click "Done" in the top left. After a short delay, you will be presented with a list of the device's partitions, which you will need to modify to make space for Linux.
+Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "Free up space by removing or shrinking existing partitions", then click "Done" in the top left. After a short delay, you will be presented with a "Reclaim disk space" dialog with a list of the device's partitions, which you will need to modify to make space for Linux.
 
 * If you are removing everything currently on the tablet, you can press the "Delete All" button. This will free up all the space on the tablet's internal storage for your new Linux installation.
-* **If you are dual-booting** (e.g. with Windows), **do not remove any existing partitions**. Your "EFI System Partition" should be left unmodified. Select your Windows partition, click "Shrink" (not "Delete"), and reduce its size by 8GB to allow space for Fedora.
+* **If you are dual-booting** (e.g. with Windows), **do not remove any existing partitions**. Your "EFI System Partition" should be left unmodified. Select your Windows partition, click "Shrink" (not "Delete"), and reduce its size by at least 8GB to allow space for Fedora.
 
 Once complete, click the "Reclaim Space" button. You will then be returned to the "Installation Summary" menu. You can now select your time zone using the third menu option, and then begin the install.
 
@@ -124,7 +124,6 @@ The install will take around 10-15 minutes. Once it is complete, click "Finish I
 
 ## Post-Install Notes
 
-*   If you have a keyboard attached, you may find that immediately after the post-install setup wizard, your screen is rotated to the portrait orientation and does not rotate automatically. This can be resolved by going into the "Display" area of Settings and setting the orientation manually to "Portrait Left". If you detach the keyboard, you should find that automatic rotation becomes available.
 *   If GNOME feels sluggish, it can be slightly improved by turning off animations. This is possible using the "GNOME Tweaks" tool that you can install from the "Software" app.
 *   The GNOME on-screen keyboard is pretty good at popping up automatically when you focus a text field in a GTK3 application. If it doesn’t pop up automatically, you can bring it up by swiping up from the bottom of the screen.
 
@@ -229,25 +228,28 @@ Mint 20.1 installs the same as Ubuntu 20.04.3, using the 32-bit EFI boot file tr
 
 ### Chrome OS
 
-Two main builds of Chrome/Chromium OS exist for installation on generic PCs – [Arnold the Bat](https://arnoldthebat.co.uk/wordpress/chromium-os/) and [Neverware CloudReady](https://www.neverware.com/freedownload). As of January 2021, Arnold the Bat's arm 64-bit builds do boot (without any 32-bit EFI files required), but they do not recognise the tablet's WiFi adapter, or a USB WiFi adapter that I plugged in for testing. Unfortunately Chromium OS does not have a means to skip this section of the install, so I cannot test it any further.
+Two main builds of Chrome/Chromium OS exist for installation on generic PCs – [ChromeOS Flex](https://chromeenterprise.google/os/chromeosflex/) and [Arnold the Bat](https://arnoldthebat.co.uk/wordpress/chromium-os/).
 
-CloudReady works a bit better, and provides more drivers for generic PC hardware including the WiFi. However, note that its installer doesn’t support dual boot, so if you want to install it you’ll have to get rid of Windows.
+Arnold the Bat's builds seem to have stopped as of April 2022, with no later versions available on the website. The last time I tested one, back in January 2021, the Arnold the Bat arm 64-bit builds do boot (without any 32-bit EFI files required), but they do not recognise the tablet's WiFi adapter, or a USB WiFi adapter that I plugged in for testing. Unfortunately Chromium OS does not have a means to skip this section of the install, so I could not test it any further.
 
-The last version of CloudReady that I tried is 87.3.41 (January 2021), which runs up fine (albeit slowly) in the USB stick environment, but does not successfully install. Prior to that I tried 83.4.4 (August 2020), which I did manage to install successfully. It's usable in "laptop mode", but with the following issues (see [forum thread](https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-)). The exact same issues were all present in version 76.4 (August 2019) as well, so I wouldn't expect them to be resolved soon - Bay Trail tablets are not officially supported by the project.
+ChromeOS Flex is the successor to Neverware's CloudReady fork, [Neverware having been bought up by Google](https://www.theverge.com/2020/12/16/22179242/google-neverware-chromebook-laptops-chrome-os-software) back in 2020. This provides more drivers for generic PC hardware including the WiFi, which means at least you can get through the installer. However, note that the installer doesn’t support dual boot, so if you want to install it you’ll have to get rid of Windows.
 
-*   No touchscreen support at all
+The last version of ChromeOS Flex that I tried is 108.0.5359.111 (December 2022). It's usable in "laptop mode", but with the following issues (see [forum thread](https://neverware.zendesk.com/hc/en-us/community/posts/360023071953-linx-1010-tablet-laptop-works-fine-but-no-touchscreen-)). The exact same issues were all present back in version 76.4 (August 2019) as well, so don't get your hopes up for a fix&mdash;Bay Trail tablets are not officially supported by the project.
+
+*   No touchscreen support
 *   No orientation detection – screen needs rotating to 90 deg manually if you want to use it in landscape mode
 *   Brightness control doesn’t work
-*   Wifi is tempramental - sometimes it works fine, sometimes it reconnects over and over again
 *   Cameras don’t work
 *   No Bluetooth support
 *   No Sleep/Suspend support
 
 ### Android
 
-The [Android x86](https://www.android-x86.org/) project allows Android to be run and installed on generic Intel hardware such as the Linx 1010B. As of their Oreo/8.1 release, this does work, but it is **very slow**! It’s just about usable for light web browsing but it can take over a minute just to get from the lock screen to the launcher. On that basis, it’s not recommended.
+The [Android x86](https://www.android-x86.org/) project allows Android to be run and installed on generic Intel hardware such as the Linx 1010B. As of their Oreo/8.1 release, this does work, but it is **very slow**! It’s just about usable for light web browsing but it can take over a minute just to get from the lock screen to the launcher. The project seems to be slowly dying; while builds were released for Android 9.0, they have not been for any later version. On the basis of those two points, I can't recommend it.
 
-If you want to try, you’ll need the same 32-bit EFI trick as with the standard Ubuntu instructions to get the USB stick to boot. It installs fine though and you can dual-boot with Windows. Sleep/suspend and cameras don’t work.
+If you want to try Android x86, you’ll need the same 32-bit EFI trick as with the standard Ubuntu instructions to get the USB stick to boot. It installs fine though and you can dual-boot with Windows. Sleep/suspend and cameras don’t work.
+
+Intel have a project known as [Celadon](https://www.intel.com/content/www/us/en/developer/topic-technology/open/celadon/overview.html) which produces x86-compatible builds of Android, however the system requirements likely exclude the Linx 1010B from being able to run it. I haven't tried, but if you fancy giving it a shot, please do and report back with your findings!
 
 ### Windows 10
 
