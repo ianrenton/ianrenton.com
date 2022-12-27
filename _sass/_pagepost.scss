@@ -135,6 +135,8 @@
 }
 #toc:before {
   content: "Table of Contents";
+  margin-left: -1em;
+  font-weight: bold;
 }
 
 @include media-query($on-palm) {
