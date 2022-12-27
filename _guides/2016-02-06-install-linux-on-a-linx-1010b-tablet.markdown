@@ -2,16 +2,19 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
-last_update: 2022-08-13T00:00:00+00:00
+last_update: 2022-12-27T00:00:00+00:00
 wordpress_id: 1030
 ---
+
+* TOC
+{:toc}
+{: #toc}
 
 Do you have an old [Linx 1010B tablet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_of_hpOb1AhXYilwKHZOVAlAQFnoECAUQAQ&url=https%3A%2F%2Fwww.amazon.co.uk%2FLinx-1010B-10-1-Tablet-Black%2Fdp%2FB014D847FS&usg=AOvVaw0SFLrDOW1XztJo4YE4GcIm) sat around doing nothing? These tablets were cheap, underpowered and are now very much showing their age; in particular they no longer receive Windows updates. If you'd like to give yours a new lease of life, consider installing Linux on it. This guide will show you how.
 
 There are a lot of sections to this page and a lot of comments providing useful tips as well, but don't be put off! The good news is, if you are happy to use the latest version of Fedora Linux Workstation on this tablet, you should be able to get up and running within an hour with minimal Linux knowledge.
 
-![Fedora Workstation on a Linx 1010B tablet](/guides/linx-fedora-2022.jpg){: .center}
-*Fedora Workstation on a Linx 1010B tablet*
+Further down the page, there's also instructions on how to revert back to Windows if you change your mind, so don't worry&mdash;so long as you've backed up anything of importance on your tablet, you shouldn't be at risk of losing anything.
 
 ## What’s Working?
 
@@ -42,6 +45,9 @@ If you’re happy to use Fedora Linux with the default GNOME desktop environment
   <p>For first-time Linux users, Ubuntu would normally be my distro recommendation, due to the incredible amount of help and resources available for it online. However, since around 2020 Ubuntu support for the Linx tablet has been getting steadily worse, particularly around the 32-bit EFI/grub issues, and now in 2022 a new problem with sound output. For this reason I have switched my recommendation to Fedora as it now offers the easiest setup and least bugs. If you still want to try Ubuntu, check out <a href="#ubuntu">the Ubuntu section of this page</a>.</p>
 </div>
 
+![Fedora Workstation on a Linx 1010B tablet](/guides/linx-fedora-2022.jpg){: .center}
+*Fedora Workstation on a Linx 1010B tablet*
+
 ## Equipment Required
 
 To get started you will need:
@@ -62,9 +68,21 @@ The Linx 1010B keyboard attachment (or other USB keyboard) is useful to speed th
 
 ## Considering Dual-Boot
 
-Whether you dual-boot with Windows or wipe out Windows completely and just use Linux is up to you. Linux is now suitable for daily use on this tablet, so I’ve wiped off Windows completely. If you’re not sure, you can dual-boot for a while&mdash;but note that if you have two operating systems on the tablet, Linux will be very limited in the amount of space available.
+Whether you dual-boot with Windows or wipe out Windows completely and just use Linux is up to you. Linux is now suitable for daily use on this tablet, so I’ve wiped off Windows completely. If you’re not sure, you can dual-boot for a while&mdash;but note that if you have two operating systems on the tablet, both operating systems will be very limited in the amount of space available to them.
 
 Whichever way you choose, the Linux installer will handle repartitioning the disk for you during the installation, but if you’re dual-booting you may need to delete some old files and applications from within Windows, then run a disk cleanup to ensure at least 8GB of space is free.
+
+## Ensuring you can go Back to Windows Later
+
+If you are removing Windows completely from the tablet, and think you might want to go back to Windows later, you'll need to ensure you can reactivate it. The easiest way to do that is just to sign into Windows using a Microsoft account. If you do that, your Windows licence will be associated with your Microsoft account, and if you ever reinstall Windows on the tablet and sign in again with the same account, it will automatically activate.
+
+If you prefer not to do that, you should be able to get the licence key from your existing install. To do this, run PowerShell as an administrator, then in the PowerShell window run the following command: 
+
+```
+wmic path SoftwareLicensingService get OA3xOriginalProductKey
+```
+
+Note down the 25-character code that appears; you may need it to reactivate Windows if you later decide to reinstall it.
 
 ## Preparing for the Install
 
@@ -170,15 +188,15 @@ To install, follow this procedure:
 ![Ubuntu 20.04 on a Linx 1010B tablet](/guides/linx-2004.jpg){: .center}
 *Ubuntu 20.04 on a Linx 1010B tablet*
 
-#### Later Versions: Ubuntu 21.10, 21.04, 20.10 & 20.04.4
+#### Later Versions: Ubuntu 20.04.4&mdash;22.10
 
 These are more recent releases of Ubuntu than the recommended version, 20.04.3. However, they seem to have a regression in terms of their support for Bay Trail tablets in the installer, and they does not correctly set up 32-bit EFI and grub. If you install from an Ubuntu 20.10, 21.04 or 21.10 image or even the updated .4 release of the 20.04 LTS, you will likely find that you will boot to a grub rescue prompt and can't get into your new installation.
 
 You can attempt to fix this by following [this procedure](#install32bitgrubafter), but it will be much easier (although more time consuming) to install 20.04.3 and do an in-place upgrade to a later release.
 
-These versions are also subject to the audio problem when upgrading the kernel.
+Some of these versions are also subject to the audio problem when upgrading the kernel.
 
-#### Older Versions: Ubuntu 20.04, 19.10, 19.04, 18.10 & 18.04
+#### Older Versions: Ubuntu 18.04&mdash;20.04
 
 I have tested Ubuntu 20.04.3 and found it to be working well, as documented above. However, back before the ".1" update when using the base Ubuntu 20.04, a couple of people posted in the comments below about being unable to boot from USB after installation. We never got to the bottom of this, so for now I would not recommend going back to the base 20.04.
 
@@ -187,7 +205,7 @@ Aside from that, all Ubuntu versions between 18.04 and 20.04.3 have installed an
 ![Ubuntu 18.10 on a Linx 1010B tablet](/guides/linx-1810.png){: .center}
 *Ubuntu 18.10 on a Linx 1010B tablet*
 
-#### Ancient Versions (before 18.04)
+#### Ancient Versions: before 18.04
 
 These versions do not install alongside Windows properly or set up GRUB properly with the system’s 32-bit UEFI. Follow this procedure to get them installed:
 
@@ -204,7 +222,7 @@ These versions do not install alongside Windows properly or set up GRUB properly
 
 ### Linux Mint 20.1
 
-Mint 20.1 installs almost as well as the recommended Ubuntu 20.04.3, using the 32-bit EFI boot file trick. There are two caveats:
+Mint 20.1 installs the same as Ubuntu 20.04.3, using the 32-bit EFI boot file trick. There are two caveats:
 
 1. While Ubuntu Live USB automatically boots into "Try Ubuntu" after a few seconds, Mint does not. You'll therefore need a physical keyboard (just to press Enter once during first boot!) If that's not possible for you, you can work around it by opening `<usb stick>:\boot\grub\grub.cfg` on the computer you used to make it, and add the line `GRUB_TIMEOUT=5`.
 2. See the note above on [Other Desktop Environments](#otherdes) regarding Cinnamon and MATE.
@@ -231,13 +249,31 @@ The [Android x86](https://www.android-x86.org/) project allows Android to be run
 
 If you want to try, you’ll need the same 32-bit EFI trick as with the standard Ubuntu instructions to get the USB stick to boot. It installs fine though and you can dual-boot with Windows. Sleep/suspend and cameras don’t work.
 
-### Windows
+### Windows 10
+
+#### From Linx Recovery Image
 
 The Linx 1010B tablets came with Windows 8 preinstalled, and were supported up to Windows 10 19H1. If you're having problems with your device but want to stick with Windows, or you've installed Linux, found it wasn't for you and want to go back, the easiest way is to install Linx's own custom Windows recovery image. This is Windows 10 Home 32-bit 19H1 with all the Linx tablet drivers included, and you can download it from [this link provided by Linx tech support](https://mega.nz/#!HUYV1IzZ!Gu5qiTjHZOS5TbzDg5z6dZD9RA7QRqKokz2Tkp3gyx4). I have a backup [here](https://nextcloud.renton.es/s/si3NiRqniFBqmyG) just in case they take it offline for any reason. (That's on my home server, please be kind and don't hammer it.)
 
-From that base, Windows should update itself to 20H2 and all the hardware, drivers etc. will continue to work. However, it won't update any further by itself. Trying to force it by using fresh download of Windows 10 21H2 direct from Microsoft, is not recommended as this install will be missing several key drivers including touchscreen, audio and cameras. Despite scouring the web, I have yet to identify good sources for driver downloads to restore the missing functionality when installing Windows this way.
+From that base, Windows should update itself to 20H2 and all the hardware, drivers etc. will continue to work. However, it won't update any further by itself.
 
-The Linx 1010B does not meet the minimum system requirements for Windows 11. Amongst other problems, Windows 11 drops support for 32-bit processors&mdash;although the tablet processor is technically 64-bit, the Linux "hack" of using a 32-bit EFI boot image has never worked with Windows. If you use Windows, plan to stay on Windows 10.
+#### From Microsoft Image
+
+If you would like to force it to update to a more recent version of Windows 10, you will need to do this by [downloading a new install image from Microsoft](https://www.microsoft.com/en-gb/software-download/windows10), and using it to upgrade your existing installation, or replace whatever's on your system if you're switching back to Windows.
+
+If you are installing Windows 10 from scratch (e.g. version 22H2). you will find that most of the hardware doesn't have driver support out-of-the-box. Most importantly, this includes the touchscreen, so you will need a physical keyboard and touchpad/mouse for this process. One of the commenters below has helpfully provided a driver package which I have verified makes the tablet fully functional on Windows 10 22H2. My recommended process for this is as follows:
+
+1. [Download the driver package from here](https://nextcloud.renton.es/s/ybkXJHccDX7aQK8)
+2. Install Windows 10 and *don't* connect to your WiFi when prompted
+3. Unpack the driver package and install every `.inf` file (right-click -> Install) in turn, rebooting when prompted
+4. Once they are all installed, connect to your WiFi and run Windows Update
+5. From Windows Update's "Optional" section, install the RealTek bluetooth driver.
+
+This should get you a fully working set of drivers on the tablet.
+
+### Windows 11
+
+The Linx 1010B does not meet the minimum system requirements for Windows 11. Amongst other problems, Windows 11 drops support for 32-bit processors&mdash;although the tablet processor is technically 64-bit, the "hack" of using a 32-bit EFI boot file (e.g. the one from the Windows 10 image) has never worked properly with the Windows 11 installer. If you use Windows, plan to stay on Windows 10.
 
 ## Other Useful Information
 
@@ -304,7 +340,7 @@ xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Threshold"
 xinput --set-prop "Goodix Capacitive TouchScreen" "Evdev Third Button Timout" "500"
 ```
 
-### Installing 32-bit Grub after a Botched Install {#install32bitgrubafter}
+### Manually Install 32-bit Grub {#install32bitgrubafter}
 
 If you have installed a version of Linux (such as Ubuntu 20.10, 21.04 or 21.04) which installs a 64-bit grub despite the 32-bit EFI and thus doesn't boot, you may be able to make your installation bootable by following this procedure, provided by Damien in the comments. It may also work for very old versions (pre-18.04) where grub installation fails; if not, see the next section.
 
@@ -372,7 +408,7 @@ mount | grep $tempmount
 
 Restart the tablet without the Live USB inserted, and hopefully you get into your proper installed OS.
 
-### Installing 32-bit Grub after a Botched Install (Without chroot)
+### Manually Install 32-bit Grub (Without chroot)
 
 Back in around 2015 when first trying to get Linux installed on the tablet, the chroot approach above did not work. What had to do is temporarily use the copy of GRUB on the USB stick, and tweak it to boot Linux from the internal storage instead of the one it normally boots.
 

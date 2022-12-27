@@ -114,3 +114,40 @@
   }
 
 }
+
+/* Table of contents */
+#toc {
+  position: absolute;
+  right: 2em;
+  font-size: $small-font-size;
+  margin: 0 0 0 2em;
+  padding: 1em 1em 1em 2em;
+  border: 1px solid $grey-color-superlight;
+  border-left: 3px solid $grey-color;
+  border-radius: 3px;
+  background-color: #eeeeee;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+#toc:before {
+  content: "Table of Contents";
+}
+
+@include media-query($on-palm) {
+    #toc {
+        float: none;
+        display: none;
+    }
+}
+
+@include media-query($on-non-super-wide) {
+    #toc {
+      float: right;
+      right: 0em;
+      position: relative;
+    }
+}
