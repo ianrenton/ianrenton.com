@@ -28,7 +28,7 @@ $('.js-form').submit(function () {
     data: $(this).serialize(),
     contentType: 'application/x-www-form-urlencoded',
     success: function (data) {
-      $('#comment-form-submit-result').html('<p>Thanks! Your comment has been submitted for moderation, and will go live shortly.</p>');
+      $('#comment-form-submit-result').html('<p>Thanks! Your comment has been submitted and will go live shortly.</p>');
       $('#comment-form-submit-result').attr('class', 'notes');
       $('#comment-form-submit-result').show();
       $("#comment-form-submit").html("Submit");
