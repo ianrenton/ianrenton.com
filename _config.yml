@@ -8,15 +8,6 @@ url: "https://ianrenton.com"
 lang: en_GB
 future: true
 
-# SEO plugin
-social:
-  name: Ian Renton
-  links:
-    - https://twitter.com/i_renton
-    - https://github.com/ianrenton
-twitter:
-  username: i_renton
-
 # Build settings
 #lsi: false
 #safe: true
@@ -27,7 +18,7 @@ highlighter: rouge
 auto_ids: true
 sass:
   style: compressed
-plugins: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from, jekyll-seo-tag, jekyll-feed]
 permalink: /blog/:title/
 include: [".well-known"]
 
@@ -140,15 +131,3 @@ collections:
 # jekyll-paginate
 paginate: 10
 paginate_path: "/blog/page:num/"
-
-# Category & Year archives for the blog posts
-#jekyll-archives:
-#  enabled:
-#  - year
-#  - categories
-#  layouts:
-#    year: archive-year
-#    category: archive-category
-#  permalinks:
-#    year: '/blog/:year/'
-#    category: '/blog/category/:name/'
