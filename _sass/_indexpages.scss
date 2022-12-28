@@ -64,11 +64,6 @@ div#homepagebanner {
       }
     }
   }
-
-  p#someofmyprojects {
-    margin-top: $spacing-unit * 1.5;
-  }
-
 }
 
 /* Rearrange homepage banner if on mobile */
@@ -89,6 +84,32 @@ div#homepagebanner {
   p#personallinks a:nth-child(1n+4) {
     display: none !important;
   }
+}
+
+div.indexsectionheader {
+  margin-top: $spacing-unit * 2;
+  margin-bottom: $spacing-unit * 0.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+div.indexsectionheader::before,
+div.indexsectionheader::after {
+  content: '';
+  flex: 1;
+  border-bottom: 3px solid $text-color;
+}
+
+div.indexsectionheader:not(:empty)::before {
+  margin-right: 0.5em;
+}
+
+div.indexsectionheader:not(:empty)::after {
+  margin-left: 0.5em;
 }
 
 /* Wide section for use with the large 250px images to the left and right

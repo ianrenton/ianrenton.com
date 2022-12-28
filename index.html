@@ -32,29 +32,12 @@ redirect_from:
         <img src="/icons/github.png">
         <span class="iconname">Github</span>
       </a></p>
-    <p id="someofmyprojects" style="margin-bottom: 2em;">Here's the latest from my blog:</p>
   </div>
 </div>
-<div class="widewrapper">
-  {% for post in site.posts limit:1 %}
-    <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
-    <div class="mobileblock">
-      <h2>
-        <a class="post-link-homepage" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
-      <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
-      <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
-    </div>
-  {% endfor %}
-  <h4 style="text-align: center;"><a href="/blog">More Blog Posts »</a></h4>
-  <hr/>
-</div>
 
-<div class="wrapper">
-  <p id="someofmyprojects">Here are some of my projects:</p>
-</div>
 <div class="widewrapper">
+  <div class="indexsectionheader">Hardware and Robotics</div>
+
   <div class="widesection">
     <a href="/hardware/planesailing"><img class="left" src="/images/250/planesailing.jpg" alt="A military tactical software display showing symbols representing boats and planes" /></a>
     <div class="mobileblock">
@@ -107,8 +90,9 @@ redirect_from:
   <div class="widesection">
     <h3 style="text-align: center;"><a href="/hardware">More Hardware & Robotics »</a></h3>
   </div>
-  <hr/>
 
+
+  <div class="indexsectionheader">Software and Websites</div>
 
   <div class="widesection">
     <a href="https://ianrenton.github.io/roastdinner/"><img class="right" src="/images/250/roast.jpg" alt="A knife cutting into a roast chicken" /></a>
@@ -134,30 +118,44 @@ redirect_from:
   <div class="widesection">
     <h3 style="text-align: center;"><a href="/software/">More Software »</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/websites/">More Websites »</a></h3>
   </div>
-  <hr/>
 
 
-  <div class="widesection">
-    <a href="https://careerexplorer.ianrenton.com"><img class="left" src="/images/250/careerexplorer.jpg" alt="A military tactical software display" /></a>
-    <div class="mobileblock">
-      <h2><a href="https://careerexplorer.ianrenton.com">Career Explorer</a></h2>
-      <p>“Career Explorer” is my online CV, an interactive map where you can pan around to see where I’ve been and what I’ve done in my professional career. I also have a <a href="/cv">more formal CV</a> online.</p>
+  <div class="indexsectionheader">Blog</div>
+
+  {% for post in site.posts limit:3 %}
+    <div class="widesection">
+      <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
+      <div class="mobileblock">
+        <h2>
+          <a class="post-link-homepage" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
+        <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
+        <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
+      </div>
     </div>
+  {% endfor %}
+  <div class="widesection">
+    <h3 style="text-align: center;"><a href="/blog">More Blog Posts »</a></h3>
   </div>
 
-  <div class="widesection">
-    <a href="/filmreviews"><img class="right" src="/images/250/sharknado.jpg" alt="A screenshot from the film 'Sharknado'" /></a>
-    <div class="mobileblock">
-      <h2><a href="/filmreviews">Film Reviews (by the Numbers)</a></h2>
-      <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!</p>
-    </div>
-  </div>
+
+  <div class="indexsectionheader">Miscellaneous</div>
 
   <div class="widesection">
     <a href="/photography"><img class="left" src="/images/250/photography.jpg" alt="A photo of the Red Arrows" /></a>
     <div class="mobileblock">
       <h2><a href="/photography">Photography</a></h2>
       <p>A bunch of my best photos over the years.</p>
+    </div>
+  </div>
+
+
+  <div class="widesection">
+    <a href="/filmreviews"><img class="right" src="/images/250/sharknado.jpg" alt="A screenshot from the film 'Sharknado'" /></a>
+    <div class="mobileblock">
+      <h2><a href="/filmreviews">Film Reviews (by the Numbers)</a></h2>
+      <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!</p>
     </div>
   </div>
 </div>

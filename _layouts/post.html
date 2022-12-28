@@ -10,10 +10,12 @@ layout: default
   <div class="wrapper">
 
   <header class="post-header">
-    {% comment %} If the post is in a collection, display the collection name as a link above post title {% endcomment %}
+    {% comment %} If the post is in a collection, display the collection name as a link above post title - otherwise it's part of the blog so link to that{% endcomment %}
     {% if page.collection != 'posts' %}
       {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
       <h3 class="backtocollectionindex"><a href="{{ thispagecollection.collectionindex }}">&laquo; {{ thispagecollection.collectiontitle }}</a></h3>
+    {% else %}
+      <h3 class="backtocollectionindex"><a href="/blog">&laquo; Blog</a></h3>
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}{{ page.last_update | date: "<br/>Last updated on %A %-d %B %Y" }}</p>
