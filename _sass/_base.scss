@@ -198,3 +198,7 @@ pre > code {
 p > code, li > code {
     white-space: nowrap;
 }
+  
+.highlight, .highlight .w {
+    background-color: $code-background-color !important;
+}

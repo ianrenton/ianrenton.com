@@ -117,15 +117,16 @@
 
 /* Table of contents */
 #toc {
-  position: absolute;
+  position: fixed;
   right: 2em;
+  top: 6em;
   font-size: $small-font-size;
   margin: 0 0 0 2em;
   padding: 1em 1em 1em 2em;
   border: 1px solid $grey-color-superlight;
   border-left: 3px solid $grey-color;
   border-radius: 3px;
-  background-color: #eeeeee;
+  background-color: darken($background-color,5%);
 
   &:after {
     content: "";
@@ -150,6 +151,7 @@
     #toc {
       float: right;
       right: 0em;
+      top: 0em;
       position: relative;
     }
 }
