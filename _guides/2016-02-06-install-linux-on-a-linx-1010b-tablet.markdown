@@ -95,15 +95,23 @@ On the final page, double-check that the correct USB stick is selected, before c
 
 ![The Fedora Media Writer interface, page 3](/guides/fedora-media-writer-2.png){: .center .noshadow}
 
-Once Fedora Media Writer finishes setting up the USB stick, remove it from the computer. Now it's time to boot the LINX1010B tablet from it!
+Once Fedora Media Writer finishes setting up the USB stick, you'll be shown the following screen. You can now remove the device from your PC.
 
-1.  Ensure your tablet is off.
-2.  Insert the USB stick into one of the USB ports.
-3.  Turn the tablet on while holding the Volume Up button. The screen should say "Esc is pressed. Go to boot options.", then you will be given a setup menu.
-4.  Press "Boot Manager" and you’ll see an "EFI USB Device" in the list. Press it to continue.
-5.  You will boot from the memory stick and get to the GRUB bootloader screen.
-6.  If you have a keyboard, press Up to select the top option, and Enter to run it immediately. (This saves having to wait for the default "Test this media" option.)
-7.  When the GUI appears, press once on the workspace, then press the "Install to Hard Drive" button. The installer will appear after a few seconds.
+![The Fedora Media Writer interface, complete](/guides/fedora-media-writer-3.png){: .center .noshadow}
+
+Now it's time to boot the LINX1010B tablet from it!
+
+Ensure your tablet is off to start with. Insert the USB stick into one of the USB ports. Next, turn the tablet on while holding the Volume Up button. Once you see the screen say "Esc is pressed. Go to boot options.", you can release the Volume Up button.
+
+![LINX tablet boot screen](/guides/linx-usb-boot-1.jpg){: .center}
+
+After around a second, the tablet will display its boot manager screen. Touch is supported at this point.
+
+![LINX tablet boot menu](/guides/linx-usb-boot-2.jpg){: .center}
+
+From here, the only option you need at the moment is "Boot Manager". Press "Boot Manager" and you should see a new list with an "EFI USB Device" entry, which has a name matching the model of your device.
+
+![LINX tablet boot manager menu](/guides/linx-usb-boot-3.jpg){: .center}
 
 <div class="notes">
   <p><strong>Can't see your USB device in the list?</strong></p>
@@ -111,26 +119,51 @@ Once Fedora Media Writer finishes setting up the USB stick, remove it from the c
   <p>If you <em>still</em> don't see it, double-check that your device is really a USB Mass Storage device and not a USB Hard Disk, and that if you used Unetbootin or Rufus to write the ISO, that it's FAT32 formatted and not NTFS.</p>
 </div>
 
+Press the entry that corresponds to your USB device. The tablet will boot from the memory stick and get to the GRUB bootloader screen.
+
+![Grub boot menu](/guides/linx-usb-boot-4.jpg){: .center}
+
+There's no touch support at this stage. If you have a keyboard, press Up to select the top option, and Enter to run it immediately. If not, you'll have to wait 60 seconds for the menu, then several more minutes while the OS image is tested. After that, the Fedora live environment will boot. There may be some text on screen during this time, don't panic! The startup takes a couple of minutes but it will get there eventually.
+
+![Fedora initial screen](/guides/linx-fedora-install-1.jpg){: .center}
+
+When the GUI appears, press once on the workspace, then press the "Install to Hard Drive" button. The initial window will disappear, but just wait&mdash;the installer will appear after a minute or so.
+
+
 ## Installing Fedora
 
 The Fedora installer is reasonably easy to use. Firstly it will prompt you to select your keyboard layout; after that it will present the "Installation Summary" menu.
 
-Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "Free up space by removing or shrinking existing partitions", then click "Done" in the top left. After a short delay, you will be presented with a "Reclaim disk space" dialog with a list of the device's partitions, which you will need to modify to make space for Linux.
+![Fedora installer summary menu](/guides/linx-fedora-install-2.png){: .center}
+
+Because your tablet's internal storage already has an operating system on it, you will see that the "Installation Destination" icon has a warning symbol, forcing you to make a decision about the partitions already on the disk. Click on the icon and you will be presented with the Installation Destination screen. Select "Free up space by removing or shrinking existing partitions", then click "Done" in the top left.
+
+![Fedora installer disk menu](/guides/linx-fedora-install-3.png){: .center}
+
+After a short delay, you will be presented with a "Reclaim disk space" dialog with a list of the device's partitions, which you will need to modify to make space for Linux.
 
 * If you are removing everything currently on the tablet, you can press the "Delete All" button. This will free up all the space on the tablet's internal storage for your new Linux installation.
 * **If you are dual-booting** (e.g. with Windows), **do not remove any existing partitions**. Your "EFI System Partition" should be left unmodified. Select your Windows partition, click "Shrink" (not "Delete"), and reduce its size by at least 8GB to allow space for Fedora.
 
-Once complete, click the "Reclaim Space" button. You will then be returned to the "Installation Summary" menu. You can now select your time zone using the third menu option, and then begin the install.
+![Fedora installer reclaim space menu](/guides/linx-fedora-install-4.png){: .center}
+
+Once you have shrunk partitions or marked them for deletion, click the "Reclaim Space" button.
+
+![Fedora installer reclaim space menu](/guides/linx-fedora-install-5.png){: .center}
+
+You will then be returned to the "Installation Summary" menu. You can now select your time zone using the third menu option, and then click the blue "Begin Installation" button.
 
 The install will take around 10-15 minutes. Once it is complete, click "Finish Installation" and reboot the tablet. It should now start up automatically into the new Linux installation, and you can remove the USB stick.
+
+On first startup, you'll have to set a few more options such as your username and password, then it'll take another minute or so before the new Fedora installation is ready to use.
 
 ## Reverting your USB Stick to Normal {#revertusb}
 
 Fedora Media Writer creates several partitions on your memory stick, which do not use a standard cross-platform filesystem. You'll therefore likely find that when you next use it on a Windows machine, it doesn't work as you expect.
 
-The solution is to use Fedora Media Writer again. If you insert your memory stick then run the utility, you should see a third option has appeared in the menu underneath "Download Automatically" and "Select .iso file", which is named "Restore". Select this third option and click Next, then click Restore. Your USB stick will then be reset to a standard single FAT32 partition ready for use on any computer.
+The easiest solution is to use Fedora Media Writer again. If you insert your memory stick then run the utility, you should see a third option has appeared in the menu underneath "Download Automatically" and "Select .iso file", which is named "Restore (Model of your USB stick)". Select this third option and click Next, then click Restore. Your USB stick will then be reset to a standard single FAT32 partition ready for use on any computer.
 
-![The Fedora Media Writer interface](/guides/fedora-media-writer-3.png){: .center .noshadow}
+![The Fedora Media Writer interface](/guides/fedora-media-writer-restore.png){: .center .noshadow}
 
 ## Post-Install Notes
 
