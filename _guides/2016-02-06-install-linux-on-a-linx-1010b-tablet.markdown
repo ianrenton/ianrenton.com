@@ -53,17 +53,16 @@ If you’re happy to use Fedora Linux with the default GNOME desktop environment
 To get started you will need:
 
 *   Linx 1010B tablet and charger
-*   A Fedora Workstation x86_64 Live ISO image (download from [here](https://getfedora.org/en/workstation/download/))
-*   The [Rufus](http://rufus.ie/en/) tool to write the image to the USB stick
+*   The Fedora Media Writer tool (download from [here](https://getfedora.org/en/workstation/download/))
 *   A USB memory stick with at least 4GB capacity
 
 The Linx 1010B keyboard attachment (or other USB keyboard) is useful to speed things up a little, but isn't strictly necessary.
 
 <div class="notes">
-  <p><strong>Why Rufus and not Unetbootin or Fedora Media Writer?</strong></p>
-  <p>The Fedora image is unusual amongst Linux LiveUSB installers in that it uses the "ISOHybrid" format. Rufus is the only USB image writing program I know of that will automatically do the more advanced techniques required to write an ISOHybrid image to a USB stick and make it boot properly while keeping the stick in FAT32 format for later use. By contrast:</p>
-  <ul><li>Unetbootin will write the image to the USB stick in a more basic way, and while the result is bootable, the Fedora environment does not load properly within it and it cannot be installed.</li>
-  <li>Fedora Media Writer directly writes the image to the USB stick as if it were a DVD (ISO9660 file system). It will install fine from this, but afterwards the memory stick won't immediately be usable in the normal way. The Fedora Media Writer has a built-in "Restore" function intended to revert the USB stick back to a normal state, but during my testing I found that this didn't work and I had to recreate the partition table manually with GParted. I could not fix it with Windows Disk Management Console. Therefore, I don't recommend this approach for new users.</li></ul>
+  <p><strong>Why Fedora Media Writer and not Rufus or Unetbootin?</strong></p>
+  <p>I used to recommend Unetbootin for writing images to memory stick. This worked well for other distros such as Ubuntu but I have encountered issues with it when using Fedora, where the result is bootable, but the Fedora environment does not load properly within it and it cannot be installed. Your mileage may vary, so give it a try if you prefer.</p>
+  <p>I've also previously recommended Rufus for use with Fedora images, due to issues with Fedora Media Writer. As of December 2022 (Fedora Workstation 37), Fedora Media Writer seems to have improved in reliability, so I now recommend it as it's easier to use than Rufus.</p>
+  <p>There is one disadvantage to Fedora Media Writer, in that it directly writes the image to the USB stick as if it were a DVD (ISO9660 file system). This means that after the install, the memory stick won't immediately be usable in the normal way. The Fedora Media Writer has a built-in "Restore" function to revert the USB stick back to a normal state, which I explain <a href="#revertusb">after the install</a>.</p>
 </div>
 
 ## Considering Dual-Boot
@@ -74,9 +73,9 @@ Whichever way you choose, the Linux installer will handle repartitioning the dis
 
 ## Ensuring you can go Back to Windows Later
 
-If you are removing Windows completely from the tablet, and think you might want to go back to Windows later, you'll need to ensure you can reactivate it. The easiest way to do that is just to sign into Windows using a Microsoft account. If you do that, your Windows licence will be associated with your Microsoft account, and if you ever reinstall Windows on the tablet and sign in again with the same account, it will automatically activate.
+If you are removing Windows completely from the tablet, and think you might want to go back to Windows later, you'll need to ensure you can reactivate it. The easiest way to do that, assuming you're on Windows 10, is just to sign into Windows using a Microsoft account. If you do that, your Windows licence will be associated with your Microsoft account, and if you ever reinstall Windows on the tablet and sign in again with the same account, it will automatically activate.
 
-If you prefer not to do that, you should be able to get the licence key from your existing install. To do this, run PowerShell as an administrator, then in the PowerShell window run the following command: 
+If you prefer not to do that, or you didn't upgrade and are still on Windows 8, you should be able to get the licence key from your existing install. To do this, run PowerShell as an administrator, then in the PowerShell window run the following command: 
 
 ```
 wmic path SoftwareLicensingService get OA3xOriginalProductKey
@@ -86,14 +85,17 @@ Note down the 25-character code that appears; you may need it to reactivate Wind
 
 ## Preparing for the Install
 
-First, create your installation USB stick using Rufus. Select the ISO image and make sure you select the right drive for your USB stick. All other options can be left as the defaults, which should match those shown in the image below.
+First, ensure there is nothing important on your USB memory stick, as it will be wiped during the process.
 
-You will be prompted whether to write the disk in ISO or DD mode, choose ISO (the default). You will also be prompted whether to download the right version of syslinux from the internet, choose "Yes" to this.
+Insert the USB stick into your computer, then run Fedora Media Writer. You can keep all the options set as default, just clicking Next twice, to use the latest 64-bit Fedora Workstation with the GNOME desktop (which is what we want).
 
-![Rufus interface with options highlighted](/guides/linx-rufus-options.png){: .center .noshadow}
-*The Rufus interface with default options highlighted*
+![The Fedora Media Writer interface, page 1](/guides/fedora-media-writer.png){: .center .noshadow}
 
-Once Rufus finishes writing to the USB stick, it's time to boot the LINX1010B tablet from it.
+On the final page, double-check that the correct USB stick is selected, before clicking "Download & Write". Then go and make a cup of tea&mdash;depending on your connection speed, downloading Fedora and flashing it to the memory stick could take 15 minutes or more.
+
+![The Fedora Media Writer interface, page 3](/guides/fedora-media-writer-2.png){: .center .noshadow}
+
+Once Fedora Media Writer finishes setting up the USB stick, remove it from the computer. Now it's time to boot the LINX1010B tablet from it!
 
 1.  Ensure your tablet is off.
 2.  Insert the USB stick into one of the USB ports.
@@ -121,6 +123,14 @@ Because your tablet's internal storage already has an operating system on it, yo
 Once complete, click the "Reclaim Space" button. You will then be returned to the "Installation Summary" menu. You can now select your time zone using the third menu option, and then begin the install.
 
 The install will take around 10-15 minutes. Once it is complete, click "Finish Installation" and reboot the tablet. It should now start up automatically into the new Linux installation, and you can remove the USB stick.
+
+## Reverting your USB Stick to Normal {#revertusb}
+
+Fedora Media Writer creates several partitions on your memory stick, which do not use a standard cross-platform filesystem. You'll therefore likely find that when you next use it on a Windows machine, it doesn't work as you expect.
+
+The solution is to use Fedora Media Writer again. If you insert your memory stick then run the utility, you should see a third option has appeared in the menu underneath "Download Automatically" and "Select .iso file", which is named "Restore". Select this third option and click Next, then click Restore. Your USB stick will then be reset to a standard single FAT32 partition ready for use on any computer.
+
+![The Fedora Media Writer interface](/guides/fedora-media-writer-3.png){: .center .noshadow}
 
 ## Post-Install Notes
 
