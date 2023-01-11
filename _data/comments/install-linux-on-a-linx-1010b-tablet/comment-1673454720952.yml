@@ -1,0 +1,6 @@
+_id: 7846c320-91cd-11ed-bb4a-931414e50d8d
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: Alfonso E.M.
+email: b6cfe453864e76e24028c5a1bcc4439b
+message: "After hours of burning and booting images with no luck I notice these facts:\r\n\r\n* Fedora does not boot in my tablet \r\n* The link to Ubuntu \"Ubuntu Linux ISO image (20.04.3 LTS 64-bit recommended, download from here)\" points to an old beta. It boots but installation fails.\r\n* Probably the most importante point: My Linx tablet is a Linx 10 NOT A 1010 !!  XD\r\n\r\nFinally an Ubuntu 20.04.4 LTS + UnetBootin worked flawlessly (wifi, touch, BT...)"
+date: '2023-01-11T16:32:00.944Z'
