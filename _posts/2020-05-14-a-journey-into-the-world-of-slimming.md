@@ -26,21 +26,25 @@ Next up: Cheddar cod. CHEDDAR COD WHAT THE HELL
 
 <a href="/blog/2020/slimming4.jpg"><img src="/blog/2020/slimming4.jpg" alt="Cheddar Cod recipe" class="center" style="max-height: 500px;" /></a>
 
-To be fair that's just cheesy white sauce, but I'm still not sold on the concept&mdash;or how 3oz of Cheddar cheese is slimming.
+To be fair that's just cheesy white sauce, but I'm still not sold on the concept&mdash;or how Cheddar cheese is slimming.
 
 On which note, we move on to "Hamburgers with Topping". "Topping"? Sounds suspicious.
 
-The recipe doesn't seem particularly weird, but crucially: NO BUN. I guess the recipe book is simply 40 years ahead of its time; I've seen pubs that today offer this as a low-carb version of a burger.
+The recipe doesn't seem *particularly* weird, but crucially: NO BUN. I guess the recipe book is simply 40 years ahead of its time; I've seen pubs that today offer this as a low-carb version of a burger.
 
 <a href="/blog/2020/slimming5.jpg"><img src="/blog/2020/slimming5.jpg" alt="Hamburgers with Topping recipe" class="center" style="max-height: 500px;" /></a>
+
+Check out that appetizing photo. Those burgers are already cold.
 
 Next: Cauliflower and Orange Salad. Ingredients: Cauliflower, Orange, Low-calorie Dressing. Yum yum.
 
 <a href="/blog/2020/slimming6.jpg"><img src="/blog/2020/slimming6.jpg" alt="Cauliflower and Orange Salad recipe" class="center" style="max-height: 500px;" /></a>
 
-I think they made a typo here, and this next recipe should be "Beans with Baby Sick"?
+Moving on, I think they made a typo on this next recipe&mdash;it should be called "Beans with Baby Sick".
 
 <a href="/blog/2020/slimming7.jpg"><img src="/blog/2020/slimming7.jpg" alt="Beans with Tomato Sauce recipe" class="center" style="max-height: 500px;" /></a>
+
+But hey, big respect to you for cooking the beans first and keeping them warm for 20 fucking minutes while you make the rest of it. I'm sure they'll still be crisp and fresh.
 
 Hey, at least they can't fuck up desserts too badly. Except this crumble topping, made with muesli and cornflakes, which is an unacceptable compromise in the name of slimming.
 
@@ -48,7 +52,7 @@ Hey, at least they can't fuck up desserts too badly. Except this crumble topping
 
 That's just a bowl of dry milkless cereal, man.
 
-But nothing, *nothing* prepared me for the worst of all the secrets this book had hidden inside.
+So far so bad. But nothing, *nothing* prepared me for the worst of all the secrets this book had hidden inside.
 
 A hand-written recipe from god-knows-who and god-knows-when, sandwiched between the pages. A horror so bad even the Sainsbury Book of Slimming did not dare commit it to print.
 
@@ -66,7 +70,7 @@ I present the crowning glory of 80s culinary hell:
 
 <a href="/blog/2020/slimming9.jpg"><img src="/blog/2020/slimming9.jpg" alt="A handwritten recipe for Curry Turkey" class="center" style="max-height: 500px;" /></a>
 
-How much curry powder is required before you can't tell you're eating turkey with bananas and A WHOLE LARGE FUCKING JAR OF MAYONNAISE?
+How much curry powder is required before you can't tell you're eating turkey with bananas and A WHOLE FUCKING JAR OF MAYONNAISE?
 
 For our own safety: we will never know.
 
