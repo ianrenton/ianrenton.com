@@ -197,7 +197,7 @@ In XFCE particularly, I have also had issues with tapping to click and long-pres
 Before 2022, Ubuntu was my recommendation for installing Linux on this tablet. There are a few quirks to installing and using it, which mean that I can no longer recommend it as strongly as I recommend Fedora, but it is still an option. Of all the available versions of Ubuntu, 20.04.3 was the high point in terms of compatibility and lack of bugs, and is therefore what I recommend if you're set on using Ubuntu.
 
 To install Ubuntu on the tablet, you will need your tablet and USB stick, plus:
-*   Ubuntu Linux ISO image (20.04.3 LTS 64-bit recommended, download from [here](https://old-releases.ubuntu.com/releases/focal/))
+*   Ubuntu Linux ISO image (20.04.3 LTS 64-bit recommended, download from [here](https://old-releases.ubuntu.com/releases/focal/ubuntu-20.04.3-desktop-amd64.iso))
 *   32-bit EFI boot image (download from [here](https://github.com/jfwells/linux-asus-t100ta/blob/master/boot/bootia32.efi?raw=true) or [here](/guides/bootia32.efi))
 *   An application to write the ISO to the memory stick, such as [Unetbootin](http://unetbootin.github.io/) or [Rufus](http://rufus.ie/en/)
 
@@ -298,7 +298,7 @@ Intel have a project known as [Celadon](https://www.intel.com/content/www/us/en/
 
 #### From Linx Recovery Image
 
-The Linx 1010B tablets came with Windows 8 preinstalled, and were supported up to Windows 10 19H1. If you're having problems with your device but want to stick with Windows, or you've installed Linux, found it wasn't for you and want to go back, the easiest way is to install Linx's own custom Windows recovery image. This is Windows 10 Home 32-bit 19H1 with all the Linx tablet drivers included, and you can download it from [this link provided by Linx tech support](https://mega.nz/#!HUYV1IzZ!Gu5qiTjHZOS5TbzDg5z6dZD9RA7QRqKokz2Tkp3gyx4). I have a backup [here](https://nextcloud.renton.es/s/si3NiRqniFBqmyG) just in case they take it offline for any reason. (That's on my home server, please be kind and don't hammer it.)
+The Linx 1010B tablets came with Windows 8 preinstalled, and were supported up to Windows 10 19H1. If you're having problems with your device but want to stick with Windows, or you've installed Linux, found it wasn't for you and want to go back, the easiest way is to install Linx's own custom Windows recovery image. This is Windows 10 Home 32-bit 19H1 with all the Linx tablet drivers included, and you can download it from [this link provided by Linx tech support](https://mega.nz/#!HUYV1IzZ!Gu5qiTjHZOS5TbzDg5z6dZD9RA7QRqKokz2Tkp3gyx4). I have a backup [here](https://therentonfamily-my.sharepoint.com/:u:/g/personal/ian_ianrenton_com/ERPcCpwHpZtOvUg8SP5lmk0BXSpPIXfH8KnKG0fJj6d1vQ?e=3v7pHX) just in case they take it offline for any reason.
 
 From that base, Windows should update itself to 20H2 and all the hardware, drivers etc. will continue to work. However, it won't update any further by itself.
 
@@ -308,7 +308,7 @@ If you would like to force it to update to a more recent version of Windows 10, 
 
 If you are installing Windows 10 from scratch (e.g. version 22H2). you will find that most of the hardware doesn't have driver support out-of-the-box. Most importantly, this includes the touchscreen, so you will need a physical keyboard and touchpad/mouse for this process. One of the commenters below has helpfully provided a driver package which I have verified makes the tablet fully functional on Windows 10 22H2. My recommended process for this is as follows:
 
-1. [Download the driver package from here](https://nextcloud.renton.es/s/ybkXJHccDX7aQK8)
+1. [Download the driver package from here](https://therentonfamily-my.sharepoint.com/:u:/g/personal/ian_ianrenton_com/EU4G4fdBih5BvlLBl2ua7J0BI8MVj6QbwZ1FMZZxX50j8g?e=kacffk)
 2. Install Windows 10 and *don't* connect to your WiFi when prompted
 3. Unpack the driver package and install every `.inf` file (right-click -> Install) in turn, rebooting when prompted
 4. Once they are all installed, connect to your WiFi and run Windows Update
