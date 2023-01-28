@@ -27,6 +27,7 @@ The links below are to the design & build information in case you are interested
 10. [Bill of Materials](./bill-of-materials/)
 11. [The Tracking Packet Format FAQ](./tracking-packet-format-faq)
 12. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
+13. [Plane/Sailing Does the Bournemouth Air Festival!](/blog/plane-sailing-does-the-bournemouth-air-festival/)
 
 You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
 

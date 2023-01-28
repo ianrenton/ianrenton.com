@@ -13,7 +13,7 @@ paginate: true
       {% endif %}
     </header>
 
-    {% if paginator.page != 1 %}
+    {% if paginator.page > 2 %}
       <div class="warning"><p>These are some pretty old posts! I don't blog that much any more, but if they are of interest, feel free to browse. Alternatively, you can <a href="/">go back to the homepage</a> to see some more recent stuff.</p></div>
     {% endif %}
 
