@@ -10,7 +10,7 @@ tags:
 
 In an effort to be more conscious about time spent idly scrolling through "content" on my phone every day, I've decided on a new policy for apps: no infinite scroll. By this I mean making an effort not to use any app that offers an endless feed of posts or other content just by scrolling.
 
-My use of Reddit was always quite passive, just scrolling forever through a list of semi-interesting things and not interacting. I've gone back in time a bit and substituted it for an RSS reader. Finding a good and interesting (bit not too high volume) set of feeds to follow has been a challenge, as there are a bunch of sites that offer no feeds at all any more. But crucially for me, it's not infinite scroll&mdash;I get to the end of the day's posts, and that's it; no more endless feed of steadily lower- and lower-quality posts.
+My use of Reddit was always quite passive, just scrolling forever through a list of semi-interesting things and not interacting. I've gone back in time a bit and swapped it for an RSS reader. Finding a good and interesting (but not too high volume) set of feeds to follow has been a challenge, as there are a bunch of sites that offer no feeds at all any more. But crucially for me, it's not infinite scroll&mdash;I get to the end of the day's posts, and that's it; no more endless feed of steadily lower- and lower-quality posts.
 
 Instagram is gone too; another endless time-suck. After the 2-5 posts from actual friends, an infinite scroll of nice photos and steadily more adverts until I eventually gave up.
 
