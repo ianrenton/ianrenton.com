@@ -25,7 +25,7 @@ For the servo test script, you'll need to be running version 1.0.5 or above of `
 
 Since the boat won't normally have an internet connection, and doesn't have a BIOS battery, it would be nice to set it up to automatically set its clock when it gets a GPS fix.
 
-To do that, I installed the `gpsd` and `ntp` packages. I then configured `/etc/default/gpsd` as follows:
+To do that, I installed the `gpsd` and `ntp` packages. I then configured `/etc/default/gpsd` as follows, using `/dev/ttyS2` which is the GPS port on the Beaglebone Blue:
 
 ```
 DEVICES="/dev/ttyS2"
@@ -39,19 +39,47 @@ server 127.127.28.0 minpoll 4 maxpoll 4
 fudge 127.127.28.0 time1 0.0 refid GPS
 ```
 
-After restarting both services, and ensuring the GPS has a clear view of the sky, `ntpq -p` should show the local GPS in use as a time source:
+After restarting both services, and ensuring the GPS has a clear view of the sky, `ntpq -p` should show the local GPS in use as a time source, like so (note the asterisk next to the "GPS" line):
 
 ```
-todo......
+   remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*SHM(0)          .GPS.            0 l    9   16  177    0.000   20.575  11.972
+ 0.debian.pool.n .POOL.          16 p    -   64    0    0.000    0.000   0.002
+ 1.debian.pool.n .POOL.          16 p    -   64    0    0.000    0.000   0.002
+ 2.debian.pool.n .POOL.          16 p    -   64    0    0.000    0.000   0.002
+ 3.debian.pool.n .POOL.          16 p    -   64    0    0.000    0.000   0.002
 ```
 
 ## Receiving GPS Data
 
-The GPS data is now coming in via the serial port, and being consumed by `gpsd`. This is great for setting the clock, but what about other software on the Beaglebone that's going to want to know where the boat is? I wanted to distribute the data in the traditional way, as NMEA-0183 format messages, and chose to use UDP for ease of implementation on the client end.
+The GPS data is now coming in via the serial port, and being consumed by `gpsd`. This can be checked with the `cgps` command, which provides a visual output like so:
 
-I had originally written some C code to do this direct from the serial port ([Beaglebone Blue GPS UDP Sender](https://github.com/ianrenton/beaglebone-blue-gps-udp-sender)) but with the port tied up by `gpsd`, that wasn't possible.
+```
+┌───────────────────────────────────────────┐┌─────────────────────────────────┐
+│    Time:       2023-03-11T16:37:24.000Z   ││PRN:   Elev:  Azim:  SNR:  Used: │
+│    Latitude:    (REDACTED) N              ││   8    34    282    35      Y   │
+│    Longitude:    (REDACTED) W             ││  10    32    140    38      Y   │
+│    Altitude:   124.672 ft                 ││  16    72    200    35      Y   │
+│    Speed:      0.02 mph                   ││  18    39    056    37      Y   │
+│    Heading:    0.0 deg (true)             ││  23    42    098    42      Y   │
+│    Climb:      0.00 ft/min                ││  26    37    164    30      Y   │
+│    Status:     3D FIX (8 secs)            ││  27    70    293    32      Y   │
+│    Longitude Err:   +/- 37 ft             ││  15    05    051    00      N   │
+│    Latitude Err:    +/- 46 ft             ││  21    04    232    17      N   │
+│    Altitude Err:    +/- 187 ft            ││                                 │
+│    Course Err:      n/a                   ││                                 │
+│    Speed Err:       +/- 63 mph            ││                                 │
+│    Time offset:     0.378                 ││                                 │
+│    Grid Square:     IO90bs                ││                                 │
+└───────────────────────────────────────────┘└─────────────────────────────────┘
+```
 
-Luckily, there is a pre-built utility that can do this for us&mdash;[gps2udp](https://gpsd.gitlab.io/gpsd/gps2udp.html). It will connect to the local `gpsd`, and broadcast the NMEA messages to UDP ports. It's available in the `gpsd-clients` package.
+This is great for setting the clock, but what about other software on the Beaglebone that's going to want to know where the boat is? I wanted to distribute the data in the traditional way, as NMEA-0183 format messages, and chose to use UDP for ease of implementation on the client end.
+
+I had originally written some C code to do this direct from the serial port ([Beaglebone Blue GPS UDP Sender](https://github.com/ianrenton/beaglebone-blue-gps-udp-sender))&mdash;but with the port tied up by `gpsd`, that wasn't possible.
+
+Luckily, there is a pre-built utility designed to work with `gpsd` that can do this for us&mdash;[gps2udp](https://gpsd.gitlab.io/gpsd/gps2udp.html). It will connect to the local `gpsd`, and broadcast the NMEA messages to UDP ports. It's available in the `gpsd-clients` package.
 
 I set this up as a `systemd` service by creating `/etc/systemd/system/gps2udp.service` as follows:
 
@@ -77,7 +105,7 @@ sudo systemctl enable gps2udp.service
 sudo systemctl start gps2udp.service
 ```
 
-Testing it by listening with `ncat -ul 2011` shows the messages we expect, as shown below. (Shown before fix acquired so I don't doxx myself to 5m CEP!)
+Testing it by listening with `ncat -ul 2011` shows the messages we expect, as shown below. (The example shows messages before a fix is acquired; if your GPS has successfully acquired a fix you will see more data here.)
 
 ```
 $GPRMC,,V,,,,,,,,,,N*53
@@ -105,7 +133,7 @@ $HEHDT,275.9,T*26
 
 Just like getting MPU data, controlling the servo outputs is done in C using `librobotcontrol`. I wanted to expose this control to all sorts of programs on board, so as with the code above, I made a simple C program which accepts UDP packets and uses them to issue demands to the throttle ESC and rudder servo.
 
-(Completed soon, watch this space!)
+*(Completed soon, watch this space!)*
 
 ## Control System
 

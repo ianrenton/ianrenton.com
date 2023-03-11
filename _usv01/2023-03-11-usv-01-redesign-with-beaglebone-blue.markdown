@@ -74,4 +74,12 @@ I had to reverse the pin order to get my CJMCU uBlox M8 GPS working with the Bea
 
 You can of course buy pre-crimped lengths of cable and empty connectors, which are almost more common than the pre-made cables&mdash;almost as if this was a common problem!
 
-Note that with only microUSB power connected, the Beaglebone Blue does not power up the +5V output on this connector. It's only enabled when a separate power source is connected via the barrel jack or battery balance connector.
+Note that with only microUSB power connected, the Beaglebone Blue does not power up the +5V output on this connector (or the 6v power line for servomotors). It's only enabled when a separate power source is connected via the barrel jack or battery balance connector.
+
+## The Servo Multiplexer
+
+As before, I'm using a servo multiplexer board between the RC receiver & Beaglebone on one side, and the throttle ESC & rudder servo on the other. This allows me to select which of the two inputs gets through to the outputs, using a multiplexer driven by the RC receiver.
+
+This means that I can set up one of the shoulder switches on my transmitter to swap between driving the boat direct from that transmitter, and listening to the Beaglebone.
+
+I can therefore easily swap the boat back into "fun mode" if required, and in particular if something goes wrong with the software, I've got that as a fallback control method.
