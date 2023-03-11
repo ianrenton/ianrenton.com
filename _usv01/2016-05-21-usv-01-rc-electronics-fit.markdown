@@ -20,14 +20,10 @@ The RC receiver is attached to the throttle ESC and rudder servo by the trailing
 
 ![Receiver fitted](/hardware/usv-01/rx.jpg){: .center}
 
-The schematic for the installed electronics now looks like this (click for PDF):
+The schematic for the installed electronics now looks like this:
 
-[![Base RC Electronics Schematic](/hardware/usv-01/base-rc-schematic.png)](/hardware/usv-01/base-rc-schematic.pdf)
+![Base RC Electronics Schematic](/hardware/usv-01/base-rc-schematic.png)
 
 The boat is now ready to be tested on the water&mdash;initially, in the bath.
 
 ![Boat in bath](/hardware/usv-01/bath.jpg){: .center}
-
-Here's a video of the first out-of-water and in-water propulsion tests:
-
-<center><video width="640" controls><source src="https://video.ianrenton.com/usv01/benchandbath.mp4" type="video/mp4"></video></center>

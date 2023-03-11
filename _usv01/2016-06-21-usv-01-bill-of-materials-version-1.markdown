@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "USV-01 Bill of Materials"
-date: 2016-05-21 11:33
+title: "USV-01 Bill of Materials (version 1)"
+date: 2016-06-21 11:33
 comments: true
 categories: 
 ---
 
-This is the bill of materials for USV-01, based loosely on my previous blog post ["A Base Hardware Set for USV Control"](/blog/a-base-hardware-set-for-usv-control/):
+This is the bill of materials the first version of the USV-01 build:
 
 <table border="1">
   <thead>

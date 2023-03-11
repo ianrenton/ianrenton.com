@@ -1,0 +1,77 @@
+---
+layout: post
+title: "USV-01 Redesign with Beaglebone Blue"
+date: 2023-03-11 08:54
+comments: true
+categories:
+---
+
+If you're following along with this build guide and have a particularly keen eye, you may have noticed a small 7-year jump in date between the previous post and this one. Yes, after a long time sat unloved in the shed (the boat, not me) I've finally developed some enthusiasm for the project again.
+
+Back in 2016, the Harry Paye was using an original Raspberry Pi Model B, a servo control board made by some guy on the internet, USB serial converters, a USB WiFi dongle, etc.&mdash;it was pretty chunky compared to the small amount of space available inside the boat:
+
+![The version 1 hardware build](/hardware/usv-01/box7.jpg){: .center}
+
+Since then, hobby robotics boards have come on a long way. (Now Ardupilots did exist back in 2016 and were fine for some simple boat driving, but I did want a "proper" PC with WiFi to be at the heart of this system, hence the Pi and all its chunky accessories.) One of my favourites is the [Beaglebone Blue](https://beagleboard.org/blue), which has built-in WiFi, battery regulator, PWM servo control and a 9DOF MPU, along with standardised connectors for things like a GPS. Pretty much everything you could want, really:
+
+![Beaglebone Blue pin-out](/hardware/usv-01/beaglebone-pinout.jpg){: .center}
+
+So, I decided to redesign the internals of the Harry Paye around the Beaglebone Blue.
+
+## Recovering the System
+
+Despite several years exposed to the conditions inside my leaky shed, the internals of the boat seemed pretty much fine:
+
+![Boat internals with all custom parts removed](/hardware/usv-01/rebuild1.jpg){: .center}
+
+Only the batteries were a problem; they had swollen slightly, and not willing to trust the safety of the model to two Chinese spicy pillows, I ordered some new ones.
+
+![Spicy pillows](/hardware/usv-01/rebuild2.jpg){: .center}
+
+## Electronics & Mounting
+
+It turns out that there just aren't any cases for the Beaglebone Blue out there&mdash;[at one point there was one](https://in.rsdelivers.com/product/designspark/cbbblue-clr/designspark-case-for-beaglebone-blue-blue/1442599), but they're now impossible to get hold of. For the first part of the redesign, I bought a case for the Beaglebone Black (of which there are many) and cut holes out of it to suit. (For a future upgrade, I may build something neater myself.)
+
+At least the board still fitted neatly in the lower half of the case:
+
+![Beaglebone Blue board in the bottom half of a case](/hardware/usv-01/rebuild3.jpg){: .center}
+
+I wanted to re-use the GPS, the servo multiplever board and the handheld controller receiver from the version 1 build, and attach them into a neat package&mdash;or at least, as neat as I could manage without putting more than half an hour's effort into, for now.
+
+![Beaglebone Blue with FrSky X8R receiver, uBlox GPS and Pololu servo multiplexer](/hardware/usv-01/rebuild4.jpg){: .center}
+
+A few extra holes and cut-outs were required in the top part of the case:
+
+![Beaglebone Blue case top with extra holes](/hardware/usv-01/rebuild5.jpg){: .center}
+
+The GPS and servo multiplexer were attached with 3mm and 2mm nylon bolts:
+
+![GPS and servo multiplexer attached to Beaglebone case top](/hardware/usv-01/rebuild6.jpg){: .center}
+
+It looks like it's all going to come together neatly, until you remember to add the cables:
+
+![Completed electronics assembly, looking very messy](/hardware/usv-01/rebuild7.jpg){: .center}
+
+![Completed electronics assembly, looking very messy](/hardware/usv-01/rebuild8.jpg){: .center}
+
+## Improving the WiFi
+
+Those two little wires you may have noticed protruding from one end of the board are the WiFi antennas. It *is* two-channel MIMO, but while their performance is fine for communicating with the device at close range, out on the water will be a different story. I removed them from the U.FL connectors on the board and attached external antennas outside the hull.
+
+![Two antennas on the back of the boat](/hardware/usv-01/rebuild9.jpg){: .center}
+
+I chose SMA-to-SMA for the through-hull part, then a separate SMA to U.FL to attach to the board. This allows the through-hull connector to be glued in place to prevent water ingress, but still allows the Beaglebone to be removed without having to detach U.FL connectors, as these are designed for only a small number of mating cycles.
+
+![SMA pigtail underneath one antenna](/hardware/usv-01/rebuild10.jpg){: .center}
+
+## The GPS Re-wire
+
+The good news about GPS receivers for hobby robotics projects is that many of them use the same connector, a 6-pin JST with 1mm pitch spacing. The *bad news* is that [the pins in that connector are not always in the same order](https://discuss.ardupilot.org/uploads/default/original/2X/6/6e2eaa6201a83f92fbc241529087e41ffadd1d01.jpg)...
+
+I had to reverse the pin order to get my CJMCU uBlox M8 GPS working with the Beaglebone Blue. Not the end of the world, but a very fiddly job requiring a tiny screwdriver to release the plastic catches.
+
+![A JST connector with wires removed](/hardware/usv-01/rebuild11.jpg){: .center}
+
+You can of course buy pre-crimped lengths of cable and empty connectors, which are almost more common than the pre-made cables&mdash;almost as if this was a common problem!
+
+Note that with only microUSB power connected, the Beaglebone Blue does not power up the +5V output on this connector. It's only enabled when a separate power source is connected via the barrel jack or battery balance connector.
