@@ -6,22 +6,111 @@ comments: true
 categories:
 ---
 
-As with my other hobby autonomous systems, I'm going to stop short of publishing any code that contains real control logic&mdash;even though I'm doing this in my spare time, that's getting much too close to the "day job" with all its concerns about intellectual property. If you're recreating this build for yourself, there are a number of open source software frameworks that should work fine on this platform, such as [ROS](https://www.ros.org/) and [MOOS-IvP](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage), and in finest academic tradition, implementing them is left as an exercise for the reader.
-
 ## Initial Setup
 
 The initial setup for the board was to download the latest "flasher" Debian image, load it onto an SD card, and boot the Beaglebone from it. This will automatically flash the on-board eMMC with the image from the SD card, which can then be removed. [Instructions are here.](https://beagleboard.org/static/librobotcontrol/flashing.html)
 
-The Beaglebone Blue hosts its own WiFi access point by default, which is what I want for the USV. It's a bit of a faff to switch modes between that and having it join my own LAN, so for the times I've needed it to be connected to the internet (e.g. for package updates) I've used the USB interface to a computer for that.
+The Beaglebone Blue hosts its own WiFi access point by default, which is what I want for the USV. It's a bit of a faff to switch modes between that and having it join my own LAN, so for the times I've needed it to be connected to the internet (e.g. for package updates) I've used the USB interface to a computer, bridging the two connections, and running the following commands on the Beaglebone:
+
+```bash
+sudo /sbin/route add default gw 192.168.7.1
+sudo echo "nameserver 8.8.8.8" > /etc/resolv.conf
+```
 
 Once installed, `sudo dpkg-reconfigure librobotcontrol` ensures the librobotcontrol package (for connection to the MPU and servos) is set up, and `rc_test_drivers` should indicate that everything is OK.
 
-## Receiving Data
+For the servo test script, you'll need to be running version 1.0.5 or above of `librobotcontrol`. I had 1.0.4 installed as part of the base image, so I needed to update via `apt` to get it working.
 
-For my purposes, I wanted to be able to receive the incoming GPS data in two different places, so I created a simple C program to receive this data from the serial port and send it out as UDP: [Beaglebone Blue GPS UDP Sender](https://github.com/ianrenton/beaglebone-blue-gps-udp-sender).
+## Setting time from GPS
 
-In a similar way, I also wanted to use the heading data from the magnetometer in two different applications, and in NMEA-0183 format to match what's coming from the GPS. I created a similar program for that too: [Beaglebone Blue Heading NMEA UDP Sender](https://github.com/ianrenton/beaglebone-blue-heading-nmea-udp-sender).
+Since the boat won't normally have an internet connection, and doesn't have a BIOS battery, it would be nice to set it up to automatically set its clock when it gets a GPS fix.
+
+To do that, I installed the `gpsd` and `ntp` packages. I then configured `/etc/default/gpsd` as follows:
+
+```
+DEVICES="/dev/ttyS2"
+GPSD_OPTIONS="-n"
+```
+
+And to `/etc/ntp.conf` I added:
+
+```
+server 127.127.28.0 minpoll 4 maxpoll 4
+fudge 127.127.28.0 time1 0.0 refid GPS
+```
+
+After restarting both services, and ensuring the GPS has a clear view of the sky, `ntpq -p` should show the local GPS in use as a time source:
+
+```
+todo......
+```
+
+## Receiving GPS Data
+
+The GPS data is now coming in via the serial port, and being consumed by `gpsd`. This is great for setting the clock, but what about other software on the Beaglebone that's going to want to know where the boat is? I wanted to distribute the data in the traditional way, as NMEA-0183 format messages, and chose to use UDP for ease of implementation on the client end.
+
+I had originally written some C code to do this direct from the serial port ([Beaglebone Blue GPS UDP Sender](https://github.com/ianrenton/beaglebone-blue-gps-udp-sender)) but with the port tied up by `gpsd`, that wasn't possible.
+
+Luckily, there is a pre-built utility that can do this for us&mdash;[gps2udp](https://gpsd.gitlab.io/gpsd/gps2udp.html). It will connect to the local `gpsd`, and broadcast the NMEA messages to UDP ports. It's available in the `gpsd-clients` package.
+
+I set this up as a `systemd` service by creating `/etc/systemd/system/gps2udp.service` as follows:
+
+```
+[Unit]
+Description=gps2udp
+Requires=systemd-modules-load.service
+
+[Service]
+User=root
+ExecStart=gps2udp -n -u 127.0.0.1:2011 -u 127.0.0.1:2012
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+And then set it up to run automatically as follows:
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable gps2udp.service
+sudo systemctl start gps2udp.service
+```
+
+Testing it by listening with `ncat -ul 2011` shows the messages we expect, as shown below. (Shown before fix acquired so I don't doxx myself to 5m CEP!)
+
+```
+$GPRMC,,V,,,,,,,,,,N*53
+$GPVTG,,,,,,,,,N*30
+$GPGGA,,,,,,0,00,99.99,,,,,,*48
+$GPGSA,A,1,,,,,,,,,,,,,99.99,99.99,99.99*30
+```
+
+## Receiving Heading Data
+
+Since the GPS was set up to distribute NMEA-0183 format messages to local applications via UDP, I also wanted to use the heading data from the magnetometer in the same way. I created a simple C program to do that: [Beaglebone Blue Heading NMEA UDP Sender](https://github.com/ianrenton/beaglebone-blue-heading-nmea-udp-sender).
+
+`sudo make install` builds it and sets it up to run automatically in the background.
+
+Again, testing it by listening with `ncat -ul 2021` shows the messages we expect, as shown below.
+
+```
+$HEHDT,277.9,T*24
+$HEHDT,275.1,T*2E
+$HEHDT,279.9,T*2A
+$HEHDT,275.9,T*26
+```
 
 ## Controlling the Motors
 
-Coming soon...
+Just like getting MPU data, controlling the servo outputs is done in C using `librobotcontrol`. I wanted to expose this control to all sorts of programs on board, so as with the code above, I made a simple C program which accepts UDP packets and uses them to issue demands to the throttle ESC and rudder servo.
+
+(Completed soon, watch this space!)
+
+## Control System
+
+With the ability to receive position and heading data, and control the propeller and rudder, all that's left is to tie the two together with a control system that will allow the USV to follow a mission autonomously.
+
+Unfortunately, that's the point this guide stops.
+
+As with my other hobby autonomous systems, I'm going to stop short of publishing any code that contains real control logic&mdash;even though I'm doing this in my spare time, that's getting much too close to the "day job" with all its concerns about intellectual property. If you're recreating this build for yourself, there are a number of open source software frameworks that should work fine on this platform, such as [ROS](https://www.ros.org/) and [MOOS-IvP](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage), and in finest academic tradition, implementing them is left as an exercise for the reader.
