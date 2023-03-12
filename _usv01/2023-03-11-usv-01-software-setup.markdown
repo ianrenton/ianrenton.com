@@ -123,10 +123,31 @@ Since the GPS was set up to distribute NMEA-0183 format messages to local applic
 Again, testing it by listening with `ncat -ul 2021` shows the messages we expect, as shown below.
 
 ```
-$HEHDT,277.9,T*24
-$HEHDT,275.1,T*2E
-$HEHDT,279.9,T*2A
-$HEHDT,275.9,T*26
+$GPHDT,277.9,T*24
+$GPHDT,275.1,T*2E
+$GPHDT,279.9,T*2A
+$GPHDT,275.9,T*26
+```
+
+Note that the talker ID used by this code is "GP", so the message will be "GPHDT". This is for compatibility with `gpsd`, which will ignore other talker IDs such as "HE" for a heading sensor. The setup to bring this data into `gpsd` is covered below.
+
+## Combining the Two
+
+To avoid programs needing two different ports for GPS and heading data, I decided to use `gpsd` to combine them. I updated `/etc/default/gpsd` to tell it to listen for UDP messages on port 2021 as well as the serial port:
+
+```
+DEVICES="/dev/ttyS2 udp://0.0.0.0:2021"
+```
+
+The output from `gps2udp` found by listening on port 2011 then had messages from both sources included:
+
+```
+$GPHDT,318.2,T*3D
+$GPHDT,319.1,T*3F
+$GPRMC,152539,V,(REDACTED),N,(REDACTED),W,0.0000,0.000,120323,,*28
+$GPGSA,A,1,,,,,,,,,,,,,,,,*32
+$GPHDT,318.1,T*3E
+$GPHDT,317.7,T*37
 ```
 
 ## Controlling the Motors
