@@ -152,9 +152,11 @@ $GPHDT,317.7,T*37
 
 ## Controlling the Motors
 
-Just like getting MPU data, controlling the servo outputs is done in C using `librobotcontrol`. I wanted to expose this control to all sorts of programs on board, so as with the code above, I made a simple C program which accepts UDP packets and uses them to issue demands to the throttle ESC and rudder servo.
+Just like getting MPU data, controlling the servo outputs is done in C using `librobotcontrol`. I wanted to expose this control to all sorts of programs on board, so as with the code above, I made a simple C program which accepts UDP packets and uses them to issue demands to the throttle ESC and rudder servo: [Beaglebone Blue Heading UDP Servo Control](https://github.com/ianrenton/beaglebone-blue-udp-senrvo-control).
 
-*(Completed soon, watch this space!)*
+This accepts UDP packets with a fixed format, "X,Y" in ASCII text where X is a throttle setting between 0 and 100, and Y is a rudder setting between -100 (port) and +100 (starboard). An example packet is therefore "50.0,-100.0" for half throttle, rudder fully to port.
+
+Control system software can then issue these UDP packets to control the throttle ESC and rudder servo without having to embed the low-level control logic internally.
 
 ## Control System
 
