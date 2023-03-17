@@ -1,0 +1,6 @@
+_id: 432916e0-c4e3-11ed-ab24-b312b06bd9ae
+_parent: 'https://ianrenton.com/hardware/planesailing/adsb-receiver/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Hi Jo,\r\n\r\nIt looks like SDRPlay have their own fork of dump1090 that's compatible with their radios. It's available on their downloads page (https://www.sdrplay.com/downloads/) and the source code is published (https://github.com/SDRplay/dump1090). It takes the extra command-line argument `--dev-sdrplay` to put it in SDRplay mode.\r\n\r\nYou shouldn't need any special version of PiAware, it's just dump1090 that talks directly to the radio.\r\n\r\nIf you're interested in the AIS or APRS decoding as well, this project looks like it offers an SDRplay-compatible version of `rtl_fm`, which will be useful.\r\n\r\nI can't speak for how well these programs work, unfortunately, as I don't have an SDRplay myself.\r\n\r\nHope that helps!"
+date: '2023-03-17T16:46:28.681Z'
