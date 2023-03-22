@@ -1,0 +1,6 @@
+_id: 41bfecd0-c8bb-11ed-89ca-312327af7274
+_parent: 'https://ianrenton.com/hardware/planesailing/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Hi Daniel,\r\n\r\nThere was a question asked [here](https://ianrenton.com/hardware/planesailing/system-architecture/#comment-6) recently about running the software online - my answer there may help! My guess would be if those buttons aren't working for you, it's because your browser can't download the required JavaScript libraries such as jQuery.\r\n\r\nAs well as hosting your map offline, you will also have to point all [these references in index.html](https://github.com/ianrenton/planesailing/blob/master/index.html#L19) at offline resources rather than those hosted on an online CDN.\r\n\r\nHope that helps!"
+date: '2023-03-22T14:10:11.573Z'
