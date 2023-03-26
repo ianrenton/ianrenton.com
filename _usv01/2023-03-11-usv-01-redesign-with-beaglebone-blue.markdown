@@ -30,7 +30,7 @@ Only the batteries were a problem; they had swollen slightly, and not willing to
 
 ## Electronics & Mounting
 
-It turns out that there just aren't any cases for the Beaglebone Blue out there&mdash;[at one point there was one](https://in.rsdelivers.com/product/designspark/cbbblue-clr/designspark-case-for-beaglebone-blue-blue/1442599), but they're now impossible to get hold of. For the first part of the redesign, I bought a case for the Beaglebone Black (of which there are many) and cut holes out of it to suit. (For a future upgrade, I may build something neater myself.)
+It turns out that there just aren't any cases for the Beaglebone Blue out there&mdash;[at one point there was one](https://in.rsdelivers.com/product/designspark/cbbblue-clr/designspark-case-for-beaglebone-blue-blue/1442599), but they're now impossible to get hold of. For the initial prototype of the redesign, I bought a case for the Beaglebone Black (of which there are many) and cut holes out of it to suit. (However, if you're following along at home, you may want to skip this step as I later found it almost impossible to fit the Beaglebone into the boat with the case on, and eventually removed it.)
 
 At least the board still fitted neatly in the lower half of the case:
 
@@ -54,6 +54,18 @@ It looks like it's all going to come together neatly, until you remember to add 
 
 ![Completed electronics assembly, looking very messy](/hardware/usv-01/rebuild8.jpg){: .center}
 
+As mentioned above, I really struggled to fit the electronics assembly inside the boat, so eventually decided to give up on the case and mount the extra boards directly to the Beaglebone board using PCB spacers. Unfortunately the spacing of the holes doesn't lend itself to this, but this is what I ended up with:
+
+![Lower profile electronics assembly](/hardware/usv-01/rebuild12.jpg){: .center}
+
+The servo multiplexer board had some protruding solder joints on the bottom that got *very close* to some pins on the Beaglebone, so I covered the bottom with electrical tape for good measure.
+
+![Servo multiplexer board with electrical tape on the bottom](/hardware/usv-01/rebuild13.jpg){: .center}
+
+Without the bulky case, the board now fits much easier in the stern compartment of the boat. It remains to be seen if it gets wet in there, of course...
+
+![Electronics assembly fitted in the boat](/hardware/usv-01/rebuild14.jpg){: .center}
+
 ## Improving the WiFi
 
 Those two little wires you may have noticed protruding from one end of the board are the WiFi antennas. It *is* two-channel MIMO, but while their performance is fine for communicating with the device at close range, out on the water will be a different story. I removed them from the U.FL connectors on the board and attached external antennas outside the hull.
@@ -63,6 +75,10 @@ Those two little wires you may have noticed protruding from one end of the board
 I chose SMA-to-SMA for the through-hull part, then a separate SMA to U.FL to attach to the board. This allows the through-hull connector to be glued in place to prevent water ingress, but still allows the Beaglebone to be removed without having to detach U.FL connectors, as these are designed for only a small number of mating cycles.
 
 ![SMA pigtail underneath one antenna](/hardware/usv-01/rebuild10.jpg){: .center}
+
+Replacing the U.FL pigtails with new U.FL-to-SMA cables was probably the most fiddly part of the build. U.FL is just the worst.
+
+![SMA-to-U.FL connectors attached](/hardware/usv-01/rebuild15.jpg){: .center}
 
 ## The GPS Re-wire
 
@@ -83,3 +99,13 @@ As before, I'm using a servo multiplexer board between the RC receiver & Beagleb
 This means that I can set up one of the shoulder switches on my transmitter to swap between driving the boat direct from that transmitter, and listening to the Beaglebone.
 
 I can therefore easily swap the boat back into "fun mode" if required, and in particular if something goes wrong with the software, I've got that as a fallback control method.
+
+## Finishing Off
+
+The completed electronics build now looks like this:
+
+![The internals of the boat. It's a horrible mess.](/hardware/usv-01/rebuild16.jpg){: .center}
+
+A horrible mess, but we can work on that with some better cable routing & tidying.
+
+As you can see, the Beaglebone is now powered from the boat's batteries using the battery balance connector. This allows the GPS and servo outputs to power up, and we can get on with the software side of the build.

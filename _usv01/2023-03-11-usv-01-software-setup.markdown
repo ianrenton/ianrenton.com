@@ -164,4 +164,6 @@ With the ability to receive position and heading data, and control the propeller
 
 Unfortunately, that's the point this guide stops.
 
-As with my other hobby autonomous systems, I'm going to stop short of publishing any code that contains real control logic&mdash;even though I'm doing this in my spare time, that's getting much too close to the "day job" with all its concerns about intellectual property. If you're recreating this build for yourself, there are a number of open source software frameworks that should work fine on this platform, such as [ROS](https://www.ros.org/) and [MOOS-IvP](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage), and in finest academic tradition, implementing them is left as an exercise for the reader.
+As with my other hobby autonomous systems, I'm going to stop short of publishing any code that contains real control logic or any user interface. Even though I'm doing this in my spare time, that's getting much too close to the "day job" with all its concerns about intellectual property. If you're recreating this build for yourself, there are a number of open source software frameworks that should work fine on this platform, such as [ROS](https://www.ros.org/) and [MOOS-IvP](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage), and in finest academic tradition, implementing them is left as an exercise for the reader.
+
+![A screen showing the USV's position with chart data in the background](/hardware/usv-01/rebuild17.jpg){: .center}
