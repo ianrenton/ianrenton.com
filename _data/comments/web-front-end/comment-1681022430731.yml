@@ -1,0 +1,11 @@
+_id: 6ba00000-d6a1-11ed-a1d4-a50cac606f3b
+_parent: 'https://ianrenton.com/hardware/planesailing/web-front-end/'
+name: Rowanda
+email: 3c5a2bfa7c55626b3af711f5625ac0d2
+message: >-
+  Hi, I wanna ask about changing icon of spesific MMSI number ship. How could I
+  do that? For example there is a ship MMSI is 123456789 and I just wanna change
+  that ship's icon. Thanks for now for help. Also there are some kinda question
+  about client side maybe I can open PR after some changes so I would be
+  appreciate for your helps.
+date: '2023-04-09T06:40:30.727Z'
