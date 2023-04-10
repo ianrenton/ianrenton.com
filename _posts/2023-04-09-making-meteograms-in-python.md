@@ -20,6 +20,8 @@ Bringing these together, I remembered the concept of a [Meteogram](https://en.wi
 
 For once I've decided to do some software development *first* rather than rushing out to buy hardware that then lies abandoned in a drawer for months, so I'm starting by putting together a script to generate my meteogram. There are [online providers of Meteogram images](https://meteograms.com) with a lot of customisability, but I thought I would have a go at doing it myself. I've decided to use Python for this, since I've not used it for a while&mdash;my recent projects having been largely C, Java and JavaScript&mdash;and I'm playing around with the [plotly](https://plotly.com/python/) library.
 
+You can [see the source code here](https://github.com/ianrenton/python-metoffice-meteogram).
+
 ![A Meteogram image showing temperature, precipitation and wind speed for five days](/blog/2023/meteogram.png)
 *A Meteogram image showing temperature, precipitation and wind speed for five days*
 
