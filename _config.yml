@@ -131,3 +131,50 @@ collections:
 # jekyll-paginate
 paginate: 10
 paginate_path: "/blog/page:num/"
+
+# Prose
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://ianrenton.com/'
+  relativeLinks: 'https://ianrenton.com/links.jsonp'
+  media: 'media'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "image"
+        field:
+          element: "image"
+          label: "Splash image"
+          value: ""
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          value: ""
+      - name: "comments"
+        field:
+          element: "hidden"
+          value: "true"
+    software:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
