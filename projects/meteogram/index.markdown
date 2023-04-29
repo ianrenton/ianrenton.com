@@ -2,6 +2,7 @@
 comments: true
 layout: page
 title: Home Meteogram Display
+image: /projects/meteogram/batnner2.jpg
 ---
 
 My Home Meteogram Display is based around a Raspberry Pi and a small ultra-wide aspect ratio screen. It lives in the kitchen and provides a passive weather and calendar display tailored to our needs. The build process is documented below and all code is open source.
