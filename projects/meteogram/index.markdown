@@ -2,7 +2,7 @@
 comments: true
 layout: page
 title: Home Meteogram Display
-image: /projects/meteogram/batnner2.jpg
+image: /projects/meteogram/headline.jpg
 ---
 
 My Home Meteogram Display is based around a Raspberry Pi and a small ultra-wide aspect ratio screen. It lives in the kitchen and provides a passive weather and calendar display tailored to our needs. The build process is documented below and all code is open source.
@@ -27,11 +27,11 @@ An additional aim with the project was to use one of my original Raspberry Pi Mo
 
 The good (and almost unexpected) news is that the original Pi Model B does output enough power over USB for both the screen and a WiFi dongle. 
 
-The bad news is that despite claiming to be compatible with all Raspberry Pi models, the screen is only tenuously "compatible" with the original Model B&mdash;no suitable USB adapter board is provided, the mounting holes don't line up, and the touchscreen doesn't work.
+The bad news is that despite claiming to be compatible with all Raspberry Pi models, the screen is only tenuously "compatible" with the original Model B&mdash;no suitable USB adapter board is provided and, the mounting holes don't line up.
 
 The low DPI of the screen (it is only 320 pixels high after all) is very noticeable, so while it's fine for this project and text is readable on the display, don't rush out and buy one thinking you're getting a screen with the same kind of pixel density as a smartphone.
 
-<div class="notes"><p>If you're looking to copy this project for yourself, I would recommend at least a Pi 2 rather than an original Model B, as you'll have connectors and mounting holes that match, and probably a working touchscreen too. If you're going all the way to a Pi 3 or 4, consider the <a href="https://www.waveshare.com/11.9inch-DSI-LCD.htm">DSI version of the screen</a> instead for a neater install.</p></div>
+<div class="notes"><p>If you're looking to copy this project for yourself, I would recommend at least a Pi 2 rather than an original Model B, as you'll have connectors and mounting holes that match. If you're going all the way to a Pi 3 or 4, consider the <a href="https://www.waveshare.com/11.9inch-DSI-LCD.htm">DSI version of the screen</a> instead for a neater install.</p></div>
 
 ## The Software Design
 
@@ -57,7 +57,7 @@ The first problem that becomes apparent when trying to integrate the screen and 
 
 ![The Pi mounted to the screen, showing the USB connector not lined up](usblineup.jpg){: .center}
 
-A short USB cable is therefore required to connect the two. I also fitted a WiFi dongle at this stage:
+A short USB cable was therefore required to connect the two. It took me a couple of tries to find one that worked&mdash;apparently a bunch of the old micro USB cables I had in the drawer were "charge only" rather than providing data connectivity, which resulted in the touchscreen not working later on. I also fitted a WiFi dongle at this stage:
 
 ![The Pi mounted to the screen, with a USB cable and WiFi dongle](cableattached.jpg){: .center}
 
@@ -97,7 +97,9 @@ I then used the GUI configuration utility to enable automatic login in desktop m
 
 ![The Raspberry Pi configuration utility, with automatic login enabled](autologin.jpg){: .center}
 
-I set the panel to auto-hide (right-click panel, Panel Settings, Advanced, Enable auto-hide), configured the WiFi adapter to join my home network, and applied all available software updates at this point.
+I set the panel to auto-hide (right-click panel, Panel Settings, Advanced, Enable auto-hide) and its size when auto-hidden to 6 pixels. The 6 pixels is due to a later discovery that the touchscreen makes it hard to get the cursor to exactly the top pixel of the screen; setting it to be the top 6 pixels allows touch controls to bring up the menu much more easily.
+
+I also configured the WiFi adapter to join my home network, and applied all available software updates at this point.
 
 The remaining steps were to disable another aspect of screen timeout: 
 
@@ -107,7 +109,9 @@ sudo echo "xserver-command=X -s 0 -dpms" >> sudo nano /etc/lightdm/lightdm.conf
 
 And finally to rotate the screen, by going to Preferences, Screen Configuration, Layout, HDMI-1, Rotation, right. (Done last of course, because it's very annoying to have the wrong rotation on your normal desktop monitor!)
 
-After this was completed, I shut down the Pi and reassembled it back onto the rear of the screen.
+After this was completed, I shut down the Pi and reassembled it back onto the rear of the screen, then started it up again.
+
+Initially the touchscreen controls were not rotated to match the screen; this was fixed by long-pressing (~5 seconds) the "Rotate Touch" button on the rear of the screen three times.
 
 ## The Software Setup
 
@@ -156,20 +160,36 @@ Moving over to the Pi, I removed the meteogram code as we wouldn't be needing it
 
 The Raspberry Pi OS uses the LXDE desktop environment and `pcmanfm` as a file manager that is also responsible for rendering the desktop.
 
-I achieved the required display output by running the following command:
+I achieved the required display output by running the following commands:
 
 ```bash
-wget http://192.168.1.11/meteogram/output.png -O meteogram.png && env DISPLAY=:0.0 pcmanfm --desktop && env DISPLAY=:0.0 pcmanfm -w meteogram.png
+wget http://192.168.1.11/meteogram/output.png -O meteogram.png
+env DISPLAY=:0 pcmanfm --desktop
+env DISPLAY=:0 pcmanfm -w meteogram.png
 ```
 
-The middle section of that command is to avoid a "Desktop Manager not active" alert on the GUI that I sometimes encountered when setting the wallpaper from the cron job&mdash;an annoying callback to all those photos of ATMs and train departure boards obscured by Windows error messages:
+The middle command is to avoid a "Desktop Manager not active" alert on the GUI that I sometimes encountered when setting the wallpaper from the cron job&mdash;an annoying callback to all those photos of ATMs and train departure boards obscured by Windows error messages:
 
 ![The screen showing an error message in front of the meteogram](desktoperror.jpg){: .center}
 
-I then added a cron job on the Pi, running at two minutes past the hour, to execute the same command:
+I then added a cron job on the Pi, running at two minutes past the hour, to execute the same commands. Unfortunately interacting with the desktop from cron requires exporting some extra environment variables, so for this I decided to create a script file, `setwp.sh`:
 
 ```bash
-2 * * * * wget http://192.168.1.11/meteogram/output.png -O meteogram.png && env DISPLAY=:0.0 pcmanfm --desktop && env DISPLAY=:0.0 pcmanfm -w meteogram.png 
+#!/bin/bash
+
+export DISPLAY=:0
+export XAUTHORITY=/home/ian/.Xauthority
+export XDG_RUNTIME_DIR=/run/user/1000
+
+wget http://192.168.1.11/meteogram/output.png -O meteogram.png
+pcmanfm --desktop
+pcmanfm -w meteogram.png
+```
+
+And then call this from a cron job:
+
+```bash
+2 * * * * ./setwp.sh
 ```
 
 I also wanted to ensure the same script was run when the Pi was restarted, as soon as the graphical environment was available, so it displayed the output immediately rather than waiting until the next two-minutes-past-the-hour. To do this, I created a file at `/etc/xdg/autostart/setwp.desktop` with the following contents:
@@ -179,10 +199,10 @@ I also wanted to ensure the same script was run when the Pi was restarted, as so
 Type=Application 
 Name=setwp   
 Comment=Set wallpaper to Meteogram 
-Exec=wget http://192.168.1.11/meteogram/output.png -O meteogram.png && env DISPLAY=:0.0 pcmanfm --desktop && env DISPLAY=:0.0 pcmanfm -w meteogram.png 
+Exec=cd /home/ian && ./setwp.sh
 ```
 
-The finishing touch on the Pi was to disable the cursor; with a touchscreen there's no point in having one, and since it doesn't work anyway there's no way to move the cursor away from the centre of the screen. I achieved this using the `unclutter` utility:
+The finishing touch on the Pi was to disable the cursor when not in use, so it's not visible on the display under normal circumstances. I achieved this using the `unclutter` utility:
 
 ```bash
 sudo apt install unclutter
@@ -192,7 +212,7 @@ echo "unclutter &" >> ~/.xinitrc
 
 The setup of hardware and software (albeit with a horrible workaround) was then complete.
 
-![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner2.jpg){: .center}
+![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner3.jpg){: .center}
 
 ## The Enclosure & Mounting 
 
@@ -203,7 +223,7 @@ Coming soon <sup>[<a href="https://boingboing.net/2013/08/06/cetacean-needed-wik
 Using a second computer to run the meteogram script is, let's face it, a bit of a hack. There's a couple of ways I may work around this in future so that the project is self-contained:
 
 1. Replace Plotly with Matplotlib. This would involve a huge rewrite of the code, which I'm not super keen on doing, but it would hopefully allow rendering the image on an `armv6l` processor. It looks like its API is not as nice as Plotly's, and it's a bit less modern, but it should avoid the complications of Plotly's "web-first" approach using Chromium binaries just to output an image.
-2. Provide a web-based display on the Pi. Plotly would probably prefer to be used this way, rendering to a web page that can be full-screened to display in the way required. It could also be made interactive (if the touchscreen worked). However, this is a heavyweight approach that's not ideally suited to the slow processor of the original Pi.
-3. Replace the original Model B with a Pi 4. This would mount properly on the screen, provide touchscreen support, and be able to run the meteogram script properly thanks to its more modern CPU architecture. I was originally trying to avoid this as the software would be using a tiny fraction of the computer's power&mdash;however, perhaps this would provide the most elegant solution despite that.
+2. Provide a web-based display on the Pi. Plotly would probably prefer to be used this way, rendering to a web page that can be full-screened to display in the way required. It could also be made interactive. However, this is a heavyweight approach that's not ideally suited to the slow processor of the original Pi.
+3. Replace the original Model B with a Pi 4. This would mount properly on the screen, and be able to run the meteogram script properly thanks to its more modern CPU architecture. I was originally trying to avoid this as the software would be using a tiny fraction of the computer's power&mdash;however, perhaps this would provide the most elegant solution despite that.
 
 I would also like to add time-based or automatic control of the screen backlight brightness. This is unfortunately not a simple software change but [one that requires hardware mods](http://capnbry.net/blog/?p=210) and so will wait until another day!
