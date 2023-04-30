@@ -25,11 +25,11 @@ Despite the stated goals, this project largely came about because I saw [these W
 
 An additional aim with the project was to use one of my original Raspberry Pi Model B units that is sat around gathering dust. The meteogram only needs to be regenerated once an hour, so it shouldn't be a demanding task requiring a more recent device. However, using such an old computer did cause a number of implementation problems.
 
-The good (and almost unexpected) news is that the original Pi Model B does output enough power over USB for both the screen and a WiFi dongle. 
+The good (and almost unexpected) news is that the original Pi Model B does output enough power over USB for both the touchscreen and a WiFi dongle. 
 
 The bad news is that despite claiming to be compatible with all Raspberry Pi models, the screen is only tenuously "compatible" with the original Model B&mdash;no suitable USB adapter board is provided and, the mounting holes don't line up.
 
-The low DPI of the screen (it is only 320 pixels high after all) is very noticeable, so while it's fine for this project and text is readable on the display, don't rush out and buy one thinking you're getting a screen with the same kind of pixel density as a smartphone.
+The low DPI of the screen (it is only 320 pixels high after all) is quite noticeable, so while it's fine for this project, you will find that most GUIs designed for normal screens (even simple configuration dialogs) won't be properly usable.
 
 <div class="notes"><p>If you're looking to copy this project for yourself, I would recommend at least a Pi 2 rather than an original Model B, as you'll have connectors and mounting holes that match. If you're going all the way to a Pi 3 or 4, consider the <a href="https://www.waveshare.com/11.9inch-DSI-LCD.htm">DSI version of the screen</a> instead for a neater install.</p></div>
 
@@ -37,11 +37,11 @@ The low DPI of the screen (it is only 320 pixels high after all) is very noticea
 
 With most of my recent projects being Java, C, and JavaScript-based, I thought I would use this as an excuse to get back into Python. I hadn't done any real Python since my Fantasy Football team picker back in 2009!
 
-The two main chart plotting packages for python appear to be [Plotly](https://plotly.com/) and [Matplotlib](https://matplotlib.org/). I went with Plotly as it seemed more modern and with an easier-to-understand API&mdash;although that may not have been the right choice for a Raspberry Pi as old as mine, as described later on!
+The two main chart plotting packages for python appear to be [Plotly](https://plotly.com/) and [Matplotlib](https://matplotlib.org/). I went with Plotly as it seemed more modern and with an easier-to-understand API&mdash;although that may not have been the right choice for a Raspberry Pi as old as mine, as explained later on!
 
-I also designed its output to be simple, rendering to a file which can then be displayed by a separate utility on the computer, rather than displaying its own screen or allowing any interactivity. This was another concession to use on an old device&mdash;I didn't want to waste effort and processing power displaying my own user interface, when Linux already has many simple solutions to displaying a full-screen image.
+I also designed its output to be simple, rendering to a file which can then be displayed by a separate utility on the computer, rather than displaying its own screen or allowing any interactivity. This was another concession to use on an old device&mdash;I didn't want to waste effort and processing power displaying my own user interface, when Linux already has many simple solutions for displaying a full-screen image.
 
-I chose the UK Met Office's API to provide the data for the meteogram, on the basis that I have found its forecasting the most reliable out of the many services available.
+I chose the UK Met Office's API to provide the data for the meteogram, on the basis that I have found its forecasting the most reliable out of the many services available. It unfortunately only comes with a three-hour interval rather than the one-hour interval available on their website, but it's good enough for the purposes of this system which is aimed at showing an overview of five days rather than high detail for the current day.
 
 Bars below the meteogram itself were added to show logic-based conditions (laundry day, frost and storm) and calendar events sourced via iCal.
 
