@@ -9,7 +9,7 @@ My Home Meteogram Display is based around a Raspberry Pi and a small ultra-wide 
 
 ![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner.jpg){: .center}
 
-## The Goal
+## Goals
 
 As explained in my earlier [blog post](/blog/making-meteograms-in-python/), I came up with the idea of doing a [Meteogram](https://en.wikipedia.org/wiki/Meteogram) display to solve my issues with most weather forecast sites and apps: when a daily forecast says "lows of 0°C", should I expect the frosty night to be the previous one or the following one? And with "90% chance of rain", is that all day, or just starting at 10pm when I don’t really care? Whether trying to protect frost-intolerant plants, or just trying to get the laundry dry, not knowing is quite annoying. A meteogram is a very nerdy way of solving this problem, but it does solve it&mdash;by displaying a time series chart of temperature, precipitation, and other values.
 
@@ -17,7 +17,7 @@ While there are [sites that will generate Meteograms for you](https://meteograms
 
 Having these additional features on a passive display in the house means I no longer have to check the forecast on my phone to decide whether I need a coat with me, or to figure out day-by-day when I can get the laundry out.
 
-## The Hardware Design
+## Hardware Design
 
 Despite the stated goals, this project largely came about because I saw [these Waveshare ultra-widescreen displays](https://www.waveshare.com/11.9inch-hdmi-lcd.htm) and thought they looked cool, so came up with a project based around one.
 
@@ -33,7 +33,7 @@ The low DPI of the screen (it is only 320 pixels high after all) is quite notice
 
 <div class="notes"><p>If you're looking to copy this project for yourself, I would recommend at least a Pi 2 rather than an original Model B, as you'll have connectors and mounting holes that match. If you're going all the way to a Pi 3 or 4, consider the <a href="https://www.waveshare.com/11.9inch-DSI-LCD.htm">DSI version of the screen</a> instead for a neater install.</p></div>
 
-## The Software Design
+## Software Design
 
 With most of my recent projects being Java, C, and JavaScript-based, I thought I would use this as an excuse to get back into Python. I hadn't done any real Python since my Fantasy Football team picker back in 2009!
 
@@ -51,13 +51,13 @@ The software is tailored to fit the ultra-wide aspect ratio screen, but I have b
 
 The software is open source and can be found at [https://github.com/ianrenton/home-meteogram-display](https://github.com/ianrenton/home-meteogram-display).
 
-## The Hardware Setup
+## Hardware Setup
 
 The first problem that becomes apparent when trying to integrate the screen and Raspberry Pi is that while their website *says* the screen is compatible with all models of Raspberry Pi, the fitting kit and the position of the mounting holes is only suitable for newer models. When attached using the HDMI-to-HDMI board, the USB-to-micro USB board does not line up:
 
 ![The Pi mounted to the screen, showing the USB connector not lined up](usblineup.jpg){: .center}
 
-A short USB cable was therefore required to connect the two. It took me a couple of tries to find one that worked&mdash;apparently a bunch of the old micro USB cables I had in the drawer were "charge only" rather than providing data connectivity, which resulted in the touchscreen not working later on. I also fitted a WiFi dongle at this stage:
+The short USB cable packaged with the screen was therefore required to connect the two. I also fitted a WiFi dongle at this stage:
 
 ![The Pi mounted to the screen, with a USB cable and WiFi dongle](cableattached.jpg){: .center}
 
@@ -71,7 +71,7 @@ I worked around this problem by fitting some ~8mm nylon PCB spacers to the under
 
 ![The screen PCB with highlighted points taped over](touchpoints-covered.jpg){: .center}
 
-## The Operating System Setup
+## Operating System Setup
 
 Setting up the operating system was a little tricky due to the nature of the screen. I started by following the instructions from the [Waveshare Wiki page](https://www.waveshare.com/wiki/11.9inch_HDMI_LCD), "Working with Raspberry Pi" section:
 
@@ -113,83 +113,43 @@ After this was completed, I shut down the Pi and reassembled it back onto the re
 
 Initially the touchscreen controls were not rotated to match the screen; this was fixed by long-pressing (~5 seconds) the "Rotate Touch" button on the rear of the screen three times.
 
-## The Software Setup
+## Software Setup
 
-I then attempted to set up the meteogram software on the Pi. Raspberry Pi OS comes with Git, Python 3 and Pip preinstalled, so there's nothing to do in that regard. I connected to the Pi via SSH and ran the following:
+I then set up the meteogram software on the Pi. Raspberry Pi OS comes with Git, Python 3 and Pip preinstalled, so there's nothing to do in that regard. As noted in the README of the repository though, I would need to install the `scipy` and `numpy` libraries from the package manager to preempt `pip` trying to build them from source.
+
+I connected to the Pi via SSH and ran the following:
 
 ```bash
-git clone https://github.com/ianrenton/home-meteogram-display.git meteogram 
-cd meteogram 
-pip install -r requirements.txt 
+sudo apt install python3-scipy python3-numpy
+git clone https://github.com/ianrenton/home-meteogram-display.git meteogram
+cd meteogram
+pip install -r requirements.txt
+chmod +x setwp.sh
 ```
 
-## The Problem 
+(The `pip install` command took a *long* time on the old Pi!)
 
-Here is where I ran into the big show-stopper for using the original Raspberry Pi Model B. In order to output image files of the meteogram, Plotly uses a dependency called [Kaleido](https://pypi.org/project/kaleido/). This includes native binaries which are not available for the original Pi's venerable `armv6l` architecture.
-
-Kaleido is the successor to Plotly's previous library, Orca. I investigated that hoping it would be a simpler and more backwards-compatible approach. Unfortunately I discovered that *Kaleido* was the simple approach&mdash;Orca uses `npm` to spin up a whole Electron- and Chromium-based server application to render the output! I avoided this on account of it sounding horrendous.
-
-I didn't really want to change the Pi or rewrite the software at that point, so I implemented a temporary workaround. (As with all software workarounds, one likely to remain in place for years until the original reason for it is lost to time.)
-
-## The Workaround 
-
-The temporary workaround I chose was to generate the meteogram on another home server (of which I have several, because of course I do), this one running a normal 64-bit Intel processor. I then made the image available to the network using a web server.
-
-#### The Web Server
-I already had Nginx running on this server, serving various websites when accessed with a proper URL from outside the network. However, it still had the default site enabled, serving the contents of `/var/www/html` in response to queries direct to its IP address from inside the network.
-
-I set up a new folder to hold the meteogram output, set my user to own it:
+The repository includes a `setwp.sh` script which will run the python script, then set the generated `output.png` file as the wallpaper using `pcmanfm`, the default desktop renderer in the Raspberry Pi's LXDE environment:
 
 ```bash
-cd /var/www/html/ 
-sudo mkdir meteogram
-sudo chown ian meteogram
-```
-
-I set the meteogram script itself to run automatically using cron, one minute after the hour (to give the API a chance to update its forecast data), and to copy the output to the web server directory, by running `crontab -e` and adding:
-
-```bash
-1 * * * * cd /home/ian/meteogram && python meteogram.py && cp output.png /var/www/html/meteogram/output.png
-```
-
-I also of course, ran the script manually and verified that the image was available on the web server.
-
-#### The Pi
-
-Moving over to the Pi, I removed the meteogram code as we wouldn't be needing it. Instead, the Pi's job is now to download the image from the web server and display it as its wallpaper.
-
-The Raspberry Pi OS uses the LXDE desktop environment and `pcmanfm` as a file manager that is also responsible for rendering the desktop.
-
-I achieved the required display output by running the following commands:
-
-```bash
-wget http://192.168.1.11/meteogram/output.png -O meteogram.png
-env DISPLAY=:0 pcmanfm --desktop
-env DISPLAY=:0 pcmanfm -w meteogram.png
-```
-
-The middle command is to avoid a "Desktop Manager not active" alert on the GUI that I sometimes encountered when setting the wallpaper from the cron job&mdash;an annoying callback to all those photos of ATMs and train departure boards obscured by Windows error messages:
-
-![The screen showing an error message in front of the meteogram](desktoperror.jpg){: .center}
-
-I then added a cron job on the Pi, running at two minutes past the hour, to execute the same commands. Unfortunately interacting with the desktop from cron requires exporting some extra environment variables, so for this I decided to create a script file, `setwp.sh`:
-
-```bash
-#!/bin/bash
-
 export DISPLAY=:0
 export XAUTHORITY=/home/ian/.Xauthority
 export XDG_RUNTIME_DIR=/run/user/1000
 
-wget http://192.168.1.11/meteogram/output.png -O meteogram.png
+python meteogram.py
 pcmanfm --desktop
-pcmanfm -w meteogram.png
+pcmanfm --wallpaper-mode=stretch
+pcmanfm -w "$PWD/output.png"
 ```
 
-And then call this from a cron job:
+The `--desktop` command is to avoid a "Desktop Manager not active" alert on the GUI that I sometimes encountered when setting the wallpaper from the cron job&mdash;an annoying callback to all those photos of ATMs and train departure boards obscured by Windows error messages:
+
+![The screen showing an error message in front of the meteogram](desktoperror.jpg){: .center}
+
+I then added a cron job on the Pi, running at one minute past the hour to give the API a change to update, which calls the same script:
 
 ```bash
-2 * * * * ./setwp.sh
+1 * * * * cd /home/ian/meteogram && ./setwp.sh
 ```
 
 I also wanted to ensure the same script was run when the Pi was restarted, as soon as the graphical environment was available, so it displayed the output immediately rather than waiting until the next two-minutes-past-the-hour. To do this, I created a file at `/etc/xdg/autostart/setwp.desktop` with the following contents:
@@ -199,7 +159,7 @@ I also wanted to ensure the same script was run when the Pi was restarted, as so
 Type=Application 
 Name=setwp   
 Comment=Set wallpaper to Meteogram 
-Exec=cd /home/ian && ./setwp.sh
+Exec=cd /home/ian/meteogram && ./setwp.sh
 ```
 
 The finishing touch on the Pi was to disable the cursor when not in use, so it's not visible on the display under normal circumstances. I achieved this using the `unclutter` utility:
@@ -214,16 +174,12 @@ The setup of hardware and software (albeit with a horrible workaround) was then 
 
 ![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner3.jpg){: .center}
 
-## The Enclosure & Mounting 
+## Enclosure & Mounting 
 
 Coming soon <sup>[<a href="https://boingboing.net/2013/08/06/cetacean-needed-wikipedia-wha.html">cetacean needed</a>]</sup>
 
-## The Future Solutions
+## Future Improvements
 
-Using a second computer to run the meteogram script is, let's face it, a bit of a hack. There's a couple of ways I may work around this in future so that the project is self-contained:
-
-1. Replace Plotly with Matplotlib. This would involve a huge rewrite of the code, which I'm not super keen on doing, but it would hopefully allow rendering the image on an `armv6l` processor. It looks like its API is not as nice as Plotly's, and it's a bit less modern, but it should avoid the complications of Plotly's "web-first" approach using Chromium binaries just to output an image.
-2. Provide a web-based display on the Pi. Plotly would probably prefer to be used this way, rendering to a web page that can be full-screened to display in the way required. It could also be made interactive. However, this is a heavyweight approach that's not ideally suited to the slow processor of the original Pi.
-3. Replace the original Model B with a Pi 4. This would mount properly on the screen, and be able to run the meteogram script properly thanks to its more modern CPU architecture. I was originally trying to avoid this as the software would be using a tiny fraction of the computer's power&mdash;however, perhaps this would provide the most elegant solution despite that.
+I may consider replacing the original Model B with a Pi 4. This would mount properly on the screen with the included adapters for a neater fit, and has built-in WiFi. However, given the extremely minimal system requirements of the project, this seems like a waste of a much more powerful device.
 
 I would also like to add time-based or automatic control of the screen backlight brightness. This is unfortunately not a simple software change but [one that requires hardware mods](http://capnbry.net/blog/?p=210) and so will wait until another day!
