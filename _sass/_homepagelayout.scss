@@ -1,0 +1,43 @@
+header.home {  
+  margin-bottom: var(--layout-spacing);
+
+	img {
+		float: left;
+		margin-right: 2em;
+		margin-bottom: 0.5em;
+	}
+	
+	h1, h2 {
+	  margin-top: 0.5em;
+      display: block;
+  }
+  
+  p {
+  	margin-top: 2em;
+  }
+}
+
+@include media-query($on-palm) {
+	header.home {
+		img {
+		  float: none;
+		}
+		
+		h2 {
+		  display: none;
+		}
+	}
+}
+
+header.cardindex {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+nav.cardindex > p.morelink {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+  

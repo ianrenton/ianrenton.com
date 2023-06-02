@@ -1,15 +1,9 @@
 ---
 layout: default
 ---
-
-<div class="page-content">
-  <div class="post">
-
-    <article class="post-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </article>
-
-  </div>
-</div>
+<main>
+	<article>
+	  {{ content }}
+	</article>
+</main>
+{% include comments.html %}

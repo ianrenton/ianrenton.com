@@ -1,0 +1,35 @@
+<li data-component class="card {{ include.type }}-card">
+  {% if include.type == "vertical" %}
+    {% unless include.image == empty %}
+      <a href="{{ include.url }}"><img src="{{ include.image }}" alt="{{ include.image-alt }}"/></a>
+    {% endunless %}
+  {% endif %}
+  {% assign textblockclass = "text" %}
+  {% if include.image == empty %}
+     {% assign textblockclass = "text fullwidth" %}
+  {% endif %}
+  <div class="{{ textblockclass }}">
+	  <h3><a href="{{ include.url }}">{{ include.title }}</a></h3>
+	  {% if include.meta %}
+		  <p class="post-meta">{{ include.meta }}</p>
+	  {% endif %}
+		  <p>{{ include.description }}</p>
+	  {% if include.readmore-text %}
+		  <p><a href="{{ include.url }}">{{ include.readmore-text }}</a></p>
+	  {% endif %}
+	  {% if include.readmore-text2 %}
+		  <p><a href="{{ include.url2 }}">{{ include.readmore-text2 }}</a></p>
+	  {% endif %}
+	  {% if include.readmore-text3 %}
+		  <p><a href="{{ include.url3 }}">{{ include.readmore-text3 }}</a></p>
+	  {% endif %}
+	  {% if include.readmore-text4 %}
+		  <p><a href="{{ include.url4 }}">{{ include.readmore-text4 }}</a></p>
+	  {% endif %}
+  </div>
+  {% if include.type == "horizontal" %}
+    {% unless include.image == empty %}
+      <a href="{{ include.url }}"><img src="{{ include.image }}" alt="{{ include.image-alt }}"/></a>
+    {% endunless %}
+  {% endif %}
+</li>

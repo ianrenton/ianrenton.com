@@ -1,41 +1,17 @@
-/* Styles for the footer. */
-
-.site-footer {
-  line-height: $header-footer-height;
-  font-family: $heading-font-family;
-  background-color: $alt-background-color;
-  color: $alt-text-color;
+footer {
   clear: both;
+  margin-top: var(--layout-spacing);
+  border-top: 1px solid #aaa;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+footer p {
+  padding-top: 0.25em;
 }
 
 span.subtitle {
   padding-left: 0.6em;
-  font-size: $small-font-size;
-  color: $grey-color-light;
-}
-
-/* Clamp footer to bottom of page or window */
-html {
-  height: 100%;
-}
-
-body {
-  min-height: 100%;
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
-
-body::after {
-  content: '';
-  display: block;
-  height: $header-footer-height - 5;
+  font-size: 0.9em;
+  filter: brightness(var(--light-text-brightness));
 }
 
 /* Hide the footer on mobile */

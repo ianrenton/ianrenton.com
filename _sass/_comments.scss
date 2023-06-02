@@ -1,24 +1,19 @@
 /* Styles for the comment section */
 
 .commentsection {
-  border-top: 1px solid $grey-color-light;
-  background-color: darken($background-color,5%);
+  margin-top: var(--layout-spacing);
+  border-top: 1px solid #aaa;
+  padding-top: var(--layout-spacing-half);
   clear: both;
 }
 
-/* Section header */
 .commentheader {
-  > h1 {
-    margin: $spacing-unit*0.5 0 $spacing-unit*0.5 0;
-    line-height: 56px;
-    font-size: $big-font-size;
-  }
-
+  margin-bottom: var(--layout-spacing);
 }
 
 /* List of existing comments */
 article.comment {
-  margin-bottom: $spacing-unit;
+  margin-bottom: var(--layout-spacing);
 
   &:after {
     content: "";
@@ -34,21 +29,19 @@ form.commentform {
 }
 
 div.commentauthor {
-  border-bottom: 1px solid $grey-color-dark;
+  border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
-  font-family: $heading-font-family;
   font-weight: bold;
 }
 
 span.commentdate {
   float: right;
   font-weight: normal;
-  font-family: $heading-font-family;
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-size: 0.8em;
+  color: #aaa;
 
   > a {
-    color: $grey-color;
+    color: #888;
     text-decoration: none;
   }
 
@@ -63,7 +56,11 @@ img.gravatar {
 
 /* New Comment section */
 div.commentnew {
-  margin-bottom: $spacing-unit * 2;
+  margin-bottom: var(--layout-spacing-half);
+}
+
+form.commentform > h4 {
+  margin-bottom: 1em;
 }
 
 div.newcommentauthor {
@@ -77,50 +74,48 @@ label {
 input#comment-form-name {
   width: 14em;
   margin-right: 1em;
-  border: 1px solid $grey-color;
-  background-color: $background-color;
-  color: $text-color;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid #aaa;
+  font-size: 1em;
 }
 
 input#comment-form-email {
   width: 14em;
-  border: 1px solid $grey-color;
-  background-color: $background-color;
-  color: $text-color;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid #aaa;
+  font-size: 1em;
 }
 
 textarea#comment-form-message {
-  width: 41em;
+  width: 48em;
   height: 10em;
   font-family: monospace;
-  border: 1px solid $grey-color;
-  background-color: $background-color;
-  color: $text-color;
+  font-size: 1em;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid #aaa;
 }
 
 #commentpreview {
   width: 35em;
-  padding: 1em 1em 0.1em 1em;
 }
 
 input#comment-form-show-preview, input#comment-form-subscribe {
   margin-right: 0.5em;
 }
 
-input, textarea, select, #commentpreview {
-  border: 1px solid black;
-}
-
 #commentpreviewsection {
   margin-top: 0.5em;
   margin-bottom: 1em;
+  padding: 1em;
+  border: 1px solid #aaa;
 }
 
 button#comment-form-submit {
   margin-top: 5px;
-  background-color: $alt-background-color;
-  color: $alt-text-color;
-  font-family: $heading-font-family;
+  font-size: 1em;
 }
 
 div.g-recaptcha {
@@ -139,7 +134,7 @@ div.g-recaptcha {
   }
 
   textarea#comment-form-message {
-    width: 18em;
+    width: 21em;
     height: 5em;
   }
 

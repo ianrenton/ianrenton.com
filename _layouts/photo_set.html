@@ -1,36 +1,31 @@
 ---
-layout: default
+layout: custompage-withheadfoot
 ---
 
 {% assign set = page.photos.set %}
 {% assign setbasepath = 'photography/images/' | append: set | append: '/' %}
 
-<div class="page-content">
-  <div class="wrapper">
+<main>
+  <header class="post-header">
+    <nav class="backtocollectionindex"><a href="/photography/">« Photography</a></nav>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+</main>
 
-    <header class="post-header">
-      <h3 class="backtocollectionindex"><a href="/photography/">« Photography</a></h3>
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header>
-
-  </div>
-
-  <div class="photosetwrapper">
-      {% for image in site.static_files %}
-          {% if image.path contains setbasepath %}
-              {% if image.path contains '/thumbs/' %}
-              {% else %}
-                  {% assign imagefilename = image.path | remove : setbasepath %}
-                  {% assign thumbnailpath = '/' | append: setbasepath | append: 'thumbs/' | append: imagefilename %}
-                  <a href="{{ image.path }}"><img class="galleryphoto" src="{{ thumbnailpath }}" alt="Photo from {{ set }}"></a>
-              {% endif %}
+<nav class="cardindex">
+  {% for image in site.static_files %}
+      {% if image.path contains setbasepath %}
+          {% if image.path contains '/thumbs/' %}
+          {% else %}
+              {% assign imagefilename = image.path | remove : setbasepath %}
+              {% assign thumbnailpath = '/' | append: setbasepath | append: 'thumbs/' | append: imagefilename %}
+              <a href="{{ image.path }}"><img class="galleryphoto" src="{{ thumbnailpath }}" alt="Photo from {{ set }}"></a>
           {% endif %}
-      {% endfor %}
-  </div>
+      {% endif %}
+  {% endfor %}
+</nav>
 
-  <div class="wrapper">
-    <p><a href="/photography/">« Back to Photography Index</a></p>
-  </div>
+  <p><a href="/photography/">« Back to Photography Index</a></p>
 </div>
 
 {% include comments.html %}

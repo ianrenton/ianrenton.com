@@ -1,168 +1,184 @@
 ---
-layout: homepage
+layout: custompage
 redirect_from:
   - /about
   - /about-me
 ---
 
-{% comment %} The homepage uses a very different layout to the rest, with no header or footer, and also is the only page that needs to "escape" the standard width wrapper, so it has its own minial template and manages its own wrapper, page-content, post & post-content divs unlike all other pages. {% endcomment %}
+<header class="home">
+  <img id="pfp" src="me.png" alt="Ian Renton"/>
+  <h1>Ian Renton</h1>
+  <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
+	<p>Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, and play with radios, alongside being a husband, father, cook and gardener.</p>
+	<p>You can email me at <a href="mailto:ian@ianrenton.com">ian@ianrenton.com</a>.</p>
+</header>
 
-<div class="wrapper">
-  <div id="homepagebanner">
-    <div class="top">
-      <img id="pfp" src="me.png" alt="Ian Renton"/>
-      <h1>Ian Renton</h1>
-      <h2>Software engineer and builder of robots<br/>Bournemouth, UK</h2>
-    </div>
-    <p id="bio">Hi! I'm Ian Renton. By day, I am a software and systems engineer in the naval defence industry, specialising in command &amp; control of autonomous vehicles and communications networks. By night I build robots and web applications, and play with radios, alongside being a husband, father, cook and gardener.</p>
-    <p id="personallinks">
-      <a class="icon" href="mailto:{{ site.email }}">
-        <img src="/icons/email.png">
-        <span class="iconname">E-mail</span>
-      </a>
-      <a class="icon" href="/cv">
-        <img src="/icons/cv.png">
-        <span class="iconname">CV</span>
-      </a>
-      <a class="icon" rel="me" href="https://toot.site/@ian">
-        <img src="/icons/mastodon.png">
-        <span class="iconname">Mastodon</span>
-      </a>
-      <a class="icon" rel="me" href="https://github.com/ianrenton">
-        <img src="/icons/github.png">
-        <span class="iconname">Github</span>
-      </a></p>
-  </div>
-</div>
+<header class="cardindex">
+	<h2>Recent Projects</h2>
+</header>
 
-<div class="widewrapper">
-  <div class="indexsectionheader">Hardware and Robotics</div>
-
-  <div class="widesection">
-    <a href="/hardware/planesailing"><img class="left" src="/images/250/planesailing.jpg" alt="A military tactical software display showing symbols representing boats and planes" /></a>
-    <div class="mobileblock">
-      <h2><a href="/hardware/planesailing">Plane/Sailing</a></h2>
-      <p>"Plane/Sailing" is my home aircraft and ship tracker. It receives ADS-B, AIS & APRS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website using military symbology.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/projects/meteogram"><img class="right" src="/images/250/meteogram.jpg" alt="A wide screen showing a meteogram and other weather/calendar information" /></a>
-    <div class="mobileblock">
-      <h2><a href="/projects/meteogram">Home Meteogram Display</a></h2>
-      <p>My home Meteogram display is a passive weather and calendar display that lives in the kitchen and provides a customised weather forecast for the coming days on an ultra-wide screen.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/hardware/raspberry-tank"><img class="left" src="/images/250/tank.jpg" alt="The Raspberry Tank, a model Tiger tank shown with a camera and sensors fitted" /></a>
-    <div class="mobileblock">
-      <h2><a href="/hardware/raspberry-tank">Raspberry Tank</a></h2>
-      <p>The Raspberry Tank was possibly the first tank-like robot powered by a Raspberry Pi, way back in 2012. It’s smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/hardware/usv-01"><img class="right" src="/images/250/usv.jpg" alt="USV-01, a Raspberry Pi-controlled model boat" /></a>
-    <div class="mobileblock">
-      <h2><a href="/hardware/usv-01">USV-01 “Harry Paye”</a></h2>
-      <p>USV-01 “Harry Paye” is an off-the-shelf remote control boat refitted as a testbed for an autonomous navigation system, capable of speeds up to 40 knots.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/hardware/quadcopter"><img class="left" src="/images/250/quad.jpg" alt="A quadcopter fitted with a Raspberry Pi, sat on grass" /></a>
-    <div class="mobileblock">
-      <h2><a href="/hardware/quadcopter">Quadcopter</a></h2>
-      <p>Because the Raspberry Tank was confined to just the two boring dimensions, I built a quadcopter and put a Raspberry Pi on that too. It features live video streaming and is switchable between remote and autonomous control.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/hardware/atp"><img class="right" src="/images/250/atp.jpg" alt="All-Terrain Pi, a Raspberry Pi-controlled ATV toy" /></a>
-    <div class="mobileblock">
-      <h2><a href="/hardware/atp">All-Terrain Pi</a></h2>
-      <p>The All-Terrain Pi is a “off-road” remote control toy fitted with a Raspberry Pi, with live video streaming, controllable by touch/tilt input from a smartphone, and capable of running programs written in Scratch.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/hardware/lego-turtle"><img class="left" src="/images/250/turtle.jpg" alt="Lego Turtle, an Arduino-controlled Lego Mindstorms robot" /></a>
-    <div class="mobileblock">
-      <h2><a href="/hardware/lego-turtle">Lego Turtle</a></h2>
-      <p>The Lego Turtle is an Arduino microcontroller retro-fitted onto an old Lego Mindstorms kit. It features a built-in interpreter for simple Logo programs loaded via the serial port.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="/guides/install-linux-on-a-linx-1010b-tablet"><img class="right" src="/images/250/linx.jpg" alt="A Linx 1010B tablet running Ubuntu" /></a>
-    <div class="mobileblock">
-      <h2><a href="/guides/install-linux-on-a-linx-1010b-tablet">Linux on Linx 1010B Tablet</a></h2>
-      <p>A guide on how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <h3 style="text-align: center;"><a href="/hardware">More Hardware & Robotics »</a></h3>
-  </div>
+<nav class="cardindex">
+  <ul data-component class="card-grid">
+  	{% include card.html
+  	type="vertical"
+  	title="Plane/Sailing"
+  	url="/hardware/planesailing"
+  	image="/images/250/planesailing.jpg"
+  	image-alt="A military tactical software display showing symbols representing boats and planes"
+  	description="“Plane/Sailing” is my home aircraft and ship tracker. It receives ADS-B, AIS & APRS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website using military symbology."
+  	readmore-text="Read more &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="Home Meteogram Display"
+  	url="/projects/meteogram"
+  	image="/images/250/meteogram.jpg"
+  	image-alt="A wide screen showing a meteogram and other weather/calendar information"
+  	description="My home Meteogram display is a passive weather and calendar display that lives in the kitchen and provides a customised weather forecast for the coming days on an ultra-wide screen."
+  	readmore-text="Read more &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="USV-01 “Harry Paye”"
+  	url="/hardware/usv-01"
+  	image="/images/250/usv.jpg"
+  	image-alt="USV-01, a Raspberry Pi-controlled model boat"
+  	description="USV-01 “Harry Paye” is an off-the-shelf remote control boat refitted as a testbed for an autonomous navigation system, capable of speeds up to 40 knots."
+  	readmore-text="Read more &raquo;" %}
+	</ul>
+</nav>
 
 
-  <div class="indexsectionheader">Software and Websites</div>
+<header class="cardindex">
+	<h2>Famous Projects</h2>
+</header>
 
-  <div class="widesection">
-    <a href="https://ianrenton.github.io/roastdinner/"><img class="left" src="/images/250/roast.jpg" alt="A knife cutting into a roast chicken" /></a>
-    <div class="mobileblock">
-      <h2><a href="https://ianrenton.github.io/roastdinner/">Roast Dinner Timing Chart</a></h2>
-      <p>Some Javascript magic to help you cook the perfect Sunday roast. Simply select your ingredients and a time to serve, and it will generate you a list of timed steps.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="https://bazaarflip.ianrenton.com/"><img class="right" src="/images/250/bazaarflip.png" alt="A table of Minecraft items and prices" /></a>
-    <div class="mobileblock">
-      <h2><a href="https://bazaarflip.ianrenton.com/">Hypixel Skyblock Bazaar Flipping Calculator</a></h2>
-      <p>A quick weekend project to help my kid make money in the Hypixel Skyblock Minecraft server, this has simple tool has rapidly become the most searched-for of all my software.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <a href="https://ianrenton.github.io/SeaBattle/"><img class="left" src="/images/250/seabattle.jpg" alt="Blue and red stylised 2D boats shooting at each other" /></a>
-    <div class="mobileblock">
-      <h2><a href="https://ianrenton.github.io/SeaBattle/">Sea Battle</a></h2>
-      <p>A quick-and-dirty 2D RTS game inspired by the unit customisation mechanics of Warzone 2100.</p>
-    </div>
-  </div>
-  <div class="widesection">
-    <h3 style="text-align: center;"><a href="/software/">More Software »</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/websites/">More Websites »</a></h3>
-  </div>
-
-
-  <div class="indexsectionheader">Blog</div>
-
-  {% for post in site.posts limit:3 %}
-    <div class="widesection">
-      <a href="{{ post.url | prepend: site.baseurl }}"><img class="right" src="{{ post.image | prepend: site.baseurl }}" style="max-height: 220px;"></a>
-      <div class="mobileblock">
-        <h2>
-          <a class="post-link-homepage" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p class="post-meta">{{ post.date | date: "Written on %A %-d %b %Y" }}</p>
-        <p>{{ post.content | markdownify | strip_html | truncatewords: 80 }}</p>
-        <div class="readmore"><a href="{{post.url}}">Read More &raquo;</a></div>
-      </div>
-    </div>
-  {% endfor %}
-  <div class="widesection">
-    <h3 style="text-align: center;"><a href="/blog">More Blog Posts »</a></h3>
-  </div>
+<nav class="cardindex">
+  <ul data-component class="card-grid">
+  	{% include card.html
+  	type="vertical"
+  	title="Raspberry Tank"
+  	url="/hardware/raspberry-tank"
+  	image="/images/250/tank.jpg"
+  	image-alt="The Raspberry Tank, a model Tiger tank shown with a camera and sensors fitted"
+  	description="The Raspberry Tank was possibly the first tank-like robot powered by a Raspberry Pi, way back in 2012. It’s smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously."
+  	readmore-text="Read more &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="Linux on Linx 1010B Tablet"
+  	url="/guides/install-linux-on-a-linx-1010b-tablet"
+  	image="/images/250/linx.jpg"
+  	image-alt="A Linx 1010B tablet running Ubuntu"
+  	description="A guide on how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet."
+  	readmore-text="Read more &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="Roast Dinner Timing Chart"
+  	url="https://ianrenton.github.io/roastdinner/"
+  	image="/images/250/roast.jpg"
+  	image-alt="A knife cutting into a roast chicken"
+  	description="Some Javascript magic to help you cook the perfect Sunday roast. Simply select your ingredients and a time to serve, and it will generate you a list of timed steps."
+  	readmore-text="Visit the website &raquo;" %}
+	</ul>
+</nav>
 
 
-  <div class="indexsectionheader">Miscellaneous</div>
+<header class="cardindex">
+	<h2>Older Projects</h2>
+</header>
 
-  <div class="widesection">
-    <a href="/photography"><img class="left" src="/images/250/photography.jpg" alt="A photo of the Red Arrows" /></a>
-    <div class="mobileblock">
-      <h2><a href="/photography">Photography</a></h2>
-      <p>A bunch of my best photos over the years.</p>
-    </div>
-  </div>
+<nav class="cardindex">
+  <ul data-component class="card-grid">
+  	{% include card.html
+  	type="vertical"
+  	title="Quadcopter"
+  	url="/hardware/quadcopter"
+  	image="/images/250/quad.jpg"
+  	image-alt="A quadcopter fitted with a Raspberry Pi, sat on grass"
+  	description="Because the Raspberry Tank was confined to just the two boring dimensions, I built a quadcopter and put a Raspberry Pi on that too. It features live video streaming and is switchable between remote and autonomous control."
+  	readmore-text="Read more &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="All-Terrain Pi"
+  	url="/hardware/atp"
+  	image="/images/250/atp.jpg"
+  	image-alt="All-Terrain Pi, a Raspberry Pi-controlled ATV toy"
+  	description="The All-Terrain Pi is a “off-road” remote control toy fitted with a Raspberry Pi, with live video streaming, controllable by touch/tilt input from a smartphone, and capable of running programs written in Scratch."
+  	readmore-text="Read more &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="Lego Turtle"
+  	url="/hardware/lego-turtle"
+  	image="/images/250/turtle.jpg"
+  	image-alt="Lego Turtle, an Arduino-controlled Lego Mindstorms robot"
+  	description="The Lego Turtle is an Arduino microcontroller retro-fitted onto an old Lego Mindstorms kit. It features a built-in interpreter for simple Logo programs loaded via the serial port."
+  	readmore-text="Read more &raquo;" %}
+	</ul>
+	<p class="morelink"><a href="/projects">More Projects &raquo;</a></p>
+</nav>
 
 
-  <div class="widesection">
-    <a href="/filmreviews"><img class="right" src="/images/250/sharknado.jpg" alt="A screenshot from the film 'Sharknado'" /></a>
-    <div class="mobileblock">
-      <h2><a href="/filmreviews">Film Reviews (by the Numbers)</a></h2>
-      <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!</p>
-    </div>
-  </div>
-</div>
+<header class="cardindex">
+	<h2>Blog</h2>
+</header>
+
+<nav class="cardindex">
+  <ul data-component class="card-list">
+    {% for post in site.posts limit:3 %}
+      {% capture post-url %}{{ post.url | prepend: site.baseurl }}{% endcapture %}
+      {% capture image-url %}{{ post.image | prepend: site.baseurl }}{% endcapture %}
+      {% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
+      {% capture meta %}{{ post.date | date: "Written on %A %-d %b %Y" }}{% endcapture %}
+	  	{% include card.html
+  		type="horizontal"
+	  	title=post.title
+	  	url=post-url
+	  	image=image-url
+	  	meta=meta
+	  	description=summary
+	  	readmore-text="Read more &raquo;" %}
+	  {% endfor %}
+  </ul>
+  <p class="morelink"><a href="/blog">More Blog Posts &raquo;</a></p>
+</nav>
+
+
+<header class="cardindex">
+	<h2>Miscellaneous</h2>
+</header>
+
+<nav class="cardindex">
+  <ul data-component class="card-grid">
+  	{% include card.html
+  	type="vertical"
+  	title="CV & Career Explorer"
+  	url="/cv"
+  	url2="https://careerexplorer.ianrenton.com/"
+  	image="/images/250/careerexplorer.jpg"
+  	description="Find out what I've been paid to do over the years!"
+  	readmore-text="View my CV &raquo;"
+  	readmore-text2="Go to Career Explorer &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="Photography"
+  	url="/photography"
+  	image="/images/250/photography.jpg"
+  	image-alt="A photo of the Red Arrows"
+  	description="A bunch of my best photos over the years."
+  	readmore-text="View the Photos &raquo;" %}
+  	
+  	{% include card.html
+  	type="vertical"
+  	title="Film Reviews (by the Numbers)"
+  	url="/filmreviews"
+  	image="/images/250/sharknado.jpg"
+  	image-alt="A screenshot from the film 'Sharknado'"
+  	description="By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents… largely incoherent mocking of films!"
+  	readmore-text="Let's mock some films! &raquo;" %}
+	</ul>
+</nav>

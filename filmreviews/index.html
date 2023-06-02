@@ -20,7 +20,8 @@ wordpress_id: 3260
 
 <h2>The Films</h2>
 
-<div class="table-col">
+<div style="display: flex; align-items: flex-start">
+<div style="flex: 1; margin-top: 0">
   <h3>Sorted by Review Date</h3>
   <ol reversed="reversed">
     {% for post in site.filmreviews reversed %}
@@ -28,7 +29,7 @@ wordpress_id: 3260
     {% endfor %}
   </ol>
 </div>
-<div class="table-col">
+<div style="flex: 1; margin-top: 0">
   <h3>Sorted by Title</h3>
   <ul>
     {% for post in sortedposts %}

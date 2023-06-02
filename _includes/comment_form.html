@@ -20,32 +20,32 @@
       </label>
   </div>
 
-  <fieldset>
-  <div class="textfield">
+  <p>
+    <div class="textfield">
       <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment. Use Markdown syntax for formatting." onkeyup="commentTextFieldOnKeyUp()"></textarea>
-  </div>
-  </fieldset>
+    </div>
+  </p>
 
-  <fieldset id="subscribetoggle">
+  <p id="subscribetoggle">
     <input type="checkbox" id="comment-form-subscribe" name="options[subscribe]" value="email"><label for="comment-form-subscribe">Send me an email when someone else comments on this post</label>
-  </fieldset>
+  </p>
 
-  <fieldset id="commentpreviewtoggle">
+  <p id="commentpreviewtoggle">
     <input type="checkbox" id="comment-form-show-preview"><label for="comment-form-show-preview">Show Markdown formatting preview</label>
-  </fieldset>
+  </p>
 
   <div id="commentpreviewsection" style="display: none"/>
     <div id="commentpreview"></div>
   </div>
 
-  <fieldset>
+  <p>
     <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" style="display: none"></div>
-  </fieldset>
+  </p>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <div id="comment-form-submit-result" style="display: none"></div>
 
-  <fieldset>
+  <p>
     <button class="button" id="comment-form-submit">Submit</button>
-  </fieldset>
+  </p>
 </form>

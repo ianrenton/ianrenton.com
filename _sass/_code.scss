@@ -1,0 +1,30 @@
+div.highlight {
+    border-radius: 3px;
+}
+
+pre, code {
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #fbf1c7;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+    border-left: 3px solid #aaa;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+p > code, li > code {
+    white-space: nowrap;
+}

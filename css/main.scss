@@ -5,20 +5,22 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "defines",
-  "resets",
-  "base",
-  "layouts",
+  "mixins",
+  "layout",
+  "text",
+  "fonts",
   "header",
   "footer",
-  "pagepost",
-  "indexpages",
-  "photopages",
-  "tables",
-  "comments",
+  "images",
+  "homepagelayout",
+  "cards",
+  "poststyles",
   "notewarning",
+  "photopages",
+  "print",
   "story",
   "syntax-highlighting",
-  "darkmode",
-  "print"
+  "tables",
+  "comments",
+  "code"
 ;

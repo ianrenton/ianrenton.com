@@ -177,19 +177,24 @@ Some minor font and layout improvements, improved iconography, and more subtle c
 
 ![](/websites/design-history/2022-01-23.png){: .center}
 
-<hr/>
+
+### June 2023
+
+I discovered and particularly liked [this approach to doing "cards" from SmolCSS](https://smolcss.dev/#smol-card-component) so started to use that as the main focus for the homepage. I also combined the separate "hardware", "software" and "websites" pages into a single "projects" index, since there was so much overlap between them.
+
+![](/websites/design-history/2023-06-02.png){: .center}
 
 ## Concepts
 
 Some unused designs that never went "live" include these Windows 3.1 and BeOS/Haiku inspired designs for Jekyll:
 
 <p style="text-align: center">
-<a href="/websites/design-history/win31-1.png"><img src="/websites/design-history/win31-1.png" width="250"/></a>
-<a href="/websites/design-history/win31-2.png"><img src="/websites/design-history/win31-2.png" width="250"/></a>
-<a href="/websites/design-history/win31-3.png"><img src="/websites/design-history/win31-3.png" width="250"/></a>
+<a href="/websites/design-history/win31-1.png"><img src="/websites/design-history/win31-1.png" width="200"/></a>
+<a href="/websites/design-history/win31-2.png"><img src="/websites/design-history/win31-2.png" width="200"/></a>
+<a href="/websites/design-history/win31-3.png"><img src="/websites/design-history/win31-3.png" width="200"/></a>
 </p>
 <p style="text-align: center">
-<a href="/websites/design-history/beos1.png"><img src="/websites/design-history/beos1.png" width="250"/></a>
-<a href="/websites/design-history/beos2.png"><img src="/websites/design-history/beos2.png" width="250"/></a>
-<a href="/websites/design-history/beos3.png"><img src="/websites/design-history/beos3.png" width="250"/></a>
+<a href="/websites/design-history/beos1.png"><img src="/websites/design-history/beos1.png" width="200"/></a>
+<a href="/websites/design-history/beos2.png"><img src="/websites/design-history/beos2.png" width="200"/></a>
+<a href="/websites/design-history/beos3.png"><img src="/websites/design-history/beos3.png" width="200"/></a>
 </p>

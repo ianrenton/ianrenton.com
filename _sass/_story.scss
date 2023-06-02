@@ -15,7 +15,7 @@
 
   /* Restore vertical rhythm when another element is reached */
   p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, p + blockquote, p + pre, p + ul, p + ol, p + dl, p + figure, p + img, p + div {
-    margin-top: $spacing-unit / 2;
+    margin-top: var(--layout-spacing-half);
   }
 
 }
@@ -23,7 +23,6 @@
 /* Grey inset box for story navigation */
 .storynav {
   font-size: 0.9em;
-  font-family: $heading-font-family;
   margin-bottom: 1em;
   padding: 0.1em;
   border-left: 3px solid #808080;

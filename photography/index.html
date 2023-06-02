@@ -1,19 +1,28 @@
 ---
-layout: page
+layout: custompage-withheadfoot
 title: Photography
 permalink: /photography/
 comments: false
 ---
 
-<p>A bunch of my best photos over the years. Click on a thumbnail to open the photo page for that year.</p>
-<div id="photographyindexwrapper">
+<main>
+	<header>
+	  <h1>Photography</h1>
+	</header>
+	<p>A bunch of my best photos over the years. Click on a thumbnail to open the photo page for that year.</p>
+</main>
+
+<nav class="cardindex" style="margin-top:2em">
+  <ul data-component class="card-grid">
   {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
   {% for photo_page in photo_pages reversed %}
-    <div class="photographyindexcontainer">
-      <a href="{{ photo_page.url | prepend: site.baseurl }}">
-        <img class="photographyindeximage" src="{{ site.baseurl }}/photography/images/thumbs/{{ photo_page.photos.set }}.jpg"/>
-        <div class="photographyindextext">{{ photo_page.photos.set }}</div>
-      </a>
-    </div>
+    {% capture post-url %}{{ photo_page.url | prepend: site.baseurl }}{% endcapture %}
+    {% capture image-url %}{{ site.baseurl }}/photography/images/thumbs/{{ photo_page.photos.set }}.jpg{% endcapture %}
+    {% include card.html
+  	type="vertical"
+  	title=photo_page.photos.set
+  	url=post-url
+  	image=image-url %}
   {% endfor %}
-</div>
+  </ul>
+</nav>

@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  --background-color: #f5f2f7;
+  --text-color: #29344B;
+  --light-text-brightness: 2;
+  --layout-spacing: max(8vh, 3rem);
+  --layout-spacing-half: max(4vh, 1.5rem);
+  --max-width: 70ch;
+  --max-width-wide: 110ch;
+  --highlight-color: navy;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem clamp(1rem, 5vw, 3rem) 1rem;
+  line-height: 1.5;
+  background-color: var(--background-color);
+  overscroll-behaviour-y: none;
+}
+
+body > * {
+  width: min(100%, var(--max-width));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  margin-top: var(--layout-spacing);
+}
+
+header {
+  margin-bottom: var(--layout-spacing-half);
+}
+
+:is(h1, h2, h3) {
+  line-height: 1.2;
+}
+
+:is(h2, h3):not(:first-child) {
+  margin-top: 2em;
+}
+
+article * + :not(li) {
+  margin-top: 1em;
+}
+
+/* Clear fix - should just be for legacy reasons and all float left/right can be replaced
+with flexbox then this removed */
+div.clear {
+    @extend %clearfix;
+}
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+

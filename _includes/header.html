@@ -1,19 +1,7 @@
-<header class="site-header {{ layout.headerclass }}">
-    <div class="wrapper">
-
-      <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/me-small.png" class="header-logo"/> {{ site.title }}</a>
-
-      <nav class="site-nav">
-        <a href="#" class="menu-icon">Menu</a>
-
-        <div class="trigger">
-            <a class="page-link" href="/hardware/">Hardware</a>
-            <a class="page-link" href="/software/">Software</a>
-            <a class="page-link" href="/websites/">Websites</a>
-            <a class="page-link" href="/filmreviews/">FRbtN</a>
-        </div>
-      </nav>
-
-    </div>
-
-</header>
+<nav id="site-header">
+    <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/me-small.png" class="header-logo"/> {{ site.title }}</a>
+    <nav id="site-header-right">
+		<a href="/blog/">Blog</a>
+		<a href="/projects/">Projects</a>
+    </nav>
+</nav>

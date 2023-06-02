@@ -1,0 +1,96 @@
+nav.cardindex {
+  width: min(100%, var(--max-width-wide));
+  margin-bottom: 4em;
+}
+
+ul.card-grid, ul.card-list {
+	padding-left: 0;
+}
+
+ul.card-grid {
+  --min: 30ch;
+  --gap: 2rem;
+
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+}
+
+ul.card-list {
+  --min: 60ch;
+  --gap: 2rem;
+
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: 100%;
+}
+
+.card {
+  --img-ratio: 3/2;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
+  border-radius: 0.5rem;
+}
+
+.vertical-card {
+  flex-direction: column;
+}
+
+.horizontal-card {
+  flex-direction: row;
+}
+
+.card > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card > .text > h3 {
+  margin-top: 1rem;
+}
+
+.card > .text > h3 > a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.horizontal-card > .text {
+  flex: 0.7;
+}
+
+.horizontal-card > .fullwidth {
+  flex: 1.0;
+}
+
+.horizontal-card > a {
+  flex: 0.3;
+}
+
+.vertical-card > a > img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  aspect-ratio: var(--img-ratio);
+  object-fit: cover;
+  width: 100%;
+}
+
+.horizontal-card > a > img {
+  border-radius: 0 0.5rem 0 0.5rem;
+  aspect-ratio: var(--img-ratio);
+  object-fit: cover;
+}
+
+@include media-query($on-palm) {
+  .horizontal-card > .text {
+    flex: 1;
+  }
+  .horizontal-card > a {
+    display: none;
+    flex: 0;
+  }
+}
+

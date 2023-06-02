@@ -6,16 +6,14 @@ layout: default
 {% capture threshold2 %}{{'2020-01-01 00:00:00 +0000' | date: '%s'}}{% endcapture %}
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 
-<div class="page-content">
-  <div class="wrapper">
-
+<main>
   <header class="post-header">
     {% comment %} If the post is in a collection, display the collection name as a link above post title - otherwise it's part of the blog so link to that{% endcomment %}
     {% if page.collection != 'posts' %}
       {% assign thispagecollection = site.collections | where: "label", page.collection | first %}
-      <h3 class="backtocollectionindex"><a href="{{ thispagecollection.collectionindex }}">&laquo; {{ thispagecollection.collectiontitle }}</a></h3>
+      <nav class="backtocollectionindex"><a href="{{ thispagecollection.collectionindex }}">&laquo; {{ thispagecollection.collectiontitle }}</a></nav>
     {% else %}
-      <h3 class="backtocollectionindex"><a href="/blog">&laquo; Blog</a></h3>
+      <nav class="backtocollectionindex"><a href="/blog">&laquo; Blog</a></nav>
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}{{ page.last_update | date: "<br/>Last updated on %A %-d %B %Y" }}</p>
@@ -28,7 +26,7 @@ layout: default
     <div class="warning"><p>This is an pretty old post from my blog, which has been preserved in case its content is of any interest. You might want to <a href="/">go back to the homepage</a> to see some more recent stuff.</p></div>
   {% endif %}
 
-  <article class="post-content">
+  <article>
     {{ content }}
   </article>
 
@@ -67,9 +65,7 @@ layout: default
       <div class="pagination-right">{% if nexturl %}<a href="{{nexturl}}">Next Post &raquo;<br/>{{ nexttitle }}</a>{% endif %}</div>
     </div>
   {% endif %}
-
-  </div>
-</div>
+</main>
 
 {% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "LJ imported post" threshold, show comments box {% endcomment %}
 {% if pagedate >= threshold1 or page.collection != 'posts' %}{% include comments.html %}{% endif %}

@@ -6,20 +6,6 @@ comments: false
 ---
 
 <style>
-h1 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  font-size: 36px;
-}
-h2 {
-  margin-top: 0 !important;
-  font-size: 30px;
-  font-weight: 400;
-}
-td {
-  padding: 10px 5px;
-  min-width: 7.1em;
-}
 .printme {
   text-align: center;
 }
@@ -51,6 +37,12 @@ table, td {
   .page-content {
     padding: 0;
   }
+  nav, header, footer {
+    display: none;
+  }
+  main {
+  	margin: 0;
+  }
 }
 @media screen and (max-width: 799px) {
   .visualhook {
@@ -62,7 +54,7 @@ table, td {
 <p class="printme"><span class="link"><a href="#" onclick="window.print();">Print me!</a></span></p>
 <div class="contact" style="float:right;">ian@ianrenton.com<br/>http://ianrenton.com</div>
 <div style="display:block;"><h1>Ian&nbsp;Renton</h1>
-<h2>Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
+<h2 style="margin-top:0">Software&nbsp;&amp;&nbsp;Systems&nbsp;Engineer</h2></div>
 
 <div class="notes visualhook clear">
 <a href="https://careerexplorer.ianrenton.com"><img src="/software/careerexplorer.png" class="left" style="max-width: 300px !important; margin: 1em"></a>

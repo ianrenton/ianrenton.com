@@ -1,11 +1,10 @@
 {% if page.comments != false %}
   <div class="commentsection">
-    <div class="wrapper">
       {% comment %} Existing comments (if any) {% endcomment %}
       {% assign slug = (page.slug || (page.title | slugify)) %}
       {% if site.data.comments[slug] %}
         <div class="commentheader">
-          <h1>Comments</h1>
+          <h2>Comments</h2>
         </div>
 
         <div class="commentsexisting">
@@ -24,7 +23,7 @@
       {% else %}
       {% comment %} No existing comments so make the header "add a comment" {% endcomment %}
         <div class="commentheader">
-          <h1>Add a Comment</h1>
+          <h2>Add a Comment</h2>
         </div>
       {% endif %}
 
@@ -32,7 +31,6 @@
       <div id="respond" class="commentnew">
         {% include comment_form.html %}
       </div>
-    </div>
   </div>
 
   {% comment %} Javascript functions {% endcomment %}

@@ -21,8 +21,12 @@
     font-size: 18px;
   }
 
-  header, footer, .commentheader, .commentsexisting, .commentnew {
+  nav, header, footer, .commentheader, .commentsexisting, .commentnew {
     display: none;
+  }
+  
+  main {
+  	margin: 0;
   }
 
 }

@@ -1,0 +1,26 @@
+body {
+  color: var(--text-color);
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+}
+
+p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+}
+
+blockquote {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  font-style: italic;
+  filter: brightness(var(--light-text-brightness));
+}
+
+a {
+  color: var(--highlight-color);
+  text-underline-offset: 0.15em;
+}
