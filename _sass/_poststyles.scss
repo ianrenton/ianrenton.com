@@ -52,7 +52,7 @@
   display: flex;
 
   > .pagination-left {
-	flex: 1;
+	flex: 0.5;
     vertical-align: top;
 
     @include media-query($on-palm) {
@@ -62,6 +62,7 @@
   }
 
   > .pagination-right {
+	flex: 0.5;
     text-align: right;
     vertical-align: top;
 

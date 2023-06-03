@@ -2,6 +2,10 @@
 comments: false
 layout: custompage-withheadfoot
 title: Projects
+redirect_from:
+  - /hardware
+  - /software
+  - /websites
 ---
 
 <main>

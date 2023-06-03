@@ -73,18 +73,6 @@ collections:
     collectiontitle: Roleplaying Games
     collectionindex: /rpgs/
     showprevnext: false
-  software:
-    output: true
-    permalink: /software/:title/
-    collectiontitle: Software
-    collectionindex: /software/
-    showprevnext: false
-  hardware:
-    output: true
-    permalink: /hardware/:title/
-    collectiontitle: Hardware
-    collectionindex: /hardware/
-    showprevnext: true
   raspberrytank:
     output: true
     permalink: /hardware/raspberry-tank/:title/
