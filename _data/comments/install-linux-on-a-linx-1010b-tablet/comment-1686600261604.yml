@@ -1,0 +1,8 @@
+_id: 51ead610-095c-11ee-801a-194bdcd18d90
+_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+name: msinfo32
+email: ''
+message: >-
+  PS: when using Debian (Bookworm, at least) if sound doesn't work, install the
+  `firmware-intel-sound` Debian package & it should work!
+date: '2023-06-12T20:04:21.601Z'
