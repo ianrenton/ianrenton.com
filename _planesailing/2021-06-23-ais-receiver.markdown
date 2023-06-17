@@ -22,7 +22,7 @@ Let's track some ships!
 Containerised images for Linux and compiled binaries for Windows are available from the project's Github, but I preferred to build from source using the following commands:
 
 ```bash
-sudo apt install git make gcc g++ cmake pkg-config -y
+sudo apt install git make gcc g++ cmake pkg-config libcurl4-openssl-dev zlib1g-dev -y
 git clone https://github.com/jvde-github/AIS-catcher.git
 cd AIS-catcher
 mkdir build
@@ -73,9 +73,19 @@ To provide data to a Plane/Sailing server running on the same PC, configure an a
 
 You may also want to [sign up for an AIShub account](http://www.aishub.net/join-us) and get a unique port to send to, and add this to your command line too. The same applies to [Marine Traffic](https://www.marinetraffic.com/en/users/register/1/12); registration gets you a unique port to send data to, and other account benefits. There are also anonymous ports you can send data to for [Vessel Finder](https://stations.vesselfinder.com/become-partner), [Pocket Mariner](http://pocketmariner.com/ais-ship-tracking/cover-your-area/) and [Ship Finder](https://shipfinder.co/about/coverage/). Add a command-line argument for each, e.g. `-u ais.vesselfinder.com 5528 -u boatbeaconapp.com 5322 -u ais.shipfinder.co.uk 4001`
 
+### Sharing with aprs.fi
+
+[aprs.fi](https://aprs.fi) is mainly an APRS tracker (we'll come onto submitting APRS tracks to it on the next page) but it can also accept AIS information. Unfortunately it does so in its own format rather than generic NMEA messages, but fortunately AIS-Catcher supports that format too.
+
+You will need to get your AIS "password" from your [account page](https://aprs.fi/account/) on aprs.fi, and add the following to your AIS-Catcher command line, replacing `[yourpassword]` and `[yourcallsign]` with the proper values:
+
+```
+-H http://aprs.fi/jsonais/post/[yourpassword] ID [yourcallsign] PROTOCOL aprs INTERVAL 30
+```
+
 ### Running AIS-Catcher on Startup
 
-We then need to make sure this runs automatically on startup, by creating an init script at `/etc/systemd/system/ais_catcher.service` with contents similar to those shown below, adding the additional `-u` arguments for the services you wish to share to.
+We then need to make sure this runs automatically on startup, by creating an init script at `/etc/systemd/system/ais_catcher.service` with contents similar to those shown below, adding the additional `-u` and/or `-H` arguments for the services you wish to share to.
 
 ```
 [Unit]
@@ -100,4 +110,4 @@ sudo systemctl enable ais_catcher
 sudo systemctl start ais_catcher
 ```
 
-At this point it's worth rebooting the Pi, and on startup, running both `systemctl status dump1090-fa` and `systemctl status ais_catcher` to make sure they both start up OK and don't die like they would if they couldn't access the RTL-SDR device index they were assigned.
+At this point it's worth rebooting the Pi, and on startup, running both `systemctl status dump1090-fa` and `systemctl status ais_catcher` to make sure they both start up OK and don't die like they would if they couldn't access the RTL-SDR device index they were assigned. 
