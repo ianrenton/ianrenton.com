@@ -14,9 +14,6 @@ Let's track some ships!
 
 ### Installing AIS-Catcher
 
-<div class="notes"><p>Note that I used to recommend <code>rtl_ais</code> and AIS Dispatcher for that role. <a href="/hardware/planesailing/#comment-16">S Cox in the comments</a> pointed me towards AIS-Catcher with which I see much better performance, and I strongly recommend it.</p>
-<p>If you would prefer to use the <code>rtl_ais</code> and AIS Dispatcher setup instead, <a href="/hardware/planesailing/old-rtl-ais-setup">click here.</a></p></div>
-
 [AIS-Catcher](https://github.com/jvde-github/AIS-catcher) is a command-line utility that does the complex job of interfacing with an SDR dongle and decoding AIS data, providing it on as the standard NMEA-0183 format. It also has a number of advanced features for different SDR hardware, and a built-in web interface to view the data it is receiving.
 
 Containerised images for Linux and compiled binaries for Windows are available from the project's Github, but I preferred to build from source using the following commands:
@@ -31,6 +28,13 @@ cmake ..
 make
 sudo make install
 ```
+
+AIS-Catcher is then available in `/usr/local/bin/`.
+
+<div class="notes"><p>Note that I used to recommend <code>rtl_ais</code> and AIS Dispatcher for the task of decoding and distributing AIS messages. <a href="/hardware/planesailing/#comment-16">S Cox in the comments</a> pointed me towards AIS-Catcher with which I see hugely better performance, and I strongly recommend it on that basis alone. It also has the combined features of both previous software packages, and more.</p>
+<p>Spot the point I switched over:</p>
+<p><img src="/hardware/planesailing/ais-catcher-message-chart.png"/></p>
+<p>If you would prefer to use the <code>rtl_ais</code> and AIS Dispatcher setup instead, <a href="/hardware/planesailing/old-rtl-ais-setup">click here.</a></p></div>
 
 ### Testing AIS-Catcher
 
@@ -66,7 +70,8 @@ So while I found out that `-d:0` was the appropriate parameter for `AIS-Catcher`
 
 I then rebooted the Pi to make sure the device indices stayed like that after a reboot, and they did. So Dump1090 can stay using device index 1, and AIS-Catcher will use device index 0.
 
-### Sharing your Data
+### Sharing your Data
+
 Feeding your data to online trackers is a little less sophisticated for AIS than for ADS-B; most providers simply give you an IP address and port to which you send the raw NMEA-0183 messages via UDP. AIS-Catcher can be given multiple `-u` arguments on the command line to output its data to the necessary locations.
 
 To provide data to a Plane/Sailing server running on the same PC, configure an additional output to 127.0.0.1, port 10111, by adding `-u 127.0.0.1 10111` to the command line of AIS-Catcher.
