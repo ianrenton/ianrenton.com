@@ -5,7 +5,8 @@ tagline: Software engineer and builder of robots
 description: The website of Ian Renton, a software engineer and builder of robots
 baseurl: ""
 url: "https://ianrenton.com"
-lang: en_GB
+author: Ian Renton
+lang: en-GB
 future: true
 
 # Build settings
