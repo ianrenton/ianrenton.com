@@ -30,7 +30,7 @@ I needed some of the in-game life in the real world. I needed to grow vegetables
 
 ![A cat peering over plants on a windowsill](/blog/2023/spring2.jpg){: .center}
 
-Well a farm was obviously out of the question, but a year and some later, May 2019, pandemic in full swing, there we stood. A house, a garden, a shed full of rusty tools, and saying hello to our new neighbours.
+Well a farm was obviously out of the question, but a year and some later, May 2020, pandemic in full swing, there we stood. A house, a garden, a shed full of rusty tools, and saying hello to our new neighbours.
 
 That was the start of year one. We had a lot to learn about houses and gardens, and there's still much more to learn yet. But with each passing season we get better. When to expect the last frost. When to plant indoors. How to compost. How to break up rubble and lift logs. How to paint fences. Which plants come back again and again. Which are the best varieties of seeds. How to bring colour to the garden throughout the year.
 
