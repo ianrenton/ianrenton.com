@@ -15,6 +15,7 @@ paginate: true
     {% if paginator.page > 2 %}
       <div class="warning"><p>These are some pretty old posts! I don't blog that much any more, but if they are of interest, feel free to browse. Alternatively, you can <a href="/">go back to the homepage</a> to see some more recent stuff.</p></div>
     {% endif %}
+</main>
     
   <nav class="cardindex" style="margin-top:2em">
     <ul data-component class="card-list">
@@ -24,7 +25,7 @@ paginate: true
         {% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
         {% capture meta %}{{ post.date | date: "Written on %A %-d %b %Y" }}{% endcapture %}
 	    	{% include card.html
-      		type="horizontal"
+      		type="horizontal-right"
 	      	title=post.title
 	      	url=post-url
 	      	image=image-url
@@ -36,4 +37,3 @@ paginate: true
   </nav>
 
     <div class="pagination">{% if paginator.next_page_path != nil %}<div class="pagination-left"><a href="{{paginator.next_page_path}}">&laquo; Older Posts</a></div>{% endif %}{% if paginator.previous_page_path != nil %}<div class="pagination-right"><a href="{{paginator.previous_page_path}}">Newer Posts &raquo;</a></div>{% endif %}</div>
-</main>

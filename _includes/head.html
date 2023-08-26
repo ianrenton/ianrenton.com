@@ -1,6 +1,9 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }}{% if page.collection != nil and page.collection != 'posts' %} | {% assign thispagecollection = site.collections | where: "label", page.collection | first %}{{ thispagecollection.collectiontitle }}{% endif %} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="icon" type="image/png" href="/favicon.png" />

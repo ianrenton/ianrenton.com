@@ -21,9 +21,9 @@ redirect_from:
 </main>
 
 <nav class="cardindex" style="margin-top:2em">
-  <ul data-component class="card-grid">
+  <ul data-component class="card-list">
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Home Meteogram Display"
   	url="/projects/meteogram"
   	image="/images/250/meteogram.jpg"
@@ -34,7 +34,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Plane/Sailing"
   	url="/hardware/planesailing"
   	image="/images/250/planesailing.jpg"
@@ -49,7 +49,7 @@ redirect_from:
 	readmore-text4="View the back-end source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Hypixel Skyblock Bazaar Flipping Calculator"
   	url="https://bazaarflip.ianrenton.com/"
   	image="/images/250/bazaarflip.png"
@@ -60,7 +60,7 @@ redirect_from:
 	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="USV-01 “Harry Paye”"
   	url="/hardware/usv-01"
   	image="/images/250/usv.jpg"
@@ -69,7 +69,7 @@ redirect_from:
   	readmore-text="Read the build guide &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Radio Shack"
   	url="/hardware/radioshack"
   	image="/images/250/radio.jpg"
@@ -78,7 +78,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="2E0UXV 'Random Shit I Found in my Shed' Antenna"
   	url="/hardware/radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna"
   	image="/hardware/radioshack/randomshitantenna5.jpg"
@@ -87,7 +87,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Web 3.1"
   	url="https://ianrenton.github.io/web3point1/"
   	image="/images/web3point1.png"
@@ -97,7 +97,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="WSPRnet Information System"
   	url="https://ianrenton.github.io/wspr_crt/"
   	image="/images/wsprcrt.png"
@@ -107,7 +107,7 @@ redirect_from:
 	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Flight Tracker"
   	url="/hardware/flight-tracker"
   	image="/hardware/flight-tracker/hw.jpg"
@@ -115,7 +115,7 @@ redirect_from:
   	readmore-text="Read the build guide &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="U.M.I.D. 1090 (Unnecessary Military Interface for Dump1090)"
   	url="https://github.com/ianrenton/umid1090"
   	image="/hardware/flight-tracker/sw2.png"
@@ -125,7 +125,7 @@ redirect_from:
 	readmore-text2="See it running &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Roast Dinner Timing Chart"
   	url="https://ianrenton.github.io/roastdinner/"
   	image="/images/250/roast.jpg"
@@ -136,7 +136,7 @@ redirect_from:
     readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Linux on Linx 1010B Tablet"
   	url="/guides/install-linux-on-a-linx-1010b-tablet"
   	image="/images/250/linx.jpg"
@@ -145,7 +145,7 @@ redirect_from:
   	readmore-text="Read the guide &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Over-Engineered Cat Deterrent"
   	url="/hardware/catscarer/"
   	image="/hardware/catscarer/catscarer1.jpg"
@@ -153,7 +153,7 @@ redirect_from:
   	readmore-text="See the sketches &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="All-Terrain Pi"
   	url="/hardware/atp"
   	image="/images/250/atp.jpg"
@@ -164,7 +164,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Quadcopter"
   	url="/hardware/quadcopter"
   	image="/images/250/quad.jpg"
@@ -175,7 +175,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Fun with Playbulb"
   	url="/blog/fun-with-playbulb/"
   	image="/blog/2015/playbulb.jpg"
@@ -185,7 +185,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Lego Turtle"
   	url="/hardware/lego-turtle"
   	image="/images/250/turtle.jpg"
@@ -196,7 +196,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Sea Battle"
   	url="https://ianrenton.github.io/SeaBattle/"
   	image="/images/250/seabattle.jpg"
@@ -207,7 +207,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="NaNoGenMo 2014"
   	url="https://github.com/ianrenton/NaNoGenMo/"
   	image="/images/nanogenmo.png"
@@ -215,7 +215,7 @@ redirect_from:
   	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Gecko Cam"
   	url="/hardware/geckocam/"
   	image="/hardware/geckocam/geckocam.jpg"
@@ -227,7 +227,7 @@ redirect_from:
   	readmore-text3="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Raspberry Tank"
   	url="/hardware/raspberry-tank"
   	image="/images/250/tank.jpg"
@@ -238,7 +238,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Dorset Constructorium"
   	url="/websites/constructorium/"
   	image="/images/constructorium.png"
@@ -248,7 +248,7 @@ redirect_from:
   	readmore-text2="Read about the Hackerspace &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Can I Call It...?"
   	url="http://cici.onlydreaming.net/"
   	image="/images/cici.png"
@@ -258,7 +258,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="SuccessWhale"
   	url="https://github.com/ianrenton/SuccessWhale/"
   	image="/images/successwhale.png"
@@ -268,7 +268,7 @@ redirect_from:
   	readmore-text2="View the back-end source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Daily Promise"
   	url="/websites/dailypromise/"
   	image="/images/dailypromise.png"
@@ -278,7 +278,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="A Thousand Words"
   	url="/websites/athousandwords"
   	image="/images/1kw.png"
@@ -288,7 +288,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Westminster Hubble"
   	url="/websites/westminsterhubble/"
   	image="/images/hubble.png"
@@ -298,7 +298,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Disqus to HashOver"
   	url="https://github.com/ianrenton/disqus-to-hashover"
   	image="/images/disqus2hashover.png"
@@ -306,7 +306,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Boardwalk"
   	url="/websites/boardwalk/"
   	image="/images/boardwalk.png"
@@ -314,7 +314,7 @@ redirect_from:
 	readmore-text="Read about it &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Github README Website Generator"
   	url="https://github.com/ianrenton/github-readme-website"
   	image="/images/githubreadme.png"
@@ -322,7 +322,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Yet Another Single File Photo Gallery"
   	url="http://ianrenton.github.io/yasfpg/"
   	image="/images/yasfpg.png"
@@ -330,7 +330,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="FaceFinder"
   	url="https://ianrenton.github.io/Facefinder"
   	image="/images/facefinder.png"
@@ -338,7 +338,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Twixt"
   	url="https://github.com/ianrenton/Twixt/"
   	image="/images/twixt.png"
@@ -346,7 +346,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Pokemon Review"
   	url="http://pokemonreview.tumblr.com/"
   	image="/images/pokemonreview.png"
@@ -354,7 +354,7 @@ redirect_from:
 	readmore-text="Visit the website &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="The Marvellator"
   	url="http://marvellator.onlydreaming.net/"
   	image="/images/marvellator.png"
@@ -364,7 +364,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Terrible Fanfiction Idea Generator"
   	url="http://fanfic.onlydreaming.net/"
   	image="/images/fanficidea.png"
@@ -374,7 +374,7 @@ redirect_from:
   	readmore-text2="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Cobb's Quay Weather"
   	url="https://github.com/ianrenton/Cobbs-Quay-Weather"
   	image="/images/cobbs.png"
@@ -382,7 +382,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Telegraph Fantasy Football Team Picker"
   	url="http://ianrenton.github.io/TelegraphFantasyFootballTeamPicker/"
   	image="/images/tffpicker.png"
@@ -390,7 +390,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Premier League Fantasy Football Team Picker"
   	url="http://ianrenton.github.io/PremierLeagueFantasyFootballTeamPicker/"
   	image="/images/plffpicker.png"
@@ -398,7 +398,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Iridium9601Sim & CrapTerminal"
   	url="https://ianrenton.github.io/Iridium9601Sim"
   	image="/images/iridium9601sim.png"
@@ -408,7 +408,7 @@ redirect_from:
   	readmore-text2="View CrapTerminal source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Type X29"
   	url="https://github.com/ianrenton/TypeX29"
   	image="/images/typex29.png"
@@ -416,7 +416,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Gunboat"
   	url="https://github.com/ianrenton/Gunboat"
   	image="https://ianrenton.com/images/gunboat.png"
@@ -424,7 +424,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="War of the Roses"
   	url="https://github.com/ianrenton/WarOfTheRoses"
   	image="/images/waroftheroses.png"
@@ -432,7 +432,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="MusicMan"
   	url="https://github.com/ianrenton/MusicMan"
   	image="/images/musicman.png"
@@ -440,7 +440,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="The Dorset Card Game"
   	url="/images/dorset.png"
   	image="/images/dorset.png"
@@ -448,7 +448,7 @@ redirect_from:
 	readmore-text="Visit the page &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Dynamic Democracy"
   	url="/websites/dyndemo/"
   	image="/images/dyndemo.png"
@@ -456,7 +456,7 @@ redirect_from:
 	readmore-text="Read about it &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Business Processes Wiki"
   	url="http://bpw.ianrenton.com/"
   	image="/images/bpw.png"
@@ -464,7 +464,7 @@ redirect_from:
 	readmore-text="Visit the website &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="RPG Dice Roller"
   	url="https://ianrenton.github.io/RPGDiceRoller"
   	image="/images/diceroller.png"
@@ -472,7 +472,7 @@ redirect_from:
 	readmore-text="View the source code &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Fred the Plant"
   	url="http://fredtheplant.ianrenton.com/"
   	image="/images/fred.png"
@@ -480,7 +480,7 @@ redirect_from:
 	readmore-text="Visit the website &raquo;" %}
 
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="This Website"
   	url="/websites/design-history"
   	image="/images/mmwp.png"

@@ -1,14 +1,11 @@
 nav.cardindex {
   width: min(100%, var(--max-width-wide));
+  margin-top: 1em;
   margin-bottom: 4em;
 }
 
-ul.card-grid, ul.card-list {
-	padding-left: 0;
-}
-
 ul.card-grid {
-  --min: 30ch;
+  --min: 20ch;
   --gap: 2rem;
 
   display: grid;
@@ -18,26 +15,25 @@ ul.card-grid {
 
 ul.card-list {
   --min: 60ch;
-  --gap: 2rem;
+  --gap: 3rem;
 
   display: grid;
   grid-gap: var(--gap);
   grid-template-columns: 100%;
+  padding-left: 0;
 }
 
 .card {
-  --img-ratio: 3/2;
   display: flex;
   gap: 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
-  border-radius: 0.5rem;
+  flex-direction: row;
 }
 
 .vertical-card {
   flex-direction: column;
 }
 
-.horizontal-card {
+.horizontal-left-card, .horizontal-right-card {
   flex-direction: row;
 }
 
@@ -51,7 +47,7 @@ ul.card-list {
 }
 
 .card > .text > h3 {
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .card > .text > h3 > a {
@@ -59,38 +55,47 @@ ul.card-list {
   text-decoration: none;
 }
 
-.horizontal-card > .text {
+.horizontal-left-card > .text, .horizontal-right-card > .text {
   flex: 0.7;
 }
 
-.horizontal-card > .fullwidth {
+.horizontal-left-card > .fullwidth, .horizontal-right-card > .fullwidth {
   flex: 1.0;
 }
 
-.horizontal-card > a {
+.horizontal-left-card > a, .horizontal-right-card > a {
   flex: 0.3;
 }
 
-.vertical-card > a > img {
-  border-radius: 0.5rem 0.5rem 0 0;
-  aspect-ratio: var(--img-ratio);
+.card > a > img {
   object-fit: cover;
-  width: 100%;
+  width: 300px;
+  aspect-ratio: 1.5;
+  box-shadow: 0px 0px 15px black;
 }
 
-.horizontal-card > a > img {
-  border-radius: 0 0.5rem 0 0.5rem;
-  aspect-ratio: var(--img-ratio);
-  object-fit: cover;
+.vertical-card > a > img {
+  width: 100%;
+  aspect-ratio: 1.2;
 }
 
 @include media-query($on-palm) {
-  .horizontal-card > .text {
+	.card {
+	  flex-direction: column;
+	}
+	
+  .card > .text {
     flex: 1;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .horizontal-card > a {
-    display: none;
-    flex: 0;
+
+	.card > a {
+	  flex: 1;
+	}
+
+  .card > a > img {
+    width: 100%;
   }
 }
 

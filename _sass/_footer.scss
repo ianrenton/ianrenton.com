@@ -11,7 +11,8 @@ footer p {
 span.subtitle {
   padding-left: 0.6em;
   font-size: 0.9em;
-  filter: brightness(var(--light-text-brightness));
+  font-style: italic;
+  color: var(--light-text-color);
 }
 
 /* Hide the footer on mobile */

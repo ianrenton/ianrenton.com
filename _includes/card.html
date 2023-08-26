@@ -1,5 +1,5 @@
 <li data-component class="card {{ include.type }}-card">
-  {% if include.type == "vertical" %}
+  {% if include.type == "vertical" or include.type == "horizontal-left" %}
     {% unless include.image == empty %}
       <a href="{{ include.url }}"><img src="{{ include.image }}" alt="{{ include.image-alt }}"/></a>
     {% endunless %}
@@ -27,7 +27,7 @@
 		  <p><a href="{{ include.url4 }}">{{ include.readmore-text4 }}</a></p>
 	  {% endif %}
   </div>
-  {% if include.type == "horizontal" %}
+  {% if include.type == "horizontal-right" %}
     {% unless include.image == empty %}
       <a href="{{ include.url }}"><img src="{{ include.image }}" alt="{{ include.image-alt }}"/></a>
     {% endunless %}

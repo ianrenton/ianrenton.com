@@ -18,9 +18,9 @@ redirect_from:
 </header>
 
 <nav class="cardindex">
-  <ul data-component class="card-grid">
+  <ul data-component class="card-list">
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Plane/Sailing"
   	url="/hardware/planesailing"
   	image="/images/250/planesailing.jpg"
@@ -29,7 +29,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Home Meteogram Display"
   	url="/projects/meteogram"
   	image="/images/250/meteogram.jpg"
@@ -38,7 +38,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="USV-01 “Harry Paye”"
   	url="/hardware/usv-01"
   	image="/images/250/usv.jpg"
@@ -54,9 +54,9 @@ redirect_from:
 </header>
 
 <nav class="cardindex">
-  <ul data-component class="card-grid">
+  <ul data-component class="card-list">
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Raspberry Tank"
   	url="/hardware/raspberry-tank"
   	image="/images/250/tank.jpg"
@@ -65,7 +65,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Linux on Linx 1010B Tablet"
   	url="/guides/install-linux-on-a-linx-1010b-tablet"
   	image="/images/250/linx.jpg"
@@ -74,7 +74,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Roast Dinner Timing Chart"
   	url="https://ianrenton.github.io/roastdinner/"
   	image="/images/250/roast.jpg"
@@ -90,9 +90,9 @@ redirect_from:
 </header>
 
 <nav class="cardindex">
-  <ul data-component class="card-grid">
+  <ul data-component class="card-list">
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Quadcopter"
   	url="/hardware/quadcopter"
   	image="/images/250/quad.jpg"
@@ -101,7 +101,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="All-Terrain Pi"
   	url="/hardware/atp"
   	image="/images/250/atp.jpg"
@@ -110,7 +110,7 @@ redirect_from:
   	readmore-text="Read more &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Lego Turtle"
   	url="/hardware/lego-turtle"
   	image="/images/250/turtle.jpg"
@@ -134,7 +134,7 @@ redirect_from:
       {% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
       {% capture meta %}{{ post.date | date: "Written on %A %-d %b %Y" }}{% endcapture %}
 	  	{% include card.html
-  		type="horizontal"
+  		type="horizontal-left"
 	  	title=post.title
 	  	url=post-url
 	  	image=image-url
@@ -152,9 +152,9 @@ redirect_from:
 </header>
 
 <nav class="cardindex">
-  <ul data-component class="card-grid">
+  <ul data-component class="card-list">
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="CV & Career Explorer"
   	url="/cv"
   	url2="https://careerexplorer.ianrenton.com/"
@@ -164,7 +164,7 @@ redirect_from:
   	readmore-text2="Go to Career Explorer &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Photography"
   	url="/photography"
   	image="/images/250/photography.jpg"
@@ -173,7 +173,7 @@ redirect_from:
   	readmore-text="View the Photos &raquo;" %}
   	
   	{% include card.html
-  	type="vertical"
+  	type="horizontal-left"
   	title="Film Reviews (by the Numbers)"
   	url="/filmreviews"
   	image="/images/250/sharknado.jpg"

@@ -37,12 +37,12 @@ div.commentauthor {
 span.commentdate {
   float: right;
   font-weight: normal;
+  font-style: italic;
   font-size: 0.8em;
-  color: #aaa;
 
   > a {
-    color: #888;
     text-decoration: none;
+    color: var(--light-text-color);
   }
 
 }
@@ -89,7 +89,7 @@ input#comment-form-email {
 }
 
 textarea#comment-form-message {
-  width: 48em;
+  width: 36.5em;
   height: 10em;
   font-family: monospace;
   font-size: 1em;

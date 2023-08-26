@@ -1,0 +1,34 @@
+/* Style overrides for dark mode */
+@media (prefers-color-scheme:dark) {
+
+  /* Override defines */
+  body {
+    --background-color: #101010;
+    --text-color: #d0d0d0;
+    --light-text-color: #808080;
+    --highlight-color: #448aff;
+    --code-background-color: #202020;
+  }
+
+  .notes {
+    border-left: 3px solid #555aff;
+    background-color: #101830;
+  }
+
+  .warning {
+    border-left: 3px solid #D00000;
+    background-color: #200000;
+  }
+
+  .storynav {
+    border: 1px solid var(--light-text-color-darkmode);
+    border-left: 3px solid var(--light-text-color-darkmode);
+    background-color: var(--background-color-darkmode);
+  }
+
+  #toc {
+    border: 1px solid var(--light-text-color-darkmode);
+    border-left: 3px solid var(--light-text-color-darkmode);
+    background-color: var(--background-color-darkmode);
+  }
+}

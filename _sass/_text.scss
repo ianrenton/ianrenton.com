@@ -2,13 +2,11 @@ body {
   color: var(--text-color);
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
+  font-size: 18px;
 }
 
 p {
   text-align: justify;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
 }
 
 blockquote {
@@ -17,7 +15,7 @@ blockquote {
   width: 90%;
   text-align: center;
   font-style: italic;
-  filter: brightness(var(--light-text-brightness));
+  color: var(--light-text-color);
 }
 
 a {
