@@ -27,7 +27,7 @@ An additional aim with the project was to use one of my original Raspberry Pi Mo
 
 The good (and almost unexpected) news is that the original Pi Model B does output enough power over USB for both the touchscreen and a WiFi dongle. 
 
-The bad news is that despite claiming to be compatible with all Raspberry Pi models, the screen is only tenuously "compatible" with the original Model B&mdash;no suitable USB adapter board is provided and, the mounting holes don't line up.
+The bad news is that despite claiming to be compatible with all Raspberry Pi models, the screen is only tenuously "compatible" with the original Model B&mdash;no suitable USB adapter board is provided, and the mounting holes don't line up.
 
 The low DPI of the screen (it is only 320 pixels high after all) is quite noticeable, so while it's fine for this project, you will find that most GUIs designed for normal screens (even simple configuration dialogs) won't be properly usable.
 
@@ -41,9 +41,9 @@ The two main chart plotting packages for python appear to be [Plotly](https://pl
 
 I designed its output to be simple, rendering to a file which can then be displayed by a separate utility on the computer, rather than displaying its own screen or allowing any interactivity. This was another concession to use on an old device&mdash;I didn't want to waste effort and processing power displaying my own user interface, when Linux already has many simple solutions for displaying a full-screen image.
 
-I chose the UK Met Office's API to provide the data for the meteogram, on the basis that I have found its forecasting the most reliable out of the many services available. It unfortunately only comes with a three-hour interval rather than the one-hour interval available on their website, but it's good enough for the purposes of this system which is aimed at showing an overview of five days rather than high detail for the current day.
+I chose the UK Met Office's DataHub API to provide the data for the meteogram, on the basis that I have found its forecasting the most reliable out of the many services available. It offers hourly and three-hourly forecasts over different time periods, which caused some complications on the programming side, but otherwise it is a reasonably easy-to-use API providing GeoJSON files over HTTP.
 
-Bars below the meteogram itself were added to show logic-based conditions (laundry day, frost and storm) and calendar events sourced via iCal.
+Bars below the meteogram itself were added to show logic-based conditions (laundry days & weather warnings) and calendar events sourced via iCal.
 
 ![An example output from the meteogram software](example.png){: .center}
 
@@ -146,7 +146,7 @@ The `--desktop` command is to avoid a "Desktop Manager not active" alert on the 
 
 ![The screen showing an error message in front of the meteogram](desktoperror.jpg){: .center}
 
-I then added a cron job on the Pi, running at one minute past the hour to give the API a change to update, which calls the same script:
+I then added a cron job on the Pi, running at one minute past the hour to give the API a chance to update, which calls the same script:
 
 ```bash
 1 * * * * cd /home/ian/meteogram && ./setwp.sh
@@ -170,7 +170,7 @@ unclutter &
 echo "unclutter &" >> ~/.xinitrc 
 ```
 
-The setup of hardware and software (albeit with a horrible workaround) was then complete.
+The setup of hardware and software was then complete.
 
 ![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner3.jpg){: .center}
 

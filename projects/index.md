@@ -108,10 +108,21 @@ redirect_from:
 
   	{% include card.html
   	type="horizontal-left"
+  	type="vertical"
+  	title="Plane/Sailing 1983"
+  	url="http://planesailing1983.ianrenton.com/"
+  	image="/images/planesailing1983.jpg"
+  	description="I developed the code and style of the 'WSPRnet Information System' into a live frontend for Plane/Sailing with the same retro aesthetic."
+  	readmore-text="See it running &raquo;"
+	url2="https://github.com/ianrenton/planesailing1983"
+	readmore-text2="View the source code &raquo;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="Flight Tracker"
   	url="/hardware/flight-tracker"
   	image="/hardware/flight-tracker/hw.jpg"
-  	description="I built my own ADS-B receiver to track flights taking off from the nearby airport, using a Raspberry Pi and an SDR dongle. This was the predecessor to 'Plane/Sailing', and is still operational as part of it."
+  	description="I built my own ADS-B receiver to track flights taking off from the nearby airport, using a Raspberry Pi and an SDR dongle. This was the predecessor to Plane/Sailing's hardware."
   	readmore-text="Read the build guide &raquo;" %}
 
   	{% include card.html
