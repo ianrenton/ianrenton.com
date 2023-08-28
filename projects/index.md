@@ -108,7 +108,6 @@ redirect_from:
 
   	{% include card.html
   	type="horizontal-left"
-  	type="vertical"
   	title="Plane/Sailing 1983"
   	url="http://planesailing1983.ianrenton.com/"
   	image="/images/planesailing1983.jpg"
