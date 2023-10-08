@@ -15,8 +15,7 @@
 
 .post-meta {
   font-size: 0.9em;
-  font-style: italic;
-  color: var(--light-text-color);
+  filter: brightness(var(--faded-text-brightness));
   margin-top: 0.3em;
 }
 

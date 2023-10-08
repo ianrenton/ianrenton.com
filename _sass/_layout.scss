@@ -4,15 +4,14 @@
 }
 
 body {
-  --background-color: #ffe;
-  --text-color: #111;
-  --light-text-color: #444;
-  --highlight-color: navy;
-  --code-background-color: #eee;
+  --background-color: #f5f2f7;
+  --text-color: #29344B;
+  --faded-text-brightness: 2;
   --layout-spacing: max(8vh, 3rem);
   --layout-spacing-half: max(4vh, 1.5rem);
-  --max-width: 66ch;
-  --max-width-wide: 80ch;
+  --max-width: 70ch;
+  --max-width-wide: 110ch;
+  --highlight-color: navy;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -46,10 +45,6 @@ header {
 
 article * + :not(li) {
   margin-top: 1em;
-}
-
-ul#toc > li > ul, ul#toc > li > ul > li > ul {
-  margin-top: 0;
 }
 
 /* Clear fix - should just be for legacy reasons and all float left/right can be replaced

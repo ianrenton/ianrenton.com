@@ -11,17 +11,6 @@ header.home {
 	  margin-top: 0.5em;
       display: block;
   }
-	
-	h1 {
-	  font-size: 2.4em;
-	  font-weight: 700;
-    }
-	
-	h2 {
-	  font-size: 1.2em;
-	  font-weight: 400;
-	  font-style: italic;
-    }
   
   p {
   	margin-top: 2em;
@@ -45,17 +34,10 @@ header.cardindex {
   text-align: center;
 }
 
-header.cardindex > h2 {
-  font-style: italic;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-}
-
 nav.cardindex > p.morelink {
   margin-top: 1.5em;
-  margin-bottom: 1em;
-  text-align: right;
-  font-size: 1.1em;
-  font-style: italic;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
 }
   

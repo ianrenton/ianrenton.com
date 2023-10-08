@@ -2,7 +2,6 @@ body {
   color: var(--text-color);
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
-  font-size: 18px;
 }
 
 p {
@@ -18,7 +17,7 @@ blockquote {
   width: 90%;
   text-align: center;
   font-style: italic;
-  color: var(--light-text-color);
+  filter: brightness(var(--faded-text-brightness));
 }
 
 a {
