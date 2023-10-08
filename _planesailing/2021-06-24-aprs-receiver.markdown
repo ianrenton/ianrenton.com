@@ -62,6 +62,12 @@ rtl_fm -d 1 -M fm -f 144.80M -s 24000 -
 
 Here we are using device index 1, mode FM, frequency 144.8 MHz (which is correct for APRS in Europe, America uses a different frequency) and a sample rate of 24000 samples per second, which is enough to represent the 1200-baud APRS data correctly.
 
+If you see any errors at this point with the text "Please fix the device permissions, e.g. by installing the udev rules file rtl-sdr.rules", the simplest fix is to add your user to the `plugdev` group, e.g.:
+
+```bash
+sudo useradd -a -G plugdev pi
+```
+
 Direwolf is a little more complicated, and accepts a large number of parameters either on the command line or from a configuration file. I chose to set most parameters up in a configuration file, with a little help from [these examples](https://gist.github.com/jj1bdx/8ab103e774c81d2c068d455ab862b72e). In `/home/pi/direwolf.conf`, I set up the following:
 
 ```
