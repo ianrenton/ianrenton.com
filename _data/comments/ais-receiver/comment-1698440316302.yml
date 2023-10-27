@@ -1,0 +1,6 @@
+_id: 9871f800-750b-11ee-a628-5de3e1a464a9
+_parent: 'https://ianrenton.com/hardware/planesailing/ais-receiver/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "No worries, I hope it helped!\r\n\r\nYou can indeed set the serial numbers with rtl_eeprom - later on in the setup (on the APRS page) I did include how to do this. Unfortunately I think AIS-Catcher is the only one of the tools in use here that supports identifying devices by their serial number - dump1090 and rtl_fm both expect just a numeric ID.\r\n\r\nI've had a lot of issues with power supply to the SDRs when building this system and have found that when one of them browns out, the IDs of the remainder can become inconsistent. When properly powered though, the IDs have been consistent for me across dozens of restarts. There's still potential for flakiness there though.\r\n\r\nWhen I have some free time I might submit patches for dump1090 and rtl_fm to see if we can get picking devices by serial number added in."
+date: '2023-10-27T20:58:36.298Z'
