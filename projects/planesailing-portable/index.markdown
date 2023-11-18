@@ -7,6 +7,8 @@ slug: plainsailing-portable
 
 "Plane/Sailing Portable" is a tiny hardware stack designed to be installed in ad-hoc locations, fitted to a vehicle or even carried in a pocket, from where it can contribute ADS-B, AIS or APRS coverage to the [Plane/Sailing](https://ianrenton.com/hardware/planesailing/) tracking system.
 
+TODO Banner image, mini version in "250" dir
+
 ## Background
 
 As explained in my [initial blog post on the subject](/blog/a-new-project-plane-sailing-portable/), while Plane/Sailing works very well, its biggest limitation is where I live, and the lack of line-of-sight to the sea or any APRS digipeaters. The "portable" concept developed as a solution to that problem, and an exercise to see how small an extra feeder into the system could get.
@@ -34,12 +36,16 @@ For the computer itself, I chose the [Raspberry Pi Zero W](https://www.raspberry
 To join the two neatly, I chose a [Zero4U USB hub](https://www.uugear.com/product/zero4u/) and a [back-to-back USB A connector](https://www.aliexpress.com/item/1005003238590718.html?spm=a2g0o.order_detail.order_detail_item.2.4ff9f19c6Eqea2). The Zero4U drove the choice of a Pi Zero W as opposed to a Pi Zero *2* W, as compatibility was not guaranteed due to a slight change in pin positions between the two versions.
 
 ![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle](/blog/2023/plane-sailing-portable-bits.jpg){: .center}
+*Parts ready to be assembled*
 
 A simple perspex "case" and some PCB spacers makes the build rigid, though far short of rugged, then an SD card and an SMA telescopic whip antenna (purchased [with the RTL-SDR from Technofix](https://shop.technofix.uk/sdr/usb-rtl-sdr-sticks/super-stable-1ppm-tcxo-r820t2-tuner-rtl2832u-rtl-sdr-com-usb-stick-version-3)) completes the hardware.
 
 ## Build
 
 TO DO
+
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype.jpg){: .center}
+*The prototype, with chunky USB connector, cardboard spacer and cable ties*
 
 ## Software Setup
 
@@ -50,6 +56,7 @@ TO DO
 The tool now offers a way to customise things like the WiFi credentials and enable SSH right from the GUI, which is nice:
 
 ![Screenshot of the Raspberry Pi OS Imager showing customisation settings](/projects/planesailing-portable/pi-imager-customisation.png){: .center}
+*Customisation options in Raspberry Pi OS Imager*
 
 Setting up the WiFi once for my home network is fine, but what about when moving to a new location? Luckily, there is a way around this&mdash;though not an ideal one, as it involves editing a file on the SD card every time. By creating a file at `/boot/wpa_supplicant.conf` on the Pi, we can get it to copy the settings in it to its internal config on startup. (When the SD card is accessed from a Windows PC, `/boot` is the only visible partition, so it's just dropping a `wpa_supplicant.conf` file in there.)
 
@@ -75,15 +82,99 @@ network={
 
 In future I aim to try [this script](https://raspberryconnect.com/projects/65-raspberrypi-hotspot-accesspoints/183-raspberry-pi-automatic-hotspot-and-static-hotspot-installer) which should set the Pi up as a WiFi access point if it can't find any of its preconfigured networks. This will allow adding new network credentials without needing an SD card reader.
 
+On first login to the Pi via SSH, I updated the package repository info and installed packages, as is good practice, with `sudo apt update && sudo apt upgrade`.
+
 ### RTL-SDR
 
-TO DO
+To set up the RTL-SDR, I followed the instructions on their [Quick Start Page](https://www.rtl-sdr.com/rtl-sdr-quick-start-guide/) (about half-way down for the Linux instructions).
 
-### Dump1090
+They were to download, build and install the RTL-SDR drivers:
 
-TO DO
+```bash
+sudo apt-get install libusb-1.0-0-dev git cmake pkg-config
+git clone https://github.com/rtlsdrblog/rtl-sdr-blog
+cd rtl-sdr/
+mkdir build
+cd build
+cmake ../ -DINSTALL_UDEV_RULES=ON
+make
+sudo make install
+sudo cp ../rtl-sdr.rules /etc/udev/rules.d/
+sudo ldconfig
+```
+
+Then blacklist the "standard" DVB drivers for the dongle, allowing the RTL-SDR drivers to be used instead:
+
+```bash
+echo 'blacklist dvb_usb_rtl28xxu' | sudo tee --append /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
+```
+
+And then reboot.
+
+Running `rtl_test` then results in a good initialisation of the device. (The "lost at least 124 bytes" message occurs only once on startup and not subsequently, so no bytes are being lost in an ongoing way.)
+
+```
+ian@planesailingportable:~ $ rtl_test
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Supported gain values (29): 0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4 28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6 
+Enabled direct sampling mode, input 2
+Sampling at 2048000 S/s.
+
+Info: This tool will continuously read from the device, and report if
+samples get lost. If you observe no further output, everything is fine.
+
+Reading samples in async mode...
+lost at least 124 bytes
+```
 
 ### AIS-Catcher
+
+AIS-Catcher was built from source using the same method as in the main Plane/Sailing system:
+
+```bash
+sudo apt install git make gcc g++ cmake pkg-config libcurl4-openssl-dev zlib1g-dev
+cd
+git clone https://github.com/jvde-github/AIS-catcher.git
+cd AIS-catcher
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+```
+
+Then tested using:
+
+```bash
+/usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto -a 192K
+```
+
+The [AIS-Catcher README](https://github.com/jvde-github/AIS-catcher) suggests that the `-F` flag for fast downsampling may be needed on the Pi Zero&mdash;for me it seemed fine without it, but YMMV.
+
+Once proven working, I created a systemd service at `/etc/systemd/system/ais-catcher.service` including adding an output that will send the data to Plane/Sailing:
+
+```
+[Unit]
+Description=ais_catcher
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto -a 192K -q -u planesailingserver.ianrenton.com 10111
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Using `systemctl daemon-reload` to update and `systemctl start ais-catcher` to start it and ensure the service works. I avoided `systemctl enable ais-catcher` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start AIS-Catcher along with the other applications.
+
+### Dump1090
 
 TO DO
 
