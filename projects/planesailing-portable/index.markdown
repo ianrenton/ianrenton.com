@@ -14,6 +14,10 @@ slug: plainsailing-portable
 
 ## Background
 
+* TOC
+{:toc}
+{: #toc}
+
 As explained in my [initial blog post on the subject](/blog/a-new-project-plane-sailing-portable/), while Plane/Sailing works very well, its biggest limitation is where I live, and the lack of line-of-sight to the sea or any APRS digipeaters. The "portable" concept developed as a solution to that problem, and an exercise to see how small an extra feeder into the system could get.
 
 ## Goals
@@ -246,17 +250,104 @@ Finally, I used `sudo systemctl stop ais-catcher` to stop the service before I s
 
 ### Dump1090
 
-*TODO: Dump1090 setup*
+Dump1090 was installed from FlightAware's Raspberry Pi repository as described on the [the main Plane/Sailing system ADS-B setup guide](/hardware/planesailing/adsb-receiver/):
+
+```bash
+wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository_1.2_all.deb
+sudo dpkg -i flightaware-apt-repository_1.2_all.deb
+sudo apt update
+sudo apt install dump1090-fa
+```
+
+On install, Dump1090 starts its own service&mdash;and lighttpd&mdash;so the PiAware web interface will immediately be available on port 8080 from a web browser.
+
+![Screenshot of PiAware showing 4 planes](/projects/planesailing-portable/flightaware.png){: .center}
+*An untuned antenna, indoors at ground level is not the ideal set of conditions for tracking a lot of planes.*
 
 *TODO: BEAST data to Plane Sailing Server - Use readsb? PS to support TCP server?*
 
+Once set up, feeder software such as PiAware can also be set up in order to send the data to flight tracking websites as well as Plane/Sailing. These applications typically include an interactive setup on install that prompts you for the location of the receiver to enable MLAT. For a portable system, unless it is intended to only ever remain in one place (or unless a GPS receiver is fitted - see later), the location should *not* be set. If it's set and the system is moved, it will mess up MLAT calculations in the local area.
+
+As usual, we want to manage which services run on this device manually. Because Dump1090 has added and enabled its services automatically, we now want to disable them, and stop them before continuing with the guide:
+
+```bash
+sudo systemctl disable dump1090-fa
+sudo systemctl disable lighttpd
+sudo systemctl stop dump1090-fa
+sudo systemctl stop lighttpd
+```
+
 ### Direwolf
 
-*TODO: Direwolf setup*
+Direwold was installed from the operating system repositories as described on the [the main Plane/Sailing system APRS setup guide](/hardware/planesailing/aprs-receiver/):
 
-*TODO: iGate with mobile ID*
+```bash
+sudo apt install direwolf
+sudo usermod -G plugdev pi
+```
+
+Then creating a config file at `/home/pi/direwolf.conf` with the following contents, replacing the values in square brackets:
+
+```
+ACHANNELS 1
+ADEVICE - null
+ARATE 24000
+CHANNEL 0
+MODEM 1200
+KISSPORT 8001
+MYCALL [call]-[ssid]
+IGLOGIN [call] [passcode]
+IGSERVER [region].aprs2.net
+IGTXLIMIT 6 10
+```
+
+The `TBEACON` command could be used in future in this config if a GPS receiver is attached.
+
+To test, the following command was run:
+
+```bash
+rtl_fm -d 0 -M fm -f 144.80M -o 4 -g 34 -s 24000 - | direwolf -t 0 -a 10
+```
+
+Output was then observed to see lines like the following&mdash;97 is a reasonable value for audio level.
+
+```
+ADEVICE0: Sample rate approx. 24.2 k, 0 errors, receive audio level CH0 97
+```
+
+If you have APRS transmitters that you can receive, you will hopefully see some APRS decodes here&mdash;I wasn't able to during initial testing.
+
+As with the main Plane/Sailing server, I created a `direwolf.sh` file in the home directory to run the software:
+
+```bash
+#!/bin/bash
+rtl_fm -d 1 -M fm -f 144.80M -o 4 -g 34 -s 24000 - | direwolf -t 0
+```
+
+I then made it executable with `chmod +x ~/direwolf.sh` and created a systemd service file at `/etc/systemd/system/direwolf.service`:
+
+```
+[Unit]
+Description=rtl_fm and direwolf
+After=network.target
+
+[Service]
+ExecStart=/home/pi/direwolf.sh
+WorkingDirectory=/home/pi
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+```
 
 *TODO: KISS data to Plane Sailing Server - PS to support TCP server? Use socat?*
+
+I then used `sudo systemctl daemon-reload` to update and `sudo systemctl start direwolf` to start it to ensure the service works. I avoided `sudo systemctl enable direwolf` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start Direwolf along with the other applications.
+
+Finally, I used `sudo systemctl stop direwolf` to stop the service before I started setting up the management scripts.
 
 ### Service Management Script
 

@@ -47,6 +47,10 @@ article * + :not(li) {
   margin-top: 1em;
 }
 
+li > ul {
+  margin-top: 0em !important;
+}
+
 /* Clear fix - should just be for legacy reasons and all float left/right can be replaced
 with flexbox then this removed */
 div.clear {

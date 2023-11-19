@@ -19,8 +19,8 @@ The core of most ADS-B receivers is the Dump1090 software, which decodes the raw
 Various forks of Dump1090 exist in source code form on Github, but FlightAware go the extra mile and provide compiled versions for the Raspberry Pi's architecture, so by far the easiest approach to getting it up and running is to follow [their instructions](https://uk.flightaware.com/adsb/piaware/install):
 
 ```bash
-wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/p/piaware-support/piaware-repository_5.0_all.deb
-sudo dpkg -i piaware-repository_5.0_all.deb
+wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository_1.2_all.deb
+sudo dpkg -i flightaware-apt-repository_1.2_all.deb
 sudo apt update
 sudo apt install dump1090-fa
 ```
