@@ -5,9 +5,12 @@ title: Plane/Sailing Portable
 slug: plainsailing-portable
 ---
 
+<div class="notes"><p>Please note that this project is currently a work in progress. The build guide on this page is not yet complete and several sections contain only my shorthand notes on what to investigate. If you'd like to recreate this project for yourself at this stage, there will still be some things for you to figure out on your own!</p></div>
+
 "Plane/Sailing Portable" is a tiny hardware stack designed to be installed in ad-hoc locations, fitted to a vehicle or even carried in a pocket, from where it can contribute ADS-B, AIS or APRS coverage to the [Plane/Sailing](https://ianrenton.com/hardware/planesailing/) tracking system.
 
-TODO Banner image, mini version in "250" dir
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype.jpg){: .center}
+*The first prototype of Plane/Sailing Portable*
 
 ## Background
 
@@ -20,7 +23,7 @@ As well as being simply as small as possible, I had a few other goals for the sy
 1. Be made entirely of commercial off-the-shelf parts (no PCB design!)
 2. Be plug-and-play (little or no soldering involved)
 3. Be configurable to receive ADS-B, AIS or APRS&mdash;one at a time
-4. Have a fourth operating mode where it is usable as a generic network-connected SDR (e.g. using [SpyServer](https://www.rtl-sdr.com/rtl-sdr-tutorial-setting-up-and-using-the-spyserver-remote-streaming-server-with-an-rtl-sdr/))
+4. Have a fourth operating mode where it is usable as a generic network-connected SDR
 5. Able to feed data to Plane/Sailing as well as common web-based trackers
 
 In the first iteration of the system, I allowed myself to rely on there being power and WiFi available at the operating location&mdash;e.g. wall power socket, car cigarette lighter socket or handheld USB power bank, and household WiFi or phone hotspot. I also allowed that changing the function of the device between its four supported modes could be done via SSH. (See later for potential future developments removing these limitations.)
@@ -42,10 +45,16 @@ A simple perspex "case" and some PCB spacers makes the build rigid, though far s
 
 ## Build
 
-TO DO
+To test the concept, I first put together a prototype of the hardware. The Pi Zero, Zero4U USB hub and RTL-SDR dongle arrived relatively quickly compared to the AliExpress USB connector and perspex case parts, so I initially put them together using a chunkier USB adapter, cardboard spacer and cable tie.
+
+I did consider removing the case of the RTL-SDR to reduce the size of the unit slightly, however I couldn't find much information about this online, and given concerns about heat and electromagnetic interference, I decided to leave the case attached.
 
 ![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype.jpg){: .center}
-*The prototype, with chunky USB connector, cardboard spacer and cable ties*
+*The first prototype, with chunky USB connector, cardboard spacer and cable ties*
+
+*TODO: Build guide with prototype 2 component set*
+
+*TODO: Prototype 2 build image*
 
 ## Software Setup
 
@@ -131,9 +140,53 @@ Reading samples in async mode...
 lost at least 124 bytes
 ```
 
+### rtl_tcp
+
+The first application I set up on the device was `rtl_tcp`. This is not doing any ADS-B/AIS/APRS tracking by itself, but fulfills the requirement for the "fourth mode" I wanted the device to function in, where it is usable as a generic network-connected SDR. This is useful both for testing the device, and for making it more generally useful for tinkering with.
+
+It would have been nice to use [SpyServer](https://www.rtl-sdr.com/rtl-sdr-tutorial-setting-up-and-using-the-spyserver-remote-streaming-server-with-an-rtl-sdr/) for this role, as it has more features than `rtl_tcp`, but unfortunately it is not compatible with the Pi Zero. I therefore proceeded with the simpler software.
+
+Running it without arguments listens on port 1234, but only to local applications. To enable access from other computers on the network, I ran it with:
+
+```bash
+rtl_tcp -a 0.0.0.0
+```
+
+Another PC on the network can then connect to it on this port. I used [SDRSharp](https://airspy.com/download/), selected the "RTL-TCP" source and configured it with the correct IP address and port. Though this provided a connection and streamed data, I found that I had to enable "Tuner AGC" *after* making a connection before anything useful came through. This is likely a limitation of `rtl_tcp`.
+
+A standard simple test is to listen in to Radio 1:
+
+![SDRSharp screenshot showing RTL-TCP settings](/projects/planesailing-portable/sdrsharp.png){: .center}
+*SDRSharp screenshot showing RTL-TCP settings and Radio 1 streaming in the background*
+
+The Killers were immediately playing out of my PC speakers&mdash;so at the very least we have an extremely over-engineered FM broadcast radio receiver working! I was mildly concerned about the high noise floor though&mdash;it remained to be seen how badly this would impact packet decoding.
+
+I created a systemd service to allow `rtl_tcp` to run in the background. I created a file at `/etc/systemd/system/rtl_tcp.service` with the following content:
+
+```
+[Unit]
+Description=rtl_tcp
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+ExecStart=rtl_tcp -a 0.0.0.0
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
+
+I then ran `sudo systemctl daemon-reload` to update and `sudo systemctl start rtl_tcp` to start it in the background. Reconnecting using SDRSharp worked as expected. I avoided `sudo systemctl enable rtl_tcp` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start `rtl_tcp` along with the other applications.
+
+Finally, I used `sudo systemctl stop rtl_tcp` to stop the service before I started setting up AIS-Catcher.
+
 ### AIS-Catcher
 
-AIS-Catcher was built from source using the same method as in the main Plane/Sailing system:
+AIS-Catcher was built from source using the same method as in [the main Plane/Sailing system AIS setup guide](/hardware/planesailing/ais-receiver/):
 
 ```bash
 sudo apt install git make gcc g++ cmake pkg-config libcurl4-openssl-dev zlib1g-dev
@@ -153,50 +206,71 @@ Then tested using:
 /usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto -a 192K
 ```
 
-The [AIS-Catcher README](https://github.com/jvde-github/AIS-catcher) suggests that the `-F` flag for fast downsampling may be needed on the Pi Zero&mdash;for me it seemed fine without it, but YMMV.
+This worked well for a while, but eventually started printing "RTLSDR: buffer overrun" warnings. The [AIS-Catcher README](https://github.com/jvde-github/AIS-catcher) suggests that the `-F` flag for fast downsampling may be needed on the Pi Zero, and there some additional suggestions in [this thread](https://github.com/jvde-github/AIS-catcher/issues/34) which I used as well. My eventual choice of command-line to minimise issues was:
+
+```bash
+/usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto BUFFER_COUNT 12 -a 192K -s 288K
+```
+
+This omits the `-F` flag&mdash;in my experimentation, supplying `-F` resulted in about 20% CPU load on the Pi Zero, whereas without it used about 30%. In this system, when in "AIS mode", the Pi will not need to be running anything else apart from AIS-Catcher, I decided to omit the flag for better decode performance. The `-s 288K` and `BUFFER_COUNT 12` additions definitely seemed to help reduce the "buffer overrun" messages though. AIS data modulation is 9600 baud GMSK so 288kS/s sample rate should still be plenty.
 
 Once proven working, I created a systemd service at `/etc/systemd/system/ais-catcher.service` including adding an output that will send the data to Plane/Sailing:
 
 ```
 [Unit]
 Description=ais_catcher
-After=network.target
+Wants=network-online.target
+After=network.target network-online.target
+StartLimitIntervalSec=0
 
 [Service]
-ExecStart=/usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto -a 192K -q -u planesailingserver.ianrenton.com 10111
+ExecStart=/usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto BUFFER_COUNT 12 -a 192K -s 288K -F -u planesailingserver.ianrenton.com 10111
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
 ```
 
-Using `systemctl daemon-reload` to update and `systemctl start ais-catcher` to start it and ensure the service works. I avoided `systemctl enable ais-catcher` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start AIS-Catcher along with the other applications.
+This is slightly modified from the version on the Plane/Sailing server, because the server has hard-wired ethernet and can guarantee it's online at the point the service starts up. Here, I have added a dependency on `network-online.target` to ensure that AIS-Catcher doesn't start up before the Pi has found a WiFi network to connect to, because if it does it will fail domain name resolution of `planesailingserver.ianrenton.com` and shut down.
+
+The example above also *only* sends data to Plane/Sailing server; it can of course be extended with other `-u` arguments to send data to MarineTraffic and other online services.
+
+I then used `sudo systemctl daemon-reload` to update and `sudo systemctl start ais-catcher` to start it to ensure the service works. I avoided `sudo systemctl enable ais-catcher` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start AIS-Catcher along with the other applications.
+
+*TODO: Evidence of it working, NMEA output on command line*
+
+Finally, I used `sudo systemctl stop ais-catcher` to stop the service before I started setting up Dump1090.
 
 ### Dump1090
 
-TO DO
+*TODO: Dump1090 setup*
+
+*TODO: BEAST data to Plane Sailing Server - Use readsb? PS to support TCP server?*
 
 ### Direwolf
 
-TO DO
+*TODO: Direwolf setup*
 
-### SpyServer
+*TODO: iGate with mobile ID*
 
-TO DO
+*TODO: KISS data to Plane Sailing Server - PS to support TCP server? Use socat?*
 
-### Service Management Scripts
+### Service Management Script
 
-TO DO
+*TODO: bash script menu for switching services*
 
 ## Performance
 
-TO DO
+*TODO: Performance assessment*
 
 ## Integration with Plane/Sailing
 
-TO DO
+*TODO: Summarise feed-in arrangements (port forward etc)*
+
+*TODO: TCP server enhancements, readsb? Note about avoiding pass-through feeding to flight tracker sites due to MLAT*
 
 ## Future Enhancements
 
@@ -227,3 +301,7 @@ The final concession to simplicity made at design time was that the mode could b
 An additional board providing a small screen and a few buttons, such as this [1.3" OLED display HAT](https://thepihut.com/products/1-3inch-oled-display-hat-for-raspberry-pi-128x64) could provide information on the unit's function as well as the ability to change it, and perhaps even to log into a WiFi network, via the buttons.
 
 This again does increase the size of the system, going against the "as small as possible" idea, but the size increase is modest and the functional improvement significant.
+
+### 3D-Printed Case
+
+To improve the ruggedness of the system and make it look neat and tidy, a case could be used. No commercially available cases will neatly fit the specific set of components in use here, so one would have to be manufactured, likely by 3D printing. I don't have a 3D printer, so this will be postponed until I have decided which (if any) of the additional hardware options I will use, so that I only have to get it printed once.

@@ -17,6 +17,7 @@ redirect_from:
   <p>Welcome to the projects area of my site. Here you'll find build diaries, explanations, photos and videos of all the hardware I've built or hacked together by cramming computers inside childrens' toys; software I've written for them and for other purposes; various websites I've made over the years, and so on.</p>
 
   <p>More recent projects are shown at the top of the list, with old and long-since discontinued projects towards the bottom.</p>
+  <p></p>
 </article>
 </main>
 
@@ -28,7 +29,7 @@ redirect_from:
   	url="/projects/planesailing-portable"
   	image="/images/250/planesailing-portable.jpg"
   	image-alt="A small stack of Raspberry Pi zero hardware and an SDR dongle"
-  	description="“Plane/Sailing Portable” is a tiny RTL-SDR-based receiver for ADS-B, AIS and APRS signals, which can feed web-based tracking services and the main Plane/Sailing system to improve coverage."
+  	description="“Plane/Sailing Portable” is a tiny RTL-SDR-based receiver for ADS-B, AIS and APRS signals, which can feed web-based tracking services and the main Plane/Sailing system to improve coverage.</p><p><strong>WORK IN PROGRESS</strong>"
   	readmore-text="Read more &raquo;" %}
 
   	{% include card.html
