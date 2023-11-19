@@ -264,6 +264,24 @@ Finally, I used `sudo systemctl stop ais-catcher` to stop the service before I s
 
 ## Performance
 
+### Interference
+
+When I first ran SDRSharp with `rtl_tcp` on the Pi, the noise floor was a lot higher than I expected. Radio 1, normally one of the highest receive power broadcast radio stations, came in at only 15dB above a noise floor that was sat at around -43dB compared to full scale. Luckily, it appears that a lot of the high noise floor came from the device's location. The waterfall below shows the effect of moving the system from its original location balanced on top of its mains power supply (bottom third) to approximately 30cm away (middle third). The top third shows the effect when moved to battery power from a portable power pack&mdash;I was expecting this to be another improvement, but unfortunately it was worse!
+
+![Screenshot of a spectrum waterfall](/projects/planesailing-portable/interference.png){: .center}
+
+Overall bandwidth of the screenshot is 1MHz, with Radio 1 on 98.2MHz shown slightly to the right of centre.
+
+Luckily, the advantage of battery power is that the unit can be moved around. I wanted to see if the problem was largely of my own creation (i.e. man-made interference), so I took it for a walk around the house and into the garden.
+
+![Plane/Sailing Portable in a garden](/projects/planesailing-portable/garden.jpg){: .center}
+
+This showed significant variation in background noise level, as shown in the waterfall below. As if I was in any doubt from my general ham radio experience&mdash;the inside of my house, full of DC power supplies, LED lights and powerline ethernet adapters, is a noisy place to be.
+
+![Screenshot of a spectrum waterfall](/projects/planesailing-portable/interference2.png){: .center}
+
+### Decoding Performance
+
 *TODO: Performance assessment*
 
 ## Integration with Plane/Sailing
