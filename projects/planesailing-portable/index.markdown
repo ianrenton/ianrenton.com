@@ -218,6 +218,8 @@ This worked well for a while, but eventually started printing "RTLSDR: buffer ov
 
 This omits the `-F` flag&mdash;in my experimentation, supplying `-F` resulted in about 20% CPU load on the Pi Zero, whereas without it used about 30%. In this system, when in "AIS mode", the Pi will not need to be running anything else apart from AIS-Catcher, I decided to omit the flag for better decode performance. The `-s 288K` and `BUFFER_COUNT 12` additions definitely seemed to help reduce the "buffer overrun" messages though. AIS data modulation is 9600 baud GMSK so 288kS/s sample rate should still be plenty.
 
+![AIS-Catcher command-line output](/projects/planesailing-portable/ais-output.png)
+
 Once proven working, I created a systemd service at `/etc/systemd/system/ais-catcher.service` including adding an output that will send the data to Plane/Sailing:
 
 ```
@@ -242,9 +244,10 @@ This is slightly modified from the version on the Plane/Sailing server, because 
 
 The example above also *only* sends data to Plane/Sailing server; it can of course be extended with other `-u` arguments to send data to MarineTraffic and other online services.
 
-I then used `sudo systemctl daemon-reload` to update and `sudo systemctl start ais-catcher` to start it to ensure the service works. I avoided `sudo systemctl enable ais-catcher` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start AIS-Catcher along with the other applications.
+![AIS vessels visible in the Plane/Sailing interface in two different locations](/projects/planesailing-portable/ais-coverage.png)
+*Plane/Sailing Portable providing AIS coverage in the Weymouth area, while the main system covers Poole to the Solent*
 
-*TODO: Evidence of it working, NMEA output on command line*
+I then used `sudo systemctl daemon-reload` to update and `sudo systemctl start ais-catcher` to start it to ensure the service works. I avoided `sudo systemctl enable ais-catcher` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start AIS-Catcher along with the other applications.
 
 Finally, I used `sudo systemctl stop ais-catcher` to stop the service before I started setting up Dump1090.
 
@@ -264,9 +267,9 @@ On install, Dump1090 starts its own service&mdash;and lighttpd&mdash;so the PiAw
 ![Screenshot of PiAware showing 4 planes](/projects/planesailing-portable/flightaware.png){: .center}
 *An untuned antenna, indoors at ground level is not the ideal set of conditions for tracking a lot of planes.*
 
-*TODO: BEAST data to Plane Sailing Server - Use readsb? PS to support TCP server?*
-
 Once set up, feeder software such as PiAware can also be set up in order to send the data to flight tracking websites as well as Plane/Sailing. These applications typically include an interactive setup on install that prompts you for the location of the receiver to enable MLAT. For a portable system, unless it is intended to only ever remain in one place (or unless a GPS receiver is fitted - see later), the location should *not* be set. If it's set and the system is moved, it will mess up MLAT calculations in the local area.
+
+You may notice the above instructions get the received data to common tracking websites, but not to Plane/Sailing&mdash;this step is covered later under "Integration with Plane/Sailing".
 
 As usual, we want to manage which services run on this device manually. Because Dump1090 has added and enabled its services automatically, we now want to disable them, and stop them before continuing with the guide:
 
@@ -343,7 +346,7 @@ User=pi
 WantedBy=multi-user.target
 ```
 
-*TODO: KISS data to Plane Sailing Server - PS to support TCP server? Use socat?*
+You may notice the above instructions get the received data iGated to standard APRS servers, but not to Plane/Sailing&mdash;this step is covered later under "Integration with Plane/Sailing".
 
 I then used `sudo systemctl daemon-reload` to update and `sudo systemctl start direwolf` to start it to ensure the service works. I avoided `sudo systemctl enable direwolf` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start Direwolf along with the other applications.
 
@@ -351,7 +354,7 @@ Finally, I used `sudo systemctl stop direwolf` to stop the service before I star
 
 ### Service Management Script
 
-*TODO: bash script menu for switching services*
+*TODO: bash script menu for switching services, startup service to reselect last option. Latter should be only enabled service and should start others. Blink LED in pattern to indicate which mode selected https://www.jeffgeerling.com/blogs/jeff-geerling/controlling-pwr-act-leds-raspberry-pi*
 
 ## Performance
 
@@ -377,9 +380,19 @@ This showed significant variation in background noise level, as shown in the wat
 
 ## Integration with Plane/Sailing
 
+### AIS: The Easy Bit
+
 *TODO: Summarise feed-in arrangements (port forward etc)*
 
-*TODO: TCP server enhancements, readsb? Note about avoiding pass-through feeding to flight tracker sites due to MLAT*
+### ADS-B & APRS: The Workaround
+
+*TODO: Tailscale, multi connection support in UxV
+
+### ADS-B & APRS: The Better Solution
+
+*TODO: BEAST data to Plane Sailing Server - Use readsb? PS to support TCP server?*
+
+*TODO: KISS data to Plane Sailing Server - PS to support TCP server? Use socat?*
 
 ## Future Enhancements
 
