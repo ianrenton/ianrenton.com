@@ -210,6 +210,8 @@ Then tested using:
 /usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto -a 192K
 ```
 
+![AIS-Catcher command-line output](/projects/planesailing-portable/ais-output.png)
+
 This worked well for a while, but eventually started printing "RTLSDR: buffer overrun" warnings. The [AIS-Catcher README](https://github.com/jvde-github/AIS-catcher) suggests that the `-F` flag for fast downsampling may be needed on the Pi Zero, and there some additional suggestions in [this thread](https://github.com/jvde-github/AIS-catcher/issues/34) which I used as well. My eventual choice of command-line to minimise issues was:
 
 ```bash
@@ -217,8 +219,6 @@ This worked well for a while, but eventually started printing "RTLSDR: buffer ov
 ```
 
 This omits the `-F` flag&mdash;in my experimentation, supplying `-F` resulted in about 20% CPU load on the Pi Zero, whereas without it used about 30%. In this system, when in "AIS mode", the Pi will not need to be running anything else apart from AIS-Catcher, I decided to omit the flag for better decode performance. The `-s 288K` and `BUFFER_COUNT 12` additions definitely seemed to help reduce the "buffer overrun" messages though. AIS data modulation is 9600 baud GMSK so 288kS/s sample rate should still be plenty.
-
-![AIS-Catcher command-line output](/projects/planesailing-portable/ais-output.png)
 
 Once proven working, I created a systemd service at `/etc/systemd/system/ais-catcher.service` including adding an output that will send the data to Plane/Sailing:
 
