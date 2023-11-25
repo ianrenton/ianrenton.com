@@ -503,13 +503,28 @@ This showed significant variation in background noise level, as shown in the wat
 
 ### AIS: The Easy Bit
 
-*TODO: Summarise feed-in arrangements (port forward etc)*
+You may have noticed in the setup guide above, that AIS data was easily pointed at Plane/Sailing Server by means of a `-u` command in AIS-Catcher, but I conventiently skipped over how to do the same for ADS-B (Dump1090) and APRS (Direwolf). That's because they work in different ways.
 
-### ADS-B & APRS: The Workaround
+The way AIS data is typically passed to online trackers such as MarineTraffic, and to Plane/Sailing, is via UDP. This is very simple; the sender simply sends to an IP address/hostname and port combination, and off the message goes. To allow Plane/Sailing to aggregate AIS messages from the portable system as well as its local receiver, all I had to do was forward a port on my home router, in this case 10111, to the same port on the same PC that Plane/Sailing normally uses for this. Messages then arrive on that port from both sources. The server can't tell the difference, but at this stage it doesn't need to.
 
-*TODO: Tailscale, multi connection support in UxV*
+### ADS-B & APRS: The Quick Solution
+
+For ADS-B we generally use BEAST data on a port served by Dump1090, and for APRS we use KISS data on a port served by Direwolf. These are TCP, so unlike with UDP we need to deal with connections and the differences between clients and servers. More importantly, it's Dump1090 and Direwolf that are the *servers*&mdash;Plane/Sailing Server is the *client* in these relationships. That means that Dump1090 and Direwolf in the portable system can't connect in to the main system&mdash;the main system must connect to *them*.
+
+The first step to make this happen was to allow multiple connections of each type in Plane/Sailing Server. Instead of just connecting to one Dump1090 instance, or one Direwolf instance, [a change was made](https://github.com/ianrenton/planesailing-server/commit/4553e9d4b8611fe1d274cb566aa12618b63775f8) to allow as many as you like.
+
+Great! Plane/Sailing Server can now connect to Dump1090 & Direwolf on its own network, as well as Dump1090 or Direwolf on the portable system. But how does it find the portable system? It's running on ad-hoc WiFi networks, and even using mobile phone tethering, so it's not so easy to give Plane/Sailing Server an IP address and port and say "connect to this". In particular, the port forwarding we use on normal internet-connected routers is impossible on a phone network, as the Network Address Translation is beyond our control.
+
+The quick solution to this is to *put them on the same local network*, wherever the portable system is, using a VPN. This way, Plane/Sailing Server will be able to see the portable system on one IP address regardless of where it is in the world, and connect directly to it. I am a recent convert to [Tailscale](https://tailscale.com) for this, as it's simple to set up on just about any device, and they provide the key management. I previously used [OpenVPN](https://openvpn.net/), which works just as well, though you need to generate and distribute keys manually.
+
+![Tailscale dashboard showing several computers connected to a VPN with IP addresses shown](/projects/planesailing-portable/tailscale.png){: .center}
+*Tailscale dashboard showing "plainsailingportable" and "innsmouth" (the Plane/Sailing Server) connected to the VPN with IP addresses in the same range*
+
+The VPN allows Plane/Sailing Portable to connect in and be accessible from Plane/Sailing Server on a known IP address, in this case on the 100.x.y.z subnet, so that the server can connect to it rather than the other way around.
 
 ### ADS-B & APRS: The Better Solution
+
+The above solution is fine, but it does have a dependency on having a VPN setup. What if we wanted to remove that need for extra software? We would need a way for the portable system to connect in to the main system, to bridge a connection that is normally the other way around.
 
 *TODO: BEAST data to Plane Sailing Server - Use readsb? PS to support TCP server?*
 
