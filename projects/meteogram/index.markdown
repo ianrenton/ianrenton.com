@@ -31,7 +31,7 @@ The bad news is that despite claiming to be compatible with all Raspberry Pi mod
 
 The low DPI of the screen (it is only 320 pixels high after all) is quite noticeable, so while it's fine for this project, you will find that most GUIs designed for normal screens (even simple configuration dialogs) won't be properly usable.
 
-<div class="notes"><p>If you're looking to copy this project for yourself, I would recommend at least a Pi 2 rather than an original Model B, as you'll have connectors and mounting holes that match. If you're going all the way to a Pi 3 or 4, consider the <a href="https://www.waveshare.com/11.9inch-DSI-LCD.htm">DSI version of the screen</a> instead for a neater install.</p></div>
+<div class="notes"><p>If you're looking to copy this project for yourself, I would recommend at least a Pi 2 rather than an original Model B, as you'll have connectors and mounting holes that match. If you're going all the way to a Pi 3 or 4, consider the <a href="https://www.waveshare.com/11.9inch-DSI-LCD.htm">DSI version of the screen</a> instead for a neater install. You'll also be able to take advantage of the on-board WiFi on those models.</p></div>
 
 ## Software Design
 
@@ -70,6 +70,14 @@ I worked around this problem by fitting some ~8mm nylon PCB spacers to the under
 ![The Pi with spacers attached to the underside](pispacers.jpg){: .center}
 
 ![The screen PCB with highlighted points taped over](touchpoints-covered.jpg){: .center}
+
+A later minor update swapped the included USB cable for a much shorter one to neaten up the back of the system:
+
+![The back of the system with a much shorter cable between screen and Pi](shortusb.jpg){: .center}
+
+The WiFi dongle is pretty huge, but it was the only working one I could scrounge from my parts bin. I turned it into a "design feature" by using it as a kick-stand; the rorateable antenna is just about stiff enough that it can be used to prop the unit up at whatever angle you desire.
+
+![Top down view showing WiFi antenna sticking out](kickstand.jpg){: .center}
 
 ## Operating System Setup
 
