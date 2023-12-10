@@ -269,6 +269,8 @@ On install, Dump1090 starts its own service&mdash;and lighttpd&mdash;so the PiAw
 
 Once set up, feeder software such as PiAware can also be set up in order to send the data to flight tracking websites as well as Plane/Sailing. These applications typically include an interactive setup on install that prompts you for the location of the receiver to enable MLAT. For a portable system, unless it is intended to only ever remain in one place (or unless a GPS receiver is fitted - see later), the location should *not* be set. If it's set and the system is moved, it will mess up MLAT calculations in the local area.
 
+Feeders for [FlightAware](https://www.flightaware.com/adsb/piaware/install), [FlightRadar24](https://www.flightradar24.com/share-your-data) and [OARC](https://wiki.oarc.uk/flight:adsb) were set up in order to test the system, following the linked instructions. These software for these feeders will run all the time on the device; we don't particularly care about turning them on and off as without `dump1090-fa` running they won't be doing much anyway.
+
 You may notice the above instructions get the received data to common tracking websites, but not to Plane/Sailing&mdash;this step is covered later under "Integration with Plane/Sailing".
 
 As usual, we want to manage which services run on this device manually. Because Dump1090 has added and enabled its services automatically, we now want to disable them, and stop them before continuing with the guide:
@@ -383,6 +385,12 @@ read -p 'Enter a number 1-4: ' choice
 # Write to choice file
 echo "$choice" > choice.txt
 
+# Stop existing services
+systemctl stop rtl_tcp
+systemctl stop dump1090-fa
+systemctl stop ais-catcher
+systemctl stop direwolf
+
 # Chain run.sh
 ./run.sh
 ```
@@ -493,13 +501,51 @@ This showed significant variation in background noise level, as shown in the wat
 
 ### Decoding Performance
 
-In order to assess the performance of the system, it was used with the same antennas as the main Plane/Sailing system, swapped rapidly from one to the other. The message receive rates on the server (before the switch) and portable system (after the switch) were then compared. No noticeable difference in performance was observed between the systems when identical RTL-SDRs and antennas were used.
+In order to assess the performance of the system, it was used with the same antennas as the main Plane/Sailing system, swapped rapidly from one to the other. The message receive rates on the server (before the switch) and portable system (after the switch) were then compared. No noticeable difference in performance was observed between the systems when the same antennas were used.
 
-*TODO: CPU use assessment - ADSB max CPU if many feeders added?*
+In terms of CPU load, the following 1-minute load average values were observed. These were recorded as measured by `top`. The Pi Zero W has a 1GHz single-core CPU, so a load of 1.0 is fully utilised.
+
+| State                                       | CPU Load |
+|---------------------------------------------|----------|
+| Idle                                        | 0.09     |
+| rtl_test Running                            | 0.11     |
+| rtl_tcp Running                             | 0.11     |
+| rtl_tcp Streaming                           | 1.25     |
+| AIS-Catcher Running                         | 0.42     |
+| rtl_fm & Direwolf Running                   | 0.64     |
+| dump1090 Running (No Decodes)               | 0.46     |
+| dump1090 Running (approx 800 msgs/sec)      | 0.74     |
+| dump1090 + PiAware                          | 0.76     |
+| dump1090 + PiAware + FR24Feed               | 0.82     |
+| dump1090 + PiAware + FR24Feed + OARC Feeder | 1.04     |
+
+As you can see from the table, streaming from `rtl_tcp` really maxes out the CPU, and if you're tracking aircraft, 3 ADS-B feeders is about all the system can cope with as a maximum. (Most feeders will connect to a BEAST binary port on a different computer though, so if you're interested in feeding several places from the portable system, and have access to another always-on server, it might be better to run the feeders there instead of on the Pi Zero.)
+
+Rates of APRS and AIS message receive at my location are low enough that it no noticeable effect on CPU load was detectable by plugging in the antenna (i.e. there was no load difference between the software being running but idle, and running and actively decoding). With ADS-B, the message receive rate was high enough to make a significant difference, which is why this distinction has been made in the table above.
+
+Note that the ADS-B feeders are not sending or receiving MLAT in this portable setup. If this was configured, providing position information to the feeders to enable MLAT, the CPU usage could increase slightly.
+
+Note also that (as covered in a later section) the device was also running the Tailscale client. This accounted for approximately 1-6% of CPU usage on top of that used by `ssh`, `top` and other background processes.
 
 ### Power Consumption
 
-*TODO: Power consumption*
+![Inline USB current meter next to Plane/Sailing Portable](/projects/planesailing-portable/current.jpg){: .center}
+*Using an inline USB current meter to measure power consumption*
+
+Power consumption was monitored during testing using an inline USB current meter. Results are as follows. All were at 5 V nominal, although the supply dropped as low as 4.75 V under the highest loads. Values quoted are the highest instantaneous value displayed by the device over 10 seconds of monitoring.
+
+| State                                  | Current Draw / A |
+|----------------------------------------|------------------|
+| Startup                                | 0.325            |
+| Idle                                   | 0.263            |
+| rtl_test Running                       | 0.331            |
+| rtl_tcp Running                        | 0.465            |
+| rtl_tcp Streaming                      | 0.655            |
+| AIS-Catcher Running                    | 0.466            |
+| rtl_fm & Direwolf Running              | 0.498            |
+| dump1090 Running (No Decodes)          | 0.527            |
+| dump1090 Running (approx 800 msgs/sec) | 0.533            |
+| dump1090 + 3 Feeders                   | 0.556            |
 
 ## Integration with Plane/Sailing
 

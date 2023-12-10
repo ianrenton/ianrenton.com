@@ -5,8 +5,8 @@ table {
   border-spacing: 0;
   width: auto;
   max-width: 100%;
-  border-top: 2.27px solid black;
-  border-bottom: 2.27px solid black;
+  border-top: 2.27px solid var(--text-color);
+  border-bottom: 2.27px solid var(--text-color);
   overflow-x: auto;
 }
 
@@ -19,16 +19,16 @@ td {
 
 /* Borders */
 table tr > th[scope='col'] {
-  border-bottom: 1.36px solid black;
+  border-bottom: 1.36px solid var(--text-color);
 }
 table tr > th[scope='row'] {
-  border-right: 1.36px solid black;
+  border-right: 1.36px solid var(--text-color);
 }
 table > tbody > tr:first-child > td,
 table > tbody > tr:first-child > th {
-  border-top: 1.36px solid black;
+  border-top: 1.36px solid var(--text-color);
 }
 table > tbody > tr:last-child > td,
 table > tbody > tr:last-child > th {
-  border-bottom: 1.36px solid black;
+  border-bottom: 1.36px solid var(--text-color);
 }
