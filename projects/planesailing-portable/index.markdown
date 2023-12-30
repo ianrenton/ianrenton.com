@@ -5,12 +5,12 @@ title: Plane/Sailing Portable
 slug: plainsailing-portable
 ---
 
-<div class="notes"><p>Please note that this project is currently a work in progress. The build guide on this page is not yet complete and several sections contain only my shorthand notes on what to investigate. If you'd like to recreate this project for yourself at this stage, there will still be some things for you to figure out on your own!</p></div>
-
 "Plane/Sailing Portable" is a tiny hardware stack designed to be installed in ad-hoc locations, fitted to a vehicle or even carried in a pocket, from where it can contribute ADS-B, AIS or APRS coverage to the [Plane/Sailing](https://ianrenton.com/hardware/planesailing/) tracking system.
 
-![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype.jpg){: .center}
-*The first prototype of Plane/Sailing Portable*
+The project is still at the prototype stage (cable ties are still involved!)&mdash;see the bottom of the page for potential future improvements to be made.
+
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype2.jpg){: .center}
+*The second prototype of Plane/Sailing Portable*
 
 ## Background
 
@@ -22,15 +22,16 @@ As explained in my [initial blog post on the subject](/blog/a-new-project-plane-
 
 ## Goals
 
-As well as being simply as small as possible, I had a few other goals for the system:
+My requirements for the system were as follows:
 
-1. Be made entirely of commercial off-the-shelf parts (no PCB design!)
-2. Be plug-and-play (little or no soldering involved)
-3. Be configurable to receive ADS-B, AIS or APRS&mdash;one at a time
-4. Have a fourth operating mode where it is usable as a generic network-connected SDR
-5. Able to feed data to Plane/Sailing as well as common web-based trackers
+1. Fit within a 100x40x40mm footprint
+2. Be made entirely of commercial off-the-shelf parts (no PCB design!)
+3. Be plug-and-play (little or no soldering involved)
+4. Be configurable to receive ADS-B, AIS or APRS&mdash;one at a time
+5. Have a fourth operating mode where it is usable as a generic network-connected SDR
+6. Able to feed data to Plane/Sailing as well as common web-based trackers
 
-In the first iteration of the system, I allowed myself to rely on there being power and WiFi available at the operating location&mdash;e.g. wall power socket, car cigarette lighter socket or handheld USB power bank, and household WiFi or phone hotspot. I also allowed that changing the function of the device between its four supported modes could be done via SSH. (See later for potential future developments removing these limitations.)
+In this first iteration of the system, I allowed myself to rely on there being power and WiFi available at the operating location&mdash;e.g. wall power socket, car cigarette lighter socket or handheld USB power bank, and household WiFi or phone hotspot. I also allowed that changing the function of the device between its four supported modes could be done via SSH. (See later for potential future developments removing these limitations.)
 
 ## Design
 
@@ -47,18 +48,35 @@ To join the two neatly, I chose a [Zero4U USB hub](https://www.uugear.com/produc
 
 A simple perspex "case" and some PCB spacers makes the build rigid, though far short of rugged, then an SD card and an SMA telescopic whip antenna (purchased [with the RTL-SDR from Technofix](https://shop.technofix.uk/sdr/usb-rtl-sdr-sticks/super-stable-1ppm-tcxo-r820t2-tuner-rtl2832u-rtl-sdr-com-usb-stick-version-3)) completes the hardware.
 
+## Bill of Materials
+
+The following parts were used to build the project in its current incarnation:
+
+| **Part**                         | **Supplier**                                                                                                                                             | **Cost / GBP** |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| Raspberry Pi Zero W              | [The Pi Hut](https://thepihut.com/products/raspberry-pi-zero-w)                                                                                          | 15.00    |
+| SD Card                          | (from parts bin, but cheaply available e.g. [Amazon](https://www.amazon.co.uk/Kingston-microSD-SDCS2-Adapter-Included/dp/B07YGZ7JD5/ref=sr_1_3))         | N/A      |
+| Zero4U USB Hub                   | [The Pi Hut](https://thepihut.com/products/zero4u-4-port-usb-hub-for-raspberry-pi-zero)                                                                  | 9.90     |
+| RTL-SDR v3                       | [Technofix](https://shop.technofix.uk/super-stable-1ppm-tcxo-r820t2-tuner-rtl2832u-rtl-sdr-com-usb-stick-version-3)                                      | 37.99    |
+| Telescopic whip antenna          | Technofix (addon to above product)                                                                                                                       | 3.99     |
+| USB A back-to-back connector     | [AliExpress](https://www.aliexpress.com/item/1005003238590718.html)                                                                                      | 4.01     |
+| Raspberry Pi Zero W perspex case | [eBay](https://www.ebay.co.uk/itm/256280694812)                                                                                                          | 2.68     |
+| 2.5mm PCB spacers                | (from parts bin, but cheaply available e.g. [Amazon](https://www.amazon.co.uk/Knpwer-Standoff-Assortment-Threaded-Motherboard/dp/B09YLWJPD7/ref=sr_1_9)) | N/A      |
+| **TOTAL**                        |                                                                                                                                                          | **73.57**    |
+
 ## Build
 
-To test the concept, I first put together a prototype of the hardware. The Pi Zero, Zero4U USB hub and RTL-SDR dongle arrived relatively quickly compared to the AliExpress USB connector and perspex case parts, so I initially put them together using a chunkier USB adapter, cardboard spacer and cable tie.
+To test the concept, I first put together an initial prototype of the hardware. The Pi Zero, Zero4U USB hub and RTL-SDR dongle arrived relatively quickly compared to the AliExpress USB connector and perspex case parts, so I initially put them together using a chunkier USB adapter, cardboard spacer and cable tie.
 
 I did consider removing the case of the RTL-SDR to reduce the size of the unit slightly, however I couldn't find much information about this online, and given concerns about heat and electromagnetic interference, I decided to leave the case attached.
 
 ![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype.jpg){: .center}
 *The first prototype, with chunky USB connector, cardboard spacer and cable ties*
 
-*TODO: Build guide with prototype 2 component set*
+Once the rest of the parts arrived, the build could be improved somewhat with a smaller USB adapter and the perspex "case" parts providing extra rigidity.
 
-*TODO: Prototype 2 build image*
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype2a.jpg){: .center}
+*The second prototype, improving the neatness of the unit*
 
 ## Software Setup
 
@@ -326,7 +344,7 @@ As with the main Plane/Sailing server, I created a `direwolf.sh` file in the hom
 
 ```bash
 #!/bin/bash
-rtl_fm -d 1 -M fm -f 144.80M -o 4 -g 34 -s 24000 - | direwolf -t 0
+rtl_fm -d 0 -M fm -f 144.80M -o 4 -g 34 -s 24000 - | direwolf -t 0
 ```
 
 I then made it executable with `chmod +x ~/direwolf.sh` and created a systemd service file at `/etc/systemd/system/direwolf.service`:
@@ -477,7 +495,7 @@ User=root
 WantedBy=multi-user.target
 ```
 
-Then this is enabled on startup: `sudo systemctl daemon-reload && sudo systemctl enable run`. Note that this is the *only* custom service that is "enabled" (i.e. runs automatically on startup). The other services for Dump1090, AIS-Catcher etc. are all run *by* this script.
+Then this is enabled on startup: `sudo systemctl daemon-reload && sudo systemctl enable run`. Note that this is the *only* custom service that is "enabled" (i.e. runs automatically on startup). The other services for Dump1090, AIS-Catcher etc. are "disabled" so they don't run automatically, then they are individually started *by* this script.
 
 To test the menu, run `menu.sh`, enter your password, and make a selection from the menu. The LED will blink the number of times based on your selection, then the selected service will run. It will then re-run on every startup until a different choice is made.
 
@@ -561,6 +579,11 @@ For ADS-B we generally use BEAST data on a port served by Dump1090, and for APRS
 
 The first step to make this happen was to allow multiple connections of each type in Plane/Sailing Server. Instead of just connecting to one Dump1090 instance, or one Direwolf instance, [a change was made](https://github.com/ianrenton/planesailing-server/commit/4553e9d4b8611fe1d274cb566aa12618b63775f8) to allow as many as you like.
 
+The JSON protocol and client UI code were also updated to reflect the back-end server changes, so now if you have multiple computers providing input, they are all shown separately in the server telemetry.
+
+![Plane/Sailing client showing server telemetry with three sources](/projects/planesailing-portable/planesailingtelemetry.png){: .center}
+*Plane/Sailing client showing server telemetry with three sources*
+
 Great! Plane/Sailing Server can now connect to Dump1090 & Direwolf on its own network, as well as Dump1090 or Direwolf on the portable system. But how does it find the portable system? It's running on ad-hoc WiFi networks, and even using mobile phone tethering, so it's not so easy to give Plane/Sailing Server an IP address and port and say "connect to this". In particular, the port forwarding we use on normal internet-connected routers is impossible on a phone network, as the Network Address Translation is beyond our control.
 
 ### ADS-B & APRS: The Quick Solution
@@ -600,6 +623,10 @@ However, as you can see this is getting quite complicated with a lot of services
 
 A number of future enhancements are being considered for the project to overcome its current limitations.
 
+### Improved RTL-SDR Mounting
+
+The RTL-SDR is still held on by a cable tie in the current prototype. With the ability to precisely cut perspex or 3D print, a bracket could be fashioned to hold the dongle securely.
+
 ### 4G & GPS
 
 To overcome the system's current reliance on household WiFi or phone tethering, a [4G HAT](https://thepihut.com/products/4g-phat-for-raspberry-pi-lte-cat-4-3g-2g-with-gnss-positioning) could be added. This relies on PoGo pins underneath the Pi Zero rather than being a true "HAT", which means it would have to take the place of the USB hub. Luckily, the 4G HAT identified does have an end-mounted USB A socket, so it's an easy replacement!
@@ -620,7 +647,7 @@ Although not as neat in terms of battery placement, and not having a built-in sw
 
 ### Screen and Buttons
 
-The final concession to simplicity made at design time was that the mode could be changed between ADS-B, AIS, APRS and SpyServer by logging in via SSH and running a script. SSH&mdash;or seeing the results on the Plane/Sailing interface&mdash;is also the only way to know if it's working.
+The final concession to simplicity made at design time was that the mode could be changed between ADS-B, AIS, APRS and rtl_tcp by logging in via SSH and running a script. SSH&mdash;or seeing the results on the Plane/Sailing interface&mdash;is also the only way to know if it's working.
 
 An additional board providing a small screen and a few buttons, such as this [1.3" OLED display HAT](https://thepihut.com/products/1-3inch-oled-display-hat-for-raspberry-pi-128x64) could provide information on the unit's function as well as the ability to change it, and perhaps even to log into a WiFi network, via the buttons.
 
