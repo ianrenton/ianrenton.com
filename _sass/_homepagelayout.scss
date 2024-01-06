@@ -4,12 +4,18 @@ header.home {
 	img {
 		float: left;
 		margin-right: 2em;
+		margin-top: 0.5em;
 		margin-bottom: 0.5em;
 	}
 	
 	h1, h2 {
 	  margin-top: 0.5em;
       display: block;
+  }
+
+  h2 {
+    font-size: 120%;
+    font-style: italic;
   }
   
   p {
