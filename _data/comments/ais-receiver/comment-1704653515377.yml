@@ -1,0 +1,6 @@
+_id: d37b4810-ad8d-11ee-8ca7-09239ded2636
+_parent: 'https://ianrenton.com/hardware/planesailing/ais-receiver/'
+name: mkv
+email: ''
+message: "Hi Ian and thank you for updating my favourite needless tactical display :) I just installed dump1090-fa and seems it now supports the SDR device serial number. I used it like this:\r\n\r\n/etc/default/dump1090-fa:\r\n\r\n# serial number or device index of device to use (only needed if there is more than one SDR connected)\r\nRECEIVER_SERIAL=ADSB\r\n\r\nand restarted the dump1090-fa service, it seems to run fine.\r\n\r\nAgain thanks for this software :)"
+date: '2024-01-07T18:51:55.372Z'
