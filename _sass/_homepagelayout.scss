@@ -5,6 +5,7 @@ header.home {
 		float: left;
 		margin-right: 2em;
 		margin-bottom: 0.5em;
+		border-radius: 50%;
 	}
 	
 	h1, h2 {
@@ -14,6 +15,10 @@ header.home {
   
   p {
   	margin-top: 2em;
+  }
+  
+  p:first-of-type {
+  	margin-top: 3em;
   }
 }
 
