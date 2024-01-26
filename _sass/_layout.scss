@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding: 1rem clamp(1rem, 5vw, 3rem) 1rem;
+  font-size: 20px;
   line-height: 1.5;
   background-color: var(--background-color);
   overscroll-behaviour-y: none;
