@@ -1,11 +1,21 @@
-body {
+body, input {
   font-family: 'Source Serif 4', serif;
+  font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, nav#site-header, ul#toc {
-  font-family: 'Raleway', sans-serif;
+ul#toc, .pagination, .notes, .warning, .storynav, p#commentpreviewtoggle, p#subscribetoggle, button#comment-form-submit, #comment-form-submit-result {
+  font-family: Inter, sans-serif;
 }
 
-pre, code {
+.pagination, .notes, .warning, .storynav {
+  font-size: 16px;
+}
+
+p#commentpreviewtoggle, p#subscribetoggle, button#comment-form-submit {
+  font-size: 16px;
+}
+
+pre, code, textarea#comment-form-message {
   font-family: 'Fira Code', monospace;
+  font-size: 15px;
 }

@@ -15,7 +15,7 @@ ul.card-grid {
 
 ul.card-list {
   --min: 60ch;
-  --gap: 3rem;
+  --gap: 4rem;
 
   display: grid;
   grid-gap: var(--gap);
@@ -53,6 +53,14 @@ ul.card-list {
 .card > .text > h3 > a {
   color: var(--text-color);
   text-decoration: none;
+}
+
+.card > .text > p {
+  margin-top: 0.5em;
+}
+
+.card > .text > p.post-meta {
+  margin-top: 0 !important;
 }
 
 .horizontal-left-card > .text, .horizontal-right-card > .text {

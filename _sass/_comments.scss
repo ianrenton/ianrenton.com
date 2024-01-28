@@ -60,10 +60,11 @@ div.commentnew {
 }
 
 form.commentform > h4 {
+  font-size: 1.2em;
   margin-bottom: 1em;
 }
 
-div.newcommentauthor {
+div.newcommentauthor label {
   margin-bottom: 0.5em;
 }
 
@@ -89,10 +90,8 @@ input#comment-form-email {
 }
 
 textarea#comment-form-message {
-  width: 48em;
+  width: 40em;
   height: 10em;
-  font-family: monospace;
-  font-size: 1em;
   background-color: var(--background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
@@ -115,7 +114,6 @@ input#comment-form-show-preview, input#comment-form-subscribe {
 
 button#comment-form-submit {
   margin-top: 5px;
-  font-size: 1em;
 }
 
 div.g-recaptcha {
