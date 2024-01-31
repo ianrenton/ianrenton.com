@@ -4,14 +4,15 @@
 }
 
 body {
-  --background-color: #f5f2f7;
-  --text-color: #29344B;
+  --background-color: antiquewhite;
+  --code-background-color: floralwhite;
+  --text-color: black;
   --faded-text-brightness: 2;
   --layout-spacing: max(8vh, 3rem);
   --layout-spacing-half: max(4vh, 1.5rem);
   --max-width: 70ch;
   --max-width-wide: 110ch;
-  --highlight-color: navy;
+  --highlight-color: firebrick;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
