@@ -75,7 +75,7 @@ label {
 input#comment-form-name {
   width: 14em;
   margin-right: 1em;
-  background-color: var(--background-color);
+  background-color: var(--code-background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
   font-size: 1em;
@@ -83,7 +83,7 @@ input#comment-form-name {
 
 input#comment-form-email {
   width: 14em;
-  background-color: var(--background-color);
+  background-color: var(--code-background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
   font-size: 1em;
@@ -92,7 +92,7 @@ input#comment-form-email {
 textarea#comment-form-message {
   width: 40em;
   height: 10em;
-  background-color: var(--background-color);
+  background-color: var(--code-background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
 }
