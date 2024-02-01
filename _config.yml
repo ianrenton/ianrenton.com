@@ -116,6 +116,12 @@ collections:
     collectiontitle: Radio Shack
     collectionindex: /hardware/radioshack/
     showprevnext: false
+  planesailing-portable:
+    output: true
+    permalink: /projects/planesailing-portable/:title/
+    collectiontitle: Plane/Sailing Portable
+    collectionindex: /projects/planesailing-portable/
+    showprevnext: true
 
 # jekyll-paginate
 paginate: 10

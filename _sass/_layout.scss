@@ -52,6 +52,23 @@ li > ul {
   margin-top: 0em !important;
 }
 
+/* Breakout wide section */
+div.breakout-full-width {
+  margin-left: calc(-100vw / 2 + 70ch / 2);
+  margin-right: calc(-100vw / 2 + 70ch / 2);
+}
+@include media-query($on-palm) {
+  div.breakout-full-width {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Centre all tables */
+table {
+  margin: 0 auto;
+}
+
 /* Clear fix - should just be for legacy reasons and all float left/right can be replaced
 with flexbox then this removed */
 div.clear {
