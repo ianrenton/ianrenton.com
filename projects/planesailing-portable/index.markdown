@@ -19,5 +19,5 @@ The project is still at the prototype stage (cable ties are still involved!)&mda
 3. [Receiver Software Setup](./receiver-software-setup)
 4. [Service Management Scripts](./service-management-scripts)
 5. [Integration with Plane/Sailing](./integration-with-plane-sailing)
-6. [Performance Testing](./performance-testng)
+6. [Performance Testing](./performance-testing)
 7. [Future Enhancements](./future-enhancements)
