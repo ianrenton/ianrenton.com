@@ -97,10 +97,6 @@ textarea#comment-form-message {
   border: 1px solid #aaa;
 }
 
-#commentpreview {
-  width: 35em;
-}
-
 input#comment-form-show-preview, input#comment-form-subscribe {
   margin-right: 0.5em;
 }
@@ -134,10 +130,6 @@ div.g-recaptcha {
   textarea#comment-form-message {
     width: 21em;
     height: 5em;
-  }
-
-  #commentpreview {
-    width: 16em;
   }
 
   img.gravatar {
