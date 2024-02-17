@@ -19,7 +19,7 @@ Let's track some ships!
 Containerised images for Linux and compiled binaries for Windows are available from the project's Github, but I preferred to build from source using the following commands:
 
 ```bash
-sudo apt install git make gcc g++ cmake pkg-config libcurl4-openssl-dev zlib1g-dev -y
+sudo apt install git make gcc g++ cmake pkg-config libcurl4-openssl-dev zlib1g-dev librtlsdr-dev -y
 git clone https://github.com/jvde-github/AIS-catcher.git
 cd AIS-catcher
 mkdir build
