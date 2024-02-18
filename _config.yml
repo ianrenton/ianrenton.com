@@ -122,6 +122,12 @@ collections:
     collectiontitle: Plane/Sailing Portable
     collectionindex: /projects/planesailing-portable/
     showprevnext: true
+  big-mouth-phatt-bass:
+    output: true
+    permalink: /projects/big-mouth-phatt-bass/:title/
+    collectiontitle: Big Mouth Phatt Bass
+    collectionindex: /projects/big-mouth-phatt-bass/
+    showprevnext: true
 
 # jekyll-paginate
 paginate: 10
