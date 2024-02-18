@@ -15,7 +15,7 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 ## Build Guide
 
 * Part 1: Gutting the Fish
-* Part 2: Flapping Wildly
+* [Part 2: Flapping Wildly](/projects/big-mouth-phatt-bass/part-2-flapping-wildly)
 * Part 3: Bringing the Noise
 * Part 4: Hitting the Decks
 * Part 5: Lip-syncing
