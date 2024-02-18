@@ -40,7 +40,7 @@ adduser ian
 usermod -aG sudo ian
 mkdir /home/ian/.ssh
 cp /root/.ssh/authorized_keys /home/ian/.ssh/authorized_keys
-chown ian:ian /home/ian/.ssh/authorized_keys
+chown -R ian:ian /home/ian/.ssh
 sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
 service ssh reload
 ```
@@ -62,7 +62,7 @@ echo 'lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file' >> /etc/p
 ```bash
 systemctl stop pve-cluster corosync
 pmxcfs -l
-rm /etc/corosync/*
+rm -R /etc/corosync/*
 rm /etc/pve/corosync.conf
 killall pmxcfs
 systemctl start pve-cluster
