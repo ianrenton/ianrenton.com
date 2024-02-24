@@ -14,12 +14,12 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 ## Build Guide
 
-* Part 1: Gutting the Fish
+* [Part 1: Gutting the Fish](/projects/big-mouth-phatt-bass/part-1-gutting-the-fish)
 * [Part 2: Flapping Wildly](/projects/big-mouth-phatt-bass/part-2-flapping-wildly)
-* Part 3: Bringing the Noise
-* Part 4: Hitting the Decks
-* Part 5: Lip-syncing
-* Part 6: Getting the Fish back Together
+* [Part 3: Bringing the Noise](/projects/big-mouth-phatt-bass/part-3-bringing-the-noise)
+* [Part 4: Hitting the Decks](/projects/big-mouth-phatt-bass/part-4-hitting-the-decks)
+* [Part 5: Lip-syncing](/projects/big-mouth-phatt-bass/part-5-lip-syncing)
+* [Part 6: Getting the Fish back Together](/projects/big-mouth-phatt-bass/part-6-getting-the-fish-back-together)
 
 ## Bonus Content
 
