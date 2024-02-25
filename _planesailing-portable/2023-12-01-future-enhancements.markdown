@@ -24,6 +24,12 @@ However, this device is expensive and comes with the ongoing expense of needing 
 
 This board also requires separate antennas for the GPS and LTE radios, with fragile U.FL connectors on the PCB. To improve ruggedness I would want to encapsulate this all inside a box and have three SMA connectors on the outside, and at this point it is stretching the definition of "as small as possible".
 
+### Meshtastic Node
+
+The typical ESP32/LoRa boards used for Meshtastic are a similar footprint to the rest of this project. Adding one would allow the device to become a Meshtastic node in addition to its normal functionality.
+
+This also opens up other potential capabilities such as bridging APRS data received into the Meshtastic network.
+
 ### Battery Power
 
 Another desirable upgrade would be to remove the reliance on USB power, and provide an internal battery that would also be chargeable through the system.
