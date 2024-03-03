@@ -42,3 +42,7 @@ void loop() {
   digitalWrite(LED,LOW);
 }
 ```
+
+So far, so good. The next job I attempted was getting control over the fish's motors so I could start flapping it around.
+
+I chose an L298N board for this, attached it temporarily to the breadboard, then started to wire up.

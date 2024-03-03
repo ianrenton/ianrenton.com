@@ -12,7 +12,7 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 (video)
 
-## Build Guide
+## Liner Notes
 
 * [Part 1: Gutting the Fish](/projects/big-mouth-phatt-bass/part-1-gutting-the-fish)
 * [Part 2: Flapping Wildly](/projects/big-mouth-phatt-bass/part-2-flapping-wildly)
@@ -21,6 +21,21 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Part 5: Lip-syncing](/projects/big-mouth-phatt-bass/part-5-lip-syncing)
 * [Part 6: Getting the Fish back Together](/projects/big-mouth-phatt-bass/part-6-getting-the-fish-back-together)
 
-## Bonus Content
+## Encore
 
-(videos - alternate songs)
+Further planned songs, coming one day when I can be bothered:
+
+* Meghan Trainor - All About that Bass
+* Nicki Minaj - Super Bass
+* Mr Scruff - Fish
+
+## Shoutouts
+
+Massive respect to the Billy Bass Hacking Posse!
+
+* [Donald Bell!](https://www.instructables.com/Animate-a-Billy-Bass-Mouth-With-Any-Audio-Source/)
+* [James Bulpin!](https://automateeverythingsite.wordpress.com/2016/11/20/hacking-big-mouth-billy-bass-part-13/)
+* [Ben Eagan!](https://www.cyber-omelette.com/2019/01/billy-bass-alexa.html)
+* [Kevin McAleer!](https://www.kevsrobots.com/blog/big-mouth.html)
+* [Brian Kane!](https://www.theverge.com/2016/11/4/13525172/amazon-alexa-big-mouth-billy-bass-hack-api)
+* [Jeff...](https://inews.co.uk/news/consumer/big-mouth-billy-bass-amazon-alexa-speaker-buy-sale-228703) *\*checks notes\** [Jeff Bezos??](https://inews.co.uk/news/consumer/big-mouth-billy-bass-amazon-alexa-speaker-buy-sale-228703)
