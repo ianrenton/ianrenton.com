@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: "Part 2: Flapping Wildly"
 slug: part-2-flapping-wildly
-date: 2024-02-27 00:00:00
+date: 2024-02-25 00:00:00
 layout: post
 ---
 

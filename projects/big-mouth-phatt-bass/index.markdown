@@ -19,9 +19,10 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Part 3: Bringing the Noise](/projects/big-mouth-phatt-bass/part-3-bringing-the-noise)
 * [Part 4: Hitting the Decks](/projects/big-mouth-phatt-bass/part-4-hitting-the-decks)
 * [Part 5: Lip-syncing](/projects/big-mouth-phatt-bass/part-5-lip-syncing)
-* [Part 6: Getting the Fish back Together](/projects/big-mouth-phatt-bass/part-6-getting-the-fish-back-together)
+* [Part 6: Power Chords](/projects/big-mouth-phatt-bass/part-6-power-chords)
+* [Part 7: Getting the Fish back Together](/projects/big-mouth-phatt-bass/part-7-getting-the-fish-back-together)
 
-## Encore
+## Encores
 
 Further planned songs, coming one day when I can be bothered:
 
