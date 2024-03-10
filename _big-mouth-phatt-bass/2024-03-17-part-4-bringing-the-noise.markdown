@@ -1,9 +1,9 @@
 ---
 comments: true
 layout: post
-title: "Part 3: Bringing the Noise"
-slug: part-3-bringing-the-noise
-date: 2024-02-26 00:00:00
+title: "Part 4: Bringing the Noise"
+slug: part-4-bringing-the-noise
+date: 2024-03-17 00:00:00
 layout: post
 ---
 

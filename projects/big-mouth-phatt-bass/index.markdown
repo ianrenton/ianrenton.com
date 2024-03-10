@@ -15,12 +15,13 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 ## Liner Notes
 
 * [Part 1: Gutting the Fish](/projects/big-mouth-phatt-bass/part-1-gutting-the-fish)
-* [Part 2: Flapping Wildly](/projects/big-mouth-phatt-bass/part-2-flapping-wildly)
-* [Part 3: Bringing the Noise](/projects/big-mouth-phatt-bass/part-3-bringing-the-noise)
-* [Part 4: Hitting the Decks](/projects/big-mouth-phatt-bass/part-4-hitting-the-decks)
-* [Part 5: Lip-syncing](/projects/big-mouth-phatt-bass/part-5-lip-syncing)
-* [Part 6: Power Chords](/projects/big-mouth-phatt-bass/part-6-power-chords)
-* [Part 7: Getting the Fish back Together](/projects/big-mouth-phatt-bass/part-7-getting-the-fish-back-together)
+* [Part 2: Disco Lights](/projects/big-mouth-phatt-bass/part-2-disco-lights)
+* [Part 3: Flapping Wildly](/projects/big-mouth-phatt-bass/part-3-flapping-wildly)
+* [Part 4: Bringing the Noise](/projects/big-mouth-phatt-bass/part-4-bringing-the-noise)
+* [Part 5: Hitting the Decks](/projects/big-mouth-phatt-bass/part-5-hitting-the-decks)
+* [Part 6: Lip-syncing](/projects/big-mouth-phatt-bass/part-6-lip-syncing)
+* [Part 7: Power Chords](/projects/big-mouth-phatt-bass/part-7-power-chords)
+* [Part 8: Getting the Fish back Together](/projects/big-mouth-phatt-bass/part-8-getting-the-fish-back-together)
 
 ## Encores
 

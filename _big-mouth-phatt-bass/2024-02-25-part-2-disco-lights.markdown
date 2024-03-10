@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: "Part 2: Flapping Wildly"
-slug: part-2-flapping-wildly
+title: "Part 2: Disco Lights"
+slug: part-2-disco-lights
 date: 2024-02-25 00:00:00
 layout: post
 ---
@@ -44,5 +44,3 @@ void loop() {
 ```
 
 So far, so good. The next job I attempted was getting control over the fish's motors so I could start flapping it around.
-
-I chose an L298N board for this, attached it temporarily to the breadboard, then started to wire up.

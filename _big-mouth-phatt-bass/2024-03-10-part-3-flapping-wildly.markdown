@@ -1,0 +1,55 @@
+---
+comments: true
+layout: post
+title: "Part 3: Flapping Wildly"
+slug: part-3-flapping-wildly
+date: 2024-03-10 00:00:00
+layout: post
+---
+
+With the ESP32 development board set up and programmable, the next job was to gain control over the fish's motors, and power the board along the way.
+
+I chose an L298N board for this, attached it temporarily to the breadboard, then started to wire up.
+
+<div class="warning"><p><strong>Content Warning</strong></p><p>I used whatever bits of single-core wire I had lying around for this project. If you are sensitive to poor wiring colour choices, you may wish to look away now.</p></div>
+
+## Power Up
+
+One key advantage to the L298N is that it has a 5V output which we can conveniently use to power the board, stepping down the 6V that comes from the fish's 4x 1.5V batteries.
+
+Now came the question of where to wire *from*. In the original circuitry, some part of the PCB stays powered the whole time, and the switch options are marked "on" or "sensor"&mdash;there is no "off".
+
+While the ESP32 is a low power component compared to having a full computer in here, its power draw is still going to flatten the batteries after a while. Therefore, during the early stages of development, I wanted to repurpose this as a proper on/off switch so that I could easily turn the ESP32 & L298N off when not in use, and prevent battery drain.
+
+I therefore took 6V from the red wire on the 6-pin header, and the switched 0V from the green wire. These were wired into the L298N's input power pins, and 5V & 0V then taken off to the breadboard power rails. The ESP32 could then be powered from the fish batteries.
+
+![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, both powered.](/projects/big-mouth-phatt-bass/8.jpg)
+
+## Motor Control
+
+I largely followed [this excellent tutorial](https://randomnerdtutorials.com/esp32-dc-motor-l298n-motor-driver-control-speed-direction/) to use the ESP32 to drive the motors. In essence, the way the L298N works is as follows:
+
+* Each motor has two logic level inputs for forward and reverse
+* Each motor also has an "enable" pin that comes jumpered to a neighbouring 5V pin
+* The jumper can be removed and a PWM input applied in order to control the motor speed.
+
+All ESP32 output pins can be used for PWM, so I wired a neat row of pins using ribbon cable as follows:
+
+* D13 to Enable A (PWM) (brown)
+* D12 to IN1 (Motor A forward) (red)
+* D14 to IN2 (Motor A reverse) (orange)
+* D27 to IN3 (Motor B forward) (yellow)
+* D26 to IN4 (Motor B reverse) (green)
+* D25 to Enable B (PWM) (blue)
+
+Note that I have a ["JZK" branded development board](https://www.amazon.co.uk/ESP-32S-Development-2-4GHz-Bluetooth-Antenna/dp/B071JR9WS9/), pin-outs are not consistent across dev boards so if you're following along with this guide at home, check the layour of your board.
+
+I then wired the outputs of the L298N to the JST socket to which the motors will be attached. The schematic now looked like this:
+
+<div class="breakout-full-width"><center>
+<img src="/projects/big-mouth-phatt-bass/wd-motors.png" alt="Wiring diagram"/>
+</center></div>
+
+And the board like this:
+
+![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg)

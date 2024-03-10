@@ -1,9 +1,9 @@
 ---
 comments: true
 layout: post
-title: "Part 5: Lip Syncing"
-slug: part-5-lip-syncing
-date: 2024-03-16 00:00:00
+title: "Part 6: Lip Syncing"
+slug: part-6-lip-syncing
+date: 2024-03-31 00:00:00
 layout: post
 ---
 
