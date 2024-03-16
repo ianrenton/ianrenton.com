@@ -53,3 +53,87 @@ And the board like this:
 ![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg){: .center}
 
 [![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png)
+
+## Hacking Code
+
+The next step was to write some simple code to demonstrate motor movements. The following code operates each motor in sequence:
+
+```c
+// Motor control pins
+#define HEADTAIL_MOTOR_PIN_1 12
+#define HEADTAIL_MOTOR_PIN_2 14
+#define HEADTAIL_MOTOR_PWM_PIN 13
+#define MOUTH_MOTOR_PIN_1 27
+#define MOUTH_MOTOR_PIN_2 26
+#define MOUTH_MOTOR_PWM_PIN 25
+
+// LED pin for debug
+#define LED_PIN 2
+
+// Motor PWM settings
+#define PWM_FREQUENCY 1000
+#define PWM_RESOLUTION 8
+#define HEADTAIL_MOTOR_PWM_CHANNEL 0
+#define MOUTH_MOTOR_PWM_CHANNEL 1
+#define HEADTAIL_MOTOR_PWM_DUTY_CYCLE 255 // Proxy for motor speed, up to 2^resolution
+#define MOUTH_MOTOR_PWM_DUTY_CYCLE 255    // Proxy for motor speed, up to 2^resolution
+
+void setup() {
+  // Set up pins
+  pinMode(HEADTAIL_MOTOR_PIN_1, OUTPUT);
+  pinMode(HEADTAIL_MOTOR_PIN_2, OUTPUT);
+  pinMode(HEADTAIL_MOTOR_PWM_PIN, OUTPUT);
+  pinMode(MOUTH_MOTOR_PIN_1, OUTPUT);
+  pinMode(MOUTH_MOTOR_PIN_2, OUTPUT);
+  pinMode(MOUTH_MOTOR_PWM_PIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
+  
+  // Set up PWM
+  ledcSetup(HEADTAIL_MOTOR_PWM_CHANNEL, PWM_FREQUENCY, PWM_RESOLUTION);
+  ledcSetup(MOUTH_MOTOR_PWM_CHANNEL, PWM_FREQUENCY, PWM_RESOLUTION);
+  ledcAttachPin(HEADTAIL_MOTOR_PWM_PIN, HEADTAIL_MOTOR_PWM_CHANNEL);
+  ledcAttachPin(MOUTH_MOTOR_PWM_PIN, MOUTH_MOTOR_PWM_CHANNEL);
+  ledcWrite(HEADTAIL_MOTOR_PWM_CHANNEL, HEADTAIL_MOTOR_PWM_DUTY_CYCLE);
+  ledcWrite(MOUTH_MOTOR_PWM_CHANNEL, MOUTH_MOTOR_PWM_DUTY_CYCLE);
+}
+
+void loop() {
+  // Head forward
+  digitalWrite(HEADTAIL_MOTOR_PIN_1, LOW);
+  digitalWrite(HEADTAIL_MOTOR_PIN_2, HIGH);
+  digitalWrite(LED_PIN, HIGH); 
+  delay(1000);
+  
+  // Tail forward
+  digitalWrite(HEADTAIL_MOTOR_PIN_1, HIGH);
+  digitalWrite(HEADTAIL_MOTOR_PIN_2, LOW);
+  digitalWrite(LED_PIN, LOW); 
+  delay(1000);
+
+  // Stop
+  digitalWrite(HEADTAIL_MOTOR_PIN_1, LOW);
+  digitalWrite(HEADTAIL_MOTOR_PIN_2, LOW);
+  delay(500);
+  
+  // Mouth open
+  digitalWrite(MOUTH_MOTOR_PIN_1, LOW);
+  digitalWrite(MOUTH_MOTOR_PIN_2, HIGH); 
+  digitalWrite(LED_PIN, HIGH); 
+  delay(1000);
+  
+  // Mouth close
+  digitalWrite(MOUTH_MOTOR_PIN_1, HIGH);
+  digitalWrite(MOUTH_MOTOR_PIN_2, LOW);
+  digitalWrite(LED_PIN, LOW); 
+  delay(1000);
+
+  // Stop
+  digitalWrite(MOUTH_MOTOR_PIN_1, LOW);
+  digitalWrite(MOUTH_MOTOR_PIN_2, LOW);
+  delay(500);
+}
+```
+
+You can see it in action below!
+
+<center><video width="720" controls><source src="https://video.ianrenton.com/phattbass/motortest.webm" type="video/webm"></video></center>
