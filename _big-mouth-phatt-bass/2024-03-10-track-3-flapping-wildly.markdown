@@ -11,7 +11,7 @@ With the ESP32 development board set up and programmable, the next job was to ga
 
 I chose an L298N board for this, attached it temporarily to the breadboard, then started to wire up.
 
-<div class="warning"><p><strong>Content Warning</strong></p><p>I used whatever bits of single-core wire I had lying around for this project. If you are sensitive to poor wiring colour choices, you may wish to look away now.</p></div>
+<div class="warning"><p><strong>Content Warning</strong>: I used whatever bits of single-core wire I had lying around for this project. If you are sensitive to poor wiring colour choices, you may wish to look away now.</p></div>
 
 ## Power Up
 
@@ -42,7 +42,7 @@ All ESP32 output pins can be used for PWM, so I wired a neat row of pins using r
 * D26 to IN4 (Motor B reverse) (green)
 * D25 to Enable B (PWM) (blue)
 
-Note that I have a ["JZK" branded development board](https://www.amazon.co.uk/ESP-32S-Development-2-4GHz-Bluetooth-Antenna/dp/B071JR9WS9/), pin-outs are not consistent across dev boards so if you're following along with this guide at home, check the layour of your board.
+<div class="notes"><p>Note that I have a <a href="https://www.amazon.co.uk/ESP-32S-Development-2-4GHz-Bluetooth-Antenna/dp/B071JR9WS9/">"JZK" branded development board</a>. Pin-outs are not consistent across dev boards so if you're following along with this guide at home, check the layour of your board.</p></div>
 
 I then wired the outputs of the L298N to the JST socket to which the motors will be attached. The schematic now looked like this:
 
@@ -51,6 +51,8 @@ I then wired the outputs of the L298N to the JST socket to which the motors will
 And the board like this:
 
 ![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg){: .center}
+
+From this point on I will include Fritzing breadboard layout diagrams as well, to aid understanding of what's going on:
 
 [![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png)
 
