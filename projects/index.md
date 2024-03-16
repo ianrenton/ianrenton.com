@@ -25,6 +25,15 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="Big Mouth Phatt Bass"
+  	url="/projects/big-mouth-phatt-bass"
+  	image="/images/250/big-mouth-phatt-bass.jpg"
+  	image-alt="A Big Mouth Billy Bass with wires sticking out of the back"
+  	description="It turns out, what Big Mouth Billy Bass really needed was <em>more</em> fish puns. And techno."
+  	readmore-text="Read more &raquo;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="Plane/Sailing Portable"
   	url="/projects/planesailing-portable"
   	image="/images/250/planesailing-portable.jpg"
