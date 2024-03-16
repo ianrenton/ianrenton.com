@@ -60,7 +60,7 @@ From this point on I will include Fritzing breadboard layout diagrams as well, t
 
 The next step was to write some simple code to demonstrate motor movements. The following code operates each motor in sequence:
 
-```c
+```cpp
 // Motor control pins
 #define HEADTAIL_MOTOR_PIN_1 12
 #define HEADTAIL_MOTOR_PIN_2 14

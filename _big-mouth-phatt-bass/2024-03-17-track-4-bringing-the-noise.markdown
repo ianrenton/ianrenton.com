@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: "Track 4: Bringing the Noise"
 slug: track-4-bringing-the-noise
-date: 2024-03-17 00:00:00
+date: 2024-03-16 00:00:00
 layout: post
 ---
 
@@ -29,7 +29,7 @@ I used example code from [this page](http://digitaltown.co.uk/components17dfmini
 
 I then loaded a single test MP3 onto the SD card. After some playing, and with reference to both the previous link and [the serial interface details for the board](https://cahamo.delphidabbler.com/resources/dfplayer-mini), I settled on the following code to set the volume level, and play a 30-second clip of that MP3.
 
-```c
+```cpp
 void setup() {
   // Set up serial comms to MP3-TF-16P
   Serial2.begin(9600);

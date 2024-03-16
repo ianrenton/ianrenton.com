@@ -28,7 +28,7 @@ Within the Arduino IDE, I had to set up an Additional Board Manager URL, then op
 
 After selecting the board and the serial port, I flashed a quick demo program to toggle the on-board LED and prove the device was working:
 
-```c
+```cpp
 #define LED 2
 
 void setup() {
