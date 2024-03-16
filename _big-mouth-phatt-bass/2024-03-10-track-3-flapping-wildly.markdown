@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: "Part 3: Flapping Wildly"
-slug: part-3-flapping-wildly
+title: "Track 3: Flapping Wildly"
+slug: track-3-flapping-wildly
 date: 2024-03-10 00:00:00
 layout: post
 ---
@@ -23,7 +23,7 @@ While the ESP32 is a low power component compared to having a full computer in h
 
 I therefore took 6V from the red wire on the 6-pin header, and the switched 0V from the green wire. These were wired into the L298N's input power pins, and 5V & 0V then taken off to the breadboard power rails. The ESP32 could then be powered from the fish batteries.
 
-![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, both powered.](/projects/big-mouth-phatt-bass/8.jpg)
+![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, both powered.](/projects/big-mouth-phatt-bass/8.jpg){: .center}
 
 ## Motor Control
 
@@ -46,10 +46,10 @@ Note that I have a ["JZK" branded development board](https://www.amazon.co.uk/ES
 
 I then wired the outputs of the L298N to the JST socket to which the motors will be attached. The schematic now looked like this:
 
-<div class="breakout-full-width"><center>
-<img src="/projects/big-mouth-phatt-bass/wd-motors.png" alt="Wiring diagram"/>
-</center></div>
+[![Wiring diagram](/projects/big-mouth-phatt-bass/fritzing-motors_schem.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_schem.png)
 
 And the board like this:
 
-![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg)
+![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg){: .center}
+
+[![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png)

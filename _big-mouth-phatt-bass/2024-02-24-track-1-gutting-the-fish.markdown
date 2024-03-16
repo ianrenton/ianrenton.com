@@ -1,23 +1,23 @@
 ---
 comments: true
 layout: post
-title: "Part 1: Gutting the Fish"
-slug: part-1-gutting-the-fish
+title: "Track 1: Gutting the Fish"
+slug: track-1-gutting-the-fish
 date: 2024-02-24 00:00:00
 layout: post
 ---
 
 Naturally, the first step to modifying this thing is to take it apart and figure out what's in there. So without further ado, let's gut some fish!
 
-![The insides of a Billy Bass](/projects/big-mouth-phatt-bass/1.jpg)
+![The insides of a Billy Bass](/projects/big-mouth-phatt-bass/1.jpg){: .center}
 
 The back is easily taken off after removing six cross-head screws. Inside, it's... surprisingly nice! I hadn't read up too much on Billy Bass hacking at this point in the project, so I was kind of expecting wires soldered onto a board of the cheapest possible components&mdash;it turns out that *was* what the original Billy Bass was like, but the newer versions such as this 15th Anniversary edition have a nice neat connectorised board.
 
 Here's the close-ups of the two halves:
 
-![The insides of a Billy Bass (front section)](/projects/big-mouth-phatt-bass/3.jpg)
+![The insides of a Billy Bass (front section)](/projects/big-mouth-phatt-bass/3.jpg){: .center}
 
-![The insides of a Billy Bass (rear section)](/projects/big-mouth-phatt-bass/2.jpg)
+![The insides of a Billy Bass (rear section)](/projects/big-mouth-phatt-bass/2.jpg){: .center}
 
 Some further close-ups of the PCB&mdash;enhance!
 
