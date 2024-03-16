@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: "Part 2: Disco Lights"
-slug: part-2-disco-lights
+title: "Track 2: Disco Lights"
+slug: track-2-disco-lights
 date: 2024-02-25 00:00:00
 layout: post
 ---

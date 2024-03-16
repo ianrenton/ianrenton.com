@@ -1,8 +1,8 @@
 ---
 comments: true
 layout: post
-title: "Part 5: Hitting the Decks"
-slug: part-5-hitting-the-decks
+title: "Track 5: Hitting the Decks"
+slug: track-5-hitting-the-decks
 date: 2024-03-24 00:00:00
 layout: post
 ---
