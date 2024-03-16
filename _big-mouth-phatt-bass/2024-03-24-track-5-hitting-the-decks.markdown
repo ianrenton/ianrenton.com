@@ -21,4 +21,6 @@ A few minutes in [Audacity](https://www.audacityteam.org/) later, and... I reali
 
 <center><video width="720" controls><source src="https://video.ianrenton.com/phattbass/audacity-phattbass.webm" type="video/webm"></video></center>
 
+Now let's get music and fish movement matched up!
+
 [^1]: Parody is a protected uh... something, I'm sure it's fine.

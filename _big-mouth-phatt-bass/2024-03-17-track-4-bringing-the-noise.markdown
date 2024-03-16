@@ -23,5 +23,62 @@ After connecting up the new board to power, speakers and to Serial 2 on the ESP3
 
 ![A breadboard and a mess of wiring connected to two halves of a Billy Bass](/projects/big-mouth-phatt-bass/10.jpg){: .center}
 
+I used example code from [this page](http://digitaltown.co.uk/components17dfminiplayer.php), replacing `Serial3` with `Serial2` in their examples, to prove that the ESP32 was communicating properly with the MP3-TF-16P:
 
-TODO - control commands, audio output
+![A photo of a screen showing a serial monitor window with some debug information, and the project in the background](/projects/big-mouth-phatt-bass/11.jpg){: .center}
+
+I then loaded a single test MP3 onto the SD card. After some playing, and with reference to both the previous link and [the serial interface details for the board](https://cahamo.delphidabbler.com/resources/dfplayer-mini), I settled on the following code to set the volume level, and play a 30-second clip of that MP3.
+
+```c
+void setup() {
+  // Set up serial comms to MP3-TF-16P
+  Serial2.begin(9600);
+  while (!Serial2);
+  changeVolume(20);
+  playTrack(1);
+  delay(30000);
+  stop();
+}
+
+void loop() {
+}
+
+// Play a specific track number
+void playTrack(int tracknum) {
+  sendCommandToMP3Player(0x03, tracknum);
+}
+
+// Stop the music
+void stop() {
+  sendCommandToMP3Player(0x16, 0);
+}
+
+// Set volume to specific value
+void changeVolume(int thevolume) {
+  sendCommandToMP3Player(0x06, thevolume);
+}
+
+// Send a command to the MP3-TF-16P. Some commands support one or two bytes of data
+void sendCommandToMP3Player(byte command, int dataBytes) {
+  byte commandData[10];
+  byte q;
+  int checkSum;
+  commandData[0] = 0x7E; //Start of new command
+  commandData[1] = 0xFF; //Version information
+  commandData[2] = 0x06; //Data length (not including parity) or the start and version
+  commandData[3] = command; //The command
+  commandData[4] = 0x01; //1 = feedback
+  commandData[5] = highByte(dataBytes); //High byte of the data
+  commandData[6] = lowByte(dataBytes); //low byte of the data
+  checkSum = -(commandData[1] + commandData[2] + commandData[3] + commandData[4] + commandData[5] + commandData[6]);
+  commandData[7] = highByte(checkSum); //High byte of the checkSum
+  commandData[8] = lowByte(checkSum); //low byte of the checkSum
+  commandData[9] = 0xEF; //End bit
+  for (q = 0; q < 10; q++) {
+    Serial2.write(commandData[q]);
+  }
+  delay(100);
+}
+```
+
+Now we can play music, it's time to decide what to play!
