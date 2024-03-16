@@ -21,7 +21,7 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Track 5: Hitting the Decks](/projects/big-mouth-phatt-bass/track-5-hitting-the-decks)
 * [Track 6: Lip-syncing](/projects/big-mouth-phatt-bass/track-6-lip-syncing)
 * [Track 7: Power Chords](/projects/big-mouth-phatt-bass/track-7-power-chords)
-* [Track 8: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-8-getting-the-fish-back-together)
+* [Track 8: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-8-getting-the-fish-back-together) (Work in Progress)
 
 ## Encores
 
