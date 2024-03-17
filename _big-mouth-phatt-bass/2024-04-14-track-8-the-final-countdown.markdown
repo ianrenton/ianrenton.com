@@ -32,7 +32,7 @@ All that's left now is to combine everything from the previous steps into one wo
 
 // Music settings
 #define TRACK_NUMBER 1
-#define VOLUME 20 // Up to 30
+#define VOLUME 30 // Up to 30
 #define MP3_PLAYER_BAUD_RATE 9600
 
 
@@ -73,8 +73,7 @@ void setup() {
     // Button held in on startup, so going into sensor mode.
     // Wait for button to be unpushed, then wait 5 seconds for the user to move away
     sensorMode = true;
-    while (isButtonPushed()) {
-    }
+    while (isButtonPushed());
     delay(5000);
 
     // Record the current light level, so we don't trigger immediately

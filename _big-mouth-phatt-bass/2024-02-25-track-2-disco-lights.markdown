@@ -24,7 +24,7 @@ sudo useradd -aG uucp $USER
 
 Within the Arduino IDE, I had to set up an Additional Board Manager URL, then open the Board Manager and install the `esp32` data, [following instructions here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 
-(image)
+![An ESP32 dev board on some breadboard, sat on the keyboard of a laptop. The ESP32 driver installation is occurring in the background.](/projects/big-mouth-phatt-bass/arduino-ide.jpg)
 
 After selecting the board and the serial port, I flashed a quick demo program to toggle the on-board LED and prove the device was working:
 
