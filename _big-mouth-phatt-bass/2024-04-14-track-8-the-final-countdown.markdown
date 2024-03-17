@@ -11,6 +11,10 @@ All that's left now is to combine everything from the previous steps into one wo
 
 ```cpp
 // Button and sensor pins
+// Debug LED pin
+#define LED_PIN 2
+
+// Button and sensor pins
 #define BUTTON_PIN 4
 #define LDR_PIN 33
 
@@ -32,7 +36,7 @@ All that's left now is to combine everything from the previous steps into one wo
 
 // Music settings
 #define TRACK_NUMBER 1
-#define VOLUME 20 // Up to 30
+#define VOLUME 30 // Up to 30
 #define MP3_PLAYER_BAUD_RATE 9600
 
 
@@ -42,6 +46,9 @@ double lastSensorLightLevel = 0;
 
 // Setup and run the program
 void setup() {
+  // Set up debug LED pin
+  pinMode(LED_PIN, OUTPUT);
+
   // Set up button and LDR pins
   pinMode(BUTTON_PIN, INPUT_PULLUP);
   pinMode(LDR_PIN, INPUT_PULLUP);
@@ -73,9 +80,8 @@ void setup() {
     // Button held in on startup, so going into sensor mode.
     // Wait for button to be unpushed, then wait 5 seconds for the user to move away
     sensorMode = true;
-    while (isButtonPushed()) {
-    }
-    delay(5000);
+    while (isButtonPushed());
+    lightSleep(5000);
 
     // Record the current light level, so we don't trigger immediately
     lastSensorLightLevel = getLightLevel();
@@ -83,6 +89,8 @@ void setup() {
   } else {
     // Normal mode, nothing else to do here
   }
+
+  indicateReady();
 }
 
 // Main program loop
@@ -95,10 +103,21 @@ void loop() {
       trigger();
     }
     lastSensorLightLevel = lightLevel;
-    delay(200);
+    lightSleep(200);
 
   } else if (isButtonPushed()) {
     trigger();
+  }
+  lightSleep(50);
+}
+
+// Indicates the program is ready by flashing the LED. 3 flashes for sensor mode, 2 for normal mode
+void indicateReady() {
+  for (int i = 0; i < (sensorMode ? 3 : 2); i++) {
+    digitalWrite(LED_PIN, HIGH);
+    lightSleep(300);
+    digitalWrite(LED_PIN, LOW);
+    lightSleep(300);
   }
 }
 
@@ -113,8 +132,8 @@ double getLightLevel() {
   return constrain(1 - measuredLevel / 2500.0, 0.0, 1.0);
 }
 
-// Trigger the song and the lip-sync actions
 void trigger() {
+
   // Start playing MP3
   changeVolume(VOLUME);
   playTrack(TRACK_NUMBER);
@@ -129,15 +148,15 @@ void trigger() {
 // Main lip-sync function, operating the motors in time to music. The music is already playing
 // at this point so we just have to move motors accordingly.
 void lipsync() {
-  delay(3000); // *sirens*
+  lightSleep(3000); // *sirens*
   headOut();
-  delay(1000);
+  lightSleep(1000);
   mouthOpenFor(1000); // Listen
-  delay(1000);
+  lightSleep(1000);
   mouthOpenFor(500); // to the
-  delay(300);
+  lightSleep(300);
   mouthOpenFor(300); // phatt
-  delay(200);
+  lightSleep(200);
   flapMouthFor(1750, 250); // bass... bass... bass... bass...
   tailOut();
   mouthOpenFor(300); // bass...
@@ -146,12 +165,12 @@ void lipsync() {
   tailOut();
   mouthOpenFor(300); // bass...
   headTailRest();
-  delay(300);
+  lightSleep(300);
   flapTailFor(5400, 200); // *early 2000s techno noises*
   headOut();
-  delay(200);
+  lightSleep(200);
   mouthOpenFor(600); // phatt
-  delay(600);
+  lightSleep(600);
   mouthOpenFor(600); // bass
   for (int i = 0; i < 10; i++) { // rest of music
     flapTailFor(400, 200);
@@ -171,9 +190,9 @@ void flapHeadFor(int runtime, int interval) {
   int runs = runtime / interval;
   for (int i = 0; i < runs; i++) {
     headOut();
-    delay(interval);
+    lightSleep(interval);
     headTailRest();
-    delay(interval);
+    lightSleep(interval);
   }
 }
 
@@ -184,26 +203,26 @@ void flapTailFor(int runtime, int interval) {
   int runs = runtime / interval;
   for (int i = 0; i < runs; i++) {
     tailOut();
-    delay(interval);
+    lightSleep(interval);
     headTailRest();
-    delay(interval);
+    lightSleep(interval);
   }
 }
 
 // Flap the head out for a defined time (in millis), then back in for the same time. Used to bop to music.
 void flapHead(int interval) {
   headOut();
-  delay(interval);
+  lightSleep(interval);
   headTailRest();
-  delay(interval);
+  lightSleep(interval);
 }
 
 // Flap the tail out for a defined time (in millis), then back in for the same time. Used to bop to music.
 void flapTail(int interval) {
   tailOut();
-  delay(interval);
+  lightSleep(interval);
   headTailRest();
-  delay(interval);
+  lightSleep(interval);
 }
 
 // Bring the fish's head out
@@ -231,16 +250,16 @@ void flapMouthFor(int runtime, int interval) {
   int runs = runtime / interval;
   for (int i = 0; i < runs; i++) {
     mouthOpen();
-    delay(interval);
+    lightSleep(interval);
     mouthClose();
-    delay(interval);
+    lightSleep(interval);
   }
 }
 
 // Open the fish's mouth for a defined time (in millis), then close it. Used to simulate speaking a word.
 void mouthOpenFor(int runtime) {
   mouthOpen();
-  delay(runtime);
+  lightSleep(runtime);
   mouthClose();
 }
 
@@ -290,10 +309,17 @@ void sendCommandToMP3Player(byte command, int dataBytes) {
   commandData[7] = highByte(checkSum); //High byte of the checkSum
   commandData[8] = lowByte(checkSum); //low byte of the checkSum
   commandData[9] = 0xEF; //End bit
+  delay(50);
   for (q = 0; q < 10; q++) {
     Serial2.write(commandData[q]);
   }
-  delay(100);
+  delay(50);
+}
+
+// Replacement for "delay" that uses the ESP32 "light sleep" mode to save power
+void lightSleep(int timeMs) {
+  esp_sleep_enable_timer_wakeup(timeMs * 1000);
+  esp_light_sleep_start();
 }
 ```
 
