@@ -10,9 +10,11 @@ The *bass (fish)/bass (music)* pun writes itself. My friends and I were joking t
 
 But this *is* where we are today. Please welcome, and accept my sincerest apologies for, *Big Mouth Phatt Bass*:
 
-<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass.webm" type="video/webm"></video></center>
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass2.webm" type="video/webm"></video></center>
 
 ## Liner Notes
+
+(aka, the build guide:)
 
 * [Track 1: Gutting the Fish](/projects/big-mouth-phatt-bass/track-1-gutting-the-fish)
 * [Track 2: Disco Lights](/projects/big-mouth-phatt-bass/track-2-disco-lights)
@@ -23,6 +25,13 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Track 7: Power Chords](/projects/big-mouth-phatt-bass/track-7-power-chords)
 * [Track 8: The Final Countdown](/projects/big-mouth-phatt-bass/track-8-the-final-countdown)
 * [Track 9: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-9-getting-the-fish-back-together)
+
+## Back-stage
+
+Here's what the Phatt Bass looks like behind the scenes:
+
+![A Billy Bass with a bunch of wires and electronics behind it](/projects/big-mouth-phatt-bass/20.jpg){: .center}
+*This is a totally normal Billy Bass with nothing suspicious going on at all.*
 
 ## Encores
 
