@@ -10,7 +10,7 @@ The *bass (fish)/bass (music)* pun writes itself. My friends and I were joking t
 
 But this *is* where we are today. Please welcome, and accept my sincerest apologies for, *Big Mouth Phatt Bass*:
 
-<center><video width="720" controls><source src="https://video.ianrenton.com/phattbass/phattbass.webm" type="video/webm"></video></center>
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass.webm" type="video/webm"></video></center>
 
 ## Liner Notes
 

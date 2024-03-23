@@ -246,6 +246,6 @@ void sendCommandToMP3Player(byte command, int dataBytes) {
 
 *\*DJ voice\* ARE YOU REAAAADDDYYYYYYYYY????*
 
-<center><video width="720" controls><source src="https://video.ianrenton.com/phattbass/phattbass-intro.webm" type="video/webm"></video></center>
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-intro.webm" type="video/webm"></video></center>
 
 Just a couple more steps to go now!

@@ -19,7 +19,7 @@ A few minutes in [Audacity](https://www.audacityteam.org/) later, and... I reali
 
 *An hour* later, and I've decided this is good enough for a poor fish pun through a dodgy speaker:
 
-<center><video width="720" controls><source src="https://video.ianrenton.com/phattbass/audacity-phattbass.webm" type="video/webm"></video></center>
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/audacity-phattbass.webm" type="video/webm"></video></center>
 
 Now let's get music and fish movement matched up!
 

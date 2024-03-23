@@ -298,4 +298,4 @@ void sendCommandToMP3Player(byte command, int dataBytes) {
 
 *\*DJ voice\* Y'all know what time it is... PUT YOUR HANDS IN THE AIR!!!*
 
-<center><video width="720" controls><source src="https://video.ianrenton.com/phattbass/phattbass.webm" type="video/webm"></video></center>
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass.webm" type="video/webm"></video></center>
