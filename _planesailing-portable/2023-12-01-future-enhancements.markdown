@@ -4,7 +4,7 @@ layout: post
 title: Future Enhancements
 slug: future-enhancements
 date: 2023-12-01 00:00:00
-last_update: 2023-12-30T00:00:00+00:00
+last_update: 2024-03-30T00:00:00+00:00
 layout: post
 ---
 
@@ -32,7 +32,11 @@ This also opens up other potential capabilities such as bridging APRS data recei
 
 ### Battery Power
 
-Another desirable upgrade would be to remove the reliance on USB power, and provide an internal battery that would also be chargeable through the system.
+My current battery power solution for the device looks like this:
+
+![Plane/Sailing Portable with a small USB power bank attached](/projects/planesailing-portable/withbattery.jpg){: .center}
+
+While the aesthetic matches the rest of the prototype build, cable ties and all, it would be nice to improve the battery integration.
 
 There are a number of neat options such as [this UPS HAT](https://thepihut.com/products/uninterruptible-power-supply-ups-hat-for-raspberry-pi-zero), but unfortunately it too uses PoGo pins to connect to the underside of the Pi Zero. The USB hub (or 4G/GPS HAT if upgraded) is already in this position, so unfortunately this is a non-starter.
 
