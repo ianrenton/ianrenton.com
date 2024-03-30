@@ -33,13 +33,22 @@ Here's what the Phatt Bass looks like behind the scenes:
 ![A Billy Bass with a bunch of wires and electronics behind it](/projects/big-mouth-phatt-bass/20.jpg){: .center}
 *This is a totally normal Billy Bass with nothing suspicious going on at all.*
 
+And the latest source code can be found here:
+
+[https://github.com/ianrenton/big-mouth-phatt-bass](https://github.com/ianrenton/big-mouth-phatt-bass)
+
 ## Encores
 
-Further planned songs, coming one day when I can be bothered:
+Meghan Trainor - All About That Bass
 
-* Meghan Trainor - All About that Bass
-* Nicki Minaj - Super Bass
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-allaboutthatbass.webm" type="video/webm"></video></center>
+
+Further planned songs, coming one day when I can be bothered (not edited, just funny things for a Billy Bass to sing):
+
 * Mr Scruff - Fish
+* System of a Down - Chop Suey
+* Nirvana - Smells Like Teen Spirit
+* Rage Against the Machine - Killing in the Name
 
 ## Shoutouts
 
