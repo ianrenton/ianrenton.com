@@ -32,5 +32,3 @@ The breadboard is then a "convenient" fit between the legs of the stand:
 "Convenient" is in quotes there because this arrangement does make it difficult to access the switch and impossible to change the batteries. However, when necessary it can be slid sideways and removed from its normal position.
 
 This setup is probably good enough for now. Although the electonics are still messy and fragile, they are hidden from the front view, plus it's kind of nice that they're visible from behind to show off the components used. Most importantly, this was several days' work for a 30-second comedy video, so it's probably time to stop!
-
-In future, I may redesign the electronics so that they fit inside the fish enclosure. My plan is to swap the breadboard for a smaller section of perfboard mounting the ESP32 and MP3 boards, located in one side of the enclosure, then the L298M motor driver located on the other side. But it will be a squeeze, if it even proves possible at all with my current choice of components. I'll update this page in future with any progress.
