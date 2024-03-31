@@ -43,22 +43,25 @@ Meghan Trainor - All About That Bass
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-allaboutthatbass.webm" type="video/webm"></video></center>
 
+System of a Down - Chop Suey
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-chopsuey.webm" type="video/webm"></video></center>
+
 ## Forthcoming Tour Dates
 
-Further planned songs, coming one day when I can be bothered (not edited, just funny things for a Billy Bass to sing):
+More songs, coming one day when I can be bothered:
 
 * Mr Scruff - Fish
-* System of a Down - Chop Suey
 * Nirvana - Smells Like Teen Spirit
 * Rage Against the Machine - Killing in the Name
 
 Upgrades I'd like to make to the hardware include:
 
-* Swapping the L298N motor driver for a TB6612 to reduce the volt drop when driving the motors
-* Taking the 3-cell (4.5V) level from the batteries to drive the electronics, leaving the 4-cell (6V) level for the motors, similar to what the original board does
+* Swapping the L298N motor driver for a TB6612 to reduce the volt drop when driving the motors. This will enable the fish head to stick out further, improving the effect.
+* Taking the 3-cell (4.5V) level from the batteries to drive the electronics, leaving the 4-cell (6V) level for the motors, similar to what the original board does. This will reduce the risk that the 5V out from the L298N drops and browns out the ESP32.
 * Replacing the plug-in breadboard with soldered perfboard to increase robustness
 * Getting the perfboard version back inside the enclosure, in pieces if necessary, bringing the USB and LED to the outside
-** I may at this stage drop the LDR, which I've never really used, and put the LED in its place.
+  * I may at this stage drop the LDR, which I've never really used, and put the LED in its place.
 
 ## Shoutouts
 
