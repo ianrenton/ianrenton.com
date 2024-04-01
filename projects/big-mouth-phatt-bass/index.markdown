@@ -25,6 +25,7 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Track 7: Power Chords](/projects/big-mouth-phatt-bass/track-7-power-chords)
 * [Track 8: The Final Countdown](/projects/big-mouth-phatt-bass/track-8-the-final-countdown)
 * [Track 9: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-9-getting-the-fish-back-together)
+* [Track 10: Movin' On Up](/projects/big-mouth-phatt-bass/track-10-movin-on-up) (Work in Progress)
 
 ## Back-stage
 
@@ -47,21 +48,11 @@ System of a Down - Chop Suey
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-chopsuey.webm" type="video/webm"></video></center>
 
-## Forthcoming Tour Dates
-
 More songs, coming one day when I can be bothered:
 
 * Mr Scruff - Fish
 * Nirvana - Smells Like Teen Spirit
 * Rage Against the Machine - Killing in the Name
-
-Upgrades I'd like to make to the hardware include:
-
-* Swapping the L298N motor driver for a TB6612 to reduce the volt drop when driving the motors. This will enable the fish head to stick out further, improving the effect.
-* Taking the 3-cell (4.5V) level from the batteries to drive the electronics, leaving the 4-cell (6V) level for the motors, similar to what the original board does. This will reduce the risk that the 5V out from the L298N drops and browns out the ESP32.
-* Replacing the plug-in breadboard with soldered perfboard to increase robustness
-* Getting the perfboard version back inside the enclosure, in pieces if necessary, bringing the USB and LED to the outside
-  * I may at this stage drop the LDR, which I've never really used, and put the LED in its place.
 
 ## Shoutouts
 

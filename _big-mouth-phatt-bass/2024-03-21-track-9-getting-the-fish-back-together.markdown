@@ -29,6 +29,4 @@ The breadboard is then a "convenient" fit between the legs of the stand:
 
 ![Rear view of Billy Bass with a messy breadboard underneath it](/projects/big-mouth-phatt-bass/17.jpg){: .center}
 
-"Convenient" is in quotes there because this arrangement does make it difficult to access the switch and impossible to change the batteries. However, when necessary it can be slid sideways and removed from its normal position.
-
-This setup is probably good enough for now. Although the electonics are still messy and fragile, they are hidden from the front view, plus it's kind of nice that they're visible from behind to show off the components used. Most importantly, this was several days' work for a 30-second comedy video, so it's probably time to stop!
+"Convenient" is in quotes there because this arrangement does make it difficult to access the switch and impossible to change the batteries. However, when necessary it can be slid sideways and removed from its normal position. It is, however, still quite fragile.
