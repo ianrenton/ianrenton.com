@@ -48,9 +48,12 @@ System of a Down - Chop Suey
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-chopsuey.webm" type="video/webm"></video></center>
 
+Mr Scruff - Fish
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-mrscruff.webm" type="video/webm"></video></center>
+
 More songs, coming one day when I can be bothered:
 
-* Mr Scruff - Fish
 * Nirvana - Smells Like Teen Spirit
 * Rage Against the Machine - Killing in the Name
 
