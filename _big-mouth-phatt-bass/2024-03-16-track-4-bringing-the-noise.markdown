@@ -17,7 +17,9 @@ I chose to use a serial interface with the ESP32 board to issue it commands. Its
 
 After connecting up the new board to power, speakers and to Serial 2 on the ESP32, we now have the following:
 
-[![Wiring diagram](/projects/big-mouth-phatt-bass/fritzing-motors-audio_schem.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors-audio_schem.png)
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-motors-mp3.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-motors-mp3.png" alt="Schematic"/></a>
+</center></div>
 
 [![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors-audio_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors-audio_bb.png)
 

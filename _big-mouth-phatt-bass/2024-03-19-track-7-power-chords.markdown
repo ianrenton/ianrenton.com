@@ -149,7 +149,9 @@ void trigger() {
 
 With the new components in place, the wiring looks like this:
 
-[![Wiring diagram](/projects/big-mouth-phatt-bass/fritzing-full_schem.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-full_schem.png)
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-full.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-full.png" alt="Schematic"/></a>
+</center></div>
 
 [![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-full_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-full_bb.png)
 

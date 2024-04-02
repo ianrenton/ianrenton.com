@@ -46,13 +46,15 @@ All ESP32 output pins can be used for PWM, so I wired a neat row of pins using r
 
 I then wired the outputs of the L298N to the JST socket to which the motors will be attached. The schematic now looked like this:
 
-[![Wiring diagram](/projects/big-mouth-phatt-bass/fritzing-motors_schem.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_schem.png)
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-motors-only.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-motors-only.png" alt="Schematic"/></a>
+</center></div>
 
 And the board like this:
 
 ![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg){: .center}
 
-While using solderless breadboard for prototyping on this project, I will include Fritzing "layout" diagrams as well as schematics, to aid understanding of what's going on:
+While in the solderless breadboard stage of prototyping on this project, I will also include Fritzing "layout" diagrams to aid understanding of what's going on:
 
 [![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png)
 

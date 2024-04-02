@@ -39,7 +39,9 @@ In order to neatly line up the motor driver board with the ESP32, I have made a 
 
 The schematic for the new board is as follows:
 
-[![Schematic](/projects/big-mouth-phatt-bass/fritzing-part10_schem.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-part10_schem.png)
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-perfboard.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-perfboard.png" alt="Schematic"/></a>
+</center></div>
 
 **TODO: Build photos**
 

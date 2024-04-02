@@ -30,8 +30,8 @@ Some further close-ups of the PCB&mdash;enhance!
 
 A quick trace through of the wires reveals this as the wiring diagram for the Big Mouth Billy Bass 15th Anniversary edition:
 
-<div class="breakout-full-width"><center>
-<img src="/projects/big-mouth-phatt-bass/wd-old.png" alt="Wiring diagram"/>
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-original.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-original.png" alt="Schematic"/></a>
 </center></div>
 
 As for the schematic for the PCB itself, a full schematic is stymied by covering the main chip in epoxy, although [James Bulpin](https://automateeverythingsite.wordpress.com/2016/11/20/hacking-big-mouth-billy-bass-part-13/) has helpfully provided a partial schematic for the motor driver section of the board, as his project retains this section of the PCB to drive the motors from lower-power Arduino analogue outputs.
