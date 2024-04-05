@@ -11,16 +11,23 @@ I decided that a single board computer such as a Raspberry Pi (even the Nano mod
 
 This was my first time playing with ESP32 boards, so I decided to use the Arduino IDE to program it.
 
-As well as installing the IDE itself, I needed `pyserial` installed (which was not installed by default), and I needed to add myself to the correct group for accesing serial devices.
+As well as installing the IDE itself, I needed `pyserial` installed (which was not installed by default), and I needed to add myself to the correct group for accessing serial devices.
 
-On Manjaro that looks like:
+On Debian/Ubuntu that looks like:
+
+```bash
+sudo apt install arduino python3-serial
+sudo useradd -aG dialout $USER
+```
+
+On Arch/Manjaro:
 
 ```bash
 sudo pamac install arduino python-pyserial
 sudo useradd -aG uucp $USER
 ```
 
-(Some other Linux distros use `dialout` in place of `uucp`, so check the instructions for yours. There's plenty of instructions out there for Windows and Mac too.)
+(Instructions for other distros may vary, so check them out if you're using something else. There's plenty of instructions out there for Windows and Mac too.)
 
 Within the Arduino IDE, I had to set up an Additional Board Manager URL, then open the Board Manager and install the `esp32` data, [following instructions here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 
