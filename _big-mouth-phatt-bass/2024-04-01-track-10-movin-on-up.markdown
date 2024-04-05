@@ -60,13 +60,3 @@ Finally on the software front, I have switched from the Arduino IDE to the [Plat
 The source code is now getting large enough that it's difficult to keep including it on web pages, so I have moved it to Github. You can access it here:
 
 [https://github.com/ianrenton/big-mouth-phatt-bass](https://github.com/ianrenton/big-mouth-phatt-bass)
-
-## Future Plans
-
-There's not a lot left to do here apart from the ever-elusive goal of getting the electronics back inside the fish enclosure. There's some chance this will just never work, but if I get around to taking this project to this final step, my plans are:
-
-* Replace the Veroboard with a custom PCB
-* Remove the headers, soldering the plug-in components directly to the board.
-  * Even then, the board may still not fit. Alternatives approaches are to split into two PCBs, one either side of the enclosure, or do a "full" PCB design with the ESP32, motor driver and MP3 chip all on a single board of my design (which is likely well beyond my skill level)
-* Replacing the LDR on the front (which we rarely use) with a status indicator LED driven from the ESP32
-* Bringing the micro USB connector from the ESP32 to the outside, and allowing easier access to the SD card.
