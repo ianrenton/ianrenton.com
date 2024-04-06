@@ -21,7 +21,9 @@ If even that fails, the only real option is to do a "full" PCB design with the E
 
 If I do design a PCB that will fit, and I go ahead with fitting the electronics inside the fish enclosure, there are a few remaining challenges to address:
 
-* Making the LED visible&mdash;for this I plan on replacing the LDR on the front (which we rarely use) with a status indicator LED driven from the ESP32
+* Making the LED visible.
+  * For this I plan on replacing the LDR on the front (which we rarely use) with a status indicator LED driven from the ESP32
+  * As an alternative, the SD card could be loaded with an additional set of text-to-speech generated files that announce track numbers and modes.
 * Bringing the micro USB connector from the ESP32 to the outside
 * Allowing easier access to the SD card.
 
