@@ -27,4 +27,4 @@ If I do design a PCB that will fit, and I go ahead with fitting the electronics 
 * Bringing the micro USB connector from the ESP32 to the outside
 * Allowing easier access to the SD card.
 
-But I will, finally, be *done* with this damn fish!
+A future project re-using the fish may take advantage of the ESP32's Bluetooth receiver and replace the MP3 player with an audio amplifier. With some code to automatically detect and react to audio, rather than our current scripted lip-syncing, I may repurpose the Billy Bass as a Google Assistant speaker or car sat-nav.
