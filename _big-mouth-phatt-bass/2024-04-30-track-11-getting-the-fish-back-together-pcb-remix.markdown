@@ -25,7 +25,7 @@ I used [Veroroute](https://sourceforge.net/projects/veroroute/) to design the pe
 
 The design was made to fit within the bounds of a common 30x26 hole perfboard sheet. JST connectors are located at the top in a neat row; the micro-USB socket is to the left and the SD card ejects to the right-hand side.
 
-In order to neatly line up the motor driver board with the ESP32, I have made a minor change to the schematic. To allow space for the TB6612's "standby" pin, I temporarily moved control of the mouth motor from pins D27/D26/D25 to D26/D25/D33. (Note that this change was reverted in the PCB version, below, which is back to the original pin layout.)
+In order to neatly line up the motor driver board with the ESP32, I have made a minor change to the schematic. To allow space for the TB6612's "standby" pin, I temporarily moved control of the mouth motor from pins D27/D26/D25 to D26/D25/D33, and bumped the LDR from D33 to D15. (Note that this change was reverted in the PCB version, below, which is back to the original pin layout.)
 
 The schematic for the perfboard is as follows:
 
@@ -41,7 +41,9 @@ I wanted to keep the same components and rough board layout, while minimising th
 
 I began with a new schematic which only contained the board components rather than showing the external fish electronics, and added naming and classifying of the nets.
 
-**TODO: New schematic**
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-pcb.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-pcb.png" alt="Schematic"/></a>
+</center></div>
 
 I then progressed to the PCB design view in Kicad, laying out the board to be as compact as possible given the components required. I couldn't quite manage zero vias, but in the end needed one. So close!
 
