@@ -1,0 +1,80 @@
+---
+comments: true
+layout: post
+title: "Track 11: Getting the Fish Back Together (PCB Remix)"
+slug: track-11-getting-the-fish-back-together-pcb-remix
+date: 2024-04-30 00:00:00
+layout: post
+---
+
+<div class="notes"><p><strong>Note</strong></p><p>This part of the build is still a work in progress, and the design presented is untested. If you are following along at home, you may wish to pause here until this part of the guide is completed.</p></div>
+
+So far, the prototyping of the electronics has all used solderless breadboard. While convenient, it's also quite fragile&mdash;in particular the legs of the JST XH connectors are short and prone to falling out. And as previously discussed, there's no way the chunky breadboard and mess of wiring is ever going to fit back inside the fish enclosure.
+
+We need to step things up a notch.
+
+## Not Quite Perf-ect
+
+My next step was to replace the solderless breadboard with soldered perfboard. This made the whole thing much less fragile, although unfortunately not quite compact enough to fit it back inside the fish enclosure.
+
+I imposed the design constraints that I wanted all the connectors at one end of the board, plus easy access to the SD card and USB socket.
+
+I used [Veroroute](https://sourceforge.net/projects/veroroute/) to design the perfboard layout, and after a while of moving components around, I settled on the following to meet the requirements:
+
+![Veroroute design](/projects/big-mouth-phatt-bass/veroroute.png){: .center}
+
+The design was made to fit within the bounds of a common 30x26 hole perfboard sheet. JST connectors are located at the top in a neat row; the micro-USB socket is to the left and the SD card ejects to the right-hand side.
+
+In order to neatly line up the motor driver board with the ESP32, I have made a minor change to the schematic. To allow space for the TB6612's "standby" pin, I temporarily moved control of the mouth motor from pins D27/D26/D25 to D26/D25/D33. (Note that this change was reverted in the PCB version, below, which is back to the original pin layout.)
+
+The schematic for the perfboard is as follows:
+
+<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-perfboard.png">
+<img src="/projects/big-mouth-phatt-bass/schematic-perfboard.png" alt="Schematic"/></a>
+</center></div>
+
+## This One Goes to 11
+
+That's all well and good, but my rubbish perfboard solder tracks are now on show to the world, and there's still an ugly board hanging out of the back of the fish. To take it to the next level, it's time for a step I never thought *this* of all projects would involve: PCB design.
+
+I wanted to keep the same components and rough board layout, while minimising the overall footprint as much as possible. A single board with all key components on it is beyond my skill level, but I can at least design a motherboard that fits the three daughter boards we already use.
+
+I began with a new schematic which only contained the board components rather than showing the external fish electronics, and added naming and classifying of the nets.
+
+**TODO: New schematic**
+
+I then progressed to the PCB design view in Kicad, laying out the board to be as compact as possible given the components required. I couldn't quite manage zero vias, but in the end needed one. So close!
+
+**TODO: Update PCB design & 3D model graphics**
+
+![PCB design](/projects/big-mouth-phatt-bass/pcbdesign.png){: .center}
+
+![PCB 3D model](/projects/big-mouth-phatt-bass/3dmodel.png){: .center}
+
+**TODO: Publish Gerbers**
+
+I had the board manufactured by [JLC PCB](https://jlcpcb.com/) for the princely sum of two dollars. If you're following this guide, they can make one for you too&mdash;and if you're in the UK, MOQ was 5 so I have four spare boards, and will send you one for free if you like.
+
+**TODO: Build photos**
+
+**TODO: Assembly**
+
+## MC Fish
+
+With the electronics fully enclosed, we have added a couple of new limitations.
+
+Firstly, the ESP32 Devkit's on-board LED was used to indicate the starting mode and which track number was selected. That's now no longer visible.
+
+I did think about replacing the rarely-used LDR on the front of the unit with an LED, but in the end I decided I'd rather keep the functionality. Instead, I took advantage of the MP3 player's ability to manage multiple folders. In one, I put the music MP3s themselves; in the other I put a set of "announcer" voices that play at startup (to indicate the mode) and on a long button press (to indicate the track). The code was updated to use this instead of the LED flash.
+
+**TODO: Code change**
+
+**TODO: Publish ZIP for SD card**
+
+The other limitation is that access to the ESP32 Devkit micro-USB socket and SD card requires taking the unit apart. As a quick and dirty solution, since we already have a hole drilled in the back, I chose to semi-permanently fit a USB cable and a microSD card "extender" so that both are accessible from the outside. This does the job although it's hardly neat; in future I may improve this to mount the SD card extender internally but accessible through a dedicated slot on the outside, and fit a bulkhead mounted microUSB socket. I can't un-drill my hole, but it would provide a neater solution for anyone following the guide in future.
+
+And that's about it! Nothing left to do but think of more silly things for a Billy Bass to sing and lip-sync to.
+
+## The Future is Fishy
+
+A future project re-using the fish may take advantage of the ESP32's Bluetooth receiver and replace the MP3 player with an audio amplifier. With some code to automatically detect and react to audio, rather than our current scripted lip-syncing, I may repurpose the Billy Bass as a Google Assistant speaker or car sat-nav.

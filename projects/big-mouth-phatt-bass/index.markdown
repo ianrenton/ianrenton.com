@@ -25,8 +25,8 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Track 7: Power Chords](/projects/big-mouth-phatt-bass/track-7-power-chords)
 * [Track 8: The Final Countdown](/projects/big-mouth-phatt-bass/track-8-the-final-countdown)
 * [Track 9: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-9-getting-the-fish-back-together)
-* [Track 10: Movin' On Up](/projects/big-mouth-phatt-bass/track-10-movin-on-up) (Work in Progress)
-* [Track 11: The Future is Fishy](/projects/big-mouth-phatt-bass/track-11-the-future-is-fishy)
+* [Track 10: Danger! Low Voltage!](/projects/big-mouth-phatt-bass/track-10-danger-low-voltage)
+* [Track 11: Getting the Fish back Together (PCB Remix)](/projects/big-mouth-phatt-bass/track-11-getting-the-fish-back-together-pcb-remix) (Work in Progress)
 
 ## Back-stage
 
@@ -53,10 +53,11 @@ Mr Scruff - Fish
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-mrscruff.webm" type="video/webm"></video></center>
 
-More songs, coming one day when I can be bothered:
+Funny things for a Billy Bass to sing, coming one day when I can be bothered:
 
 * Nirvana - Smells Like Teen Spirit
 * Rage Against the Machine - Killing in the Name
+* Metallica - Enter Sandman (plz don't sue me Lars)
 
 ## Shoutouts
 
