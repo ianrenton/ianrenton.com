@@ -47,13 +47,11 @@ I began with a new schematic which only contained the board components rather th
 
 I then progressed to the PCB design view in Kicad, laying out the board to be as compact as possible given the components required. I couldn't quite manage zero vias, but in the end needed one. So close!
 
-**TODO: Update PCB design & 3D model graphics**
-
 ![PCB design](/projects/big-mouth-phatt-bass/pcbdesign.png){: .center}
 
 ![PCB 3D model](/projects/big-mouth-phatt-bass/3dmodel.png){: .center}
 
-**TODO: Publish Gerbers**
+You can [download the Gerber files here](/projects/big-mouth-phatt-bass/gerbers.zip).
 
 I had the board manufactured by [JLC PCB](https://jlcpcb.com/) for the princely sum of two dollars. If you're following this guide, they can make one for you too&mdash;and if you're in the UK, MOQ was 5 so I have four spare boards, and will send you one for free if you like.
 
