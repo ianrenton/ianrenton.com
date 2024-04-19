@@ -68,12 +68,12 @@ Firstly, the ESP32 Devkit's on-board LED was used to indicate the starting mode 
 I did think about replacing the rarely-used LDR on the front of the unit with an LED, but in the end I decided I'd rather keep the functionality. Instead, I took advantage of the MP3 player's ability to manage multiple folders. In one, I put the music MP3s themselves; in the other I put a set of "announcer" voices that play at startup (to indicate the mode) and on a long button press (to indicate the track). I generated these using the `gtts` library for Python, which provides a command-line interface to Google's text-to-speech service, like this:
 
 ```bash
-gtts-cli "Track 1. Fat Bass." -o 01.mp3
+gtts-cli "Track 1. Fat Bass." -o 001.mp3
 ```
 
-The code was then updated to use this instead of the LED flash.
+The code was then [updated](https://github.com/ianrenton/big-mouth-phatt-bass/commit/737693a2ed3358079e9a240b01f7f0f896ba39de) to use this approach instead of the LED flash.
 
-**TODO: Code change**
+When using folders, rather than playing "global" MP3 files, the files can no longer have descriptive names and must be named specifically `XX/YYY.mp3` where `XX` is a zero-padded folder number, and `YYY` is a zero-padded track number. So for example, I have `01/001.mp3` as the Phatt Bass *song*, and `02/001.mp3` as the announcer voice that says "Track 1". I also added a special announcer track as `02/099.mp3` to say "sensor mode enabled" at startup if in that mode.
 
 [Click here to download the contents of the SD card that go with the code.](/projects/big-mouth-phatt-bass/sdcard.zip)
 
