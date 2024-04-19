@@ -51,7 +51,7 @@ I then progressed to the PCB design view in Kicad, laying out the board to be as
 
 ![PCB 3D model](/projects/big-mouth-phatt-bass/3dmodel.png){: .center}
 
-You can [download the Gerber files here](/projects/big-mouth-phatt-bass/gerbers.zip).
+You can [download the Gerber files here](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip).
 
 I had the board manufactured by [JLC PCB](https://jlcpcb.com/) for the princely sum of two dollars. If you're following this guide, they can make one for you too&mdash;and if you're in the UK, MOQ was 5 so I have four spare boards, and will send you one for free if you like.
 
@@ -65,11 +65,17 @@ With the electronics fully enclosed, we have added a couple of new limitations.
 
 Firstly, the ESP32 Devkit's on-board LED was used to indicate the starting mode and which track number was selected. That's now no longer visible.
 
-I did think about replacing the rarely-used LDR on the front of the unit with an LED, but in the end I decided I'd rather keep the functionality. Instead, I took advantage of the MP3 player's ability to manage multiple folders. In one, I put the music MP3s themselves; in the other I put a set of "announcer" voices that play at startup (to indicate the mode) and on a long button press (to indicate the track). The code was updated to use this instead of the LED flash.
+I did think about replacing the rarely-used LDR on the front of the unit with an LED, but in the end I decided I'd rather keep the functionality. Instead, I took advantage of the MP3 player's ability to manage multiple folders. In one, I put the music MP3s themselves; in the other I put a set of "announcer" voices that play at startup (to indicate the mode) and on a long button press (to indicate the track). I generated these using the `gtts` library for Python, which provides a command-line interface to Google's text-to-speech service, like this:
+
+```bash
+gtts-cli "Track 1. Fat Bass." -o 01.mp3
+```
+
+The code was then updated to use this instead of the LED flash.
 
 **TODO: Code change**
 
-**TODO: Publish ZIP for SD card**
+[Click here to download the contents of the SD card that go with the code.](/projects/big-mouth-phatt-bass/sdcard.zip)
 
 The other limitation is that access to the ESP32 Devkit micro-USB socket and SD card requires taking the unit apart. As a quick and dirty solution, since we already have a hole drilled in the back, I chose to semi-permanently fit a USB cable and a microSD card "extender" so that both are accessible from the outside. This does the job although it's hardly neat; in future I may improve this to mount the SD card extender internally but accessible through a dedicated slot on the outside, and fit a bulkhead mounted microUSB socket. I can't un-drill my hole, but it would provide a neater solution for anyone following the guide in future.
 
