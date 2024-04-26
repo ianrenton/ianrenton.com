@@ -10,7 +10,7 @@ The *bass (fish)/bass (music)* pun writes itself. My friends and I were joking t
 
 But this *is* where we are today. Please welcome, and accept my sincerest apologies for, *Big Mouth Phatt Bass*:
 
-<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass2.webm" type="video/webm"></video></center>
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass4.webm" type="video/webm"></video></center>
 
 ## Liner Notes
 
@@ -41,23 +41,30 @@ And the latest source code can be found here:
 
 ## Encores
 
-Meghan Trainor - All About That Bass
+Meghan Trainor &mdash; All About That Bass
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-allaboutthatbass.webm" type="video/webm"></video></center>
 
-System of a Down - Chop Suey
+System of a Down &mdash; Chop Suey
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-chopsuey.webm" type="video/webm"></video></center>
 
-Mr Scruff - Fish
+Rage Against the Machine &mdash; Killing in the Name (just the swearing)
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-killinginthename.webm" type="video/webm"></video></center>
+
+Nirvana &mdash; Smells Like Teen Spirit
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-smellsliketeenspirit.webm" type="video/webm"></video></center>
+
+Metallica &mdash; Enter Sandman (plz don't sue me Lars)
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-entersandman.webm" type="video/webm"></video></center>
+
+Mr Scruff &mdash; Fish
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-mrscruff.webm" type="video/webm"></video></center>
 
-Funny things for a Billy Bass to sing, coming one day when I can be bothered:
-
-* Nirvana - Smells Like Teen Spirit
-* Rage Against the Machine - Killing in the Name
-* Metallica - Enter Sandman (plz don't sue me Lars)
 
 ## Shoutouts
 
