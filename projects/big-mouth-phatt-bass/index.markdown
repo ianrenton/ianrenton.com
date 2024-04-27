@@ -2,6 +2,7 @@
 comments: true
 layout: page
 title: Big Mouth Phatt Bass
+image: /projects/big-mouth-phatt-bass/main.jpg
 ---
 
 Imagine, if you will, the heady early days of the 2000s. The Millennium had come and gone, and things were looking bright. Warp Brothers' hit [*Phatt Bass*](https://www.youtube.com/watch?v=Ca-r-U5ybx4&pp=ygUYd2FycCBicm90aGVycyBwaGF0dCBiYXNz) was doing the rounds in the clubs, and for an altogether different demographic, [Big Mouth Billy Bass](https://en.wikipedia.org/wiki/Big_Mouth_Billy_Bass) was taking the world by storm.
