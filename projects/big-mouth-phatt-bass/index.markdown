@@ -14,7 +14,7 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 ## Liner Notes
 
-(aka, the build guide:)
+(aka, the development process:)
 
 * [Track 1: Gutting the Fish](/projects/big-mouth-phatt-bass/track-1-gutting-the-fish)
 * [Track 2: Disco Lights](/projects/big-mouth-phatt-bass/track-2-disco-lights)
@@ -26,18 +26,17 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 * [Track 8: The Final Countdown](/projects/big-mouth-phatt-bass/track-8-the-final-countdown)
 * [Track 9: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-9-getting-the-fish-back-together)
 * [Track 10: Danger! Low Voltage!](/projects/big-mouth-phatt-bass/track-10-danger-low-voltage)
-* [Track 11: Getting the Fish back Together (PCB Remix)](/projects/big-mouth-phatt-bass/track-11-getting-the-fish-back-together-pcb-remix) (Work in Progress)
+* [Track 11: Getting the Fish back Together (PCB Remix)](/projects/big-mouth-phatt-bass/track-11-getting-the-fish-back-together-pcb-remix)
 
 ## Back-stage
 
-Here's what the Phatt Bass currently looks like behind the scenes:
+Here's what's inside the Phatt Bass. The stock PCB has been replaced by a custom one, hosting an ESP32 microcontroller, TB6612 motor driver, and MP3-TF-16P audio player.
 
-![A Billy Bass with a bunch of wires and electronics behind it](/projects/big-mouth-phatt-bass/20.jpg){: .center}
-*This is a totally normal Billy Bass with nothing suspicious going on at all.*
+![A Billy Bass opened up with a bunch of wires from it leading to a PCB.](/projects/big-mouth-phatt-bass/main.jpg){: .center}
 
-And the latest source code can be found here:
+If you don't want to follow the write-up of the whole development process (with its several component swaps and redesigns) just to find the important bits, here they are:
 
-[https://github.com/ianrenton/big-mouth-phatt-bass](https://github.com/ianrenton/big-mouth-phatt-bass)
+[Bill of Materials](/projects/big-mouth-phatt-bass/bom) \| [PCB Gerber Files](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip) \| [ESP32 Source Code](https://github.com/ianrenton/big-mouth-phatt-bass) \| [SD Card Files](/projects/big-mouth-phatt-bass/sdcard.zip)
 
 ## Encores
 
