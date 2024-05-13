@@ -51,28 +51,34 @@
 .pagination {
   margin-top: var(--layout-spacing);
   margin-bottom: var(--layout-spacing);
-  display: flex;
+  
+  > .leftright {
+    display: flex;
 
-  > .pagination-left {
-	flex: 0.5;
-    vertical-align: top;
+    > .pagination-left {
+	    flex: 0.5;
+      vertical-align: top;
 
-    @include media-query($on-palm) {
-      width: 100%;
+      @include media-query($on-palm) {
+        width: 100%;
+      }
     }
 
-  }
+    > .pagination-right {
+	    flex: 0.5;
+      text-align: right;
+      vertical-align: top;
 
-  > .pagination-right {
-	flex: 0.5;
-    text-align: right;
-    vertical-align: top;
-
-    @include media-query($on-palm) {
-      width: 100%;
+      @include media-query($on-palm) {
+        width: 100%;
+      }
     }
-
   }
+
+	> .back-to-index {
+	  text-align: center;
+	  margin-top: var(--layout-spacing-half);
+	}
 
 }
 
@@ -119,6 +125,6 @@
 
 /* Footnotes */
 .footnotes {
-  margin-top: 4em;
+  margin-top: var(--layout-spacing);
   font-size: 80%;
 }

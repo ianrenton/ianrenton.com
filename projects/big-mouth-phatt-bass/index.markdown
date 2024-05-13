@@ -76,3 +76,4 @@ Massive respect to the Billy Bass Hacking Posse!
 * [Kevin McAleer!](https://www.kevsrobots.com/blog/big-mouth.html)
 * [Brian Kane!](https://www.theverge.com/2016/11/4/13525172/amazon-alexa-big-mouth-billy-bass-hack-api)
 * [Jeff...](https://inews.co.uk/news/consumer/big-mouth-billy-bass-amazon-alexa-speaker-buy-sale-228703) *\*checks notes\** [Jeff Bezos??](https://inews.co.uk/news/consumer/big-mouth-billy-bass-amazon-alexa-speaker-buy-sale-228703)
+* Plus the undisputed king of Billy Bass projects, the [Sashimi Tabernacle Choir](https://www.facebook.com/p/Sashimi-Tabernacle-Choir-100049134138146/)!
