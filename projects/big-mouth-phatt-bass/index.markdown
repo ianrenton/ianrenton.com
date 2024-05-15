@@ -31,7 +31,7 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 ## Back-stage
 
-Here's what's inside the Phatt Bass. The stock PCB has been replaced by a custom one, hosting an ESP32 microcontroller, TB6612 motor driver, and MP3-TF-16P audio player.
+The "Big Mouth Phatt Bass" is a modified 15th Anniversary Edition Big Mouth Billy Bass singing fish. The stock PCB has been replaced by a custom one, hosting an ESP32 microcontroller, TB6612 motor driver, and MP3-TF-16P audio player. As well as singing "Phatt Bass", a number of other tracks can be loaded from the SD card with corresponding lip-sync routines.
 
 ![A Billy Bass opened up with a bunch of wires from it leading to a PCB.](/projects/big-mouth-phatt-bass/main.jpg){: .center}
 
