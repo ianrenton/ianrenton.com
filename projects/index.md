@@ -58,7 +58,7 @@ redirect_from:
   	url="/hardware/planesailing"
   	image="/images/250/planesailing.jpg"
   	image-alt="A military tactical software display showing symbols representing boats and planes"
-  	description="“Plane/Sailing” is my home aircraft and ship tracker. It receives ADS-B, AIS & APRS signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website using military symbology."
+  	description="“Plane/Sailing” is my home tracker for aircraft, ships and more! It receives radio signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website using military symbology."
   	readmore-text="Read the build guide &rarr;"
 	url2="https://planesailing.ianrenton.com/"
 	readmore-text2="See it running &rarr;"
