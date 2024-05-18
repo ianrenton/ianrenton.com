@@ -35,6 +35,9 @@ The development process is exhaustively documented on other pages, which you mig
 8. On a computer, install [Python](https://www.python.org/), [VS Code](https://code.visualstudio.com/) and the [Platform.io](https://platformio.org/) plugin.
 9. Clone or download the [Phatt Bass ESP32 Source Code](https://github.com/ianrenton/big-mouth-phatt-bass) from Github, and open it in Platform.io. The appropriate ESP32 library should be installed automatically.
 10. Connect the computer to the ESP32 Devkit, and upload the program using Platform.io. (If this doesn't work on Linux, you may need to add yourself to a group that can access serial devices, e.g. `sudo useradd -aG dialout $USER` or `sudo useradd -aG uucp $USER`.)
+
+    ![Uploading code using Platform.io](/projects/big-mouth-phatt-bass/platformio.png){: .center}
+
 11. Once the upload is complete, the ESP32 will restart. The fish speaker should now say something along the lines of "Track One, Phatt Bass".
 12. Hold the front of the fish securely, and press the button. The song should play and the fish movements should be as per the video. If not, check your wiring, SD card and code&mdash;and let me know if you're stuck!
 13. Finally, you should be able to put the fish back together. The PCB will need to go at an angle and you may want to use some electrical tape to ensure the board doesn't touch any metal components inside the fish.

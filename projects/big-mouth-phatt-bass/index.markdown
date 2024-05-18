@@ -32,6 +32,7 @@ The full development process is documented below, but if you just want to recrea
 * [Track 9: Getting the Fish back Together](/projects/big-mouth-phatt-bass/track-9-getting-the-fish-back-together)
 * [Track 10: Danger! Low Voltage!](/projects/big-mouth-phatt-bass/track-10-danger-low-voltage)
 * [Track 11: Getting the Fish back Together (PCB Remix)](/projects/big-mouth-phatt-bass/track-11-getting-the-fish-back-together-pcb-remix)
+* [Track 12: MC Fish](/projects/big-mouth-phatt-bass/track-12-mc-fish)
 
 ## Back-stage
 
@@ -74,6 +75,14 @@ Metallica &mdash; Enter Sandman (plz don't sue me Lars)
 Mr Scruff &mdash; Fish
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-mrscruff.webm" type="video/webm"></video></center>
+
+Nine Inch Nails &mdash; Closer
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-closer.webm" type="video/webm"></video></center>
+
+"I am Just a Fish" (after [this meme](https://www.youtube.com/watch?v=XeY0eOEEURM), originally "Freaks" by Surf Curse)
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass-iamjustafish.webm" type="video/webm"></video></center>
 
 
 ## Shoutouts
