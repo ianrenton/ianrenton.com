@@ -15,7 +15,9 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 The "Big Mouth Phatt Bass" is a modified 15th Anniversary Edition Big Mouth Billy Bass singing fish. The original electronics have been replaced with custom ones providing more features and more songs.
 
-The full development process is documented below, but if you just want to recreate the project for yourself, check out the [quick start guide](/projects/big-mouth-phatt-bass/start). Everything you need is there.
+If you want to recreate the project for yourself, check out the [quick start guide](/projects/big-mouth-phatt-bass/start). Everything you need is there.
+
+If you want to see more details, the full development process, or just more videos of a Billy Bass singing stuff, keep scrolling!
 
 ## Liner Notes
 
