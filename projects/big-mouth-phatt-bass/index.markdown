@@ -13,6 +13,10 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/phattbass/phattbass4.webm" type="video/webm"></video></center>
 
+The "Big Mouth Phatt Bass" is a modified 15th Anniversary Edition Big Mouth Billy Bass singing fish. The original electronics have been replaced with custom ones providing more features and more songs.
+
+The full development process is documented below, but if you just want to recreate the project for yourself, check out the [quick start guide](/projects/big-mouth-phatt-bass/start). Everything you need is there.
+
 ## Liner Notes
 
 (aka, the development process:)
@@ -31,13 +35,19 @@ But this *is* where we are today. Please welcome, and accept my sincerest apolog
 
 ## Back-stage
 
-The "Big Mouth Phatt Bass" is a modified 15th Anniversary Edition Big Mouth Billy Bass singing fish. The stock PCB has been replaced by a custom one, hosting an ESP32 microcontroller, TB6612 motor driver, and MP3-TF-16P audio player. As well as singing "Phatt Bass", a number of other tracks can be loaded from the SD card with corresponding lip-sync routines.
+Inside the fish, the stock PCB has been replaced by a custom one, hosting an ESP32 microcontroller, TB6612 motor driver, and MP3-TF-16P audio player. As well as singing "Phatt Bass", a number of other tracks can be loaded from the SD card with corresponding lip-sync routines.
 
 ![A Billy Bass opened up with a bunch of wires from it leading to a PCB.](/projects/big-mouth-phatt-bass/main.jpg){: .center}
 
-If you don't want to follow the write-up of the whole development process (with its several component swaps and redesigns) just to find the important bits, here they are:
+Links to key pages & files:
 
-[Bill of Materials](/projects/big-mouth-phatt-bass/bom) \| [PCB Gerber Files](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip) \| [ESP32 Source Code](https://github.com/ianrenton/big-mouth-phatt-bass) \| [SD Card Files](/projects/big-mouth-phatt-bass/sdcard.zip)
+* [Quick Start Guide](/projects/big-mouth-phatt-bass/start)
+* [Bill of Materials](/projects/big-mouth-phatt-bass/bom)
+* [Kicad Project (development schematics)](/projects/big-mouth-phatt-bass/phattbass-development-schematics.zip)
+* [Kicad Project (PCB)](/projects/big-mouth-phatt-bass/phattbass-pcb.zip)
+* [PCB Gerber & Drill Files](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip)
+* [ESP32 Source Code](https://github.com/ianrenton/big-mouth-phatt-bass)
+* [SD Card Files](/projects/big-mouth-phatt-bass/sdcard.zip)
 
 ## Encores
 
@@ -76,4 +86,4 @@ Massive respect to the Billy Bass Hacking Posse!
 * [Kevin McAleer!](https://www.kevsrobots.com/blog/big-mouth.html)
 * [Brian Kane!](https://www.theverge.com/2016/11/4/13525172/amazon-alexa-big-mouth-billy-bass-hack-api)
 * [Jeff...](https://inews.co.uk/news/consumer/big-mouth-billy-bass-amazon-alexa-speaker-buy-sale-228703) *\*checks notes\** [Jeff Bezos??](https://inews.co.uk/news/consumer/big-mouth-billy-bass-amazon-alexa-speaker-buy-sale-228703)
-* Plus the undisputed king of Billy Bass projects, the [Sashimi Tabernacle Choir](https://www.facebook.com/p/Sashimi-Tabernacle-Choir-100049134138146/)!
+* Plus the undisputed king of Billy Bass projects, the [Sashimi Tabernacle Choir!](https://www.facebook.com/p/Sashimi-Tabernacle-Choir-100049134138146/)

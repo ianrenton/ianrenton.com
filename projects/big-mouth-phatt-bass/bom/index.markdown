@@ -19,6 +19,7 @@ I've provided links to the places I bought the parts from&mdash;these are not ne
 | JST-XH Connector Female 2-pin                                                 | 2        | [Amazon](https://www.amazon.co.uk/Litorange-500PCS-Housing-Adapter-Connector/dp/B086W9HB3M)                                | 7.99       |
 | JST-XH Connector Female 4-pin                                                 | 1        | (see above kit)                                                                                                            |            |
 | JST-XH Connector Female 6-pin                                                 | 1        | (see above kit)                                                                                                            |            |
+| MicroSD Card (any will do)                                                 | 1        |                                                                                                               |            |
 
 
 

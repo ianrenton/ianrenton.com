@@ -4,6 +4,7 @@ layout: post
 title: "Track 11: Getting the Fish Back Together (PCB Remix)"
 slug: track-11-getting-the-fish-back-together-pcb-remix
 date: 2024-04-30 00:00:00
+last_update: 2024-05-18 00:00:00 
 layout: post
 ---
 
@@ -89,7 +90,7 @@ When using folders, rather than playing "global" MP3 files, the files can no lon
 
 [Click here to download the contents of the SD card that go with the code.](/projects/big-mouth-phatt-bass/sdcard.zip)
 
-The other limitation is that if I want to reprogram the device or add new songs, I'd need access to the ESP32 Devkit micro-USB socket and SD card, which requires taking the unit apart. As a quick and dirty solution, since we already have a hole drilled in the back, I chose to fit a USB cable and a microSD card "extender" so that both are accessible from the outside. This does the job although it's hardly neat; in future I may improve this to mount the SD card extender internally but accessible through a dedicated slot on the outside, and fit a bulkhead mounted microUSB socket. I can't un-drill my hole, but it would provide a neater solution for anyone following the guide in future.
+The other limitation is that if I want to reprogram the device or add new songs, I'd need access to the ESP32 Devkit micro-USB socket and SD card, which requires taking the unit apart. As a quick and dirty solution, since we already have a hole drilled in the back, I chose to fit a USB cable through it to make the ESP32 accessible from the outside. I did also experiment with a microSD card "extender" to bring that out as well, but struggled to get it working. In future I may improve this to mount an SD card extender internally but accessible through a dedicated slot on the outside (if I can get one working), and fit a bulkhead mounted microUSB socket. I can't un-drill my hole, but it would provide a neater solution for anyone following the guide in future.
 
 And that's about it! Nothing left to do but think of more silly things for a Billy Bass to sing and lip-sync to.
 
