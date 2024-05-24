@@ -35,7 +35,7 @@ Here's what I learned:
 ```bash
 apt update
 apt upgrade -y
-apt install -y unattended-upgrades apt-listchanges vim curl sudo
+apt install -y unattended-upgrades apt-listchanges vim curl sudo avahi-daemon
 adduser ian
 usermod -aG sudo ian
 mkdir /home/ian/.ssh
