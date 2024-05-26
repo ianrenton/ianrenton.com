@@ -49,7 +49,7 @@ No email function here, but we have a backlight, todo and anniversary reminder f
 ## Packard Bell DB32
 
 ![Electronic organiser with a wide screen and numpad next to the keyboard](/blog/2024/org6.jpg){: .center}
-*Oregon Scientific DB32 [(source)](https://old-organizers.com/MorePicts/MP416.htm){: .sourcelink}*
+*Packard Bell DB32 [(source)](https://old-organizers.com/MorePicts/MP416.htm){: .sourcelink}*
 
 This was a Christmas present at some point in the late 90s, and I remember loving how much information you could fit on a screen that was a whole 24 characters wide!
 
