@@ -17,14 +17,14 @@ On Debian/Ubuntu that looks like:
 
 ```bash
 sudo apt install arduino python3-serial
-sudo useradd -aG dialout $USER
+sudo usermod -aG dialout $USER
 ```
 
 On Arch/Manjaro:
 
 ```bash
 sudo pamac install arduino python-pyserial
-sudo useradd -aG uucp $USER
+sudo usermod -aG uucp $USER
 ```
 
 (Instructions for other distros may vary, so check them out if you're using something else. There's plenty of instructions out there for Windows and Mac too.)
