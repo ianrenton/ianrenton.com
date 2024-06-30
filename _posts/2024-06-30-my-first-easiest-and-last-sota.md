@@ -130,7 +130,7 @@ We left the handheld on for the walk back, climbing trees and hiking down the br
     <tr>
       <td>1228</td>
       <td>7.112</td>
-      <td>MM0UHR</td>
+      <td>MMØUHR</td>
       <td>35</td>
       <td>58</td>
       <td>Chris</td>
@@ -142,7 +142,7 @@ We left the handheld on for the walk back, climbing trees and hiking down the br
       <td>7.112</td>
       <td>G4IZZ</td>
       <td>45</td>
-      <td>&nbsp;</td>
+      <td>N.R.</td>
       <td>Mike</td>
       <td>N of Cheltenham</td>
       <td>&nbsp;</td>
@@ -160,7 +160,7 @@ We left the handheld on for the walk back, climbing trees and hiking down the br
     <tr>
       <td>1247</td>
       <td>7.112</td>
-      <td>G0FEX</td>
+      <td>GØFEX</td>
       <td>47</td>
       <td>55</td>
       <td>Ken</td>
@@ -170,7 +170,7 @@ We left the handheld on for the walk back, climbing trees and hiking down the br
     <tr>
       <td>1250</td>
       <td>7.112</td>
-      <td>M0MDA</td>
+      <td>MØMDA</td>
       <td>37</td>
       <td>56</td>
       <td>Mick</td>
@@ -190,7 +190,7 @@ We left the handheld on for the walk back, climbing trees and hiking down the br
     <tr>
       <td>1254</td>
       <td>7.112</td>
-      <td>MW0CBC</td>
+      <td>MWØCBC</td>
       <td>47</td>
       <td>56</td>
       <td>Denis</td>
