@@ -3,6 +3,11 @@ layout: post
 title: Plane/Sailing Does the Bournemouth Air Festival!
 date: 2021-09-03 20:52 +0000
 image: /blog/2021/psairshow3-small.png
+tags:
+  - radio
+  - planesailing
+  - aircraft
+  - air-show
 ---
 
 The Bournemouth Air Festival, through the eyes of Plane/Sailing:

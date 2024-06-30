@@ -72,6 +72,8 @@ We decided to go for the 40m band to increase our chances of getting contacts wi
 
 Having my daughter there and JOTA looming in the near future meant that this was my shot to get out of my comfort zone; if I hadn't forced myself into this, I'd probably still be sat around with an embarassing lack of SSB in the log all the way to JOTA.
 
+Hopefully I pulled it off and didn't spend too much time mumbling, stammering, forgetting information, or lapsing back into marine VHF operating procedure!
+
 After a slow start on 40m, the contacts started rolling in, and within an hour we had nine, of which four were summit-to-summit (i.e. calls to other SOTA folks) and two to OARC members.
 
 Callers started to drop off after 1400, and lack of shade (and bathroom facilities) began to dwell on our minds, so we packed up at that point rather than trying our luck on the 20m band. One for next time, perhaps&mdash;nine HF contacts feels like enough for our first time trying SOTA.

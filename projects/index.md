@@ -98,7 +98,7 @@ redirect_from:
 
   	{% include card.html
   	type="horizontal-left"
-  	title="2E0UXV 'Random Shit I Found in my Shed' Antenna"
+  	title="2EØUXV 'Random Shit I Found in my Shed' Antenna"
   	url="/hardware/radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna"
   	image="/hardware/radioshack/randomshitantenna5.jpg"
   	image-alt="A UHF Yagi antenna with radio attached"

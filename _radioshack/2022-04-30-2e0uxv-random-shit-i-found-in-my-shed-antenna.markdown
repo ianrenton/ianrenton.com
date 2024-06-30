@@ -2,7 +2,7 @@
 comments: true
 layout: post
 slug: 2e0uxv-random-shit-i-found-in-my-shed-antenna
-title: The 2E0UXV "Random Shit I Found in my Shed" Antenna
+title: The 2EØUXV "Random Shit I Found in my Shed" Antenna
 ---
 
 In 2022 I had the need for a directional UHF antenna at around 420-425 MHz but no real desire to spend "real money" on it. Over a couple of weeks this morphed into the idea of "I wonder if I can build this with *just* stuff I have lying around". The answer is yes!
@@ -44,4 +44,4 @@ Without further ado, the bill of materials for this incredible feat of engineeri
 |---------------------------------------------- |---------- |-------------- |----------- |
 |                                               |           | **TOTAL**     | **0.00**   |
 
-In time-honoured ham radio tradition I will of course name it after my callsign, so there you have it&mdash;the 2E0UXV "Random Shit I Found in my Shed" antenna. A fully functional UHF Yagi antenna for free. Provided you have a shed with loads of crap lying around.
+In time-honoured ham radio tradition I will of course name it after my callsign, so there you have it&mdash;the 2EØUXV "Random Shit I Found in my Shed" antenna. A fully functional UHF Yagi antenna for free. Provided you have a shed with loads of crap lying around.
