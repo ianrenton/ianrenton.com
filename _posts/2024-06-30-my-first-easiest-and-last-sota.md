@@ -20,7 +20,7 @@ Well the truth is, it *might* be my last, but definitely not because we had a ba
 
 For the uninitiated, SOTA stands for ["Summits on the Air"](https://www.sota.org.uk/), an activity where ham radio folk head to hills and mountains, set up their kit, and play radio from the great outdoors. For a hobby that historically involved a bunch of old men sat in their "shack" talking to each other, it's a great way to add a bit more adventure to things.
 
-Well, "summit" and "adventure" are strong words for where we went&mdash;[Win Green](https://www.sotadata.org.uk/en/summit/G/SC-008) up in Cranborne Chase. It *is* the highest point in the Chase, but at 277m above sea level (and 15m above the car park), "summit" does seem like a bit of a stretch. Regardless, it counts, so off we went.
+Well, "summit" and "adventure" are strong words for where we went&mdash;[Win Green](https://www.sotadata.org.uk/en/summit/G/SC-008) up in Cranborne Chase. It *is* the highest point in the Chase, but at 277m above sea level (and 10m above the car park), "summit" does seem like a bit of a stretch. Regardless, it counts, so off we went.
 
 ![Photo of the trees at the top of Win Green](/blog/2024/wingreen1.jpg){: .center}
 
@@ -32,7 +32,7 @@ The problem is as simple as "where we live". There's not a lot of qualifying sum
 
 ![Map of local SOTA summits](/blog/2024/sotamap.png){: .center}
 
-It could be worse of course&mdash;we could be in East Anglia or the vast swathe of central France with no peaks at all. But compared to Wales, the Highlands, or of course the Alps, there's not a lot nearby. Besides Win Green, only Nine Barrow Down is within an hour's drive&mdash;and that has had some issues in the past betweeb the landowner and SOTA activators who hadn't asked permission first. Avoiding that, we're left with Long Knoll, Lewesdon Hill and Hardown Hill (each a 1h 15min drive) or Brighstone Down (2h drive plus £100 ferry journey).
+It could be worse of course&mdash;we could be in East Anglia or the vast swathe of central France with no peaks at all. But compared to Wales, the Highlands, or of course the Alps, there's not a lot nearby. Besides Win Green, only Nine Barrow Down is within an hour's drive&mdash;and that has had some issues in the past between the landowner and SOTA activators who hadn't asked permission first. Avoiding that, we're left with Long Knoll, Lewesdon Hill and Hardown Hill (each a 1h 15min drive) or Brighstone Down (2h drive plus £100 ferry journey).
 
 Plenty of similar outdoorsy ham radio activities exist: [Parks on the Air](https://parksontheair.com/), [World Wide Flora & Fauna](https://wwff.co/), [Beaches](https://www.beachesontheair.com/), [Lighthouses](https://englishlighthouseawards.uk/) and even [Bunkers](https://bunkersontheair.org/site/) are all things we could put "on the air" much more easily than summits. So perhaps we will take up one of those instead, and leave SOTA until some holiday in a more mountainous place in the future.
 
