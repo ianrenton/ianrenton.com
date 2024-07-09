@@ -25,6 +25,15 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="The “Worked Everything, Everywhere, All at Once” Award"
+  	url="/projects/worked-everything-award"
+  	image="/projects/worked-everything-award/headline-small.png"
+  	image-alt="A geographic display with lots of highlighted circles and points"
+  	description="Scamming my way to Imaginary Ham Radio Points through some quick and dirty GIS data mangling scripts."
+  	readmore-text="Read more &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="Big Mouth Phatt Bass"
   	url="/projects/big-mouth-phatt-bass"
   	image="/images/250/big-mouth-phatt-bass.jpg"
