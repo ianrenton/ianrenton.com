@@ -34,9 +34,13 @@ To find the location at which we could "activate" the most things at the same ti
 7. [English Lighthouses Awards](https://englishlighthouseawards.uk/)
 8. [UK Bunkers on the Air](https://bunkersontheair.org/site/)
 
-Some of these programmes (1, 6, 7 & 8) have a fairly simple concept, geospatially&mdash;the entity, such as a summit, is a single location, and you must be within a certain distance of it, typically a few hundred metres. These are therefore simple circles, which could overlap with others in the same programme, or different programmes. As you will see in the code, this data is online and easily retrieved.
+Some of these programmes (6, 7 & 8) have a fairly simple concept, geospatially&mdash;the entity, such as a lighthouse, is a single location, and you must be within a very generous 1km radius. These are therefore simple circles, which could overlap with others in the same programme, or different programmes. As you will see in the code, this data is online and easily retrieved.
 
-Summits on the Air (1) also imposes a requirement to be within a certain altitude of the peak, though this has been ignored here to simplify the analysis.
+A kilometer seems rather generous; while the English Castles Awards rules do provide good reasoning related to land access and inclusivity, they also specifically endorse multiple simultaneous activations, which they may soon come to regret.
+
+![Highlighted excerpt from the ECA rules, stating "This rule is useful for many reasons! It enables multiple reference activations should the activator be within 1km of more than one reference."](/projects/worked-everything-award/eca-rules.png){: .center}
+
+Summits on the Air (1) imposes a requirement to be within 25m *altitude* of the peak. To avoid the kind of terrain analysis which is totally overboard for a joke on the internet, a 1-in-4 incline has been assumed, giving a horizontal range of 100m.
 
 The others are more difficult to deal with. POTA and WWFF (2 & 5) do provide geospatial references online, but only as points in the general area of the park or other site, not as a polygon defining the area that qualifies. In the UK we do have some great online resources providing the polygons for various Areas of Natural Beauty, Sites of Special Scientific Interest and so on, but there is no one-to-one mapping or even necessarily a name in common with POTA and WWFF spots.
 
@@ -66,6 +70,11 @@ I then wrote a Python script to download publicly available data from the four k
 ## The Code
 
 I designed the code to conduct the download and calculation tasks optionally, using a cache file if a fresh download and calculation is not required. This saved time, web server activity, and local CPU activity when all that I wanted to do was play with data already calculated.
+
+After the data was downloaded, normalised into a data structure, and cached, the work of analysing overlaps begins. This is decidedly non-trivial. Determining an overlap between two circles is trivial&mdash;is the distance between their centres less than the sum of their radii? But from that point on it gets more complex, for example:
+
+* Fairly obviously: if A intersects B and B intersects C, this says nothing about whether A intersects C
+* Less obviously: if A intersects B, B intersects C, *and* A intersects C, that *still* doesn't necessarily mean there is a point inside all three circles.
 
 **TODO**
 
@@ -108,11 +117,45 @@ Looks like it might be best visited at low tide. Or Maritime Mobile, for extra k
 
 Although Admiralty Road in Plymouth is a stand-out winner for activating 20 entities at the same time, it must be noted that with 18 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
 
-The code above logs the whole list of overlapping entities within each candidate, including their type, so we can use this with some additional logic to find more interesting combinations.
+The code above logs the whole list of overlapping entities within each candidate, including their type, so we can use this with some additional logic to find more interesting combinations. However, it can only get us so far, because only four data sources are used in the automated analysis. To find overlapping activations involving parks, WWFF, beaches or islands, we must again apply some manual checking.
 
-As you might expect, there are no summit-lighthouses or summit-beaches, but are there any castle-bunker-lighthouse-park-beaches on interesting islands?
+So how far *can* we go with simultaneously activating in multiple programmes?
 
-**TODO**
+It turns out that combinations of **four** qualifying programmes are fairly common, as parks and WWFF locations often go together, as do beaches and coastal defences such as bunkers and castles. There are hundreds of these around the UK, so they are not particularly interesting.
+
+**Fives** are much rarer. So far I have found four locations that I believe qualify:
+
+* [Newhaven](https://kwirk.github.io/pota-gb-map/?x=545083.17817&y=99885.7327&z=10.6176&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) features a castle, bunker, lighthouse, park and beach with overlaps
+* [Berry Head](https://kwirk.github.io/pota-gb-map/?x=294571.51644&y=56263.37732&z=10.38765&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) qualifies as a castle, bunker, lighthouse, park and WWFF location
+* [Crow Point near Barnstaple](https://kwirk.github.io/pota-gb-map/?x=246861.38279&y=132288.25285&z=10.31337&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) has a bunker, lighthouse, park, WWFF location and beach
+* And on [Lundy](https://kwirk.github.io/pota-gb-map/?x=214206.69586&y=144054.33451&z=9.90524&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA), the south end of the island features a castle, lighthouse, park and WWFF location, plus it's on an "interesting" island for IOTA.
+
+There are doubtless more to discover!
+
+But what if we wanted... more.
+
+![Scene from "Spinal Tap" subtitled "these go to 11"](/projects/worked-everything-award/goes-to-11.webp){: .center}
+
+So far I have found four **sixes**. At this level, islands seem to be the only way to qualify.
+
+* [The Scilly Isles](https://kwirk.github.io/pota-gb-map/?x=89797.50982&y=10607.37786&z=9.13476&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA), [Lindisfarne](https://kwirk.github.io/pota-gb-map/?x=411944.14953&y=641217.77742&z=9.28785&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) and nearby [Inner Farne Island](https://kwirk.github.io/pota-gb-map/?x=421724.19411&y=635860.90568&z=10.70791&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) all provide an overlapping castle, lighthouse, park, WWFF location and beach, whilst being on an "interesting" IOTA island
+* And on the [Isle of Wight, east of Sandown](https://kwirk.github.io/pota-gb-map/?x=461642.46063&y=85480.9621&z=10.06629&layers=OSMG+BOTA+ELA+ECA+WWFF+POTA+SOTA+NSA+AONB+SAC) you can simultaneously activate a bunker, castle, park, WWFF location and beach, plus possibly getting some IOTA interest too.
+
+![Map of Sandown showing overlapping qualifying regions](/projects/worked-everything-award/iow.png){: .center}
+
+There are no sevens as far as I am aware, and as eights rely on the unlikely existence of a summit-beach, they would seem to be impossible.
+
+## Summary
+
+It looks like, if you're going for interest, there are four places around the British coast where you could simultaneously take part in POTA, WWFF, IOTA, Beaches on the Air, English Castles Awards, plus one of English Lighthouses or Bunkers on the Air.
+
+Uploading your logs will take a long time.
+
+Meanwhile, if you're more interested in sheer numbers than an interesting variety, Admiralty Road in Plymouth will net you a whopping *twenty* simultaneous activations, 18 of them qualifying English Castles.
+
+**TODO update if necessary**
+
+Have fun reading that lot out on the air!
 
 ## Future Work
 
