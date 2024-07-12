@@ -7,9 +7,13 @@ image: /projects/worked-everything-award/headline.png
 date: 2024-07-09 00:00:00
 ---
 
-After I had uploaded my log for [my first SOTA activation](/blog/my-first-easiest-and-last-sota/), it was pointed out to me that as part of Cranborne Chase, my location also qualified for POTA as well. I submitted my logs there too, and since then, I have been somewhat [nerd sniped](https://xkcd.com/356/) by the question of how far I could take the concept of qualifying for multiple programmes without moving.
+After I had uploaded my log for [my first SOTA activation](/blog/my-first-easiest-and-last-sota/), it was pointed out to me that as part of Cranborne Chase, my location also qualified for POTA as well. I submitted my logs there too, and since then, I have been somewhat [nerd sniped](https://xkcd.com/356/) by the question of how far I could take the concept of qualifying for multiple programmes simultaneously.
 
 Ignoring the fact that staying in one spot while activating lots of things isn't really in the spirit of the outdoor radio awards programmes, and the hassle it would be to call out a dozen or more IDs on the air... where could I sit to best game the system and rack up tons of imaginary ham radio points?
+
+Just interested in the result? [Click here to skip to the end!](#summary)
+
+Everyone else: buckle up, we're about to get friendly with some GeoPandas.
 
 <div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>, used with many thanks.</em></center></p></div>
 
@@ -17,7 +21,7 @@ Ignoring the fact that staying in one spot while activating lots of things isn't
 
 As well as "playing radio" in homes and garages, the world of amateur radio offers plenty of more adventurous opportunities for those willing and able to head outdoors. There are a variety of awards programmes for outdoor radio, from Summits on the Air's seasoned hikers and climbers looking to rack up points on the most difficult peaks, to far-flung Islands on the Air, to those such as the English Castles Awards celebrating local cultural landmarks.
 
-The idea behind them all is to take portable ham radio kit, anything from a small handheld radio to a big power station and huge beam antenna, set it up somewhere away from home, and "activate" the landmark by making contacts with other ham radio operators, using whatever frequencies or modes you like, and while enjoying the great outdoors.
+The idea behind them all is to take portable ham radio kit, anything from a small handheld radio to a big power station and huge beam antenna, set it up somewhere away from home, and "activate" the landmark by making contacts with other ham radio operators, while enjoying the great outdoors.
 
 Sounds great, so now I'm going to ruin it by taking it to a ridiculous extreme.
 
@@ -34,9 +38,9 @@ To find the location at which we could "activate" the most things at the same ti
 7. [English Lighthouses Awards](https://englishlighthouseawards.uk/)
 8. [UK Bunkers on the Air](https://bunkersontheair.org/site/)
 
-Some of these programmes (6, 7 & 8) have a fairly simple concept, geospatially&mdash;the entity, such as a lighthouse, is a single location, and you must be within a very generous 1km radius. These are therefore simple circles, which could overlap with others in the same programme, or different programmes. As you will see in the code, this data is online and easily retrieved.
+Some of these programmes (6, 7 & 8) have a fairly simple concept, geospatially&mdash;the entity, such as a lighthouse, is a single location, and you must be within a 1km radius. These are therefore simple circles, which could overlap with others in the same programme, or different programmes.
 
-A kilometer seems rather generous; while the English Castles Awards rules do provide good reasoning related to land access and inclusivity, they also specifically endorse multiple simultaneous activations, which they may soon come to regret.
+A kilometer seems rather generous! While the English Castles Awards rules do provide good reasoning related to land access and inclusivity, they also specifically endorse multiple simultaneous activations, which they may soon come to regret.
 
 ![Highlighted excerpt from the ECA rules, stating "This rule is useful for many reasons! It enables multiple reference activations should the activator be within 1km of more than one reference."](/projects/worked-everything-award/eca-rules.png){: .center}
 
@@ -50,15 +54,15 @@ Finally, IOTA (3) is fully old-school and provides a PDF containing the *names* 
 
 ## Methodology
 
-In order to find overlapping regions, we first must define them. I decided that attempting to define proper polygon shapes for POTA, WWFF and IOTA entities was beyond the scope of this activity (and my attention span). I therefore sought to automate analysis of overlapping entities only for the the awards programmes that use simple circles: SOTA, Castles, Lighthouses and Bunkers.
+In order to find overlapping regions, we first must define them. I decided that attempting to define proper polygon shapes for POTA, WWFF, IOTA entities and beaches was beyond the scope of this activity (and my attention span). I therefore sought to automate analysis of overlapping entities only for the the awards programmes that are being modelled as simple circles: SOTA, Castles, Lighthouses and Bunkers.
 
-Once I identified regions of high concentration of these entities, I then manually inspected them to identify overlapping POTA/WWFF entities, nearby beaches, and whether they are on a qualifying island.
+Once the output of the code allowed identification of precise regions of high concentration of these entities, I then manually inspected them to identify overlapping POTA/WWFF entities, nearby beaches, and whether they are on a qualifying island.
 
 For IOTA, "Great Britain" and "Ireland" technically qualify as islands, but for this study I have dismissed them as not particularly interesting, and I have only considered smaller islands.
 
-I have only considered entities within the UK for the study.
+I have only considered entities within the UK for the study, and note that the Castle and Lighthouse data used are only for England.
 
-I began a cursory analysis using the [UK Portable Ham Map](https://kwirk.github.io/pota-gb-map/) by Steve M1SDH. (This has been an invaluable tool for visualisation during this project, so many thanks to Steve and the other contributors. Thanks also to Rich M7GET for suggesting I begin simply by turning on all the layers in this tool, and seeing what stands out.)
+I began a cursory analysis using the [UK Portable Ham Map](https://kwirk.github.io/pota-gb-map/) by Steve M1SDH. (This has been an invaluable tool for visualisation during this project, so many thanks to Steve and the other contributors. Thanks also to Rich M7GET for suggesting I begin simply by turning on all the layers in this tool, and seeing what stands out. It turns out that approach was so effective that I almost needn't have bothered writing the code.)
 
 A number of dense groups immediately stood out, largely bunkers and castles. This appeared to validate my choice to concentrate on these programmes, and it appeared that clusters of defensive structures, particularly coastal defences, were likely to be the best candidates for overlapping areas.
 
@@ -69,45 +73,77 @@ I then wrote a Python script to download publicly available data from the four k
 
 ## The Code
 
-I designed the code to conduct the download and calculation tasks optionally, using a cache file if a fresh download and calculation is not required. This saved time, web server activity, and local CPU activity when all that I wanted to do was play with data already calculated.
+The code for this project was written using Python and principally relying on the GeoPandas library.
 
-After the data was downloaded, normalised into a data structure, and cached, the work of analysing overlaps begins. This is decidedly non-trivial. Determining an overlap between two circles is trivial&mdash;is the distance between their centres less than the sum of their radii? But from that point on it gets more complex, for example:
+It was designed to optionally conduct the major functional blocks, using cache files if a fresh download and calculation was not required. This saved time, web server activity, and local CPU activity when debugging the later stages of processing.
+
+After the data was downloaded, normalised into a data structure, and cached, the work of analysing overlaps began. This was decidedly non-trivial. Determining an overlap between two circles is easy&mdash;is the distance between their centres less than the sum of their radii? But from that point on it gets more complex, for example:
 
 * Fairly obviously: if A intersects B and B intersects C, this says nothing about whether A intersects C
 * Less obviously: if A intersects B, B intersects C, *and* A intersects C, that *still* doesn't necessarily mean there is a point inside all three circles.
+* Calculating the union of circles is hard, and requires transforming them into polygons as the shapes get cut down and stop being circles anymore. The more lines you split the circle into, the more accurate the result, but the longer it takes to process. There is no perfection, only approximation.
 
-**TODO**
+Once the overlapping regions were calculated (with a little help from [Stack Overflow](https://gis.stackexchange.com/a/432265)), the code then iterated through the overlap polygons, building up a list of the entities within range, and finally output its findings.
+
+[The code is available here.](https://github.com/ianrenton/weeaaoa/blob/main/main.py)
+
+If you would like to see the output, I checked that into source control as well to avoid everyone having to run the code in order to play with the data. [You can find it here.](https://github.com/ianrenton/weeaaoa/blob/main/output.json) The format is JSON; each entry contains a set of WGS84 lat/lon points that define the polygon, and the list of entities that could be activated from within that polygon.
 
 ## Results
 
 Once the circles with the greatest number of overlaps were identified, I then went back to the UK Portable Ham Map to identify the specific region of overlap. I then manually determined whether the area qualified for POTA or WWFF, whether it was sited on an "interesting" island, and whether it contained a beach. I also looked closely around the area of greatest intersection, in case you could for example drop one bunker to gain a POTA and Beach. Again, this was only done manually for the top few identified areas, so is subject to human error.
 
-Nearby Portland was second on the list........
+South Coast naval bases dominate the top of the list of interesting clusters, as the initial visual inspection showed.
 
-**TODO Portland**
+Second-equal are Dartmouth and Portland. Dartmouth features an overlapping region of nine castles and two lighthouses, while Portland tops out at eight castles and two bunkers but also qualifies as a POTA park, so both offer a grand total of 11 simultaneous activation opportunities.
 
-**TODO Portland? screenshot**
+Portland is pretty close to me, so at some point in the near future I might have a go at activating from up here&mdash;probably the section *outside* the prison.
 
-**TODO Specific location - plan to visit**
+![Polygon defining the high scoring region of Portland](/projects/worked-everything-award/portland-poly.png){: .center}
+*The top scoring section on Portland. Visualisation using [Keene State College Polyline Tool](https://www.keene.edu/campus/maps/tool/).*
 
-However, by far and away the winner is Plymouth.
+However, first place in this competition beats them by a long shot.
+
+Take a look at Plymouth.
 
 ![Map of "on the air" entities around Plymouth Sound](/projects/worked-everything-award/plymouth.png){: .center}
 *Map of "on the air" entities around Plymouth Sound*
 
-[Drake's Island](https://drakes-island.com/) in Plymouth Sound is the former charge of Sir Francis Drake, current activity holiday destination, and home to *ten* qualifying English Castles.
+[Drake's Island](https://drakes-island.com/) in Plymouth Sound is the former charge of Sir Francis Drake, current activity holiday destination, and home to *ten* qualifying English Castles all by itself.
 
-Drake's Island is private, but luckily we don't need to go there to reach our [pole of ham radio accessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea along Admiralty Road that qualifies for a huge *eighteen* castles, the Plymouth Marine National Park POTA area, *and* as luck would have it, it even has a beach.
+Drake's Island is private, but luckily we don't need to go there to reach our [pole of ham radio accessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea just off Devil's Point that qualifies for a huge *eighteen* castles, the Plymouth Marine National Park POTA area, and as luck would have it, you can *just about* get to a section of beach just inside the polygon.
 
-**TODO update if necessary**
+![Polygon defining the top scoring region](/projects/worked-everything-award/portsmouth-poly.png){: .center}
+*The top scoring section in Plymouth*
 
-**TODO Zoomed in picture, highlighed section over bing world imagery**
+Sat here, you can activate all of these:
 
-**TODO table of all overlaps**
+| Programme | Reference | Name |
+| ---- | ------- | ------ |
+| POTA | GB-0511 | Plymouth Marine National Park |
+| BOTA | N/A     | Beach near Devil's Point (unlisted) |
+| ECA  | G-03371 | Plymouth Blockhouse, Devils Point (Artillery Fort) |
+| ECA  | G-03372 | Plymouth Blockhouse, Eastern Kings Point (Artillery Fort) |
+| ECA  | G-03373 | Plymouth Blockhouse, Firestone Bay (Artillery Fort) |
+| ECA  | G-03375 | Plymouth Drakes Island (Tudor Artillery Tower) |
+| ECA  | G-03381 | Stonehouse Town Defences (Artillery Fort, Urban Defence) |
+| ECA  | G-03458 | Mount Edgcumbe Blockhouse (Artillery Fort) |
+| ECA  | G-03986 | New Bastian (Defensive Wall) |
+| ECA  | G-03990 | Garden Battery |
+| ECA  | G-03998 | Admiralty House (Mount Wise) |
+| ECA  | G-04000 | Plymouth Drakes Island Sea Wall |
+| ECA  | G-04001 | Plymouth Drakes Island Fortified Gatehouse |
+| ECA  | G-04002 | Plymouth Drakes Island Firing Platform |
+| ECA  | G-04003 | Plymouth Drakes Island Emplacement and Magazine No1 |
+| ECA  | G-04004 | Plymouth Drakes Island Emplacement and Magazine No2 |
+| ECA  | G-04005 | Plymouth Drakes Island Gun Battery |
+| ECA  | G-04006 | Plymouth Drakes Island Gun Emplacements |
+| ECA  | G-04007 | Plymouth Drakes Island WWII Gun Emplacements |
+| ECA  | G-04008 | Plymouth Drakes Island WWII Parapets |
 
 Now, time to plan that activation. And ask the Royal Navy very nicely not to have me arrested for putting up a suspicious shortwave antenna right next to a naval base.
 
-<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/portsmouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of the beach looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
+<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/portsmouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of Firestone Bay looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
 
 Looks like it might be best visited at low tide. Or Maritime Mobile, for extra kudos.
 
@@ -115,9 +151,9 @@ Looks like it might be best visited at low tide. Or Maritime Mobile, for extra k
 
 ## Bonus Results: Variety Show
 
-Although Admiralty Road in Plymouth is a stand-out winner for activating 20 entities at the same time, it must be noted that with 18 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
+Although Devil's Point in Plymouth is a stand-out winner for activating 20 entities at the same time, it must be noted that with 18 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
 
-The code above logs the whole list of overlapping entities within each candidate, including their type, so we can use this with some additional logic to find more interesting combinations. However, it can only get us so far, because only four data sources are used in the automated analysis. To find overlapping activations involving parks, WWFF, beaches or islands, we must again apply some manual checking.
+The code above logs the whole list of overlapping entities within each candidate, including their type, so we can use this with some additional logic to find more interesting combinations. However, it can only get us so far, because only four data sources are used in the automated analysis. And looking at the results, there are no overlaps of all four of the processed types. To find overlapping activations involving parks, WWFF, beaches or islands then, we must largely revert to manual checking.
 
 So how far *can* we go with simultaneously activating in multiple programmes?
 
@@ -145,17 +181,15 @@ So far I have found four **sixes**. At this level, islands seem to be the only w
 
 There are no sevens as far as I am aware, and as eights rely on the unlikely existence of a summit-beach, they would seem to be impossible.
 
-## Summary
+## Summary {#summary}
 
-It looks like, if you're going for interest, there are four places around the British coast where you could simultaneously take part in POTA, WWFF, IOTA, Beaches on the Air, English Castles Awards, plus one of English Lighthouses or Bunkers on the Air.
+It looks like, if you're going for interest, there are four places around the British coast where you could simultaneously take part in POTA, WWFF, IOTA, Beaches on the Air, English Castles Awards, plus one of English Lighthouses or Bunkers on the Air. But you'll need a ferry to get there, unless you're lucky enough to live there already&mdash;you'll need to head to the Isle of Wight, Scilly, Lindisfarne or Inner Farne.
 
-Uploading your logs will take a long time.
+The trip might take a while, but so will uploading your logs to all of that lot.
 
-Meanwhile, if you're more interested in sheer numbers than an interesting variety, Admiralty Road in Plymouth will net you a whopping *twenty* simultaneous activations, 18 of them qualifying English Castles.
+Meanwhile, if you're more interested in sheer numbers than an interesting variety, a sliver of rocky beach near Devil's Point in Plymouth will net you a whopping *twenty* simultaneous activations, 18 of them qualifying English Castles.
 
-**TODO update if necessary**
-
-Have fun reading that lot out on the air!
+Have fun reading all those references out on the air!
 
 ## Future Work
 
