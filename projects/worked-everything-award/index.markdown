@@ -2,7 +2,7 @@
 comments: true
 layout: page
 title: The “Worked Everything, Everywhere, All at Once” Award
-stub: worked-everything-award
+slug: worked-everything-award
 description: Scamming my way to Imaginary Ham Radio Points using a hacky GeoPandas script.
 image: /projects/worked-everything-award/headline.png
 date: 2024-07-09 00:00:00
