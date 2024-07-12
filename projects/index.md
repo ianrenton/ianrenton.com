@@ -29,7 +29,7 @@ redirect_from:
   	url="/projects/worked-everything-award"
   	image="/projects/worked-everything-award/headline-small.png"
   	image-alt="A geographic display with lots of highlighted circles and points"
-  	description="Scamming my way to Imaginary Ham Radio Points through some quick and dirty GIS data mangling scripts."
+  	description="Scamming my way to Imaginary Ham Radio Points using a hacky GeoPandas script."
   	readmore-text="Read more &rarr;" %}
 
   	{% include card.html
