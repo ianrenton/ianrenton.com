@@ -16,7 +16,7 @@ Just interested in the result? [Click here to skip to the end!](#summary)
 
 Everyone else: buckle up, we're about to get friendly with some GeoPandas.
 
-<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>, used with many thanks.</em></center></p></div>
+<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>.</em></center></p></div>
 
 ## Background
 
@@ -63,9 +63,7 @@ For IOTA, "Great Britain" and "Ireland" technically qualify as islands, but for 
 
 I have only considered entities within the UK for the study, and note that the Castle and Lighthouse data used are only for England.
 
-I began a cursory analysis using the [UK Portable Ham Map](https://kwirk.github.io/pota-gb-map/) by Steve M1SDH. (This has been an invaluable tool for visualisation during this project, so many thanks to Steve and the other contributors. Thanks also to Rich M7GET for suggesting I begin simply by turning on all the layers in this tool, and seeing what stands out. It turns out that approach was so effective that I almost needn't have bothered writing the code.)
-
-A number of dense groups immediately stood out, largely bunkers and castles. This appeared to validate my choice to concentrate on these programmes, and it appeared that clusters of defensive structures, particularly coastal defences, were likely to be the best candidates for overlapping areas.
+I began a cursory analysis using the [UK Portable Ham Map](https://kwirk.github.io/pota-gb-map/). A number of dense groups immediately stood out, largely bunkers and castles. This appeared to validate my choice to concentrate on these programmes, and it appeared that clusters of defensive structures, particularly coastal defences, were likely to be the best candidates for overlapping areas.
 
 ![Map of "on the air" entities around Portsmouth Harbour](/projects/worked-everything-award/portsmouth.png){: .center}
 *Map of "on the air" entities around Portsmouth Harbour*
@@ -112,7 +110,7 @@ Take a look at Plymouth.
 
 [Drake's Island](https://drakes-island.com/) in Plymouth Sound is the former charge of Sir Francis Drake, current activity holiday destination, and home to *ten* qualifying English Castles all by itself.
 
-Drake's Island is private, but luckily we don't need to go there to reach our [pole of ham radio accessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea just east of Devil's Point that qualifies for a huge *19* castles, the South West Coast Path for POTA, and as luck would have it, also a small rocky beach.
+Drake's Island is private, but luckily we don't need to go there to reach our ideal point-scoring position&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea just east of Devil's Point that qualifies for a huge *19* castles, the South West Coast Path for POTA, and as luck would have it, also a small rocky beach.
 
 ![Polygon defining the top scoring region](/projects/worked-everything-award/plymouth-poly.png){: .center}
 *The region of Plymouth with 19 overlapping castles*
@@ -196,3 +194,15 @@ Have fun reading all those references out on the air!
 ## Future Work
 
 Many of the chosen programmes are worldwide, although I have taken only UK data from them. Some of the others are specific to England, ruling out the many castles and lighthouses in the rest of the UK, let alone the world. If I return to this work in the future, my key goal is to expand the data set beyond its current England-centric nature.
+
+## Thanks To...
+
+This silly project wouldn't have been possible without the more sensible and useful endeavours of many others. Particular thanks go to:
+
+* Steve, M1SDH for creating the [UK Portable Ham Map](https://kwirk.github.io/pota-gb-map/), and the [others who have contributed to it](https://github.com/kwirk/pota-gb-map?tab=readme-ov-file#thanks). Without it, this project would have been much harder, and the visualisations much less pretty.
+* Rich, M7GET for suggesting I begin simply by turning on all the layers in the tool, and seeing what stands out. (It turns out that approach was so effective that I almost needn't have bothered writing the code...)
+* Mark, 2M0IIG for organising the OARC SOTA day 2024 and giving me the "outdoor radio" bug.
+* Many other members of the [Online Amateur Radio Community (OARC)](https://www.oarc.uk/), for putting up with my bullshit.
+* Stack Exchange member [cosinecubed](https://gis.stackexchange.com/users/206349/cosinecubed), for the one [GeoPandas "calculate overlap" function](https://gis.stackexchange.com/a/432265) that actually worked for me.
+* Keene State College for their [Polyline Tool](https://www.keene.edu/campus/maps/tool/), a weirdly nerdy thing to have sitting publicly under `/campus/maps` but appreciated nonetheless!
+* Plus the many tireless organisers and volunteers behind the awards programmes themselves.
