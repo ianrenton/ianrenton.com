@@ -112,16 +112,16 @@ Take a look at Plymouth.
 
 [Drake's Island](https://drakes-island.com/) in Plymouth Sound is the former charge of Sir Francis Drake, current activity holiday destination, and home to *ten* qualifying English Castles all by itself.
 
-Drake's Island is private, but luckily we don't need to go there to reach our [pole of ham radio accessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea just off Devil's Point that qualifies for a huge *eighteen* castles, the Plymouth Marine National Park POTA area, and as luck would have it, you can *just about* get to a section of beach just inside the polygon.
+Drake's Island is private, but luckily we don't need to go there to reach our [pole of ham radio accessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea just east of Devil's Point that qualifies for a huge *19* castles, the South West Coast Path for POTA, and as luck would have it, also a small rocky beach.
 
-![Polygon defining the top scoring region](/projects/worked-everything-award/portsmouth-poly.png){: .center}
-*The top scoring section in Plymouth*
+![Polygon defining the top scoring region](/projects/worked-everything-award/plymouth-poly.png){: .center}
+*The region of Plymouth with 19 overlapping castles*
 
-Sat here, you can activate all of these:
+Sit on the beach anywhere in that region and, you can activate all of these:
 
 | Programme | Reference | Name |
 | ---- | ------- | ------ |
-| POTA | GB-0511 | Plymouth Marine National Park |
+| POTA | GB-1265 | South West Coast Path National Scenic Trail |
 | BOTA | N/A     | Beach near Devil's Point (unlisted) |
 | ECA  | G-03371 | Plymouth Blockhouse, Devils Point (Artillery Fort) |
 | ECA  | G-03372 | Plymouth Blockhouse, Eastern Kings Point (Artillery Fort) |
@@ -132,6 +132,7 @@ Sat here, you can activate all of these:
 | ECA  | G-03986 | New Bastian (Defensive Wall) |
 | ECA  | G-03990 | Garden Battery |
 | ECA  | G-03998 | Admiralty House (Mount Wise) |
+| ECA  | G-03999 | Hamoaze House |
 | ECA  | G-04000 | Plymouth Drakes Island Sea Wall |
 | ECA  | G-04001 | Plymouth Drakes Island Fortified Gatehouse |
 | ECA  | G-04002 | Plymouth Drakes Island Firing Platform |
@@ -142,17 +143,17 @@ Sat here, you can activate all of these:
 | ECA  | G-04007 | Plymouth Drakes Island WWII Gun Emplacements |
 | ECA  | G-04008 | Plymouth Drakes Island WWII Parapets |
 
+The area is very close to qualifying for a second POTA, the Plymouth Marine National Park. However, close inspection of the polygons shows that the marine park is only on the seaward side of the low water mark, and so doesn't quite overlap with the South West Coast Path.
+
+![Polygons for the South West Coast Path and Plymouth Marine National Park, not quite intersecting](/projects/worked-everything-award/plymouth-pota-intersect.png){: .center}
+
 Now, time to plan that activation. And ask the Royal Navy very nicely not to have me arrested for putting up a suspicious shortwave antenna right next to a naval base.
 
-<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/portsmouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of Firestone Bay looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
-
-Looks like it might be best visited at low tide. Or Maritime Mobile, for extra kudos.
-
-![Hobbits 'second breakfast' meme. Text reads 'We have one expensive hobby, yes. But what about second expensive hobby?'](/projects/worked-everything-award/secondhobby.png){: .center}
+<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/plymouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of the beach and Firestone Bay, looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
 
 ## Bonus Results: Variety Show
 
-Although Devil's Point in Plymouth is a stand-out winner for activating 20 entities at the same time, it must be noted that with 18 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
+Although Devil's Point in Plymouth is a stand-out winner for activating 21 entities at the same time, it must be noted that with 18 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
 
 The code above logs the whole list of overlapping entities within each candidate, including their type, so we can use this with some additional logic to find more interesting combinations. However, it can only get us so far, because only four data sources are used in the automated analysis. And looking at the results, there are no overlaps of all four of the processed types. To find overlapping activations involving parks, WWFF, beaches or islands then, we must largely revert to manual checking.
 
@@ -180,15 +181,15 @@ So far I have found four **sixes**. At this level, islands seem to be the only w
 
 ![Map of Sandown showing overlapping qualifying regions](/projects/worked-everything-award/iow.png){: .center}
 
-There are no sevens as far as I am aware, and as eights rely on the unlikely existence of a summit-beach, they would seem to be impossible.
+There are no sevens as far as I am aware, and as eights rely on the unlikely existence of a summit-beach, they are likely impossible.
 
 ## Summary {#summary}
 
-It looks like, if you're going for interest, there are four places around the British coast where you could simultaneously take part in POTA, WWFF, IOTA, Beaches on the Air, English Castles Awards, plus one of English Lighthouses or Bunkers on the Air. But you'll need a ferry to get there, unless you're lucky enough to live there already&mdash;you'll need to head to the Isle of Wight, Scilly, Lindisfarne or Inner Farne.
+It looks like, if you're going for interest, there are four places around the British coast where you could simultaneously take part in POTA, WWFF, IOTA, Beaches on the Air, English Castles Awards, plus one of English Lighthouses or Bunkers on the Air. But you'll need a ferry to get there, unless you're lucky enough to live in one of these places already&mdash;you'll need to head to the Isle of Wight, Scilly, Lindisfarne or Inner Farne.
 
 The trip might take a while, but so will uploading your logs to all of that lot.
 
-Meanwhile, if you're more interested in sheer numbers than an interesting variety, a sliver of rocky beach near Devil's Point in Plymouth will net you a whopping *twenty* simultaneous activations, 18 of them qualifying English Castles.
+Meanwhile, if you're more interested in sheer numbers than an interesting variety, a sliver of rocky beach near Devil's Point in Plymouth will net you a whopping *21* simultaneous activations, 19 of them qualifying English Castles.
 
 Have fun reading all those references out on the air!
 
