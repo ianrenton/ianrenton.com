@@ -122,7 +122,7 @@ Thanks to all our contacts today:
   </tr>
   <tr>
     <td>1355</td>
-    <td>7.15</td>
+    <td>7.150</td>
     <td>GM6ZAK</td>
     <td>47</td>
     <td>55</td>
@@ -130,7 +130,7 @@ Thanks to all our contacts today:
   </tr>
   <tr>
     <td>1359</td>
-    <td>7.15</td>
+    <td>7.150</td>
     <td>G0KTW</td>
     <td>59</td>
     <td>57</td>
@@ -140,3 +140,6 @@ Thanks to all our contacts today:
 </table>
 
 The logs are uploaded, so fingers crossed we are the first official POTA activators of Brownsea Island. Next time, I think it would be a nice idea to get the local Scouts involved too.
+
+![Statue of Baden Powell, inscription reads "Lord Baden Powell OM"](/blog/2024/badenpowell.jpg){: .center}
+*73, OM. (Yes, I know, not that kind of "OM"...)*
