@@ -55,4 +55,6 @@ Thanks to all our contacts today:
 |1407|7.158|DH4PSG|35    |55    |Peter     |
 |1413|7.158|M0JTL |47    |55    |Ian       |
 
+![Map of contacts](/blog/2024/oldharry-map.png){: .center}
+
 Until next time, see you on the air!
