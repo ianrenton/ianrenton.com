@@ -1,6 +1,6 @@
 ---
 layout: post
-title: POTA Activation Report&colon; Old Harry Rocks
+title: "POTA Activation Report: Old Harry Rocks"
 date: 2024-07-21 18:52 +0000
 image: /blog/2024/oldharry-small.jpg
 slug: pota-activation-report-old-harry-rocks

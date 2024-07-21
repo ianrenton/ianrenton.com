@@ -1,6 +1,6 @@
 ---
 layout: post
-title: POTA Activation Report&colon; Brownsea Island
+title: "POTA Activation Report: Brownsea Island"
 date: 2024-07-14 19:53 +0000
 image: /blog/2024/brownsea-small.jpg
 slug: pota-activation-report-brownsea-island
