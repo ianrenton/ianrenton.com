@@ -39,7 +39,7 @@ Outside of the ham bands, I also use radio systems professionally, both for data
 {% capture meta %}{{ post.date | date: "%b %Y" }}{% endcapture %}
 <li>{{ meta }}: <a href="{{ post-url }}">{{ post.title }}</a></li>
 {% endfor %}
-<ul>
+</ul>
 
 ## Other Radio-Related Stuff
 
