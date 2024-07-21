@@ -9,7 +9,7 @@ tags:
   - ham-radio
   - radio
   - amateur-radio
-  - sota
+  - pota
 ---
 
 Since my [first activation](/blog/my-first-easiest-and-last-sota/) gave me the "outdoor radio" bug, I had been checking out the local POTA spots to see what the local scene is like. Some spots have dozens or hundreds of QSOs from some monster activators like M0MJA and 2E0HPI, whom I could never dream of catching. Then I checked out probably the most famous local park, and home of Scouting, Brownsea Island. I expected some big numbers there too, but...
