@@ -25,7 +25,7 @@ paginate: true
         {% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
         {% capture meta %}{{ post.date | date: "Written on %A %-d %b %Y" }}{% endcapture %}
 	    	{% include card.html
-      		type="horizontal-right"
+      		type="horizontal-left"
 	      	title=post.title
 	      	url=post-url
 	      	image=image-url
