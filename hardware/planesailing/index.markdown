@@ -15,6 +15,8 @@ If you’d like to see what I’m currently tracking, check out [https://planesa
 
 The links below are to the design & build information in case you are interested or would like to build a similar setup for yourself! All the software is open source, and all the hardware chosen to be as inexpensive as possible.
 
+### Original Project
+
 1. [System Architecture](./system-architecture/)
 2. [Antenna & Receiver Choices](./antenna-and-receiver/)
 3. [Raspberry Pi Setup](./raspberry-pi/)
@@ -25,13 +27,18 @@ The links below are to the design & build information in case you are interested
 8. [Web Front-End](./web-front-end/)
 9. [Electronics Enclosure](./electronics-enclosure/)
 10. [Bill of Materials](./bill-of-materials/)
-11. [The Tracking Packet Format FAQ](./tracking-packet-format-faq)
-12. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
-13. [Plane/Sailing Does the Bournemouth Air Festival!](/blog/plane-sailing-does-the-bournemouth-air-festival/)
-14. [Adding Radiosonde Support](./adding-radiosonde-support/)
-15. [Adding Meshtastic Support](./adding-meshtastic-support/)
 
-You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
+### Later Updates
+
+1. [Plane/Sailing v2 Changes](./plane-sailing-v2-changes)
+2. [Adding Radiosonde Support](./adding-radiosonde-support/)
+3. [Adding Meshtastic Support](./adding-meshtastic-support/)
+4. [2024 Hardware Stack](./plane-sailing-2024-hardware/)
+
+### Miscellaneous
+
+1. [The Tracking Packet Format FAQ](./tracking-packet-format-faq)
+2. [Plane/Sailing Does the Bournemouth Air Festival!](/blog/plane-sailing-does-the-bournemouth-air-festival/)
 
 ## Featured On...
 
@@ -51,3 +58,5 @@ You may also want to check out this project's predecessor, [my first flight trac
 * [How To: Display Aircraft and Ships (in Xastir)](https://xastir.org/index.php/HowTo:Display_Aircraft_and_Ships)
 * [SARCNET AIS Receiver](https://www.sarcnet.org/ais-receiver.html)
 * [KB9IQX AIS Receiver](http://kb9iqx.net/rtlsdr/ais/)
+
+You may also want to check out this project's predecessor, [my first flight tracker](/hardware/flight-tracker).
