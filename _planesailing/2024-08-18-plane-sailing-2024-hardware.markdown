@@ -8,7 +8,7 @@ image: /hardware/planesailing/stack-main.jpg
 description: "A new set of hardware for the main Plane/Sailing system"
 ---
 
-In the summer of 2014, I once again updated Plane/Sailing's hardware design. It now looks like this! Background, build process and bill of materials are below.
+In the summer of 2024, I once again updated Plane/Sailing's hardware design. It now looks like this! Background, build process and bill of materials are below.
 
 ![Hardware stack fully assembled](/hardware/planesailing/stack-main.jpg){: .center}
 
