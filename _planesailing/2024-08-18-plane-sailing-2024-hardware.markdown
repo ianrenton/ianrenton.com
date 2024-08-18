@@ -4,6 +4,8 @@ layout: post
 title: 2024 Hardware Stack
 slug: plane-sailing-2024-hardware
 date: 2024-08-18 00:00:00
+image: /hardware/planesailing/stack-main.jpg
+description: "A new set of hardware for the main Plane/Sailing system"
 ---
 
 In the summer of 2014, I once again updated Plane/Sailing's hardware design. It now looks like this! Background, build process and bill of materials are below.
@@ -78,6 +80,7 @@ For the software setup, I decided to re-use the same approach from Plane/Sailing
 2. Similarly, adding position sending to APRS-IS, now that a position is known.
 3. Sending to the full set of aircraft & ship tracking sites, rather than the smaller set used on the portable system. This is enabled by the mode from a Pi Zero W to Pi Zero 2W devices, which have greater processing power.
 4. Disabled journalling to the SD card, to preserve its life.
+5. Separate static IPs and hostnames for each device.
 
 Using the portable system image has the added benefit that I can swap the devices between roles easily, quickly replace failed units, and even temporarily swap one to `rtl_tcp` mode if I want to.
 
