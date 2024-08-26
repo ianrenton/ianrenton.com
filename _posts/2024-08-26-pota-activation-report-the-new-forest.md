@@ -129,7 +129,7 @@ Thanks to H for logging as usual, and to all our contacts today:
   <tr>
     <td>1411</td>
     <td>7.146</td>
-    <td>GOHEU/P</td>
+    <td>G0HEU/P</td>
     <td>57</td>
     <td>59</td>
     <td>Paul</td>
