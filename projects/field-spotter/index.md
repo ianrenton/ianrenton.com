@@ -72,7 +72,7 @@ The same functionality is present when the site is viewed on a desktop browser a
 
 ## Source Code and Issue Tracking
 
-The software is hosted on Github at https://github.com/ianrenton/field-spotter and as usual it is released into the public domain. If you do want to take it and build something cool with it, please let me know about it!
+The software is hosted on Github at [https://github.com/ianrenton/field-spotter](https://github.com/ianrenton/field-spotter) and as usual it is released into the public domain. If you do want to take it and build something cool with it, please let me know about it!
 
 If you find any problems or would like to request any new features, please create an issue [here](https://github.com/ianrenton/field-spotter/issues).
 
