@@ -25,6 +25,19 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="Field Spotter"
+  	url="/projects/field-spotter"
+  	image="/projects/field-spotter/banner-small.png"
+  	image-alt="A geographic display with some markers, alongside a project logo"
+  	description="An easy-to-use, mobile-first Amateur Radio spotting tool for POTA and SOTA. It provides a geographical and band position display, with filtering, to allow you to easily find park-to-park and summit-to-summit contacts."
+  	readmore-text="Read about the project &rarr;"
+  	url2="https://fieldspotter.ianrenton.com"
+  	readmore-text2="Use the web application &rarr;"
+  	url3="https://github.com/ianrenton/field-spotter"
+  	readmore-text3="View the source code &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="The “Worked Everything, Everywhere, All at Once” Award"
   	url="/projects/worked-everything-award"
   	image="/projects/worked-everything-award/headline-small.png"
