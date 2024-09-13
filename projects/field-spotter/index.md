@@ -81,6 +81,6 @@ If you find any problems or would like to request any new features, please creat
 
 * The many organisers and volunteers behind the [POTA](https://parksontheair.com/) and [SOTA](https://www.sota.org.uk/) programmes
 * The [Online Amateur Radio Community](https://oarc.uk) for their feedback during development
-* The developers of the many JavaScript libraries on which Field Spotter is based: JQuery, Leaflet, FontAwesome, and Moment; plus the following Leaflet plugins: Extra Markers, Providers, Edge Buffer, Geometry Util, GridLayer.Fadeout, Arc, Geodesic, and Overlapping Marker Spiderfier.
+* The developers of the many JavaScript libraries on which Field Spotter is based: JQuery, Leaflet, FontAwesome, and Moment; plus the following Leaflet plugins: Extra Markers, Providers, Edge Buffer, Geometry Util, GridLayer.Fadeout, Terminator, Arc, Geodesic, and Overlapping Marker Spiderfier.
 * The project logo is made up of the following Creative Commons images: [The mountains are waiting….NZ by Bernard Spragg on Flickr](https://www.flickr.com/photos/88123769@N02/15179004889), 
 [Map Path by snodipper on Openclipart](https://openclipart.org/detail/281636/map-path)
