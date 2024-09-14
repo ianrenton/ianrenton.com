@@ -12,7 +12,7 @@ date: 2024-09-12 00:00:00
 
 It is provided as a web site, and also as a Progressive Web App for installation on mobile devices. Its simple UI and colour scheme make it ideal for use in the field.
 
-[Click here to try it out, on desktop or mobile!](https://fieldspotter.ianrenton.com/)<br/><br/>
+[Click here to try it out, on desktop or mobile!](https://fieldspotter.radio/)<br/><br/>
 
 ![Photo of Field Tracker being used on a phone, in a field](/projects/field-spotter/field-use-photo-1.jpg){: .center}
 
