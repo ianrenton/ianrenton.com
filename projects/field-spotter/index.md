@@ -3,12 +3,12 @@ comments: true
 layout: page
 title: Field Spotter
 slug: field-spotter
-description: A mobile Amateur Radio spotting tool for POTA and SOTA
+description: "A mobile Amateur Radio spotting tool for POTA, SOTA & WWFF"
 image: /projects/field-spotter/banner.png
 date: 2024-09-12 00:00:00
 ---
 
-"Field Spotter" is an easy-to-use, mobile-first Amateur Radio spotting tool for POTA and SOTA. It provides a geographical and band position display, with filtering, to allow you to easily find park-to-park and summit-to-summit contacts.
+"Field Spotter" is an easy-to-use, mobile-first Amateur Radio spotting tool for POTA, SOTA & WWFF. It provides a geographical and band position display, with filtering, to allow you to easily find park-to-park and summit-to-summit contacts.
 
 It is provided as a web site, and also as a Progressive Web App for installation on mobile devices. Its simple UI and colour scheme make it ideal for use in the field.
 
@@ -18,11 +18,11 @@ It is provided as a web site, and also as a Progressive Web App for installation
 
 ## Motivation
 
-The [POTA](https://pota.app/) and [SOTA](https://sotawatch.sota.org.uk/en/) websites have their own pages showing "spots", but these are generally text-based and ordered by time. As a European activator, I find that POTA in particular is also dominated by North American stations which I have no hope of contacting.
+The [POTA](https://pota.app/) [SOTA](https://sotawatch.sota.org.uk/en/) &  [WWFF](https://wwff.co/dx-cluster/) websites have their own pages showing "spots", but these are generally text-based and ordered by time. As a European activator, I find that POTA in particular is also dominated by North American stations which I have no hope of contacting.
 
 Instead of a text-based list, I wanted something based on a map display, so that for example when operating on the 40m band with an NVIS antenna I could see more local activations for park-to-park contacts, or on 20m I could zoom out to the rest of Europe.
 
-The only software I found with most of the functionality I wanted was [GridTracker](https://gridtracker.org/), which is great, but only available as a desktop application. I don't tend to bring a laptop to my POTA adventures, so I wanted something that worked on my phone instead.
+The only software I found with most of the functionality I wanted was [GridTracker](https://gridtracker.org/), which is great, but only available as a desktop application. I don't tend to bring a laptop to my outdoor radio adventures, so I wanted something that worked on my phone instead.
 
 ## Development
 
@@ -70,6 +70,8 @@ The same functionality is present when the site is viewed on a desktop browser a
 
 ![Desktop UI with bands panel shown](/projects/field-spotter/ss-desktop-bands.png){: .center}
 
+Support for WWFF was a common request from folks trying out the software within the first couple of days, so I added this in afterwards, using the same approach as the other two programmes.
+
 ## Source Code and Issue Tracking
 
 The software is hosted on Github at https://github.com/ianrenton/field-spotter and as usual it is released into the public domain. If you do want to take it and build something cool with it, please let me know about it!
@@ -79,8 +81,9 @@ If you find any problems or would like to request any new features, please creat
 
 ## Thanks to...
 
-* The many organisers and volunteers behind the [POTA](https://parksontheair.com/) and [SOTA](https://www.sota.org.uk/) programmes
+* The many organisers and volunteers behind the [POTA](https://parksontheair.com/), [SOTA](https://www.sota.org.uk/) and [WWFF](https://wwff.co/) programmes
 * The [Online Amateur Radio Community](https://oarc.uk) for their feedback during development
+* OH7FXK and OH3CUF for pointing me at WWFF spot resources
 * The developers of the many JavaScript libraries on which Field Spotter is based: JQuery, Leaflet, FontAwesome, and Moment; plus the following Leaflet plugins: Extra Markers, Providers, Edge Buffer, Geometry Util, GridLayer.Fadeout, Terminator, Arc, Geodesic, and Overlapping Marker Spiderfier.
 * The project logo is made up of the following Creative Commons images: [The mountains are waiting….NZ by Bernard Spragg on Flickr](https://www.flickr.com/photos/88123769@N02/15179004889), 
 [Map Path by snodipper on Openclipart](https://openclipart.org/detail/281636/map-path)
