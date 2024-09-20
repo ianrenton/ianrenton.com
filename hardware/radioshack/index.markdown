@@ -26,9 +26,11 @@ Outside of the ham bands, I also use radio systems professionally, both for data
 
 ## Radio-Related Projects
 
+* [Field Spotter](/projects/field-spotter/)
 * [Plane/Sailing](/hardware/planesailing/)
 * [Plane/Sailing Portable](/projects/planesailing-portable/)
 * [Flight Tracker](/hardware/flight-tracker/)
+* [The "Worked Everything, Everywhere, All at Once" Award](/projects/worked-everything-award/)
 * [The 2EØUXV "Random Shit I Found in my Shed" Antenna](/hardware/radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna)
 
 ## Radio-Related Blog Posts
