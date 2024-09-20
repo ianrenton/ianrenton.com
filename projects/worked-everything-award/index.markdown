@@ -151,7 +151,7 @@ Now, time to plan that activation. And ask the Royal Navy very nicely not to hav
 
 ## Bonus Results: Variety Show
 
-Although Devil's Point in Plymouth is a stand-out winner for activating 21 entities at the same time, it must be noted that with 18 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
+Although Devil's Point in Plymouth is a stand-out winner for activating 21 entities at the same time, it must be noted that with 19 of them being "castles", there's not much variety. What if we looked for that, instead of sheer numbers?
 
 The code above logs the whole list of overlapping entities within each candidate, including their type, so we can use this with some additional logic to find more interesting combinations. However, it can only get us so far, because only four data sources are used in the automated analysis. And looking at the results, there are no overlaps of all four of the processed types. To find overlapping activations involving parks, WWFF, beaches or islands then, we must largely revert to manual checking.
 
