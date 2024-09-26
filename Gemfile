@@ -25,3 +25,5 @@ gem "webrick", "~> 1.7"
 gem "faraday-retry", "~> 2.0"
 
 gem "json", "~> 2.7"
+
+gem "ffi", force_ruby_platform: true
