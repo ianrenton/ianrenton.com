@@ -190,6 +190,64 @@ I have also tried Cinnamon, MATE and XFCE on the tablet. These are generally les
 
 In XFCE particularly, I have also had issues with tapping to click and long-pressing to right-click.
 
+### Debian {#debian}
+
+#### Debian 12 (Bookworm)
+
+<div class="notes"><p>The following procedure was provided by Andy, MM0FMF, and is used with many thanks.</p></div>
+
+1. Download the latest netinst image ([debian-12.7.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.7.0-amd64-netinst.iso)) and copy it as a bootable image to a USB memory stick.
+2. I do not like using Wifi to fully install systems so I connected a 100Mbps USB Ethernet adapter and the USB memory stick to the 1010B. *(Note: The "netinst" installer requires internet access to download packages. If you do not have a USB Ethernet adapter and cannot get WiFi working reliably at this point, there are other Debian images which offer more packages built-in, which you might have more luck with.)*
+3. I connected up a 2A USB PSU to the 1010B.
+4. Boot into UEFI bios by holding Volume up and Power. Let go of Volume up when the boot menu appears.
+5. Select the USB device, Debian 12 will load.
+6. Follow the normal Debian install prompts.
+7. You should see the Wifi and USB Ethernet devices listed when you get to choose where the packages will be downloaded from. The Wifi device appeared but I have only used a USB Ethernet device to install.
+8. I was never going back to Windows 10 so I completely erased and reused all the eMMC for Linux.
+9. Follow the Debian prompts as normal. After some time and questions you will have a basic Debian 12 system.
+10. Reboot and check you can log in. Remove the USB Ethernet device and USB Stick.
+
+The screen will be in portrait mode. Log in and you can use the display manager in settings to rotate the display which is fun. Or CTRL-ALT-T to open a terminal and enter `xrandr -o right` to get it correct. A mouse and/or touchpad will be the correct orientation. You can save the orientation from Display in Settings.
+
+You can run:
+
+```bash
+xinput set-prop 'pointer:' 'Goodix Capacitive TouchScreen' 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1
+```
+
+to align the touchscreen. I would save these commands to some scripts as they are useful.
+
+At this point you have a basic working system. Add yourself to sudoers.
+
+The brightness adjusting keys will work, the brightness panel appears and the slider moves but the brightness remains fixed. The code to support the BayTrail processor in the 1010B is present but by default is not loaded when the graphics driver tries to register it so it does not work.
+
+The fix is to edit `/etc/initramfs-tools/modules` with `sudo nano /etc/initramfs-tools/modules` and add `pwm_lpss_platform` as the very last line. It will be the only module listed now. Then run:
+
+```bash
+sudo bash
+update-initramfs -u
+```
+
+This takes a while to run, a minute or so. Once it completes reboot the system and log back in.
+
+Check the backlight adjustment works by running `ls /sys/class/backlight` and you should see a symlink to `intel_backlight`.
+
+Use the brightness keys FN+F3 and FN+F4 and the backlight brightness should change.
+
+Install whatever else you need for software.
+
+I have tested and found to work perfectly:
+* Wifi
+* Bluetooth (install `blueman`, log out and log in to make it work)
+* SD Card slot with 64GB card.
+* Keyboard
+* Touchpad
+* Touchscreen
+
+The Wifi is iffy after a suspend. It may not reconnect. Just disconnect and reconnect and it will work fine.
+
+During many attempts to fix the backlight brightness I removed the systemd backlight brightness save and restore service. You don’t seem to need it as my 1010B is saving it somewhere and restoring on boot.
+
 ### Ubuntu {#ubuntu}
 
 #### Ubuntu 20.04.3
@@ -508,4 +566,5 @@ To get this far I’ve used information from the following places. I’m extreme
 *   [How do I repair grub2 (not) booting 32-bit EFI on a 64-bit machine?](https://unix.stackexchange.com/questions/206274/how-do-i-repair-grub2-not-booting-32-bit-efi-on-a-64-bit-machine/215546#215546)
 *   [How to reinstall GRUB2 EFI?](https://superuser.com/questions/376470/how-to-reinstall-grub2-efi/376471#376471)
 *   [lightdm – rotated monitor. login screen needs rotation](https://askubuntu.com/questions/408302/rotated-monitor-login-screen-needs-rotation/466618)
+* Andy, MM0FMF for providing the instructions for Debian 12
 *   And all the many commenters down below who have contributed to this page.
