@@ -2,7 +2,7 @@
 layout: post
 title: "HOWTO: Install Linux on a Linx 1010B Tablet"
 date: 2016-02-06T11:43:41+00:00
-last_update: 2022-12-27T00:00:00+00:00
+last_update: 2024-09-27T00:00:00+00:00
 wordpress_id: 1030
 ---
 
