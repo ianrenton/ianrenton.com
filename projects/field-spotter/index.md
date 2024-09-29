@@ -70,7 +70,15 @@ The same functionality is present when the site is viewed on a desktop browser a
 
 ![Desktop UI with bands panel shown](/projects/field-spotter/ss-desktop-bands.png){: .center}
 
-Support for WWFF was a common request from folks trying out the software within the first couple of days, so I added this in afterwards, using the same approach as the other two programmes.
+## Post-Release Features
+
+Support for WWFF was a common request from folks trying out the software within the first couple of days, so I added this in afterwards, using the same approach as the other two programmes. HEMA should follow soon after.
+
+Another interesting request I had was for a "passive mode" similar to software such as [HamClock](https://www.clearskyinstitute.com/ham/HamClock/). In this mode, Field Spotter is designed for use by hunters in their shack on a secondary always-on display. The user can then see at a glance if any activity is happening nearby.
+
+![Desktop UI in passive mode, running on a tablet next to a radio](/projects/field-spotter/passive-mode-photo.jpg){: .center}
+
+Of course, the community has provided many more minor feature requests and bug reports too, all greatly appreciated.
 
 ## Source Code and Issue Tracking
 
@@ -83,7 +91,8 @@ If you find any problems or would like to request any new features, please creat
 
 * The many organisers and volunteers behind the [POTA](https://parksontheair.com/), [SOTA](https://www.sota.org.uk/) and [WWFF](https://wwff.co/) programmes
 * The [Online Amateur Radio Community](https://oarc.uk) for their feedback during development
-* OH7FXK and OH3CUF for pointing me at WWFF spot resources
-* The developers of the many JavaScript libraries on which Field Spotter is based: JQuery, Leaflet, FontAwesome, and Moment; plus the following Leaflet plugins: Extra Markers, Providers, Edge Buffer, Geometry Util, GridLayer.Fadeout, Terminator, Arc, Geodesic, and Overlapping Marker Spiderfier.
+* The many others on the POTA Discord, SOTA Reflector, Fedi etc. who have provided bug reports and feature requests post-release
+* OH7FXK and OH3CUF in particular for pointing me at WWFF spot resources
+* The developers of the many JavaScript libraries on which Field Spotter is based: JQuery, Leaflet, FontAwesome, and Moment; plus the following Leaflet plugins: Extra Markers, Providers, Edge Buffer, Geometry Util, Terminator, Geodesic, and Overlapping Marker Spiderfier.
 * The project logo is made up of the following Creative Commons images: [The mountains are waiting….NZ by Bernard Spragg on Flickr](https://www.flickr.com/photos/88123769@N02/15179004889), 
 [Map Path by snodipper on Openclipart](https://openclipart.org/detail/281636/map-path)
