@@ -13,7 +13,7 @@ tags:
   - pota
 ---
 
-<center><p style="display: inline-block; line-height: 0.3em; text-align: left;"><em>"Two roads diverged in a wood, and I&mdash;<br/>I took the one less traveled by,<br/>It basically looped back on itself and it was quite muddy.<br/>Probably should have stuck with the road all those other folks took."<br/>&mdash;Robert Frost, POTA Activator (probably)<br/><br/>&nbsp;</em></p></center>
+<center><div style="display: inline-block; text-align: left;"><p><em>"Two roads diverged in a wood, and I&mdash;</em></p><p><em>I took the one less traveled by,</em></p><p><em>It basically looped back on itself and it was quite muddy.</em></p><p><em>Probably should have stuck with the road all those other folks took."</em></p><p><em>&mdash;Robert Frost, POTA Activator (probably)<br/>&nbsp;</em></p></div></center>
 
 It's October, out on the heath. The days start cold now, with a damp chill in the air that the weak sunshine never quite manages to break through.
 
