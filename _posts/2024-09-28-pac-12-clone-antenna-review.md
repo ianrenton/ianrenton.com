@@ -13,8 +13,6 @@ tags:
   - review
 ---
 
-<div class="notes"><p>Note that this is currently just the first half of the review. I haven't had chance to take this antenna beyond my garden and its suburban QRM yet; I'll update this page when I do.</p></div>
-
 Since I started doing POTA earlier this year, my go-to antenna has been a 20/40m dipole in an inverted-V configuration, the central pole being about 6m high. I like the simplicity and efficiency of a dipole, along with the knowledge that it was cut to the right resonant frequencies and isn't going to change.
 
 The one key disadvantage of this setup is just that&mdash;the setup. I've been lucky enough to have company on all my previous activations, but if I wanted to go solo, I would really struggle to get the mast up and guyed by myself. With that in mind, I started thinking about self-supporting verticals. The usual "make or buy" debate came up, and as usual I settled on "buy", as for POTA I much prefer kit I know I can rely on.
@@ -48,29 +46,40 @@ I'm not entirely sold on the idea of ribbon cable as radials. It comes nice and 
 
 After reading [a review on QRPer.com by Barry, KU3X](https://qrper.com/2023/07/barry-reviews-the-pac-12-portable-antenna/) I was worried about the length of the radial ribbon cable too. It is indeed about 18 feet (or 5 metres), which is plenty to fit into my small suburban garden for testing, but as he states, a bit too short for operating on the 40m band. I'm nervous about large radials as a trip hazard out in the field, but I may have to make my own as he did if performance on 40m doesn't hold up. (As can be seen below, SWR seems fine, but the radiation pattern could be questionable.)
 
-Coming from a known-good wire dipole antenna, I was somewhat dreading having to figure out the tuning on this kit in the field. I don't have a portable tuner for POTA adventures and I don't relish the idea of taking the NanoVNA out with me either, so I tried to get some working settings that I could reproduce later. (In practice, I'll probably take the VNA anyway the first time.)
+Coming from a known-good wire dipole antenna, I was somewhat dreading having to figure out the tuning on this kit in the field. I don't have a portable tuner for POTA adventures and I don't relish the idea of taking the NanoVNA out with me either, so I tried to get some working settings that I could reproduce later. (In practice, I took the VNA anyway the first time.)
 
 ![The adjustable loading coil](/blog/2024/pac12-3.jpg){: .center}
 *The adjustable loading coil.*
 
-I did find the adjustable loading coil quite difficult to use. There's just a bit too much force required to start that slider moving, and it's not easy to line it up so that it is touching exactly the coil you want, and not the next one too.
+I did find the adjustable loading coil quite difficult to use. There's just a bit too much force required to start that slider moving, and it's not easy to line it up so that it is touching exactly the coil you want, and not the next one too. The manual warns you to ensure you are only touching a single round of the coil, though I'm not sure it really matters too much. Electricity is going to flow via the shortest route, so touching the next round up doesn't seem to make a lot of difference.
 
 The manual does give you suggested configurations of extension poles, loading coil and whip lengths to get you started on some of the key bands, and positions of the slider on the loading coil are marked.
 
-On the 20m band, I found the provided instructions to be pretty accurate. With the loading coil slider in the marked position and the whip taken to its full height minus about 20cm, I saw a fairly uniform low SWR across the band. It didn't quite get as low as the 1.1:1 indicated in some of the product descriptions, but in other descriptions it only says <1.3:1, so I'll take it as a win.
+In practice I found the sweet spots for tuning weren't quite where the manual indicates they should be, but they were pretty close.
+
+Tuning for the top end of the 20m band where I spend most of my time doing POTA, I found the best match by using all for extension poles as indicated, then putting the tuning coil one notch lower than the marked (gold) position, and having the whip fully extended minus about for finger-widths.
 
 ![NanoVNA screenshot showing SWR on the 20m band](/blog/2024/pac12-4.png){: .center}
 *NanoVNA screenshot showing SWR on the 20m band.*
 
-On 40m, my other preferred POTA band, I couldn't quite get SWR as low as 1.3:1 using the dimensions given in the instructions&mdash;instead it came out about 1.8:1. Not terrible, but not great for my tuner-free POTA experience.
+It's a bit simpler to set up for 10m, but again I didn't find the spot quite where I expected to. Instead of a fully extended whip and nothing else, I needed a bit of extra length so included one of the four extension poles, then shortened the whip by one whole section. It's not a perfect match, but it should get the job done.
 
-I found it was much improved by bringing the loading coil slider down one notch, and shortening the whip accordingly to bring the resonant frequency back into band. About 1.2:1 was achievable, though note there was a much steeper curve here, so it's worth adjusting the whip for the lower or upper part of the band depending on your modes of interest.
+![NanoVNA screenshot showing SWR on the 10m band](/blog/2024/pac12-6.png){: .center}
+*NanoVNA screenshot showing SWR on the 10m band.*
+
+On 40m, my other preferred POTA band, things were a little more confusing. In my initial testing in my garden, I managed a SWR of about 1.2:1 over a portion of the band by again bringing the coil slider one notch down, then shortening the whip accordingly to bring the resonant frequency back into band.
 
 ![NanoVNA screenshot showing SWR on the 40m band](/blog/2024/pac12-5.png){: .center}
 *NanoVNA screenshot showing SWR on the 40m band.*
 
+However, when I headed out into the field, I found I couldn't replicate this at all. I'm not sure what was different, but I couldn't get a match anywhere under 2:1. I guess I will need a few more outings to try and figure out what's going on there.
+
 One more minor annoyance I should mention is the height of the overall assembly when the extension poles and loading coil are fitted. When I needed to adjust the length of the whip for tuning, I was *just about* able to. Anyone much shorter than my 5' 10" (178cm) might struggle to reach, and need to dismantle part of the antenna in order to tune the whip length.
 
-But overall, I'm happy with this antenna and certainly feel like I've got my money's worth. It's a neatly packaged kit, and everything feels solidly well-made. I look forward to giving it a shot on future POTA adventures!
+Overall, I'm happy with this antenna and certainly feel like I've got my money's worth. It's a neatly packaged kit, and everything feels solidly well-made.
 
-I'd like to try tuning it up on more bands when I revisit this review, and as noted in the header I still need to give it a go out on the heath where QRM is low enough for an honest signal report. Stay tuned for part 2!
+On [my first activation with it](/blog/pota-activation-report-upton-heath), I did suffer a bit with the extra weight of this antenna compared to my usual wire dipole and 6m pole, although part of this could be attributed to the needlessly hefty LMR240 cable I used it with. It's also bulkier than my dipole kit, filling up even more of the bag and taking my total POTA pack weight up to nearly 10kg.
+
+However, it's a *lot* easier to put up than the alternative when activating solo, and not needing guy ropes means a lot less wading through knee-deep heather and gorse. So, I'm sure this will become a regular part of my portable kit.
+
+![JPC-12 antenna silhouetted against a misty sky](/blog/2024/pac12-7.jpg){: .center}

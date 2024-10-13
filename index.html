@@ -168,7 +168,11 @@ redirect_from:
     {% for post in site.posts limit:3 %}
       {% capture post-url %}{{ post.url | prepend: site.baseurl }}{% endcapture %}
       {% capture image-url %}{{ post.image | prepend: site.baseurl }}{% endcapture %}
-      {% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
+      {% if post.summary %}
+      	{% capture summary %}{{ post.summary | markdownify | strip_html }}{% endcapture %}
+      {% else %}
+      	{% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
+      {% endif %}
       {% capture meta %}{{ post.date | date: "Written on %A %-d %b %Y" }}{% endcapture %}
 	  	{% include card.html
   		type="horizontal-left"
