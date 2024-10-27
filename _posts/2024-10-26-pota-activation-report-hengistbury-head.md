@@ -23,7 +23,7 @@ The game was afoot.
 
 <div class="breakout-full-width"><center><br/><img src="/blog/2024/hengistbury-pano.jpg" alt="View of Hengistbury Head Nature Reserve and Christchurch Harbour" style="width:100%"/></center><p><center><em>View of Hengistbury Head Nature Reserve and Christchurch Harbour</em></center></p></div><br/>
 
-This is Hengistbury Head, a popular dog- and child-walking spot that separates the westernmost end Bournemouth beach on one side from Christchurch Harbour on the other.
+This is Hengistbury Head, a popular dog- and child-walking spot that separates the easternmost end Bournemouth beach on one side from Christchurch Harbour on the other.
 
 (For the non-locals in the audience, the *i*, *t* and the *u* are *all* silent. "Hengsbry".)
 
