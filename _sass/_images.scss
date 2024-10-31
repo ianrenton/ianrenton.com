@@ -38,6 +38,10 @@ img.noshadow {
         display: block;
         box-shadow: 0px 0px 15px black;
     }
+
+	img.hideonmobile {
+	    display: hidden;
+	}
 }
 
 /* Figures */
