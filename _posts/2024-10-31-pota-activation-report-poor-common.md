@@ -39,7 +39,7 @@ Like my previous solo activations, I ditched the picnic blanket in favour of a c
 ![Yaesu FT-891 on my knee in the foreground, cable trailing off to an antenna out of focus in the background. The floor is covered with brown leaves and there are a number of tall straight tree trunks.](/blog/2024/poor-common-3.jpg){: .center}
 *Radio balanced precariously on my knee, as is tradition*
 
-As usual I did a quick bit of hunting on 20 metres. My first contact was Chris, DK5CH, who was also my last contact while POTA hunting from home in the morning! Three hours later he was still there, so I gave him a second call to make it a park-to-park. My P2P hunt also netted another multi-operator park-to-park with Tobias, DC1TC and Harm, DH4HAA near Hamburg.
+As usual I did a quick bit of hunting on 20 metres. My first contact was Chris, DK5CH, who was also my last contact while POTA hunting from home in the morning! Three hours later he was still there, so I gave him a second call to make it a park-to-park. My P2P hunt also netted another multi-operator park-to-park with Tobias, DC1TC and Harm, DK4HAA near Hamburg.
 
 A CQ call got the pileup going as usual, and 33 operators were worked before the calls dried up.
 
