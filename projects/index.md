@@ -25,6 +25,15 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="POTA Unactivated Park Finder"
+  	url="https://github.com/ianrenton/newparks"
+  	image="/images/250/newparks.png"
+  	image-alt="Some placemarks of POTA parks on Google Earth"
+  	description="The POTA Unactivated Park Finder (aka newparks.py) is a simple Python script that queries the Parks on the Air API to find all parks that have never been activated, and produces a KML file of them that you can view in e.g. Google Earth."
+  	readmore-text="Check out the project &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="Field Spotter"
   	url="/projects/field-spotter"
   	image="/projects/field-spotter/banner-small.png"
