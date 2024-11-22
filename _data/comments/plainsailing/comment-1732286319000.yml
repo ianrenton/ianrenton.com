@@ -1,0 +1,6 @@
+_id: 686b1f30-a7fd-11ef-95fe-71d74df3ee06
+_parent: 'https://ianrenton.com/hardware/planesailing/'
+name: Ian
+email: 'b937df7b0b3631249ed5ec118e3bb9e0'
+message: "I've not tried to produce a container for Plane/Sailing before (it's on the to do list) so I'm not totally sure what the best way is.\r\n\r\nI suggest Debían and Java 21 as a base because that's what I use and test with, but most operating systems and Java 17+ should do.\r\n\r\nYou may want to keep the config file (application.conf) and the cache file (track_data_store.dat) outside the container if you want to update it without losing data.\r\n\r\nIn terms of ports and networking, it largely depends on what data sources you want to use. ADSB, MLAT and APRS are typically connections from Plane Sailing outward to other software, so should be easy from a container. AIS and HORUS are inbound, as is the main web API that the client uses, so these will need some port forwarding in your docker command line or compose.yml. If you're interested in Meshtastic, I'm not sure how best to set that up inside a docker container but it should be possible.\r\n\r\nHopefully you can get it working, I would love to know how you get on!" 
+date: '2024-11-22T14:39:00.000Z'
