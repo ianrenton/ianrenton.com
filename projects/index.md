@@ -25,6 +25,15 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="POTA Local Parks Progress"
+  	url="https://github.com/ianrenton/pota-local-progress"
+  	image="/images/250/local-parks-progress.png"
+  	image-alt="A text-based list of POTA parks, distances and activation statuses"
+  	description="POTA Local Parks Progress is a simple Python script that queries the Parks on the Air API to find your closest parks, prints them in a list starting from the closest, and includes the status of whether you have activated them yet or not."
+  	readmore-text="Check out the project &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="POTA Unactivated Park Finder"
   	url="https://github.com/ianrenton/newparks"
   	image="/images/250/newparks.png"
