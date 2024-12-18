@@ -4,7 +4,7 @@ title: "POTA Activation Report: Talbot Heath"
 date: 2024-12-17 14:21 +0000
 image: /blog/2024/talbot-heath-1-small.jpg
 slug: pota-activation-report-talbot-heath
-description: "Immediately jumping on a new park"
+description: "Featuring the world's only combined AM broadcast station and burial mound"
 tags:
   - ham-radio
   - radio
@@ -32,7 +32,7 @@ This ancient site is believed to have once been capable of transmitting BBC Radi
 
 The transmitter is still active, serving the region with our last remaining MW station, Radio 5 Live on 909 kHz. So of course, I picked somewhere further up the heath to the north to start setting up my own antenna.
 
-The vast majority of the open space on Talbot Heath is covered by ankle-high heather and gorse, which I try to avoid setting up in so as not to distub hiding or hibernating creatures. The tempting grassy fields to the east are sadly also out of bounds&mdash; they are part of [Highmoor Farm](https://www.thebreaker.co.uk/highmoor-farm-a-story-of-resilience-and-the-power-of-community/), the last of the six farms founded by the Talbot sisters&mdash;my home is built on land that once belonged to another of them. (My local history tour is available for the price of one pint per person 😉) Denied those nice empty fields, I wandered around for a while looking for a suitable out-of-the-way spot for a portable radio station.
+The vast majority of the open space on Talbot Heath is covered by ankle-high heather and gorse, which I try to avoid setting up in so as not to distub hiding or hibernating creatures. The tempting grassy fields to the east are sadly also out of bounds, as they are part of [Highmoor Farm](https://www.thebreaker.co.uk/highmoor-farm-a-story-of-resilience-and-the-power-of-community/), the last of the six farms founded by the Talbot sisters&mdash;my home is built on land that once belonged to another of them. (My local history tour is available for the price of one pint per person 😉) Denied those nice empty fields, I wandered around for a while looking for a suitable out-of-the-way place for a portable radio station.
 
 Then I spotted this tiny patch of grass through a hole in the furze.
 
