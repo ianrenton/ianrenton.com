@@ -8,13 +8,15 @@ image: /projects/bunnyrom-teardown/bunnyrom-1-small.jpg
 date: 2024-12-27 00:00:00
 ---
 
-One does not simply gift cheap Chinese toys to an engineer without expecting them to get taken apart. So, after receiving one of these 168-in-1 digital pets, otherwise known as "Bunnyrom"s or generically as "fake Tamagotchis", I thought I would see what makes it tick.
+One does not simply gift cheap Chinese toys to an engineer without expecting them to get taken apart. So, after receiving one of these 168-in-1 digital pets, otherwise known as "Bunnyroms" or generically as "fake Tamagotchis", I thought I would see what makes it tick.
 
-<div class="notes"><p>Note that so far I have only taken the teardown process to a point before it gets destructive. At the end of the page I propose a schematic for the device but there are likely some errors in it which I could only resolve by removing epoxy or sanding down the PCB. If you have experience with these tasks and (for some reason) a desire to fully reverse engineer a BunnyROM device, give me a shout!</p></div>
+<div class="notes"><p>Note that so far I have only taken the teardown process to a point before it gets destructive. At the end of the page I propose a schematic for the device but there are likely some errors in it which I could only resolve by removing epoxy or sanding down the PCB. If you have experience with these tasks and (for some reason) a desire to fully reverse engineer a Bunnyrom pet, give me a shout!</p></div>
 
 My Bunnyrom device came from [Flying Tiger](https://flyingtiger.com/en-gb/products/key-ring-with-digital-pet-3053179?country=GB) in the UK, where they retail for £5 and come in a branded box. The same devices are available from a number of sellers on AliExpress and elsewhere, such as [this one](https://www.aliexpress.com/item/1005006961473368.html) for around £1 to £1.50.
 
 ![Photo of virtual pet device](/projects/bunnyrom-teardown/bunnyrom-1.jpg)
+
+The devices are superficial clones of Tamagotchi virtual pets, with various changes such as being able to select from any of 168 "pets" including copyrighted characters such as SpongeBob. Animations are simpler compared to the Tamagotchi, and there is no evolution or death. My unit has the "egg with antenna" shape used by Tamagotchis with infra-red communication capabilities, but the device does not have any hardware or software support for that.
 
 [The Bunnyrom site](https://bunnyrom.neocities.org/) has a lot of detail on the software itself, plus some photos of the exterior of various devices with this ROM, but I wasn't able to find a site online that had details of the inner workings. So of course, I decided to figure it out for myself, as far as I could.
 
