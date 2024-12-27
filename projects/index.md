@@ -25,6 +25,15 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="168-in-1 Digital Pet / Bunnyrom / Fake Tamagotchi Teardown"
+  	url="/projects/bunnyrom-teardown/"
+  	image="/projects/bunnyrom-teardown/bunnyrom-1-small.jpg"
+  	image-alt="A Tamagotchi-like virtual pet toy"
+  	description="One does not simply gift cheap Chinese toys to an engineer without expecting them to get taken apart."
+  	readmore-text="Check out the progress &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="POTA Local Parks Progress"
   	url="https://github.com/ianrenton/pota-local-progress"
   	image="/images/250/local-parks-progress.png"
