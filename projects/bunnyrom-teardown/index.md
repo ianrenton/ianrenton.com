@@ -24,21 +24,21 @@ The entire device can be disassembled with a small cross-head "watch-maker's"-ty
 
 ![Photo of rear of virtual pet device with battery compartment open](/projects/bunnyrom-teardown/bunnyrom-2.jpg)
 
-From there, the back of the shell can be removed by taking out four slightly smaller screws. This allows access to the rear of the PCB, and the piezo buzzer that is fitted to the back of the shell. The buzzer can be lifted out easily by inserting a screwdriver between it and the plastic shell, and levering it gently.
+From there, the back of the shell can be removed by taking out four slightly smaller M1 bolts. This allows access to the rear of the PCB, and the piezo buzzer that is fitted to the back of the shell. The buzzer can be lifted out easily by inserting a screwdriver between it and the plastic shell, and levering it gently.
 
 ![Device in two parts](/projects/bunnyrom-teardown/bunnyrom-3.jpg)
 
-Four screws then hold the PCB to the front of the shell. These can be removed just as the previous ones were, but be careful not to mix them up as they are a different length to the previous four.
+Four more M1 bolts then hold the PCB to the front of the shell. These can be removed just as the previous ones were, but be careful not to mix them up as they are a different length to the previous four.
 
 The PCB and piezo buzzer should now be separate from any of the shell. The screen will likely still be attached to the front of the shell&mdash;you can pop this out with a little force by pushing in from the front of the device.
 
 ![Front of shell with screen separated](/projects/bunnyrom-teardown/bunnyrom-4.jpg)
 
-At this point one of the (in my opinion) clever space-saving techniques is obvious. There are no connectors on the rear of the screen&mdash;the screen is instead pushed in contact with the PCB by the case being closed, and contacts a set of 32 exposed pads on the board. The four control buttons follow a similar approach, with conductive pads on the bottom of the rubber buttons which close the connection between two close-together exposed pads on the board.
+At this point one of the (in my opinion) clever space-saving techniques becomes apparent. There are no connectors on the rear of the screen&mdash;the screen is instead pushed in contact with the PCB when the PCB is screwed in, and contacts a set of 32 exposed pads on the board. The four control buttons follow a similar approach, with conductive pads on the bottom of the rubber buttons which close the connection between two close-together exposed pads on the board.
 
 In fact, the only parts protruding from the PCB at all are the microprocessor (sadly covered in epoxy), one tiny surface-mount component, and the soldered-on wires for the buzzer. Everything else is just done with traces and pads on the PCB.
 
-If you lose track of which way round the screen is supposed to be, don't worry. There is a small tab on one side, which when the screen is the right way up on top of the PCB, should be pointed towards the right-hand side, nearest to the "Cancel" button. In the picture below, it has been flipped horizontally to show the connector strips on the underside of the screen, hence the tab is pointing left.
+If you lose track of which way round the screen is supposed to be, don't worry. There is a small tab on one side, which when the screen is the right way up on top of the PCB, should be pointed towards the left-hand side, nearest to the "Reset" button, as shown in the photo below.
 
 ![PCB and piezo buzzer, with screen next to it](/projects/bunnyrom-teardown/bunnyrom-5.jpg)
 
