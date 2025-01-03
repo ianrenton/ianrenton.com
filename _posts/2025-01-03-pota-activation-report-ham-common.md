@@ -34,13 +34,17 @@ Hunting on 20 metres produced a couple of park-to-parks and a park-to-summit, bu
 
 <br/>
 ![A radio on a wooden bench, antenna out of focus in the background](/blog/2025/01/ham-common-3.jpg){: .center}
-*Afternoon is 10 metre time.*
+*Let's see if the Americans are awake.*
 
 After success on 20 it was time to give 10 a try, though mostly what it gave me was trouble. My normal measurements for 10 metres on the JPC-12 vertical netted me an SWR over 3:1 and a radio that refused to chuck more than 20 Watts into it. I'm not entirely sure of the cause; there seems to be no damage to the antenna and I could eventually tune up a little better by shortening the whip quite a bit. Perhaps setting up on completely saturated clay soil and less than a metre above the waterline was causing some coupling between my radials and an unusually conductive ground.
 
 While running back and forth between radio and antenna to re-tune, who do I see pop up on the spot list? None other than Joe, KC1SRI who I couldn't quite make a contact with yesterday. I had let him know on Mastodon that I'd be out at the same time today, and there he was on 10 metres, so this was my shot. Time to drop another transatlantic park-to-park into the pileup!
 
 As expected it took a few minutes to get through and a number of overs to complete the briefest of QSOs, but with a report of 31 from him and 22 from me, we got there in the end. And at 20W from my resolutely difficult antenna, no less!
+
+<br/>
+![A brown mouse on a dirt path](/blog/2025/01/ham-common-4.jpg){: .center}
+*I also tried a brief QSO with this guy, but couldn't hear his signal report.*
 
 Hunting other park-to-parks on 10m was unsuccessful, as I wasn't able to receive any of the spotted activators at my station. Calling CQ resulted in two QSOs, one with KK4OMJ from the POTA team in the US, but another ten minutes of CQs resulted in no more takers, and with the sun setting over the hill it was time to pack up and head back home.
 
