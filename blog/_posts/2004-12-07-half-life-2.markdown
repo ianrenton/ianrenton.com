@@ -1,0 +1,17 @@
+---
+author: Ian
+comments: true
+date: 2004-12-07 20:47:00
+layout: post
+slug: half-life-2
+title: Half-Life 2
+wordpress_id: 234
+categories:
+- Personal
+---
+
+Gamers of a sensitive disposition may wish to turn away now.  
+
+"Best FPS ever" my arse.  From my experience so far, I have to say I found Doom far more fun.  And I'm *not* talking about Doom 3 here.  And HL2 Deathmatch?  Excuse me while I play something that *doesn't* have broken sprites and models and BSODs whenever you Alt-Tab.  
+
+Back to UT2004 for me.  Oh look - it has vehicles, better weapons, better maps, is much more fun, has proper Linux support, and actually sodding works.

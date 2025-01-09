@@ -1,0 +1,13 @@
+---
+author: Ian
+comments: true
+date: 2007-06-21 00:40:00
+layout: post
+slug: f4
+title: F4
+wordpress_id: 575
+categories:
+- Personal
+---
+
+So, surfers can be separated from their boards by tachyon beams, eh?  Man, the beach is gonna be fun this summer.
