@@ -5,7 +5,7 @@ date: 2022-12-05 10:24 +0000
 tags:
   - twitter
   - socialmedia
-image: /blog/2022/failwhale.jpg
+image: /img/blog/2022/failwhale.jpg
 ---
 
 It seems strange to say now, in the closing days of 2022, but once upon a time... Twitter was cool. Initially called "twttr", it was a new and exciting thing&mdash;"micro-blogging", they called it. Messages were limited to 140 characters because you could post them via SMS; no retweets, no "likes", and no hashtags, which hadn't been invented yet.
@@ -14,7 +14,7 @@ I joined in February of 2008, with an ensuing flurry of pointless posts and over
 
 In a few years, it grew and expanded into one of the darlings of "web 2.0", with open APIs that allowed anyone with some programming knowledge to interact with it. I wrote my own client, ["SuccessWhale"](https://github.com/ianrenton/SuccessWhale/) (its name a pun on Twitter's "fail whale" error screens).
 
-![A fail whale](/blog/2022/failwhale.jpg){: .center}
+![A fail whale](/img/blog/2022/failwhale.jpg){: .center}
 
 But before long, things took a turn for the worse. With an understandable increasing drive to get eyeballs on adverts and make a profit, Twitter became increasingly hostile to third-party clients that allowed users to interact with the platform sans ads. And on the social rather than technological side, it began to gain a reputation for *somewhat fraught* discourse, and worse, becoming the "hell site" we lovingly knew it as.
 

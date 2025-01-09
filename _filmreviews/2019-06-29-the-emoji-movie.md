@@ -9,13 +9,13 @@ layout: post
 
 ## Synopsis
 
-![](/blog/2019/06/image.png)
+![](/img/blog/2019/06/image.png)
 
-![](/blog/2019/06/1.png)
+![](/img/blog/2019/06/1.png)
 
-![](/blog/2019/06/2.png)
+![](/img/blog/2019/06/2.png)
 
-![](/blog/2019/06/3.png)
+![](/img/blog/2019/06/3.png)
 
 ## By the Numbers
 
@@ -39,5 +39,5 @@ layout: post
 *   Depth Patrick Stewart's career has now sunk to: MINUS NINE THOUSAND
 
 ## Overall: MEHHHH  
-![](/blog/2019/06/emoji-movie-4-e1561835901731.png)  
+![](/img/blog/2019/06/emoji-movie-4-e1561835901731.png)
 👉🎬💩

@@ -23,7 +23,7 @@ Xiaomi, a complete unknown in the western hemisphere, is in fact the world's 4th
 
 It's... surprisingly nice.
 
-![Xiaomi Redmi 4 Prime](/blog/2016/phone1.jpg){: .center}
+![Xiaomi Redmi 4 Prime](/img/blog/2016/phone1.jpg){: .center}
 
 Although it's a Chinese import, I bought it via [Xiaomi's UK shop](http://xiaomi-mi.co.uk/redmi-4/), and luckily it came with the "Global ROM" with Google Play Store installed, rather than the Chinese ROM that omits Google services.
 
@@ -31,7 +31,7 @@ Great!
 
 Except... there is no Global ROM for this phone.
 
-![China-only ROM page](/blog/2016/phone4.png){: .center}
+![China-only ROM page](/img/blog/2016/phone4.png){: .center}
 
 Uh-oh.
 
@@ -47,26 +47,26 @@ Xiaomi helpfully offers [ROM downloads](http://en.miui.com/download.html) for al
 
 Xiaomi's "Mi PC Suite" comes in two versions: a Chinese one, which actually works, and a helpfully translated English one, which fails to see my phone at all. Why would it? My phone doesn't exist in English-speaking regions yet. So, here we go.
 
-![Chinese Mi PC Suite](/blog/2016/phone3.png){: .center}
+![Chinese Mi PC Suite](/img/blog/2016/phone3.png){: .center}
 
 The internet helpfully recommends downloading the ZIP of the ROM you want, booting your phone into Recovery mode, connecting to the PC, and shift-clicking that button labelled above. This will let you select the ZIP to flash.
 
 Except, oh no it doesn't. In the *latest* version of Mi PC Suite, that opens up a menu of more buttons. And not a word of English among them, nor help from the forums, which don't seem to have encountered this new version yet. I was on my own.
 
-![Three Hours Later](/blog/2016/threehourslater.jpg){: .center}
+![Three Hours Later](/img/blog/2016/threehourslater.jpg){: .center}
 
 At long last, I had a phone that runs a *real* version of its software. Additionally, I can now recognise the Chinese characters for "flash", "file", "OK", "cancel", and "could not locate `adb.exe`".
 
 More fun ensues because, of course, I now have a legitimate *Chinese* ROM. With no Google services. Fortunately, a number of websites helpfully show you how to download "Google Installer" from the Xiaomi Store, and use that to install Google Play Services, Play Store, etc. *Unfortunately*, Xiaomi (being the good citizens they are) removed the app. So it was off to dubious forums and third-party download sites in search of a copy of Google Installer.
 
-![One Hour Later](/blog/2016/onehourlater.jpg){: .center}
+![One Hour Later](/img/blog/2016/onehourlater.jpg){: .center}
 
 At last I went to bed, now with an up-to-date official ROM, Google services and all, happily installed. The next day, since the phone was on an official software version, a nightly update arrived that bumped the software version significantly and conveniently fixed the majority of the issues I had with the software all in one go.
 
-![Software update screen](/blog/2016/phone2.png){: .center}
+![Software update screen](/img/blog/2016/phone2.png){: .center}
 
 I'm still waiting on a *real* Global ROM to appear eventually, so I can have Google Play Services and friends installed as real system apps, and fewer strange Chinese video streaming apps installed. But for now, I have a nice looking and feeling phone, regular software updates, and most importantly of all a battery that's currently sitting pretty on 90% after 7 hours' use.
 
 Bye bye Galaxy S5, with which I'd now be on 30% battery and hunting for a charger. I'm keeping my weird Chinese phone.
 
-![Battery use graph](/blog/2016/phonebattery.jpg){: .center}
+![Battery use graph](/img/blog/2016/phonebattery.jpg){: .center}

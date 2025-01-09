@@ -20,7 +20,7 @@ tags:
 - Website
 ---
 
-[![Dynamic Democracy](/blog/2010/04/dd-screen.png)](/blog/2010/04/dd-screen.png)
+[![Dynamic Democracy](/img/blog/2010/04/dd-screen.png)](/blog/2010/04/dd-screen.png)
 
 I've been an advocate of opening up our democracy and involving the public in government decision-making for some time, without doing anything particularly concrete about it besides placing my vote.  The Digital Economy Bill fiasco showed us that, really, we're not involved with the day-to-day workings of government at all, and born of that is this experiment.
 

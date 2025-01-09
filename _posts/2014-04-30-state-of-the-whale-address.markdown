@@ -21,7 +21,7 @@ It's no secret that the current state of my SuccessWhale social network client i
 * [The test server](http://test.successwhale.com) runs SuccessWhale version 2.1.2 with debug flags enabled. The 2.1 branch includes things like mixed feeds and LinkedIn support, and is "beta-ish". Some people use it anyway. LinkedIn support is broken and will never be fixed.
 * [The dev server](http://dev.successwhale.com) runs SuccessWhale version 3.0.0-dev, a complete rewrite of the whole thing that has stalled in a half-finished state. It's just about usable provided you're willing to drop back to the test server to fiddle with any settings (they use the same database). It's buggy, and as far as I know used only by me.
 
-![SuccessWhale 3 interface](/blog/2014/successwhale-3.png){: .center}
+![SuccessWhale 3 interface](/img/blog/2014/successwhale-3.png){: .center}
 
 > SuccessWhale v3.0 web interface
 

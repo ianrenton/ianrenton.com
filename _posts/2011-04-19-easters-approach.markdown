@@ -23,10 +23,10 @@ Not too many years ago, Easter fell early in the month of April. I spent it camp
 
 Years have passed, and this time around, Easter falls late. The lilac trees are already in bloom, while cherry blossoms and dandelion seeds tumble in the wind.
 
- ![image](/blog/2011/04/wpid-IMG_20110419_092538_2.jpg) 
+ ![image](/img/blog/2011/04/wpid-IMG_20110419_092538_2.jpg)
 
 Even at eight in the morning, the sun is high in the sky and the mist is boiling away. Blue skies overhead promise a beautiful day, hot and cloudless, just like dozens more to come.
 
- ![image](/blog/2011/04/wpid-IMG_20110419_075126.jpg) 
+ ![image](/img/blog/2011/04/wpid-IMG_20110419_075126.jpg)
  
 It's April, then it will be May. The holidays are here, the tourists are here to pack the beaches. Slowly but surely, Spring is becoming Summer once more.

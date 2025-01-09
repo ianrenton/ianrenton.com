@@ -21,13 +21,13 @@ Ten years later, Rosetta finally arrived at comet [67P/Churyumov-Gerasimenko](ht
 
 But today; today Rosetta set free a payload of its own &mdash; a lander named *Philae*. We watched with bated breath as it slowly fell in the comet's barelt felt gravity.
 
-![Rosetta as seen from Philae during descent](/blog/2014/11/rosetta-from-philae.jpg){: .center}
+![Rosetta as seen from Philae during descent](/img/blog/2014/11/rosetta-from-philae.jpg){: .center}
 
 Its descent was [live-streamed](http://new.livestream.com/esa/cometlanding). It was [live-tweeted](https://twitter.com/ESA_Rosetta). It was [live-comiced](http://xkcd1446.org).
 
 The comet's surface approached.
 
-![Comet 67P C-G as seen from Philae during descent](/blog/2014/11/67p-from-philae.png){: .center}
+![Comet 67P C-G as seen from Philae during descent](/img/blog/2014/11/67p-from-philae.png){: .center}
 
 At 16:03 GMT, Philae successfully touched down on the surface of 67P/Churyumov-Gerasimenko. And our nerdy corner of the internet went *wild*.
 
@@ -37,4 +37,4 @@ For the first time in our history &mdash; for all we know, the first time it has
 
 Today, humanity stands proud of its place in the cosmos.
 
-![Artist's impression of the Philae lander after touchdown](/blog/2014/11/philae-touchdown.png){: .center}
+![Artist's impression of the Philae lander after touchdown](/img/blog/2014/11/philae-touchdown.png){: .center}

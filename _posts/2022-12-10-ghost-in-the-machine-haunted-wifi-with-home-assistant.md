@@ -8,7 +8,7 @@ tags:
   - homeassistant
   - trolling
   - haunted
-image: /blog/2022/hauntedwifi-small.png
+image: /img/blog/2022/hauntedwifi-small.png
 ---
 
 Since starting to play with [Home Assistant](https://www.home-assistant.io/), it's consistently impressed me with just *how many* possible integrations it has. From the things you'd expect, like Google Home, Siri, and smart lights, to the unexpected, like cars and smoke detectors, to the downright strange&mdash;it warms my weird little heart that I now have the ability to turn on my bedroom lights [using a VHF radio](https://www.home-assistant.io/integrations/aprs/). And of course, it's open source with open APIs, so you can code up any new integration you feel like.

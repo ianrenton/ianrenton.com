@@ -26,19 +26,19 @@ I think we called the skill system "Chromatic", or maybe "Prismatic". Something 
 
 If you've ever used a paint program on a computer, you've almost certainly encountered this style of colour picker before. There are three axes to it: *Hue*, which specifies the colour, *Saturation*, which specifies how 'colourful' (as opposed to grey) the colour is, and *Luminance*, which specifies the shade of the colour from black to white. (Some systems use *Value* instead of *Luminance*, the difference is [somewhat technical](https://en.wikipedia.org/wiki/HSL_and_HSV).)
 
-![](/blog/2015/HSL.png){: .center}
+![](/img/blog/2015/HSL.png){: .center}
 
 In Dragon's Claw's system, the *Hue* of the colour represents the elemental association of the skill, along a continuum. So for example, Fire-based skills have a red hue (approximately 0 on the scale), Water-based skills have a blue hue (approximately 170 on a 0-255 scale). Something like the diagram below &mdash; there were more elements to fill up the remaining space, but I forget them now.
 
-![](/blog/2015/hue.png){: .center}
+![](/img/blog/2015/hue.png){: .center}
 
 The *Saturation* of the colour represents the transition between physical abilities and magical abilities, with the physical ones being less colourful and the magical ones more so. For example, the magic spell "Fireball" might be bright red, while "Flaming Sword" is still the same hue but more physical, so has a lower saturation.
 
-![](/blog/2015/saturation.png){: .center}
+![](/img/blog/2015/saturation.png){: .center}
 
 *Luminance* is a continuum between white and black, and represents the balance between "good" and "evil" abilities.
 
-![](/blog/2015/luminance.png){: .center}
+![](/img/blog/2015/luminance.png){: .center}
 
 If I recall correctly, while abilities were balanced fairly well across the hue and saturation spectra, the majority of abilities clustered towards the centre of the luminance spectrum as the abilities themselves could rarely be said to be good or evil.
 
@@ -46,7 +46,7 @@ Each character had an innate "colour", which represented their central position 
 
 As each character increases in level, the "sphere" around their innate colour expands, and if any new abilities fall within that sphere, the character learns that ability. By level 100, each character can use a sizeable proportion of available abilities, but never the complete set.
 
-![](/blog/2015/spectra.png){: .center}
+![](/img/blog/2015/spectra.png){: .center}
 
 As the character uses abilities, their innate colour changes by a fraction towards the colour of the ability used. In this way, characters' ability sets can be customised however the player wants, simply by practicing abilities in the right "direction".
 

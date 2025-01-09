@@ -7,12 +7,12 @@ tags:
   - homelab
   - hardware
   - software
-image: /blog/2022/homeservers-small.jpg
+image: /img/blog/2022/homeservers-small.jpg
 ---
 
 In a move that feels almost heretical, given my history with the devices, I am moving away from using Raspberry Pi computers for my various "home server" projects. This has been driven in particular by a desire to tidy up the area of desk used for [Plane/Sailing](/hardware/planesailing) by powering all three RTL-SDR dongles straight from a PC, without the added hassle of a powered USB hub. Inspired by videos and posts I've seen online, I have switched out my Pis for Lenovo M93p Tiny desktop computers.
 
-![Two Lenovo M93p Tiny PCs](/blog/2022/homeservers.jpg){: .center}
+![Two Lenovo M93p Tiny PCs](/img/blog/2022/homeservers.jpg){: .center}
 *My new home server setup, consisting of two Lenovo M93p Tiny PCs*
 
 These units are approximately 20 x 20 x 3cm in size, so still pretty small, a little over 3x the size of a Pi in a case. However, being computers designed for office work with Core i-series processors, they're quite a bit more powerful. Plane/Sailing runs on one with a 5th gen Core i5 and 12GB RAM, while the other is a 4th gen Core i3 with 8GB.

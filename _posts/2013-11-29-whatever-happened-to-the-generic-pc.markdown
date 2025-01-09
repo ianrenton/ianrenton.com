@@ -23,7 +23,7 @@ My main computer is a [Late 2007, 13-inch Macbook](https://support.apple.com/kb/
 
 My other computer is a [Samsung Series 3 Chromebook](http://www.samsung.com/uk/consumer/pc-peripherals/chrome-devices/chrome-devices/XE303C12-A01UK). You can install another operating system on it&mdash;[in a chroot](https://github.com/dnschneid/crouton), because you have to use Google's kernel to get proper hardware support. You can try your luck with a proper dedicated install of another OS, but your hardware will be badly supported. Your choice of other OS is a [two-year-old version of Ubuntu](http://chromeos-cr48.blogspot.co.uk/2012/10/arm-chrubuntu-1204-alpha-1-now.html), or a [current version of Arch Linux](http://archlinuxarm.org/platforms/armv7/samsung/samsung-chromebook) for which [no-one knows how to build Firefox](http://archlinuxarm.org/forum/viewtopic.php?f=5&t=5761). It boots from USB when it feels like it. The rest of the time, it beeps and restarts with no error messages.
 
-![Linux on a Chromebook (image from muycomputer.com)](/blog/2013/11/chromebook.jpg){: .right}
+![Linux on a Chromebook (image from muycomputer.com)](/img/blog/2013/11/chromebook.jpg){: .right}
 
 And these days our phones are computers too. The more capable they become, the more like a real computer, the more we resent their limitations.
 

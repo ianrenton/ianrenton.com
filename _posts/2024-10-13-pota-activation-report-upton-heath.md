@@ -2,7 +2,7 @@
 layout: post
 title: "POTA Activation Report: Upton Heath"
 date: 2024-10-13 16:35 +0100
-image: /blog/2024/upton-heath-1-small.jpg
+image: /img/blog/2024/upton-heath-1-small.jpg
 slug: pota-activation-report-upton-heath
 description: "A chill in the air, and a new antenna under test"
 summary: "It's October, out on the heath. The days start cold now, with a damp chill in the air that the weak sunshine never quite manages to break through. This is Upton Heath, POTA ref GB-0112,  WWFF ref GFF-0315. This area of heathland is..."
@@ -17,14 +17,14 @@ tags:
 
 It's October, out on the heath. The days start cold now, with a damp chill in the air that the weak sunshine never quite manages to break through.
 
-<div class="breakout-full-width"><center><br/><img src="/blog/2024/upton-heath-1.jpg" alt="View of Upton Heath looking down towards the harbour" style="width:100%"/></center><p><center><em>View of Upton Heath looking down towards the harbour</em></center></p></div>
+<div class="breakout-full-width"><center><br/><img src="/img/blog/2024/upton-heath-1.jpg" alt="View of Upton Heath looking down towards the harbour" style="width:100%"/></center><p><center><em>View of Upton Heath looking down towards the harbour</em></center></p></div>
 
 This is Upton Heath, [POTA ref GB-0112](https://pota.app/#/park/GB-0112),  [WWFF ref GFF-0315](https://wwff.co/directory/?showRef=GFF-0315). This area of heathland is [managed by Dorset Wildlife Trust](https://www.dorsetwildlifetrust.org.uk/nature-reserves/upton-heath), and while much of it is natural heathland just as it always was, the marks of human use are all over. The heath is criss-crossed with electricity pylons, and the noise of the main road can be heard everywhere. Houses are slowly encroaching, always out of the corner of your eye.
 
 But some relics of human occupation are receding. The [Southampton and Dorchester Railway](https://en.wikipedia.org/wiki/Southampton_and_Dorchester_Railway) ran through here once, from the mid-1800s until it was torn up in the Beeching cuts in the 1960s; much its route now forms the scenic [Castleman trailway](https://en.wikipedia.org/wiki/Castleman_Trailway). The former brick works have gone too, now long since demolished, though the scars on the land left by their excavations remain.
 
 <br/>
-![Former clay pits on Upton Heath](/blog/2024/upton-heath-2.jpg){: .center}
+![Former clay pits on Upton Heath](/img/blog/2024/upton-heath-2.jpg){: .center}
 *Former clay pits on Upton Heath*
 
 As well as a good place to get lost in, I had some extra goals for today's POTA/WWFF activation: to give [my new antenna](/blog/pac-12-clone-antenna-review/) its first proper shake-down, to give [Field Spotter](https://fieldspotter.radio) its first run at what it was meant to be used for, and to have a go at logging with [Ham2k PoLo](https://polo.ham2k.com/) rather than my usual paper logs.
@@ -34,7 +34,7 @@ I took the NanoVNA to help get the tuning right for the antenna, which is extra 
 As well as needing the VNA, the rest of the new antenna kit brought a new challenge in the form of pack weight. With the bulkier kit and the totally overkill LMR240 coax, my rucksack was fast approaching 10kg, and no longer had any real amount of free space inside for a coat or any other equipment.
 
 <br/>
-![Rucksack and contents laid out on the ground](/blog/2024/upton-heath-4.jpg){: .center}
+![Rucksack and contents laid out on the ground](/img/blog/2024/upton-heath-4.jpg){: .center}
 *My rucksack and contents laid out on the ground*
 
 Nothing makes you look quite as extra as boots, thermos, and a 10kg camo-coloured rucksack with an HT strapped to it, while everyone else is walking their dogs and wearing trainers.
@@ -44,13 +44,13 @@ PoLo worked well, though it took a few park-to-park contacts before I figured ou
 Field Spotter worked fine as expected, too. It's nice to have finally used it in the environment it was intended for!
 
 <br/>
-![Field Spotter in use in the field](/blog/2024/upton-heath-3.jpg){: .center}
+![Field Spotter in use in the field](/img/blog/2024/upton-heath-3.jpg){: .center}
 *Field Spotter in use in the field*
 
 With plenty of new things to test, I kept the activation itself pretty basic. I started off with Field Spotter giving me a few park-to-park QSOs, then I settled into a frequency of my own and called CQ. The pile-up delivered as usual, and after getting around 30 in the log in just over half an hour, I decided to pack down the station and do a bit more exploring down towards the clay pits and the lake.
 
 <br/>
-![JPC-12 antenna with loading coil silhouetted against a faint sun in a cloudy sky](/blog/2024/upton-heath-5.jpg){: .center}
+![JPC-12 antenna with loading coil silhouetted against a faint sun in a cloudy sky](/img/blog/2024/upton-heath-5.jpg){: .center}
 *JPC-12 antenna with loading coil silhouetted against the sky*
 
 There are plenty of opportunities to get lost here; paths that look like shortcuts but just loop around, and ones that peter out into gorse and mud. The "proper" path zig-zags wildly and dips up and down, and is not always obvious. Google Maps doesn't know most of the paths here either, so taking a photo of the map board or using an OpenStreetMap-based app is definitely recommended for navigation.
@@ -98,11 +98,11 @@ Thanks to all my contacts today:
 
 ...and this guy, thanks for the spot on the 500 nanometre band.
 
-![A grey squirrel on the grass](/blog/2024/upton-heath-6.jpg){: .center}
+![A grey squirrel on the grass](/img/blog/2024/upton-heath-6.jpg){: .center}
 *A grey squirrel on Upton Heath*
 
 Here's the map from today:
 
-![Map of contacts](/blog/2024/upton-heath-map.png){: .center}
+![Map of contacts](/img/blog/2024/upton-heath-map.png){: .center}
 
 See you on the air next time!

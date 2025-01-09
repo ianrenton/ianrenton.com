@@ -35,13 +35,13 @@ It would be remiss of me, then, to fail to point out that I am playing such a ga
 
 What's weird is that those other things are [Beatmania](http://www.konami.jp/am/bm) and [Foursquare](http://4sq.com).
 
-![Rythm Game elements in DJ Rivals](/blog/2011/05/wpid-screenshot_1-180x300.png){: .right}
+![Rythm Game elements in DJ Rivals](/img/blog/2011/05/wpid-screenshot_1-180x300.png){: .right}
 
 At worst, these "Stamina-based" games are a simple button-click to perform a quest; here there is a basic attempt at turn-based combat, where each attack requires you to play a 10 second clip of rhythm game.  Better moves use more complex rhythms, and the hardest moves are on a level that [Tap Tap Revenge](http://www.tapulous.com) would consider medium, and [IIDX](http://www.konami.jp/am/bm2dx) would consider easy.  Not especially challenging then, but fun -- orders of magnitude more fun than simply clicking a button.
 
 PvP battles are implemented as poorly as in any of these games -- they're identical to PvE battles.  But DJ Rivals also introduces a location-based element to play, where players compete to become "House DJ" (Mayor, in Foursquare terms) of real-life locations that are detected by the game's use of your phone's GPS.  Although fighting over real-world bars and restaurants is fun, a high location-to-player ratio -- and the ability to set your location manually -- mean that it's easy to become House DJ of places far from any other players and thus reap the rewards without any risk.
 
-![Real world locations in DJ Rivals](/blog/2011/05/wpid-snap20110506_073604-180x300.png){: .left}
+![Real world locations in DJ Rivals](/img/blog/2011/05/wpid-snap20110506_073604-180x300.png){: .left}
 
 I should point out a couple of negatives, too.  Levelling up unlocks more powerful attacks and equipment, but the power curve is not smooth and gradual.  It suffers from the same issue as did [Terranigma](http://en.wikipedia.com/wiki/Terranigma)'s last boss -- at a certain level it is all but impossible, but one level-up makes it trivially easy.  At level 10 in DJ rivals I could do around 600 damage a turn to my enemies' 800, and I had to return to a previous "Chapter" to find some lower-level enemies to beat.  Once I hit level 11, I could immediately buy a move that did around 2000 damage, killing everything -- including the next sub-boss -- in a single hit.
 

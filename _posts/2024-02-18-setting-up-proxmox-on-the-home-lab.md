@@ -2,7 +2,7 @@
 layout: post
 title: Setting up Proxmox on the Home Lab
 date: 2024-02-18 08:03 +0000
-image: /blog/2024/proxmox-small.png
+image: /img/blog/2024/proxmox-small.png
 tags:
   - proxmox
   - containers
@@ -21,7 +21,7 @@ My search for an easy web UI for managing Docker containers led me eventually to
 
 I thought I'd give it a shot, and over a couple of days, I've moved all my stuff into Proxmox-managed containers.
 
-![Proxmox screenshot showing 10 containers running across a cluster of two nodes](/blog/2024/proxmox.png){: .center}
+![Proxmox screenshot showing 10 containers running across a cluster of two nodes](/img/blog/2024/proxmox.png){: .center}
 
 Here's what I learned:
 
@@ -48,7 +48,7 @@ service ssh reload
 * Enlarging virtual disks later is easy, making them smaller is not. Start small and work up!
 * For some software, Docker remains the only (or only supported) way of getting it running. So now I have Proxmox running LXC containers which themselves just contain a single Docker container...
 
-!["How many layers of containerisation are you on?" "Like maybe 5 or 6, right now, my dude." "You are like a little baby, watch this" (Proxmox screenshot showing LXC containers with internal docker containers)](/blog/2024/containerisation.png){: .center}
+!["How many layers of containerisation are you on?" "Like maybe 5 or 6, right now, my dude." "You are like a little baby, watch this" (Proxmox screenshot showing LXC containers with internal docker containers)](/img/blog/2024/containerisation.png){: .center}
 
 * Tailscale doesn't work out of the box in a Proxmox container. I needed Tailscale not just on the host machines but specifically on the *container* that runs Plane/Sailing. Thanks to [jvoisin](https://dustri.org/) for [the required commands](https://dustri.org/b/running-tailscale-inside-of-a-proxmox-container.html) on the host machine (below, replace `[your_lxc_id]` as required), after which Tailscale can be installed on the container as normal:
 
@@ -72,6 +72,6 @@ systemctl start pve-cluster
 * Any USB connection glitches can actually *change* the ID of the device, as returned by `lsusb` and used in the container settings files. So if you accidentally wobble the USB stick and the container can no longer see it properly, that's probably why.
 * After passing through a single RTL-USB device to a container, you might expect it to show up as the only one, with ID 0. Nope: you can still *kind of* see the other devices, but they are unusable and with corrupt names!
 
-![Console showing the results of rtl_test, with two dongles available, one with a corrupted name that could not be accessed](/blog/2024/rtltest-corrupt.png){: .center .noshadow}
+![Console showing the results of rtl_test, with two dongles available, one with a corrupted name that could not be accessed](/img/blog/2024/rtltest-corrupt.png){: .center .noshadow}
 
 Well, that sure was a way to spend the weekend. Now I have a nice neat containerised set of network services, and I'm off to do *anything* other than looking at screens for a while.

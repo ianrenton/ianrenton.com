@@ -24,7 +24,7 @@ My phone, an [HTC Desire HD](http://www.htc.com/www/smartphones/htc-desire-hd/),
 
 Repeatedly frustrated at not being able to use my phone to make calls or navigate at the end of car journeys with my family, I set to thinking about what I actually use my phone for. The majority of my phone use boils down to, roughly in order:
 
-![](/blog/2011/08/blackberry-curve-9300-2-300x298.jpg){: .right}
+![](/img/blog/2011/08/blackberry-curve-9300-2-300x298.jpg){: .right}
 
   1. Twitter
   2. Facebook
@@ -43,7 +43,7 @@ I've always felt that phones with sliding parts were a little less indestructibl
 
 I was coming from a Googly world of push e-mail and Google Talk, but push notifications for Twitter and Facebook are a welcome addition. I've no idea how much data or battery power is saved by not having to poll the services for notifications at regular intervals, but the speed at which they arrive is certainly appreciated.
 
-[![Social Feeds Screenshot](/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-13-55.png)](/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-13-55.png)
+[![Social Feeds Screenshot](/img/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-13-55.png)](/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-13-55.png)
 
 ## Pocketability
 
@@ -69,7 +69,7 @@ This hasn't been a deal-breaker for me as I always intended to install as little
 
 Complaints are often levelled at Android that its menu system is unintuitive (which functions are in the menu, and which are on the app's main interface?) and that its UI is inconsistent (white-on-black vs black-on-white, orange highlights, green highlights...).  Well, it's got nothing on BlackBerry OS. Text and background colours differ wildly between apps, non-standard widgets abound, and many critical functions hide behind a menu that's many screen-heights tall.
 
-[![Home Screen Screenshot](/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-11-35.png)](/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-11-35.png)
+[![Home Screen Screenshot](/img/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-11-35.png)](/blog/2011/08/JiffyScreenShotFree-08-29-2011_22-11-35.png)
 
 ## The Screen
 

@@ -14,7 +14,7 @@ Dear GamerGate supporters, trolls, flamers and everyone associated:
 
 Here is a pale blue dot.
 
-![](/blog/2014/10/PaleBlueDot.jpg){: .center}
+![](/img/blog/2014/10/PaleBlueDot.jpg){: .center}
 
 Really, it's *the* [pale blue dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot).
 

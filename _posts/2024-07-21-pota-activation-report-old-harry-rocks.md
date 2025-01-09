@@ -2,7 +2,7 @@
 layout: post
 title: "POTA Activation Report: Old Harry Rocks"
 date: 2024-07-21 18:52 +0000
-image: /blog/2024/oldharry-small.jpg
+image: /img/blog/2024/oldharry-small.jpg
 slug: pota-activation-report-old-harry-rocks
 description: In which the whole family decides to tag along
 tags:
@@ -18,7 +18,7 @@ So off we went to another local landmark. This time, it's the turn of our most f
 
 <br/>
 
-![Photo of Old Harry Rocks from south side clifftop](/blog/2024/oldharry.jpg){: .center}
+![Photo of Old Harry Rocks from south side clifftop](/img/blog/2024/oldharry.jpg){: .center}
 *Old Harry Rocks, viewed from south side clifftop*
 
 I guess we really do live in a nice part of the world, don't we?
@@ -29,7 +29,7 @@ The clifftop is an easy one-mile hike up from the Bankes Arms, making it attract
 
 We caught the chain ferry over to save ourselves the drive around, but only made it to fourth-from-front by the time it pulled away, leaving us with a 20 minute wait for it to come back. Combined with departing slightly later than planned, we ended up at the pub around 1230 local time, so it was lunch first, hike second. Four very full stomachs later, we headed up the trail to the clifftop.
 
-<div class="breakout-full-width"><center><img src="/blog/2024/oldharry-gap.jpg" alt="Sea and sailing yachts viewed through a gap in a hedgerow" style="width:100%"/></center></div>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/oldharry-gap.jpg" alt="Sea and sailing yachts viewed through a gap in a hedgerow" style="width:100%"/></center></div>
 
 The edge of the cliff features all the grockles' favourite photo opportunities, while further back there is a wide area of grassland that had been recently mowed, leaving ample space for football games and even amateur radio. With panoramic views across Poole, Bournemouth, Christchurch and the western Isle of Wight, there would have been plenty of opportunities for some calls on the 2m and 70cm bands, but though I brought the HT, we didn't have time for it in the end.
 
@@ -37,7 +37,7 @@ As usual we stuck to our old reliable 40m, and although the band was quite noisy
 
 After that, in deference to the rest of the family, we packed up, hiked back to the pub, had another drink, and chose to skip the ferry and drive the long way round back home. We hit exactly the sort of Corfe Castle traffic you would imagine on a sunny summer Sunday afternoon. Price you pay for living in a place like this, I suppose.
 
-<div class="breakout-full-width"><center><img src="/blog/2024/oldharry-south.jpg" alt="Image split into three horizontal strips: sky, sea and heathland" style="width:100%"/></center></div>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/oldharry-south.jpg" alt="Image split into three horizontal strips: sky, sea and heathland" style="width:100%"/></center></div>
 
 Thanks to all our contacts today:
 
@@ -55,6 +55,6 @@ Thanks to all our contacts today:
 |1407|7.158|DH4PSG|35    |55    |Peter     |
 |1413|7.158|M0JTL |47    |55    |Ian       |
 
-![Map of contacts](/blog/2024/oldharry-map.png){: .center}
+![Map of contacts](/img/blog/2024/oldharry-map.png){: .center}
 
 Until next time, see you on the air!

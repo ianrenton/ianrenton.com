@@ -10,4 +10,4 @@ categories:
 - Personal
 ---
 
-<img src="/blog/2006/bday-ad-yuri.jpg"/>
+<img src="/img/blog/2006/bday-ad-yuri.jpg"/>

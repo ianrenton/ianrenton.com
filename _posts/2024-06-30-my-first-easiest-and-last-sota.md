@@ -2,7 +2,7 @@
 layout: post
 title: My First, Easiest (and Last?) SOTA
 date: 2024-06-30 08:24 +0000
-image: /blog/2024/wingreen4-small.jpg
+image: /img/blog/2024/wingreen4-small.jpg
 tags:
   - ham-radio
   - radio
@@ -22,7 +22,7 @@ For the uninitiated, SOTA stands for ["Summits on the Air"](https://www.sota.org
 
 Well, "summit" and "adventure" are strong words for where we went&mdash;[Win Green](https://www.sotadata.org.uk/en/summit/G/SC-008) up in Cranborne Chase. It *is* the highest point in the Chase, but at 277m above sea level (and 10m above the car park), "summit" does seem like a bit of a stretch. Regardless, it counts, so off we went.
 
-![Photo of the trees at the top of Win Green](/blog/2024/wingreen1.jpg){: .center}
+![Photo of the trees at the top of Win Green](/img/blog/2024/wingreen1.jpg){: .center}
 
 Why we went at all was a coincidence of good timing (and our good timing would only get better, as you will see). We had some new outdoor-compatible radio kit (principally a new-to-me Yaesu FT-891) that we needed to test, not for SOTA, but for *JOTA*&mdash;Jamboree on the Air, which we hope to help the local Scout troop with in October. Testing this from the bench at home quickly morphed into testing it on the local heath, then into getting my daughter involved. Other commitments pushed our test date to 29th June, then [OARC](https://www.oarc.uk/) turned out to be having a [SOTA activity day](https://wiki.oarc.uk/oarc-sota-day), so one thing led to another and we ended up on our first unintentional SOTA activation.
 
@@ -30,7 +30,7 @@ Why we went at all was a coincidence of good timing (and our good timing would o
 
 The problem is as simple as "where we live". There's not a lot of qualifying summits nearby, certainly nothing much more adventurous than Win Green.
 
-![Map of local SOTA summits](/blog/2024/sotamap.png){: .center}
+![Map of local SOTA summits](/img/blog/2024/sotamap.png){: .center}
 
 It could be worse of course&mdash;we could be in East Anglia or the vast swathe of central France with no peaks at all. But compared to Wales, the Highlands, or of course the Alps, there's not a lot nearby. Besides Win Green, only Nine Barrow Down is within an hour's drive&mdash;and that has had some issues in the past between the landowner and SOTA activators who hadn't asked permission first. Avoiding that, we're left with Long Knoll, Lewesdon Hill and Hardown Hill (each a 1h 15min drive) or Brighstone Down (2h drive plus £100 ferry journey).
 
@@ -42,7 +42,7 @@ We were on site from around 1100 local time, and spent the first half hour explo
 
 We set up on the south side, just down from the peak, with views of home and the sea in the far distance.
 
-<div class="breakout-full-width"><center><img src="/blog/2024/wingreen2.jpg" alt="View from Win Green looking south" style="width:100%"/></center></div>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/wingreen2.jpg" alt="View from Win Green looking south" style="width:100%"/></center></div>
 
 With hindsight, this location limited our VHF capability somewhat, and the north side would probably have netted us more contacts in that band. But here our quintessential British embarassment kicked in. It was so peaceful and quiet up there, we almost didn't want to spoil it with radios and&mdash;horror of horrors&mdash;*talking*, so we sought out a place as far from other people as possible.
 
@@ -66,7 +66,7 @@ I only dropped sections down inside the mast once (that thing it tells you never
 
 An eBay FT-891 and an [unnecessarily large battery](https://uk.eco-worthy.com/collections/lithium-batteries/products/12v-20ah-portable-lifepo4-deep-cycle-rechargeable-battery) rounded out the kit for the afternoon's SOTA activation and equipment trial.
 
-![Picnic blanket with radio, battery, paper log and cup of tea](/blog/2024/wingreen3.jpg){: .center}
+![Picnic blanket with radio, battery, paper log and cup of tea](/img/blog/2024/wingreen3.jpg){: .center}
 
 We decided to go for the 40m band to increase our chances of getting contacts within the UK, partly to prioritise the OARC folks and partly for an easier introduction for my logging assistant. It was a little hard to find space on the band at first, and to get over my initial nerves&mdash;*don't tell anyone, but despite having a Full licence, this was my first time operating SSB voice...*
 
@@ -78,7 +78,7 @@ After a slow start on 40m, the contacts started rolling in, and within an hour w
 
 Callers started to drop off after 1400, and lack of shade (and bathroom facilities) began to dwell on our minds, so we packed up at that point rather than trying our luck on the 20m band. One for next time, perhaps&mdash;nine HF contacts feels like enough for our first time trying SOTA.
 
-![Telescopic field mast supporting an inverted V dipole antenna, scenery in the background](/blog/2024/wingreen4.jpg){: .center}
+![Telescopic field mast supporting an inverted V dipole antenna, scenery in the background](/img/blog/2024/wingreen4.jpg){: .center}
 
 We left the handheld on for the walk back, climbing trees and hiking down the brow of the hill, and managed to catch Steve M1SDH/P at last on 2m to round off the day's contacts.
 
@@ -213,7 +213,7 @@ We left the handheld on for the walk back, climbing trees and hiking down the br
 </table>
 </center></div><br/>
 
-![Map of SOTA contacts](/blog/2024/sotamap2.png){: .center}
+![Map of SOTA contacts](/img/blog/2024/sotamap2.png){: .center}
 
 ## What did we achieve?
 

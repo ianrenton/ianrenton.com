@@ -2,7 +2,7 @@
 layout: post
 title: Meshtastic!
 date: 2024-03-01 16:06 +0000
-image: /blog/2024/meshtastic-small.jpg
+image: /img/blog/2024/meshtastic-small.jpg
 tags:
   - meshtastic
   - mesh
@@ -18,10 +18,10 @@ Making up for the low power is a large bandwidth, slow symbol rate and some impr
 
 A friend from work 3D printed me a [muziWORKSlab case](https://www.etsy.com/uk/listing/1653262584/h1-case-for-heltec-v3-running-meshtastic) and a couple of [IKB3D Bender cases](https://ikb3d.co.uk/products/bender-heltec-v3-lora-meshtastic-battery-case-print-download) for my Heltec v3 nodes&mdash;how cute are these!? The upright one is only a couple of inches tall.
 
-![Two Meshtastic nodes in cases sat on a desk](/blog/2024/meshtastic.jpg){: .center}
+![Two Meshtastic nodes in cases sat on a desk](/img/blog/2024/meshtastic.jpg){: .center}
 
 I've got one upstairs at home and one in my car as a mobile node, temporarily displacing Plane/Sailing Portable there. Based on [self-reported node maps](https://map.mpowered247.com/) there's not a lot of activity in East Dorset, just small clusters in Dorchester and Christchurch. As the first Meshtastic node owner in Bournemouth, I'm only rarely getting signals in from anywhere else, but hopefully there'll be more nodes nearby soon. As Kevin Costner didn't say in *Field of Dreams*, "if you build it (mesh network infrastructure), they will come".
 
-![A map of east Dorset showing the locations of Meshtastic nodes](/blog/2024/meshtastic-map.png){: .center}
+![A map of east Dorset showing the locations of Meshtastic nodes](/img/blog/2024/meshtastic-map.png){: .center}
 
 Until then, much like with my other passive monitoring radio projects, I'm just here to see what I can pick up, and hoping for some unusual propagation.

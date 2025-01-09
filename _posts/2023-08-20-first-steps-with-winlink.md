@@ -2,7 +2,7 @@
 layout: post
 title: First Steps with Winlink
 date: 2023-08-20 15:59 +0100
-image: /blog/2023/varahf-small.jpg
+image: /img/blog/2023/varahf-small.jpg
 tags:
   - radio
   - hamradio
@@ -22,7 +22,7 @@ A couple of things that weren't covered by that page, and therefore I had to fig
 2. ARDOP is the protocol recommended by the tutorial, and most of my time was spent trying to get a connection via this method. I eventually gave up and tried Vara HF instead, which requires a separate download of the software modem (compared to ARDOP which is built-in). Vara HF is a bit of an oddity in ham radio software in that it costs quite a bit and nags you to buy the full version, but even with the free limited version I was much more successful in connecting with Vara HF than I was with ARDOP.
 3. If you want to send email to a Winlink address from the outside world, the Winlink user first needs to [add the email address to their whitelist](https://winlink.org/content/how_manage_your_whitelist_spamcontrol) as a spam prevention measure. The telnet (internet-connected) mode of Winlink can be useful at this point to avoid chewing up the airwaves with managing your blocklist. The email sender can also [start the subject line with `//WL2K`](https://winlink.org/HELP) to send it regardless.
 
-![Vara HF in use](/blog/2023/varahf.jpg){: .center}
+![Vara HF in use](/img/blog/2023/varahf.jpg){: .center}
 
 *The Vara HF interface when connected (very slowly) to a Winlink gateway*
 

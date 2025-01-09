@@ -21,7 +21,7 @@ It feels odd to be writing about [Minecraft](http://www.minecraft.net) in 2014. 
 
 Today though, for the first time, I saw Minecraft through the eyes of a child.
 
-![First steps in Minecraft](/blog/2014/02/minecraft-1.jpg){: .center}
+![First steps in Minecraft](/img/blog/2014/02/minecraft-1.jpg){: .center}
 
 Raised on a self-imposed diet of videogames since they were old enough to shake a Wiimote, our kid has never had the enthusiasm for Lego that I did at his age. While I would disappear to my room for an afternoon to build, they always wanted to spend it with gamepad in hand. On occasion I despaired for the coming generation. I worried that their entertainment had become so pre-packaged and targeted that they wouldn't want to create their own games. How could silent, limited, awkward Lego sets compare against a million man-hours of Nintendo's finest creators delivering pure entertainment?
 
@@ -29,7 +29,7 @@ But now I sit and watch a child at work, and I know how wrong I was.
 
 As night falls, the character flies up over the landscape and looks down to behold all that he has created. Torches spread out across the world like the fires of a nascent civilisation, casting light upon those things that human hands have built.
 
-![Torch-lit buildings at night](/blog/2014/02/minecraft-3.png){: .center}
+![Torch-lit buildings at night](/img/blog/2014/02/minecraft-3.png){: .center}
 
 There are houses, now, where once there was only grass. Some of the roofs are made of coal and supported only by bookshelves and hay bales, but they are houses nonetheless. They are dry when the rain pours outside. There was a bed for the character to rest in, but now there are more than a dozen&mdash;for the character's parents, siblings and cousins, they explain.
 
@@ -39,7 +39,7 @@ The environment, once wild and random, was being tamed.
 
 Then they noticed that water would flow if the ground around it was removed. The great lakes of the world could be channeled. The tunnel became a great underground river, bringing water near to the houses of the people.
 
-![Terraforming](/blog/2014/02/minecraft-4.png){: .center}
+![Terraforming](/img/blog/2014/02/minecraft-4.png){: .center}
 
 He built a black-lined room carved out of a hill, and decorated each block with a torch.<br/>
 "It's a Christian place," they explain. "My character is a Christian."<br/>
@@ -49,7 +49,7 @@ Dawn breaks. Among the high forest canopies there now stands something else&mdas
 
 The land was tamed, now; the world mastered. And so the one-man civilisation had reached for the stars.
 
-![A Tower Taller than the Clouds](/blog/2014/02/minecraft-2.png){: .center}
+![A Tower Taller than the Clouds](/img/blog/2014/02/minecraft-2.png){: .center}
 
 I am no longer under the illusion that neat, [rail-roaded](http://tvtropes.org/pmwiki/pmwiki.php/Main/Railroading) videogame adventures will leave us a generation lacking the desire to create for themselves.
 
@@ -57,4 +57,4 @@ They may not spend their afternoons building Lego cars, but that's okay. Within 
 
 I think our children's generation will be *just fine*.
 
-![Stained glass bridge](/blog/2014/02/minecraft-5.png){: .center}
+![Stained glass bridge](/img/blog/2014/02/minecraft-5.png){: .center}

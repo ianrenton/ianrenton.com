@@ -19,11 +19,11 @@ tags:
 
 Late last night, my wife thrust into my hands a bottle of something called ["Quick Energy"](http://www.quickenergy.co.uk), with instructions that I should drink it in the morning, and a minor warning that it might be _absolutely disgusting_.  Well, as a man who is still trying to track down a way of importing [Four Loko](http://en.wikipedia.com/wiki/Four_(energy_drink)), I guess I have no grounds to decline this.
 
-[![Quick Energy Bottle](/blog/2011/08/wpid-IMG_20110815_064224-224x300.jpg)](/blog/2011/08/wpid-IMG_20110815_064224.jpg)
+[![Quick Energy Bottle](/img/blog/2011/08/wpid-IMG_20110815_064224-224x300.jpg)](/blog/2011/08/wpid-IMG_20110815_064224.jpg)
 
 The reverse of the bottle informs me that it contains about as much caffeine as "a cup of premium coffee", which as the actual value is 175mg, I am taking to mean "a bucket of filter coffee, premium or otherwise".  It also informs me that "phenylketonurics" may be a word, so if nothing else this vile swill has expanded my vocabulary.
 
-[![Bottle (Back Left)](/blog/2011/08/wpid-IMG_20110815_064239-224x300.jpg)](/blog/2011/08/wpid-IMG_20110815_064239.jpg) [![Bottle (Back Right)](/blog/2011/08/wpid-IMG_20110815_064315-224x300.jpg)](/blog/2011/08/wpid-IMG_20110815_064315.jpg)
+[![Bottle (Back Left)](/img/blog/2011/08/wpid-IMG_20110815_064239-224x300.jpg)](/blog/2011/08/wpid-IMG_20110815_064239.jpg) [![Bottle (Back Right)](/blog/2011/08/wpid-IMG_20110815_064315-224x300.jpg)](/blog/2011/08/wpid-IMG_20110815_064315.jpg)
 
 A "niacin flush" is also apparently a thing, which the internet confirms for me.  The bottle describes it as "a warm feeling and skin redness", while some websites describe it as ["annoying, sometimes downright painful"](http://mens-total-fitness.com/niacin-flush.html), but hey, it's getting towards the time of day when I'd happily settle for being lobster-red and in pain for the cause of getting some caffeine inside me.  On which note it suggests I "limit caffeinated products to avoid... occasional rapid heart rate", which seems like it's defeating the point, really.
 
@@ -31,7 +31,7 @@ Taurine is its third most major ingredient, which is a little disconcerting, and
 
 Oh, yeah, and it's eight months out of date.
 
-[![Expires, er... Never Mind.](/blog/2011/08/wpid-IMG_20110815_064355-e1313408904563-300x224.jpg)](/blog/2011/08/wpid-IMG_20110815_064355.jpg)
+[![Expires, er... Never Mind.](/img/blog/2011/08/wpid-IMG_20110815_064355-e1313408904563-300x224.jpg)](/blog/2011/08/wpid-IMG_20110815_064355.jpg)
 
 But hey, it's not like anything on that list of ingredients actually goes off.
 

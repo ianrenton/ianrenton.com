@@ -2,7 +2,7 @@
 layout: post
 title: "POTA Activation Report: Studland Heath"
 date: 2024-08-14 08:56 +0100
-image: /blog/2024/studland-small.jpg
+image: /img/blog/2024/studland-small.jpg
 slug: pota-activation-report-studland-heath
 description: "This is a ridiculously nice part of the world, isn't it?"
 tags:
@@ -15,7 +15,7 @@ tags:
 Despite living here on the Dorset coast all my life, when we pick a place to do this POTA nonsense and head out, I still get a bit of a rush when I think that all this beauty is just there, a few minutes down the road, for everyone to enjoy.
 
 <br/>
-![View of Studland and Knoll Beach from the North, over a bank of heath](/blog/2024/studland.jpg){: .center}
+![View of Studland and Knoll Beach from the North, over a bank of heath](/img/blog/2024/studland.jpg){: .center}
 *View of Studland and Knoll Beach from the North*
 
 I guess that's what this is all about, isn't it?
@@ -27,7 +27,7 @@ The drive out was an odd one. Despite being a sunny day in the school holidays w
 (The café has a now common phrasing on a sign by the door: "Assistance dogs welcome, but please leave your furry friends outside." Signwriters, I beg you, spend some time on the internet before you write things like that.)
 
 <br/>
-![Sandy path up through a bank of heath](/blog/2024/studland2.jpg){: .center}
+![Sandy path up through a bank of heath](/img/blog/2024/studland2.jpg){: .center}
 *Off up onto the heath we go*
 
 I chose, as usual, to wander off onto less-used trails until we could find ourself a quiet spot. This has worked well so far; we have had some interested looks from passers-by on this and other activations, but never anyone coming to ask us what we're doing, or (worst of all) if we are *allowed* to be doing it. This is POTA activation number four, and I still dread it happening one day.
@@ -35,7 +35,7 @@ I chose, as usual, to wander off onto less-used trails until we could find ourse
 We found a sandy hollow in between banks of heather that looked a perfect size for our 20/40m inverted-V dipole antenna, and set up our station and our picnic blanket for the next couple of hours.
 
 <br/>
-![Radio equipment in the foreground, antenna pole somewhat out of focus in the background.](/blog/2024/studland3.jpg){: .center}
+![Radio equipment in the foreground, antenna pole somewhat out of focus in the background.](/img/blog/2024/studland3.jpg){: .center}
 *Our portable station equipment: Yaesu FT-891, Ecoworthy 20Ah LiFePO4 battery, Sotabeams Band Hopper II antenna and Tactical Mini mast, paper log.*
 
 As usual, the 40m band was productive for a while, despite the weekend's geomagnetic storms still not having fully abated. Also as usual: after calls started to drop off, we switched to 20m and then spent the next half hour wondering why 20m was so bad for us.
@@ -58,12 +58,12 @@ It was great to finally get some contacts with people further afield at last, pa
 
 We ended up with 14 contacts over a couple of hours, three done entirely by my daughter under supervision, who is becoming much less mic-shy than on previous trips!
 
-<div class="breakout-full-width"><center><img src="/blog/2024/studland4.jpg" alt="Panoramic view of Bournemouth &amp; Poole coastline from Knoll Beach" style="width:100%"/></center></div>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/studland4.jpg" alt="Panoramic view of Bournemouth &amp; Poole coastline from Knoll Beach" style="width:100%"/></center></div>
 
 After packing up the station, we hiked round the heath for a bit, stopping by the Little Sea. This is a freshwater lake, home to Dartford warblers and now beavers, and is pretty big compared to the size of the rest of the heath! But without making its presence obvious, either from the beach or the road, it gets overlooked by the majority of tourists here. We didn't see any of the more exciting wildlife, but it's a nice place to visit nonetheless.
 
 <br/>
-![View of a lake with many reeds by the shore](/blog/2024/studland5.jpg){: .center}
+![View of a lake with many reeds by the shore](/img/blog/2024/studland5.jpg){: .center}
 *View westward over the Little Sea towards the Purbecks*
 
 Thanks to all our contacts today:
@@ -231,6 +231,6 @@ Thanks to all our contacts today:
 </table>
 </center></div>
 
-![Map of contacts](/blog/2024/studland-map.png){: .center}
+![Map of contacts](/img/blog/2024/studland-map.png){: .center}
 
 See you on the air next time!

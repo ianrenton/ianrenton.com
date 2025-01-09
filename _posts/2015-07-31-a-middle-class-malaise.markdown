@@ -17,7 +17,7 @@ It occurs to me, as I sit and mope about the fact that I still don't own a littl
 
 By some round-about route involving heavily rose-tinted spectacles, I've come of age with the idea that the baseline against which the quality of one's childhood should be compared is, essentially, the adventures of Enid Blyton's *Famous Five*.
 
-![](/blog/2015/famousfive.jpg){: .right}
+![](/img/blog/2015/famousfive.jpg){: .right}
 
 My own kids' childhood should be like theirs (of course!) otherwise I'm somehow lacking as a parent. The locations in the stories are based on real places that are just down the road, places we can really go and have adventures, and real cottages in the middle of the countryside that it must be *possible* to live in. So I quietly despair that we can only afford a town-centre flat, and that my child prefers playing Minecraft to going outside.
 

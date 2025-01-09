@@ -2,7 +2,7 @@
 layout: post
 title: "Billy Bass Basket Case (Alt. Ver.)"
 date: 2024-12-18 13:49 +0000
-image: /blog/2024/billybass-closeup.jpg
+image: /img/blog/2024/billybass-closeup.jpg
 slug: billy-bass-basket-case-alt-ver
 description: "Who did it better? (Yeah, them.)"
 tags:

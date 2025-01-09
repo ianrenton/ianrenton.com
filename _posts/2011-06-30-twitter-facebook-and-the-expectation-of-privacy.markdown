@@ -19,11 +19,11 @@ tags:
 
 I've been asked a couple of times why it is that my status posts on Facebook are locked down, visible only to friends or sometimes friends-of-friends:
 
-[![Facebook post](/blog/2011/06/fb.png)](/blog/2011/06/fb.png)
+[![Facebook post](/img/blog/2011/06/fb.png)](/blog/2011/06/fb.png)
 
 ...but yet with the same button-click that I post to Facebook, I post exactly the same thing, publicly, on Twitter:
 
-[![Twitter post](/blog/2011/06/twitter.png)](/blog/2011/06/twitter.png)
+[![Twitter post](/img/blog/2011/06/twitter.png)](/blog/2011/06/twitter.png)
 
 Surely that's undoing all the good of my Facebook privacy settings?
 

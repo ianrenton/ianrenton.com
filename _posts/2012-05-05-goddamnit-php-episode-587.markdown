@@ -52,4 +52,4 @@ When SuccessWhale sends that `in_reply_to_status_id` value back to Twitter, whic
 
 Luckily, Twitter pre-empted this issue and provides a `in_reply_to_status_id_str` field: exactly the same number, but as a string rather than an integer.  PHP is perfectly happy to handle very large numbers as strings -- and, on line 4 of the example code above, perfectly happy to compare that string to zero.
 
-![Why, PHP? Just why?](/blog/2012/05/wpid-meme4697357194.jpg){: .center}
+![Why, PHP? Just why?](/img/blog/2012/05/wpid-meme4697357194.jpg){: .center}

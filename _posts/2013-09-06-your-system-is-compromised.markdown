@@ -44,7 +44,7 @@ So here's the long version. If you feel like there should be a secure way of com
 * A big shout out to all the Ubuntu users who feel good about themselves now. *It's a good job you don't run any proprietary graphics drivers, right?*
 * Get the warm fuzzies when you see that little padlock icon in your browser? I hope you've reviewed your browser's Certificate Authority list and made sure none are **[hacked](http://threatpost.com/final-report-diginotar-hack-shows-total-compromise-ca-servers-103112/77170)** or **[in bed with the Chinese government](https://freedom-to-tinker.com/blog/felten/mozilla-debates-whether-trust-chinese-ca/)**.
 
-![Certificate Authority list in Firefox 23.0](/blog/2013/09/firefox-ca-list.png){: .center}
+![Certificate Authority list in Firefox 23.0](/img/blog/2013/09/firefox-ca-list.png){: .center}
 
 * Have you gone the extra mile, using only Tor darknet sites to ensure your privacy? **[Compromised.](http://yro.slashdot.org/story/13/08/04/2054208/half-of-tor-sites-compromised-including-tormail)**
 * More broadly, have you communicated by unencrypted phone, fax or e-mail *at any time since the 1960s*? **[Compromised.](https://en.wikipedia.org/wiki/ECHELON)**

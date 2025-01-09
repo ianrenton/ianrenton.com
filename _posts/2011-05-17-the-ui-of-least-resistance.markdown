@@ -26,7 +26,7 @@ tags:
 
 I was working up to a blog post on [Ubuntu](http://ubuntu.com)'s new "Unity" interface a couple of days ago, but repeatedly stalled when it came to making a point.  The only point I could come up with was essentially just "I don't like this", which isn't the greatest of subjects for a blog post -- to say nothing of the hundreds who have trodden that territory before me.
 
-![](/blog/2011/05/ubuntu-unity-apps2.png){: .center}
+![](/img/blog/2011/05/ubuntu-unity-apps2.png){: .center}
 
 It's a fairly bold new direction for Ubuntu's UI, and the first time their default interface has really diverged from what the upstream GNOME project provides.  Now I don't like it for a number of reasons: it's slow, it doesn't provide some basic functionality, other functionality is really well hidden (Go on, re-order your icons. Try it.) and it's got an "our way or nothing" approach to handling workspaces.
 
@@ -34,11 +34,11 @@ On one hand, as a software guy whose main specialisation is user interface desig
 
 Take, for example, me.  I'm a UX person, and a perfectionist when it comes to interfaces.  I'm irritated by slightly-wrong fonts and icons a couple of pixels out of alignment. I love new things, new ways of organising and displaying data. I'm big on augmented reality. And my desktop looks like this:
 
-![Bare XFCE Desktop](/blog/2011/05/desktop1.png){: .center}
+![Bare XFCE Desktop](/img/blog/2011/05/desktop1.png){: .center}
 
 Now I think that's aesthetically pleasing, but in terms of functionality, it resembles nothing quite so much as:
 
-![Windows 95 desktop](/blog/2011/05/Am_windows95_desktop.png){: .center}
+![Windows 95 desktop](/img/blog/2011/05/Am_windows95_desktop.png){: .center}
 
 Yeah, that.
 

@@ -2,7 +2,7 @@
 layout: post
 title: New Callsign Day!
 date: 2024-06-19 21:45 +0000
-image: /blog/2024/m0trt.jpg
+image: /img/blog/2024/m0trt.jpg
 tags:
   - ham-radio
   - radio

@@ -2,7 +2,7 @@
 layout: post
 title: Making Meteograms in Python
 date: 2023-04-09 08:58 +0100
-image: /blog/2023/meteogram-small.png
+image: /img/blog/2023/meteogram-small.png
 tags:
   - software
   - hardware
@@ -22,7 +22,7 @@ For once I've decided to do some software development *first* rather than rushin
 
 You can [see the source code here](https://github.com/ianrenton/python-metoffice-meteogram).
 
-![A Meteogram image showing temperature, precipitation and wind speed for five days](/blog/2023/meteogram.png)
+![A Meteogram image showing temperature, precipitation and wind speed for five days](/img/blog/2023/meteogram.png)
 *A Meteogram image showing temperature, precipitation and wind speed for five days*
 
 My current plan is to output the Meteogram as a static image, and use a utility such as `feh` to render it on the screen. This very basic approach should mean it can be run without issues on an original Raspberry Pi B, of which I have several lying around, rather than needing my spare Pi 4 which would probably be required for a more interactive display.

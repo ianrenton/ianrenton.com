@@ -2,7 +2,7 @@
 layout: post
 title: "A Combined ADS-B and AIS Map: The Hacky Way"
 date: 2024-08-12 10:56 +0100
-image: /blog/2024/ais2adsb-small2.png
+image: /img/blog/2024/ais2adsb-small2.png
 slug: a-combined-adsb-and-ais-map-the-hacky-way
 description: "Just because you can, doesn't mean you should."
 tags:
@@ -21,7 +21,7 @@ So can we get ships appearing in a `tar1090` map?
 
 The answer is, as I'm sure you're expecting: "Yes, but..."
 
-<div class="breakout-full-width"><center><img src="/blog/2024/ais2adsb.png" alt="tar1090 map showing aircraft and ships" style="width:100%"/></center></div>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/ais2adsb.png" alt="tar1090 map showing aircraft and ships" style="width:100%"/></center></div>
 
 As you might imagine, there are some limitations to doing it this way. After all, displaying ships and aircraft simultaneously with the appropriate fields and persistence was exactly what I developed [Plane/Sailing](/hardware/planesailing) for. But without going to the extent of running that on the server side, what did we achieve?
 

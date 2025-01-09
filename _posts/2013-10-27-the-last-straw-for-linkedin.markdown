@@ -14,7 +14,7 @@ tags:
 - Social Networks
 ---
 
-![LinkedIn Intro in action (picture from LinkedIn blog)](/blog/2013/10/linkedin-intro.png){: .right}
+![LinkedIn Intro in action (picture from LinkedIn blog)](/img/blog/2013/10/linkedin-intro.png){: .right}
 
 If you've been paying attention to technology-related news recently, you may have noticed that social network [LinkedIn](https://www.linkedin.com) has released a new app for iOS devices called "[Intro](http://blog.linkedin.com/2013/10/23/announcing-linkedin-intro/)". It's a handy tool for people who do a lot of work-related email on their iDevice, as it embeds information from LinkedIn into your emails so you can get a summary of who you're talking to.
 
@@ -24,7 +24,7 @@ In these times where online privacy and security are the subject of [worldwide h
 
 But this is just the latest in a long line of dubious methods used by LinkedIn to find connections between its users. It has been accused of [sending email on users' behalf without permission](http://www.theverge.com/2013/9/21/4756212/linkedin-accused-of-hacking-user-email-lawsuit) &mdash; indeed, handing over the password to your GMail and Hotmail accounts (ostensibly to harvest your address book) is one of the steps it recommends when you sign up. LinkedIn also [uses names and photos in advertising](http://tempguest.blogspot.co.uk/2011/09/how-to-stop-linkedin-from-using-your.html) by default, and comments on Reddit even say that LinkedIn is recommending people [connect with former residents of their apartment](http://www.reddit.com/r/technology/comments/1p6x7o/linkedin_intro_app_reconfigures_your_device_so/cczozqv) based on their common IP address.
 
-![LinkedIn requesting to connect to GMail](/blog/2013/10/linkedin-link-mail.png){: .center}
+![LinkedIn requesting to connect to GMail](/img/blog/2013/10/linkedin-link-mail.png){: .center}
 
 Added to that list of privacy failings, the [2012 breach of LinkedIn's database](http://www.reuters.com/article/2012/06/06/net-us-linkedin-breach-idUSBRE85511820120606) revealed a major security failing, in that user accounts were stored as unsalted SHA-1 hashes, many of which were easily compromised.
 

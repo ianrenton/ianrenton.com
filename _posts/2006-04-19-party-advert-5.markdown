@@ -10,4 +10,4 @@ categories:
 - Personal
 ---
 
-<img src="/blog/2006/bday-ad-dnf.jpg"/>
+<img src="/img/blog/2006/bday-ad-dnf.jpg"/>

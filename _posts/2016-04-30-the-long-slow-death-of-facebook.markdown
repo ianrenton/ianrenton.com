@@ -21,17 +21,17 @@ All I really want to see is real status updates!</blockquote>
 
 In essence, I was fed up of every day scrolling past a wall of this:
 
-![](/blog/2016/facebook1.png){: .center}
+![](/img/blog/2016/facebook1.png){: .center}
 
 It turns out that Facebook's controls for the news feed are pretty terrible. If a friend of mine comments on a non-friend's post, "likes" it, or worst of all "reacts to" it, that's automatically considered newsworthy for me. Facebook offers no way to customise the feed to remove these kind of posts.
 
 You can, however, choose to hide all posts from certain *people*, including those not on your friends list. So based on the advice I received, I started "hiding all from" everyone I didn't recognise who appeared in my news feed.
 
-![](/blog/2016/facebook2.png){: .center}
+![](/img/blog/2016/facebook2.png){: .center}
 
 I've done this almost every day for the last couple of weeks, and in a way, it has been very successful. Almost all the strangers' profile pic changes and distant events have gone, there's fewer clickbait posts and memes, and mercifully almost no Minions at all.
 
-![](/blog/2016/minion.jpg){: .center}
+![](/img/blog/2016/minion.jpg){: .center}
 
 But what's left?
 

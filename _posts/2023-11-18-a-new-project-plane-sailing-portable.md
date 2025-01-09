@@ -2,7 +2,7 @@
 layout: post
 title: A New Project&#58; Plane/Sailing Portable
 date: 2023-11-18 09:41 +0000
-image: /blog/2023/plane-sailing-portable-bits-small.jpg
+image: /img/blog/2023/plane-sailing-portable-bits-small.jpg
 tags:
   - radio
   - hamradio
@@ -30,7 +30,7 @@ All of these thoughts got me wondering, what's the *smallest* receiver I could m
 
 SDR dongles and Raspberry Pi Zeroes are about the same footprint, could I make a small neat stack of parts in that size that could function as an extra, portable input to the Plane/Sailing System?
 
-![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle](/blog/2023/plane-sailing-portable-bits.jpg){: .center}
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle](/img/blog/2023/plane-sailing-portable-bits.jpg){: .center}
 
 *A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle, nearly ready to be assembled.*
 

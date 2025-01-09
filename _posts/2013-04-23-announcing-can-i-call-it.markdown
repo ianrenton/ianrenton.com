@@ -36,7 +36,7 @@ Meet CICI, or "Can I Call it...?"
 
 CICI is a simple website. You give it a name you would like to use for your project, it checks against a bunch of services, and tells you if your name is unique -- i.e., you _can_ call it that -- or not.
 
-[![CICI Results Page](/blog/2013/04/Screen-shot-2013-04-23-at-22.17.26.png)](/blog/2013/04/Screen-shot-2013-04-23-at-22.17.26.png)
+[![CICI Results Page](/img/blog/2013/04/Screen-shot-2013-04-23-at-22.17.26.png)](/blog/2013/04/Screen-shot-2013-04-23-at-22.17.26.png)
 
 Currently, CICI looks up information on packages and projects using [Github](https://github.com), [SourceForge](http://sourceforge.net), [Ruby Gems](http://rubygems.org), [PyPI](http://pypi.python.org), [Maven](http://search.maven.org), [Debian](http://packages.debian.org) and [Fedora](https://admin.fedoraproject.org/pkgdb), but it's easy to add more.  CICI itself is a simple Ruby script (full of ugly hacks, as is befitting for a program that I knocked together in a few hours), which you can [download and contribute to on GitHub](https://github.com/ianrenton/canicallit). It's all [BSD-licenced](https://github.com/ianrenton/canicallit/blob/master/LICENCE.md).
 

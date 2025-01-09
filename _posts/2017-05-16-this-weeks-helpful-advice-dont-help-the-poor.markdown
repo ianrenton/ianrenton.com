@@ -14,7 +14,7 @@ tags:
 
 Our local newspaper, the [Bournemouth Echo](http://www.bournemouthecho.co.uk/) (beware of annoying ads & trackers), is as ever a font of useful advice. This week it comes from the police, who are letting us know that *[helping the poor is a bad thing](http://www.bournemouthecho.co.uk/news/15281832._Don_t_hand_over_money_to_the_homeless___police_warn__as_professional_begging_rises_across_Bournemouth/)*. Now I'm not too upset with the usual idea trotted out, of offering food and drink to beggars instead of money lest they spend the money on booze and drugs. But apparently even that is now discouraged.
 
-![Extract from linked Bournemouth Echo page](https://ianrenton.com/blog/2017/begging.png){: .center}
+![Extract from linked Bournemouth Echo page](https://ianrenton.com/img/blog/2017/begging.png){: .center}
 
 Now I'm not sure whether "professional begging" is really a major problem, but as I understand it a "professional beggar" is someone who has no better way of making money than braving the streets, risking abuse, violence and inclement weather, begging strangers to spare enough cash that they can get by. Sure, they may have a place to go back to at night, putting them one step higher on the poverty ladder than the homeless. But does that make them somehow undeserving of help? Does it make them *so* undeserving of help that we are advised not to give food to any beggar, just in case they should be a "professional" and not a "real" homeless person?
 

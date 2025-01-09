@@ -48,6 +48,6 @@ Let's rehash some old arguments:
 
 So Cameron, Clegg et al, please just let this one die.  It was a bad plan to begin with, that's why you promised _not_ to do it.  And before you come up with the next plan to foil online terrorist collaboration, please learn what how the internet works and what is and isn't sensible to do to it.
 
-![Learn Internet](/blog/2010/10/learn_internet-300x200.jpg)
+![Learn Internet](/img/blog/2010/10/learn_internet-300x200.jpg)
 
 For anyone who'd like to sign _another_ petition against the Intercept Modernisation Plan, [the Open Rights Group campaign is here](http://action.openrightsgroup.org/ea-campaign/clientcampaign.do?ea.client.id=1422&ea.campaign.id=8227).

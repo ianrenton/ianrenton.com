@@ -18,7 +18,7 @@ tags:
 
 The other day, a bout of online drama made me wonder if it wouldn't be a good idea to make my online activities a little more private -- hide [my Twitter feed](http://twitter.com/tsuki_chama), for example, and maybe un-friend some people on [Facebook](http://facebook.com) to restrict it to just my "core" friends.
 
-[![Facebook Friends List](/blog/2012/01/facebook-friends.png)](/blog/2012/01/facebook-friends.png)
+[![Facebook Friends List](/img/blog/2012/01/facebook-friends.png)](/blog/2012/01/facebook-friends.png)
 
 > Do I actually want to know what 281 people are doing?
 
