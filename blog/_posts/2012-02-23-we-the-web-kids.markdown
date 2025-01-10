@@ -4,8 +4,6 @@ date: 2012-02-23 18:51:15
 layout: post
 slug: we-the-web-kids
 title: We, the Web Kids
-
-- Internet
 tags:
 - Activism
 - Democracy

@@ -4,8 +4,6 @@ date: 2011-03-28 13:04:05
 layout: post
 slug: when-science-met-big-society
 title: When Science met Big Society
-
-- Science
 tags:
 - Big Society
 - Government

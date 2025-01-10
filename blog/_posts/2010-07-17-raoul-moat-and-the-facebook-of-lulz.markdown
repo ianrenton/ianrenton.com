@@ -4,8 +4,6 @@ date: 2010-07-17 19:17:30
 layout: post
 slug: raoul-moat-and-the-facebook-of-lulz
 title: Raoul Moat and the Facebook of Lulz
-
-- Internet
 tags:
 - Facebook
 - Internet

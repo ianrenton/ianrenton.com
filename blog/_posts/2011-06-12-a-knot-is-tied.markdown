@@ -4,8 +4,6 @@ date: 2011-06-12 01:32:59
 layout: post
 slug: a-knot-is-tied
 title: A Knot is Tied
-
-- Personal
 tags:
 - Marriage
 - Personal

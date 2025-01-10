@@ -1,0 +1,19 @@
+---
+comments: true
+date: 2007-10-06 14:04:30
+layout: post
+slug: asynrir
+title: Asynrir
+tags:
+- Character
+- Dreaming Awake
+---
+
+<p><img src="/fiction/characters/portraits/asynrir.png" style="float:right" /></p>
+<h2>Introduction</h2>
+<div>
+<p>"And what, exactly, is standing around chatting going to solve?  Nothing?  Exactly!  Let&#039;s get going, then!  We&#039;ve got thirty miles to cover before sunset!"</p>
+<p>Honestly, someone has to get this lot in shape.  I don&#039;t know what obscure twist of fate brought us together to do this job, but Fate has clearly not led an army before.  Or, he has a cruel sense of humour.</p>
+<p>"Come on!  What was it we&#039;re supposed to be doing?  Oh yes, <i>saving the world</i>.  Won&#039;t get done sitting in a field!"</p>
+<p>I&#039;ve fought alongside them, and some of them aren&#039;t half bad.  But there&#039;s clearly been no training going on.  Battlefield awareness, sorry, looks like nobody&#039;s heard of that.  So that&#039;s why I&#039;m here.  I&#039;m sure they hate me for it right now, but someone&#039;s got to take this lazy-arsed rabble and turn them into a respectable force.  There&#039;s a war on right now, in case you hadn&#039;t noticed, and the last thing I want to do is let some army or other get in our way!</p>
+</div>

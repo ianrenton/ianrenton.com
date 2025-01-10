@@ -4,9 +4,6 @@ date: 2011-01-10 00:42:06
 layout: post
 slug: the-rise-and-fall-of-livejournal
 title: The Rise and Fall of LiveJournal
-
-- Internet
-- Personal
 tags:
 - Blogging
 - Internet

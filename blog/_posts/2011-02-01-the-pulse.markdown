@@ -4,8 +4,6 @@ date: 2011-02-01 16:26:49
 layout: post
 slug: the-pulse
 title: The Pulse
-
-- Internet
 tags:
 - Datajacks
 - Egypt

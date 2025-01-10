@@ -1,0 +1,17 @@
+---
+comments: true
+date: 2007-10-06 14:07:43
+layout: post
+slug: caramel
+title: Caramel
+tags:
+- Character
+- Dreaming Awake
+---
+
+<p><img src="/fiction/characters/portraits/caramel.png" style="float:right" /></p>
+<h2>Introduction</h2>
+<div>
+<p>"I have always lived by the beach, and by the sea, and I&#039;d never want to live anywhere else. I always tries to live life to the full, and I&#039;m usually happy even in the rare moments when I&#039;m not actively bouncing!  I have a kind of unusual power that... sort of means I can see things as if I were sunlight - with a little effort, I can see things wherever sunlight falls.  It&#039;s possible that someone, somewhere could explain how and why.  But I don&#039;t think I would be interested - I&#039;m happy with life just the way it is.</p>
+<p>"Living at home is good, school is good, playing on the beach is good, parents are good, even living with that numbskull Shao for a brother isn&#039;t too bad!"</p>
+</div>

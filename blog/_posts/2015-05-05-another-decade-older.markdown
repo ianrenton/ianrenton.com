@@ -3,8 +3,6 @@ layout: post
 title: "Another Decade Older"
 date: 2015-05-05 23:00
 comments: true
-
-- Personal
 tags:
 - Aging
 - Childhood

@@ -4,7 +4,6 @@ slug: successwhale-com-discontinued-as-of-today
 id: 3793
 date: '2017-12-30 10:31:57'
 layout: post
-  - Blog
 tags:
   - Facebook
   - Internet

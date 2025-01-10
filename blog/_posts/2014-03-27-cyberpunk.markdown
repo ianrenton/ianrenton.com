@@ -3,9 +3,6 @@ layout: post
 title: "Cyberpunk"
 date: 2014-03-27 21:06
 comments: true
-
-- Internet
-- Writing
 tags:
 - Cyberpunk
 - Future

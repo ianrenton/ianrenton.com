@@ -1,0 +1,29 @@
+---
+comments: true
+date: 2007-10-07 16:51:24
+layout: post
+slug: rachel
+title: Rachel
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="/fiction/characters/avatars/rachel.png" /></td>
+<td valign="top">
+<h2>Vital Statistics</h2>
+<p>Name: Rachel<br />
+Species: Human<br />
+Sex: Female<br />
+Age: 16<br />
+Birthday: February 27th<br />
+Height: 5 feet 7 inches<br />
+Weight: 110 pounds</p></td>
+</tr>
+</table>
+<h2>Rachel&#039;s Card</h2>
+<p>Rachel&#039;s card, Temperance, is the 14th card of the Major Arcana in what people tend to recognise as a "standard" Tarot deck. Here, it symbolises her peaceful and non-confrontational personality.</p>
+<h2>Author&#039;s Notes</h2>
+<p>Rachel is a character I feel uneasy about. She&#039;s one of the character concepts that came out of the Fanfic idea originally, and thus is a character that was invented by someone other than me. The reason for the uneasiness is that I&#039;ve never met this person and I have no idea how to contact her, and I&#039;ve also lost her original character description. All I&#039;m left with is a memory of the character&#039;s name, species, sex, elemental affiliation (Earth, in this case) and the idea that she used a glaive as a weapon. So, over the course of sorting out the characters for Dreaming Awake, I&#039;ve redesigned Rachel several times over, and I&#039;m sure I&#039;m probably getting further and further away from the original concept that she gave me. Hopefully, if she ever gets to read Dreaming Awake, she won&#039;t be disappointed with what I&#039;ve done... </p>

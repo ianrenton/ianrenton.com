@@ -3,10 +3,6 @@ layout: post
 title: "The End of the Road for SuccessWhale's Facebook Support?"
 date: 2015-03-07 17:16
 comments: true
-
-- Software
-- Projects
-- Internet
 tags:
 - SuccessWhale
 - API

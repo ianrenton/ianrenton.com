@@ -3,8 +3,6 @@ layout: post
 title: "Gathering Dusk"
 date: 2014-10-31 22:29
 comments: true
-
-- Seasonal
 tags:
 - Autumn
 - Dusk

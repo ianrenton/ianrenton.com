@@ -4,9 +4,6 @@ date: 2010-11-04 21:59:31
 layout: post
 slug: waning-technological-desire
 title: Waning Technological Desire
-
-- Internet
-- Personal
 tags:
 - Decision-making
 - Galaxy Tab

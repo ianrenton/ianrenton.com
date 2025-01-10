@@ -4,8 +4,6 @@ date: 2011-03-25 11:17:23
 layout: post
 slug: debt-rating-for-the-internet-age
 title: Debt Rating for the Internet Age
-
-- Internet
 tags:
 - Debt Rating
 - Economics

@@ -3,10 +3,6 @@ layout: post
 title: "State of the Whale Address"
 date: 2014-04-30 20:46
 comments: true
-
-- Software
-- Projects
-- Internet
 tags:
 - SuccessWhale
 - Facebook

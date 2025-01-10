@@ -3,9 +3,6 @@ layout: post
 title: "Whatever Happened to the Generic PC?"
 date: 2013-11-29 21:57
 comments: true
-
-- Hardware
-- Software
 tags:
 - Hardware
 - Software

@@ -3,10 +3,6 @@ layout: post
 title: "SuccessWhale 3.0 Released"
 date: 2014-05-30 18:33
 comments: true
-
-- Software
-- Projects
-- Internet
 tags:
 - SuccessWhale
 - Release

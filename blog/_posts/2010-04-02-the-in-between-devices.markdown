@@ -4,8 +4,6 @@ date: 2010-04-02 08:25:43
 layout: post
 slug: the-in-between-devices
 title: The In-Between Devices
-
-- Internet
 tags:
 - Gadgets
 - Internet

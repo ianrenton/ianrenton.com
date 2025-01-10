@@ -4,7 +4,6 @@ slug: the-apocalypse-comes-to-weymouth
 id: 1635
 date: '2017-10-16 21:55:51'
 layout: post
-  - Blog
 tags:
   - photo
   - Weather

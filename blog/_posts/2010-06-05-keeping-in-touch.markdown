@@ -4,8 +4,6 @@ date: 2010-06-05 23:24:43
 layout: post
 slug: keeping-in-touch
 title: Keeping in Touch
-
-- Personal
 tags:
 - Friends
 - Idle

@@ -3,10 +3,6 @@ layout: post
 title: "The Last of Last.fm: Seven Years in Pretty Graphs"
 date: 2013-06-30 21:50
 comments: true
-
-- Internet
-- Software
-- Personal
 tags: 
 - last.fm
 - internet

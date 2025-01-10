@@ -3,9 +3,6 @@ layout: post
 title: "Another Summer Gone"
 date: 2013-09-15 20:23
 comments: true
-
-- Personal
-- Seasonal
 tags:
 - Summer
 - Autumn

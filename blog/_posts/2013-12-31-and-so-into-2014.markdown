@@ -3,8 +3,6 @@ layout: post
 title: "And So Into 2014"
 date: 2014-01-01 00:01
 comments: true
-
-- Seasonal
 tags:
 - New Year
 - Christmas

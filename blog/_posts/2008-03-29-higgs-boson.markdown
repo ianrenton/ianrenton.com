@@ -4,8 +4,6 @@ date: 2008-03-29 11:09:00
 layout: post
 slug: higgs-boson
 title: Higgs Boson
-
-- Internet
 ---
 
 Eric bought a plushie Higgs Boson off t'internet.  

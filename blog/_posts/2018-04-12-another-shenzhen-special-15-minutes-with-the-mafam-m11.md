@@ -4,7 +4,6 @@ slug: another-shenzhen-special-15-minutes-with-the-mafam-m11
 id: 3887
 date: '2018-04-12 17:31:30'
 layout: post
-  - Blog
 tags:
   - M11
   - MAFAM

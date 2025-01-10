@@ -4,7 +4,6 @@ slug: automating-the-roast-dinner-timing-chart
 id: 3759
 date: '2017-12-21 22:36:39'
 layout: post
-  - Blog
 tags:
   - Code
   - Cooking

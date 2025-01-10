@@ -1,0 +1,29 @@
+---
+comments: true
+date: 2007-10-07 14:55:38
+layout: post
+slug: lilac
+title: Lilac
+tags:
+- Character
+- Dreaming Awake
+- Exalted
+---
+
+<p><img src="/fiction/characters/portraits/lilac.png" style="float:right" /></p>
+<h2>Introduction</h2>
+
+<div class="story" markdown="1">
+<p>"Lilac is...  Lilac is unique," Skye said, taking over for me when I got all shy.  She tells a story about me that everyone knows, so it must be true, even if I don&#039;t remember it.</p>
+<p>"When she was six years old, she was travelling from one village to the next with her parents.  The snow had been heavy, and the frost thick, loosening the rocks on the canyon walls.  A rock-slide...  A rock-slide killed her parents.  Buried them completely, it was weeks before they were dug out.  But Lilac escaped death, and ran into the forest.  We- nobody knew where she was, for months.  We thought we&#039;d just somehow not seen her body when we were digging.</p>
+<p>"But two months later, she came back to the village.  By luck or some then-unknown skill, she&#039;d lasted that long in the freezing wild.  Her clothes were tattered, and her mind - she was somehow both vacant and intensely focussed, no-one knew what to make of it.  They called her ghost, and demon, and no family would take her in, not even mine.</p>
+<p>"So she hid in the forest near the village, and every day I&#039;d bring her food, and I&#039;d go to play with her, not that she seemed to know the meaning of &#039;play&#039; anymore.  This carried on for years, while I begged my family to take her in.  But they wouldn&#039;t - where we&#039;re from, to invite a ghost in is to damn an entire household to untimely death.</p>
+<p>"When we were 14, we ran away together, and never looked back.  From Lilac depending on me, suddenly we were alone in the wild and it was I that was depending on her for survival.  But we get by, we travel, further and further from home, until we find a place where nobody thinks she&#039;s strange."</p>
+</div>
+<h2>About Lilac</h2>
+<p>After achieving a feat of survival that in a less superstitious culture would be celebrated, Lilac was instead rejected by her community.  She has lived the last ten years living semi-wild, with little human contact, foraging in the forests and surviving on what scraps of food Skye could smuggle out for her when the Winter came.</p>
+<p>Lacking the stabilising effect of other people in her life, she is emotionally disjointed, flicking rapidly from hyperactively happy to a deep gloom.  She cares little for most creatures, humans included, though she would doubtless give her life for Skye in an instant.</p>
+<p>Since she began travelling with her friend, Skye has taught her as much as she can about how to behave in society.  It seems slow to sink in though - she knows what actions to take and which words to say, but it comes across confused, as if she doesn't realise why she has to do them.</p>
+<p>Since she left her home, Lilac has encountered cities and in particular the superior food that can be worked for or stolen there.  Having lived for most of her life on fresh meat and raw vegetables, she has now developed a monumental sweet tooth.</p>
+<h2>Character Sheets</h2>
+<ul><li><a href="/fiction/characters/charsheets/lilac.pdf">Lilac (Dreaming Awake)</a></li></ul>

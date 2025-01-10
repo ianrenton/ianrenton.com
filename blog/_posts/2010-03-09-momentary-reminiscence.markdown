@@ -4,8 +4,6 @@ date: 2010-03-09 14:47:48
 layout: post
 slug: momentary-reminiscence
 title: Momentary Reminiscence
-
-- Personal
 tags:
 - Angst
 - Drama

@@ -3,10 +3,6 @@ layout: post
 title: "Lost in Translation"
 date: 2013-11-05 20:16
 comments: true
-
-- Personal
-- Travel
-- Language
 tags:
 - Language
 - Travel

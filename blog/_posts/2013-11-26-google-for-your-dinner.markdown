@@ -3,8 +3,6 @@ layout: post
 title: "Google for your Dinner"
 date: 2013-11-26 23:24
 comments: true
-
-- Internet
 tags:
 - Roast Dinner
 - Cooking

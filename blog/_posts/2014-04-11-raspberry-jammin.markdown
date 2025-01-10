@@ -3,10 +3,6 @@ layout: post
 title: "Raspberry Jammin'"
 date: 2014-04-11 22:13
 comments: true
-
-- Hardware
-- Software
-- Personal
 tags:
 - Raspberry Pi
 - Raspberry Jam

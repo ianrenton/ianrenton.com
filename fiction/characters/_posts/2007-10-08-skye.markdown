@@ -1,0 +1,21 @@
+---
+comments: true
+date: 2007-10-08 10:57:58
+layout: post
+slug: skye
+title: Skye
+tags:
+- Character
+- Dreaming Awake
+- Exalted
+---
+
+<p><img src="/fiction/characters/portraits/skye.png" style="float:right" /></p>
+<h2>Introduction</h2>
+<div>
+<p>"I, um...  I-I-I-I'm Skye," I mutter, ashamed of stuttering even as I was halfway through doing so.</p>
+<p>Lilac elbowed me in the waist.  "Confident, remember?  Y'supposed to be bein' confident!"</p>
+<p>"Yeah," I said with a sigh.  "Yes, right, I'm Skye.  Once, years ago, I looked after Lilac after her village rejected her.  I was always frail though, and since we've been travelling together, it's been more like her looking after me.</p>
+<p>"We work pretty well together, I think.  When we have to camp, she can find food in the wild, and I can cook it.  When we have to talk to people, I can do the thoughtful bit, and she can do the confident bit.  And as time goes by, I think we're rubbing off on each other.</p>
+<p>"But yes, we're travelling.  Even after ten years, even on reaching adulthood, Lilac was never accepted back home.  So, um...  We ran away.  We've been on the road ever since.  When, one day, we find a little village or a big city where no-one thinks she's weird, there we'll stay and call it home."</p>
+</div>

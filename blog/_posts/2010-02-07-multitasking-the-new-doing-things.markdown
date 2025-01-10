@@ -4,8 +4,6 @@ date: 2010-02-07 23:55:17
 layout: post
 slug: multitasking-the-new-doing-things
 title: Multitasking, the new "Doing Things"
-
-- Internet
 tags:
 - Brains
 - Cyberpunk

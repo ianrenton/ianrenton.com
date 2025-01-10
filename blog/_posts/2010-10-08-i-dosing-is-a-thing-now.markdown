@@ -4,8 +4,6 @@ date: 2010-10-08 23:07:14
 layout: post
 slug: i-dosing-is-a-thing-now
 title: i-Dosing is a Thing Now?
-
-- Internet
 tags:
 - Comedy
 - Daily Mail

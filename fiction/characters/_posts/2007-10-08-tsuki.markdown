@@ -1,0 +1,24 @@
+---
+comments: true
+date: 2007-10-08 11:08:51
+layout: post
+slug: tsuki
+title: Tsuki
+tags:
+- Character
+- Dreaming Awake
+---
+
+<h3>Personality</h3>
+<p>Tsuki is relaxed, happy, optimistic and carefree. His life up to now has been peaceful and idyllic, but his sense of adventure has often led him do discover places futher afield than the area around his village. Naivete, irresponsibility and continually underestimating danger would be his weaknesses, along with being far too trusting.</p>
+<h3>Attire</h3>
+<p>What once were proper-length trousers and tunic now resemble shorts and a vest through having been torn so much, and through the material being used for other things. Both have been heavily stained with mud over the years. Tsuki also uses a piece of rope as a belt, and wears a small crystal pendant - the only part of his attire that might once have looked nice - around his neck. </p>
+<h3>Background</h3>
+<p>For as long as he knows, Tsuki has lived in the village of Arcadia on the Alseid Plains. Here, he was raised by his adoptive mother, Lorena, with whom he still lives, although these days he frequently embarks on adventures away from home for days at a time. </p>
+<p>Tsuki grew up with two friends of about his age, Marea and Kalari. The three of them were all adventurous as chidren, and often used to play in the woods to the east of the village, and that place is still special to them even now. </p>
+<p>All three were educated in the simple and practical way. Most of this would have included being taught how to farm, cook, hunt, or whatever it was that their parents&#039; jobs were. The basics of reading and writing, along with lore, history, and so on were taught by the village elder, Thialnir. </p>
+<p>Alongside his sword dancing, with which he often entertains at festivals, Tsuki&#039;s main hobby is cooking and baking. A fair amount of natural talent and both his mother&#039;s and Suto&#039;s experience, plus his own liking of food has led him to be fairly successful here and if life being one big adventure fails him, he&#039;d like to cook as a job. </p>
+<p>The Arcadian tradition is that once a young person finishes what education the villagers can give, he or she has a year and a day of freedom, to experience what they want of the world, to find out what life can hold for them. After this time, they are normally expected to settle down, decide on how they will live their life, and do it. For Tsuki, it has now been rather longer than a year, and he still shows no sign of giving up his intense desire for adventure. Secretly, most of the villagers probably excuse this away because of his fatherless upbringing, and feel sorry for him. Or perhaps they just realise that if he settles down he won&#039;t always be around to help out... </p>
+<h3>Character Sheets</h3>
+<ul><li><a href="/fiction/characters/charsheets/tsuki-start.pdf">Tsuki (Dreaming Awake, Start of Game)</a></li>
+<li><a href="/fiction/characters/charsheets/tsuki-end.pdf">Tsuki (Dreaming Awake, End of Game)</a></li></ul>

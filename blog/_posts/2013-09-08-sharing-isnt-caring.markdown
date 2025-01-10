@@ -3,9 +3,6 @@ layout: post
 title: "Sharing Isn't Caring"
 date: 2013-09-08 13:32
 comments: true
-
-- Internet
-- Personal
 tags:
 - online
 - social media

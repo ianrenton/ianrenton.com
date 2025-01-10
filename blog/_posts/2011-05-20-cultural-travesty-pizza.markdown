@@ -4,8 +4,6 @@ date: 2011-05-20 22:24:40
 layout: post
 slug: cultural-travesty-pizza
 title: Cultural Travesty Pizza
-
-- Internet
 tags:
 - Abomination
 - Cooking

@@ -4,8 +4,6 @@ date: 2011-02-03 23:10:36
 layout: post
 slug: johannes-kepler-and-the-fabric-mice
 title: Johannes Kepler and the Fabric Mice
-
-- Personal
 tags:
 - Astrophysics
 - Extrasolar Planets

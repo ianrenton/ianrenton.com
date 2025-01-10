@@ -1,0 +1,19 @@
+---
+comments: true
+date: 2007-10-08 11:03:56
+layout: post
+slug: tesla
+title: Tesla
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="/fiction/characters/avatars/tesla.png" /></td>
+<td valign="top">
+<h3>Brief Summary</h3>
+<p>A skilful and warm-hearted thief, Tesla gets by in life by ignoring the morality of her chosen occupation.</p></td>
+</tr>
+</table>

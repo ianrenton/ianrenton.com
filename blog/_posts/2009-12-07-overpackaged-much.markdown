@@ -4,8 +4,6 @@ date: 2009-12-07 23:12:19
 layout: post
 slug: overpackaged-much
 title: Overpackaged Much?
-
-- Internet
 tags:
 - Neither Interesting Nor Funny
 - Orange

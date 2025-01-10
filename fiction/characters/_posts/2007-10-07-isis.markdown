@@ -1,0 +1,19 @@
+---
+comments: true
+date: 2007-10-07 13:46:27
+layout: post
+slug: isis
+title: Isis
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="/fiction/characters/avatars/isis.png" /></td>
+<td valign="top">
+<h2>Brief Summary</h2>
+<p>The priestess of an ocean-worshipping island religion, Isis is a calm and benevolent individual. </p></td>
+</tr>
+</table>

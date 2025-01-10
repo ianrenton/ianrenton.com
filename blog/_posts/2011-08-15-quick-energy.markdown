@@ -4,8 +4,6 @@ date: 2011-08-15 06:45:58
 layout: post
 slug: quick-energy
 title: '"Quick Energy"'
-
-- Internet
 tags:
 - Caffeine
 - Energy Drinks

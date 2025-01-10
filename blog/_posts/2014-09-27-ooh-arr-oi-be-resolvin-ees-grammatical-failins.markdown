@@ -3,8 +3,6 @@ layout: post
 title: "Ooh arr, Oi be Resolvin' ee's Grammatical Failin's"
 date: 2014-09-27 17:28
 comments: true
-
-- Language
 ---
 
 ### Part 1. US Edition

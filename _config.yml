@@ -20,7 +20,7 @@ auto_ids: true
 sass:
   style: compressed
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from, jekyll-seo-tag, jekyll-feed]
-permalink: /blog/:title/
+permalink: /:categories/:title/
 include: [".well-known"]
 
 # Staticman

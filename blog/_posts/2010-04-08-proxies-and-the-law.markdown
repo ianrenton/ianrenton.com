@@ -4,8 +4,6 @@ date: 2010-04-08 11:02:11
 layout: post
 slug: proxies-and-the-law
 title: Proxies and the Law
-
-- Internet
 tags:
 - Digital Economy Bill
 - Freedom

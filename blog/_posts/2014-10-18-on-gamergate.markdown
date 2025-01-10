@@ -3,8 +3,6 @@ layout: post
 title: "On GamerGate"
 date: 2014-10-18 13:56
 comments: true
-
-- Internet
 tags:
 - Gaming
 - Culture

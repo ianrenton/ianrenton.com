@@ -1,0 +1,23 @@
+---
+comments: true
+date: 2007-10-08 11:05:12
+layout: post
+slug: thiarir
+title: Thiarir
+tags:
+- Character
+- Dreaming Awake
+---
+
+<table border="0" cellspacing="10">
+<tr>
+<td valign="top"><img src="/fiction/characters/avatars/thiarir.png" /></td>
+<td valign="top">
+<h3>Brief Summary</h3>
+<p>The village Elder of Arcadia. </p></td>
+</tr>
+</table>
+<h3>Thiarir&#039;s Past</h3>
+<p>Like many villagers, Thiarir has lived in Arcadia for pretty much all of his life. Before becoming the Elder, he used to be the village&#039;s farrier. Now that he has attained his position, he tends to prefer more esoteric things, and thus his advice to villagers who come to ask it is frequently either incomprehensible or useless. </p>
+<p>Nevertheless he seems to have a soft spot for Tsuki and his adventures, and the Elder has frequently accompanied the young man on trips taken for no reason at all other than for the adventure of it. He quite enjoys them, actually, although he&#039;d never admit that to the villagers. </p>
+<p>Thiarir is the only member of the village who knows the circumstances in which the infant Tsuki was brought to Arcadia 14 years ago...</p>

@@ -3,9 +3,6 @@ layout: post
 title: "Preparing to Leave Heroku"
 date: 2015-05-07 22:20
 comments: true
-
-- Software
-- Internet
 tags:
 - Heroku
 - PaaS

@@ -3,9 +3,6 @@ layout: post
 title: "The Lego of Tomorrow"
 date: 2014-02-09 13:44
 comments: true
-
-- Personal
-- Games
 tags:
 - Minecraft
 - Childhood

@@ -1,0 +1,16 @@
+---
+comments: true
+date: 2007-10-07 15:02:02
+layout: post
+slug: lorelai
+title: Lorelai
+tags:
+- Character
+---
+
+<p><img src="/fiction/characters/portraits/lorelai.png" style="float:right" /></p>
+<h2>Introduction</h2>
+<div>
+<p>I come here to see you, of course, and for the kids to play - this world seems so full of excitement for them.  Little things, physical things, like the smells of people or leaves rustling in the wind.  But me?  I&#039;m happy just sitting and watching.</p>
+<p>Is that a sign of getting old?  Maybe, but I&#039;m still a long way from that.  It&#039;s just my enjoyment is different from theirs, a peaceful kind.  And the world itself, full of excitement and danger it may be, isn&#039;t what I take my pleasure from.  Rather, it&#039;s people - hearts and minds and emotions.  That&#039;s what makes humans so special, right?  That&#039;s my inspiration, and at the same time that&#039;s the canvas on which I paint.</p>
+</div>

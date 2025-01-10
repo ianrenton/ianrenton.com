@@ -3,8 +3,6 @@ layout: post
 title: "By Distant Shores"
 date: 2014-02-06 11:59
 comments: true
-
-- Travel
 tags:
 - travel
 - beach

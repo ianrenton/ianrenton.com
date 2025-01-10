@@ -4,8 +4,6 @@ date: 2011-01-31 22:29:46
 layout: post
 slug: inbox-many
 title: Inbox Many
-
-- Internet
 tags:
 - E-mail
 - Inbox
