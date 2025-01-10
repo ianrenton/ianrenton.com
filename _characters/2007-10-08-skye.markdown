@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 10:57:58
 layout: post
 slug: skye
 title: Skye
-wordpress_id: 699
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 08:34:15
 layout: post
 slug: about-dreaming-awake
 title: About Dreaming Awake
-wordpress_id: 626
-categories:
-- Dreaming Awake
 tags:
 - Dreaming Awake
 ---

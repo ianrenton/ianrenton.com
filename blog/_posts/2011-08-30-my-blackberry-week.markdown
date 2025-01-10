@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-08-30 11:53:21
 layout: post
 slug: my-blackberry-week
 title: My BlackBerry Week
-wordpress_id: 11805
-categories:
 
 - Internet
 tags:

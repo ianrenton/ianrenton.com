@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Main PCB Fitting"
 date: 2014-06-16 20:57:05 +0100
 comments: true
-categories: 
+
 ---
 
 Power distribution board:

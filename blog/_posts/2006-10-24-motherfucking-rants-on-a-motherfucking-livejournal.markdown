@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-10-24 20:59:00
 layout: post
 slug: motherfucking-rants-on-a-motherfucking-livejournal
 title: Motherfucking Rants on a Motherfucking Livejournal!
-wordpress_id: 545
-categories:
-- Personal
 ---
 
 Rant time I'm afraid.  

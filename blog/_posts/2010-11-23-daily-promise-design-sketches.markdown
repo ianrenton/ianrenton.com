@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-23 15:09:39
 layout: post
 slug: daily-promise-design-sketches
 title: 'Daily Promise: Design Sketches'
-wordpress_id: 11333
-categories:
-- Projects
-- Software
-- UX and Design
 tags:
 - Code
 - Concept

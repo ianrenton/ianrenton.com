@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-18 21:30:00
 layout: post
 slug: time-and-money-and-the-lack-thereof
 title: Time and Money (and the lack thereof)
-wordpress_id: 61
-categories:
-- Personal
 ---
 
 Eeek... too little time to do anything, because I spend too much of it sleeping or just doing nothing...  And too little money, although I continue to spend it anyway...  

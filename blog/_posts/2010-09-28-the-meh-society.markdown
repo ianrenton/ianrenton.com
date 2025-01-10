@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-28 16:49:33
 layout: post
 slug: the-meh-society
 title: The Meh Society
-wordpress_id: 11290
-categories:
-- Politics
 tags:
 - Big Society
 - Cameron

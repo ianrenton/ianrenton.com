@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-01 13:50:00
 layout: post
 slug: changeling-game-update
 title: Changeling Game Update
-wordpress_id: 440
-categories:
-- Roleplaying
 ---
 
 An update on the current Changeling situation, for those playing:  

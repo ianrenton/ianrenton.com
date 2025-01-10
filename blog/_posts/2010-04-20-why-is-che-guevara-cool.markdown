@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-20 18:04:31
 layout: post
 slug: why-is-che-guevara-cool
 title: Why is Che Guevara Cool?
-wordpress_id: 2966
-categories:
-- Personal
 tags:
 - Che Guevara
 - Cool

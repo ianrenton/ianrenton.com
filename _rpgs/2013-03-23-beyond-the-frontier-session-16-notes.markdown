@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-03-23 23:48:34
 layout: post
 slug: beyond-the-frontier-session-16-notes
 title: Beyond the Frontier -- Session 16 Notes
-wordpress_id: 12313
-categories:
-- Beyond the Frontier
 ---
 
 <p style="text-align: left;">Run time: 2h45m</p>

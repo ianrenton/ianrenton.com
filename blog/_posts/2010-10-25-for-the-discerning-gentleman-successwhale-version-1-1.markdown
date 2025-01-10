@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-25 22:35:47
 layout: post
 slug: for-the-discerning-gentleman-successwhale-version-1-1
 title: For the Discerning Lady or Gentleman, SuccessWhale version 1.1
-wordpress_id: 11308
-categories:
-- Internet
-- Projects
-- Software
 tags:
 - Announcement
 - Client

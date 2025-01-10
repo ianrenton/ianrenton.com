@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-09-01 22:09:00
 layout: post
 slug: the-week-in-monochrome
 title: The Week in Monochrome
-wordpress_id: 531
-categories:
-- Personal
 ---
 
 September.  Autumn.  Another summer lost to history.  

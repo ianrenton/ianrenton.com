@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-04-25 22:00:00
 layout: post
 slug: strange-life
 title: Strange Life
-wordpress_id: 20
-categories:
-- Personal
 ---
 
 Why is it, that I seem to be living my life uncaring, as if small things are unimportant? Things like tidying and cooking don't seem to matter any more, as if a change will come soon that will make them worthless?  

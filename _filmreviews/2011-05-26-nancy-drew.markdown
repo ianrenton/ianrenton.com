@@ -4,9 +4,6 @@ date: 2011-05-26 22:54:20
 slug: nancy-drew
 layout: post
 title: Nancy Drew
-wordpress_id: 11662
-categories:
-- Film Reviews
 tags:
 - Not the Target Audience
 ---

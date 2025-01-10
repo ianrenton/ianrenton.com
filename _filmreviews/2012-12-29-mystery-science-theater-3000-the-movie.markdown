@@ -4,9 +4,6 @@ date: 2012-12-29 13:27:39
 slug: mystery-science-theater-3000-the-movie
 layout: post
 title: Mystery Science Theater 3000 The Movie
-wordpress_id: 12116
-categories:
-- Film Reviews
 ---
 
 <h2>Synopsis</h2>

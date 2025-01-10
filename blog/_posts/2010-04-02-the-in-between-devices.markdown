@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-02 08:25:43
 layout: post
 slug: the-in-between-devices
 title: The In-Between Devices
-wordpress_id: 2887
-categories:
 
 - Internet
 tags:

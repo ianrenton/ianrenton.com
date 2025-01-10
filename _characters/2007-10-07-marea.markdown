@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:29:07
 layout: post
 slug: marea
 title: Marea
-wordpress_id: 682
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

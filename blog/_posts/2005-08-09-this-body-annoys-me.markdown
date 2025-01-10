@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-09 19:22:00
 layout: post
 slug: this-body-annoys-me
 title: This Body Annoys Me
-wordpress_id: 338
-categories:
-- Personal
 ---
 
 Apologies if I keep this brief, sitting in a chair feels most undesirable at the moment.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-07-29 17:15:00
 layout: post
 slug: a-slow-and-subtle-daydream
 title: A Slow and Subtle Daydream
-wordpress_id: 336
-categories:
-- Personal
 ---
 
 For a while I've had a strange thing with my hearing, as if I listen kind of subconsciously.  Sounds slip into my mind without me noticing - I guess that's why I often ask people to repeat themselves a fraction of a second before realising that I knew what was said after all.  

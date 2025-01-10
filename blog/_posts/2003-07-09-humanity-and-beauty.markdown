@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-07-09 16:00:00
 layout: post
 slug: humanity-and-beauty
 title: Humanity and Beauty
-wordpress_id: 34
-categories:
-- Personal
 ---
 
 I wonder, what it is that makes us human? Perhaps, it's beauty. Not being beautiful, but perceiving beauty.  

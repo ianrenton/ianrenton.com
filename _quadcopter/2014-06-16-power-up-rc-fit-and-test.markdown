@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Power-up, RC Fit &amp; Test"
 date: 2014-06-16 20:57:58 +0100
 comments: true
-categories: 
+
 ---
 
 Gyro board back-powered using ESC BECs:

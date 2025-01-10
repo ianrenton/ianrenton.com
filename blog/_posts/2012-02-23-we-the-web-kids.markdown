@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-02-23 18:51:15
 layout: post
 slug: we-the-web-kids
 title: We, the Web Kids
-wordpress_id: 12003
-categories:
 
 - Internet
 tags:
@@ -28,7 +25,7 @@ Occasionally, I read a piece of writing that sums up my thoughts so well, so exa
 > 
 > We, the Web kids; we, who have grown up with the Internet and on the Internet, are a generation who meet the criteria for the term in a somewhat subversive way. We did not experience an impulse from reality, but rather a metamorphosis of the reality itself. What unites us is not a common, limited cultural context, but the belief that the context is self-defined and an effect of free choice.
 > 
-> Writing this, I am aware that I am abusing the pronoun ‘we’, as our ‘we’ is fluctuating, discontinuous, blurred, according to old categories: temporary. When I say ‘we’, it means ‘many of us’ or ‘some of us’. When I say ‘we are’, it means ‘we often are’. I say ‘we’ only so as to be able to talk about us at all.
+> Writing this, I am aware that I am abusing the pronoun ‘we’, as our ‘we’ is fluctuating, discontinuous, blurred, according to old temporary. When I say ‘we’, it means ‘many of us’ or ‘some of us’. When I say ‘we are’, it means ‘we often are’. I say ‘we’ only so as to be able to talk about us at all.
 > 
 > 1.
 > We grew up with the Internet and on the Internet. This is what makes us different; this is what makes the crucial, although surprising from your point of view, difference: we do not ‘surf’ and the internet to us is not a ‘place’ or ‘virtual space’. The Internet to us is not something external to reality but a part of it: an invisible yet constantly present layer intertwined with the physical environment. We do not use the Internet, we live on the Internet and along it. If we were to tell our bildnungsroman to you, the analog, we could say there was a natural Internet aspect to every single experience that has shaped us. We made friends and enemies online, we prepared cribs for tests online, we planned parties and studying sessions online, we fell in love and broke up online. The Web to us is not a technology which we had to learn and which we managed to get a grip of. The Web is a process, happening continuously and continuously transforming before our eyes; with us and through us. Technologies appear and then dissolve in the peripheries, websites are built, they bloom and then pass away, but the Web continues, because we are the Web; we, communicating with one another in a way that comes naturally to us, more intense and more efficient than ever before in the history of mankind.

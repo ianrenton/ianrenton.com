@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-03 02:10:00
 layout: post
 slug: super-fun-in-london
 title: Super Fun in London!
-wordpress_id: 144
-categories:
-- Personal
 ---
 
 Okay, so... today!  

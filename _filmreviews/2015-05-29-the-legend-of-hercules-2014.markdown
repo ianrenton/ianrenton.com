@@ -3,7 +3,7 @@ layout: post
 title: "The Legend of Hercules (2014)"
 date: 2015-05-29 18:26
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

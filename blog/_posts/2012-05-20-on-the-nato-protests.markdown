@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-05-20 22:06:13
 layout: post
 slug: on-the-nato-protests
 title: On the NATO Protests
-wordpress_id: 12807
-categories:
-- Military
 tags:
 - 99 Red Balloons
 - Bad Jokes

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:00:59
 layout: post
 slug: over-the-hills-and-far-away
 title: Over the Hills and Far Away
-wordpress_id: 802
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

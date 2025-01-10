@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-29 00:01:00
 layout: post
 slug: writing-overdrive
 title: Writing Overdrive!!
-wordpress_id: 530
-categories:
-- Personal
 ---
 
 Thanks for everyone's votes, it turns out that the results are overwhelmingly in favour of my starting writing now, with no votes to the contrary and only one for fish.  

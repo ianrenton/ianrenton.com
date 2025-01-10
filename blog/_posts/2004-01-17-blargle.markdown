@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-17 23:57:00
 layout: post
 slug: blargle
 title: Blargle
-wordpress_id: 76
-categories:
-- Personal
 ---
 
 For the second day in a row, I haven't had time to do my laundry.  \o/  I must really stink...  I did manage to go shopping today, so at least I can eat now.  I didn't do any baking, or any revision, though... and now I've got an annoying headache that paracetamol doesn't seem to be shifting, so I had to stay in tonight, rather than going out with everyone to celebrate the arrival of our new flatmate...

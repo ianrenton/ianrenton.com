@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-21 10:19:48
 layout: post
 slug: from-beneath-the-ash-clouds-shadow
 title: From Beneath the Ash Cloud's Shadow
-wordpress_id: 3114
-categories:
-- Politics
 tags:
 - Airlines
 - Ash Cloud

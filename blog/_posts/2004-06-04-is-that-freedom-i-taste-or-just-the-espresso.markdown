@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-04 12:43:00
 layout: post
 slug: is-that-freedom-i-taste-or-just-the-espresso
 title: Is that Freedom I Taste, or just the Espresso?
-wordpress_id: 172
-categories:
-- Personal
 ---
 
 Note to self: Caffeine is not a good substitute for revision.  

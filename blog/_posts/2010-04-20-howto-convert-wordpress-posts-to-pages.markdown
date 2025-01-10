@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-20 23:29:57
 layout: post
 slug: howto-convert-wordpress-posts-to-pages
 title: 'HOWTO: Convert WordPress Posts to Pages'
-wordpress_id: 3095
-categories:
-- Guides
 tags:
 - Convert
 - Guide

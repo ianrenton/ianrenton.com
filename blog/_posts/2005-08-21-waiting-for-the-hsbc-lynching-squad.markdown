@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-21 21:00:00
 layout: post
 slug: waiting-for-the-hsbc-lynching-squad
 title: Waiting for the HSBC Lynching Squad
-wordpress_id: 343
-categories:
-- Personal
 ---
 
 So, currently...  I'm on my overdraft limit, I owe my parents £40 and there's already £60 on my credit card.  I have two weeks, including - hopefully - a trip to Southampton, in which I can spend precisely nothing.  Not a very fun situation to be in.  My wallet contains twenty-four pence, not even enough to buy breakfast a work...  

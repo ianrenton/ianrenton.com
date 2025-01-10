@@ -2,8 +2,6 @@
 layout: post
 title: "Brexit, Stage Right"
 date: 2016-06-24T07:49:04+01:00
-categories:
-- Politics
 tags:
 - EU
 - referendum

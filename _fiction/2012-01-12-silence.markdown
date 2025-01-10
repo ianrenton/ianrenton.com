@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-12 00:25:56
 layout: post
 slug: silence
 title: Silence
-wordpress_id: 11964
-categories:
-- Short Stories
 tags:
 - Fiction
 - Library

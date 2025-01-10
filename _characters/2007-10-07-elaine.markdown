@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 09:16:50
 layout: post
 slug: elaine
 title: Elaine
-wordpress_id: 659
-categories:
-- Characters
 tags:
 - Changeling
 - Character

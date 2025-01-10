@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:03:53
 layout: post
 slug: to-the-bat-chicken-raccoon-cave
 title: To the Bat-Chicken-Raccoon-Cave!
-wordpress_id: 1932
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

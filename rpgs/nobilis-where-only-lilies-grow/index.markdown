@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2011-01-15 22:51:42
 layout: page
 slug: nobilis-where-only-lilies-grow
 title: 'Nobilis: Where Only Lilies Grow'
-wordpress_id: 11425
 ---
 
 <div class="notes"><p>Nobilis: Where Only Lilies Grow is no longer being played, and those few threads we managed on the wiki are now archived here.</p></div>

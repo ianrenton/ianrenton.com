@@ -3,7 +3,7 @@ layout: post
 title: "USV-01 Hull Assembly"
 date: 2016-05-17 22:33
 comments: true
-categories: 
+
 ---
 
 USV-01 "Harry Paye" is based on the [HobbyKing "Scott Free" Offshore Racing](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=81594) remote control boat.

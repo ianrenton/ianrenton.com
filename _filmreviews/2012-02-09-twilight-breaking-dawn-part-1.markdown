@@ -4,9 +4,6 @@ date: 2012-02-09 21:59:36
 slug: twilight-breaking-dawn-part-1
 layout: post
 title: Twilight - Breaking Dawn part 1
-wordpress_id: 11992
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:05:12
 layout: post
 slug: thiarir
 title: Thiarir
-wordpress_id: 706
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-11-29 23:01:54
 layout: post
 slug: in-praise-of-partimage
 title: In Praise of Partimage
-wordpress_id: 11879
-categories:
-- Software
 tags:
 - Backup
 - Free Software

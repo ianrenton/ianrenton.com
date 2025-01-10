@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-06 15:04:09
 layout: post
 slug: cold-november-rain
 title: Cold November Rain
-wordpress_id: 2280
-categories:
-- Seasonal
 tags:
 - Cold
 - Foul-Weather Gear

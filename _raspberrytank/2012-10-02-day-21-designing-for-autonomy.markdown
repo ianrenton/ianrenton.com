@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-02 21:11:40
 layout: post
 slug: tank-day-21-designing-for-autonomy
 title: 'Tank Day 21: Designing for Autonomy'
-wordpress_id: 13216
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Hardware
 - Project

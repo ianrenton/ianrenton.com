@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-10 10:14:36
 layout: post
 slug: dystopia-fetishism-and-the-fall-of-solidarity
 title: 'Dystopia Fetishism and the Fall of #Solidarity'
-wordpress_id: 11359
-categories:
-- Politics
 tags:
 - Demonstration
 - Government

@@ -4,9 +4,6 @@ date: 2011-10-06 22:22:56
 slug: legion
 layout: post
 title: Legion
-wordpress_id: 11819
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

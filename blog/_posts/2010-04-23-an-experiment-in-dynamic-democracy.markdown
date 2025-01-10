@@ -1,16 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-23 19:54:12
 layout: post
 slug: an-experiment-in-dynamic-democracy
 title: An Experiment in Dynamic Democracy
-wordpress_id: 3130
-categories:
-- Politics
-- Internet
-- Software
-- Projects
 tags:
 - Democracy
 - Dynamic Democracy

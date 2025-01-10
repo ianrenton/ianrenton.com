@@ -3,7 +3,6 @@ layout: post
 title: "Quad: Useful Links"
 date: 2014-06-16 20:55:59 +0100
 comments: true
-categories:
 ---
 
 Useful pages I found while building the quadcopter:

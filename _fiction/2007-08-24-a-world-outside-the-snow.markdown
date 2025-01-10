@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-24 19:45:46
 layout: post
 slug: a-world-outside-the-snow
 title: A World Outside the Snow
-wordpress_id: 599
-categories:
-- Short Stories
 tags:
 - Fantasy
 - Fiction

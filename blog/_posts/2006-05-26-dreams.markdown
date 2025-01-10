@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-05-26 13:18:00
 layout: post
 slug: dreams
 title: Dreams
-wordpress_id: 495
-categories:
-- Personal
 ---
 
 There needs to be a Pirates of the Carribean musical, and I need to star in it.  Although, if it actually happens I'd appreciate a microphone.  

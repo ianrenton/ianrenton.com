@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-02 20:32:41
 layout: post
 slug: reawakening
 title: Reawakening
-wordpress_id: 2220
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Roleplaying

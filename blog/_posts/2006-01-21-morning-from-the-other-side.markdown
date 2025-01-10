@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-01-21 12:08:00
 layout: post
 slug: morning-from-the-other-side
 title: Morning from the Other Side
-wordpress_id: 427
-categories:
-- Personal
 ---
 
 This is the first time in a long time that I've seen morning from the just-got-up rather than the not-gone-to-bed-yet side.  It's a strangely wonderful feeling, as though I actually had forgotten what the sights, sounds and smells of morning are.  I guess, though, over the next week, I'll have a lot of practice at seeing this part of the day.  

@@ -4,9 +4,6 @@ date: 2010-02-15 22:52:20
 slug: beowulf
 layout: post
 title: Beowulf
-wordpress_id: 2739
-categories:
-- Film Reviews
 tags:
 - Angelina Jolie's Golden Minge
 - Beowulf

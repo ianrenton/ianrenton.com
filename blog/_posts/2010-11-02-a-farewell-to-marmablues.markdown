@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-02 15:50:09
 layout: post
 slug: a-farewell-to-marmablues
 title: A Farewell to Marmablues
-wordpress_id: 11317
-categories:
-- Internet
-- Personal
 tags:
 - End of an Era
 - History

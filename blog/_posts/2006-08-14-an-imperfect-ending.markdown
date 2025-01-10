@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-14 01:52:00
 layout: post
 slug: an-imperfect-ending
 title: An Imperfect Ending
-wordpress_id: 524
-categories:
-- Personal
 ---
 
 Well, today has been fun.  Right up until the evening, anyway.  Here goes the list of what's happened:  

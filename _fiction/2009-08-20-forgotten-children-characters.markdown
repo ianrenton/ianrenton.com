@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-20 20:46:24
 layout: post
 slug: forgotten-children-characters
 title: 'Forgotten Children: Characters'
-wordpress_id: 876
-categories:
-- Forgotten Children Info
 tags:
 - Fiction
 - Forgotten Children

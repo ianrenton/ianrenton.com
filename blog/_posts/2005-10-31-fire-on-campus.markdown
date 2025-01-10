@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-31 11:23:00
 layout: post
 slug: fire-on-campus
 title: Fire on Campus
-wordpress_id: 390
-categories:
-- Personal
 ---
 
 The <a href="http://news.bbc.co.uk/1/hi/england/hampshire/4390048.stm">fire that destroyed Mountbatten Building on Southampton University campus</a> made the front page of Slashdot.  I'm impressed!  

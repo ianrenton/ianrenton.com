@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-01-25 13:53:39
 layout: post
 slug: game-review-beat-hazard-ultra
 title: 'Game Review: Beat Hazard Ultra'
-wordpress_id: 13428
-categories:
-- Games
 tags:
 - Android
 - Beat Hazard

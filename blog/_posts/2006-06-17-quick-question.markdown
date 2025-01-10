@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-17 03:41:00
 layout: post
 slug: quick-question
 title: Quick Question
-wordpress_id: 505
-categories:
-- Personal
 ---
 
 Of three photos of me taken in the last week, which is the gayest?  

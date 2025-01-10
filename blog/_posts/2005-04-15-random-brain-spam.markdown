@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-04-15 00:55:00
 layout: post
 slug: random-brain-spam
 title: Random Brain Spam
-wordpress_id: 288
-categories:
-- Personal
 ---
 
 No real patience for a proper entry, so I'm afraid I'm just going to spam stuff about the last week.  

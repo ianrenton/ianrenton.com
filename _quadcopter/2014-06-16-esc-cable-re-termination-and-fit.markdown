@@ -3,7 +3,7 @@ layout: post
 title: "Quad: ESC Cable Re-termination and Fit"
 date: 2014-06-16 20:57:28 +0100
 comments: true
-categories: 
+
 ---
 
 ESCs before and after fitting female bullet connectors:

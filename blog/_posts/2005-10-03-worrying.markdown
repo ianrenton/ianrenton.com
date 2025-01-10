@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-03 03:45:00
 layout: post
 slug: worrying
 title: Worrying
-wordpress_id: 370
-categories:
-- Personal
 ---
 
 I just stumbled upon the phrase "Iä! Iä! Cthulhu fhtagn."  

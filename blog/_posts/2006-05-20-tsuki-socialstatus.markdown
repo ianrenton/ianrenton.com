@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-05-20 17:01:00
 layout: post
 slug: tsuki-socialstatus
 title: tsuki.socialStatus  ;
-wordpress_id: 493
-categories:
-- Personal
 ---
 
 A few months ago, I commented that I'd officially lost my student status, by means of paying over £4 for a panini for lunch.  

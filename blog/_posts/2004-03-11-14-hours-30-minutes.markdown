@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-11 22:30:00
 layout: post
 slug: 14-hours-30-minutes
 title: 14 hours 30 minutes...
-wordpress_id: 116
-categories:
-- Personal
 ---
 
 ...until MINAMICON!!  This weekend might possibly be one of the most awesome weekends of my life...  

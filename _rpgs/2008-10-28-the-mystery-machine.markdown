@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:52:42
 layout: post
 slug: the-mystery-machine
 title: The Mystery Machine
-wordpress_id: 795
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-08-12 15:20:07
 layout: post
 slug: whither-the-state-religion
 title: Whither the State Religion?
-wordpress_id: 11785
-categories:
-- Politics
-- Religion
 tags:
 - Flame-bait
 - Integration

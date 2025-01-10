@@ -4,9 +4,6 @@ date: 2012-12-25 21:34:14
 slug: barbie-as-the-island-princess
 layout: post
 title: Barbie as the Island Princess
-wordpress_id: 12114
-categories:
-- Film Reviews
 tags:
 - Barbie
 ---

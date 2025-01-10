@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-25 13:55:08
 layout: post
 slug: on-game-design-time-to-quit
 title: 'On Game Design: Time to Quit'
-wordpress_id: 11656
-categories:
-- UX and Design
-- Games
 tags:
 - Casual
 - Cognitive Bias

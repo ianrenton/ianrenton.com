@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-11-17 23:30:00
 layout: post
 slug: dreaming-of-other-times
 title: Dreaming of Other Times
-wordpress_id: 44
-categories:
-- Terrible Teenage Poetry
 ---
 
 Dreaming of other times...<br/>

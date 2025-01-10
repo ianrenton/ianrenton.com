@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2009-09-24 09:22:30
 layout: page
 slug: roleplaying-games
 title: Ian's RPG Stuff
-wordpress_id: 895
 ---
 
 This page is an index for various material related to pen-and-paper roleplaying games I have run, am running, or at least am somehow involved with. If you are looking for computer games I have written, please look under <a href="http://software.ianrenton.com">Software</a>.

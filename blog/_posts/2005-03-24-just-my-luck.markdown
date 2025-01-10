@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-03-24 02:13:00
 layout: post
 slug: just-my-luck
 title: Just My Luck
-wordpress_id: 284
-categories:
-- Personal
 ---
 
 First off - today I took a trip to Bournemouth to see people there, which was awesome.  While there, we watched something that seemed to be In Nomine the movie, starring Neo.  Apparently there was supposed to be a character called John Constantine in the film, but it must have been a pretty minor part as I don't think I noticed him...  

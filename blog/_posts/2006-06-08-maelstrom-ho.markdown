@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-08 17:04:00
 layout: post
 slug: maelstrom-ho
 title: Maelstrom-ho!
-wordpress_id: 502
-categories:
-- Personal
 ---
 
 Righty, having now packed and gotten everything ready, I'm off to Maelstrom - or am I?  

@@ -4,9 +4,6 @@ date: 2010-07-13 22:07:37
 slug: astro-boy-2009
 layout: post
 title: Astro Boy (2009)
-wordpress_id: 11022
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

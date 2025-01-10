@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:31:27
 layout: post
 slug: initiation
 title: Initiation
-wordpress_id: 613
-categories:
-- Short Stories
 tags:
 - Fantasy
 - Fiction

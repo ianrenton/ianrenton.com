@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-02-10 22:31:58
 layout: post
 slug: orchids-and-raindrops-setting-fluff
 title: Orchids and Raindrops -- Setting Fluff
-wordpress_id: 12281
-categories:
-- Roleplaying Games
 tags:
 - Background
 - Cyberpunk

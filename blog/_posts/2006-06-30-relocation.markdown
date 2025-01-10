@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-30 14:37:00
 layout: post
 slug: relocation
 title: Relocation
-wordpress_id: 512
-categories:
-- Personal
 ---
 
 So, here I am back in Bournemouth after all this time.  No more living in Southampton for me, perhaps forever...  

@@ -1,11 +1,9 @@
 ---
-author: ian
 title: Automating the Roast Dinner Timing Chart
 slug: automating-the-roast-dinner-timing-chart
 id: 3759
 date: '2017-12-21 22:36:39'
 layout: post
-categories:
   - Blog
 tags:
   - Code

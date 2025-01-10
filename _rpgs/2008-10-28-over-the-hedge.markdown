@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:34:13
 layout: post
 slug: over-the-hedge
 title: Over the Hedge
-wordpress_id: 782
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

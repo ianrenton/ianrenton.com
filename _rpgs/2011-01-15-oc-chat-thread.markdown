@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-15 23:18:15
 layout: post
 slug: oc-chat-thread
 title: OC Chat Thread
-wordpress_id: 11431
-categories:
-- Where Only Lilies Grow
 ---
 
 <div class="notes">

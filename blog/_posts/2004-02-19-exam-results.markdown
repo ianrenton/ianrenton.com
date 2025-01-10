@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-19 12:34:00
 layout: post
 slug: exam-results
 title: Exam Results
-wordpress_id: 98
-categories:
-- Personal
 ---
 
 <table border=1 bordercolor=#000000 cellpadding=10><tr><td>School of Physics and Astronomy - Semester 1 Examination Results - February 2004  

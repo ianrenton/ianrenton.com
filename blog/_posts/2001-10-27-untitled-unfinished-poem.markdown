@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2001-10-27 21:00:00
 layout: post
 slug: untitled-unfinished-poem
 title: Untitled, Unfinished Poem
-wordpress_id: 5
-categories:
-- Terrible Teenage Poetry
 ---
 
 *"Walk along the path of changing seasons<br/>

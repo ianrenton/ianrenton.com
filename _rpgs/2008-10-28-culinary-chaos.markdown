@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:12:04
 layout: post
 slug: culinary-chaos
 title: Culinary Chaos!
-wordpress_id: 1941
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

@@ -3,7 +3,7 @@ layout: post
 title: "USV-01 Camera Fit"
 date: 2016-05-28 16:22
 comments: true
-categories: 
+
 ---
 
 For test purposes, a GoPro clone was fitted. Because we may want to remove this in future, for example to fit a Raspberry Pi camera instead, a mounting bracket was fixed to the hull using strong adhesive tape rather than a through-hull screw mount.

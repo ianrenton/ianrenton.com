@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-30 21:15:00
 layout: post
 slug: stories-ending-and-beginning
 title: Stories Ending and Beginning
-wordpress_id: 185
-categories:
-- Personal
 ---
 
 I wonder if it's a bad thing that I get so emotional about stories...  Adding to my own rather emotional feelings recently, I've just finished watching Da Capo and reading the latest Discworld Novel, A Hat Full of Sky.  Also, I'm getting very near the end of watching Uchuu no Stellvia and playing Grandia II.  So, yeah...  the ending of four stories at once is making me feel really odd at the moment.  

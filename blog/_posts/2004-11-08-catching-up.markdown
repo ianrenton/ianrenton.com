@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-08 00:32:00
 layout: post
 slug: catching-up
 title: Catching Up...
-wordpress_id: 214
-categories:
-- Personal
 ---
 
 It's been a while since my last entry...  Even though not much has happened, I feel like I should post something.  

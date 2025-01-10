@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-20 20:57:00
 layout: post
 slug: products-of-a-wasted-day
 title: Products of a Wasted Day
-wordpress_id: 359
-categories:
-- Personal
 ---
 
 Programs written: 2  

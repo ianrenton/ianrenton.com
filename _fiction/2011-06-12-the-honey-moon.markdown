@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-06-12 21:42:30
 layout: post
 slug: the-honey-moon
 title: The Honey Moon
-wordpress_id: 11677
-categories:
-- Short Stories
 tags:
 - Honey Moon
 - Honeymoon

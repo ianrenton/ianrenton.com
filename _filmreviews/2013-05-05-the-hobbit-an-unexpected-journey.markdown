@@ -3,7 +3,7 @@ layout: post
 title: "The Hobbit: An Unexpected Journey"
 date: 2013-05-05 14:48
 comments: true
-categories: 
+
 ---
 
 > A joint Film Review by the Numbers by [Dan](http://www.vulpinedesigns.co.uk) and Ian

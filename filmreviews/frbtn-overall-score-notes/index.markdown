@@ -4,7 +4,6 @@ date: 2010-12-30 23:20:11
 layout: page
 slug: frbtn-overall-score-notes
 title: FRbtN Overall Score Notes
-wordpress_id: 11388
 ---
 
 For reference, my thinking behind awarding films their score out of 5 goes roughly along these lines:

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 22:55:03
 layout: post
 slug: forgotten-children-background
 title: 'Forgotten Children: Background'
-wordpress_id: 633
-categories:
-- Forgotten Children Info
 tags:
 - Forgotten Children
 ---

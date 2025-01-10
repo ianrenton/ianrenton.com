@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-03-01 18:14:00
 layout: post
 slug: a-minimalist-week
 title: A Minimalist Week
-wordpress_id: 272
-categories:
-- Personal
 ---
 
 Sorry for a week of no updates...  Not an awful lot's happened, really.  

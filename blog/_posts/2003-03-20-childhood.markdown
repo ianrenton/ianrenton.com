@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-03-20 22:00:00
 layout: post
 slug: childhood
 title: Childhood
-wordpress_id: 18
-categories:
-- Personal
 ---
 
 As I stand here at dawn, I am reminded that a wonderful life has only just started, and every new day is filled with hope...  

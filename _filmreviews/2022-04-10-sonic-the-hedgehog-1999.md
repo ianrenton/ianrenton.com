@@ -1,5 +1,4 @@
 ---
-author: ian
 title: Sonic the Hedgehog (1999)
 slug: sonic-the-hedgehog-1999
 date: '2022-04-10 00:00'

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-16 03:13:00
 layout: post
 slug: myuu
 title: Myuu~~~~
-wordpress_id: 201
-categories:
-- Personal
 ---
 
 I want this...  The scary thing is how easily I could afford it...  

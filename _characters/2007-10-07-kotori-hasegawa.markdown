@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:58:25
 layout: post
 slug: kotori-hasegawa
 title: Kotori Hasegawa
-wordpress_id: 675
-categories:
-- Characters
 tags:
 - Battlemaster High
 - BESM

@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Control Board Test"
 date: 2014-12-11 21:33
 comments: true
-categories: 
+
 ---
 
 The control board in the toy is very simple, having no integrated circuits. It receives the control signal in the 27MHz band and translates it into bi-directional control of the two DC motors &mdash; one main drive motor and one turn motor.

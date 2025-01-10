@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-04-16 20:18:00
 layout: post
 slug: war-on-terror-the-rpg-2
 title: War on Terror! The RPG
-wordpress_id: 764
-categories:
-- Roleplaying
 ---
 
 As promised on Twitter earlier today:  

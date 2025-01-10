@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-05-01 22:17:44
 layout: post
 slug: an-hero
 title: An Hero
-wordpress_id: 770
-categories:
-- Characters
 tags:
 - Changeling
 - Character

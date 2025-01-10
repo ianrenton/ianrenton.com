@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-13 04:24:00
 layout: post
 slug: website-updates
 title: Website Updates
-wordpress_id: 470
-categories:
-- Personal
 ---
 
 This evening I spent n hours (where n is too many) redesigning my site a bit due to an idea I had earlier in the day.  Behold its shiny shiny glory!  

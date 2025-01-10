@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-24 20:05:56
 layout: post
 slug: alices-adventures-in-cland
 title: Alice's Adventures in C++land
-wordpress_id: 600
-categories:
-- Short Stories
 tags:
 - Comedy
 - Fiction

@@ -3,9 +3,6 @@ layout: post
 title: "Vivarium Automation: Requirements and Component Spec"
 date: 2015-07-18 12:31
 comments: true
-categories:
-- Projects
-- Hardware
 tags:
 - Gecko
 - Vivarium

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-30 19:18:00
 layout: post
 slug: simplicity-and-colour
 title: Simplicity and Colour
-wordpress_id: 413
-categories:
-- Personal
 ---
 
 Today, I talked about some things with people, and realised some things that I should have realised all along.  Life isn't confusing anymore, it's not messed up and I'm sane again.  The world is simple now; it makes sense.  

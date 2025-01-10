@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-22 05:22:00
 layout: post
 slug: dawn-again
 title: Dawn Again
-wordpress_id: 510
-categories:
-- Personal
 ---
 
 More and more, recently, I've been seeing dawn from the other side.  4am no longer seems a late time to go to bed; in fact it's long since passed four and I'm not even tired.  

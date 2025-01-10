@@ -1,6 +1,5 @@
 ---
 redirect_to: https://ianrenton.github.io/roastdinner/
-author: Ian
 comments: true
 date: 2009-10-03 15:22:02
 layout: post

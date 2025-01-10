@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:35:10
 layout: post
 slug: meiru-kanzaki
 title: Meiru Kanzaki
-wordpress_id: 686
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

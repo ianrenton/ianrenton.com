@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-30 11:28:00
 layout: post
 slug: whoah-no-updates-for-a-week-but-i-have-good-reasons
 title: Whoah, no updates for a week!  But I have good reasons...
-wordpress_id: 140
-categories:
-- Personal
 ---
 
 *Monday:* Pretty much nothing of importance.  

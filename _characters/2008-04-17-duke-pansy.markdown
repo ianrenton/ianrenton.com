@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-04-17 21:11:12
 layout: post
 slug: duke-pansy
 title: Duke Pansy
-wordpress_id: 765
-categories:
-- Characters
 tags:
 - Changeling
 - Character

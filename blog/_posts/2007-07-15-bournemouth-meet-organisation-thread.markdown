@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-07-15 22:57:00
 layout: post
 slug: bournemouth-meet-organisation-thread
 title: Bournemouth Meet Organisation Thread
-wordpress_id: 581
-categories:
-- Personal
 ---
 
 <font size="4">Attention Soton Kiddies<br /><font size="3">and those generally close to Bournemouth!<br /><br />This is the Ultimate<br /><font size="6">Bournemouth Meet Organisation Thread<br /><font size="3">of Ultimate Destiny!<br />Not affiliated with any orgies, destinial or otherwise.<br /><br /><u><b>WHAT?<br /></b></u>Three days of sun, sea, sand, and suffering*, in the wondrous seaside destination that is <strike>rainy</strike> sunny Bournemouth!&nbsp; There'll be poi and staff fun, barbecues on the beach, fireworks, food, booze, and other good things!<br /><br />* optional<br /><br /><u><b>WHERE?<br /></b></u>Eric's and my flat in Bournemouth.&nbsp; <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;om=1&amp;msa=0&amp;msid=116509304024152404618.00043619e17aae03ab55c&amp;ll=50.725888,-1.867719&amp;spn=0.006765,0.018539&amp;t=h&amp;z=16">This Google Map route</a> should show you the way from the station, if you haven't been before, and <a href="http://maps.google.co.uk/maps/ms?msa=0&amp;ll=50.723267,-1.874317&amp;spn=0.003382,0.00927&amp;t=h&amp;z=17&amp;om=1&amp;msid=116509304024152404618.0004361a05185d658a294">this one</a> should get you the last few hundred metres by car.<br /><br /><u><b>WHEN?</b></u><br /><b>The last weekend in July, that's Friday 27th to Sunday 29th.</b>&nbsp; Coming and going pretty much any time during those three days is fine!<br /><br />Car parking could be an issue - technically, cars can't stay parked in the visitors section for the *entirety* of Saturday.&nbsp; I can redirect you to a nearby place to park for a while if you don't feel lucky.&nbsp; Also, we should only really take up one visitor's space, so if you can work it out so that only one car turns up that'd be awesome.&nbsp; We're only 15 minutes' walk from the station!<br /><br /><u><b>WHO?<br /></b></u>Soton kiddies and anyone around the Bournemouth area.&nbsp; Overnight arrangements are going to be the trickiest - our flat can sleep maybe 5 in some degree of comfort (if you find the floor comfortable) or up to 12 if you're really friendly and don't mind sleeping in the bedroom or hallway.&nbsp; We have two sleeping bags and  

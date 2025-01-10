@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2002-11-09 11:00:00
 layout: post
 slug: the-result-of-the-battle
 title: The Result of the Battle
-wordpress_id: 8
-categories:
-- Terrible Teenage Poetry
 ---
 
 Written as a chapter quote for Dragon's Claw:

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-22 01:58:00
 layout: post
 slug: honorary-chemist
 title: Honorary Chemist!
-wordpress_id: 78
-categories:
-- Personal
 ---
 
 Well, today was a really rather cool day!  I had my maths exam this morning... it was sorta' annoying that I didn't have time to finish all the questions that I could have done, but I think I did pretty well on the stuff that I did get to answer...  And, yeah.  I spent the afternoon playing Soul Calibur 2 at John's flat, which was pretty awesome, then I became an honorary Chemist for the evening and joined the Chemistry guys in Wetherspoons... and then we went on to Flares.  

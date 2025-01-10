@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-12-15 18:29:00
 layout: post
 slug: tonight-3
 title: Tonight...
-wordpress_id: 739
-categories:
-- Personal
 ---
 
 Tonight, Eric and I were going to go to the cinema, then to the pub.  She decided she wasn't keen after all, so...  

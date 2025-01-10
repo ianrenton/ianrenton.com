@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-01 01:35:00
 layout: post
 slug: latest-in-the-series
 title: Latest in the Series
-wordpress_id: 458
-categories:
-- Personal
 ---
 
 MAG302: Derived Magical Practice  

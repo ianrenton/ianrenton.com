@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-23 02:23:00
 layout: post
 slug: day-of-the-wildebeest-cube
 title: Day of the Wildebeest Cube
-wordpress_id: 223
-categories:
-- Personal
 ---
 
 A lot has happened today...  First off, I actually managed to get enough work done this morning that I'm not quite so horribly behind, and I'm now actually feeling quite confident about Classical Mechanics.  

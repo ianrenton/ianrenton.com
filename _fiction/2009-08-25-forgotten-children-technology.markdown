@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-25 22:06:11
 layout: post
 slug: forgotten-children-technology
 title: 'Forgotten Children: Technology'
-wordpress_id: 879
-categories:
-- Forgotten Children Info
 tags:
 - Background
 - Forgotten Children

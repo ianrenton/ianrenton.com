@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-25 13:41:38
 layout: post
 slug: autonomous-quadrocopter-what-and-why
 title: 'Autonomous Quadrocopter: What and Why?'
-wordpress_id: 11437
-categories:
-- Hardware
-- Projects
 tags:
 - Autonomous
 - Autonomy

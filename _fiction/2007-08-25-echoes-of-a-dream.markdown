@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-25 09:42:01
 layout: post
 slug: echoes-of-a-dream
 title: Echoes of a Dream
-wordpress_id: 606
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Fantasy

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-01-09 18:00:00
 layout: post
 slug: igni-natura-renovatur-integra
 title: Igni Natura Renovatur Integra
-wordpress_id: 11
-categories:
-- Terrible Teenage Poetry
 ---
 
 Written as a chapter quote for Dragon's Claw:

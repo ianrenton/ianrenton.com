@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-17 23:35:19
 layout: post
 slug: the-ui-of-least-resistance
 title: The UI of Least Resistance
-wordpress_id: 11644
-categories:
-- Software
-- UX and Design
 tags:
 - Design
 - Experience

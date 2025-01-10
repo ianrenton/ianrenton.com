@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-10-13 15:23:03
 layout: post
 slug: letter-to-mp-freedom-of-the-press-and-the-guardians-gag-order
 title: 'Letter to MP: Freedom of the Press and the Guardian''s "Gag Order"'
-wordpress_id: 2122
-categories:
-- Politics
 tags:
 - Activism
 - ForWestminsterHubble

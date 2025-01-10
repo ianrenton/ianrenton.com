@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-02-01 01:03:00
 layout: post
 slug: sinister
 title: Sinister...
-wordpress_id: 14
-categories:
-- Personal
 ---
 
 Just finished reading Phoenix Feathers (which I was long overdue to do)... Liberi Fatali starts playing...  

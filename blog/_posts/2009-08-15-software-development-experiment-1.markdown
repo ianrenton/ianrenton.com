@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-15 09:39:13
 layout: post
 slug: software-development-experiment-1
 title: 'Software Development: Experiment 1'
-wordpress_id: 868
-categories:
-- Personal
-- Software
 ---
 
 Yesterday Morning  

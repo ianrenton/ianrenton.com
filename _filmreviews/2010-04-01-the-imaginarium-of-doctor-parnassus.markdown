@@ -4,9 +4,6 @@ date: 2010-04-01 22:59:57
 slug: the-imaginarium-of-doctor-parnassus
 layout: post
 title: The Imaginarium of Doctor Parnassus
-wordpress_id: 2886
-categories:
-- Film Reviews
 tags:
 - Headfuck
 - Terry Gilliam

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-11 20:59:41
 layout: post
 slug: sizing-in-crisis
 title: Sizing in Crisis!
-wordpress_id: 2934
-categories:
-- Maths
 tags:
 - Abuse of Mathematics
 - OCD

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:28:58
 layout: post
 slug: telling-regara
 title: Telling Regara
-wordpress_id: 780
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

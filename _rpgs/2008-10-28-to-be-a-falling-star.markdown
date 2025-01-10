@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:56:25
 layout: post
 slug: to-be-a-falling-star
 title: To Be a Falling Star
-wordpress_id: 798
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2002-11-16 22:00:00
 layout: post
 slug: tortured-souls
 title: Tortured Souls
-wordpress_id: 9
-categories:
-- Terrible Teenage Poetry
 ---
 
 Written as a chapter quote for Dragon's Claw:

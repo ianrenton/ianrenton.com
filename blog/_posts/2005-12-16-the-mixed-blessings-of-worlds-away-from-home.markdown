@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-16 12:53:00
 layout: post
 slug: the-mixed-blessings-of-worlds-away-from-home
 title: The Mixed Blessings of Worlds Away from Home
-wordpress_id: 420
-categories:
-- Personal
 ---
 
 Whisky should perhaps not be regarded as a good substitute for sleep.  

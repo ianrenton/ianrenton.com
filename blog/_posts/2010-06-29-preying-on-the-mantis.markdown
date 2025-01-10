@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-29 15:58:58
 layout: post
 slug: preying-on-the-mantis
 title: Preying on the Mantis
-wordpress_id: 4260
-categories:
-- Military
 tags:
 - BAE
 - Defence

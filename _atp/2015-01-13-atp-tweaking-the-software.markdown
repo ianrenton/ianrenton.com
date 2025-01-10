@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Tweaking the Software"
 date: 2015-01-13 20:35
 comments: true
-categories: 
+
 ---
 
 Since [yesterday's run outdoors](../atp-first-outdoor-run), I've made a few final tweaks to the code to improve a few things. [Here's the commit](https://github.com/ianrenton/All-Terrain-Pi/commit/968027f04b5a368f59ca82b1f87124efac1d438d) if you're interested.

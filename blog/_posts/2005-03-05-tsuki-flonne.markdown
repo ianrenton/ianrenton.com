@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-03-05 19:23:00
 layout: post
 slug: tsuki-flonne
 title: Tsuki == Flonne?
-wordpress_id: 275
-categories:
-- Personal
 ---
 
 Now I think about it, it's dawned on me what this costume I'm wearing reminds me of - Flonne from Disgaea.  Except my bows are orange and red, not blue.  

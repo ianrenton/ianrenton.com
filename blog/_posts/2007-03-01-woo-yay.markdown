@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-03-01 19:50:00
 layout: post
 slug: woo-yay
 title: Woo yay
-wordpress_id: 560
-categories:
-- Personal
 ---
 
 I just failed a credit check, god knows how.  No new PC, and no Supreme Commander, for me =S

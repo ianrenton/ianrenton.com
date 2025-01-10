@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-01 00:26:00
 layout: post
 slug: comedown
 title: Comedown
-wordpress_id: 108
-categories:
-- Personal
 ---
 
 I've just come back from a weekend at home for my mum's birthday...  it was kinda' boring there, but kinda' good also... it's good to be relaxed occasionally.  

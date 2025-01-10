@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:02:02
 layout: post
 slug: lorelai
 title: Lorelai
-wordpress_id: 679
-categories:
-- Characters
 tags:
 - Character
 ---

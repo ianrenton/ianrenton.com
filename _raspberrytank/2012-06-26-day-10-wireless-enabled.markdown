@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-26 21:29:25
 layout: post
 slug: tank-day-10-wireless-enabled
 title: 'Tank Day 10: Wireless Enabled'
-wordpress_id: 12960
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Build
 - Build Diary

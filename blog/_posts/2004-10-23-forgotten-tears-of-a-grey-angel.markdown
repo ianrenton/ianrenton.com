@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-23 03:36:00
 layout: post
 slug: forgotten-tears-of-a-grey-angel
 title: Forgotten Tears of a Grey Angel
-wordpress_id: 205
-categories:
-- Personal
 ---
 
 A single "mood" entry doesn't really do these emotions justice.  Right now I'm happy, sad, relieved, frustrated and lost, with an unhealthy dollop of self-loathing added in.  

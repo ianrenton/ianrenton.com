@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-01 20:55:00
 layout: post
 slug: saturation-point
 title: Saturation Point
-wordpress_id: 350
-categories:
-- Personal
 ---
 
 Today, I am full of thoughts and chemicals.  I drink more coffee than is probably good for me, I know that much, but today caffeine and stuffiness and humidity and people and work and, well, everything, just seemed to crush me under their weight.  I had to stop work and go for a walk earlier on.  I feel a bit ashamed that I can't keep up working even for just one eight-hour day without getting fed up, but then I guess the Health and Safety people would tell me that I should be taking breaks like that anyway.  

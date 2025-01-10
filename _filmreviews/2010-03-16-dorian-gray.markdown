@@ -4,9 +4,6 @@ date: 2010-03-16 22:24:28
 slug: dorian-gray
 layout: post
 title: Dorian Gray
-wordpress_id: 2845
-categories:
-- Film Reviews
 ---
 
 Synopsis

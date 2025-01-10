@@ -3,8 +3,6 @@ layout: post
 title: "Blackberries on Lammas"
 date: 2015-08-01 17:47
 comments: true
-categories:
-- Seasonal
 tags:
 - Lammas
 - Lughnasadh

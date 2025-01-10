@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-10-29 18:00:00
 layout: post
 slug: and-then-it-was-autumn
 title: And then... It was Autumn...
-wordpress_id: 41
-categories:
-- Seasonal
 ---
 
 The summer passed and the sunshine faded in what seemed a brief moment... Suddenly, evenings were cold and dark again... The first illnesses of the season... Dreaming of a roaring open fire...

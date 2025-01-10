@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:46:42
 layout: post
 slug: duke-hyacinth-2
 title: Duke Hyacinth
-wordpress_id: 789
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

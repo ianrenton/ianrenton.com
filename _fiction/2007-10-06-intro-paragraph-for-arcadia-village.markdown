@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-06 13:01:54
 layout: post
 slug: intro-paragraph-for-arcadia-village
 title: Intro Paragraph for Arcadia Village
-wordpress_id: 648
-categories:
-- Dreaming Awake
 tags:
 - Dreaming Awake
 ---

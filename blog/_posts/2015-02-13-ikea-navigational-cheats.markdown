@@ -3,7 +3,7 @@ layout: post
 title: "IKEA Navigational Cheats"
 date: 2015-02-13 06:22
 comments: true
-categories: 
+
 tags:
 - IKEA
 - Sultan Hamnvik

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-27 21:36:56
 layout: post
 slug: when-mark-met-david
 title: When Mark met David
-wordpress_id: 3355
-categories:
-- Politics
-- Internet
 tags:
 - Cameron
 - Facebook

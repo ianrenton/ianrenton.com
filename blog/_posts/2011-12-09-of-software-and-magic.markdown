@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-12-09 18:35:01
 layout: post
 slug: of-software-and-magic
 title: Of Software and Magic
-wordpress_id: 11883
-categories:
-- Personal
-- Software
 tags:
 - Caffeine
 - Magic

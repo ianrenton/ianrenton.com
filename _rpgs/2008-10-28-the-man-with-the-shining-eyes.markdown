@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:49:58
 layout: post
 slug: the-man-with-the-shining-eyes
 title: The Man with the Shining Eyes
-wordpress_id: 792
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

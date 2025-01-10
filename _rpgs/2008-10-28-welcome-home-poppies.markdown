@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 10:03:28
 layout: post
 slug: welcome-home-poppies
 title: Welcome Home, Poppies!
-wordpress_id: 1947
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

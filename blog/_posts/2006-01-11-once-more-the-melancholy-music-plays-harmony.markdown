@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-01-11 05:00:00
 layout: post
 slug: once-more-the-melancholy-music-plays-harmony
 title: Once More the Melancholy Music Plays (Harmony)
-wordpress_id: 425
-categories:
-- Personal
 ---
 
 *Once more, let the melancholy music play;  <br/>

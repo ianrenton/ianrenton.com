@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-01-03 15:34:26
 layout: post
 slug: neo-garlic
 title: Neo Garlic!
-wordpress_id: 813
-categories:
-- Personal
 ---
 
 <!--break-->

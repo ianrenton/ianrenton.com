@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-06 13:56:20
 layout: post
 slug: alice-princess-kayir
 title: Alice, Princess Kayir
-wordpress_id: 654
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

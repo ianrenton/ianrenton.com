@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-07 18:32:00
 layout: post
 slug: and-with-the-rain
 title: And, with the rain...
-wordpress_id: 466
-categories:
-- Personal
 ---
 
 And, with the rain, my motivation to do anything - particularly things involving carrying large planks of wood around town and cutting them up - disappeared.  Another day of no practical work, so I'll have to make up for it with some slaving over LaTeX...  

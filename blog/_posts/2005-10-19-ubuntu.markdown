@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-19 21:55:00
 layout: post
 slug: ubuntu
 title: Ubuntu
-wordpress_id: 381
-categories:
-- Personal
 ---
 
 That's it, I've had it with Ubuntu.  Damn "user-friendly" junk, it seems to develop problems if you're using anything except a generic GNOME environment and no -extras/-backports, and I rarely get replies to forum posts.  Back to Gentoo for me...  

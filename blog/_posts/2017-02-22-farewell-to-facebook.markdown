@@ -2,8 +2,6 @@
 title: Farewell to Facebook
 layout: post
 date: 2017-02-22 21:48
-categories:
-- Internet
 tags:
 - Facebook
 - Privacy

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-03-03 02:12:00
 layout: post
 slug: s
 title: S
-wordpress_id: 273
-categories:
-- Personal
 ---
 
 I wonder if maybe I shouldn't drink alcohol before I go to bed...  For the last week there's been bottles of cider lying around, and since I'm the only one in the house who drinks cider I've been having a few glasses each night to finish it off.  But last night was a bit odd...  I fell asleep instantly, as far as I know, and woke up instantly too.  It felt like no time had passed, and I woke up wondering why on earth the alarm clock had gone off for a few minutes until I actually registered that it was 8am.  It was really quite unnerving...  

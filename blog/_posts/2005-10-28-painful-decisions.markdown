@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-28 03:51:00
 layout: post
 slug: painful-decisions
 title: Painful Decisions
-wordpress_id: 388
-categories:
-- Personal
 ---
 
 (Yes, I'm afraid this is about the same situation as all my protected entries are these days...)  

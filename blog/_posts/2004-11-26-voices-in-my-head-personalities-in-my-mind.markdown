@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-26 02:43:00
 layout: post
 slug: voices-in-my-head-personalities-in-my-mind
 title: Voices in my Head, Personalities in my Mind
-wordpress_id: 224
-categories:
-- Personal
-- Roleplaying
 ---
 
 Today, I stepped completely inside an illusory mind.  But yet, it's not so entirely illusory.  When I think about it, there was one event in my life that set in motion a change that made me who I am today, emotionally speaking.  Without that one event, I would be a person like Malachai.  I'm not sure if it should worry me or not that I can step so completely inside his mind at will.  

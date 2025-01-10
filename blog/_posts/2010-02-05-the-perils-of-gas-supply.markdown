@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-05 20:03:06
 layout: post
 slug: the-perils-of-gas-supply
 title: The Perils of Gas Supply
-wordpress_id: 2692
-categories:
-- Personal
 tags:
 - Annoyance
 - Bailiffs

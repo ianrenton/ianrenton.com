@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-19 01:53:00
 layout: post
 slug: chores-day-three-moderate-success
 title: 'Chores day three: Moderate Success!'
-wordpress_id: 77
-categories:
-- Personal
 ---
 
 (Insert Big Brother voice-over) It's day three in the Hinata Inn, aka Flat Four, and that lazy bastard Ian has got off his arse and done something!  

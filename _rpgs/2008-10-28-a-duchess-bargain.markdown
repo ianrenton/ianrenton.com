@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:02:54
 layout: post
 slug: a-duchess-bargain
 title: A Duchess' Bargain
-wordpress_id: 1931
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

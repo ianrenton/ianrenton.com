@@ -1,5 +1,4 @@
 ---
-author: ian
 title: The Emoji Movie
 slug: the-emoji-movie
 id: 5253

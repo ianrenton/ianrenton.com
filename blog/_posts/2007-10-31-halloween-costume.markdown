@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-31 21:11:00
 layout: post
 slug: halloween-costume
 title: Halloween Costume?
-wordpress_id: 724
-categories:
-- Personal
 ---
 
 Right, Halloween party on Saturday and I have no idea what to go as.  Here's the suggestions so far:  

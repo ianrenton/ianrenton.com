@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-12-02 21:13:17
 layout: post
 slug: beyond-the-frontier-session-7-notes
 title: Beyond the Frontier -- Session 7 Notes
-wordpress_id: 12173
-categories:
-- Beyond the Frontier
 ---
 
 Run time: 2h (HOW?!)

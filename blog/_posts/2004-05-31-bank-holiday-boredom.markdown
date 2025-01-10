@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-31 22:30:00
 layout: post
 slug: bank-holiday-boredom
 title: Bank Holiday Boredom
-wordpress_id: 169
-categories:
-- Personal
 ---
 
 Yet another catching-up post for what's been going on this weekend.  Basically, it's not a lot ^_^  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-03 12:47:00
 layout: post
 slug: those-things-that-we-leave-behind
 title: Those Things That We Leave Behind
-wordpress_id: 194
-categories:
-- Personal
 ---
 
 The light slowly filters in through my condensation-covered windows, shedding a dull and depressing light over the room which is to become my home for the next nine months.  Somehow, despite sitting in a bright orange room, this seems like a place of greys, and of sleep.  Maybe that's just because Winter's coming, though...  

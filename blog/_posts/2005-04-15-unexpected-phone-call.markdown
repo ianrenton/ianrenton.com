@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-04-15 19:43:00
 layout: post
 slug: unexpected-phone-call
 title: Unexpected Phone Call
-wordpress_id: 289
-categories:
-- Personal
 ---
 
 Yeah, um, I just got a phone call I wasn't quite expecting.  

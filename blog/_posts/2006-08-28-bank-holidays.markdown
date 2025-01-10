@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-28 10:32:00
 layout: post
 slug: bank-holidays
 title: Bank Holidays
-wordpress_id: 529
-categories:
-- Personal
 ---
 
 Oh, commonly-held belief that bank holidays are a good time for DIY, how I hate thee!  

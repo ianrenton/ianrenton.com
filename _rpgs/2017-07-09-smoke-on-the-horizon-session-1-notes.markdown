@@ -3,8 +3,6 @@ comments: true
 date: 2017-07-09 17:27:00
 layout: post
 title: Beyond The Frontier - Session 1 Notes
-categories:
-- Roleplaying Games
 tags:
 - Session Notes
 - Smoke on the Horizon

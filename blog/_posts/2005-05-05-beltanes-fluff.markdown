@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-05-05 13:04:00
 layout: post
 slug: beltanes-fluff
 title: Beltane's Fluff
-wordpress_id: 297
-categories:
-- Personal
 ---
 
 Yet again, dandelion seeds blow in the wind and the sun beats down from a brilliant blue sky.  I'm so glad to celebrate at this time of year, when the world glitters so wonderfully...  

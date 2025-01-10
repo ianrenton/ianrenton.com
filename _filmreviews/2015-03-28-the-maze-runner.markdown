@@ -3,7 +3,7 @@ layout: post
 title: "The Maze Runner"
 date: 2015-03-28 20:54
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

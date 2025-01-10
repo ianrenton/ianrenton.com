@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:11:22
 layout: post
 slug: competition-for-the-princes
 title: Competition for the Princes!
-wordpress_id: 1940
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

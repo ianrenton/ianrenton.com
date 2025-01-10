@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-03-09 17:11:16
 layout: post
 slug: ux-is-in-the-radio
 title: UX is in the Radio
-wordpress_id: 11495
-categories:
-- Software
 tags:
 - Annoyances
 - Carpool

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-05-22 22:09:31
 layout: post
 slug: beyond-the-frontier-game-intro
 title: Beyond the Frontier -- Game Intro
-wordpress_id: 12045
-categories:
-- Beyond the Frontier
-- Roleplaying Games
 tags:
 - D&amp;D
 - Fluff

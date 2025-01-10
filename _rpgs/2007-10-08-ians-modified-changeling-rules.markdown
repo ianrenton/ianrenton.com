@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:40:18
 layout: post
 slug: ians-modified-changeling-rules
 title: Ian's Modified Changeling Rules
-wordpress_id: 714
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-19 15:21:00
 layout: post
 slug: devrandom-gt-livejournal
 title: /dev/random > livejournal
-wordpress_id: 526
-categories:
-- Personal
 ---
 
 This week has gone approximately thus:  

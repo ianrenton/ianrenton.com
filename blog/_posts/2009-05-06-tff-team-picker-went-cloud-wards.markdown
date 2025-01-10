@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-05-06 22:48:12
 layout: post
 slug: tff-team-picker-went-cloud-wards
 title: TFF Team Picker went Cloud-wards
-wordpress_id: 850
-categories:
-- Software
-- Projects
 ---
 
 For the three of you who care, my Telegraph Fantasy Football team picker just got fiddled with.

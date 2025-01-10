@@ -1,16 +1,10 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-08 21:10:47
 layout: post
 slug: rainy-evening-statistics-when-to-harvest-sloes
 title: 'Rainy Evening Statistics: When to Harvest Sloes?'
-wordpress_id: 13239
 latex: true
-categories:
-- Maths
-- Science
-- Seasonal
 tags:
 - Harvest
 - Maths

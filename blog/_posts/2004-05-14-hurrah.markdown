@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-14 00:08:00
 layout: post
 slug: hurrah
 title: Hurrah!
-wordpress_id: 155
-categories:
-- Personal
 ---
 
 Shockingly, I've got some work done today, and my bathroom'll probably be clean for the room inspection tomorrow!  

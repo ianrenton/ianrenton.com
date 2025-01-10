@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-18 14:15:34
 layout: post
 slug: the-public-human
 title: The Public Human
-wordpress_id: 2750
-categories:
-- Internet
 tags:
 - Happiness
 - Humanity

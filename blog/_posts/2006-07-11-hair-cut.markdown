@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-11 16:49:00
 layout: post
 slug: hair-cut
 title: Hair Cut
-wordpress_id: 517
-categories:
-- Personal
 ---
 
 Dear me, I've been productive today.  I got not just one but *TWO* things done!  Oh yes!  I have both shaved, <i>and</i> had a haircut!  Yay, go me!  Stay tuned for the science bit:  

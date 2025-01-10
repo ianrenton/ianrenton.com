@@ -4,9 +4,6 @@ date: 2011-11-21 22:13:24
 slug: the-lizzie-mcguire-movie
 layout: post
 title: The Lizzie McGuire Movie
-wordpress_id: 11847
-categories:
-- Film Reviews
 tags:
 - Disney
 - Fail

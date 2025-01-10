@@ -4,9 +4,6 @@ date: 2010-12-29 22:47:08
 slug: igor
 layout: post
 title: Igor
-wordpress_id: 11384
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

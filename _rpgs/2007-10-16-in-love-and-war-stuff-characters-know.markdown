@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-16 23:55:49
 layout: post
 slug: in-love-and-war-stuff-characters-know
 title: 'In Love and War: Stuff Characters Know'
-wordpress_id: 722
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

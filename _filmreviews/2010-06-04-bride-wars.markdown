@@ -4,9 +4,6 @@ date: 2010-06-04 22:06:07
 slug: bride-wars
 layout: post
 title: Bride Wars
-wordpress_id: 3221
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-09-03 08:53:24
 layout: post
 slug: fairyland-background-info
 title: Fairyland Background Info
-wordpress_id: 636
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

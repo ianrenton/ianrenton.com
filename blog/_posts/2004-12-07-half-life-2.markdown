@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-12-07 20:47:00
 layout: post
 slug: half-life-2
 title: Half-Life 2
-wordpress_id: 234
-categories:
-- Personal
 ---
 
 Gamers of a sensitive disposition may wish to turn away now.  

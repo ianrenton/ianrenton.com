@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-04 13:35:52
 layout: post
 slug: daily-promise-avatars-everywhere
 title: 'Daily Promise: Avatars Everywhere!'
-wordpress_id: 11350
-categories:
-- Projects
-- Software
-- UX and Design
 tags:
 - Code
 - Concept

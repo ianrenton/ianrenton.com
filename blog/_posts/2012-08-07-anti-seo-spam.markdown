@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-08-07 23:21:09
 layout: post
 slug: anti-seo-spam
 title: Anti-SEO Spam from iProspect (for British Gas)?
-wordpress_id: 13170
-categories:
-- Internet
 tags:
 - Bizarre
 - British Gas

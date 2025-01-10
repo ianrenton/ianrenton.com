@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-04 13:58:00
 layout: post
 slug: a-momentous-occasion
 title: A Momentous Occasion
-wordpress_id: 498
-categories:
-- Personal
 ---
 
 Ladies and Gentlemen, today is a most rare occasion, one which I hope you will all in later years be proud to have experienced.  Yes, for the first time in no less than eight months...  

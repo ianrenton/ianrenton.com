@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-06 21:51:00
 layout: post
 slug: aura-and-adrenaline
 title: Aura and Adrenaline
-wordpress_id: 149
-categories:
-- Personal
 ---
 
 Well, despite only starting my revision three hours before the test, I got the highest mark that I'm aware of anyone getting, which is pretty good going ^_^;  Also by lunchtime today I was feeling really rather good, and I got a lot of work out of the way, which means I've really got minimal amounts to do tonight or tomorrow morning.  

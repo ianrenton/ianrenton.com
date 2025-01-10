@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:35:57
 layout: post
 slug: eushys
 title: Eushys
-wordpress_id: 660
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

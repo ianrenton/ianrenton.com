@@ -3,7 +3,7 @@ layout: post
 title: "Beverly Hills Chihuahua 2"
 date: 2014-08-24 14:53
 comments: true
-categories: 
+
 ---
 
 Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-25 02:21:00
 layout: post
 slug: thoughts-of-the-unconfident
 title: Thoughts of the Unconfident
-wordpress_id: 385
-categories:
-- Personal
 ---
 
 I wonder if, perhaps, I'm being over-friendly, that she's gone from whatever she thought about me before to finding me annoying or even creepy...?  

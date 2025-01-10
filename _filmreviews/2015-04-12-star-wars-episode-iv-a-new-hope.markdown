@@ -3,7 +3,7 @@ layout: post
 title: "Star Wars Episode IV: A New Hope"
 date: 2015-04-12 10:05
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian "Devo" Montgomery

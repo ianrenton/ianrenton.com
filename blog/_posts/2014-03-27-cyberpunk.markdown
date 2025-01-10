@@ -3,7 +3,7 @@ layout: post
 title: "Cyberpunk"
 date: 2014-03-27 21:06
 comments: true
-categories: 
+
 - Internet
 - Writing
 tags:

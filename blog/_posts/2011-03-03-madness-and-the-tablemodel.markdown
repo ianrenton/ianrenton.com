@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-03-03 14:26:30
 layout: post
 slug: madness-and-the-tablemodel
 title: Madness and the TableModel
-wordpress_id: 11492
-categories:
-- Software
 tags:
 - Code
 - Confusion

@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-02-12 23:27:24
 layout: post
 slug: the-list-of-horror
 title: The List of Horror
-wordpress_id: 11451
 ---
 
 Please let me never be drunk enough to write any of these.

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-26 19:26:00
 layout: post
 slug: error-subject-not-found
 title: Error - Subject Not Found
-wordpress_id: 386
-categories:
-- Personal
 ---
 
 New story fragment "The Job Interview":  [/fiction/the-job-interview](/fiction/the-job-interview)  (Comments welcome as always)  

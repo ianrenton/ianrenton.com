@@ -4,9 +4,6 @@ date: 2010-11-27 22:32:25
 slug: the-brothers-grimm
 layout: post
 title: The Brothers Grimm
-wordpress_id: 11341
-categories:
-- Film Reviews
 tags:
 - Fairyland
 - Fantasy

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-09-08 19:13:00
 layout: post
 slug: keyboard-advice
 title: Keyboard advice
-wordpress_id: 638
-categories:
-- Personal
 ---
 
 Eric has declared my keyboard "icky", so I'm on the look-out for a replacement.  (It also isn't fond of capital letters some days, so it's sadly not as if cleaning it would solve all the problems.)  

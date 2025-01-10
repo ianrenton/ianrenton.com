@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-02 19:57:00
 layout: post
 slug: ill-call-that-a-success
 title: I'll Call That a Success
-wordpress_id: 337
-categories:
-- Personal
 ---
 
 So, today was... fun.  Not quite what I was expecting when I made the morning odyssey to work...  

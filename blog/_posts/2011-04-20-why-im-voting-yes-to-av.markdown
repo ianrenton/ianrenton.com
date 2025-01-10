@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-20 17:46:57
 layout: post
 slug: why-im-voting-yes-to-av
 title: Why I'm Voting "Yes" to AV
-wordpress_id: 11623
-categories:
-- Politics
 tags:
 - Alternative Vote
 - AV

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-12 14:04:38
 layout: post
 slug: dreaming-awake-epilogue
 title: Dreaming Awake - Epilogue
-wordpress_id: 11895
-categories:
-- Dreaming Awake Book
 tags:
 - Chapter
 - Dreaming Awake

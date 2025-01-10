@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-11 04:03:00
 layout: post
 slug: five-hours-sleep
 title: Five Hours' Sleep
-wordpress_id: 57
-categories:
-- Personal
 ---
 
 Well, I've got a fun five hours' sleep ahead of me before my only compulsory bit of the week, my Physics tutorial!  Woohoo, what fun!  

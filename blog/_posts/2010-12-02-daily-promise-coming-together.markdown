@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-02 23:35:30
 layout: post
 slug: daily-promise-coming-together
 title: 'Daily Promise: Coming Together'
-wordpress_id: 11344
-categories:
-- Projects
-- Software
-- UX and Design
 tags:
 - Code
 - Concept

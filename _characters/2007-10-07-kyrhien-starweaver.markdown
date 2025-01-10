@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 14:01:50
 layout: post
 slug: kyrhien-starweaver
 title: Kyrhien Starweaver
-wordpress_id: 677
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

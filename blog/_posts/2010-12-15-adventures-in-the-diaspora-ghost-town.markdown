@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-15 12:40:49
 layout: post
 slug: adventures-in-the-diaspora-ghost-town
 title: Adventures in the Diaspora Ghost Town
-wordpress_id: 11367
-categories:
-- Internet
-- Software
 tags:
 - Developer
 - Diaspora

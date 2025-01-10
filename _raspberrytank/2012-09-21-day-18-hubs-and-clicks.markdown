@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-09-21 16:46:39
 layout: post
 slug: tank-day-18-hubs-and-clicks
 title: 'Tank Day 18: Hubs and Clicks'
-wordpress_id: 13186
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Power Supply
 - Project

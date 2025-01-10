@@ -3,7 +3,7 @@ layout: post
 title: "Shoot 'em Up"
 date: 2013-06-22 22:21
 comments: true
-categories: 
+
 ---
 
 > A glorious evening of FRbtNage at the hands of Ian, [Dan](http://www.vulpinedesigns.co.uk) and [Devo](http://moviemorgue.wikia.com).

@@ -3,7 +3,6 @@ layout: post
 title: "Sharknado 3: Oh Hell No!"
 date: 2015-08-01 21:17
 comments: true
-categories:
 ---
 
 ## Synopsis

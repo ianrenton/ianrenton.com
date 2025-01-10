@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-02 01:17:00
 layout: post
 slug: lonely-dreamer
 title: Lonely Dreamer
-wordpress_id: 87
-categories:
-- Personal
 ---
 
 It... kinda' hit me today.  I think I'm lonely here.  Sure, we have fun sometimes, my flatmates and I, but maybe the most fun I have in the evenings is sitting in front of this terminal, chatting on IRC, drinking a beer and eating chocolate...  I dunno, does that make me a geek, or a loner, or what?  But whatever it does, I'm not sure it matters to me...  

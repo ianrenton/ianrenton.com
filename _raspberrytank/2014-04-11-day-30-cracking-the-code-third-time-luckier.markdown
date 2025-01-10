@@ -3,8 +3,6 @@ layout: post
 title: "Tank Day 30: Cracking the Code, Third Time Luckier"
 date: 2014-04-11 23:04
 comments: true
-categories:
-- Software
 tags:
 - Heng Long
 - Opcodes

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 14:55:38
 layout: post
 slug: lilac
 title: Lilac
-wordpress_id: 678
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

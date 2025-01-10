@@ -3,7 +3,7 @@ layout: post
 title: "USV-01 RC Electronics Fit"
 date: 2016-05-21 21:45
 comments: true
-categories: 
+
 ---
 
 With the [propulsion hardware fitted](../usv-01-hull-assembly), it's time to fit a set of electronics to enable remote control of the vehicle.

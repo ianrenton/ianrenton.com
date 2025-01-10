@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-02 02:15:00
 layout: post
 slug: a-learning-experience
 title: A Learning Experience
-wordpress_id: 170
-categories:
-- Personal
 ---
 
 First up: My computer finally has a GUI again!  Six days of console-based IRC clients and text-only web browsers have been quite annoying...  But finally, not only do I have an OS that I'm pretty much happy with, I've learnt a hell of a lot about it in the process!  

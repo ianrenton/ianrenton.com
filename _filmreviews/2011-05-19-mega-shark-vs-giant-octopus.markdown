@@ -4,9 +4,6 @@ date: 2011-05-19 22:38:26
 slug: mega-shark-vs-giant-octopus
 layout: post
 title: Mega Shark vs Giant Octopus
-wordpress_id: 11650
-categories:
-- Film Reviews
 tags:
 - Completely the Target Audience
 - GIANT OCTOPUS

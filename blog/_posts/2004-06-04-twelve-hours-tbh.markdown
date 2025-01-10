@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-04 23:06:00
 layout: post
 slug: twelve-hours-tbh
 title: Twelve Hours TBH
-wordpress_id: 173
-categories:
-- Personal
 ---
 
 Twelve hours until the start of this weekend's London festivities which will remove what little remains of my bank balance.  

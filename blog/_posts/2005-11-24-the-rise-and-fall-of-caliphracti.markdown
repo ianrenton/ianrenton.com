@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-24 15:57:00
 layout: post
 slug: the-rise-and-fall-of-caliphracti
 title: The Rise and Fall of Caliphracti
-wordpress_id: 407
-categories:
-- Personal
 ---
 
 That was a weird dream.  A weird sequence of dreams, in fact.  No less than five tiems did I wake up and go back to sleep, and in each period of sleep the dream continued from where it left off.  I pretty much slept through my two lectures this morning just to see where the dream would go.  

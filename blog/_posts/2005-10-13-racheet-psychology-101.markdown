@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-13 03:42:00
 layout: post
 slug: racheet-psychology-101
 title: Racheet Psychology 101
-wordpress_id: 377
-categories:
-- Personal
 ---
 
 Ladies and gentlemen, this is not a happy post.  I'm not sure quite what it is - it's both angsty, and angry.  At least, as close as I can still get to anger.  When I first started writing I was very pissed off, and by the end  was in tears.  

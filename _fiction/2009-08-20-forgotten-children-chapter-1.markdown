@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-20 08:54:07
 layout: post
 slug: forgotten-children-chapter-1
 title: 'Forgotten Children: Chapter 1'
-wordpress_id: 872
-categories:
-- Forgotten Children
 tags:
 - Fiction
 - Forgotten Children

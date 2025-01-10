@@ -3,7 +3,7 @@ layout: post
 title: "USV-01 Schematics (version 1)"
 date: 2016-06-23 18:12
 comments: true
-categories: 
+
 ---
 
 With the base remote control electronics fitted, the schematic for the installed electronics looks like this (click for PDF):

@@ -3,7 +3,6 @@ layout: post
 title: "HOWTO: Draw Scatter Graphs"
 date: 2013-08-15 07:15
 comments: true
-categories:
 tags:
 - maths
 - kids

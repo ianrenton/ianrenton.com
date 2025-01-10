@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-03-27 20:36:45
 layout: post
 slug: from-hells-heart-i-stab-at-thee-thou-facebook-privacy-model
 title: From Hell's Heart I Stab at Thee, Thou Facebook Privacy Model
-wordpress_id: 13523
-categories:
-- Internet
 tags:
 - Facebook
 - Mody-Dick

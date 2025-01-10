@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:57:59
 layout: post
 slug: over-the-border
 title: Over the Border
-wordpress_id: 800
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

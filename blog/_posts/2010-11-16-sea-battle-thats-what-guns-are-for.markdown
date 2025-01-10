@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-16 00:03:26
 layout: post
 slug: sea-battle-thats-what-guns-are-for
 title: 'Sea Battle: That''s what Guns are for!'
-wordpress_id: 11323
-categories:
-- Software
-- Games
-- Projects
 tags:
 - Development
 - Game

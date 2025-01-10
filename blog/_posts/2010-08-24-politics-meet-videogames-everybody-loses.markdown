@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-24 21:53:56
 layout: post
 slug: politics-meet-videogames-everybody-loses
 title: Politics, meet Videogames.  Everybody Loses.
-wordpress_id: 11260
-categories:
-- Politics
-- Games
 tags:
 - Afghanistan
 - Defence

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:12:43
 layout: post
 slug: fetch-me-ice-cream
 title: Fetch Me Ice Cream!
-wordpress_id: 1942
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

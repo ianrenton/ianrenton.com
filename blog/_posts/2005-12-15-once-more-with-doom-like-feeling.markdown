@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-15 05:47:00
 layout: post
 slug: once-more-with-doom-like-feeling
 title: Once More With Doom-like Feeling
-wordpress_id: 419
-categories:
-- Personal
 ---
 
 Meh, and there was me thinking for a while that I was fixed again.  The last few days have been fun, they really have.  And then tonight, humans started to annoy me again.  And then Little Andy started to annoy me.  Deliberately.  And pushed me all the way.  

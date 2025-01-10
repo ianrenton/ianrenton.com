@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-18 13:26:00
 layout: post
 slug: joyful-illness
 title: Joyful Illness
-wordpress_id: 380
-categories:
-- Personal
 ---
 
 Feeling a bit shivery, stomach doesn't feel great, I have a sore throat and am feeling a bit dizzy.  

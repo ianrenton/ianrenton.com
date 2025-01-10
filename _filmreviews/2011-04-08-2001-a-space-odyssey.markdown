@@ -4,9 +4,6 @@ date: 2011-04-08 22:04:34
 slug: 2001-a-space-odyssey
 layout: post
 title: '2001: A Space Odyssey'
-wordpress_id: 11606
-categories:
-- Film Reviews
 ---
 
 ### Synopsis

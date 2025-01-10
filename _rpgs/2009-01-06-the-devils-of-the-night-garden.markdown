@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-01-06 20:42:15
 layout: post
 slug: the-devils-of-the-night-garden
 title: The Devils of the Night Garden
-wordpress_id: 814
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Roleplaying

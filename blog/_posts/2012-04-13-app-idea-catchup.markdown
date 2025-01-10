@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-04-13 14:39:56
 layout: post
 slug: app-idea-catchup
 title: 'App Idea: CatchUp'
-wordpress_id: 11988
-categories:
-- Software
-- UX and Design
-- Security
 tags:
 - Applications
 - Chat

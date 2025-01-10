@@ -3,7 +3,6 @@ layout: post
 title: "USV-01 Electronics Box (version 1)"
 date: 2016-06-04 10:00
 comments: true
-categories:
 ---
 
 There are quite a few electronic items to fit inside the USV, and it would be nice to mount them in a single place rather than trying to fit them in all around the boat. To this end, I purchased a cheap plastic case for the Pi which requires some simple modifications to fit version 1 of the USV's electronics.

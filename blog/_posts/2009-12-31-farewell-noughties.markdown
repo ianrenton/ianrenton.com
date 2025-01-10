@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-31 23:57:29
 layout: post
 slug: farewell-noughties
 title: Farewell, Noughties
-wordpress_id: 2605
-categories:
-- Seasonal
-- Personal
 tags:
 - Memories
 - New Year

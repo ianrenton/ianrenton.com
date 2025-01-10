@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-03-19 22:42:36
 layout: post
 slug: beyond-the-frontier-session-15-notes
 title: Beyond the Frontier -- Session 15 Notes
-wordpress_id: 12298
-categories:
-- Roleplaying Games
 ---
 
 <p style="text-align: left;">Run time: 2h</p>

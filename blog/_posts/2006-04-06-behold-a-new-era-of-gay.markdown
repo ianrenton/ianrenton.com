@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-06 22:11:00
 layout: post
 slug: behold-a-new-era-of-gay
 title: Behold a New Era of Gay!
-wordpress_id: 461
-categories:
-- Personal
 ---
 
 For the attention of Racheet, Rhiannon and others with similar taste:  

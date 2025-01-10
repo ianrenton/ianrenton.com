@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-24 22:34:00
 layout: post
 slug: gah-mothers-whod-have-them
 title: Gah!  Mothers, who'd have them?
-wordpress_id: 603
-categories:
-- Personal
 ---
 
 I didn't realise this before today, but apparently Eric needs to weigh 10 stone, and Social Services come to take away the babies of pagan parents.  Also, knowing one's limits and asking for help are frowned upon.  And the mortgage advisor is "really sad that I'm not more pro-active".  

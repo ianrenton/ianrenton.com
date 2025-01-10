@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-04-21 21:30:13
 layout: post
 slug: jasmine
 title: Jasmine
-wordpress_id: 767
-categories:
-- Characters
 tags:
 - Changeling
 - Character

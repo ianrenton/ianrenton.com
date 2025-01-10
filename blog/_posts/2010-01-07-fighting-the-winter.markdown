@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-01-07 09:40:49
 layout: post
 slug: fighting-the-winter
 title: Fighting the Winter
-wordpress_id: 2627
-categories:
-- Seasonal
-- Personal
 tags:
 - Ice
 - Self-Determination Rush

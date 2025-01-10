@@ -4,9 +4,6 @@ date: 2011-12-23 21:50:56
 slug: zookeeper
 layout: post
 title: Zookeeper
-wordpress_id: 11927
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

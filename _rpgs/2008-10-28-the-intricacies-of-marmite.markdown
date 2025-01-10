@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:04:44
 layout: post
 slug: the-intricacies-of-marmite
 title: The Intricacies of Marmite
-wordpress_id: 1933
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

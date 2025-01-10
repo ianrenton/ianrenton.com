@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-25 23:23:50
 layout: post
 slug: gravity-showers
 title: Gravity Showers
-wordpress_id: 11660
-categories:
-- Short Stories
 tags:
 - Gravity
 - Lolphysics

@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Smartphone Control"
 date: 2015-01-09 19:20
 comments: true
-categories: 
+
 ---
 
 I've created a [GitHub repository for the All-Terrain Pi code](https://github.com/ianrenton/All-Terrain-Pi) and configuration files. This currently includes the early work on the control code for the vehicle.

@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-05-06 20:05:33
 layout: post
 slug: the-lost-sky
 title: The Lost Sky
-categories:
-- Fiction
 tags:
 - Fantasy
 - Fragment

@@ -4,9 +4,6 @@ date: 2010-12-29 22:36:33
 slug: faq-about-time-travel
 layout: post
 title: FAQ about Time Travel
-wordpress_id: 11382
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

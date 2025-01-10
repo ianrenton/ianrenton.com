@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-03 21:29:49
 layout: post
 slug: vaccination-complete
 title: Vaccination Complete!
-wordpress_id: 828
-categories:
-- Personal
 ---
 
 Vaccinations over and done with!  I am now resistant to:

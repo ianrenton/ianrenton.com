@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-11-30 02:26:00
 layout: post
 slug: eat-drink-be-merry-and-have-some-more-driiiinnk-_
 title: Eat, drink be merry, and have some more driiiinnk! ^_^
-wordpress_id: 48
-categories:
-- Personal
 ---
 
 Yaaaaaaaay~su!!  

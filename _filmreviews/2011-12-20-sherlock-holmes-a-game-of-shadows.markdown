@@ -4,9 +4,6 @@ date: 2011-12-20 20:42:48
 slug: sherlock-holmes-a-game-of-shadows
 layout: post
 title: 'Sherlock Holmes: A Game of Shadows'
-wordpress_id: 11907
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

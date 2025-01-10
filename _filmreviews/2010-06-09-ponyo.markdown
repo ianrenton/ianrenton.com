@@ -4,9 +4,6 @@ date: 2010-06-09 22:24:20
 slug: ponyo
 layout: post
 title: Ponyo
-wordpress_id: 3241
-categories:
-- Film Reviews
 tags:
 - Anime
 - Giant All-Conquering Fish Tsunami

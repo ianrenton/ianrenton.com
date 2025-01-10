@@ -3,7 +3,7 @@ layout: post
 title: "In the Loop"
 date: 2014-05-17 20:44
 comments: true
-categories: 
+
 ---
 
 Synopsis

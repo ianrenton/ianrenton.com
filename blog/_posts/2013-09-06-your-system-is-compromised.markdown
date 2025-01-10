@@ -3,10 +3,6 @@ layout: post
 title: "Your System is Compromised"
 date: 2013-09-06 16:27
 comments: true
-categories:
-- Internet
-- Software
-- Security
 tags: 
 - nsa
 - snowden

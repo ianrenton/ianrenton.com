@@ -3,7 +3,7 @@ layout: post
 title: "Alexander and the Terrible, Horrible, No Good, Very Bad Day"
 date: 2014-11-17 22:28
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

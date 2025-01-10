@@ -2,8 +2,6 @@
 layout: post
 title: "Last Flight of the Vulcan"
 date: 2015-08-23T21:07:33+01:00
-categories:
-- Personal
 tags:
 - Vulcan
 - Red Arrows

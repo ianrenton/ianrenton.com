@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-11 02:23:00
 layout: post
 slug: the-interwebs-fail-me
 title: The Interwebs Fail Me
-wordpress_id: 398
-categories:
-- Personal
 ---
 
 Fed up with PlusNet's dire service and stealth data caps, we today switched to another ADSL provider...  Freedom2Surf.  

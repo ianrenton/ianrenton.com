@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-02 15:54:00
 layout: post
 slug: exams-drink-exams
 title: Exams, Drink, Exams...
-wordpress_id: 497
-categories:
-- Personal
 ---
 
 Wednesday exam, Nuclei & Particles, was a bit meh.  A pretty easy paper, but I forgot a couple of important things which really isn't going to help my marks.  

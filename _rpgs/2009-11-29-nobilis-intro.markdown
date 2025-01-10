@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-29 21:53:08
 layout: post
 slug: nobilis-intro
 title: 2009 Nobilis Game Intro
-wordpress_id: 2418
-categories:
-- Nobilis
-- Short Stories
 tags:
 - 1001 Arabian Nights
 - Arabian Nights

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-22 21:29:00
 layout: post
 slug: laughing-in-public-is-good-for-you
 title: Laughing in Public is Good for You
-wordpress_id: 360
-categories:
-- Personal
 ---
 
 Two moments of public lollage today, much to my embarassment.  

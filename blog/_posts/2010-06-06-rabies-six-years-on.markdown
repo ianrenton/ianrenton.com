@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-06 10:22:20
 layout: post
 slug: rabies-six-years-on
 title: RABIES, Six Years On
-wordpress_id: 3225
-categories:
-- Personal
 tags:
 - Party
 - Photos

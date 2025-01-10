@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-22 23:06:57
 layout: post
 slug: a-farewell-to-summer
 title: A Farewell to Summer
-wordpress_id: 11256
-categories:
-- Seasonal
 tags:
 - Autumn
 - Spaff

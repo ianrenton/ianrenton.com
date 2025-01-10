@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-21 17:37:46
 layout: post
 slug: beyond-the-frontier-session-5-notes
 title: Beyond the Frontier -- Session 5 Notes
-wordpress_id: 12154
-categories:
-- Beyond the Frontier
 ---
 
 Run time: 2h 30m –- the second half of the previously planned session!  This would have been 2h long but the Earth Elemental, and the characters fighting it, developed a chronic case of the sucking.<br/><br/>

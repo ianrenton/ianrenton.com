@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:34:23
 layout: post
 slug: let-the-games-begin
 title: Let the Games Begin
-wordpress_id: 616
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

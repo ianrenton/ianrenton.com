@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-03-15 22:42:44
 layout: post
 slug: fuck-it-lets-remake-tweetdeck-only-better
 title: Fuck it, Let's Remake TweetDeck. Only Better.
-wordpress_id: 13513
-categories:
-- Internet
-- Software
-- Projects
 tags:
 - API
 - Facebook

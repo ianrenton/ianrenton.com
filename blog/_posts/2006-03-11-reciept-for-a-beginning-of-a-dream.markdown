@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-11 17:19:00
 layout: post
 slug: reciept-for-a-beginning-of-a-dream
 title: Reciept for a Beginning of a Dream
-wordpress_id: 450
-categories:
-- Personal
 ---
 
 And there was me thinking that the fairy dust she sprinkled over me would bring me dreams while I slept.  No, I was woken up and had no memory of dreams.  But half an hour later, a fragment of another kind of dream arrived in the post.  

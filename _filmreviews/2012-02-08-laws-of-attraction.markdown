@@ -4,9 +4,6 @@ date: 2012-02-08 21:47:08
 slug: laws-of-attraction
 layout: post
 title: Laws of Attraction
-wordpress_id: 11990
-categories:
-- Film Reviews
 ---
 
 > Another quality FRbtN from the pen of [Danfox Davies](https://twitter.com/#!/danfoxdavies)!

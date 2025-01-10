@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:36:43
 layout: post
 slug: duke-willows-plan
 title: Duke Willow's Plan
-wordpress_id: 784
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

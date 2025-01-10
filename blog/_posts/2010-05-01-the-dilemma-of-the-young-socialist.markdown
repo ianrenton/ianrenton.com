@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-05-01 21:30:16
 layout: post
 slug: the-dilemma-of-the-young-socialist
 title: The Dilemma of the Young Socialist
-wordpress_id: 3161
-categories:
-- Politics
 tags:
 - Election
 - Labour

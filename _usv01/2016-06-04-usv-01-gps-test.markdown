@@ -3,7 +3,6 @@ layout: post
 title: "USV-01 GPS Test"
 date: 2016-06-04 10:00
 comments: true
-categories:
 ---
 
 In the current version of my build, I am using a servo control board that uses the Raspberry Pi's only UART as its control interface. As such, to communicate with the UART GPS, I need a second UART available. (See the footnotes on [the BOM](../usv-01-bill-of-materials).) The easiest way to achieve this is with the simple CP2102 USB to UART converter.

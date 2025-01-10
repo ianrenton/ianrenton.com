@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-04 02:35:00
 layout: post
 slug: too-much-money
 title: Too Much Money
-wordpress_id: 371
-categories:
-- Personal
 ---
 
 Today, I spent too much money.  However, I now have four new mangas, a Suikoden 4 toy, a belly full of Pizza Hut, and a mind full of really, really silly things.  Life here is officially beyond fantastic.  

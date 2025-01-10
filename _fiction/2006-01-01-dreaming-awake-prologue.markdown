@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-01-01 20:05:33
 layout: post
 slug: dreaming-awake-prologue
 title: Dreaming Awake Prologue
-categories:
-- Fiction
 tags:
 - Fantasy
 - Fiction

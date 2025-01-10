@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-31 15:05:46
 layout: post
 slug: book-review-the-book-of-mormon
 title: 'Book Review: The Book of Mormon (!?)'
-wordpress_id: 2599
-categories:
-- Writing
 tags:
 - Book
 - Mormonism

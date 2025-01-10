@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 09:14:10
 layout: post
 slug: duchess-regara
 title: Duchess Regara
-wordpress_id: 658
-categories:
-- Characters
 tags:
 - Changeling
 - Character

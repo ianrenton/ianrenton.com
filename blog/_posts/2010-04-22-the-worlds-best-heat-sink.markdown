@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-22 12:00:23
 layout: post
 slug: the-worlds-best-heat-sink
 title: The World's Best Heat-Sink
-wordpress_id: 3117
-categories:
-- Hardware
 tags:
 - Abuse of Thermal Paste
 - Dodgy Hacks

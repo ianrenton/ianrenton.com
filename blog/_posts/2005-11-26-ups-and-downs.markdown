@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-26 05:58:00
 layout: post
 slug: ups-and-downs
 title: Ups and Downs
-wordpress_id: 409
-categories:
-- Personal
 ---
 
 Today went mostly from okay to cool to awesome to ARGH MY BRAIN HURTS.  

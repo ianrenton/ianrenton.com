@@ -1,16 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-07-01 12:21:57
 layout: post
 slug: farewell-dynamic-democracy
 title: Farewell, Dynamic Democracy
-wordpress_id: 6248
-categories:
-- Internet
-- Politics
-- Software
-- Projects
 tags:
 - Democracy
 - Dynamic Democracy

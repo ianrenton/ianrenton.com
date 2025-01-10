@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-24 21:06:00
 layout: post
 slug: the-campus-in-autumn
 title: The Campus in Autumn
-wordpress_id: 384
-categories:
-- Personal
 ---
 
 Years ago - four years, in fact, it seems a strangely long time - I had a feeling of what University life might be like.  Warm and comfortable, studying books or taking notes, while outside rain fell and cold winds blew leaves from the trees.  

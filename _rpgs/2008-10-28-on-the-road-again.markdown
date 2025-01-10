@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:45:36
 layout: post
 slug: on-the-road-again
 title: On the Road Again
-wordpress_id: 788
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

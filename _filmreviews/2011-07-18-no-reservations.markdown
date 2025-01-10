@@ -4,9 +4,6 @@ date: 2011-07-18 22:32:46
 slug: no-reservations
 layout: post
 title: No Reservations
-wordpress_id: 11744
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-25 18:47:36
 layout: post
 slug: endings-and-beginnings
 title: Endings and Beginnings
-wordpress_id: 607
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Fantasy

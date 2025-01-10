@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-18 12:45:13
 layout: post
 slug: deus-ex-macchiato
 title: Deus Ex Macchiato
-wordpress_id: 11299
-categories:
-- Short Stories
 tags:
 - A Thousand Words
 - Coffee

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-03 17:02:00
 layout: post
 slug: spoils-of-weekends
 title: Spoils of Weekends
-wordpress_id: 442
-categories:
-- Personal
 ---
 
 Right, I'm off to see my mum for her birthday.  I'll be back tomorrow afternoon for the other two birthdays this weekend!  

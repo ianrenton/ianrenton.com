@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-06-08 00:55:00
 layout: post
 slug: an-alternative-to-revision
 title: An Alternative to Revision
-wordpress_id: 320
-categories:
-- Personal
 ---
 
 About 8 this evening, we debated what to have for dinner.  It was decided that there should be roast potatoes...  a while later, chicken was theorised...  then a bunch of other vegetables...  

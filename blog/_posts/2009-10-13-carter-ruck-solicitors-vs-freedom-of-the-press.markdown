@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-10-13 11:36:18
 layout: post
 slug: carter-ruck-solicitors-vs-freedom-of-the-press
 title: Carter-Ruck Solicitors vs. Freedom of the Press
-wordpress_id: 2116
-categories:
 
 - Internet
 tags:

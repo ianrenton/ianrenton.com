@@ -2,8 +2,6 @@
 layout: post
 title: "This Week's Helpful Advice: Don't Help the Poor?"
 date: 2017-05-16T18:22:00+01:00
-categories:
-- Politics
 tags:
 - Local News
 - Homelessness

@@ -2,8 +2,6 @@
 layout: post
 title: "How I Blog Now"
 date: 2016-10-27T21:11:00+01:00
-categories:
-- Internet
 tags:
 - Blog
 - History

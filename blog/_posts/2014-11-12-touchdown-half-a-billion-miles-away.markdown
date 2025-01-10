@@ -3,7 +3,7 @@ layout: post
 title: "Touchdown, Half a Billion Miles Away"
 date: 2014-11-12 22:21
 comments: true
-categories: 
+
 - Space
 - Science
 tags:

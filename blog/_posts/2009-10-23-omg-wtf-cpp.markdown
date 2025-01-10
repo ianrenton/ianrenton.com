@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-10-23 11:58:49
 layout: post
 slug: omg-wtf-cpp
 title: OMG WTF CPP
-wordpress_id: 2163
-categories:
-- Internet
-- Software
-- Security
 tags:
 - Fail
 - LOL

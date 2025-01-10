@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:53:50
 layout: post
 slug: kalari
 title: Kalari
-wordpress_id: 672
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

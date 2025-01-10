@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-05-05 22:00:00
 layout: post
 slug: in-memoriam
 title: In Memoriam
-wordpress_id: 23
-categories:
-- Personal
 ---
 
 *"I make my back, to the hometown that looks just the same.<br/>

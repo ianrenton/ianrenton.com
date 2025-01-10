@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-17 20:03:03
 layout: post
 slug: calling-all-soton-kiddies
 title: Calling All Soton Kiddies!
-wordpress_id: 3273
-categories:
-- Personal
 tags:
 - Event
 - Planning

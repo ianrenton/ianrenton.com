@@ -1,5 +1,4 @@
 ---
-author: ian
 title: Safety Not Guaranteed
 slug: safety-not-guaranteed
 id: 3914

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-16 07:25:00
 layout: post
 slug: political-manifesto-for-the-adults-suck-party
 title: Political Manifesto for the "Adults Suck" Party
-wordpress_id: 13257
-categories:
-- Politics
 tags:
 - Elections
 - ForWestminsterHubble

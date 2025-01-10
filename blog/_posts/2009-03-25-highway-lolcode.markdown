@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-25 08:10:04
 layout: post
 slug: highway-lolcode
 title: Highway Lolcode
-wordpress_id: 839
-categories:
-- Travel
 ---
 
 Thus far, I have discerned the following differences between driving in the UK and Saudi Arabia.  They are presented here for your edification.

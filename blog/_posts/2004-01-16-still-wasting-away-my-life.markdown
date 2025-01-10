@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-16 02:48:00
 layout: post
 slug: still-wasting-away-my-life
 title: Still wasting away my life...
-wordpress_id: 75
-categories:
-- Personal
 ---
 
 ...not working as hard as I should, being distracted, doing nothing...  I... don't know why this is what my life is becoming...  Or whether it's a good or a bad thing...  It's almost like being outside of time, watching the hours flow past like lucid memories, my mind forgetting their passing as soon as they have gone...  

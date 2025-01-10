@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-31 21:44:00
 layout: post
 slug: a-sky-bluer-than-blue
 title: A Sky Bluer than Blue...
-wordpress_id: 125
-categories:
-- Personal
 ---
 
 Yesterday and today, temperatures reached 18 degrees C here, and the sky was almost cloudless for most of both days.  Almost felt like Summer was here...  

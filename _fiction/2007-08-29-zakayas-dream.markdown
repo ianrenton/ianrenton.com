@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:40:58
 layout: post
 slug: zakayas-dream
 title: Zakaya's Dream
-wordpress_id: 623
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Fantasy

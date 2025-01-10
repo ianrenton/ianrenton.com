@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-12-26 00:28:42
 layout: post
 slug: duke-red-rose
 title: Duke Red Rose
-wordpress_id: 743
-categories:
-- Characters
 tags:
 - Changeling
 - Character

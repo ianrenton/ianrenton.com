@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-05-17 23:19:37
 layout: post
 slug: the-tourists-guide-to-bournemouth-below-part-ii
 title: The Tourist’s Guide to Bournemouth Below, Part II
-wordpress_id: 12064
-categories:
-- Fiction
 tags:
 - Alternative History
 - Bournemouth

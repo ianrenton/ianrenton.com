@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-01-21 08:40:47
 layout: post
 slug: the-thousandth-obama-related-blog-entry-you-will-read-today
 title: The Thousandth Obama-Related Blog Entry You Will Read Today
-wordpress_id: 819
-categories:
-- Politics
 ---
 
 A black man is the leader of the free world.  Not only that, but one in whose inaugration speech favourably mentioned Islam, atheism and scientific reasoning.

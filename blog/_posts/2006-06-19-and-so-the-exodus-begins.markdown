@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-19 03:23:00
 layout: post
 slug: and-so-the-exodus-begins
 title: And So the Exodus Begins
-wordpress_id: 507
-categories:
-- Personal
 ---
 
 It's beginning to happen already - the first of us, that group of who've been together for three years now, has already left university for the final time.  Over the next two weeks, the rest of us will follow.  No more shall we call this city our home.  

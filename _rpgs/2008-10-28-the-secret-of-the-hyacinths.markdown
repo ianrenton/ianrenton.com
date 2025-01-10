@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:50:55
 layout: post
 slug: the-secret-of-the-hyacinths
 title: The Secret of the Hyacinths
-wordpress_id: 793
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

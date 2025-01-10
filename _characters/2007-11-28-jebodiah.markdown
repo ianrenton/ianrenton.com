@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-11-28 23:17:12
 layout: post
 slug: jebodiah
 title: Jebodiah
-wordpress_id: 734
-categories:
-- Characters
 tags:
 - Changeling
 - Character

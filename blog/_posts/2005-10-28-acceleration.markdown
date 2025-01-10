@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-28 03:21:00
 layout: post
 slug: acceleration
 title: Acceleration
-wordpress_id: 387
-categories:
-- Personal
 ---
 
 Another problem sheet more-or-less done and handed in on time.  Not long left now, not many things to do, before the weekend.  The weekend will be awesome, I think.  So why do I feel nervous...?  

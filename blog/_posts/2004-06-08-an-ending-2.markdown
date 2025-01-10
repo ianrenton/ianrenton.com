@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-08 01:01:00
 layout: post
 slug: an-ending-2
 title: An Ending
-wordpress_id: 175
-categories:
-- Personal
 ---
 
 Staring out of the window this afternoon, it seems like hardly any time at all since we arrived here.  And in so short a time, we made this place our own, and now all of a sudden we're leaving again...  So I guess that means a third of my time at University is done.  Only two years left.  I guess I'm being childish when I say I wish it could last forever - but I do, I really do.  Every day here is full of wonderful feelings and wonderful people...  When I think of some of the adults I know - how rarely they see their friends, and how lacking in emotion and adventure their lives are...  Why?  Why would people want to be like that?  I want to always live like I do now...  

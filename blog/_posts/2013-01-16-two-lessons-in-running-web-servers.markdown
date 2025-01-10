@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-01-16 22:11:07
 layout: post
 slug: two-lessons-in-running-web-servers
 title: Two Lessons in Running Web Servers
-wordpress_id: 13401
-categories:
-- Internet
 tags:
 - caching
 - Internet

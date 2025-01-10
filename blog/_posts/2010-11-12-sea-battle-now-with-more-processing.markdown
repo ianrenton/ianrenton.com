@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-12 21:33:06
 layout: post
 slug: sea-battle-now-with-more-processing
 title: Sea Battle, now with more Processing
-wordpress_id: 11322
-categories:
-- Software
-- Games
-- Projects
 tags:
 - Applet
 - Code

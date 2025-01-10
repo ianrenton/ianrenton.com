@@ -2,8 +2,6 @@
 layout: post
 title: "The Constructorium Story"
 date: 2016-06-09T06:32:51+01:00
-categories:
-- Projects
 tags:
 - hackerspace
 - makerspace

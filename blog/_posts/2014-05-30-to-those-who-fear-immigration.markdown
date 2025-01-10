@@ -3,7 +3,7 @@ layout: post
 title: "To Those who Fear Immigration"
 date: 2014-05-30 18:01
 comments: true
-categories: 
+
 - Politics
 tags:
 - Immigration

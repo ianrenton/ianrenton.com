@@ -3,7 +3,7 @@ layout: post
 title: "The End of Westminster Hubble"
 date: 2013-07-17 12:59
 comments: true
-categories: 
+
 - Internet
 - Software
 - Politics

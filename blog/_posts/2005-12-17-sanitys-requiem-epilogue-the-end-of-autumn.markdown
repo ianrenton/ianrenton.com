@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-17 17:39:00
 layout: post
 slug: sanitys-requiem-epilogue-the-end-of-autumn
 title: 'Sanity''s Requiem, Epilogue: The End of Autumn'
-wordpress_id: 421
-categories:
-- Seasonal
 ---
 
 Twenty-two days ago, as the afternoon twilight fell across the city, the universe's discordant orchestra started to play, and the dance began.  November's winds blew chill through our hearts, and our search for warmth pulled the world out of shape as we whirled and jumped on the ballroom floor.  

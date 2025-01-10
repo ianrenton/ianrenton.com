@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 16:46:54
 layout: post
 slug: cain
 title: Cain
-wordpress_id: 689
-categories:
-- Characters
 tags:
 - Changeling
 - Character

@@ -2,8 +2,6 @@
 layout: post
 title: "Adventures in Belgium"
 date: 2017-06-30T09:37:00+01:00
-categories:
-- Travel
 tags:
 - Belgium
 - Bruges

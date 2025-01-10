@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-11-24 23:09:05
 layout: post
 slug: beyond-the-frontier-session-6-notes
 title: Beyond the Frontier -- Session 6 Notes
-wordpress_id: 12164
-categories:
-- Beyond the Frontier
 ---
 
 Gavil, Ezekiel and Esqui need their levelups.

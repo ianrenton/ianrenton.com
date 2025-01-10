@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-03-15 23:03:19
 layout: post
 slug: using-miracles-in-nobilis
 title: Using Miracles in Nobilis
-wordpress_id: 2835
-categories:
-- Nobilis
 tags:
 - Miracles
 - Nobilis

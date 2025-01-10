@@ -3,8 +3,6 @@ layout: post
 title: "A Middle-Class Malaise"
 date: 2015-07-31 19:33
 comments: true
-categories:
-- Personal
 tags:
 - Childhood
 - House

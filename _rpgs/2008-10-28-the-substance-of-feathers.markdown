@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:08:38
 layout: post
 slug: the-substance-of-feathers
 title: The Substance of Feathers
-wordpress_id: 1937
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

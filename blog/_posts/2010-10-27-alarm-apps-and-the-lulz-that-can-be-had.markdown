@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-27 12:29:42
 layout: post
 slug: alarm-apps-and-the-lulz-that-can-be-had
 title: Alarm Apps, and the Lulz that can be had
-wordpress_id: 11311
-categories:
-- Internet
-- Software
 tags:
 - Alarm
 - AlarmRoulette

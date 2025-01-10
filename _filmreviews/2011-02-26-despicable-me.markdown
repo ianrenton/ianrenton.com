@@ -4,9 +4,6 @@ date: 2011-02-26 21:13:42
 slug: despicable-me
 layout: post
 title: Despicable Me
-wordpress_id: 11485
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

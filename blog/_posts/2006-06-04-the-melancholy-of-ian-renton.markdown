@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-04 21:15:00
 layout: post
 slug: the-melancholy-of-ian-renton
 title: The Melancholy of Ian Renton
-wordpress_id: 499
-categories:
-- Personal
 ---
 
 Inamongst the hectic schedule of revision and post-exam events, there's something I'd entirely forgotten about until now.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-03-18 02:28:00
 layout: post
 slug: st-patricks-day
 title: St. Patrick's Day
-wordpress_id: 280
-categories:
-- Personal
 ---
 
 So, there are these sheep, right?  They roll themselves into balls and roll over bridges, then get hit by giant mecha cricket bats.  

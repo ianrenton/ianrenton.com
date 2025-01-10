@@ -4,9 +4,6 @@ date: 2012-01-01 23:13:38
 slug: the-musketeer-2001
 layout: post
 title: The Musketeer (2001)
-wordpress_id: 11929
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

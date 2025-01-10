@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-21 22:21:53
 layout: post
 slug: endings-and-midwinter
 title: Endings and Midwinter
-wordpress_id: 2499
-categories:
-- Seasonal
 tags:
 - Christmas
 - Endings

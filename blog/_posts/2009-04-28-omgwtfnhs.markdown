@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-04-28 09:07:11
 layout: post
 slug: omgwtfnhs
 title: OMGWTFNHS
-wordpress_id: 849
-categories:
-- Personal
 ---
 
 Okay, how hard can it be to get a doctor's appointment?

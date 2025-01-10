@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-11-30 14:34:00
 layout: post
 slug: inverse-dream-tripping-is-this-what-a-nightmare-is
 title: Inverse Dream-Tripping ~ Is This What a Nightmare Is?
-wordpress_id: 50
-categories:
-- Personal
 ---
 
 The last two nights, I've had dreams... dreams that seemed very real indeed.  The night before last, some kind of festival which for some reason I had to escape from, but the buildings I was in were a maze that I couldn't find my way out of, no matter how much I ran... But yet still, for some reason, the layout was somehow... familiar.  And then last night, I dreamt that I was at a school where bullying and voilence dominated everyone's lives there, and that I was weak and could do nothing to stop getting beaten up...  

@@ -4,9 +4,6 @@ date: 2011-08-28 00:47:23
 slug: sex-and-the-city
 layout: post
 title: Sex and the City
-wordpress_id: 11802
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

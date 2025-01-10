@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-05-15 22:38:00
 layout: post
 slug: today-is
 title: Today is...
-wordpress_id: 489
-categories:
-- Personal
 ---
 
 Today is officially the day of RSS.  

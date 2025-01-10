@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-03-25 11:17:23
 layout: post
 slug: debt-rating-for-the-internet-age
 title: Debt Rating for the Internet Age
-wordpress_id: 11513
-categories:
 
 - Internet
 tags:

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:40:11
 layout: post
 slug: the-job-interview
 title: The Job Interview
-wordpress_id: 621
-categories:
-- Short Stories
 tags:
 - Fiction
 - Story

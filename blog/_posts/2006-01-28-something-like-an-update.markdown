@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-01-28 00:11:00
 layout: post
 slug: something-like-an-update
 title: Something Like an Update
-wordpress_id: 429
-categories:
-- Personal
 ---
 
 It's been a while since I've posted here - looks like exams and other concerns really have stolen all my free time.  So, here's what's going on at the moment.  

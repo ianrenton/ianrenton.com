@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-24 20:12:09
 layout: post
 slug: blood-and-tears
 title: Blood and Tears
-wordpress_id: 601
-categories:
-- Short Stories
 tags:
 - Exalted
 - Fantasy

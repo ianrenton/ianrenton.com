@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-17 17:20:00
 layout: post
 slug: inbound
 title: Inbound
-wordpress_id: 836
-categories:
-- Travel
 ---
 
 I have watched the sun set over Iraq, seen the lights of cities glow beneath me, and further out the flourescing military bases, square and uncomfortable amidst the desert.  I have watched the first stars come out over Kuwait, reflected in the orange plumes of oil platforms in the Gulf below.

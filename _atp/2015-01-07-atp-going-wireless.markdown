@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Going Wireless"
 date: 2015-01-07 21:24
 comments: true
-categories: 
+
 ---
 
 We have a set of boards capable of controlling the vehicle &mdash; all that's left to get the electronics stack wired up to the vehicle and cut the cables tethering the Pi to other things.

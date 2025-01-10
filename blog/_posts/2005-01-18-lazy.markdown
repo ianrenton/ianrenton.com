@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-01-18 17:08:00
 layout: post
 slug: lazy
 title: Lazy
-wordpress_id: 258
-categories:
-- Personal
 ---
 
 Yet again I'm being horribly lazy, and have done no work today...  

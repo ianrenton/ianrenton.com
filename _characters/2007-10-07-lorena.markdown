@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:04:08
 layout: post
 slug: lorena
 title: Lorena
-wordpress_id: 680
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

@@ -2,8 +2,6 @@
 layout: post
 title: "Migrating to Octopress 3"
 date: 2015-08-09T20:57:15+01:00
-categories:
-- Software
 tags:
 - Website
 - Octopress

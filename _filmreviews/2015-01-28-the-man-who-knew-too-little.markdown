@@ -3,7 +3,7 @@ layout: post
 title: "The Man Who Knew Too Little"
 date: 2014-11-22 22:27
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

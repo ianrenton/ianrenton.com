@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-23 21:58:00
 layout: post
 slug: sleep
 title: Sleep
-wordpress_id: 527
-categories:
-- Personal
 ---
 
 I really need to stop falling asleep on trains.  Today I was woken up by the 'doors closing' beeps at the station I needed to get off at.  

@@ -4,9 +4,6 @@ date: 2011-09-11 00:00:55
 slug: love-and-other-drugs
 layout: post
 title: Love and Other Drugs
-wordpress_id: 11816
-categories:
-- Film Reviews
 tags:
 - Viagra
 ---

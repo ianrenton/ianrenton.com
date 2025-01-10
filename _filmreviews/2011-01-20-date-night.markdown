@@ -4,9 +4,6 @@ date: 2011-01-20 19:11:06
 slug: date-night
 layout: post
 title: Date Night
-wordpress_id: 11435
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

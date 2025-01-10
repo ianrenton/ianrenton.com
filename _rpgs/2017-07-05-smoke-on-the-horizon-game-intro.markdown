@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2017-07-05 07:04:00
 layout: post
 slug: smoke-on-the-horizon-game-intro
 title: Smoke on the Horizon -- Game Intro
-categories:
-- Smoke on the Horizon
-- Roleplaying Games
 tags:
 - D&amp;D
 - Fluff

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-08 13:45:00
 layout: post
 slug: damnit
 title: Damnit!
-wordpress_id: 176
-categories:
-- Personal
 ---
 
 I just had the most awesome dream, but it faded so quickly from my mind...  I remember it was set in London, and some entity that seemed to be God was killing off all the important humans one-by-one.  But then, certain humans were quickly developing magic powers, the powers of ancient dragons I think they were, and the story turned into the reinactment of an ancient draconic war using magickally-adept humans as the dragons' representatives on Earth.  

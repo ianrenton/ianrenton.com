@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:27:46
 layout: post
 slug: malachai-black
 title: Malachai Black
-wordpress_id: 681
-categories:
-- Characters
 tags:
 - Character
 - World of Darkness

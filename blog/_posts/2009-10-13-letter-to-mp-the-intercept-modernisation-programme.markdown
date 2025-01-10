@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-10-13 15:58:53
 layout: post
 slug: letter-to-mp-the-intercept-modernisation-programme
 title: 'Letter to MP: The Intercept Modernisation Programme'
-wordpress_id: 2129
-categories:
-- Politics
 tags:
 - Activism
 - ForWestminsterHubble

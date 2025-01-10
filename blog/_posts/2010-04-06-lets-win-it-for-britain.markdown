@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-06 19:07:55
 layout: post
 slug: lets-win-it-for-britain
 title: Let's Win it for Britain?
-wordpress_id: 2901
-categories:
-- Politics
 tags:
 - Britain
 - Cameron

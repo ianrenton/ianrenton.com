@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-01-18 22:54:10
 layout: post
 slug: ye-standarde-roleplayinge-partie
 title: Ye Standarde Roleplayinge Partie
-wordpress_id: 12225
-categories:
-- Roleplaying Games
 ---
 
 Did the Munchkin RPG ever need pre-gen characters? No? Ah well, I made some anyway.

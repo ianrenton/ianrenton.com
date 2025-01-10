@@ -1,11 +1,9 @@
 ---
-author: ian
 title: SuccessWhale.com Discontinued as of Today
 slug: successwhale-com-discontinued-as-of-today
 id: 3793
 date: '2017-12-30 10:31:57'
 layout: post
-categories:
   - Blog
 tags:
   - Facebook

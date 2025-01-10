@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-03-28 13:04:05
 layout: post
 slug: when-science-met-big-society
 title: When Science met Big Society
-wordpress_id: 11518
-categories:
 
 - Science
 tags:

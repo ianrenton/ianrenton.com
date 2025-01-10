@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-25 15:45:37
 layout: post
 slug: stuxnet-is-in-the-hands-of-bad-guys
 title: Stuxnet is in the hands of Bad Guys?!
-wordpress_id: 11340
-categories:
-- Internet
-- Software
-- Security
 tags:
 - Analysis
 - Fearmongering

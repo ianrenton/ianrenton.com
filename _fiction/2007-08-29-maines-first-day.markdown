@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:34:48
 layout: post
 slug: maines-first-day
 title: Maiñe's First Day
-wordpress_id: 617
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Fantasy

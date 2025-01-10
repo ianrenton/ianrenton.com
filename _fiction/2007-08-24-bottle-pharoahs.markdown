@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-24 20:14:21
 layout: post
 slug: bottle-pharoahs
 title: Bottle Pharoahs
-wordpress_id: 602
-categories:
-- Short Stories
 tags:
 - Fanfiction
 - Fiction

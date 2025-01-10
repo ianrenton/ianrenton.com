@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:32:35
 layout: post
 slug: home-sweet-home-oc-chat-thread
 title: Home Sweet Home (OC Chat Thread)
-wordpress_id: 781
-categories:
-- In Love and War
 tags:
 - Changeling
 - Discussion
@@ -170,7 +166,7 @@ Or we could draw out your prologue while we wait for her.  Do you have cool stuf
 <p>Righty, now we&#039;re into the game proper - not that further<br />
 potato-related hijinks are banned, or anything - I&#039;ll explain one thing<br />
 in particular that I wanted to do.  Slowness is the death of<br />
-online games, so I&#039;m splitting IC threads into two categories:<br />
+online games, so I&#039;m splitting IC threads into two br />
 Plot, and Event.</p>
 <p>A plot thread will be for one or a few characters who are doing<br />
 something quite specific that needs them to post regularly.  These<br />

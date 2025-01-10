@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-17 17:57:43
 layout: post
 slug: dear-america-your-missile-defence-is-not-broken
 title: Dear America, Your Missile Defence is not Broken
-wordpress_id: 11368
-categories:
-- Military
 tags:
 - Defence
 - ICBM

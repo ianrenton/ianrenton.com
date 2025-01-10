@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-24 09:49:51
 layout: post
 slug: all-bugs-are-shallow-except-this-one
 title: All Bugs Are Shallow... Except This One
-wordpress_id: 2768
-categories:
-- Software
 tags:
 - ACPI
 - Apple

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-04 08:13:40
 layout: post
 slug: geo-ip-security-option-three
 title: 'Geo-IP Security: Option Three'
-wordpress_id: 11693
-categories:
-- Internet
-- Security
 tags:
 - Amusing
 - Facebook

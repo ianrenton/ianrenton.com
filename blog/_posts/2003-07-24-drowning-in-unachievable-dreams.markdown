@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-07-24 01:30:00
 layout: post
 slug: drowning-in-unachievable-dreams
 title: Drowning in Unachievable Dreams
-wordpress_id: 38
-categories:
-- Personal
 ---
 
 *"Can you still see your dreams in the distant, starry sky?<br/>

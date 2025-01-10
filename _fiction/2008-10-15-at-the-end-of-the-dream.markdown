@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-15 22:26:07
 layout: post
 slug: at-the-end-of-the-dream
 title: At the End of the Dream
-wordpress_id: 778
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

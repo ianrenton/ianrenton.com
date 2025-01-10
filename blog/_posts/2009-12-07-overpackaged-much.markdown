@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-07 23:12:19
 layout: post
 slug: overpackaged-much
 title: Overpackaged Much?
-wordpress_id: 2442
-categories:
 
 - Internet
 tags:

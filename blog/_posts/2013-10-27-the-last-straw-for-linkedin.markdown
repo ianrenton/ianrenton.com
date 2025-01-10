@@ -3,7 +3,7 @@ layout: post
 title: "The Last Straw for LinkedIn"
 date: 2013-10-27 10:50
 comments: true
-categories: 
+
 - Internet
 - Security
 tags:

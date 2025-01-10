@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-13 21:45:13
 layout: post
 slug: tank-day-6-gpio-funtimes
 title: 'Tank Day 6: GPIO Funtimes'
-wordpress_id: 12922
-categories:
-- Projects
-- Raspberry Tank
-- Software
 tags:
 - Build
 - Build Diary

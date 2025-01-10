@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-04-26 16:50:42
 layout: post
 slug: on-very-small-pcs
 title: On Very Small PCs
-wordpress_id: 12735
-categories:
-- Internet
-- Personal
-- Software
 tags:
 - Bluetooth Keyboard
 - Future

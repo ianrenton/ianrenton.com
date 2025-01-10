@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:42:42
 layout: post
 slug: hugh-fearnley-whittingstall
 title: Hugh Fearnley-Whittingstall
-wordpress_id: 664
-categories:
-- Characters
 tags:
 - Changeling
 - Character

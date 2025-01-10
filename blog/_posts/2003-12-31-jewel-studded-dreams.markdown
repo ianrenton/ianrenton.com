@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-31 15:09:00
 layout: post
 slug: jewel-studded-dreams
 title: Jewel-Studded Dreams
-wordpress_id: 66
-categories:
-- Personal
 ---
 
 The dream I just had... it's a rare thing, these days, to have a dream with a proper story - a beginning, a middle, and an end.  Well worth staying in bed for an extra 3 hours for! ^_^  Of course, memories of dreams fade fast, and I can't remember much of the story any more.  But the end...  the final, enduring image of the dream...  Two young people, one male one female, dressed in armour made entirely of multicoloured fist-sized gemstones etched with gold...  Holding similarly gem-studded swords...  Whilst standing on the kind of beach you see in adverts for Caribbean holidays, just staring out to sea.  And the sense of completion, that everything had a happy ending...  

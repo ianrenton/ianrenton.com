@@ -1,11 +1,9 @@
 ---
-author: ian
 title: The Apocalypse comes to Weymouth
 slug: the-apocalypse-comes-to-weymouth
 id: 1635
 date: '2017-10-16 21:55:51'
 layout: post
-categories:
   - Blog
 tags:
   - photo

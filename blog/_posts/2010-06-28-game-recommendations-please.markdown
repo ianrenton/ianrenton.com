@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-28 23:05:13
 layout: post
 slug: game-recommendations-please
 title: Game Recommendations Please!
-wordpress_id: 3363
-categories:
-- Games
 tags:
 - Android
 - DS

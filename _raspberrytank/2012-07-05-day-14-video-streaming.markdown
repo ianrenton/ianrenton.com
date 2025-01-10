@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-07-05 22:19:50
 layout: post
 slug: tank-day-14-video-streaming
 title: 'Tank Day 14: Video Streaming'
-wordpress_id: 13037
-categories:
-- Projects
-- Raspberry Tank
-- Software
 tags:
 - Build
 - Build Diary

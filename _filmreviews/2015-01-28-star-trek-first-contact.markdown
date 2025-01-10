@@ -3,7 +3,7 @@ layout: post
 title: "Star Trek: First Contact"
 date: 2015-01-26 22:33
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian‭ “‬Devo‭” ‬Montgomery

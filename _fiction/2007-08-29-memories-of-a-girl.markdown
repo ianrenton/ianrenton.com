@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:35:16
 layout: post
 slug: memories-of-a-girl
 title: Memories of a Girl
-wordpress_id: 618
-categories:
-- Short Stories
 tags:
 - Depressing
 - Fiction

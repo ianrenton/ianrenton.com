@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-22 17:55:00
 layout: post
 slug: devoid-of-purpose
 title: Devoid of Purpose
-wordpress_id: 101
-categories:
-- Personal
 ---
 
 *Overcast day<br/>

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-07-26 21:42:00
 layout: post
 slug: raining-again
 title: Raining Again
-wordpress_id: 333
-categories:
-- Personal
 ---
 
 It just doesn't get any better, does it?  

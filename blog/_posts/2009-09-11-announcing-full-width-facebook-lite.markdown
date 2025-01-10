@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-09-11 16:33:14
 layout: post
 slug: announcing-full-width-facebook-lite
 title: 'Announcing: Full Width Facebook Lite'
-wordpress_id: 885
-categories:
-- Software
-- Projects
 tags:
 - Announce
 - Facebook

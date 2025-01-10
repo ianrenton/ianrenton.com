@@ -4,9 +4,6 @@ date: 2012-04-16 22:00:38
 slug: hellboy-ii-the-golden-army
 layout: post
 title: 'Hellboy II: The Golden Army'
-wordpress_id: 12047
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

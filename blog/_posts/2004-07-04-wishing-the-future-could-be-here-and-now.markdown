@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-07-04 13:22:00
 layout: post
 slug: wishing-the-future-could-be-here-and-now
 title: Wishing the Future could be Here and Now
-wordpress_id: 186
-categories:
-- Personal
 ---
 
 I suppose it's a sign that I was enjoying myself, when I didn't think to check what time it was until I noticed it was already sunrise...  (And yet, I still feel wide awake now even though I didn't sleep last night...)  

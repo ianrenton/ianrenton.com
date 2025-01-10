@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-03-17 22:35:17
 layout: post
 slug: e-mail-to-mp-please-demand-debate-on-the-digital-economy-bill
 title: 'E-mail to MP: Please Demand Debate on the Digital Economy Bill'
-wordpress_id: 2849
-categories:
-- Politics
 tags:
 - Activism
 - Digital Economy Bill

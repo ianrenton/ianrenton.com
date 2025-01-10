@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-22 21:09:54
 layout: post
 slug: st-george-is-cross
 title: St George is Cross
-wordpress_id: 3126
-categories:
-- Personal
 tags:
 - England
 - Flags

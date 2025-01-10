@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-11-27 22:44:10
 layout: post
 slug: please-draw-on-my-gui
 title: Please Draw on my GUI!
-wordpress_id: 11877
-categories:
-- UX and Design
 tags:
 - Design
 - mockups

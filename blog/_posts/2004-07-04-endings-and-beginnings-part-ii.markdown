@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-07-04 22:57:00
 layout: post
 slug: endings-and-beginnings-part-ii
 title: Endings and Beginnings, part II
-wordpress_id: 187
-categories:
-- Personal
 ---
 
 So there it is, the ending of Stellvia - and it was everything I hoped for and more.  I just can't get over the flood of emotions that come from finally witnessing the awesome end of something that dominated my heart and mind as totally as Stellvia did...  

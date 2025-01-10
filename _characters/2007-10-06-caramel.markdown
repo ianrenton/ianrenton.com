@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-06 14:07:43
 layout: post
 slug: caramel
 title: Caramel
-wordpress_id: 656
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

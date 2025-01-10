@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:36:20
 layout: post
 slug: the-golden-age
 title: The Golden Age
-wordpress_id: 620
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Fantasy

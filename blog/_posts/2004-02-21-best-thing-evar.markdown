@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-21 14:12:00
 layout: post
 slug: best-thing-evar
 title: Best thing evar.
-wordpress_id: 100
-categories:
-- Personal
 ---
 
 I wish I lived in Japan, was female, and weighed less than 50kg...  

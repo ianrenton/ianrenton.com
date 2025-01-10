@@ -1,11 +1,9 @@
 ---
-author: ian
 title: Migrating from Jekyll to WordPress
 slug: migrating-from-jekyll-to-wordpress
 id: 1623
 date: '2017-10-25 23:10:38'
 layout: post
-categories:
   - Blog
 tags:
   - Internet

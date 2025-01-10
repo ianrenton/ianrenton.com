@@ -2,8 +2,6 @@
 layout: post
 title: "The Long, Slow Death of Facebook"
 date: 2016-04-30T07:39:50+01:00
-categories:
-- Internet
 tags:
 - Facebook
 - sharing

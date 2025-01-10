@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-03-19 07:39:00
 layout: post
 slug: minamicon
 title: Minamicon
-wordpress_id: 565
-categories:
-- Personal
 ---
 
 Another year, another three days of <strike>anime faggotry</strike> alcoholism.  And now, despite being thoroughly knackered, I have to go to work and pretend to be conscious.  

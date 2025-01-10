@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-05-22 22:00:00
 layout: post
 slug: cards-with-changing-faces
 title: Cards with Changing Faces
-wordpress_id: 26
-categories:
-- Personal
 ---
 
 I got some new Tarot cards today - for once, a normal set. I've gotta say, I'm really impressed. The deck's called the Celtic Dragon Tarot, and the artwork is very nice indeed!  

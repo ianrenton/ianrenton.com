@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-27 17:39:00
 layout: post
 slug: just-catching-up
 title: Just catching up...
-wordpress_id: 168
-categories:
-- Personal
 ---
 
 ### Yesterday  

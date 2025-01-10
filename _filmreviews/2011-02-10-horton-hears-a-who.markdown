@@ -4,9 +4,6 @@ date: 2011-02-10 23:06:16
 slug: horton-hears-a-who
 layout: post
 title: Horton Hears a Who!
-wordpress_id: 11471
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

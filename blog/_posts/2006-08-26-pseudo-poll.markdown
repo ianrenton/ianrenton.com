@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-26 21:19:00
 layout: post
 slug: pseudo-poll
 title: Pseudo-poll!
-wordpress_id: 528
-categories:
-- Personal
 ---
 
 Righty everyone, audience participation time.  

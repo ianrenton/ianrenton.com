@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-10 19:42:33
 layout: post
 slug: coming-of-age
 title: Coming of Age
-wordpress_id: 882
-categories:
-- Internet
-- Software
-- Hardware
 tags:
 - Archaeology
 - Code

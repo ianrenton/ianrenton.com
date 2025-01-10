@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-01-27 16:05:00
 layout: post
 slug: if-space-is-one-dimensional-its-easy
 title: If Space is One-Dimensional, it's Easy!
-wordpress_id: 261
-categories:
-- Personal
 ---
 
 Okay, brief catching-up time.  Sorry for my almost total absence from the internet (and IRC in particular) this week - exams and revision have been taking up pretty much all my time, so I'm trying to minimise distractions.  

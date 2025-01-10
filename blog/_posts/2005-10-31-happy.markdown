@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-31 22:27:00
 layout: post
 slug: happy
 title: Happy...
-wordpress_id: 391
-categories:
-- Personal
 ---
 
 Happy Hallowe'en / Samhain / Overly Americanised Autumn Festival to you all!  

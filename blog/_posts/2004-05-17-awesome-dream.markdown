@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-17 14:39:00
 layout: post
 slug: awesome-dream
 title: Awesome Dream
-wordpress_id: 159
-categories:
-- Personal
 ---
 
 *"Can you tell me why, can you tell me how?  <br/>

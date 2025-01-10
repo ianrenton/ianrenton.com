@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2009-09-24 10:24:07
 layout: page
 slug: forgotten-children
 title: Forgotten Children
-wordpress_id: 901
 ---
 
 <p>Forgotten Children is a novel-length work of fiction that I intended to serialise online back in 2009, to give myself an impetus to write something longer than a short story.  Needless to say it was not a success, and I only wrote an introduction and five chapters.  You can find them below.</p>

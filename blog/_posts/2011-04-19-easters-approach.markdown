@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-19 08:35:18
 layout: post
 slug: easters-approach
 title: Easter's Approach
-wordpress_id: 11620
-categories:
-- Seasonal
 tags:
 - Beach
 - Easter

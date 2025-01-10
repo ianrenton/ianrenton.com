@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-05 23:32:37
 layout: post
 slug: six-inches
 title: Six Inches!
-wordpress_id: 830
-categories:
-- Personal
 ---
 
 Six inches of snow this morning!  Settled!  In March!  In *Bournemouth*!  That just... doesn't happen.

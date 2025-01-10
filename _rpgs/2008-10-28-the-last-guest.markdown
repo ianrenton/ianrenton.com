@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:09:40
 layout: post
 slug: the-last-guest
 title: The Last Guest
-wordpress_id: 1938
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

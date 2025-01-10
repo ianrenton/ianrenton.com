@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-12-11 21:47:00
 layout: post
 slug: rage-against-the-council-why-recycling-in-flat-blocks-sucks
 title: 'Rage Against the Council: Why Recycling in Flat Blocks Sucks'
-wordpress_id: 11886
-categories:
-- Personal
 tags:
 - Council
 - Raaaaage

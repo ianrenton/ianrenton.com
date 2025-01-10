@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-06 13:05:45
 layout: post
 slug: twin-smoke-island
 title: Twin Smoke Island
-wordpress_id: 649
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Roleplaying

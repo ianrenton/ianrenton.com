@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-05 13:19:27
 layout: post
 slug: semicolon-rage
 title: Semicolon Rage
-wordpress_id: 2679
-categories:
-- Software
 tags:
 - Analog Devices
 - Annoyance

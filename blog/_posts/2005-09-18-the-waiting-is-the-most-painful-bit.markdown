@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-18 21:08:00
 layout: post
 slug: the-waiting-is-the-most-painful-bit
 title: The Waiting is the Most Painful Bit
-wordpress_id: 357
-categories:
-- Personal
 ---
 
 Another week of work done, and only two more to go.  Still, two weeks is long enough.  There's really nothing I want more in the world than to be back in Southampton soon...  

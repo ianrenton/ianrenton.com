@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-05-29 14:39:00
 layout: post
 slug: like-broken-shards
 title: Like Broken Shards
-wordpress_id: 312
-categories:
-- Personal
 ---
 
 A game finished last night, but more than that, a story finished last night.  The story of characters that I love dearly, characters that have taught me new things, characters I've laughed and cried with for so long.  

@@ -4,9 +4,6 @@ date: 2012-02-18 23:27:55
 slug: the-three-musketeers-2011
 layout: post
 title: The Three Musketeers (2011)
-wordpress_id: 11998
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

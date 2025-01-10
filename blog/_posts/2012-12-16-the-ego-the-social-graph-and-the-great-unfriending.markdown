@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-12-16 11:42:10
 layout: post
 slug: the-ego-the-social-graph-and-the-great-unfriending
 title: The Ego, the Social Graph, and the Great Unfriending
-wordpress_id: 13376
-categories:
-- Internet
-- Personal
 tags:
 - Facebook
 - Internet

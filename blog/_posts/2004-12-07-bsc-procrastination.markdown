@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-12-07 14:00:00
 layout: post
 slug: bsc-procrastination
 title: BSc Procrastination
-wordpress_id: 233
-categories:
-- Personal
 ---
 
 It's now been nearly a week since I went to Uni.  In this time, I've missed five lectures, a compulsory problem class, and three hours of compulsory labs.  Up until this morning, I'd also done no work at all in that time.  If there was a degree course in procrastination, I'd have an Honours.  But sadly I'm doing a Physics course, so the next two weeks are going to be insane with work.  The holidays are in sight, though - only two weeks left...  

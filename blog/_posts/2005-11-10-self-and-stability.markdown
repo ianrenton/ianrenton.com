@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-10 15:01:00
 layout: post
 slug: self-and-stability
 title: Self and Stability
-wordpress_id: 397
-categories:
-- Personal
 ---
 
 I am calm, I am happy.  I am being myself and having fun.  I am not worrying about things.  

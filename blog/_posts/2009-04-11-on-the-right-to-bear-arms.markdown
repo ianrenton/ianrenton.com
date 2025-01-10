@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-04-11 10:36:28
 layout: post
 slug: on-the-right-to-bear-arms
 title: On the Right to Bear Arms
-wordpress_id: 842
-categories:
-- Politics
 ---
 
 My last blog post got me thinking about how much worse the whole protest could have been if anyone was in any way armed.  So why (hello America) the right to bear arms?  As far as I can tell, there's two arguments:

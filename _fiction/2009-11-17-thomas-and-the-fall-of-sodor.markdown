@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-17 22:36:28
 layout: post
 slug: thomas-and-the-fall-of-sodor
 title: Thomas and the Fall of Sodor
-wordpress_id: 2389
-categories:
-- Short Stories
 tags:
 - Ayn Rand
 - Childrens' TV

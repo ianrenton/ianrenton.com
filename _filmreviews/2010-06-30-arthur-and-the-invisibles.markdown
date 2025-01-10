@@ -4,9 +4,6 @@ date: 2010-06-30 22:41:40
 slug: arthur-and-the-invisibles
 layout: post
 title: Arthur and the Invisibles
-wordpress_id: 5326
-categories:
-- Film Reviews
 tags:
 - Fantasy
 ---

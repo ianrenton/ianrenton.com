@@ -3,7 +3,7 @@ layout: post
 title: "The Matrix"
 date: 2015-01-26 22:30
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian‭ “‬Devo‭” ‬Montgomery

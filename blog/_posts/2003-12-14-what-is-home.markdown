@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-14 17:11:00
 layout: post
 slug: what-is-home
 title: What is home...?
-wordpress_id: 60
-categories:
-- Personal
 ---
 
 Well, yesterday I moved back to my parents' house for three weeks for Chrsitmas!  It was kinda' sad to say goodbye to people there for three weeks, but it'll be good to see everyone from Bournemouth again.  I just wished they'd come home sooner, I think Dom and Adam are back on Thursday and Ant next weekend.  In the meantime, I'm not having much to do, but I guess it's okay to take it easy for a while.  I've got lots of revision I could be doing (exams in January, eek!) and lots of games I could be playing now I'm back at home with a PS2 and a TV...  But for a few days, I think I'll just relax.  

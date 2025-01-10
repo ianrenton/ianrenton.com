@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-02-08 23:52:47
 layout: post
 slug: dreaming-awake-game-1
 title: Dreaming Awake Game 1
-wordpress_id: 11466
-categories:
-- Roleplaying Games
 tags:
 - Dreaming Awake
 - Game

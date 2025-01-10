@@ -3,8 +3,6 @@ layout: post
 title: "Tank Day 29: FPS Mode"
 date: 2014-03-02 15:41
 comments: true
-categories:
-- Software
 tags:
 - Software
 - FPS

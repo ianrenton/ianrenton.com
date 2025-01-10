@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 10:45:33
 layout: post
 slug: sayar
 title: Sayar
-wordpress_id: 694
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

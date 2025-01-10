@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-27 12:47:15
 layout: post
 slug: new-labour-gone-but-not-forgotten
 title: 'New Labour: Gone, but not Forgotten'
-wordpress_id: 11289
-categories:
-- Politics
 tags:
 - Government
 - Labour

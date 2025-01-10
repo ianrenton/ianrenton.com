@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-29 15:48:00
 layout: post
 slug: i-have-done-a-bad-thing
 title: I have done a bad thing
-wordpress_id: 523
-categories:
-- Personal
 ---
 
 Of course, I'm always doing bad things, but this one is particularly bad, in the "bad and wrong" sense.  

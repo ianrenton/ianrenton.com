@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-16 02:31:00
 layout: post
 slug: not-much-to-report-2
 title: Not much to report.
-wordpress_id: 157
-categories:
-- Personal
 ---
 
 It's been a really quiet day.  Downloaded some anime (Fullmetal Alchemist, Onegai Twins) this afternoon, spent this evening playing UT2k4 and watching more anime (Tales of Eternia).  

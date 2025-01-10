@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-07-15 11:58:50
 layout: post
 slug: beyond-the-frontier-session-1-notes
 title: Beyond The Frontier - Session 1 Notes
-wordpress_id: 12084
-categories:
-- Beyond the Frontier
-- Roleplaying Games
 tags:
 - Beyond the Frontier
 ---

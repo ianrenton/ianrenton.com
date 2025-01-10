@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-01-06 22:32:00
 layout: post
 slug: forward-once-more-melody
 title: Forward Once More (Melody)
-wordpress_id: 424
-categories:
-- Personal
 ---
 
 Rucksack packed full of clothes, books and papers in the two satchels slung one over each shoulder, water bottle in its pouch and umbrella in its belt scabbard.  Sleeping bag tied on, rolled up tent tied on, frying pan tied on.  Music playing, alarm set, door locked.  It's time to go; time for the next part of the adventure to begin.  

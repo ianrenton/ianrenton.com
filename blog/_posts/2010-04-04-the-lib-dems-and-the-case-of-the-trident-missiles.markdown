@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-04 12:15:46
 layout: post
 slug: the-lib-dems-and-the-case-of-the-trident-missiles
 title: The Lib Dems and the Case of the Trident Missiles
-wordpress_id: 2895
-categories:
-- Military
 tags:
 - Defense
 - Lib Dems

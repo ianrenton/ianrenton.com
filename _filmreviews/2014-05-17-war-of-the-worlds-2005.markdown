@@ -3,7 +3,7 @@ layout: post
 title: "War of the Worlds (2005)"
 date: 2014-05-17 22:48
 comments: true
-categories: 
+
 ---
 
 > A Film Review by the Numbers from the pen of Ian "Devo" Montgomery!

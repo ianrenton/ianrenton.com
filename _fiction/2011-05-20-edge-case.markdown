@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-20 12:58:53
 layout: post
 slug: edge-case
 title: Edge Case
-wordpress_id: 11653
-categories:
-- Short Stories
 tags:
 - 3D Printing
 - Algorithms

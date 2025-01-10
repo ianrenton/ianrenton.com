@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-22 21:40:00
 layout: post
 slug: anxiety-indecision-photoshop-and-the-need-for-milk
 title: Anxiety, Indecision, Photoshop and the Need for Milk
-wordpress_id: 79
-categories:
-- Personal
 ---
 
 <i>Anxiety</i>: First off, I've got a viva / viver / however you spell it for Electronics tomorrow afternoon, which'll probably be okay, but first I've got to catch up with my notes from lab sessions and the project.  Because I didn't really write anything much in my lab book as we were going along... so I've gotta catch up now before my lecturer asks to see it tomorrow.  Eeek!  But anyway, I've got the project circuit diagram printed off, so now all I have to do is write up some notes for the project and for two weeks of labs, pretending that I'm writing them at the time I was actually doing them... ^_^;;  I'll maybe write some stuff about the project tonight, then do the lab stuff tomorrow when I meet up with james before the viva / viver / haddock.  

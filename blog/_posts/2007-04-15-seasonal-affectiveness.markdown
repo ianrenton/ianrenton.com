@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-04-15 21:15:00
 layout: post
 slug: seasonal-affectiveness
 title: Seasonal Affectiveness
-wordpress_id: 570
-categories:
-- Personal
 ---
 
 Spring has come around once more, and almost by surprise has filled me with the same emotions that it always has.  Sitting around in a t-shirt and shorts; walking home in the evening as the sun sinks low over the horizon, surrounded by a myriad of flowers; smiling and having fun.  Worldly worries just seem so much less worth worrying about now that Spring is here and the long hot days of Summer are on their way.  

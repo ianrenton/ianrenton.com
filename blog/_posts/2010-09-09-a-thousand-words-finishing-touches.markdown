@@ -1,17 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-09 23:25:48
 layout: post
 slug: a-thousand-words-finishing-touches
 title: 'a thousand words: Finishing Touches'
-wordpress_id: 11276
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
-- Writing
 tags:
 - AThousandWords
 - Code

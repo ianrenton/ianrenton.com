@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-09-02 09:42:47
 layout: post
 slug: beyond-the-frontier-session-2-notes
 title: Beyond The Frontier – Session 2 Notes
-wordpress_id: 12105
-categories:
-- Beyond the Frontier
 ---
 
 Run time: 2h30m

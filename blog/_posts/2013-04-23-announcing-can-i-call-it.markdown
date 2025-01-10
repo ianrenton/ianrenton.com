@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-04-23 22:29:03
 layout: post
 slug: announcing-can-i-call-it
 title: 'Announcing: "Can I Call It...?"'
-wordpress_id: 13531
-categories:
-- Internet
-- Projects
-- Software
 tags:
 - Can I Call It
 - CICI

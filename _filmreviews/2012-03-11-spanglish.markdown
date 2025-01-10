@@ -4,9 +4,6 @@ date: 2012-03-11 23:21:38
 slug: spanglish
 layout: post
 title: Spanglish
-wordpress_id: 12024
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

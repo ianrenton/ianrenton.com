@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-20 12:15:19
 layout: post
 slug: a-day-snowbound
 title: A Day Snowbound
-wordpress_id: 11371
-categories:
-- Seasonal
-- Personal
 tags:
 - Big Society
 - Council

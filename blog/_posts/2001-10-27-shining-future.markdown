@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2001-10-27 19:00:00
 layout: post
 slug: shining-future
 title: Shining Future
-wordpress_id: 4
-categories:
-- Terrible Teenage Poetry
 ---
 
 *"The world is moving so fast<br/>

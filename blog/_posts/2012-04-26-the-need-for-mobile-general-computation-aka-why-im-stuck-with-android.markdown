@@ -1,16 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-04-26 17:15:23
 layout: post
 slug: the-need-for-mobile-general-computation-aka-why-im-stuck-with-android
 title: The Need for Mobile General Computation (aka, why I'm stuck with Android)
-wordpress_id: 12737
-categories:
-- Internet
-- Personal
-- Software
-- Hardware
 tags:
 - Android
 - Freedom

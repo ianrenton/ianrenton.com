@@ -1,17 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-06 00:16:31
 layout: post
 slug: a-thousand-words-alpha-beta
 title: 'a thousand words: Alpha, Beta'
-wordpress_id: 11275
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
-- Writing
 tags:
 - AThousandWords
 - Beta

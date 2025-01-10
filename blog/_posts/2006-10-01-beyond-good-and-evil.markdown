@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-10-01 09:18:00
 layout: post
 slug: beyond-good-and-evil
 title: Beyond Good and Evil
-wordpress_id: 539
-categories:
-- Personal
 ---
 
 And so, with the beginnings of Autumn, another year begins to draw to a close.  Today is the first of October - exactly a year since, worried by the future and by my rapidly-dwindling time at university, I made [a wish](/blog/a-wish).  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-05 19:49:00
 layout: post
 slug: crashing
 title: Crashing
-wordpress_id: 416
-categories:
-- Personal
 ---
 
 This weekend has...  No, this past week and a half has been... intense.  I've done new things and had new emotions and there have been hearts broken and healed and slipping deeper into deliria.  The world has broken and reformed over and over again, reconfiguring itself to flood our world with emotion and feeling, for better or for worse.  There are still troubles - there always were and will always be; and there are still joys - there always were and will always be.  

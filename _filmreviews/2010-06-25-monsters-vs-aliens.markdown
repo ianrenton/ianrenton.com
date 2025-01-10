@@ -4,9 +4,6 @@ date: 2010-06-25 21:49:02
 slug: monsters-vs-aliens
 layout: post
 title: Monsters vs Aliens
-wordpress_id: 3344
-categories:
-- Film Reviews
 tags:
 - Aliens
 - Monsters

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-01 22:41:27
 layout: post
 slug: tank-day-2-remote-control-tests
 title: 'Tank Day 2: Remote Control Tests'
-wordpress_id: 12826
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Build
 - Build Diary

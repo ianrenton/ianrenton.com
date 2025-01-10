@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-16 03:02:00
 layout: post
 slug: a-day-of-success-and-failure
 title: A Day of Success and Failure
-wordpress_id: 219
-categories:
-- Personal
 ---
 
 Today has been weird in so many ways.  

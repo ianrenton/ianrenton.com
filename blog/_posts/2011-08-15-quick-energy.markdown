@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-08-15 06:45:58
 layout: post
 slug: quick-energy
 title: '"Quick Energy"'
-wordpress_id: 11795
-categories:
 
 - Internet
 tags:

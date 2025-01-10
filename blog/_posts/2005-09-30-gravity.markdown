@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-30 21:05:00
 layout: post
 slug: gravity
 title: Gravity
-wordpress_id: 367
-categories:
-- Personal
 ---
 
 Already I'm feeling the irresistable pull...  Tomorrow, I'm going home.  I'm going to see friends again, and life will be full again after too many empty nine-'til-fives, Mondays-to-Fridays.  Each IM conversation, each 'phone call, each text message, they all bring me closer.  

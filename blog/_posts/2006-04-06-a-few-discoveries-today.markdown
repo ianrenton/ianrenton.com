@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-06 17:56:00
 layout: post
 slug: a-few-discoveries-today
 title: A Few Discoveries Today
-wordpress_id: 460
-categories:
-- Personal
 ---
 
 1) It's really, definitely Spring now!  I was down to a t-shirt while wandering around today and was still warm; the trees are starting to blossom; and I saw two different kinds of butterfly on the way into Uni, too.  

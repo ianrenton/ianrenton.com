@@ -4,9 +4,6 @@ date: 2011-02-09 23:30:00
 slug: inception
 layout: post
 title: Inception
-wordpress_id: 11470
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-07 15:37:32
 layout: post
 slug: the-tale-of-indigo-something
 title: The Tale of Indigo Something
-wordpress_id: 11232
-categories:
-- Short Stories
 tags:
 - Changeling
 - Fairies

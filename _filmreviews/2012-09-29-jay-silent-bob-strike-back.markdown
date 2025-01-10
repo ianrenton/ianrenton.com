@@ -4,9 +4,6 @@ date: 2012-09-29 21:36:31
 slug: jay-silent-bob-strike-back
 layout: post
 title: Jay & Silent Bob Strike Back
-wordpress_id: 12106
-categories:
-- Film Reviews
 ---
 
 > Another guest FRbtN by [@danfoxdavies](http://www.twitter.com/danfoxdavies).

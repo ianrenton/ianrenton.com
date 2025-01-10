@@ -3,7 +3,7 @@ layout: post
 title: "NaNoGenMo: A 50,000 Word Target I can Meet"
 date: 2013-12-01 20:56
 comments: true
-categories: 
+
 - Software
 - Writing
 - Language

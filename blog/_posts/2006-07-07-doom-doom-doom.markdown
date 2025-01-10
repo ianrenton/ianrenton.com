@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-07 12:38:00
 layout: post
 slug: doom-doom-doom
 title: Doom Doom Doom
-wordpress_id: 516
-categories:
-- Personal
 ---
 
 Just had one of the most disturbing of my recurring dreams again.  Unfortunately I don't feel comfortable saying what happened in it, because it's about certain people I know, and it's about a horrible future that I never want to happen.  

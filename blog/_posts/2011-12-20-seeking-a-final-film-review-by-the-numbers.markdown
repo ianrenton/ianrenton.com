@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-12-20 21:36:42
 layout: post
 slug: seeking-a-final-film-review-by-the-numbers
 title: Seeking a Final Film Review (by the Numbers)
-wordpress_id: 11909
-categories:
-- Projects
 tags:
 - Film Review by the Numbers
 ---

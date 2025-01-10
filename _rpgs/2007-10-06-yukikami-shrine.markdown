@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-06 13:07:28
 layout: post
 slug: yukikami-shrine
 title: Yukikami Shrine
-wordpress_id: 650
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Roleplaying

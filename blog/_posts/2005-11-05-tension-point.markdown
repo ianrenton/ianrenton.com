@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-05 05:12:00
 layout: post
 slug: tension-point
 title: Tension Point
-wordpress_id: 394
-categories:
-- Personal
 ---
 
 It's 4am.  I'm shivery and cold, and I have to be up in five hours - early Saturday morning - to deal with other people's problems.  I mostly don't mind this - after all, if it's helping other people on the way to happiness then in the long run it'll make me happy too.  

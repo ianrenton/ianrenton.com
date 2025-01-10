@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-04 21:31:00
 layout: post
 slug: its-not-over
 title: It's not over
-wordpress_id: 415
-categories:
-- Personal
 ---
 
 Pieces of paper, roughly cut from an all but worthless book, spiral to the floor as the force of the knife ejects them from what once was their home.  

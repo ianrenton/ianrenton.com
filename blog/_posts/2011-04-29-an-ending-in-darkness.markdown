@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-29 22:08:53
 layout: post
 slug: an-ending-in-darkness
 title: An Ending in Darkness
-wordpress_id: 11636
-categories:
-- Internet
-- Personal
 tags:
 - Barbecue
 - Darkness

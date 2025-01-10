@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-05-07 14:56:24
 layout: post
 slug: review-htc-magic
 title: 'Review: HTC Magic'
-wordpress_id: 851
-categories:
-- Hardware
-- Software
 ---
 
 Mostly at Mark's request, but possibly also of interest to others: A review of the HTC Magic.  I've had mine for 6 days now.

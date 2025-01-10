@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-03-18 15:04:37
 layout: post
 slug: the-palace-of-the-stars
 title: The Palace of the Stars
-wordpress_id: 11248
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Kyrhien

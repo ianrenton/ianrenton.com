@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-06 20:43:40
 layout: post
 slug: breaking-out-of-twitter
 title: Breaking Out of Twitter
-wordpress_id: 2700
-categories:
-- Internet
-- Software
 tags:
 - Application
 - Brainstorm

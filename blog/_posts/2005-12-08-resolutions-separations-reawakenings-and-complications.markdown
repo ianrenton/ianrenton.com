@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-08 03:28:00
 layout: post
 slug: resolutions-separations-reawakenings-and-complications
 title: Resolutions, Separations, Reawakenings and Complications
-wordpress_id: 417
-categories:
-- Personal
 ---
 
 And so the confusion carries on.  Barely a few hours after my Monday afternoon crash, yet another situation reared its head and has begun to be dealt with.  I didn't get to sleep until 6am that night, and didn't wake up until 3pm the following day, missing all my lectures once more.  Once more that night my room entertained a guest, or maybe more than one...  After all, I did say he could visit, and that applies to both the human and the other.  And I got to see the blossoming of a Mage Ego, those things that I bemoan so much... =p  

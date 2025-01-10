@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-27 19:48:00
 layout: post
 slug: because-all-the-cool-kids-are-doing-it
 title: Because all the Cool Kids are doing it
-wordpress_id: 477
-categories:
-- Personal
 ---
 
 OMFGLOLOMGWTFNHSWii  

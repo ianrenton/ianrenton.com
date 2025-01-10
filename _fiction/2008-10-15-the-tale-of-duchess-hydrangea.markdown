@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-15 22:32:40
 layout: post
 slug: the-tale-of-duchess-hydrangea
 title: The Tale of Duchess Hydrangea
-wordpress_id: 779
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

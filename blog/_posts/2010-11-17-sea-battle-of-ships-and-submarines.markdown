@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-17 16:49:49
 layout: post
 slug: sea-battle-of-ships-and-submarines
 title: 'Sea Battle: Of Ships and Submarines'
-wordpress_id: 11332
-categories:
-- Software
-- Games
-- Projects
 tags:
 - Code
 - Development

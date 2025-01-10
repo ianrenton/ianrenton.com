@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-04-06 20:15:00
 layout: post
 slug: memory-and-syllabary
 title: Memory and Syllabary
-wordpress_id: 287
-categories:
-- Personal
 ---
 
 Not much to report at the moment, I'm at my parents house and relegated to using their 56k pay-per-minute dialup for less than an hour every few days.  

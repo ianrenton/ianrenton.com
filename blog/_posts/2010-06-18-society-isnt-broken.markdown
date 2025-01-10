@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-18 16:04:53
 layout: post
 slug: society-isnt-broken
 title: Society isn't Broken!
-wordpress_id: 3292
-categories:
-- Politics
 tags:
 - Community
 - Econapocalypse

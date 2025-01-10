@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-19 22:56:00
 layout: post
 slug: one-of-the-worst-nights-out
 title: One of the worst nights out...
-wordpress_id: 120
-categories:
-- Personal
 ---
 
 In the words of Chris, "Screw this shit, I'm done."  

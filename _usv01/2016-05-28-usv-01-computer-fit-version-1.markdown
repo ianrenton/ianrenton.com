@@ -3,7 +3,7 @@ layout: post
 title: "USV-01 Computer Fit (version 1)"
 date: 2016-05-28 16:22
 comments: true
-categories: 
+
 ---
 
 In addition to the standard RC receiver [fitted previously](../usv-01-rc-electronics-fit), the USV will also need to be fitted with a set of hardware for autonomous control and remote monitoring.

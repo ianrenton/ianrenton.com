@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-02-28 22:23:17
 layout: post
 slug: alice-liddell
 title: Alice Liddell
-wordpress_id: 827
-categories:
-- Characters
 tags:
 - Changeling
 - Character

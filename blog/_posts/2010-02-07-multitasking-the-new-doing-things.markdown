@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-07 23:55:17
 layout: post
 slug: multitasking-the-new-doing-things
 title: Multitasking, the new "Doing Things"
-wordpress_id: 2712
-categories:
 
 - Internet
 tags:

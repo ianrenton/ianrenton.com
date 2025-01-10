@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-06-09 12:54:14
 layout: post
 slug: what-lies-beyond-broadlands-road
 title: What Lies Beyond Broadlands Road
-wordpress_id: 853
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Roleplaying

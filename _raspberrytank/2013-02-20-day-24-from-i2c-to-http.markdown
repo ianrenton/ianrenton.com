@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-02-20 21:35:20
 layout: post
 slug: tank-day-24-from-i2c-to-http
 title: 'Tank Day 24: From I2C to HTTP'
-wordpress_id: 13454
-categories:
-- Raspberry Tank
 tags:
 - Build Diary
 - Code

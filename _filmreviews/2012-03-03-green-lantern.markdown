@@ -4,9 +4,6 @@ date: 2012-03-03 23:20:49
 slug: green-lantern
 layout: post
 title: Green Lantern
-wordpress_id: 12023
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

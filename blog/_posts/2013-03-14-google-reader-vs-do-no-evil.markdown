@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-03-14 12:34:54
 layout: post
 slug: google-reader-vs-do-no-evil
 title: Google Reader vs "Do No Evil"
-wordpress_id: 13508
-categories:
-- Internet
 tags:
 - Business
 - Cloud

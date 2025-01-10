@@ -4,9 +4,6 @@ date: 2011-01-06 21:36:54
 slug: the-sorcerers-apprentice
 layout: post
 title: The Sorcerer's Apprentice (2010)
-wordpress_id: 11420
-categories:
-- Film Reviews
 tags:
 - Disney
 - Nicholas Cage

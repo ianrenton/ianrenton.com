@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-08 22:05:00
 layout: post
 slug: an-eternity-of-sunshine
 title: An Eternity of Sunshine
-wordpress_id: 177
-categories:
-- Personal
 ---
 
 Despite the fact I've done virtually nothing today except burn anime onto CD, the awesomeness of today's weather just makes me feel great!  I hope it lasts...  

@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Improving Slowly"
 date: 2014-06-19 21:08:35 +0100
 comments: true
-categories: 
+
 ---
 
 I'm slowly getting better at flying this thing. Here's a video from today:

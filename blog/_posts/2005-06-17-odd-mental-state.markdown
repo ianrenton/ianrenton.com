@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-06-17 17:37:00
 layout: post
 slug: odd-mental-state
 title: Odd Mental State
-wordpress_id: 323
-categories:
-- Personal
 ---
 
 I have now been up for over 24 hours, of which I've spent about 23 of them in the company of one individual.  My brain is melting.  I decided to go for a swim with Mark, but it only cleared my mind while I was there...  Now I'm back to the hayfevery sauna of the rest of the world, I have a headache and sore eyes again.  

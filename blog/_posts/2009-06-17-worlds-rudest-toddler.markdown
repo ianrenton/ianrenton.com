@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-06-17 16:12:40
 layout: post
 slug: worlds-rudest-toddler
 title: World's Rudest Toddler?
-wordpress_id: 856
-categories:
-- Personal
 ---
 
 We appear to have unintentionally produced the world's rudest toddler.  His favourite words at the moment seem to be:

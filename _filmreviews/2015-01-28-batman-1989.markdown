@@ -3,7 +3,7 @@ layout: post
 title: "Batman (1989)"
 date: 2015-01-26 22:28
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian‭ “‬Devo‭” ‬Montgomery

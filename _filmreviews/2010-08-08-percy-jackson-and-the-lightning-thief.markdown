@@ -4,9 +4,6 @@ date: 2010-08-08 17:35:56
 slug: percy-jackson-and-the-lightning-thief
 layout: post
 title: Percy Jackson and the Lightning Thief
-wordpress_id: 11244
-categories:
-- Film Reviews
 tags:
 - Mythology
 - Percy Jackson

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-02-21 11:56:50
 layout: post
 slug: the-butterfly-effect
 title: The فراشة Effect
-wordpress_id: 11478
-categories:
-- Politics
 tags:
 - '#feb14'
 - Bahrain

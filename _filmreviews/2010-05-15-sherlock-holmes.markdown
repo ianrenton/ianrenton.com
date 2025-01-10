@@ -4,9 +4,6 @@ date: 2010-05-15 23:23:23
 slug: sherlock-holmes
 layout: post
 title: Sherlock Holmes
-wordpress_id: 3177
-categories:
-- Film Reviews
 tags:
 - Robert Downey Jr Porn
 - Self-slashing

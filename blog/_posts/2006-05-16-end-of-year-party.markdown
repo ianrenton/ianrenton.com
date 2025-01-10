@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-05-16 17:00:00
 layout: post
 slug: end-of-year-party
 title: End of Year Party
-wordpress_id: 492
-categories:
-- Personal
 ---
 
 Since I'm being bugged about this already, here goes:  

@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Frame Assembly"
 date: 2014-06-16 20:56:44 +0100
 comments: true
-categories: 
+
 ---
 
 Should be everything on [this list](http://scraps.ianrenton.com/qcbudget.xls).

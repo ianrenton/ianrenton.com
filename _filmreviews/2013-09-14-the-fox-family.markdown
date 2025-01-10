@@ -3,7 +3,7 @@ layout: post
 title: "The Fox Family"
 date: 2013-09-14 21:07
 comments: true
-categories: 
+
 ---
 
 Synopsis

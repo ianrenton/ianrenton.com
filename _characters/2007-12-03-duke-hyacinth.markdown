@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-12-03 23:51:10
 layout: post
 slug: duke-hyacinth
 title: Duke Hyacinth
-wordpress_id: 738
-categories:
-- Characters
 tags:
 - Changeling
 - Character

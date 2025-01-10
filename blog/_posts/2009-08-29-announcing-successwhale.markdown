@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-29 16:37:31
 layout: post
 slug: announcing-successwhale
 title: 'Announcing: SuccessWhale!'
-wordpress_id: 881
-categories:
-- Software
-- Projects
-- Internet
 tags:
 - Announce
 - Online

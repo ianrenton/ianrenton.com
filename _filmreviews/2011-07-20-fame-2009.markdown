@@ -4,9 +4,6 @@ date: 2011-07-20 21:26:49
 slug: fame-2009
 layout: post
 title: Fame (2009)
-wordpress_id: 11752
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

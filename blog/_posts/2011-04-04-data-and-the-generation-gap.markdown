@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-04 17:18:37
 layout: post
 slug: data-and-the-generation-gap
 title: Data and the Generation Gap
-wordpress_id: 11521
-categories:
-- Internet
 tags:
 - Data
 - Family

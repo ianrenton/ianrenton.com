@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-16 03:24:00
 layout: post
 slug: something-like-an-explanation
 title: Something Like an Explanation
-wordpress_id: 378
-categories:
-- Personal
 ---
 
 Okay, here goes a fairly major update.  

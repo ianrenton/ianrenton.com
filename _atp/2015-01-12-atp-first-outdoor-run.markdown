@@ -3,7 +3,7 @@ layout: post
 title: "ATP: First Outdoor Run"
 date: 2015-01-12 21:58
 comments: true
-categories: 
+
 ---
 
 With the [smartphone control interface](../atp-smartphone-control) and [streaming video](../atp-video-streaming) working well, all that remains is to give the All-Terrain Pi its first run outdoors!

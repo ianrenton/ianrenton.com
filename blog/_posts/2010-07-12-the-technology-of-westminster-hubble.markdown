@@ -1,16 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-07-12 23:45:36
 layout: post
 slug: the-technology-of-westminster-hubble
 title: The Technology of Westminster Hubble
-wordpress_id: 10938
-categories:
-- Software
-- Internet
-- Politics
-- Projects
 tags:
 - Internet
 - Projects

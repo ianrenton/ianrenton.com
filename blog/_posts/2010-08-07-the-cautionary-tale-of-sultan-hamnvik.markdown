@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-07 15:45:23
 layout: post
 slug: the-cautionary-tale-of-sultan-hamnvik
 title: The Cautionary Tale of Sultan Hamnvik
-wordpress_id: 11238
-categories:
-- Writing
 tags:
 - Boding
 - Cautionary Tale

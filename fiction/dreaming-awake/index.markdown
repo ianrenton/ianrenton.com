@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2009-09-24 12:06:21
 layout: page
 slug: dreaming-awake
 title: Dreaming Awake
-wordpress_id: 964
 ---
 
 <p><i>Spring blossomed, and the gardens shone with beauty...<br />

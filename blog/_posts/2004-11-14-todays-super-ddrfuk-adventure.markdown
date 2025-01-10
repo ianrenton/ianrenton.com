@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-14 03:44:00
 layout: post
 slug: todays-super-ddrfuk-adventure
 title: Today's Super DDRFUK Adventure
-wordpress_id: 218
-categories:
-- Personal
 ---
 
 Today, both of my housemates and I ended up going to London, all for different reasons.  This is my story...  

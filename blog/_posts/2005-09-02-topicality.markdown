@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-02 21:51:00
 layout: post
 slug: topicality
 title: Topicality
-wordpress_id: 351
-categories:
-- Personal
 ---
 
 The number of my friends who have had work published grows once again, and I'm getting left behind!  Looks like I need to excavate some talent from wherever deep in my mind such a thing might hopefully lurk.  

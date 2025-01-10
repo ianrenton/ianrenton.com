@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:51:42
 layout: post
 slug: tales-by-candlelight
 title: Tales by Candlelight
-wordpress_id: 794
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

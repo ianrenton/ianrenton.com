@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:09:58
 layout: post
 slug: xican
 title: Xican
-wordpress_id: 709
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

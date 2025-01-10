@@ -3,7 +3,7 @@ layout: post
 title: "Tank Day 27: More Power!"
 date: 2013-12-14 14:15
 comments: true
-categories: 
+
 tags:
 - power
 - battery

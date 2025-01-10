@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-27 21:27:00
 layout: post
 slug: on-the-genealogy-of-videogames
 title: On the Genealogy of Videogames
-wordpress_id: 365
-categories:
-- Personal
-- Games
 ---
 
 Yet another day of high-velocity panic.  Unit 01 is falling to pieces more and more rapidly, and it's supposed to be delivered on Thursday...  (People making Evangelion references will be shot.  And posthumously applauded.)  

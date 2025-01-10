@@ -2,8 +2,6 @@
 title: The Open Source Disadvantage
 layout: post
 date: 2016-10-28 07:10
-categories:
-- Internet
 tags:
 - RSS
 - Reader

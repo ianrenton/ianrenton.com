@@ -3,7 +3,7 @@ layout: post
 title: "Star Trek Generations"
 date: 2015-01-26 22:32
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian‭ “‬Devo‭” ‬Montgomery

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:13:35
 layout: post
 slug: a-cats-feelings
 title: A Cat's Feelings!
-wordpress_id: 1943
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

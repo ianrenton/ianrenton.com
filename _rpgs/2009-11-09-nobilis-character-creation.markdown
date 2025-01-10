@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-09 21:40:11
 layout: post
 slug: nobilis-character-creation
 title: Nobilis Character Creation
-wordpress_id: 2359
-categories:
-- Nobilis
 tags:
 - Character Creation
 - CharGen

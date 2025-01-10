@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 22:45:30
 layout: post
 slug: dreaming-awake-tabletop-game-rules
 title: Dreaming Awake Tabletop Game Rules
-wordpress_id: 630
-categories:
-- Dreaming Awake RPG
 tags:
 - Game
 - Mechanics

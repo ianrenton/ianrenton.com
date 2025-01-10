@@ -1,11 +1,9 @@
 ---
-author: ian
 title: Coolest Robot of the Day
 slug: coolest-robot-of-the-day
 id: 1641
 date: '2017-10-26 22:20:21'
 layout: post
-categories:
   - Blog
 tags:
   - harvard

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-30 15:35:48
 layout: post
 slug: this-is-your-brain-on-electrodes
 title: This is your Brain on Electrodes
-wordpress_id: 4973
-categories:
-- Internet
 tags:
 - Angels
 - Brain

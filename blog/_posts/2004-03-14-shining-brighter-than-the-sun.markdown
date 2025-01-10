@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-14 21:57:00
 layout: post
 slug: shining-brighter-than-the-sun
 title: Shining Brighter than the Sun
-wordpress_id: 117
-categories:
-- Personal
 ---
 
 So... Minami Con 10.  Where to start?  

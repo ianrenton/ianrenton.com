@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-10-09 22:29:00
 layout: post
 slug: so-lj
 title: So, LJ...
-wordpress_id: 541
-categories:
-- Personal
 ---
 
 I have on my desk:  

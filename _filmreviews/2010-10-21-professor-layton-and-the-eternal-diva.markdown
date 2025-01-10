@@ -4,9 +4,6 @@ date: 2010-10-21 22:32:37
 slug: professor-layton-and-the-eternal-diva
 layout: post
 title: Professor Layton and the Eternal Diva
-wordpress_id: 11306
-categories:
-- Film Reviews
 tags:
 - Professor Layton
 ---

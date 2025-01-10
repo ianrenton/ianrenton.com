@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-12 22:46:28
 layout: post
 slug: so-farewell-psion-3a
 title: So Farewell, Psion 3a
-wordpress_id: 2475
-categories:
-- Software
-- Hardware
 tags:
 - Archaeology
 - Code

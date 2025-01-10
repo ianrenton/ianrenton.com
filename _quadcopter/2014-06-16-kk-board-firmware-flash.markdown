@@ -3,7 +3,7 @@ layout: post
 title: "Quad: KK Board Firmware Flash"
 date: 2014-06-16 20:58:52 +0100
 comments: true
-categories: 
+
 ---
 
 Laptop connected to KK board:

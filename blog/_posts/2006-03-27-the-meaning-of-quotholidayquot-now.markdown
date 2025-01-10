@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-27 03:58:00
 layout: post
 slug: the-meaning-of-quotholidayquot-now
 title: The Meaning of "Holiday", Now
-wordpress_id: 453
-categories:
-- Personal
 ---
 
 Once upon a time, a long time ago, there stood children where now there stand adults.  For them, holidays were wonderous times when there was no school, no work to do, just day after day of seeing all our friends and having fun.  They were always together, always with each other.  

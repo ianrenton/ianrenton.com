@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-05 09:40:00
 layout: post
 slug: the-end-of-an-endless-dream
 title: The End of an Endless Dream
-wordpress_id: 592
-categories:
-- Personal
 ---
 
 In my dream I was myself, mostly, although there was undeniably the nature of <a href="http://en.wikipedia.org/wiki/Oisín">Oisin mac Cumhaill</a> about me.  I was so besotted with the ladies of one family that every generation I would return for a night, from fairyland to the human world, in order to spend a night with the youngest lady of the family.  

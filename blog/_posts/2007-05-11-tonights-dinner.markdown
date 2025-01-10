@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-05-11 21:52:00
 layout: post
 slug: tonights-dinner
 title: Tonight's Dinner
-wordpress_id: 572
-categories:
-- Personal
 ---
 
 Tonight's dinner:  

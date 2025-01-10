@@ -1,17 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-03 23:56:40
 layout: post
 slug: a-thousand-words-hot-profilin-action
 title: 'a thousand words: Hot Profilin'' Action'
-wordpress_id: 11273
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
-- Writing
 tags:
 - AThousandWords
 - Code

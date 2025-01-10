@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-12-25 22:51:55
 layout: post
 slug: the-tourists-guide-to-surrey-part-i
 title: The Tourist's Guide to Surrey, Part I
-wordpress_id: 12103
-categories:
-- Fiction
 tags:
 - Alternative History
 - Fake History

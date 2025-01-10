@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-23 18:20:00
 layout: post
 slug: beautiful-days
 title: Beautiful Days
-wordpress_id: 137
-categories:
-- Personal
 ---
 
 Wow... they weather today's absolutely awesome!  17 C and bright sunshine, it really feels like spring - almost summer - here.  

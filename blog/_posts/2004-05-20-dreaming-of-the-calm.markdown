@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-20 09:58:00
 layout: post
 slug: dreaming-of-the-calm
 title: Dreaming of the Calm
-wordpress_id: 162
-categories:
-- Personal
 ---
 
 Friendship, and...  

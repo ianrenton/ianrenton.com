@@ -3,9 +3,6 @@ layout: post
 title: "Never Say Goodbye"
 date: 2013-07-02 19:12
 comments: true
-categories:
-- Internet
-- Security
 tags:
 - internet
 - quitting

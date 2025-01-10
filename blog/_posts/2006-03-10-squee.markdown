@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-10 02:29:00
 layout: post
 slug: squee
 title: Squee!
-wordpress_id: 448
-categories:
-- Personal
 ---
 
 Well, here goes...  For the second couple in a week:  

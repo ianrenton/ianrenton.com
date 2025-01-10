@@ -4,9 +4,6 @@ date: 2012-01-08 22:32:41
 slug: angel
 layout: post
 title: Angel
-wordpress_id: 11959
-categories:
-- Film Reviews
 ---
 
 > By guest reviewer DANFOX DAVIES:

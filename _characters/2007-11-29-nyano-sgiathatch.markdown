@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-11-29 18:54:51
 layout: post
 slug: nyano-sgiathatch
 title: Nyano-Sgiathatch
-wordpress_id: 736
-categories:
-- Characters
 tags:
 - Changeling
 - Character

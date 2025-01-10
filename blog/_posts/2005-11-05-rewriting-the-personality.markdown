@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-05 14:42:00
 layout: post
 slug: rewriting-the-personality
 title: Rewriting the Personality
-wordpress_id: 395
-categories:
-- Personal
 ---
 
 I think I have at last come to a realisation that I should have had long ago.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:12:34
 layout: post
 slug: zakaya
 title: Zakaya
-wordpress_id: 711
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

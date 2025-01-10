@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-04-05 12:36:33
 layout: post
 slug: the-history-of-the-fair-folk
 title: The History of the Fair Folk
-wordpress_id: 760
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

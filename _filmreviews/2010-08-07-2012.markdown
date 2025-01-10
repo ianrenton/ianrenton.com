@@ -4,9 +4,6 @@ date: 2010-08-07 15:24:32
 slug: twentytwelve
 layout: post
 title: '2012'
-wordpress_id: 11229
-categories:
-- Film Reviews
 tags:
 - '2012'
 - Action

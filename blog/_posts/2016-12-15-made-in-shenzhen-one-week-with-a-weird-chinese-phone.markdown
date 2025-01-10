@@ -2,8 +2,6 @@
 title: Made in Shenzhen&#58; One Week with a Weird Chinese Phone
 layout: post
 date: 2016-12-15 13:09
-categories:
-- Hardware
 tags:
 - Phone
 - Smartphone

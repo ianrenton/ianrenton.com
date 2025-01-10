@@ -3,7 +3,7 @@ layout: post
 title: "Explorers in Exile (Game Intro)"
 date: 2014-09-06 13:38
 comments: true
-categories: 
+
 ---
 
 ### Quartus 3, 1669

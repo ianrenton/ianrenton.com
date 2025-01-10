@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-15 22:16:15
 layout: post
 slug: tiring-of-lock-in
 title: Tiring of Lock-In
-wordpress_id: 3266
-categories:
-- Software
 tags:
 - Android
 - Apple

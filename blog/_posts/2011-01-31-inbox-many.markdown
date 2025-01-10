@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-31 22:29:46
 layout: post
 slug: inbox-many
 title: Inbox Many
-wordpress_id: 11450
-categories:
 
 - Internet
 tags:

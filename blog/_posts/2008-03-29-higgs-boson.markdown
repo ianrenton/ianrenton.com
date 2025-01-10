@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-03-29 11:09:00
 layout: post
 slug: higgs-boson
 title: Higgs Boson
-wordpress_id: 757
-categories:
 
 - Internet
 ---

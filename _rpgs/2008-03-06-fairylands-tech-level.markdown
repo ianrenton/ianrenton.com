@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-03-06 17:35:19
 layout: post
 slug: fairylands-tech-level
 title: Fairyland's Tech Level
-wordpress_id: 756
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

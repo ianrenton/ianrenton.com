@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-02-24 13:26:00
 layout: post
 slug: fucksocks
 title: Fucksocks.
-wordpress_id: 439
-categories:
-- Personal
 ---
 
 Atomic Physics: 56%  

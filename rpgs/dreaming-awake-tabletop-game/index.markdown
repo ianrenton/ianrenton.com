@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2009-09-24 10:25:17
 layout: page
 slug: dreaming-awake-tabletop-game
 title: Dreaming Awake Tabletop Game
-wordpress_id: 903
 ---
 
 This page collates information on running tabletop ('pen-and-paper') roleplaying games in the Dreaming Awake setting.

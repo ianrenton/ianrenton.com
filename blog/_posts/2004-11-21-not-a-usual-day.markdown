@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-21 04:28:00
 layout: post
 slug: not-a-usual-day
 title: Not a Usual Day
-wordpress_id: 222
-categories:
-- Personal
 ---
 
 ### Part I - How Not to Wake Up  

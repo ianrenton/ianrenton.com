@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-22 10:55:57
 layout: post
 slug: tiny-works-of-design-genius-food-colouring-bottles
 title: 'Tiny Works of Design Genius: Food Colouring Bottles'
-wordpress_id: 11986
-categories:
-- UX and Design
 tags:
 - Bottles
 - Cooking

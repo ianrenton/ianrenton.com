@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-10 20:09:00
 layout: post
 slug: another-passing-day
 title: Another Passing Day
-wordpress_id: 339
-categories:
-- Personal
 ---
 
 I guess I was kind of caught off guard by the amount of sympathy I've recieved since that last post ^_^;  I guess I'd be lying if I didn't say that it helped a bit, so thank you everyone!  

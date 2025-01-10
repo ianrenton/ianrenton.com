@@ -3,7 +3,7 @@ layout: post
 title: "The Expendables"
 date: 2013-10-26 21:11
 comments: true
-categories: 
+
 ---
 
 Synopsis

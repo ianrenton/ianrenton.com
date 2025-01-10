@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-09-21 18:30:00
 layout: post
 slug: dreams-of-the-world
 title: Dreams of the World
-wordpress_id: 39
-categories:
-- Terrible Teenage Poetry
 ---
 
 The red and brown leaves blew in the air,<br/>

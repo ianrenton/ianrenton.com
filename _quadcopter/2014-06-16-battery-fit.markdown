@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Battery Fit"
 date: 2014-06-16 20:58:13 +0100
 comments: true
-categories: 
+
 ---
 
 New XT60 connector for battery:

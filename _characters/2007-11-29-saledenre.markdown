@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-11-29 18:59:15
 layout: post
 slug: saledenre
 title: Saledenre
-wordpress_id: 737
-categories:
-- Characters
 tags:
 - Changeling
 - Character

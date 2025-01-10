@@ -3,8 +3,6 @@ layout: post
 title: "\"Archive by Year\" Aside for Octopress"
 date: 2015-05-06 22:16
 comments: true
-categories:
-- Software
 tags:
 - Octopress
 - Ruby

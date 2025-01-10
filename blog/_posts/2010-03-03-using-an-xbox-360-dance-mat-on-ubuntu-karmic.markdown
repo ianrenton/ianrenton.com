@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-03-03 11:36:14
 layout: post
 slug: using-an-xbox-360-dance-mat-on-ubuntu-karmic
 title: 'HOWTO: Use an XBox 360 Dance Mat on Ubuntu Karmic'
-wordpress_id: 2780
-categories:
-- Guides
 tags:
 - Console Hackery
 - Dance Mat

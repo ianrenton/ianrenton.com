@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-24 05:41:00
 layout: post
 slug: the-dances-and-songs-of-the-faerie-children
 title: The Dances and Songs of the Faerie Children
-wordpress_id: 406
-categories:
-- Personal
 ---
 
 Today has been...  Well, fantastic in a very strange way.  

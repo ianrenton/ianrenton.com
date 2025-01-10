@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-03-12 20:41:00
 layout: post
 slug: ian-and-erics-incredible-beach-adventure
 title: Ian and Eric's Incredible Beach Adventure!
-wordpress_id: 564
-categories:
-- Personal
 ---
 
 Spring is in the air, flowers are blooming; what better time than to begin organising a party in four months' time?  Here goes...  

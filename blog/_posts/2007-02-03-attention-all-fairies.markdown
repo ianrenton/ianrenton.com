@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-02-03 21:37:00
 layout: post
 slug: attention-all-fairies
 title: Attention all Fairies!
-wordpress_id: 557
-categories:
-- Personal
 ---
 
 Yes, this means you - Mark, Andy, Eric, Little Andy, Racheet, Domina, Gemma and Mike!  

@@ -3,7 +3,6 @@ layout: post
 title: "The Future"
 date: 2013-04-11 21:49
 comments: true
-categories:
 ---
 
  Another guest FRbtN by [@danfoxdavies](http://www.twitter.com/danfoxdavies).

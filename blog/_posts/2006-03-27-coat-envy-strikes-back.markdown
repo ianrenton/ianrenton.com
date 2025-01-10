@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-27 05:27:00
 layout: post
 slug: coat-envy-strikes-back
 title: Coat Envy Strikes Back
-wordpress_id: 454
-categories:
-- Personal
 ---
 
 I have coat envy again.  Damnit.  

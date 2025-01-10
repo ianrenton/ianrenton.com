@@ -3,7 +3,7 @@ layout: post
 title: "Gattaca"
 date: 2015-04-06 21:40
 comments: true
-categories: 
+
 ---
 
 > **A** **G**ues**T** review by D**A**nfox D**A**vies

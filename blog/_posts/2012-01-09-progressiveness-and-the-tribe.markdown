@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-09 18:46:47
 layout: post
 slug: progressiveness-and-the-tribe
 title: Progressiveness and the Tribe
-wordpress_id: 11961
-categories:
-- Internet
-- Politics
 tags:
 - Conservative
 - Engineering

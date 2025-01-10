@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-02-27 23:45:47
 layout: post
 slug: the-clock-struck-twelve
 title: The Clock Struck Twelve
-wordpress_id: 826
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

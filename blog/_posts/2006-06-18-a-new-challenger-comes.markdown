@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-18 14:20:00
 layout: post
 slug: a-new-challenger-comes
 title: A New Challenger Comes!
-wordpress_id: 506
-categories:
-- Personal
 ---
 
 I think you're mostly in fair agreement that Foxglove is the gayest picture of me taken recently.  (See my previous post if you're confused.)  

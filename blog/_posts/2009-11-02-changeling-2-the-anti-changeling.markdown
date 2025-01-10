@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-02 20:43:22
 layout: post
 slug: changeling-2-the-anti-changeling
 title: 'Changeling 2: The Anti-Changeling?'
-wordpress_id: 2231
-categories:
-- Roleplaying
 tags:
 - Announce
 - Changeling

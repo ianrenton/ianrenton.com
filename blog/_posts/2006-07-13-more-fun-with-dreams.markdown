@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-13 13:11:00
 layout: post
 slug: more-fun-with-dreams
 title: More Fun With Dreams
-wordpress_id: 518
-categories:
-- Personal
 ---
 
 Didn't wake up until midday today, in the cause of getting some more dreaming done.  

@@ -3,7 +3,7 @@ layout: post
 title: "Boxtrolls"
 date: 2014-09-21 17:58
 comments: true
-categories: 
+
 ---
 
 Synopsis

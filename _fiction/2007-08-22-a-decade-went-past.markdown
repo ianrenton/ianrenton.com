@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-22 20:05:33
 layout: post
 slug: a-decade-went-past
 title: A Decade Went Past
-wordpress_id: 595
-categories:
-- Short Stories
 tags:
 - Fantasy
 - Fiction

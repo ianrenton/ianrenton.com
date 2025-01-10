@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-16 13:57:38
 layout: post
 slug: after-the-end-of-the-world
 title: After the End of the World
-wordpress_id: 11247
-categories:
-- Short Stories
 tags:
 - Post-Apocalyptic
 - Sci-Fi

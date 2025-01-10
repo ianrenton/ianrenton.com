@@ -1,16 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-07-12 15:52:34
 layout: post
 slug: announcing-westminster-hubble
 title: 'Announcing: Westminster Hubble!'
-wordpress_id: 10879
-categories:
-- Internet
-- Software
-- Politics
-- Projects
 tags:
 - Government
 - Internet

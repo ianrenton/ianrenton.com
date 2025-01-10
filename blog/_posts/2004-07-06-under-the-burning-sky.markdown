@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-07-06 18:50:00
 layout: post
 slug: under-the-burning-sky
 title: Under the Burning Sky
-wordpress_id: 188
-categories:
-- Personal
 ---
 
 It's been one of the nicest days I remember, today.  Not a cloud in the sky, and the sun shining down strongly...  Shame it won't last even until tomorrow, apparently.  

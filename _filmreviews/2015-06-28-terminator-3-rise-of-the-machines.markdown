@@ -3,7 +3,6 @@ layout: post
 title: "Terminator 3: Rise of the Machines"
 date: 2015-06-28 11:30
 comments: true
-categories:
 ---
 
 > A guest reviewby Ian “Devo” Montgomery

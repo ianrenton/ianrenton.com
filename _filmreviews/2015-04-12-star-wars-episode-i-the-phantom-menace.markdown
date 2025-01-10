@@ -3,7 +3,7 @@ layout: post
 title: "Star Wars Episode I: The Phantom Menace"
 date: 2015-04-12 10:04
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian "Devo" Montgomery

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-06 21:36:50
 layout: post
 slug: tank-day-3-the-sundering
 title: 'Tank Day 3: The Sundering'
-wordpress_id: 12855
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Build
 - Build Diary

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-02-15 11:25:00
 layout: post
 slug: more-catching-up
 title: More Catching Up
-wordpress_id: 433
-categories:
-- Personal
 ---
 
 Yet again, over a week with no blog posting.  I'm not sure why, I just don't really feel the desire to write here so often anymore.  Probably just a phase I'm going through though... =S  

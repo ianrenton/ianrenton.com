@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:10:31
 layout: post
 slug: storm-the-tower
 title: Storm the Tower!
-wordpress_id: 1939
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

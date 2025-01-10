@@ -3,7 +3,7 @@ layout: post
 title: "How I Live Now"
 date: 2015-01-17 22:28
 comments: true
-categories: 
+
 ---
 
 <center><font size="6.5em"><strong>or, The Famous Five survive Nuclear Armageddon</strong></font></center>

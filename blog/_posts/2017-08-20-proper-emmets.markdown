@@ -2,8 +2,6 @@
 layout: post
 title: "Proper Emmets"
 date: 2017-08-20T14:52:00+01:00
-categories:
-- Travel
 tags:
 - Cornwall
 - Photos

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-10-09 00:11:00
 layout: post
 slug: this-weekend
 title: This Weekend
-wordpress_id: 540
-categories:
-- Personal
 ---
 
 UV-fluorescent body paint is awesome.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-08-10 22:51:39
 layout: post
 slug: londons-burning
 title: London's Burning
-wordpress_id: 11780
-categories:
-- Politics
 tags:
 - 2011 Riots
 - London

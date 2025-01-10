@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-04-19 14:26:00
 layout: post
 slug: calm-and-easy-so-far
 title: Calm and Easy So Far
-wordpress_id: 290
-categories:
-- Personal
 ---
 
 Well, looks like I'm slowly getting over the 'flu thing...  I haven't got my appetite back yet though.  If my stomach's reading this, get back to your normal cake-devouring ability quickly, plzkthx.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-23 21:24:00
 layout: post
 slug: three-days-remain
 title: Three Days Remain
-wordpress_id: 345
-categories:
-- Personal
 ---
 
 For some reason, the facts that it is not Friday and that I am not currently in Southampton are verging on painful.  Damnit - hurry up, weekend!  

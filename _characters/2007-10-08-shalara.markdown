@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 10:49:05
 layout: post
 slug: shalara
 title: Shalara
-wordpress_id: 696
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

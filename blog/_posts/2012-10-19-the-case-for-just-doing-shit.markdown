@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-19 23:26:50
 layout: post
 slug: the-case-for-just-doing-shit
 title: The Case for Just Doing Shit
-wordpress_id: 13266
-categories:
-- Personal
 tags:
 - Activism
 - Getting Shit Done

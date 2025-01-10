@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-12-17 13:47:00
 layout: post
 slug: imminence
 title: Imminence
-wordpress_id: 243
-categories:
-- Personal
 ---
 
 Well, here we are, four hours from the end of this term's Uni work.  And, even now, it doesn't feel special yet...  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-02-07 13:14:00
 layout: post
 slug: new-beginnings
 title: New Beginnings
-wordpress_id: 264
-categories:
-- Personal
 ---
 
 I can't really be bothered to do a proper update right now, but still...  

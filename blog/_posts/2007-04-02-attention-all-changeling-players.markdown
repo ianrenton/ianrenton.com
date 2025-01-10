@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-04-02 23:40:00
 layout: post
 slug: attention-all-changeling-players
 title: Attention all Changeling Players!
-wordpress_id: 568
-categories:
-- Roleplaying
 ---
 
 <font size="6">Changeling Players!</font>  

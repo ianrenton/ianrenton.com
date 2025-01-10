@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-03 21:07:30
 layout: post
 slug: map-of-the-northern-reaches
 title: Map of the Northern Reaches
-wordpress_id: 12065
-categories:
-- Beyond the Frontier
-- Roleplaying Games
 tags:
 - Kingswald
 - Map

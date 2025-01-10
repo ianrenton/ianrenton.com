@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Raspberry Pi and PiBorg"
 date: 2015-01-06 21:01
 comments: true
-categories: 
+
 - ATP
 ---
 

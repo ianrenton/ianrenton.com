@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-08 23:07:14
 layout: post
 slug: i-dosing-is-a-thing-now
 title: i-Dosing is a Thing Now?
-wordpress_id: 11296
-categories:
 
 - Internet
 tags:

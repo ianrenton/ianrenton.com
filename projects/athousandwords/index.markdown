@@ -3,9 +3,6 @@ layout: page
 title: "A Thousand Words"
 date: 2017-01-13 21:59
 comments: true
-categories:
-- Internet
-- Software
 tags:
 - athousandwords
 - web apps

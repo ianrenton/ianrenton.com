@@ -1,5 +1,4 @@
 ---
-author: ian
 title: Phenomenon
 slug: phenomenon
 id: 3936

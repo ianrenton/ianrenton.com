@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-29 14:44:00
 layout: post
 slug: radical-dreaming
 title: Radical Dreaming
-wordpress_id: 85
-categories:
-- Personal
 ---
 
 So, super fun dreams last night...  I think I managed to have two pretty-much-complete dreams last ngiht.  

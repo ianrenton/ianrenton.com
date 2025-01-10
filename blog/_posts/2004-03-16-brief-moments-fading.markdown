@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-16 16:20:00
 layout: post
 slug: brief-moments-fading
 title: Brief Moments, Fading...
-wordpress_id: 118
-categories:
-- Personal
 ---
 
 *"Hello, little star<br/>

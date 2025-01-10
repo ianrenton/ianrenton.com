@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-03-20 23:45:00
 layout: post
 slug: spoils-of-minamicon
 title: Spoils of Minamicon
-wordpress_id: 566
-categories:
-- Personal
 ---
 
 Now, I will break your ears.  

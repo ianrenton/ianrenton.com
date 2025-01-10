@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-07 02:02:00
 layout: post
 slug: surreal
 title: Surreal
-wordpress_id: 150
-categories:
-- Personal
 ---
 
 That... that was strange.  

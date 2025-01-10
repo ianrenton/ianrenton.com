@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-12 18:54:00
 layout: post
 slug: so-today
 title: So, Today...
-wordpress_id: 469
-categories:
-- Personal
 ---
 
 Today, I have been in the lab about as much as physically possible.  

@@ -4,9 +4,6 @@ date: 2011-01-02 21:14:15
 slug: enchanted
 layout: post
 title: Enchanted
-wordpress_id: 11398
-categories:
-- Film Reviews
 tags:
 - Disney
 ---

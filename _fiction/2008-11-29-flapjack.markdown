@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-11-29 23:59:27
 layout: post
 slug: flapjack
 title: Flapjack
-wordpress_id: 804
-categories:
-- Short Stories
 tags:
 - Comedy
 - Fiction

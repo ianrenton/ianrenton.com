@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-25 09:40:45
 layout: post
 slug: caramels-talent
 title: Caramel's Talent
-wordpress_id: 604
-categories:
-- Short Stories
 tags:
 - Dreaming Awake
 - Fantasy

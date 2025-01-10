@@ -4,9 +4,6 @@ date: 2010-12-22 22:44:20
 slug: 17-again
 layout: post
 title: 17 Again
-wordpress_id: 11377
-categories:
-- Film Reviews
 tags:
 - Zac Efron
 ---

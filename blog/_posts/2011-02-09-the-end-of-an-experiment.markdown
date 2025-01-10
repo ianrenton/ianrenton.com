@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-02-09 16:46:04
 layout: post
 slug: the-end-of-an-experiment
 title: The End of an Experiment
-wordpress_id: 11469
-categories:
-- Personal
 tags:
 - Caffeine
 - Coffee

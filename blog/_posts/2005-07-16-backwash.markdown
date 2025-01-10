@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-07-16 13:24:00
 layout: post
 slug: backwash
 title: Backwash
-wordpress_id: 327
-categories:
-- Personal
 ---
 
 Try as I might to live here and call this place home, it's not.  Southampton is home.  

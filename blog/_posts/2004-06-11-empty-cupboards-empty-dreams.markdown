@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-11 11:24:00
 layout: post
 slug: empty-cupboards-empty-dreams
 title: Empty Cupboards, Empty Dreams
-wordpress_id: 181
-categories:
-- Personal
 ---
 
 So, that's it.  No more Gateley Hall, no more Flat 4.  

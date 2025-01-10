@@ -2,8 +2,6 @@
 layout: post
 title: "Android Without Google"
 date: 2015-09-18T06:17:46+01:00
-categories:
-- Internet
 tags:
 - Google
 - Android

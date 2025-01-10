@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-07-07 22:00:00
 layout: post
 slug: longing-for-unreality
 title: Longing for Unreality
-wordpress_id: 32
-categories:
-- Personal
 ---
 
 The problem with Roleplaying is, life as Tsuki is more fun...  

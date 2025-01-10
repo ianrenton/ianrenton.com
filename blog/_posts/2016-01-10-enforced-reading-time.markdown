@@ -2,9 +2,6 @@
 layout: post
 title: "Enforced Reading Time"
 date: 2016-01-10T11:35:03+00:00
-categories:
-- writing
-- personal
 tags:
 - reading
 - writing

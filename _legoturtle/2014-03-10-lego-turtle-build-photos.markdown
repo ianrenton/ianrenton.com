@@ -3,7 +3,7 @@ layout: post
 title: "Lego Turtle Build Photos"
 date: 2014-03-10 21:59
 comments: true
-categories: 
+
 ---
 
 <p>Here's the original Mindstorms robot that has been gathering dust:<br/>

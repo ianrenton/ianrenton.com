@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-09-16 07:02:48
 layout: post
 slug: drm-on-my-bbc-broadcasts
 title: DRM, on My BBC Broadcasts?
-wordpress_id: 886
-categories:
-- Politics
 tags:
 - Activism
 - BBC

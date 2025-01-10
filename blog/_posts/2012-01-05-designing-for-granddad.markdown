@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-05 23:59:06
 layout: post
 slug: designing-for-granddad
 title: Designing for Granddad
-wordpress_id: 11935
-categories:
-- Internet
-- Software
-- UX and Design
 tags:
 - Choices
 - Clutter

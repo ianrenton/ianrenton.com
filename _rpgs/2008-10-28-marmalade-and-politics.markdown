@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:54:16
 layout: post
 slug: marmalade-and-politics
 title: Marmalade and Politics
-wordpress_id: 796
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

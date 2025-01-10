@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-02-05 23:19:31
 layout: post
 slug: gunboat-early-preview
 title: Gunboat (Early Preview)
-wordpress_id: 822
-categories:
-- Projects
-- Games
-- Software
 ---
 
 As part of my irrational desire to teach myself OpenGL programming, I'm making a game that's (currently at least) called Gunboat.  It's a fairly slow-paced 2D shooter that has the player in command of a ship, protecting a harbour from an attacking fleet.

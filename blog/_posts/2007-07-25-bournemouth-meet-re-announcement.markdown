@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-07-25 19:37:00
 layout: post
 slug: bournemouth-meet-re-announcement
 title: Bournemouth Meet Re-Announcement
-wordpress_id: 587
-categories:
-- Personal
 ---
 
 The Bournemouth Meet is only two days away!  This is my final warning to anyone who wants to come and hasn't signed up yet!  

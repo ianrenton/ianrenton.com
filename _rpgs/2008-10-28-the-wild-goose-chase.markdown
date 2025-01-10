@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:07:04
 layout: post
 slug: the-wild-goose-chase
 title: The Wild Goose Chase!
-wordpress_id: 1936
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

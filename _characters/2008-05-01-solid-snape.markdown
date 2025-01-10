@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-05-01 22:02:51
 layout: post
 slug: solid-snape
 title: Solid Snape
-wordpress_id: 769
-categories:
-- Characters
 tags:
 - Changeling
 - Character

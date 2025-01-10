@@ -2,8 +2,6 @@
 layout: post
 title: "Optimising for Download Size"
 date: 2015-10-16T07:22:19+01:00
-categories:
-- Internet
 tags:
 - website
 - size

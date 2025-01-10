@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-25 22:12:00
 layout: post
 slug: merry-christmasu
 title: Merry Christmasu!
-wordpress_id: 65
-categories:
-- Personal
 ---
 
 <b><font color="#008000">M</font><font color="#800000">e</font><font color="#008000">r</font><font color="#800000">r</font><font color="#008000">y</font> <font color="#800000">C</font><font color="#008000">h</font><font color="#800000">r</font><font color="#008000">i</font><font color="#800000">s</font><font color="#008000">t</font><font color="#800000">m</font><font color="#008000">a</font><font color="#800000">s </font><font color="#008000">e</font><font color="#800000">v</font><font color="#008000">e</font><font color="#800000">r</font><font color="#008000">y</font><font color="#800000">o</font><font color="#008000">n</font><font color="#800000">e</font><font color="#008000">!</font></b>  

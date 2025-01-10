@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-27 22:46:46
 layout: post
 slug: sir-david-attenboroughs-adventures-in-wonderland
 title: Sir David Attenborough's Adventures in Wonderland
-wordpress_id: 11381
-categories:
-- Fiction
 tags:
 - Alice
 - Bad

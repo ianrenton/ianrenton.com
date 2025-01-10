@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-13 12:32:00
 layout: post
 slug: catching-up-again
 title: Catching up again...
-wordpress_id: 154
-categories:
-- Personal
 ---
 
 Sorry I haven't posted anything for a while.  Okay, at the moment:  

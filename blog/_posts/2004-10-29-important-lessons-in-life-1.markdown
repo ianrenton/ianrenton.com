@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-29 19:14:00
 layout: post
 slug: important-lessons-in-life-1
 title: 'Important Lessons in Life #1...'
-wordpress_id: 208
-categories:
-- Personal
 ---
 
 ...letting your housemates dress you for a fancy dress party is scary ;;_;;  

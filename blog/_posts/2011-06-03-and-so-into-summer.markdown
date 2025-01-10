@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-06-03 17:45:25
 layout: post
 slug: and-so-into-summer
 title: And So Into Summer
-wordpress_id: 11666
-categories:
-- Seasonal
-- Personal
 tags:
 - Fun
 - Nature

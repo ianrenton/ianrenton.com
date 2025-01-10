@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-11-06 21:26:00
 layout: post
 slug: november
 title: November
-wordpress_id: 725
-categories:
-- Personal
 ---
 
 It's that time of year again, when the bright and cold mornings inspire in me the unfortunate desire to sit at train stations and write and – here's the unfortunate bit – drink train station coffee.  I appear to be making my way through about a litre of it at present, and thankfully it's still in the “warm brown caffeine” stage rather than the eventual entropic state of “cold brown grit”.  My problem, however, isn't my choice of overly-expensive beverage but that I seem to be out of practice at writing.  I've spent the last ten minutes staring at what currently exists of my story “The Lost Sky”, and have written nothing.  It stands at a phenomenal 3 pages.</p>  <p class="western" style="margin-bottom: 0cm;">That, I suppose, is why I'm writing this instead – I'm trying to at least get the <i>desire</i><span style="font-style: normal;"> to write going again.  Does anyone out there in blog-land have any good advice on how to get writing again?  Working solutions to be paid for in hugs/beer! =p</span></p>  <p class="western" style="margin-bottom: 0cm; font-style: normal;">Semi-related rant:  The rail network should have WiFi.  I don't necessarily mean the trains – it'd be nice, but technically complicated and expensive.  Just the stations would do, the same stations that already clearly have an internet connection so that they can update their live departure boards.  I would pay for this, and I'd bet half the suits-with-laptops on this train would too.  Does this exist somewhere, and Britain / South West Trains is just lagging behind?  I can't believe it's so novel an idea that no-one in the rail companies has considered it.</p>  <p class="western" style="margin-bottom: 0cm;"><span style="font-style: normal;">(Side question that I doubt anyone knows the answer to: </span><i><span style="">Do</span></i><span style="font-style: normal;"><span style=""> all stations with live departure boards have net access?  I've noticed a lot of stations have TV-style aerials on long poles, pointing in roughly the direction of the next station on each side.  Do they use this instead? If so, I can't see them liking the idea or running a net connection over that just so I can blog from the arse end of Dorset...)

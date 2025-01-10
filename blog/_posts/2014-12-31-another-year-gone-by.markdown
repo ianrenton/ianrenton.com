@@ -3,7 +3,7 @@ layout: post
 title: "Another Year Gone By"
 date: 2014-12-31 17:39
 comments: true
-categories: 
+
 - Personal
 - Seasonal
 tags:

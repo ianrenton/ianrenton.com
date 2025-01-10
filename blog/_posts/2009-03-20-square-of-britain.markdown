@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-20 16:22:16
 layout: post
 slug: square-of-britain
 title: Square of Britain
-wordpress_id: 838
-categories:
-- Travel
-- Internet
 ---
 
 In here, behind the twenty-foot walls, the razor-wire and the cheerful-looking chap with the 50-cal machine gun, there is a square of Britain.  There is a restaurant, which is functionally British.  (Today's lunch was chicken, chips and broad beans.)  The villas have 240V plugs.  There's a bar, and a bowling alley, a pool table, and a library stuffed full of Andy McNab and Mills & Boon books, all threatening to separate from their spines.

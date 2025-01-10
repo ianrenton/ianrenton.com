@@ -3,7 +3,7 @@ layout: post
 title: "Disaster Movie"
 date: 2013-11-02 21:11
 comments: true
-categories: 
+
 ---
 
 Synopsis

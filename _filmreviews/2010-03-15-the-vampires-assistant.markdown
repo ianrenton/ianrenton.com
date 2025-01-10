@@ -4,9 +4,6 @@ date: 2010-03-15 22:32:46
 slug: the-vampires-assistant
 layout: post
 title: The Vampire's Assistant
-wordpress_id: 2834
-categories:
-- Film Reviews
 tags:
 - Assistance
 - Vampires

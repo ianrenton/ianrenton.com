@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-07-22 18:00:00
 layout: post
 slug: twilight-breeze
 title: Twilight Breeze
-wordpress_id: 36
-categories:
-- Personal
 ---
 
 *"Come with me in the twilight of a summer night for awhile<br/>

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-22 01:12:00
 layout: post
 slug: in-search-of-adventure-alma-road-attic-exploration-mission-one
 title: 'In Search of Adventure: Alma Road Attic Exploration, Mission One'
-wordpress_id: 405
-categories:
-- Personal
 ---
 
 In Tom's room upstairs, there's a cross between a cupboard and a door.  It's padlocked.  In the bathroom ceiling, there's a hatch.  It's sealed shut.  In the living room ceiling there's a hatch.  

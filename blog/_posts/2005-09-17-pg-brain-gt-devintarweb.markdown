@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-17 14:24:00
 layout: post
 slug: pg-brain-gt-devintarweb
 title: pg brain > /dev/intarweb
-wordpress_id: 356
-categories:
-- Personal
 ---
 
 More DARPG stuff dumped from my brain onto paper - and thus also on the web.  

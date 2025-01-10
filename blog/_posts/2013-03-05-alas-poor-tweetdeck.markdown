@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-03-05 21:37:08
 layout: post
 slug: alas-poor-tweetdeck
 title: Alas, Poor TweetDeck
-wordpress_id: 13490
-categories:
-- Internet
-- Software
 tags:
 - API
 - Apps

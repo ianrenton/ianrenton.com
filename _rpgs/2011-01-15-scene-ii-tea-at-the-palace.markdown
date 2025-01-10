@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-15 23:04:22
 layout: post
 slug: scene-ii-tea-at-the-palace
 title: Scene II - Tea at the Palace
-wordpress_id: 11428
-categories:
-- Where Only Lilies Grow
 ---
 
 <div><p>This is an in-character game thread from <a href="/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p></div>

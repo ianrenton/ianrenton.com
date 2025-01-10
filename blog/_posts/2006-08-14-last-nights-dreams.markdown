@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-08-14 08:32:00
 layout: post
 slug: last-nights-dreams
 title: Last Night's Dreams
-wordpress_id: 525
-categories:
-- Personal
 ---
 
 1)  

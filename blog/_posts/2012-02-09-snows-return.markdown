@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-02-09 23:39:19
 layout: post
 slug: snows-return
 title: Snow's Return
-wordpress_id: 11994
-categories:
-- Seasonal
 
 tags:
 - Loneliness

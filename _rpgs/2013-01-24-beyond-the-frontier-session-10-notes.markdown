@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-01-24 20:32:48
 layout: post
 slug: beyond-the-frontier-session-10-notes
 title: Beyond the Frontier -- Session 10 Notes
-wordpress_id: 12214
-categories:
-- Beyond the Frontier
 ---
 
 Run time: 2h<br/>

@@ -4,9 +4,6 @@ date: 2010-03-24 22:53:48
 slug: atlantis-the-lost-empire
 layout: post
 title: 'Atlantis: The Lost Empire'
-wordpress_id: 2867
-categories:
-- Film Reviews
 tags:
 - Atlantis
 - Disney

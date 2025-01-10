@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-23 23:09:41
 layout: post
 slug: nobilis-chancel-creation
 title: Nobilis Chancel Creation
-wordpress_id: 2411
-categories:
-- Nobilis
 tags:
 - Chancel
 - Chancel Creation

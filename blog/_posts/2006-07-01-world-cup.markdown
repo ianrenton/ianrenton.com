@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-01 19:51:00
 layout: post
 slug: world-cup
 title: World Cup
-wordpress_id: 513
-categories:
-- Personal
 ---
 
 No more World Cup for us!  

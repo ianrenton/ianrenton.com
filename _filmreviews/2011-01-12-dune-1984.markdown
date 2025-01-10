@@ -4,9 +4,6 @@ date: 2011-01-12 23:40:11
 slug: dune-1984
 layout: post
 title: Dune (1984)
-wordpress_id: 11423
-categories:
-- Film Reviews
 tags:
 - Dune
 ---

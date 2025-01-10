@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-07-27 15:39:00
 layout: post
 slug: cleaning-frenzy
 title: Cleaning Frenzy!
-wordpress_id: 588
-categories:
-- Personal
 ---
 
 That... was a lot of cleaning!  The flat is almost spotless now, ready for a dozen people to descend upon it this weekend!  Whole rooms have been reorganised, it's quite scary.  There's now even some sense of order in the kitchen!  And my recipe books are accessible!  

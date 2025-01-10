@@ -1,17 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-28 22:54:52
 layout: post
 slug: a-thousand-words-first-sketches
 title: 'a thousand words: First Sketches'
-wordpress_id: 11265
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
-- Writing
 tags:
 - Announcement
 - AThousandWords

@@ -3,7 +3,6 @@ layout: post
 title: "ATP: Camera Mounting"
 date: 2015-01-08 21:25
 comments: true
-categories:
 ---
 
 With the All-Terrain Pi freely exploring, the next step is to add a camera to it so it can be driven around beyond line of sight.

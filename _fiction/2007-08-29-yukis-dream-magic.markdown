@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:40:33
 layout: post
 slug: yukis-dream-magic
 title: Yuki's Dream Magic
-wordpress_id: 622
-categories:
-- Short Stories
 tags:
 - Fantasy
 - Fiction

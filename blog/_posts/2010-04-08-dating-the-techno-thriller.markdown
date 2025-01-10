@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-08 22:50:10
 layout: post
 slug: dating-the-techno-thriller
 title: Dating the Techno-Thriller
-wordpress_id: 2924
-categories:
-- Internet
-- Writing
 tags:
 - Augmented Reality
 - Books

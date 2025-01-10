@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-11-30 04:08:00
 layout: post
 slug: feelings-fleeting
 title: Feelings, fleeting...
-wordpress_id: 412
-categories:
-- Personal
 ---
 
 My life fell apart.  Again.  Worse this time.  

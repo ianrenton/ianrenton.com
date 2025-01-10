@@ -4,9 +4,6 @@ date: 2011-09-01 20:20:06
 slug: your-highness
 layout: post
 title: Your Highness
-wordpress_id: 11811
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

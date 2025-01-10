@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-07-02 11:00:00
 layout: post
 slug: leaving-a-world-behind
 title: Leaving a World Behind
-wordpress_id: 31
-categories:
-- Personal
 ---
 
 Did I, after all, enjoy that...?  

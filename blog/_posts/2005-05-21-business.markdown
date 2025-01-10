@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-05-21 23:38:00
 layout: post
 slug: business
 title: Business
-wordpress_id: 305
-categories:
-- Personal
 ---
 
 As in, the act of being busy.  Dear gods am I busy.  And I haven't even *started* revising yet...  

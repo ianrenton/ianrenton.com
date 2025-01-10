@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-02-27 06:24:23
 layout: post
 slug: gaming-is-over
 title: Gaming is Over
-wordpress_id: 12004
-categories:
-- Games
-- Internet
 tags:
 - Civ World
 - Civilization

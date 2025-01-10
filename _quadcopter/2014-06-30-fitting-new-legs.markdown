@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Fitting New Legs"
 date: 2014-06-30 18:01:03 +0100
 comments: true
-categories: 
+
 ---
 
 I'm replacing the brittle fibreglass legs (../death claws) of the quadcopter with a cheap plastic tube frame, which hopefully should be a bit more resilient against my poor flying skills.

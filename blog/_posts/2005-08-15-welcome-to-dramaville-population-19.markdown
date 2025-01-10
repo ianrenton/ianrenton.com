@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-15 20:46:00
 layout: post
 slug: welcome-to-dramaville-population-19
 title: Welcome to Dramaville, Population 19
-wordpress_id: 340
-categories:
-- Personal
 ---
 
 Ah, the end of another Bournemouth Meet.  A successful one, if my standards are anything to go by (which of course they really aren't).  

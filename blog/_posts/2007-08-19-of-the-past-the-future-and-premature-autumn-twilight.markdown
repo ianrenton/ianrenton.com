@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-19 22:46:00
 layout: post
 slug: of-the-past-the-future-and-premature-autumn-twilight
 title: Of the Past, the Future, and Premature Autumn Twilight
-wordpress_id: 594
-categories:
-- Seasonal
 ---
 
 By nine o'clock the sun has already set so deeply that it is time to draw the curtains against the night.  The sky is full of clouds, obscuring whatever moon and stars there might have been; ready to dampen this town again tonight and tomorrow.

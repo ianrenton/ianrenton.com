@@ -2,8 +2,6 @@
 title: Planning the Wind-Down
 layout: post
 date: 2017-01-10 10:43
-categories:
-- Projects
 tags:
 - Web server
 - Web presence

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-14 13:36:50
 layout: post
 slug: in-praise-of-disjointed-communities
 title: In Praise of Disjointed Communities
-wordpress_id: 11613
-categories:
-- Politics
-- Language
 tags:
 - Bournemouth
 - Culture

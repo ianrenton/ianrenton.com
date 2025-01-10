@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-10 13:57:00
 layout: post
 slug: becoming-more-like-kotarou
 title: Becoming More Like Kotarou
-wordpress_id: 152
-categories:
-- Personal
 ---
 
 So, my first day back in Southampton after the weekend.  

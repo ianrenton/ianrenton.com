@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-13 16:42:27
 layout: post
 slug: haircuts-and-homeliness
 title: Haircuts and Homeliness
-wordpress_id: 11277
-categories:
-- Travel
 tags:
 - Hair
 - Haircuts

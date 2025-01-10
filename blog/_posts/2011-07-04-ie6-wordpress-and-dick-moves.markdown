@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-04 23:44:52
 layout: post
 slug: ie6-wordpress-and-dick-moves
 title: IE6, WordPress, and Dick Moves
-wordpress_id: 11694
-categories:
-- Internet
-- Software
 tags:
 - Browsers
 - IE

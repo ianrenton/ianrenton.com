@@ -3,7 +3,7 @@ layout: post
 title: "The Case Against Academies"
 date: 2015-06-05 17:19
 comments: true
-categories: 
+
 - Politics
 tags:
 - Schools

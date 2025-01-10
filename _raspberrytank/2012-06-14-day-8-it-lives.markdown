@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-14 21:37:24
 layout: post
 slug: tank-day-8-it-lives
 title: 'Tank Day 8: It Lives!'
-wordpress_id: 12941
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Build
 - Build Diary

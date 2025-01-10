@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Week 2 Video &amp; Bloopers"
 date: 2014-07-18 23:32:13 +0100
 comments: true
-categories: 
+
 ---
 
 Here's a video of the best bits from week two of flying the quadcopter:

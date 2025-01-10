@@ -3,7 +3,7 @@ layout: post
 title: "Brave"
 date: 2014-07-19 22:42
 comments: true
-categories: 
+
 ---
 
 > A film review by [Danfox Davies](http://vulpinedesigns.co.uk).

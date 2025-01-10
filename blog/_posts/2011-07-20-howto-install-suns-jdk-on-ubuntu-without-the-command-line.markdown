@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-20 20:52:50
 layout: post
 slug: howto-install-suns-jdk-on-ubuntu-without-the-command-line
 title: 'HOWTO: Install Sun''s JDK on Ubuntu (without the Command Line)'
-wordpress_id: 11746
-categories:
-- Guides
 tags:
 - Guide
 - HOWTO

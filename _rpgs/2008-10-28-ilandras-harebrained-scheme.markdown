@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:44:34
 layout: post
 slug: ilandras-harebrained-scheme
 title: Ilandra's Harebrained Scheme
-wordpress_id: 787
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

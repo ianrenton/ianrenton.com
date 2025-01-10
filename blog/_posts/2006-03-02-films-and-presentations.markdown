@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-02 13:55:00
 layout: post
 slug: films-and-presentations
 title: Films and Presentations
-wordpress_id: 441
-categories:
-- Personal
 ---
 
 Yesterday was fun! ^_^  Got taught how to play Battlefleet Gothic at Gamesoc, and it seems I've been roped into an ongoing campaign...  Should be good!  I'm probably going to get horribly owned, though... =S  

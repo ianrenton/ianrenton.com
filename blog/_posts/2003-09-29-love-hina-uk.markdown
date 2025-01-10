@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-09-29 03:10:00
 layout: post
 slug: love-hina-uk
 title: Love Hina UK
-wordpress_id: 40
-categories:
-- Personal
 ---
 
 So, it's happened - I've finally made it back to the world of education again. Even though I've lived on my own before, moving to University is the first time I've had to live with people I don't already know. The thing is, I'm wondering if this is some kinda' strange psychological experiment - I'm the only guy out of the 9 occupants of this flat. It's a bit of an odd experience, but we all seem to get along pretty well.  

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-13 22:38:38
 layout: post
 slug: previewing-androids-new-market
 title: Previewing Android's New Market
-wordpress_id: 11733
-categories:
-- Software
-- UX and Design
 tags:
 - Android
 - Clutter

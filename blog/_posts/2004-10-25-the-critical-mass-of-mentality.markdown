@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-25 18:46:00
 layout: post
 slug: the-critical-mass-of-mentality
 title: The Critical Mass of Mentality
-wordpress_id: 207
-categories:
-- Personal
 ---
 
 Having only started to get used to working on two levels at once, I now find myself trying to cope with seven.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:30:31
 layout: post
 slug: maria-rosaria
 title: Maria Rosaria
-wordpress_id: 683
-categories:
-- Characters
 tags:
 - Character
 ---

@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-06-05 20:05:33
 layout: post
 slug: seasons
 title: Seasons
-categories:
-- Fiction
 tags:
 - Fantasy
 - Fragment

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-06 14:04:30
 layout: post
 slug: asynrir
 title: Asynrir
-wordpress_id: 655
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

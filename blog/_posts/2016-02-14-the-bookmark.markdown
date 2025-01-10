@@ -2,9 +2,6 @@
 layout: post
 title: "The Bookmark"
 date: 2016-02-14T19:03:22+00:00
-categories:
-- writing
-- personal
 tags:
 - books
 - bookmark

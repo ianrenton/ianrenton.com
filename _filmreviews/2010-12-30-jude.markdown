@@ -4,9 +4,6 @@ date: 2010-12-30 21:30:00
 slug: jude
 layout: post
 title: Jude
-wordpress_id: 11386
-categories:
-- Film Reviews
 tags:
 - Hardy
 ---

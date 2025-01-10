@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-02-26 21:52:41
 layout: post
 slug: ban-these-evil-robots
 title: Ban these Evil Robots!
-wordpress_id: 13466
-categories:
-- Military
-- Hardware
 tags:
 - Autonomy
 - human rights

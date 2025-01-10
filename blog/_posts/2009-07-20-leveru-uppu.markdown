@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-07-20 22:21:32
 layout: post
 slug: leveru-uppu
 title: Leveru Uppu!
-wordpress_id: 864
-categories:
-- Personal
 ---
 
 I am now, apparently, a level 4 Software Engineer!

@@ -3,7 +3,7 @@ layout: post
 title: "Adventures in Emoji"
 date: 2014-09-22 20:59
 comments: true
-categories: 
+
 - Software
 - Games
 tags:

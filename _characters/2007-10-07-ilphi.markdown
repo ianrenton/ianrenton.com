@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:45:32
 layout: post
 slug: ilphi
 title: Ilphi
-wordpress_id: 666
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

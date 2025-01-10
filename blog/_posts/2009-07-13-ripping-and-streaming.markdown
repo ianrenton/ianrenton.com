@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-07-13 20:13:02
 layout: post
 slug: ripping-and-streaming
 title: Ripping and Streaming
-wordpress_id: 862
-categories:
-- Personal
 ---
 
 I've been on a tidying binge this evening, and having found a bunch of CDs lying around in cracked cases behind the sofa, I've decided to rip them.  So that my poor long-suffering NAS drive doesn't have to think about two things at once, I'm listening to streaming music from Last.fm while I'm at it.

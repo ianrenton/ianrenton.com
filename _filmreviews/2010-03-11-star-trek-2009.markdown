@@ -4,9 +4,6 @@ date: 2010-03-11 23:04:58
 slug: star-trek-2009
 layout: post
 title: Star Trek (2009)
-wordpress_id: 2812
-categories:
-- Film Reviews
 tags:
 - Star Trek
 ---

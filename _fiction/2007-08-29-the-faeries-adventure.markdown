@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:35:41
 layout: post
 slug: the-faeries-adventure
 title: The Faeries' Adventure
-wordpress_id: 619
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

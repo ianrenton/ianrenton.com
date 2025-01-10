@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-02-19 19:32:00
 layout: post
 slug: closing-of-the-moment
 title: Closing of the Moment
-wordpress_id: 436
-categories:
-- Personal
 ---
 
 The rain-tainted sky darkens slowly over the city, and friends depart; two by two, one by one.  Like all of my life these days, the last week has blurred out into a past I can barely remember already.  

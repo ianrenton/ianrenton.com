@@ -2,9 +2,6 @@
 title: A Sea Battle Update?!
 layout: post
 date: 2016-12-23 22:46
-categories:
-- Projects
-- Software
 tags:
 - Sea Battle
 - RTS

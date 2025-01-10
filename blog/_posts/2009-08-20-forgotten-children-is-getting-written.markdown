@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-20 21:04:50
 layout: post
 slug: forgotten-children-is-getting-written
 title: Forgotten Children is Getting Written
-wordpress_id: 877
-categories:
-- Writing
 tags:
 - Announce
 - Fiction

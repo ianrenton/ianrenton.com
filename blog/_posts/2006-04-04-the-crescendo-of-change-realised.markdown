@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-04-04 02:49:00
 layout: post
 slug: the-crescendo-of-change-realised
 title: The Crescendo of Change Realised
-wordpress_id: 459
-categories:
-- Personal
 ---
 
 It's been so long, you know, since I first came here.  Back then, I was so unsure of myself, and so - in a way - scared of those around me.  I think, back then, innocence was the one thing in the world I prized the most.  So much so that it was something I strived to keep as much as possible, and so much so that my easily-breakable nature that appeared as a by-product created a hobby for my friends.  

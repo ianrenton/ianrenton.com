@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Disassembly"
 date: 2014-12-11 21:33
 comments: true
-categories: 
+
 ---
 
 The "All-Terrain Pi" started life as a quad bike-style children's remote control toy.

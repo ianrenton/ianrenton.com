@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-04-07 08:48:06
 layout: post
 slug: welcome-to-the-new-digital-economy
 title: Welcome to the New Digital Economy
-wordpress_id: 2913
-categories:
-- Politics
 tags:
 - Democracy
 - Digital Economy Bill

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 10:49:50
 layout: post
 slug: shao
 title: Shao
-wordpress_id: 697
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

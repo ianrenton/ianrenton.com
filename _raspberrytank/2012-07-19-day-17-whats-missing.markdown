@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-07-19 22:03:29
 layout: post
 slug: tank-day-17-whats-missing
 title: 'Tank Day 17: What''s Missing'
-wordpress_id: 13068
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Build
 - Build Diary

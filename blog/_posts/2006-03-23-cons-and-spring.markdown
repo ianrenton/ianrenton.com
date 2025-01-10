@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-23 00:41:00
 layout: post
 slug: cons-and-spring
 title: Cons and Spring
-wordpress_id: 452
-categories:
-- Personal
 ---
 
 As with all major and wonderful events, I can't really write up this year's Minamicon in a way that does it justice, so I shan't really bother.  Suffice to say it was as awesome as always and as full of drama as always.  Unusually this time: I went to the sake tasting, I didn't go into the games room, I got a free lift to and from the hotel every day (thanks Alex!).  I now have shiny posters and shiny plushies.  All is good.  

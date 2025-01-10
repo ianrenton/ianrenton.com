@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-11 23:26:45
 layout: post
 slug: de-lis-little-mistake
 title: De-Li's Little Mistake
-wordpress_id: 11422
-categories:
-- Short Stories
 tags:
 - Drunk Fanfiction
 - Fanfiction

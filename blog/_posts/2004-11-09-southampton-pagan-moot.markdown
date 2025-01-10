@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-09 03:16:00
 layout: post
 slug: southampton-pagan-moot
 title: Southampton Pagan moot
-wordpress_id: 216
-categories:
-- Personal
 ---
 
 ...surprisingly un-scary ^_^;  

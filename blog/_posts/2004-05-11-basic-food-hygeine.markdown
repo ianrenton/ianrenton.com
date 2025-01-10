@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-11 02:26:00
 layout: post
 slug: basic-food-hygeine
 title: Basic Food Hygeine
-wordpress_id: 153
-categories:
-- Personal
 ---
 
 **Basic Food Hygeine for Flat 4, Gateley Hall**  

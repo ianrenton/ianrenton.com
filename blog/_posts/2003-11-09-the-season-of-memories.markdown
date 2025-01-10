@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-11-09 10:00:00
 layout: post
 slug: the-season-of-memories
 title: The Season of Memories
-wordpress_id: 42
-categories:
-- Seasonal
 ---
 
 *It's Winter-fall<br/>

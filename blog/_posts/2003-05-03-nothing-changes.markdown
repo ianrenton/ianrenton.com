@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-05-03 14:30:00
 layout: post
 slug: nothing-changes
 title: Nothing Changes
-wordpress_id: 21
-categories:
-- Personal
 ---
 
 *The Moment of Truth has Begun.*

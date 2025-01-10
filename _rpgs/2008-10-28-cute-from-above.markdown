@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:48:58
 layout: post
 slug: cute-from-above
 title: Cute from Above!
-wordpress_id: 791
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

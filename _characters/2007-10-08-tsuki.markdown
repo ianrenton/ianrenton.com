@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:08:51
 layout: post
 slug: tsuki
 title: Tsuki
-wordpress_id: 707
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

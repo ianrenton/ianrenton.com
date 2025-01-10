@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 16:51:24
 layout: post
 slug: rachel
 title: Rachel
-wordpress_id: 691
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

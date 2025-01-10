@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-05-13 13:34:00
 layout: post
 slug: rabies-3
 title: RABIES 3
-wordpress_id: 573
-categories:
-- Personal
 ---
 
 <b>Southampton Students / Alumni</b>  

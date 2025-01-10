@@ -3,7 +3,7 @@ layout: post
 title: "Punisher: War Zone"
 date: 2013-12-21 21:47
 comments: true
-categories: 
+
 ---
 
 Synopsis

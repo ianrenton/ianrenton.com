@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-02-02 15:00:00
 layout: post
 slug: human-hearts
 title: Human Hearts
-wordpress_id: 15
-categories:
-- Terrible Teenage Poetry
 ---
 
 Written as a chapter quote for Dragon's Claw:

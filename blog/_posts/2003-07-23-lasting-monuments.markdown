@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-07-23 16:30:00
 layout: post
 slug: lasting-monuments
 title: Lasting Monuments
-wordpress_id: 37
-categories:
-- Personal
 ---
 
 All the things I've done up to now... they don't seem to have lasted. The work that I did at school - it started and finished there. And I was just the same as everyone else, and what I did there would never be important.  

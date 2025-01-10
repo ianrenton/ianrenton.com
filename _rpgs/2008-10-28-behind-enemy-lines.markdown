@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:37:43
 layout: post
 slug: behind-enemy-lines
 title: Behind Enemy Lines
-wordpress_id: 785
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

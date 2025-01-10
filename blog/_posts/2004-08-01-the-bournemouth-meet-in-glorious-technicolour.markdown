@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-08-01 23:00:00
 layout: post
 slug: the-bournemouth-meet-in-glorious-technicolour
 title: The Bournemouth Meet in Glorious Technicolour!
-wordpress_id: 193
-categories:
-- Personal
 ---
 
 ### Prologue - Curry Night!  

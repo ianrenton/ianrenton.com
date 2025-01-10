@@ -4,9 +4,6 @@ date: 2011-02-05 23:14:09
 slug: eragon
 layout: post
 title: Eragon
-wordpress_id: 11462
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-27 20:49:36
 layout: post
 slug: octobers-end
 title: October's End
-wordpress_id: 11312
-categories:
-- Seasonal
 tags:
 - December
 - November

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-06 15:42:36
 layout: post
 slug: looking-stupid-for-charity
 title: Looking Stupid -- For Charity!
-wordpress_id: 13233
-categories:
-- Personal
 tags:
 - Begging
 - Charity

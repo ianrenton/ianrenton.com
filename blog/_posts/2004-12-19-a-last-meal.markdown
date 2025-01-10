@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-12-19 22:31:00
 layout: post
 slug: a-last-meal
 title: A Last Meal
-wordpress_id: 247
-categories:
-- Personal
 ---
 
 Tonight, I ate my last proper meal here for a while - and also the largest I've eaten in over a week.  Man, am I stuffed!  

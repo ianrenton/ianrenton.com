@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Inside the Transmitter"
 date: 2014-06-16 21:42:48 +0100
 comments: true
-categories: 
+
 ---
 
 Inside the transmitter, taken apart to trace a stray capacitance issue. Some dodgy soldering here, looks like I did it!

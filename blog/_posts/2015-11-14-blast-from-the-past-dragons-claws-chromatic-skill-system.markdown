@@ -2,9 +2,6 @@
 layout: post
 title: "Blast From the Past: Dragon's Claw's Chromatic Skill System"
 date: 2015-11-14T11:27:39+00:00
-categories:
-- Games
-- Projects
 tags:
 - dragons claw
 - dreaming awake

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-05 16:31:48
 layout: post
 slug: the-curious-case-of-the-disappearing-child-benefit
 title: The Curious Case of the Disappearing Child Benefit
-wordpress_id: 11292
-categories:
-- Politics
 tags:
 - Benefits
 - Children

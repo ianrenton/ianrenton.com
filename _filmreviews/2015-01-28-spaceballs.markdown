@@ -3,7 +3,7 @@ layout: post
 title: "Spaceballs"
 date: 2014-12-14 22:28
 comments: true
-categories: 
+
 ---
 
 > A review by Danfox and Esqui.

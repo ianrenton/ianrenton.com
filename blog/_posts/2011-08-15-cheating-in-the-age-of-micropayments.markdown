@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-08-15 00:06:28
 layout: post
 slug: cheating-in-the-age-of-micropayments
 title: Cheating in the Age of Micropayments
-wordpress_id: 11786
-categories:
-- Games
 tags:
 - Business Models
 - Cheating

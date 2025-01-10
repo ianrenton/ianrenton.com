@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2002-05-12 11:00:00
 layout: post
 slug: so-its-over
 title: So... it's over...
-wordpress_id: 7
-categories:
-- Personal
 ---
 
 And so, all things must come to pass... Everything that is, must end...

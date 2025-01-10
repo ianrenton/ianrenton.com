@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-26 21:39:00
 layout: post
 slug: so-yesterday
 title: So Yesterday,
-wordpress_id: 364
-categories:
-- Personal
 ---
 
 I learnt two important things yesterday.  

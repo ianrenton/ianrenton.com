@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-11-16 21:32:02
 layout: post
 slug: sea-battle-here-comes-the-science-bit
 title: 'Sea Battle: Here Comes the Science Bit'
-wordpress_id: 11325
-categories:
-- Software
-- Games
-- Projects
 tags:
 - Development
 - Game

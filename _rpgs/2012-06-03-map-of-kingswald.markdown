@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-03 21:17:03
 layout: post
 slug: map-of-kingswald
 title: Map of Kingswald
-wordpress_id: 12072
-categories:
-- Beyond the Frontier
-- Roleplaying Games
 tags:
 - D&amp;D
 - Kingswald

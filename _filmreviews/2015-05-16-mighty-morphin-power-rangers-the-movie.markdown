@@ -3,7 +3,7 @@ layout: post
 title: "Mighty Morphin' Power Rangers: The Movie"
 date: 2015-05-16 21:24
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-09 00:27:00
 layout: post
 slug: its-official
 title: It's official...
-wordpress_id: 113
-categories:
-- Personal
 ---
 
 Copying all the quotes from the now-defunct MMWP site into the new quotes system is *actually* more annoying than death itself.  It's going *really* slowly, too...  

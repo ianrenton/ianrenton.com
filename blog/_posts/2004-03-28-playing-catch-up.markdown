@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-28 20:31:00
 layout: post
 slug: playing-catch-up
 title: Playing Catch-up
-wordpress_id: 124
-categories:
-- Personal
 ---
 
 Okay, sorry... it's been a long time since I last updated - pay-per-minute 56k dialup bites hard.  

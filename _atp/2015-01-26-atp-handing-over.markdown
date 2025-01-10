@@ -3,7 +3,6 @@ layout: post
 title: "ATP: Handing Over"
 date: 2015-01-26 20:28
 comments: true
-categories:
 ---
 
 With [Scratch support completed](./atp-starting-from-scratch), I've reached the end of what I wanted to achieve with the All-Terrain Pi. It's been about 20 hours' work overall &mdash; quicker than I expected, particularly getting the webcam streaming and creating the Scratch interface, which I thought would be a lot more painful than they were.

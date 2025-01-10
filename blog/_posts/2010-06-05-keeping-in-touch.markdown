@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-06-05 23:24:43
 layout: post
 slug: keeping-in-touch
 title: Keeping in Touch
-wordpress_id: 3224
-categories:
 
 - Personal
 tags:

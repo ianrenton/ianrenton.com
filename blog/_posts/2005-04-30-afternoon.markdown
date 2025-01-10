@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-04-30 19:50:00
 layout: post
 slug: afternoon
 title: Afternoon
-wordpress_id: 293
-categories:
-- Personal
 ---
 
 The air outside is hot, and thick, and full of the hands of dandelion clocks.  Yet it doesn't smell like thunder.  It smells like cities.  Strange smell.  

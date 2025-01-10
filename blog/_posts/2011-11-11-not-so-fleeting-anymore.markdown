@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-11-11 21:19:06
 layout: post
 slug: not-so-fleeting-anymore
 title: Not So Fleeting Anymore
-wordpress_id: 11841
-categories:
-- Internet
-- Politics
 tags:
 - Blog
 - Bloggery

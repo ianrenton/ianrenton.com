@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-05 13:41:00
 layout: post
 slug: birthday-fun-o
 title: Birthday Fun \o/
-wordpress_id: 147
-categories:
-- Personal
 ---
 
 This afternoon, Gamesoc!  This evening, an anime showing!  Tomorrow, going out with my flatmates!  Super fun days!  

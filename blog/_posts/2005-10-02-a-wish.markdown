@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-02 04:48:00
 layout: post
 slug: a-wish
 title: A Wish
-wordpress_id: 368
-categories:
-- Personal
 ---
 
 I'm here.  I'm back.  I'm home.  So much to do, so much to say...

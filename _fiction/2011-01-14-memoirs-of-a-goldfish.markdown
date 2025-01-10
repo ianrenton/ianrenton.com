@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-14 23:02:57
 layout: post
 slug: memoirs-of-a-goldfish
 title: Memoirs of a Goldfish
-wordpress_id: 11424
-categories:
-- Short Stories
 tags:
 - Atrocity
 - Fail

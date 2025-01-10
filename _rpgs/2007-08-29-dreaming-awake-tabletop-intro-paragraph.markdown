@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 08:37:48
 layout: post
 slug: dreaming-awake-tabletop-intro-paragraph
 title: Dreaming Awake Tabletop Intro Paragraph
-wordpress_id: 628
-categories:
-- Dreaming Awake RPG
 tags:
 - Game
 - Mechanics

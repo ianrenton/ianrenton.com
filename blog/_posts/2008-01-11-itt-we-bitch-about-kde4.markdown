@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-01-11 20:51:00
 layout: post
 slug: itt-we-bitch-about-kde4
 title: ITT we bitch about KDE4
-wordpress_id: 747
-categories:
-- Personal
 ---
 
 So, KDE4 eh?  No offence to the programmers, they've certainly achieved something beyond my capabilities, but...  So many irritations =S  

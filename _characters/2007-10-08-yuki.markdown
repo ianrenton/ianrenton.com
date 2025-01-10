@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:11:52
 layout: post
 slug: yuki
 title: Yuki
-wordpress_id: 710
-categories:
-- Characters
 tags:
 - Battlemaster High
 - BESM

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:48:12
 layout: post
 slug: the-night-time-encounter
 title: The Night-Time Encounter
-wordpress_id: 790
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-13 11:58:24
 layout: post
 slug: a-question-for-ds-psp-owners
 title: A Question for DS / PSP Owners
-wordpress_id: 834
-categories:
-- Games
 ---
 
 Dear lazyweb,

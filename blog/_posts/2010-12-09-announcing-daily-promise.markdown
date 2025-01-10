@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-09 23:32:09
 layout: post
 slug: announcing-daily-promise
 title: 'Announcing: Daily Promise!'
-wordpress_id: 11358
-categories:
-- Projects
-- Software
-- UX and Design
 tags:
 - Code
 - Concept

@@ -1,16 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-03-17 09:44:20
 layout: post
 slug: successwhale-considering-the-reply-ui
 title: 'SuccessWhale: Considering the Reply UI'
-wordpress_id: 11501
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
 tags:
 - Design
 - Development

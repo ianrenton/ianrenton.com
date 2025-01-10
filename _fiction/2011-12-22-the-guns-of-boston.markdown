@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-12-22 15:17:53
 layout: post
 slug: the-guns-of-boston
 title: The Guns of Boston
-wordpress_id: 11912
-categories:
-- Short Stories
 tags:
 - Chrome
 - Futurism

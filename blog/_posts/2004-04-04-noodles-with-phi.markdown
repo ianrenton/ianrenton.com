@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-04 00:59:00
 layout: post
 slug: noodles-with-phi
 title: Noodles with Phi.
-wordpress_id: 127
-categories:
-- Personal
 ---
 
 Noodles with Phi.  And Bee.  And Angel, Char, Endless Rain, Fi, Flazh, Frieza, Fuse, GreenOpal, Jo, Kotori, OneCrazyMoFo, Roy, Rufus, Stel, Tasha, Tomoki, and Tyma.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:49:27
 layout: post
 slug: joleth
 title: Joleth
-wordpress_id: 669
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:44:53
 layout: post
 slug: ilandra
 title: Ilandra
-wordpress_id: 665
-categories:
-- Characters
 tags:
 - Changeling
 - Character

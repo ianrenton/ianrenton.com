@@ -4,9 +4,6 @@ date: 2011-08-31 23:59:10
 slug: conan-the-barbarian-2011
 layout: post
 title: Conan the Barbarian (2011)
-wordpress_id: 11810
-categories:
-- Film Reviews
 tags:
 - By Crom!
 - Conan

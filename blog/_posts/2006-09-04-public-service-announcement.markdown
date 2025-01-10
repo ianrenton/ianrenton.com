@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-09-04 21:18:00
 layout: post
 slug: public-service-announcement
 title: Public Service Announcement
-wordpress_id: 532
-categories:
-- Personal
 ---
 
 Maelstrom Panic!  

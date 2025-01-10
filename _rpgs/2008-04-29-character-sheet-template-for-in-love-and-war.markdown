@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-04-29 19:34:58
 layout: post
 slug: character-sheet-template-for-in-love-and-war
 title: Character Sheet Template (for In Love and War)
-wordpress_id: 768
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

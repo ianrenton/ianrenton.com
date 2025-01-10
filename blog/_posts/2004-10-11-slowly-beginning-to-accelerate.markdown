@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-11 23:02:00
 layout: post
 slug: slowly-beginning-to-accelerate
 title: Slowly Beginning to Accelerate
-wordpress_id: 198
-categories:
-- Personal
 ---
 
 Lectures have begun again, with none of the worries or the irritances of last year.  This year, I'm no longer apart from people, but rather everything I do is bringing me closer to my friends.  Life is less of a struggle, but instead is a dance, starting slowly and gradually quickening in tempo.  

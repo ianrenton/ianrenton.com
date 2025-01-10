@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-27 21:42:00
 layout: post
 slug: papapapayeah
 title: PapapapaYeah~~!
-wordpress_id: 82
-categories:
-- Personal
 ---
 
 Woohaha, I've finished my exams!  Today's Forces and Fields exam didn't go so bad... I guess it was a pretty good idea to do that practice paper at the weekend...  It caused a bit of trouble, but I finished well before time.  And the Electronics exam yesterday, I pwned! =p  I'm seriously hoping for 100% for the exam there.  

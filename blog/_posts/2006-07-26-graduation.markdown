@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-26 23:55:00
 layout: post
 slug: graduation
 title: Graduation
-wordpress_id: 522
-categories:
-- Personal
 ---
 
 A little late to post I know, but I graduated on Monday.  It was an awesome day, and could only really have been improved by the theatre in which we had to sit, fully robed, for 90 minutes, having been air conditioned.  

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-12-20 08:20:20
 layout: post
 slug: dreaming-awake-time-to-stop-pretending
 title: '"Dreaming Awake": Time to Stop Pretending'
-wordpress_id: 11369
-categories:
-- Personal
-- Writing
 tags:
 - Dreaming Awake
 - Fiction

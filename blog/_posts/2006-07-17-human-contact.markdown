@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-17 21:39:00
 layout: post
 slug: human-contact
 title: Human Contact
-wordpress_id: 519
-categories:
-- Personal
 ---
 
 So, today has been weird.  

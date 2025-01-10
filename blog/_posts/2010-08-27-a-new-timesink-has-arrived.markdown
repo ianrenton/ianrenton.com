@@ -1,17 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-27 00:09:15
 layout: post
 slug: a-new-timesink-has-arrived
 title: 'a thousand words: A New Timesink has Arrived!'
-wordpress_id: 11264
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
-- Writing
 tags:
 - Announcement
 - AThousandWords

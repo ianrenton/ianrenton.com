@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-07-22 22:11:00
 layout: post
 slug: zomg
 title: ZOMG
-wordpress_id: 586
-categories:
-- Personal
 ---
 
 They're playing the Dragon Half ending on the Proms right now! &lt;/Cultural_heathen&gt;

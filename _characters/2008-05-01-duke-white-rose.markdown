@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-05-01 22:30:10
 layout: post
 slug: duke-white-rose
 title: Duke White Rose
-wordpress_id: 771
-categories:
-- Characters
 tags:
 - Changeling
 - Character

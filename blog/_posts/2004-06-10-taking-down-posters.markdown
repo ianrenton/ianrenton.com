@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-10 13:04:00
 layout: post
 slug: taking-down-posters
 title: Taking Down Posters
-wordpress_id: 179
-categories:
-- Personal
 ---
 
 Taking down my posters, I can't help but remember the day on which I put them all up...

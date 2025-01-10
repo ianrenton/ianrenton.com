@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-03-20 21:12:53
 layout: post
 slug: skeuomorphism-must-die
 title: Skeuomorphism Must Die!
-wordpress_id: 12032
-categories:
-- Internet
-- Software
-- UX and Design
 tags:
 - Design
 - Skeuomorphism

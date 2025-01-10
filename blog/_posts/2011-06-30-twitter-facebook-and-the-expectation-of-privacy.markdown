@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-06-30 08:29:48
 layout: post
 slug: twitter-facebook-and-the-expectation-of-privacy
 title: Twitter, Facebook and the Expectation of Privacy
-wordpress_id: 11678
-categories:
-- Internet
 tags:
 - commenting
 - comments

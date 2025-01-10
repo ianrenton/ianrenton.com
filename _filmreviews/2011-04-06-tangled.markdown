@@ -4,9 +4,6 @@ date: 2011-04-06 22:37:16
 slug: tangled
 layout: post
 title: Tangled
-wordpress_id: 11527
-categories:
-- Film Reviews
 tags:
 - Disney
 ---

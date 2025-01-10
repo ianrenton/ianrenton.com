@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-05-02 23:49:00
 layout: post
 slug: local-elections
 title: Local Elections
-wordpress_id: 571
-categories:
-- Personal
 ---
 
 Tomorrow, I will be voting for <a href="http://www.bournemouth.gov.uk/Council/Councillors/councillor_info.asp?77">this man</a>.  I am trying hard to pretend that his facial hair has not influenced my vote.  

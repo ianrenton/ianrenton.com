@@ -3,7 +3,7 @@ layout: post
 title: "The Last Legion"
 date: 2013-08-03 22:24
 comments: true
-categories: 
+
 ---
 
 > A Film Review under the influence of Dan, Adrian and Jura single malt whisky.

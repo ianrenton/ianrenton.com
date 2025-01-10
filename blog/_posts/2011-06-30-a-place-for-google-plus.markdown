@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-06-30 17:05:19
 layout: post
 slug: a-place-for-google-plus
 title: A Place for Google Plus?
-wordpress_id: 11682
-categories:
-- Software
-- Internet
 tags:
 - Facebook
 - Google

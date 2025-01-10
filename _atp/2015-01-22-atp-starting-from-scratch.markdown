@@ -3,7 +3,7 @@ layout: post
 title: "ATP: Starting from Scratch"
 date: 2015-01-22 17:42
 comments: true
-categories: 
+
 ---
 
 The smartphone control interface for the All-Terrain Pi is more-or-less finished, so to round off the list of things I wanted to do with it, the only thing left is to get it controlled via the [Scratch](http://scratch.mit.edu/) programming environment.

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-14 23:50:00
 layout: post
 slug: plff-team-picker-now-online
 title: PLFF Team Picker Now Online!
-wordpress_id: 867
-categories:
-- Projects
-- Software
 ---
 
 In a fit of last-minute coding, I've produced version 0.1 of my automated team-picker for the Premier League's Fantasy Football game.  (If you're intending on playing, you only have 12 hours left to get your team in before the start of the season!)

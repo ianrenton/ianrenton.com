@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 10:44:14
 layout: post
 slug: sansuke
 title: Sansuke
-wordpress_id: 693
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

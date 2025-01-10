@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-11-01 21:11:00
 layout: post
 slug: nostalgia
 title: Nostalgia
-wordpress_id: 547
-categories:
-- Personal
 ---
 
 Nostalgia, I reflected, was a strange thing indeed. There were a lot of things I missed about my old life, since I moved away. But I had thought it was only the people, and the things I did with those people. It seemed that I was wrong.  

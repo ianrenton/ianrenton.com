@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:43:13
 layout: post
 slug: nyanos-barony
 title: Nyano's Barony
-wordpress_id: 786
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

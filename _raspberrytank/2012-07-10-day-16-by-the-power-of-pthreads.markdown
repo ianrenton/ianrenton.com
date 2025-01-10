@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-07-10 22:10:15
 layout: post
 slug: tank-day-16-by-the-power-of-pthreads
 title: 'Tank Day 16: By the Power of pthreads!'
-wordpress_id: 13052
-categories:
-- Projects
-- Raspberry Tank
-- Software
 tags:
 - Build
 - Build Diary

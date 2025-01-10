@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Motor Fitting"
 date: 2014-06-16 20:57:14 +0100
 comments: true
-categories: 
+
 ---
 
 Motor parts:

@@ -3,7 +3,7 @@ layout: post
 title: "Love Wrecked"
 date: 2014-09-30 20:28
 comments: true
-categories: 
+
 ---
 
 > Another guest review by Danfox Davies!

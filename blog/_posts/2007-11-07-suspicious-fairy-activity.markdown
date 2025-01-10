@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-11-07 19:52:00
 layout: post
 slug: suspicious-fairy-activity
 title: Suspicious Fairy Activity
-wordpress_id: 726
-categories:
-- Personal
 ---
 
 Never have I been reminded more than I was today that fairies come in all shapes and sizes.  Specifically, those responsible for the tangling of string, rope and miscellaneous cords whilst no-one is looking.  

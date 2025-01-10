@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-04-17 16:21:48
 layout: post
 slug: union-meetings-are-broken
 title: Union Meetings are Broken
-wordpress_id: 12731
-categories:
-- Politics
 tags:
 - Inefficiency
 - Meetings

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-02-16 03:11:00
 layout: post
 slug: multiple-ranting-im-afraid
 title: Multiple Ranting I'm Afraid
-wordpress_id: 434
-categories:
-- Personal
 ---
 
 My apologies for this, feel free not to read it.  

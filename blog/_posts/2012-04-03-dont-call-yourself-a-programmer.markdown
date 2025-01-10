@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-04-03 15:37:39
 layout: post
 slug: dont-call-yourself-a-programmer
 title: Don't Call Yourself a Programmer
-wordpress_id: 12044
-categories:
-- Software
 tags:
 - Business
 - Employment

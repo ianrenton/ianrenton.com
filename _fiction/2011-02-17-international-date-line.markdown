@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-02-17 23:15:44
 layout: post
 slug: international-date-line
 title: International Date Line
-wordpress_id: 11476
-categories:
-- Short Stories
 tags:
 - Assassination
 - Cyberpunk

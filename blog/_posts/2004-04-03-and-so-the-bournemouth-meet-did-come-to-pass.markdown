@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-03 00:59:00
 layout: post
 slug: and-so-the-bournemouth-meet-did-come-to-pass
 title: And so, the Bournemouth Meet did come to pass.
-wordpress_id: 126
-categories:
-- Personal
 ---
 
 Day One!  

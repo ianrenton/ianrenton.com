@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-10 15:27:25
 layout: post
 slug: da-tabletop-system
 title: DA Tabletop System
-wordpress_id: 719
-categories:
-- Dreaming Awake RPG
 tags:
 - Game
 - Mechanics

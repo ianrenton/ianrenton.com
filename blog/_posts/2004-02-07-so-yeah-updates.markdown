@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-07 20:18:00
 layout: post
 slug: so-yeah-updates
 title: So, Yeah, Updates.
-wordpress_id: 89
-categories:
-- Personal
 ---
 
 Sorry I haven't been updating much recently... been busy.  

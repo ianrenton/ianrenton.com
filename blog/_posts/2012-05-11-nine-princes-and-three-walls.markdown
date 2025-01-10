@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-05-11 22:35:00
 layout: post
 slug: nine-princes-and-three-walls
 title: Nine Princes and Three Walls
-wordpress_id: 12762
-categories:
-- Writing
 tags:
 - Amber
 - Chronicles of Amber

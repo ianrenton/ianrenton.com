@@ -3,7 +3,7 @@ layout: post
 title: "Star Trek: Insurrection"
 date: 2015-05-09 22:12
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

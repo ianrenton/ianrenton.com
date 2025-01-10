@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-15 19:42:29
 layout: post
 slug: of-abandonment-and-starlight
 title: Of Abandonment and Starlight
-wordpress_id: 11616
-categories:
-- Seasonal
 tags:
 - Abandoned Buildings
 - Abandonment

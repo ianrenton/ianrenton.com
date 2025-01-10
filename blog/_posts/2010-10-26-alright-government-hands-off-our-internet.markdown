@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-26 19:15:31
 layout: post
 slug: alright-government-hands-off-our-internet
 title: Alright Government, Hands Off Our Internet
-wordpress_id: 11309
-categories:
-- Politics
-- Internet
 tags:
 - Big Brother
 - Coalition

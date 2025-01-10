@@ -3,7 +3,7 @@ layout: post
 title: "Titanic: The Legend Goes On"
 date: 2014-10-25 22:26
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

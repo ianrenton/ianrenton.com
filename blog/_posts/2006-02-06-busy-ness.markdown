@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-02-06 03:43:00
 layout: post
 slug: busy-ness
 title: Busy-ness
-wordpress_id: 432
-categories:
-- Personal
 ---
 
 Exams were a bit evil.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-25 01:29:00
 layout: post
 slug: unending-sunshine
 title: Unending Sunshine
-wordpress_id: 138
-categories:
-- Personal
 ---
 
 Yet another perfect day...  

@@ -3,7 +3,7 @@ layout: post
 title: "A Case of Stolen Identity"
 date: 2015-04-05 11:18
 comments: true
-categories: 
+
 - Travel
 tags:
 - Identity

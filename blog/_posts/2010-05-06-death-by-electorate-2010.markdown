@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-05-06 19:43:49
 layout: post
 slug: death-by-electorate-2010
 title: Death by Electorate 2010
-wordpress_id: 3163
-categories:
-- Politics
 tags:
 - Alcohol
 - Election

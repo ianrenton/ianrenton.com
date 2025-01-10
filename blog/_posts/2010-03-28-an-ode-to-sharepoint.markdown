@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-03-28 21:50:51
 layout: post
 slug: an-ode-to-sharepoint
 title: An Ode to Sharepoint
-wordpress_id: 2869
-categories:
-- Software
 tags:
 - cthulhu
 - iis

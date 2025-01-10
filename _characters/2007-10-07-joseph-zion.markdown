@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:50:50
 layout: post
 slug: joseph-zion
 title: Joseph Zion
-wordpress_id: 670
-categories:
-- Characters
 tags:
 - Character
 ---

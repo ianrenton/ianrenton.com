@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-06-14 03:52:00
 layout: post
 slug: status-report
 title: Status Report
-wordpress_id: 29
-categories:
-- Personal
 ---
 
 * Uptime so far today: 20.9 hours.  

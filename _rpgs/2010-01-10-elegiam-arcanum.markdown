@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-01-10 21:05:49
 layout: post
 slug: elegiam-arcanum
 title: Elegiam Arcanum
-wordpress_id: 2637
-categories:
-- Roleplaying Games
 tags:
 - Arcana
 - LARP

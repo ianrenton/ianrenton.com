@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-19 22:24:30
 layout: post
 slug: dial-m-for-mandelson
 title: Dial M for Mandelson
-wordpress_id: 2408
-categories:
-- Politics
 tags:
 - Democracy
 - Freedom

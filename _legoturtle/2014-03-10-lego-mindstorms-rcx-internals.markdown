@@ -3,7 +3,7 @@ layout: post
 title: "Lego Mindstorms RCX Internals"
 date: 2014-03-10 21:59
 comments: true
-categories: 
+
 ---
 
 <p>The Lego Turtle development replaced the Lego Mindstorms RCX controller on the robot. Now the RCX is no longer needed, we might as well have a look inside. Here's some photos: (click to enlarge)<br/>

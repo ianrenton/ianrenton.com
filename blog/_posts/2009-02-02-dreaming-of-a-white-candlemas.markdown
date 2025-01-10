@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-02-02 23:08:53
 layout: post
 slug: dreaming-of-a-white-candlemas
 title: Dreaming of a White Candlemas
-wordpress_id: 820
-categories:
-- Seasonal
 ---
 
 Candles burn in the windows of the flat, dividing the warmth of the inside from the darkness and the snow that still coats the ground outside.

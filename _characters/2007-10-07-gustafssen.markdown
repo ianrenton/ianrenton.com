@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:38:29
 layout: post
 slug: gustafssen
 title: Gustafssen
-wordpress_id: 662
-categories:
-- Characters
 tags:
 - Changeling
 - Character

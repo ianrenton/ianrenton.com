@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-07-29 23:12:00
 layout: post
 slug: bournemouth-meet-finality
 title: 'Bournemouth Meet: Finality'
-wordpress_id: 589
-categories:
-- Personal
 ---
 
 Thank you to everyone who turned up and made the Bournemouth Meet shiny and awesome, even though we didn't manage to get much sunshine or barbecueing done!  It was awesome to see you all again.  Hopefully there'll be another one again next year, and maybe it might actually feel like July then too!  

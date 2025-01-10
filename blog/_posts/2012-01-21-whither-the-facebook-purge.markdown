@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-21 13:31:14
 layout: post
 slug: whither-the-facebook-purge
 title: Whither the Facebook Purge?
-wordpress_id: 11978
-categories:
-- Internet
 tags:
 - Facebook
 - Friends

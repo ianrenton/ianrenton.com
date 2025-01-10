@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-10 01:21:00
 layout: post
 slug: shinies-and-stalkers
 title: Shinies and Stalkers
-wordpress_id: 151
-categories:
-- Personal
 ---
 
 Okay, so... weekend.  I went back to bournemouth to see my parents, since I coudn't see them actually on my birthday.  I have much shiny stuff!  I have a USB keyring flash disk, which is quite awesome, and also a new optical mouse which should stop me breaking normal mice.  I have a *shock* legitimate copy of UT2k4, and a huge stack of CDRs that'll let me reclaim some hard disk space from the hordes of anime.  Also two new books (one of which I'm 3/4 of the way though already ^_^;) and some clothes.  And money too!  

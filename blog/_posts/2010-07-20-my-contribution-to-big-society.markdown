@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-07-20 00:08:07
 layout: post
 slug: my-contribution-to-big-society
 title: My Contribution to Big Society
-wordpress_id: 11224
-categories:
-- Politics
 tags:
 - Big Society
 - Cameron

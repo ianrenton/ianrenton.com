@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-03-18 04:21:00
 layout: post
 slug: alas-poor-culture
 title: Alas, Poor Culture
-wordpress_id: 837
-categories:
-- Travel
 ---
 
 As you step out of baggage reclaim at Bahrain Muharraq, the first smells that assault your senses are cinnamon and coffee, exotic spices from the lands of "Cinnabon" and "Costa".  We drove through the eternal traffic jam that is Bahrain, spotting the BHS, the Debenhams, the Carrefour.  We drove across the causeway to Saudi Arabia, its passport control presided over by the twin golden arches of a McDonalds.  I drank Coke on the way to the compound.

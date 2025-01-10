@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-10 00:42:06
 layout: post
 slug: the-rise-and-fall-of-livejournal
 title: The Rise and Fall of LiveJournal
-wordpress_id: 11421
-categories:
 
 - Internet
 - Personal

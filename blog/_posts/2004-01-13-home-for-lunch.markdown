@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-01-13 14:18:00
 layout: post
 slug: home-for-lunch
 title: Home for lunch
-wordpress_id: 72
-categories:
-- Personal
 ---
 
 Nothing much to say, life's quite boring.  Lots of work to do, going to play Exalted tonight.  

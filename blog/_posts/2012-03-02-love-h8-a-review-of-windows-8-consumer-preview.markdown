@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-03-02 22:34:11
 layout: post
 slug: love-h8-a-review-of-windows-8-consumer-preview
 title: Love / H8 (A Review of Windows 8 Consumer Preview)
-wordpress_id: 12007
-categories:
-- Software
 tags:
 - Preview
 - Review

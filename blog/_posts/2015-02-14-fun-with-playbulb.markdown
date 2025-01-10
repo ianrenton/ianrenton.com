@@ -3,7 +3,7 @@ layout: post
 title: "Fun with Playbulb"
 date: 2015-02-14 10:47
 comments: true
-categories: 
+
 - Hardware
 - Software
 - Projects

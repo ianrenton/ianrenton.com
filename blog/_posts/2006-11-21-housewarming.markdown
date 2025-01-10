@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-11-21 17:31:00
 layout: post
 slug: housewarming
 title: Housewarming
-wordpress_id: 552
-categories:
-- Personal
 ---
 
 <b>Attention Soton Kiddies et al!</b>  

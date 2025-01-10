@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Raspberry Pi Control Test"
 date: 2014-06-16 20:59:20 +0100
 comments: true
-categories: 
+
 ---
 
 RPi Attached and powered up:

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-15 21:00:00
 layout: post
 slug: i-did-something-useful-today
 title: I Did Something Useful Today
-wordpress_id: 355
-categories:
-- Personal
 ---
 
 I did something useful today.  Not work, you realise, because there's precious little of that to do.  Instead, in readiness for the Dreaming Awake game this year, I present: Part One of the rules!  

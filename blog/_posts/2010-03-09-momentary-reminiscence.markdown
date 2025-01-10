@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-03-09 14:47:48
 layout: post
 slug: momentary-reminiscence
 title: Momentary Reminiscence
-wordpress_id: 2802
-categories:
 
 - Personal
 tags:

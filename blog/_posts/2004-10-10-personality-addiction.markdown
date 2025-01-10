@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-10 05:55:00
 layout: post
 slug: personality-addiction
 title: Personality Addiction
-wordpress_id: 197
-categories:
-- Personal
 ---
 
 What is Love?  (And I'm not referring to the early 90's pop song by Haddaway (sp?), although I think I do have that on tape somewhere.  Nor the L'Arc en Ciel song that I'm less embarassed about listening to.)  

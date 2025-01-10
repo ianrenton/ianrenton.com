@@ -1,5 +1,4 @@
 ---
-author: ian
 title: The Angry Birds Movie
 slug: the-angry-birds-movie
 id: 3919

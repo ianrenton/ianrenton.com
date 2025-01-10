@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 08:36:38
 layout: post
 slug: dreaming-awake-project-history
 title: Dreaming Awake Project History
-wordpress_id: 627
-categories:
-- Dreaming Awake
 tags:
 - Dreaming Awake
 ---

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-11-08 21:42:01
 layout: post
 slug: howto-linux-and-synaptics-touchpads-for-little-fingers
 title: 'HOWTO: Linux (and Synaptics Touchpads) for Little Fingers'
-wordpress_id: 11838
-categories:
-- Guides
 tags:
 - Guide
 - HOWTO

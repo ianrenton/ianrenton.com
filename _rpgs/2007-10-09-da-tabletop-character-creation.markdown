@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-09 14:59:30
 layout: post
 slug: da-tabletop-character-creation
 title: DA Tabletop Character Creation
-wordpress_id: 718
-categories:
-- Dreaming Awake RPG
 tags:
 - Game
 - Mechanics

@@ -4,9 +4,6 @@ date: 2011-09-10 22:10:25
 slug: beastly
 layout: post
 title: Beastly
-wordpress_id: 11815
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

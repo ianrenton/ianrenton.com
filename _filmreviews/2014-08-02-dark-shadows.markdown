@@ -3,7 +3,7 @@ layout: post
 title: "Dark Shadows"
 date: 2014-08-02 23:17
 comments: true
-categories: 
+
 ---
 
 > Another guest review by Dan, Esqui and Devo!

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:00:05
 layout: post
 slug: the-revolutionary-hog-roast
 title: The Revolutionary Hog Roast
-wordpress_id: 801
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

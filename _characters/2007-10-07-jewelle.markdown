@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 13:47:21
 layout: post
 slug: jewelle
 title: Jewelle
-wordpress_id: 668
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-09-13 22:45:00
 layout: post
 slug: right-at-your-door
 title: Right At Your Door
-wordpress_id: 535
-categories:
-- Personal
 ---
 
 To: The director, scriptwriter and associated staff of the recently-released movie "Right at Your Door"  

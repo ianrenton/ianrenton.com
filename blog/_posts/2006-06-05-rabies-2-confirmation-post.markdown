@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-05 20:02:00
 layout: post
 slug: rabies-2-confirmation-post
 title: RABIES 2 Confirmation Post
-wordpress_id: 501
-categories:
-- Personal
 ---
 
 Okay, the situation for the end-of-year party, a.k.a. RABIES 2, is now confirmed!  

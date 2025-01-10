@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-04 13:38:47
 layout: post
 slug: to-run-or-not-to-run-that-is-the-question
 title: To Run, or Not to Run, That is the Question
-wordpress_id: 2276
-categories:
-- Roleplaying
 tags:
 - Changeling
 - Distribution of Responsibility

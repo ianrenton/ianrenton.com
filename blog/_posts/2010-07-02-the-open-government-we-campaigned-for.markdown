@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2010-07-02 14:56:32
 layout: post
 slug: the-open-government-we-campaigned-for
 title: The Open Government we Campaigned For?
-wordpress_id: 7124
-categories:
-- Internet
-- Politics
 tags:
 - Freedom
 - Government

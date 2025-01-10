@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-05 16:45:22
 layout: post
 slug: meh-to-av
 title: '"Meh" to AV'
-wordpress_id: 11417
-categories:
-- Politics
 tags:
 - Alternative Vote
 - AV

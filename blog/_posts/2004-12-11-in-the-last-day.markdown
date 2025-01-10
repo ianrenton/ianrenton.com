@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-12-11 04:28:00
 layout: post
 slug: in-the-last-day
 title: In the last day...
-wordpress_id: 236
-categories:
-- Personal
 ---
 
 Of the last 24 hours, I've spent:  

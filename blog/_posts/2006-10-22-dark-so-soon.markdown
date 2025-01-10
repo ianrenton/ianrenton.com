@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-10-22 01:38:00
 layout: post
 slug: dark-so-soon
 title: Dark So Soon
-wordpress_id: 544
-categories:
-- Seasonal
 ---
 
 Oh, summer, how quickly you departed...  

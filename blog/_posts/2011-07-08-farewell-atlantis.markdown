@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-08 22:16:44
 layout: post
 slug: farewell-atlantis
 title: Farewell, Atlantis
-wordpress_id: 11714
-categories:
-- Space
 tags:
 - Atlantis
 - NASA

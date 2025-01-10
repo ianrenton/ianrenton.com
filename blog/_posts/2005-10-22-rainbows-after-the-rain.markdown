@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-22 00:18:00
 layout: post
 slug: rainbows-after-the-rain
 title: Rainbows after the Rain
-wordpress_id: 382
-categories:
-- Personal
 ---
 
 As we headed into the city centre, the morning's wind-whipped sunshine turned quickly into a shower and then into rain.  It fell in sheets as we sheltered under the awning of a shopping arcade, and dripped around and through my umbrella as we dashed quickly from one shop to another.  

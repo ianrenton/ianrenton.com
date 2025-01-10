@@ -2,8 +2,6 @@
 layout: post
 title: "Goodbye, Dungeon"
 date: 2016-04-19T21:43:13+01:00
-categories:
-- Personal
 tags:
 - southampton
 - club

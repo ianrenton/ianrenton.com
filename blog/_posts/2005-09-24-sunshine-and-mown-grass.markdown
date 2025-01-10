@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-24 21:32:00
 layout: post
 slug: sunshine-and-mown-grass
 title: Sunshine and Mown Grass
-wordpress_id: 363
-categories:
-- Personal
 ---
 
 So today, it finally decided to be sunny again.  My mission for today: Do something, *anything*, other than moping around the house.  Mission successful!  

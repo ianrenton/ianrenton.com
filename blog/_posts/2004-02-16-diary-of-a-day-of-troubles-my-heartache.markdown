@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-16 22:23:00
 layout: post
 slug: diary-of-a-day-of-troubles-my-heartache
 title: Diary of a Day of Troubles ~My Heartache~
-wordpress_id: 96
-categories:
-- Personal
 ---
 
 Why...  Why won't anything good happen today...?  ... Here goes, today in a nutshell.  

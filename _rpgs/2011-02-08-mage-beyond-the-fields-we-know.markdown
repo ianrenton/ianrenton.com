@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-02-08 23:25:21
 layout: post
 slug: mage-beyond-the-fields-we-know
 title: 'Mage: Beyond the Fields We Know'
-wordpress_id: 11463
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Mage

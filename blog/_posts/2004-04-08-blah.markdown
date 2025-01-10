@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-08 13:01:00
 layout: post
 slug: blah
 title: Blah...
-wordpress_id: 131
-categories:
-- Personal
 ---
 
 I guess now I realise why I don't really like my parents, and why I do anything else rather than spend a day with them if I can avoid it...  Although I still love them, I can't really *like* them, I can't be friends with them.  All we ever talk about are menial things, like putting the washing out or cooking dinner, and the way they speak to me is at best dispassionate, and at worst, sometimes, insulting.  We share no common interests, so whatever things interest one party are completely uninteresting to the other.  And even worse than disinterest, some of my interests (most particularly anime, but plenty of others besides) I occasionally get insulted for.  Even conversations where differences are good - philosophy, or religion, or politics, for example - are just met with a mental brick wall that stops the conversation almost before I've started...

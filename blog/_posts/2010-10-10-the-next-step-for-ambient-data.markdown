@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-10 21:16:32
 layout: post
 slug: the-next-step-for-ambient-data
 title: The Next Step for Ambient Data
-wordpress_id: 11297
-categories:
-- Software
-- UX and Design
 tags:
 - Ambient Data
 - Augmented Reality

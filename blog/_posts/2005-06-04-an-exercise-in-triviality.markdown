@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-06-04 12:39:00
 layout: post
 slug: an-exercise-in-triviality
 title: An Exercise in Triviality
-wordpress_id: 317
-categories:
-- Personal
 ---
 
 Exams so far:  

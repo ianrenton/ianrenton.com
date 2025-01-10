@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-05-11 03:37:00
 layout: post
 slug: i-have-an-alternate-past-on-the-internet-plus-cyberstalking-fun
 title: I have an Alternate Past on the Internet! (plus Cyberstalking fun)
-wordpress_id: 487
-categories:
-- Personal
 ---
 
 In equal measure crazy, creepy and awesome, I seem to have an alternate past, as seen by the internet.  

@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-10-10 12:26:55
 layout: post
 slug: successwhale-is-terrifying-vps-edition
 title: 'SuccessWhale is Terrifying: VPS Edition'
-wordpress_id: 11821
-categories:
-- Internet
-- Projects
-- Software
 tags:
 - Hosting
 - Internet

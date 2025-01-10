@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-04 01:12:00
 layout: post
 slug: the-looming-doom-of-doom-looms-doomfully-over-me
 title: The Looming Doom of Doom Looms Doomfully Over Me.
-wordpress_id: 171
-categories:
-- Personal
 ---
 
 In other words:  In nine hours' time, I have an Oscillations and Waves exam.  I'm still completely unsure of what we need to know for it.  There's tons of formulae and I could never hope to be able to remember them all.  On the other hand they are all derivable from a fairly simple set of basic formulae, but doing so will take up lots of time in the exam.  

@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-06 23:32:30
 layout: post
 slug: promises-fallen-by-the-wayside
 title: Promises Fallen by the Wayside
-wordpress_id: 11640
-categories:
-- Personal
-- Software
-- Projects
 tags:
 - Daily Promise
 - Health

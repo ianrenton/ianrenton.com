@@ -3,8 +3,6 @@ layout: post
 title: "Summer in the City"
 date: 2015-08-14T22:52:15+01:00
 latex: true
-categories:
-- Travel
 tags:
 - Vienna
 - Austria

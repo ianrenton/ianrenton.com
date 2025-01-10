@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-20 18:29:00
 layout: post
 slug: postage
 title: Postage!
-wordpress_id: 508
-categories:
-- Roleplaying
 ---
 
 Right, this afternoon has been a good one for getting some RPoL-related work done!  

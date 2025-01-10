@@ -2,9 +2,6 @@
 layout: post
 title: "Pokemon Going"
 date: 2016-07-24T17:25:12+01:00
-categories:
-- personal
-- internet
 tags:
 - pokemon
 - pokemon go

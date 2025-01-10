@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-09-04 14:17:26
 layout: post
 slug: announcing-successwhale-version-2-0
 title: 'Announcing: SuccessWhale version 2.0!'
-wordpress_id: 11813
-categories:
-- Internet
-- Projects
-- Software
 tags:
 - Announce
 - Announcement

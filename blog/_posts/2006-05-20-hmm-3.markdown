@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-05-20 20:11:00
 layout: post
 slug: hmm-3
 title: Hmm...
-wordpress_id: 494
-categories:
-- Personal
 ---
 
 Just had a ten-second phone call from my better half, which went thus:  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-04-20 08:40:00
 layout: post
 slug: drifting-away
 title: Drifting away...
-wordpress_id: 135
-categories:
-- Personal
 ---
 
 For some reason, I've woken up with a really powerful feeling that I just don't belong, that no-one really cares... especially to do with the internet.  I don't know why, though... I can't explain *why* I suddenly feel this way for no reason at all...  

@@ -4,9 +4,6 @@ date: 2012-05-12 23:16:22
 slug: mission-impossible-ghost-protocol-colons-colons-everywhere
 layout: post
 title: 'Mission Impossible: Ghost Protocol'
-wordpress_id: 12055
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

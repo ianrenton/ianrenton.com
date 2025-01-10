@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-01-15 22:23:48
 layout: post
 slug: towards-a-simpler-desktop
 title: Towards a Simpler Desktop
-wordpress_id: 11968
-categories:
-- Software
-- UX and Design
 tags:
 - Design
 - Desktop

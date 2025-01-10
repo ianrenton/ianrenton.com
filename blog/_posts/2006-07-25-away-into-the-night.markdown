@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-07-25 00:53:00
 layout: post
 slug: away-into-the-night
 title: Away into the Night
-wordpress_id: 521
-categories:
-- Personal
 ---
 
 <i>"Yes I call across the waves;  

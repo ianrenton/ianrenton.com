@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Propeller Fit"
 date: 2014-06-16 20:58:27 +0100
 comments: true
-categories: 
+
 ---
 
 Props and shaft adapters:

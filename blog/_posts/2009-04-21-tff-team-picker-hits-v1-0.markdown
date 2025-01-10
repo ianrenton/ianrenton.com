@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-04-21 13:54:36
 layout: post
 slug: tff-team-picker-hits-v1-0
 title: TFF Team Picker hits v1.0!
-wordpress_id: 848
-categories:
-- Software
-- Projects
 ---
 
 After a spree of lunchtime coding today, my Telegraph Fantasy Football Team Picker has finally hit v1.0.

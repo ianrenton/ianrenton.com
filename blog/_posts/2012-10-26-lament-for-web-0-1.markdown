@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-26 21:25:19
 layout: post
 slug: lament-for-web-0-1
 title: Lament for Web 0.1
-wordpress_id: 13281
-categories:
-- Internet
-- Personal
 tags:
 - Facebook
 - ForWestminsterHubble

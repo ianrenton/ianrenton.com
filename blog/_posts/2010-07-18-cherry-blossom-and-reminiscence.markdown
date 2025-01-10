@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-07-18 11:07:19
 layout: post
 slug: cherry-blossom-and-reminiscence
 title: Cherry Blossom and Reminiscence
-wordpress_id: 11222
-categories:
-- Personal
 tags:
 - Adulthood
 - Anime

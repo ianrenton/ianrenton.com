@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-11-29 20:59:00
 layout: post
 slug: tiny-shards-of-my-fractured-reality
 title: Tiny Shards of my Fractured Reality
-wordpress_id: 228
-categories:
-- Personal
 ---
 
 *"Forever has gone, today is infinity...  <br/>

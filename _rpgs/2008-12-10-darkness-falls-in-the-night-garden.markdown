@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-12-10 23:01:32
 layout: post
 slug: darkness-falls-in-the-night-garden
 title: Darkness Falls in the Night Garden
-wordpress_id: 805
-categories:
-- Roleplaying Games
 tags:
 - Game
 - Roleplaying

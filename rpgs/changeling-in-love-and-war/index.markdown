@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2009-09-24 10:27:11
 layout: page
 slug: changeling-in-love-and-war
 title: 'Changeling: In Love And War'
-wordpress_id: 907
 ---
 
 <div><p>Changeling: In Love and War is no longer being played, and all the RPoL threads are now archived here.  The final story of In Love and War can be found <a href="/fiction/at-the-end-of-the-dream">here</a>.</p></div>

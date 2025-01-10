@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-20 08:56:08
 layout: post
 slug: forgotten-children-prologue
 title: 'Forgotten Children: Prologue'
-wordpress_id: 873
-categories:
-- Forgotten Children
 tags:
 - Fiction
 - Forgotten Children

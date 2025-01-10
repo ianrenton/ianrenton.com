@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:30:19
 layout: post
 slug: four-minute-warning-2
 title: Four Minute Warning
-wordpress_id: 611
-categories:
-- Short Stories
 tags:
 - Fiction
 - Story

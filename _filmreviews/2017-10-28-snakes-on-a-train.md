@@ -1,5 +1,4 @@
 ---
-author: ian
 title: Snakes on a Train
 slug: snakes-on-a-train
 id: 2131

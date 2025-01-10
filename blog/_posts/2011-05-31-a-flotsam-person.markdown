@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-31 22:40:00
 layout: post
 slug: a-flotsam-person
 title: A Flotsam Person
-wordpress_id: 11663
-categories:
-- Personal
 tags:
 - Beaches
 - Belonging

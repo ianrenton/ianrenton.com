@@ -3,7 +3,7 @@ layout: post
 title: "Avalanche Sharks"
 date: 2015-01-10 22:28
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

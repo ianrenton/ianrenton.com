@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-12-04 22:02:58
 layout: post
 slug: tank-day-23-range-and-bearing
 title: 'Tank Day 23: Range and Bearing'
-wordpress_id: 13336
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - I2C
 - Project

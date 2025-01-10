@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-15 07:19:17
 layout: post
 slug: cold-war-ii-once-more-with-botnets
 title: 'Cold War II: Once More with Botnets'
-wordpress_id: 11298
-categories:
-- Internet
-- Military
-- Security
 tags:
 - Cyber War
 - Internet

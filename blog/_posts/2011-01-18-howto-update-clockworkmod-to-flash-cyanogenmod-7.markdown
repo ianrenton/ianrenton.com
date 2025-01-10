@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-18 11:50:15
 layout: post
 slug: howto-update-clockworkmod-to-flash-cyanogenmod-7
 title: 'HOWTO: Update ClockworkMod to flash CyanogenMod 7'
-wordpress_id: 11432
-categories:
-- Guides
 tags:
 - Android
 - clockworkmod

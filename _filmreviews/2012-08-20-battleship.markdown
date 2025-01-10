@@ -4,9 +4,6 @@ date: 2012-08-20 21:45:03
 slug: battleship
 layout: post
 title: Battleship
-wordpress_id: 12097
-categories:
-- Film Reviews
 ---
 
 > Joint review by Eric and Ian. Because there are too many lulz here for one man to handle alone.

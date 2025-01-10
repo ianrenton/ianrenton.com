@@ -3,7 +3,6 @@ layout: post
 title: "USV-01 Software Setup"
 date: 2023-03-11 10:49
 comments: true
-categories:
 ---
 
 ## Initial Setup

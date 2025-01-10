@@ -4,9 +4,6 @@ date: 2011-01-01 21:49:25
 slug: camp-rock
 layout: post
 title: Camp Rock
-wordpress_id: 11395
-categories:
-- Film Reviews
 tags:
 - Camp Rock
 - Disney

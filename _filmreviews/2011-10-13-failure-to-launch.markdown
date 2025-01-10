@@ -4,9 +4,6 @@ date: 2011-10-13 22:13:51
 slug: failure-to-launch
 layout: post
 title: Failure to Launch
-wordpress_id: 11837
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

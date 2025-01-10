@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-04 14:18:00
 layout: post
 slug: the-time-approaches
 title: The Time Approaches...
-wordpress_id: 591
-categories:
-- Personal
 ---
 
 That time's approaching ever faster now.  I've started thinking about it in terms of days rather than weeks or months, which just adds an extra bit of scariness to it.  

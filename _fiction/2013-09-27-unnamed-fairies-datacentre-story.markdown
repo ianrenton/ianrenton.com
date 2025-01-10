@@ -1,12 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2013-09-27 22:20:00
 layout: post
 slug: unnamed-fairies-datacentre-story
 title: Unnamed Fairies / Datacentre story
-categories:
-- Short Stories
 tags:
 - Fairies
 - Datacentre

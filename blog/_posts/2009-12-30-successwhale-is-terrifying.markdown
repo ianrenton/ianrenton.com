@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-30 23:17:07
 layout: post
 slug: successwhale-is-terrifying
 title: SuccessWhale is Terrifying
-wordpress_id: 2591
-categories:
-- Internet
-- Projects
-- Software
 tags:
 - Hosting
 - Statistics

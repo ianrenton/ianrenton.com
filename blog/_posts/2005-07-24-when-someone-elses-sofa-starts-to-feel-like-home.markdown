@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-07-24 21:18:00
 layout: post
 slug: when-someone-elses-sofa-starts-to-feel-like-home
 title: When Someone Else's Sofa Starts to Feel like Home
-wordpress_id: 331
-categories:
-- Personal
 ---
 
 ...Well, not quite.  It still feels like I'm imposing, sleeping on their sofa, but at least it's Southampton - that's a start.  

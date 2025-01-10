@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-13 05:54:00
 layout: post
 slug: people-are-too-complicated
 title: People are too Complicated
-wordpress_id: 59
-categories:
-- Personal
 ---
 
 Today has been a very odd day...  

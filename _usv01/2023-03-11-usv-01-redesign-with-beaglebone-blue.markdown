@@ -3,7 +3,6 @@ layout: post
 title: "USV-01 Redesign with Beaglebone Blue"
 date: 2023-03-11 08:54
 comments: true
-categories:
 ---
 
 If you're following along with this build guide and have a particularly keen eye, you may have noticed a small 7-year jump in date between the previous post and this one. Yes, after a long time sat unloved in the shed (the boat, not me) I've finally developed some enthusiasm for the project again.

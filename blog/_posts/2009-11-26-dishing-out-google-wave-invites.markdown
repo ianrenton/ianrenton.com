@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-26 12:33:18
 layout: post
 slug: dishing-out-google-wave-invites
 title: Dishing out Google Wave Invites
-wordpress_id: 2414
-categories:
-- Internet
 tags:
 - Google
 - Google Wave

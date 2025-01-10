@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-11-01 18:33:00
 layout: post
 slug: november-in-the-court-of-seasons
 title: November in the Court of Seasons
-wordpress_id: 2195
-categories:
-- Short Stories
 tags:
 - Autumn
 - Cider

@@ -3,7 +3,7 @@ layout: post
 title: "Star Trek: Into Darkness"
 date: 2014-10-04 21:46
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

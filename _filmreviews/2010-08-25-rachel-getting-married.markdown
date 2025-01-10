@@ -4,9 +4,6 @@ date: 2010-08-25 22:44:03
 slug: rachel-getting-married
 layout: post
 title: Rachel Getting Married
-wordpress_id: 11263
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-26 22:27:00
 layout: post
 slug: could-i-live-without
 title: Could I Live Without...?
-wordpress_id: 11755
-categories:
-- Internet
 tags:
 - DeviantArt
 - Facebook

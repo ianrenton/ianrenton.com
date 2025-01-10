@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-23 00:42:00
 layout: post
 slug: summer-calling
 title: Summer Calling
-wordpress_id: 11624
-categories:
-- Seasonal
 tags:
 - Beach
 - Home

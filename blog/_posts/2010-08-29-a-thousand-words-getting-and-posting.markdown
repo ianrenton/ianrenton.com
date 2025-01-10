@@ -1,17 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-08-29 23:17:32
 layout: post
 slug: a-thousand-words-getting-and-posting
 title: 'a thousand words: GETting and POSTing'
-wordpress_id: 11268
-categories:
-- Internet
-- Projects
-- Software
-- UX and Design
-- Writing
 tags:
 - AThousandWords
 - Code

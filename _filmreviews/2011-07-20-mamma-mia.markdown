@@ -4,9 +4,6 @@ date: 2011-07-20 22:58:43
 slug: mamma-mia
 layout: post
 title: Mamma Mia!
-wordpress_id: 11754
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

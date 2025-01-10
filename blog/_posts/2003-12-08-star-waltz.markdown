@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-12-08 03:23:00
 layout: post
 slug: star-waltz
 title: Star Waltz
-wordpress_id: 56
-categories:
-- Personal
 ---
 
 It's... so cold out here...  Alone, dreaming, under the stars...  

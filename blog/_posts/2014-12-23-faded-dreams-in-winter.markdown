@@ -3,7 +3,7 @@ layout: post
 title: "Faded Dreams in Winter"
 date: 2014-12-23 09:54
 comments: true
-categories: 
+
 - Personal
 ---
 

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-22 13:01:00
 layout: post
 slug: midsummer-nights-dream
 title: Midsummer Night's Dream
-wordpress_id: 511
-categories:
-- Personal
 ---
 
 So, there was this Pagan convention thing in the middle of the lake district, then there was this treasure hunt thing where we had to run around collecting something-or-other except that I lost because I spent too much time eating cake, then prizes were given out to people and the prize-giving lady talked about faerie magic for a bit.  

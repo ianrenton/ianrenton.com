@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-02-20 17:25:06
 layout: post
 slug: lets-fix-dd-or-house-rules-by-a-guy-who-hates-rolling-dice
 title: Let's Fix D&D (or, House Rules by a Guy who Hates Rolling Dice)
-wordpress_id: 12001
-categories:
-- Beyond the Frontier
-- Roleplaying Games
 tags:
 - D&amp;D
 - Dungeons and Dragons

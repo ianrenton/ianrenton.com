@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-09-30 12:37:26
 layout: post
 slug: vincent-thorne
 title: Vincent Thorne
-wordpress_id: 2041
-categories:
-- Characters
 tags:
 - Character
 - Maelstrom

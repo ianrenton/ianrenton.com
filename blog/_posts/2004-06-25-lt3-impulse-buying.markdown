@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-25 15:28:00
 layout: post
 slug: lt3-impulse-buying
 title: <3 Impulse-buying
-wordpress_id: 184
-categories:
-- Personal
 ---
 
 Logic3 Metal Dance Mat.  

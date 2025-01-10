@@ -3,7 +3,7 @@ layout: post
 title: "Resident Evil: Apocalypse"
 date: 2015-01-26 22:31
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian‭ “‬Devo‭” ‬Montgomery

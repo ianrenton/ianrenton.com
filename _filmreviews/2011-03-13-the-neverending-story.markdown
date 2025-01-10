@@ -4,9 +4,6 @@ date: 2011-03-13 22:12:37
 slug: the-neverending-story
 layout: post
 title: The Neverending Story
-wordpress_id: 11498
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

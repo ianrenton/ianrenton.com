@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-17 22:06:39
 layout: post
 slug: a-manifesto-for-open-democracy
 title: A Manifesto for Open Democracy
-wordpress_id: 869
-categories:
-- Politics
 tags:
 - ForWestminsterHubble
 - Manifesto

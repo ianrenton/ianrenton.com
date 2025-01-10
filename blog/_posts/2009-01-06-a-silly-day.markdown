@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-01-06 23:59:21
 layout: post
 slug: a-silly-day
 title: A Silly Day
-wordpress_id: 815
-categories:
-- Personal
 ---
 
 Today has been a silly day.  I present:

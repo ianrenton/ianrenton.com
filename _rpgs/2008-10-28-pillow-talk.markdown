@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:05:21
 layout: post
 slug: pillow-talk
 title: Pillow Talk
-wordpress_id: 1934
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

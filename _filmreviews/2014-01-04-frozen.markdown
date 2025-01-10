@@ -3,7 +3,7 @@ layout: post
 title: "Frozen"
 date: 2014-01-04 14:04
 comments: true
-categories: 
+
 ---
 
 Synopsis

@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-21 19:09:40
 layout: post
 slug: game-idea-spam-time
 title: Game Idea Spam Time!
-wordpress_id: 11301
-categories:
-- Games
-- Projects
-- Software
 tags:
 - Development
 - Games

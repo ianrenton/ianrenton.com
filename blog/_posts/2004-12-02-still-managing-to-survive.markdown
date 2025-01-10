@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-12-02 00:52:00
 layout: post
 slug: still-managing-to-survive
 title: Still Managing to Survive
-wordpress_id: 229
-categories:
-- Personal
 ---
 
 It looks like friends, fun and 13 hours of sleep let me recover from Monday's weirdness.  It's for the best.  I feel much better now, and nothing's really changed apart from that.  

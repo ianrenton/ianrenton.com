@@ -3,7 +3,7 @@ layout: post
 title: "All I Want for Christmas"
 date: 2014-12-15 17:08
 comments: true
-categories: 
+
 - Personal
 - Seasonal
 tags:

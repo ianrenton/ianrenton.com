@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-01-15 23:08:24
 layout: post
 slug: scene-iii-the-fleur-de-lys-of-battle
 title: Scene III - The Fleur de Lys of Battle
-wordpress_id: 11430
-categories:
-- Where Only Lilies Grow
 ---
 
 <div><p>This is an in-character game thread from <a href="/rpgs/nobilis-where-only-lilies-grow">Nobilis: Where Only Lilies Grow</a>. (This page is written by a number of people, and is not Creative Commons licenced.)</p></div>

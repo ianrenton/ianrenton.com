@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-01-20 22:09:14
 layout: post
 slug: behold-automouse-product-announce
 title: Behold, AutoMouse! [Product Announce]
-wordpress_id: 2652
-categories:
-- Hardware
 tags:
 - AutoMouse
 - Boredom

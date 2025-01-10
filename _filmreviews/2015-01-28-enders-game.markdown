@@ -3,7 +3,7 @@ layout: post
 title: "Ender's Game"
 date: 2014-11-15 22:27
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

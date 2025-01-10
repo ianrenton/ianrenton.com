@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 16:44:32
 layout: post
 slug: mister-chicken
 title: Mister Chicken
-wordpress_id: 688
-categories:
-- Characters
 tags:
 - Changeling
 - Character

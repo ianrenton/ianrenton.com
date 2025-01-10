@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-09-30 12:35:41
 layout: post
 slug: flowing-sands
 title: Flowing Sands
-wordpress_id: 2038
-categories:
-- Characters
 tags:
 - Character
 - Exalted

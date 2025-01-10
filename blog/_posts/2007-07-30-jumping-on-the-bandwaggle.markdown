@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-07-30 19:50:00
 layout: post
 slug: jumping-on-the-bandwaggle
 title: Jumping on the Bandwaggle
-wordpress_id: 590
-categories:
-- Personal
 ---
 
 Fear my INFPishness!  

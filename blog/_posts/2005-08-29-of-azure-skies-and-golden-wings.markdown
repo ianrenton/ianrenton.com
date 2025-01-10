@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-08-29 16:21:00
 layout: post
 slug: of-azure-skies-and-golden-wings
 title: Of Azure Skies and Golden Wings
-wordpress_id: 347
-categories:
-- Personal
 ---
 
 And so, at the end of a painful week, Friday passed in an instant, no more substantial than anything that I experience in that soulless and dreamless weekday world.  

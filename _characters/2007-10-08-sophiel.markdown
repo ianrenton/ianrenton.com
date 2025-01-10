@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:03:29
 layout: post
 slug: sophiel
 title: Sophiel
-wordpress_id: 702
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

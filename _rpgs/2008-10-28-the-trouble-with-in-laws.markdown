@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:35:35
 layout: post
 slug: the-trouble-with-in-laws
 title: The Trouble with In-Laws
-wordpress_id: 783
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

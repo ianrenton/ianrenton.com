@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-05-06 07:49:41
 layout: post
 slug: on-game-design-dj-rivals
 title: 'On Game Design: DJ Rivals'
-wordpress_id: 11639
-categories:
-- UX and Design
-- Games
 tags:
 - Android
 - Design

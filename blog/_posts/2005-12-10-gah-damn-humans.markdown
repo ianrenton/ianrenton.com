@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-12-10 05:08:00
 layout: post
 slug: gah-damn-humans
 title: Gah!  Damn Humans
-wordpress_id: 418
-categories:
-- Personal
 ---
 
 It would be a lie if I were to say that I was in control.  I guess, really, I never have been.  Not three years ago, not a year ago, and not now either.  I've finally realised what I've been mising over these past two weeks, a major factor in the confusion that abounds.  My emotional control.  I don't have any.  

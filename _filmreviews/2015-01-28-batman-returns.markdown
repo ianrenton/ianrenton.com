@@ -3,7 +3,7 @@ layout: post
 title: "Batman Returns"
 date: 2015-01-26 22:29
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian‭ “‬Devo‭” ‬Montgomery

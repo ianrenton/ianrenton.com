@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-21 00:29:00
 layout: post
 slug: shiny-things-and-everything-else
 title: Shiny Things and Everything Else
-wordpress_id: 204
-categories:
-- Personal
 ---
 
 First up: Shiny things!  I now have an extremely shiny new naginata.  I'm really happy! ^_^  I wish the weather would be good enough for me to take it outside, though...  

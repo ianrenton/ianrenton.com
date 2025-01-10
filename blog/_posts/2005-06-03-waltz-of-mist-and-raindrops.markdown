@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-06-03 17:36:00
 layout: post
 slug: waltz-of-mist-and-raindrops
 title: Waltz of Mist and Raindrops
-wordpress_id: 316
-categories:
-- Personal
 ---
 
 So, there were plans today.  Shopping, Shakeaway, going to see Sin City.  In the end, it was just Mark and I who left the house to head into town under steel-grey skies.  

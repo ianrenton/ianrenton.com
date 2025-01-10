@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-10-11 22:07:55
 layout: post
 slug: glitch-a-beautiful-something
 title: 'Glitch: A Beautiful Something'
-wordpress_id: 11823
-categories:
-- Games
 tags:
 - Game Design
 - Games

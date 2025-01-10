@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:55:35
 layout: post
 slug: rendezvous-in-wheat-down
 title: Rendezvous in Wheat Down
-wordpress_id: 797
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

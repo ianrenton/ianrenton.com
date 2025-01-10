@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-07-10 13:45:00
 layout: post
 slug: wandering-in-beauty
 title: Wandering in Beauty
-wordpress_id: 189
-categories:
-- Personal
 ---
 
 Today, I'm on an adventure.  Walking aimlessly between the sunny sky and the verdant land, marvelling at the beauty of the world...  Truly, there's no better feeling than this...  Although I'm alone, I'm still happy and peaceful...  This is the kind of place I always long to be, the kind of emotion I always yearn to feel.  

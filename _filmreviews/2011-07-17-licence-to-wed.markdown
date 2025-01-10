@@ -4,9 +4,6 @@ date: 2011-07-17 22:34:14
 slug: licence-to-wed
 layout: post
 title: Licence to Wed
-wordpress_id: 11742
-categories:
-- Film Reviews
 ---
 
 ## Synopsis

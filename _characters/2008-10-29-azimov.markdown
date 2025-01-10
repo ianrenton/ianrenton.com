@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-29 00:08:39
 layout: post
 slug: azimov
 title: Azimov
-wordpress_id: 1945
-categories:
-- Characters
 tags:
 - Changeling
 - Character

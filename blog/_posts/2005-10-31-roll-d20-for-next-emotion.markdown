@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-10-31 01:18:00
 layout: post
 slug: roll-d20-for-next-emotion
 title: Roll d20 for Next Emotion
-wordpress_id: 389
-categories:
-- Personal
 ---
 
 Sometimes I almost get to the point of resenting my blog's existence, and today is one of those days.  It's going to be impossible for me to describe everything that's happened in the past few days well enough to do the tirade of emotions justice.  What's more, LiveJournal has a "mood" box for each entry which is not by any means long enough to cover the intended content - which would be, in something approximating chronological order:  

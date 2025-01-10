@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-07-15 22:20:00
 layout: post
 slug: plastic-flowers
 title: Plastic Flowers
-wordpress_id: 776
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

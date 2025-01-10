@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-10-31 00:12:00
 layout: post
 slug: a-weird-day
 title: A Weird Day...
-wordpress_id: 209
-categories:
-- Personal
 ---
 
 Today, I had to get back to my parents' house for 10am.  I found this out at 3am.  Hurrah for four hours' sleep!  

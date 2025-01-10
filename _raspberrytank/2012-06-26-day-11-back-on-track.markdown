@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-26 21:52:27
 layout: post
 slug: tank-day-11-back-on-track
 title: 'Tank Day 11: Back on Track'
-wordpress_id: 12965
-categories:
-- Projects
-- Raspberry Tank
 tags:
 - Build
 - Build Diary

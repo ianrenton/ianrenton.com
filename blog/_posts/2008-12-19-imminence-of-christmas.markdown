@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-12-19 16:24:38
 layout: post
 slug: imminence-of-christmas
 title: Imminence of Christmas
-wordpress_id: 807
-categories:
-- Seasonal
 ---
 
 What the hell?  Suddenly, it's the 19th of December.  It's my last day at work before two weeks of Christmas holiday.  But where was the build-up?  Where the sense of the joyous release of the holiday season?

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-05-01 22:37:43
 layout: post
 slug: duke-cherry
 title: Duke Cherry
-wordpress_id: 772
-categories:
-- Characters
 tags:
 - Changeling
 - Character

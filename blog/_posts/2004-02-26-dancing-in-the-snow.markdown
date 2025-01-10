@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-26 22:09:00
 layout: post
 slug: dancing-in-the-snow
 title: Dancing in the Snow
-wordpress_id: 107
-categories:
-- Personal
 ---
 
 And today, things are finally looking up!  I got a lot more work done today than I'd normally do, and also it wooks like the Southampton Uni Anime Soc is finally getting underway, as we now have the required 25 members!  

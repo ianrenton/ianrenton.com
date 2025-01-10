@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-11-09 22:38:00
 layout: post
 slug: who-needs-a-music-collection
 title: Who needs a Music Collection?
-wordpress_id: 728
-categories:
-- Personal
 ---
 
 Since I got my eeePC, I've been experimenting with streaming music from the 'net rather than from the hard disk of my desktop.  I've come to the conclusion that my music collection has been somewhat surpassed by Last.fm.  

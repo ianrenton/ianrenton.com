@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-02-23 13:56:30
 layout: post
 slug: the-webs-syntax-problem
 title: The Web's Syntax Problem
-wordpress_id: 2756
-categories:
-- Software
-- Internet
 tags:
 - BBcode
 - Blogs

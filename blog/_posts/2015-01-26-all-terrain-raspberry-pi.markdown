@@ -3,7 +3,7 @@ layout: post
 title: "All-Terrain Raspberry Pi!"
 date: 2015-01-26 20:51
 comments: true
-categories: 
+
 - Projects
 - Hardware
 - Software

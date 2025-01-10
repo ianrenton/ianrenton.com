@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-03-02 16:31:14
 layout: post
 slug: a-beginners-guide-to-java-swing
 title: A Beginner's Guide to Java Swing
-wordpress_id: 12021
-categories:
-- Software
 tags:
 - cthulhu
 - GUI

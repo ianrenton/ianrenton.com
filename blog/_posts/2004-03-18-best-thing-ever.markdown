@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-03-18 01:57:00
 layout: post
 slug: best-thing-ever
 title: Best thing ever.
-wordpress_id: 119
-categories:
-- Personal
 ---
 
 .hack//Liminality.  It's so messed up, it's great!  

@@ -1,15 +1,10 @@
 ---
-author: Ian
 comments: true
 date: 2013-01-31 13:49:56
 layout: post
 slug: supermassive-car-planet
 title: Supermassive Car Planet
-wordpress_id: 13436
 latex: true
-categories:
-- Maths
-- Science
 tags:
 - Astrophysics
 - BBC

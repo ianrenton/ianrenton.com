@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-05-05 13:00:00
 layout: post
 slug: burning-dreams-fallen-worlds
 title: Burning Dreams, Fallen Worlds
-wordpress_id: 22
-categories:
-- Personal
 ---
 
 Our minds are nothing. Formless, timeless, existing within ourselves as a paradox, something more than the sum of its parts. They are "us", but without the physical components of ourselves, they cannot function. All is silent, untouchable, odourless, tasteless... dark...

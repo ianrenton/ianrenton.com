@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 16:48:22
 layout: post
 slug: abel
 title: Abel
-wordpress_id: 690
-categories:
-- Characters
 tags:
 - Changeling
 - Character

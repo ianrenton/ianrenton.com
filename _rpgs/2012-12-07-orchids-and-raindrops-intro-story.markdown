@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-12-07 22:59:03
 layout: post
 slug: orchids-and-raindrops-intro-story
 title: Orchids and Raindrops -- Intro Story
-wordpress_id: 12189
-categories:
-- Roleplaying Games
 tags:
 - Cyberpunk
 - Game Intro

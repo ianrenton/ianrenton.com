@@ -3,8 +3,6 @@ layout: post
 title: "Tank Day 28: First Person View"
 date: 2014-01-22 22:29
 comments: true
-categories:
-- Video
 ---
 
 On previous days, I've shown plenty of videos of the tank shot using a camera, but so far I haven't shown what it looks like on the screen of the laptop used to drive the tank. It looks a bit like this:

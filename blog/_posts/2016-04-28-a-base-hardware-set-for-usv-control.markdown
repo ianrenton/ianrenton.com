@@ -2,9 +2,6 @@
 layout: post
 title: "A Base Hardware Set for USV Control"
 date: 2016-04-28T20:54:29+01:00
-categories:
-- Projects
-- Hardware
 tags:
 - boat
 - USV

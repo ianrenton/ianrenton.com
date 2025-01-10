@@ -1,11 +1,9 @@
 ---
-author: Ian
 comments: false
 date: 2009-09-24 10:23:52
 layout: page
 slug: characters
 title: Characters
-wordpress_id: 899
 ---
 
 Although I no longer write short stories, my favourite characters from over the years still live in my head rent-free. Here are some of them:

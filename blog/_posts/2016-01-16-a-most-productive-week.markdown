@@ -2,8 +2,6 @@
 layout: post
 title: "A Most Productive Week"
 date: 2016-01-16T19:00:51+00:00
-categories:
-- personal
 tags:
 - decorating
 - home

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-03-08 03:35:00
 layout: post
 slug: a-seasons-slow-dawning
 title: A Season's Slow Dawning
-wordpress_id: 277
-categories:
-- Personal
 ---
 
 Somehow, I'm left with a sense of achievement despite not really having achieved anything today.  I think many things were achieved around me, and somehow I feel like I was involved.  But whatever the reality is, it certainly feels like the summertime of our hearts and minds is dawning again...  

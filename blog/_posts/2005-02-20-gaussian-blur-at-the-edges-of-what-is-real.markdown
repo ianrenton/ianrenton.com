@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-02-20 04:30:00
 layout: post
 slug: gaussian-blur-at-the-edges-of-what-is-real
 title: Gaussian Blur at the Edges of what is Real
-wordpress_id: 270
-categories:
-- Personal
 ---
 
 In character, there was a party.  Out of character, there was a party.  

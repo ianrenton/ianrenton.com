@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-09-16 15:48:00
 layout: post
 slug: new-computer-fun
 title: New computer fun!
-wordpress_id: 536
-categories:
-- Personal
 ---
 
 Righty, with poor old Suzaku now on its last legs and my parents declaring it a fire hazard, I'm putting together a new machine to pass the time until the Great DirectX 10 Splurge.  

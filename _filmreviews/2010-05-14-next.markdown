@@ -4,9 +4,6 @@ date: 2010-05-14 22:34:00
 slug: next
 layout: post
 title: Next
-wordpress_id: 3172
-categories:
-- Film Reviews
 tags:
 - Next
 - Nicholas Cage

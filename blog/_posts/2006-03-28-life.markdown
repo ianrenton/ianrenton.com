@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-03-28 00:47:00
 layout: post
 slug: life
 title: Life
-wordpress_id: 455
-categories:
-- Personal
 ---
 
 I have long suspected that real life is, in fact, an anime.  

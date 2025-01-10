@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-12-28 00:24:41
 layout: post
 slug: 2009-in-thoughts-words-and-pictures
 title: 2009 in Thoughts, Words and Pictures
-wordpress_id: 2553
-categories:
-- Personal
 tags:
 - '2009'
 - Memories

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-05-27 01:30:00
 layout: post
 slug: a-thousand-summer-days
 title: A Thousand Summer Days
-wordpress_id: 28
-categories:
-- Personal
 ---
 
 Ah... good day, good day.  

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-07 15:33:02
 layout: post
 slug: matthias
 title: Matthias
-wordpress_id: 684
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

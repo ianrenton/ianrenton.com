@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-04-09 07:06:26
 layout: post
 slug: on-the-subject-of-ian-tomlinson
 title: On the Subject of Ian Tomlinson
-wordpress_id: 841
-categories:
-- Politics
 ---
 
 _Beware, here lies ranty and possibly-controversial opinion._

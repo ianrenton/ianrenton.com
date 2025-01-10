@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-07-31 23:44:15
 layout: post
 slug: where-culture-comes-to-die
 title: Where Culture Comes to Die
-wordpress_id: 11775
-categories:
-- Food
 tags:
 - Culture
 - Food

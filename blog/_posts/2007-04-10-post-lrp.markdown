@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-04-10 11:41:00
 layout: post
 slug: post-lrp
 title: Post-LRP
-wordpress_id: 569
-categories:
-- Personal
 ---
 
 Yay!  Another great Maelstrom event.  And now, another day of weirdness and finding it strange talking to people that are not part of the strange shared hallucination.  

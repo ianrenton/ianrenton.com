@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-07-28 19:20:00
 layout: post
 slug: smiling-crying-and-dreaming
 title: Smiling, Crying and Dreaming
-wordpress_id: 334
-categories:
-- Personal
 ---
 
 A warning - each paragraph gets steadily geekier and more obscure than the last! =p  

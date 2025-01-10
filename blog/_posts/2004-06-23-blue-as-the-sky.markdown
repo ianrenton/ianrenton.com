@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-06-23 21:56:00
 layout: post
 slug: blue-as-the-sky
 title: Blue as the Sky
-wordpress_id: 182
-categories:
-- Personal
 ---
 
 Well, it's been a week and a half since I left Southampton, and things are going... oddly.  I've spent a lot of time at Adam's (watching the England games and playing IIDX) and Dom's (playing FFX-2 and Grandia 2, plus chatting about random stuff).  Also visited Andy's house once for more IIDX fun, which was awesome.  

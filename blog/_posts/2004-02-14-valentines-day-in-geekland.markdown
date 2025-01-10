@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-02-14 23:41:00
 layout: post
 slug: valentines-day-in-geekland
 title: Valentine's Day in Geekland
-wordpress_id: 94
-categories:
-- Personal
 ---
 
 So, did you all have a nice Valentine's day?  And, really, does it matter?  

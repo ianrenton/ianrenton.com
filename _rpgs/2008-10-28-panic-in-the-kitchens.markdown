@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 23:06:10
 layout: post
 slug: panic-in-the-kitchens
 title: Panic in the Kitchens!
-wordpress_id: 1935
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies

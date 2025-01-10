@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-12-26 21:48:39
 layout: post
 slug: of-lamb-pork-duck-gammon-and-turkey
 title: Of Lamb, Pork, Duck, Gammon and Turkey
-wordpress_id: 811
-categories:
-- Personal
-- Seasonal
 ---
 
 This week has been a good one for food.  Thanks to non-traditional (or at least not traditionally British) Christmas dinners, I've had five different meats over the last three days, if you'll indulge my reference to pork loin and gammon as different things.

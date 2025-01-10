@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-02-26 23:27:21
 layout: post
 slug: thought-for-the-day-watching-pots
 title: 'Thought for the Day: Watching Pots'
-wordpress_id: 825
-categories:
-- Personal
 ---
 
 "A watched pot never boils."

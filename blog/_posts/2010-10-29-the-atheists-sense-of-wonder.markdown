@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-10-29 10:34:52
 layout: post
 slug: the-atheists-sense-of-wonder
 title: The Atheist's Sense of Wonder
-wordpress_id: 11314
-categories:
-- Personal
-- Science
-- Religion
 tags:
 - Atheism
 - Biology

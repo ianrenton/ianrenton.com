@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-08-19 15:16:53
 layout: post
 slug: back-through-the-looking-glass
 title: Back Through the Looking-Glass
-wordpress_id: 871
-categories:
-- Short Stories
 tags:
 - Fairies
 - Fairyland

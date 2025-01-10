@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-09-23 11:32:00
 layout: post
 slug: grey-skies-of-forever
 title: Grey Skies of Forever
-wordpress_id: 361
-categories:
-- Personal
 ---
 
 The wind blows coldly from grey horizon to grey horizon, and the neverending threat of rain looms over the sky.  The kind of weather, the kind of day that saps the spirits and clenches its tight and dreary grasp around our hearts.  Summer is over, autumn has come with its windswept brown leaves and long dark nights.  It feels as if all the hope has been washed out of the world, as if the only hope left is in those fragile hearts and minds that even now the season intensifies its grip on.  

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2011-04-15 08:29:18
 layout: post
 slug: the-platform-blues
 title: The Platform Blues
-wordpress_id: 11615
-categories:
-- Seasonal
-- Travel
 tags:
 - Commuting
 - Delays

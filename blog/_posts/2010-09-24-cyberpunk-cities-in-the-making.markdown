@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2010-09-24 07:37:58
 layout: post
 slug: cyberpunk-cities-in-the-making
 title: Cyberpunk Cities in the Making
-wordpress_id: 11286
-categories:
-- Travel
 tags:
 - Bahrain
 - City

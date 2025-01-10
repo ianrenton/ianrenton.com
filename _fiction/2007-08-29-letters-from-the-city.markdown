@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:50:03
 layout: post
 slug: letters-from-the-city
 title: Letters from the City
-wordpress_id: 624
-categories:
-- Short Stories
 tags:
 - Fantasy
 - Fiction

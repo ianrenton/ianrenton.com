@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2009-10-13 16:16:41
 layout: post
 slug: letter-to-ofcom-drm-in-next-gen-bbc-tv-signals
 title: 'E-mail to Ofcom: DRM in Next-Gen BBC TV Signals'
-wordpress_id: 2137
-categories:
-- Politics
 tags:
 - Activism
 - ForWestminsterHubble

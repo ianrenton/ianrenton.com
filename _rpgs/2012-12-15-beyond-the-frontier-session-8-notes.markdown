@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-12-15 22:48:48
 layout: post
 slug: beyond-the-frontier-session-8-notes
 title: Beyond the Frontier -- Session 8 Notes
-wordpress_id: 12181
-categories:
-- Beyond the Frontier
 ---
 
 THROUGH THE PORTAL

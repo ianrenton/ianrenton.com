@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 11:04:35
 layout: post
 slug: theinus
 title: Theinus
-wordpress_id: 704
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

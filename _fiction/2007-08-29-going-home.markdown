@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:30:57
 layout: post
 slug: going-home
 title: Going Home
-wordpress_id: 612
-categories:
-- Short Stories
 tags:
 - Depressing
 - Fantasy

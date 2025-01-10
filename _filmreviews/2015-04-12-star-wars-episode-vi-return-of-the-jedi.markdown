@@ -3,7 +3,7 @@ layout: post
 title: "Star Wars Episode VI: Return of the Jedi"
 date: 2015-04-12 10:06
 comments: true
-categories: 
+
 ---
 
 > A guest review by Ian "Devo" Montgomery

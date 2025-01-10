@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 16:23:49
 layout: post
 slug: reasoning-behind-the-new-system
 title: Reasoning Behind the New System
-wordpress_id: 716
-categories:
-- Dreaming Awake RPG
 tags:
 - Game
 - Mechanics

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-29 00:33:55
 layout: post
 slug: katrinas-legacy
 title: Katrina's Legacy
-wordpress_id: 615
-categories:
-- Short Stories
 tags:
 - Depressing
 - Fiction

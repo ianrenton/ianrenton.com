@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-08-25 09:41:26
 layout: post
 slug: catching-the-bug
 title: Catching the Bug
-wordpress_id: 605
-categories:
-- Short Stories
 tags:
 - Fiction
 - Story

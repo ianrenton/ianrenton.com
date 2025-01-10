@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-06-15 01:51:00
 layout: post
 slug: clockwork-winding-down
 title: Clockwork Winding Down
-wordpress_id: 504
-categories:
-- Personal
 ---
 
 Today was fun, pure and simple.  No problems in life, no drama to contend with, no worries about the future, just fun from start to finish.  

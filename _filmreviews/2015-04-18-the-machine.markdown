@@ -3,7 +3,7 @@ layout: post
 title: "The Machine"
 date: 2015-04-18 21:17
 comments: true
-categories: 
+
 ---
 
 ## Synopsis

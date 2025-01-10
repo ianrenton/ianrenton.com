@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-10-15 20:02:26
 layout: post
 slug: beyond-the-frontier-session-4-notes
 title: Beyond the Frontier -- Session 4 Notes
-wordpress_id: 12140
-categories:
-- Beyond the Frontier
 ---
 
 Run time: 2h 30m – more plot was originally planned for this session (with a more satisfying point to break at the end), but the initial planning stage took 1h20m instead of the 30m I expected!<br/><br/>

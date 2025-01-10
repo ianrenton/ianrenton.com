@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-11-06 00:12:00
 layout: post
 slug: dandelion-constellation
 title: Dandelion Constellation
-wordpress_id: 549
-categories:
-- Personal
 ---
 
 <i>Two of Witches  

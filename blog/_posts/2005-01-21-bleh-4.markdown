@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2005-01-21 01:33:00
 layout: post
 slug: bleh-4
 title: Bleh
-wordpress_id: 259
-categories:
-- Personal
 ---
 
 One and a half problem sheets down, one and a half to go, due in tomorrow.  Lab report progress: 0%, due in 2pm tomorrow.  Viva at 4pm tomorrow.  Doom.  

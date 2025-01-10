@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2006-01-14 15:15:00
 layout: post
 slug: ouch
 title: Ouch
-wordpress_id: 426
-categories:
-- Personal
 ---
 
 Headache OF THE YEAR desu~.  

@@ -3,7 +3,7 @@ layout: post
 title: "Quad: Camera Fit &amp; Test"
 date: 2014-06-16 20:59:29 +0100
 comments: true
-categories: 
+
 ---
 
 RPi Camera attached to mounting bracket:

@@ -1,14 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-07-24 06:45:17
 layout: post
 slug: the-problem-with-phone-upgrades
 title: The Problem with Phone Upgrades
-wordpress_id: 13159
-categories:
-- Personal
-- Hardware
 tags:
 - Mobile Phones
 - Phones

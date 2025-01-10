@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-05-05 20:37:01
 layout: post
 slug: goddamnit-php-episode-587
 title: '"Goddamnit, PHP", Episode 587'
-wordpress_id: 12748
-categories:
-- Internet
-- Projects
-- Software
 tags:
 - Accuracy
 - Floating Point

@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2004-05-23 02:56:00
 layout: post
 slug: leaving
 title: Leaving...
-wordpress_id: 165
-categories:
-- Personal
 ---
 
 *"Hello, little star  <br/>

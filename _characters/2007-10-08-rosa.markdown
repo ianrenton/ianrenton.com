@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2007-10-08 10:43:27
 layout: post
 slug: rosa
 title: Rosa
-wordpress_id: 692
-categories:
-- Characters
 tags:
 - Character
 - Dreaming Awake

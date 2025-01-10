@@ -4,9 +4,6 @@ date: 2010-12-21 22:37:34
 slug: dragonball-evolution
 layout: post
 title: Dragonball Evolution
-wordpress_id: 11375
-categories:
-- Film Reviews
 tags:
 - Anime
 - Dragonball

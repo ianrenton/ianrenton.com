@@ -1,15 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2012-06-11 21:23:39
 layout: post
 slug: tank-day-5-cracking-the-code
 title: 'Tank Day 5: Cracking the Code'
-wordpress_id: 12914
-categories:
-- Projects
-- Raspberry Tank
-- Software
 tags:
 - Build
 - Build Diary

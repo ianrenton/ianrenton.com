@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2003-01-10 23:00:00
 layout: post
 slug: pershore-bloody-pershore
 title: Pershore, Bloody Pershore
-wordpress_id: 12
-categories:
-- Personal
 ---
 
 Okay, it ain't funny any more. I've just spent a week doing part two of the oh-so-wonderful business training course at Pershore College.  

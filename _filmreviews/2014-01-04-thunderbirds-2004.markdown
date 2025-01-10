@@ -3,7 +3,7 @@ layout: post
 title: "Thunderbirds (2004)"
 date: 2014-01-04 14:04
 comments: true
-categories: 
+
 ---
 
 > A guest review by [@danfoxdavies](http://twitter.com/danfoxdavies).

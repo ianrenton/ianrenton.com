@@ -1,13 +1,9 @@
 ---
-author: Ian
 comments: true
 date: 2008-10-28 22:57:18
 layout: post
 slug: dreams-of-the-black-tower
 title: Dreams of the Black Tower
-wordpress_id: 799
-categories:
-- In Love and War
 tags:
 - Changeling
 - Fairies
