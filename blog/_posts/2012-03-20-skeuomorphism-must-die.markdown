@@ -23,7 +23,7 @@ There have been a [lot](http://appadvice.com/appnn/2012/03/quickadvice-iphoto) [
 
 [Skeuomorphism](https://en.wikipedia.org/wiki/Skeuomorphism) is defined as "[producing] a derivative object that retains ornamental design cues to a structure that was necessary in the original", which in software terms usually refers to making a software interface look like a real-world object.  For example, the Apple applications that have recently raised designers' ire:
 
-[![OSX Lion iCal](/img/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily1.jpg)](/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily.jpg) [![iOS 5 iPhoto](/blog/2012/03/IMG_53781.jpeg)](/blog/2012/03/IMG_5378.jpeg)
+[![OSX Lion iCal](/img/img/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily1.jpg)](/blog/2012/03/264182-apple-mac-os-x-lion-10-7-calendar-daily.jpg) [![iOS 5 iPhoto](/blog/2012/03/IMG_53781.jpeg)](/img/blog/2012/03/IMG_5378.jpeg)
 
 Skeuomorphism in software can be useful if (a) the concept the designer is trying to convey is difficult to get across without resorting to real-world objects, and (b) the skeuomorphic interface actually improves things.
 

@@ -21,7 +21,7 @@ I'd like to take this opportunity to refute that claim by presenting a set of si
 
 Amid thousands of fleeing people, not only does the fire escape become an exit route that can be used without arousing suspicion, but the Dread Guardians of the Store will be forced to flee also. This gives you the perfect opportunity to make your escape and flee into the night, never to return.
 
-![](/blog/2015/ikea-hammer.gif){: .center}
+![](/img/blog/2015/ikea-hammer.gif){: .center}
 
 > Break glass with IKEA for Mice&#8482; sledgehammer.
 

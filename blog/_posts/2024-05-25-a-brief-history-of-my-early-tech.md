@@ -62,7 +62,7 @@ This one is a bit more of a mystery to me. My vague memory of owning something l
 
 ## Psion Organiser II
 
-![Much chunkier 2-line device](/blog/2024/org7.jpeg){: .center}
+![Much chunkier 2-line device](/img/blog/2024/org7.jpeg){: .center}
 *Psion Organiser II [(source)](http://www.breakintoprogram.co.uk/my-collection/psion-organiser-ii){: .sourcelink}*
 
 My vague recollection is that some family member, maybe my aunt, got me this. It's older than even the earliest electronic organisers at the top of the list, dating back to 1986, and it showed in its simple display and A-Z keyboard! It was programmable though, and I spent a long time playing with simple EPOC programs, which must have been frustrating on a 2x16 character display.
@@ -92,7 +92,7 @@ My first phone with internet access, from the days where "WAP" had nothing to do
 
 ## Motorola V100
 
-![Odd semi-transparent blue clamshell device with a full keyboard and LCD display](/blog/2024/org13.jpeg){: .center}
+![Odd semi-transparent blue clamshell device with a full keyboard and LCD display](/img/blog/2024/org13.jpeg){: .center}
 *Motorola V100 [(source)](https://www.mobilephonemuseum.com/phone-detail/vbox-v100){: .sourcelink}*
 
 Is it weird that the thing I remember most about this device was the smell? It never seemed to shake its "new rubber" whiff. The other thing I remember about this is reading about the September 11th attack on it, again via WAP at glorious GSM mobile speeds. It was an odd device, more organiser than phone, though you could make and receive calls by plugging in a headset.

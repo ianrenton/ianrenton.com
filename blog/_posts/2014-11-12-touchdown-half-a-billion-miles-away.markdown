@@ -15,7 +15,7 @@ tags:
 
 On March 2nd 2004, without great fanfare, an Ariane 5 rocket blasted off into orbit carrying a payload designed by the European Space Agency to investigate a nearby comet. Its name was *[Rosetta](http://www.esa.int/rosetta)*, and it set off on one of the most complex gravitational trick-shots we have ever attempted.
 
-![Rosetta's gravitational slingshots](/blog/2014/11/rosetta-mission.gif){: .center}
+![Rosetta's gravitational slingshots](/img/blog/2014/11/rosetta-mission.gif){: .center}
 
 Ten years later, Rosetta finally arrived at comet [67P/Churyumov-Gerasimenko](http://en.wikipedia.org/wiki/67P/Churyumov%E2%80%93Gerasimenko) earlier this year. An impressive enough feat by itself, the orbiter is already sending back useful scientific data on the structure and composition of the comet. The world was duly impressed, in a reserved sort of way.
 

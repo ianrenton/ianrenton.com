@@ -12,7 +12,7 @@ tags:
 
 Wait, "Last"?
 
-![Mad Max "That's Bait" gif](/blog/2024/bait.gif){: .center}
+![Mad Max "That's Bait" gif](/img/blog/2024/bait.gif){: .center}
 
 Well the truth is, it *might* be my last, but definitely not because we had a bad time. I'll come back to that in a minute, but first, if you spotted a couple of weirdos on a hilltop with a big antenna yesterday, this is what was going on.
 

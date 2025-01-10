@@ -20,7 +20,7 @@ To my knowledge no game since has implemented something like this &mdash; probab
 
 I think we called the skill system "Chromatic", or maybe "Prismatic". Something like that. It was based on the Hue, Saturation and Luminance method of specifying colours on a video screen.
 
-![](/blog/2015/editcolors.gif){: .center}
+![](/img/blog/2015/editcolors.gif){: .center}
 
 ## Mechanics
 

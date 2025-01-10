@@ -73,25 +73,25 @@ It's nice to be in there in case it picks up and becomes the next Social Network
 
 ## 7. DeviantArt
 
-[![](/blog/2011/07/deviantart.jpeg)](/blog/2011/07/deviantart.jpeg)Once upon a time, I posted stories here with regularity.  Now, it's a place I visit daily on the off-chance that one of the couple of artists whose pictures I enjoy has posted something.  Usually, they havent.  This is what RSS was made for.
+[![](/img/blog/2011/07/deviantart.jpeg)](/img/blog/2011/07/deviantart.jpeg)Once upon a time, I posted stories here with regularity.  Now, it's a place I visit daily on the off-chance that one of the couple of artists whose pictures I enjoy has posted something.  Usually, they havent.  This is what RSS was made for.
 
 **Verdict: Yes.**
 
 ## 8. Flickr
 
-[![](/blog/2011/07/flickr.jpeg)](/blog/2011/07/flickr.jpeg)Though firmly an amateur, I'm proud of my photos and Flickr is where I choose to show them off.  It's also where family members abroad go to see what we're up to, and it's my insurance against a hard disk crash erasing the bits and bytes of our memories.  Just as with GMail, there's a strong temptation to move my pictures to my own server, and run my own image gallery -- but Flickr just does it _better_.
+[![](/img/blog/2011/07/flickr.jpeg)](/img/blog/2011/07/flickr.jpeg)Though firmly an amateur, I'm proud of my photos and Flickr is where I choose to show them off.  It's also where family members abroad go to see what we're up to, and it's my insurance against a hard disk crash erasing the bits and bytes of our memories.  Just as with GMail, there's a strong temptation to move my pictures to my own server, and run my own image gallery -- but Flickr just does it _better_.
 
 **Verdict: No.**
 
 ## 9. Last.fm
 
-[![](/blog/2011/07/lastfm.jpeg)](/blog/2011/07/lastfm.jpeg)I've been a keen scrobbler since the days when people knew what "scrobble" meant, and it's so easy to set up that I've always set it up on any new computer, operating system or media player.  But _why_?  I know what my taste in music is, and I have little interest in my own listening history.  My friends surely have even less.  The only reason I can see for continuing is that I'm proud of the amount of data I've generated already -- and that's no reason at all for carrying on.
+[![](/img/blog/2011/07/lastfm.jpeg)](/img/blog/2011/07/lastfm.jpeg)I've been a keen scrobbler since the days when people knew what "scrobble" meant, and it's so easy to set up that I've always set it up on any new computer, operating system or media player.  But _why_?  I know what my taste in music is, and I have little interest in my own listening history.  My friends surely have even less.  The only reason I can see for continuing is that I'm proud of the amount of data I've generated already -- and that's no reason at all for carrying on.
 
 **Verdict: Yes.**
 
 ## 10. Foursquare
 
-[![](/blog/2011/07/foursquare.jpeg)](/blog/2011/07/foursquare.jpeg)In using Foursquare, I may be just as much a victim of the [sunk cost fallacy](http://www.skepdic.com/sunkcost.html) as I was in all those Facebook games.  I've now been "playing" for so long that I've stopped caring about beating my friends; stopped caring how far away the next [wall-chart sticker](/blog/the-sticker-economy) might be.  Checking in is just _something I do_ when I arrive at a place.  I'm now essentially getting nothing out of Foursquare, even though I'm still reliably giving the company and its affiliates a complete history of where I go and where I shop.
+[![](/img/blog/2011/07/foursquare.jpeg)](/img/blog/2011/07/foursquare.jpeg)In using Foursquare, I may be just as much a victim of the [sunk cost fallacy](http://www.skepdic.com/sunkcost.html) as I was in all those Facebook games.  I've now been "playing" for so long that I've stopped caring about beating my friends; stopped caring how far away the next [wall-chart sticker](/blog/the-sticker-economy) might be.  Checking in is just _something I do_ when I arrive at a place.  I'm now essentially getting nothing out of Foursquare, even though I'm still reliably giving the company and its affiliates a complete history of where I go and where I shop.
 
 **Verdict: Hell yes, ditch this yesterday.**
 

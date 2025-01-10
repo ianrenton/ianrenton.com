@@ -23,7 +23,7 @@ tags:
 
 I took my first faltering steps "online" in the mid-90s, courtesy of [Trumpet Winsock](http://www.trumpet.com.au/index.php/downloads.html) under Windows 3.1, followed by AOL's UK Games Chat, doubtless a gateway drug to the life of Usenet and IRC that followed; hoping and pleading that my parents wouldn't pick up the phone and hear the telltale 14.4 kilobit buzzing that gave away my illicit internet usage.
 
-![Trumpet Winsock](/blog/2011/11/winsock-300x185.gif){: .right}
+![Trumpet Winsock](/img/blog/2011/11/winsock-300x185.gif){: .right}
 
 Isn't "going online" such a strange notion now, when "offline" is only achieved by bloggers camping in the woods as a publicity stunt; a week without the internet in exchange for their fifteen seconds of internet fame?
 

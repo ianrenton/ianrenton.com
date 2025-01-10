@@ -17,7 +17,7 @@ Whilst I've had fun setting up some "normal" automations, I've had more fun imag
 
 So the concept is this: can we use Home Assistant to convince people the WiFi is haunted?
 
-![A Lenovo Smart Clock with a display fault that makes the screen flicker](/blog/2022/hauntedclock.gif){: .center}
+![A Lenovo Smart Clock with a display fault that makes the screen flicker](/img/blog/2022/hauntedclock.gif){: .center}
 *Pretty sure this smart clock thing is already haunted.*
 
 Halloween is the natural choice for pranks&mdash;it would be a matter of minutes to set up a timed sequence of events that sent guests mysterious messages, then started flashing the lights, played something spooky through all the smart speakers, Wake-on-LAN the entire network, get the TV to play a horror film...
