@@ -1,5 +1,5 @@
 _id: d1a819c0-a92d-11ec-beb1-93f1c4752feb
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Steve
 email: 620ab42adee5d12d226431f050694888
 message: "Hi, just moved from Windows to Linux on my old Linux 1010B, first installed zorin os (without sound and keyboard issues), then tried Ubuntu 20.0.4 (as I could not find the 20.0.3 iso online) this of course had no sound, but worked fine. \r\n\r\nI eventually found a copy of 20.0.3, this works great with sound when I select 'try Ubuntu' but I get the following error when trying to install it 'The grub-efi-la32' package failed to install into /target/without the GRUB boot loader, the installed system will not boot.' \r\n\r\nI have tried to install again this time with the WiFi connected and selected the option to update software, this updates the kernal and installs OK, but has the no sound issue, I have tried again using 'try Ubuntu' then running the script  provided under 'Installing 32-bit Grub after a Botched Install'  rebooting without the usb but still goes to grub rescue.\r\n\r\nDo you have any pointers that could help"

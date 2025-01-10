@@ -1,5 +1,5 @@
 _id: 2d621e10-2079-11ed-b70d-0fbed8efa668
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "It's possible that there's some difference between your \"MMC 032GE4\" and my \"MMC 032G72\" but I doubt it would be significant enough to prevent booting Linux.\r\n\r\nAfter the partitioning options during the setup, can you go back into the same options again and check the partitions it's trying to create? If there's no EFI partition there, you could try to create one manually based on my partition map above, if you can find your way around the interface.\r\n\r\nRegarding your \"permission denied\", two issues:\r\n\r\n1. You will need to be root to do this, so use `sudo`\r\n2. Creating files and folders manually inside `/dev/` is almost certainly not a good idea! If you are creating a mount point for a disk, you would generally want that to be in `/mnt/` or `/media/` instead."

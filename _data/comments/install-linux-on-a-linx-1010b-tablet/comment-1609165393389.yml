@@ -1,5 +1,5 @@
 _id: 37b78970-4918-11eb-a60c-39e00ac4b5b2
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Andreas
 email: 815f59a0d774fc58a439a7eb3e8e2696
 message: "Oh wait I fixed it! I ran the loop again for installing the 32-efi in terminal and then sudo update-grub worked! Now everything is cool!\r\n\r\nI want to thank you very much for your help and support Ian! Maybe one time I will get to buy you a pint!\r\n\r\nAndreas"

@@ -1,5 +1,5 @@
 _id: df8728d0-a944-11ec-96de-0380dd8bcdb3
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "It's strange that the 20.04.3 install doesn't set up grub properly, that's normally been the most reliable version!\r\n\r\nThe last part of your comment isn't 100% clear to me, so are you doing:\r\n1. Install 20.04.3 (without updates from the internet)\r\n2. Getting to the point where you get the `grub-efi-ia32` error\r\n3. Finishing the install and rebooting into \"grub rescue\"\r\n4. Booting from USB into \"Try Ubuntu\" again\r\n5. Running the script from \"Installing 32-bit Grub after a Botched Install\"\r\n6. Rebooting and getting \"grub rescue\" again?\r\n\r\nIf so, it's unusual that it fails, I would have thought that sequence should work. Do any of the commands in the script show errors when you run them?"

@@ -1,5 +1,5 @@
 _id: 79362ce0-953d-11ec-b54c-33ca50383ec8
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "Probably! When I get the chance I will see if I can cause and fix the same problem on the 1010B which may give you a hint on how to solve it on your 1020.\r\n\r\nWhen yours is incorrectly rotated, does the digitiser match the screen (i.e. touching the screen moves the cursor to the touched point as you expect) or are they mismatched (touching the top of the screen moves the cursor to the bottom)?\r\n\r\nIn the mean time don’t forget there is an orientation lock button in Gnome so you can always tilt the tablet away from you, lock the orientation, then tilt it back."

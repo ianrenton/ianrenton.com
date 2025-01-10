@@ -1,5 +1,5 @@
 _id: 9b4b6e80-9195-11ed-b802-ab266bbff49d
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Alfonso E.M.
 email: b6cfe453864e76e24028c5a1bcc4439b
 message: "Congratulations for this awesome guide, Ian!\r\n\r\nI got stuck for a while trying to boot into BIOS. No matter what combo of keys I pressed, the tablet went right into Windows 8 again.\r\n\r\nFinally I found the \"Power options\" in configuration. Some reboot from different media options showed up and finally I was able to boot from an usb stick."

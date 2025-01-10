@@ -1,5 +1,5 @@
 _id: f04dc3d0-93d8-11ec-ba47-ef5d5ac0c7a0
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Andyzot
 email: 7692f38e5f6bf3bf7932d0f2d25a5388
 message: "Hi, this is a great tutorial, thank you.\r\nI've successfully installed this on my 1020 and it works much smoother with Wayland.\r\nI do however have one issue (of course :)) the screen rotation works the wrong way around. When connected to the keyboard it's fine but if I rotate the device to the right, so the camera is at the top, the screen is upside down and vice versa.\r\nAny advice would be appreciated."

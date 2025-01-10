@@ -1,5 +1,5 @@
 _id: e749a7d0-7a02-11ec-835b-7feceebb23c9
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Damien
 email: ''
 message: "For me at least, (using LinuxMint 20.3), sound is working fine up to and including kernel 5.11, but the Ubuntu 5.13 and 5.14 kernels seem to break bytcr-rt5640 built-in audio, seeing it as plain rt5640 AFAICT.\r\nThis may mean our beloved Linx's sound may be broken in future releases.\r\nBluetooth etc. audio are fine still.\r\nI've filed a bug at https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410 so if you can see this behaviour too, please up the bug-heat on it by clicking that it affects you too."

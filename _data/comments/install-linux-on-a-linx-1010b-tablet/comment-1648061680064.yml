@@ -1,5 +1,5 @@
 _id: b12754a0-aada-11ec-b00a-ad3a260b43f8
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Steve
 email: 141999e1685fd65ea3101de27e9816a1
 message: "Apologies in advance, I am totally new to linux, OK, so a couple of days trying to get my head around installing Ubuntu with sound working. I first tried installing 22.04,then ran the script, no joy, when I enter the Boot Option Menu the options are Ubuntu, Ubuntu, Internal EFI Shell, clicking on either Ubuntu options just tries to boot, does not enter the grub menu.\r\n\r\nI then installed 20.0.3 and same result. So I tried 20.0.3 again and ran the updates when installing, this works (but no sound as the kernel is 5.13.0-37) however the Boot Option Menu when clicking on Ubnutu loads the Grub menu, so I can choose to boot from 5.11.0.27 and hey presto we have sound!\r\n\r\nMy question is how can I uninstall 5.13.0-37 kernel or just set grub to boot from 5.11.0.27?"

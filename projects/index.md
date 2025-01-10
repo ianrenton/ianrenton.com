@@ -216,7 +216,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Linux on Linx 1010B Tablet"
-  	url="/guides/install-linux-on-a-linx-1010b-tablet"
+  	url="/projects/linux-on-linx-1010b-tablet"
   	image="/img/index/linx.jpg"
   	image-alt="A Linx 1010B tablet running Ubuntu"
   	description="A guide on how to install Linux, plus a few bonus operating systems, on the low-cost Linx 1010B Windows tablet."

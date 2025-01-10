@@ -1,5 +1,5 @@
 _id: ee7ce500-3fd1-11ec-a4d6-9b63f937458a
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "Hi Eli, I have just tried a fresh install of Ubuntu 20.04.3 and I'm afraid I can't replicate your problem. The screen orientation works correctly for me. It's possible you could have a faulty unit, did the orientation work correctly on Windows?\r\n\r\nGNOME does have an orientation lock option, so to use it in portrait you could work around this by holding it one way, locking orientation then turning it round.\r\n\r\nRegarding the camera light, I don't believe the Linx 1010B has one? Are you referring to the red LED that comes on (admittedly near the camera) when the unit is charging?"

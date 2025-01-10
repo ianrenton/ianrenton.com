@@ -1,5 +1,5 @@
 _id: 208cf720-1dfe-11eb-a1ab-f9361f4f59a1
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: marco
 email: ''
 message: "Just thought I'd add... I've just successfully installed Kubuntu (KDE desktop) first time using these instructions, which are excellent. Initial findings...\r\nTouchpad is fine and is in sync with (manual) screen rotation.\r\nTouch screen is fine and is in sync with default portrait mode; it goes out of sync after rotation to landscape.\r\nAll other features listed at the very top also work fine.\r\nI've run a Muon (package manager) update - all good.\r\nI've set the 'app dashboard' as my alternative launcher - all good.\r\nThanks to all for a really good guide."

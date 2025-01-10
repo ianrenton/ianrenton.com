@@ -1,5 +1,5 @@
 _id: 75962880-f95a-11eb-a8c8-8949eff5395a
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Smatt
 email: e59325e76f76b9c3731a04639e60bed4
 message: "Hi Ian, firstly thanks for taking the time to experiment and post your results and a great how-to.\r\nI have spent the last week messing around with my old Linx1010b using your guide. I have successfully installed Ubuntu 20.04.2 and then upgraded it to 21.04.  It seems fine just weirdly need to detach the keyboard give the screen a flip from portrait to landscape so that it recognises the change in orientation then reconnect the keyboard. Other than that it seems fine.\r\n\r\nAlso I have reinstalled Windows 10 (version 21h1 or whatever the latest is as per 08/08/2021.) I have the Win10 drivers which were available for a while from Linx. If you go straight to the device manager in control panel after install and use the Linx drivers against the unrecognised devices the Linx1010b springs back into life as if it just came out the box! Everything works perfectly the cameras, accelerometer etc\r\n\r\nWord of warning DO NOT install the drivers from the optional Windows updates. They really mess things up!"

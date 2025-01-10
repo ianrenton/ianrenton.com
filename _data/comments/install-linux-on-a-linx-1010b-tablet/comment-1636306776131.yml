@@ -1,5 +1,5 @@
 _id: ac6437c0-3ff1-11ec-ada1-fbf7fc1b0492
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "There is almost certainly a way to update just the kernel, but I wouldn't recommend it&mdash;if you want to stay on Ubuntu 20.04, it is an LTS version so it would be best to wait until the developers mark it as an update.\r\n\r\nMy recommendation would be if you want to try the newer kernel, update the whole of Ubuntu to a newer version that uses that kernel. The command for that is `sudo apt-get dist-upgrade`."

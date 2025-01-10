@@ -1,5 +1,5 @@
 _id: 3d30aa40-eecc-11ea-8662-1d8a904de404
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "I'm now on a fresh install of Ubuntu 20.04.1, and can confirm everything's working (apart from the cameras, which is standard). I can still boot from USB.\r\n\r\nRob/Marc0, just to double check (if you remember after all this time), when you were trying to boot from USB and your drive didn't appear, did you definitely remember to add the extra ```bootia32.efi file to the USB disk?\r\n\r\nPaul, I don't seem to have any additional keyboard problems in Ubuntu apart from the occasional disconnection which I had in Windows too, so I think it may be a slightly dodgy connector rather than a software problem."

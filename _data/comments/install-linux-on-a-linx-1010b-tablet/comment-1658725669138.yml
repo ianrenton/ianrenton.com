@@ -1,5 +1,5 @@
 _id: b9d48420-0bd7-11ed-91bc-4358b9e3354b
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "It looks like the OS is installing then, it's just setting up GRUB that's not working properly. I'm not sure why, but it does seem like others online have had the same problem.\r\n\r\nCould you try following the instructions in [this StackOverflow answer](https://stackoverflow.com/a/60861162)?\r\n\r\nIt essentially instructs you to install Fedora without a bootloader, then run some commands in order to do the bootloader install manually.\r\n\r\nYou will need to tailor it a bit - instead of `/dev/sda1` and `/dev/sda3` you will need to use the partitions the installer created on your tablet's internal storage, which should be `/dev/mmcblk1p1` and `/dev/mmcblk1p2` respectively."

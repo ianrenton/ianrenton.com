@@ -1,5 +1,5 @@
 _id: fd4c16c0-a795-11eb-a054-4d3410e950ef
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Niklas
 email: 4100f2e0778e2c896e8b6cf41cc5d56b
 message: "I have been searching high and low for a solution to this. I installed android x86 on my device after trying to get Linux onto it without luck.\r\n\r\nYour guide worked like a charm for getting Ubuntu onto the device.\r\n\r\nCan anyone tell me how to get windows back onto the device, so i can dual boot?\r\n\r\nWhenever i run bootia32.efi the splashscreen with the circle comes up for a second then throws a BSOD with the following message: ACPI_BIOS_ERROR\r\n\r\nI've checked all the bios settings including safe boot without any luck.\r\n\r\nWhen making the USB stick for windows installation is there any additional steps I'm missing?\r\n\r\nTried with both win 8.1 and 10.20h2\r\n\r\nThanks in advance"

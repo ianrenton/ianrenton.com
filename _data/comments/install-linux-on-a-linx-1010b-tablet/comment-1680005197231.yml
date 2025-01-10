@@ -1,5 +1,5 @@
 _id: fd386740-cd60-11ed-bb4c-bbd0f43912dd
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: MCMBen
 email: 2366bb84a0dcef533478a1929ae84fcc
 message: "[Here are the steps I've taken to get Artix Linux installed on the 1010B.](https://gist.github.com/Fleafa/b4d8af19fce08b6ac612e87104008065)\r\nAiming for lightweight, so no systemd again and I'm [installing Hyprland](https://gist.github.com/Fleafa/308f09884807df3a2fbd2113f9188ff9) as the GUI."

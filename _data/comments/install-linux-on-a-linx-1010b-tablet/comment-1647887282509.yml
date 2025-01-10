@@ -1,5 +1,5 @@
 _id: a3ef9320-a944-11ec-96de-0380dd8bcdb3
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Matt
 email: a4fee7b7430c51d3e4061bfd05eb44b1
 message: "Steve... Double check you're using the right device names for your tablet (/dev/mmcblkXpX) it can potentially differ.\r\n\r\nAny error messages when you run it? I couldn't get it to run as a script and had to copy/paste individual lines into a terminal to get it to work.\r\n\r\nIf you're having to run that script on 20.04.3 anyway I'd try using 22.04 instead. Everything works out of the box (apart from the cameras and needing to run that script to install grub32). Sound is flaky though hence I suggest your try it rather than giving you a hard recommendation ;)\r\n\r\nNewer gnome seems much better with a touchscreen in general although it's far from perfect.\r\n\r\nIf you find the sound stops completely (with nothing listed under Input or Output device in sound settings) try logging in to the desktop with a different \"administrator\" user, then back in with your normal user. It's weird but that brings it back to life when even a restart doesn't. I assume there's some kind of persistence file for the sound that gets corrupted or something."

@@ -1,5 +1,5 @@
 _id: 7d339ee0-9299-11ed-a7a1-2d040c324ab1
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: SpindleSec
 email: 12167f180d51166fc937eb78ff9a1bb6
 message: "Thanks Ian for this guide - I've resurrected an old 1020, wiped the (now unsupported) Windows OS and installed Fedora 37. It's no longer potential e-waste!\r\n\r\nI ran into problems with screen rotation - landscape was fine, but portrait was inverted. It appears that the accelerometer used on the device is from some sensor supplier in China called [MiraMEMS](http://www.miramems.com/en/). The drivers seem to be common to some other sensors, but there wasn't any mapping for these in the system hardware database. I've submitted a [PR](https://github.com/systemd/systemd/pull/26015) which has been merged, so assuming that arrives downstream, everyone will get a fix eventually.\r\n\r\nIn the mean time, anyone having similar problems can simply add their own customisation to `/etc/udev/hwdb.d/61-sensor-local.hwdb` (which might not exist already), including the below:\r\n\r\n```\r\n# Linx 1020\r\nsensor:modalias:acpi:MIRAACC*:dmi:*:svnLINX*:pnLINX1020:*\r\n ACCEL_MOUNT_MATRIX=1, 0, 0; 0, -1, 0; 0, 0, -1\r\n```\r\n\r\nOnce that's done, run `systemd-hwdb update`, then `reboot`. YYMV, but it worked for me."

@@ -1,5 +1,5 @@
 _id: d8ec13f0-7c9e-11ec-b310-270b8d9d4541
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Damien
 email: ''
 message: "Go ahead Ian.\r\n\r\nYou might want to break the code into harder to paste \"all at once\" chunks. I fumbled earlier and unmounted half my host system :-) Maybe \"Get chroot\", \"Inside chroot\", and \"After chroot\".\r\n\r\nThe variables defined at the top will be there after chroot (but of course not inside it), so it might be worth including an \"After chroot\" test like \"echo $t\" to help Joe Sixpack through the task without error. We all pasted into the wrong terminal once right :-D\r\n\r\nMaybe obfuscate drives as perhaps /dev/FixMe to force folks to think before they b0rk. Don't forget the one inside the chroot.\r\n\r\nThat's my two-pennuth. All that I just said may be overkill... you write better for the humans than I do. Please use what I pasted how you see fit.\r\n\r\n...and thanks for all YOUR work. Without it, I'd have re-sold this £80 impulse purchase within days, instead of it turning out to be my main \"still portable\" laptop for good while now.\r\n\r\nThis message will self destruct in 5. 4. 3... \\o/"

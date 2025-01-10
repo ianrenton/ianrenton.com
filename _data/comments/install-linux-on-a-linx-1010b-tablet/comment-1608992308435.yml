@@ -1,5 +1,5 @@
 _id: 3909ad10-4785-11eb-9b5b-7b4b0057dbbe
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian Renton
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "Andreas,\r\n\r\nI haven't encountered this problem before but the first thing I would suggest to check is that Secure Boot is properly disabled in the EFI boot menus. If this is enabled, it could lead to EFI trying to boot Windows when it can't.\r\n\r\nIf Secure Boot is definitely disabled, it may be worth trying to install Ubuntu again in case something went wrong with installing the boot loader last time. Which version of Ubuntu are you using?"

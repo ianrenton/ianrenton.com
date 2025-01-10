@@ -1,5 +1,5 @@
 _id: b6279b80-d590-11ee-a84e-d378e612b9e0
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ralph
 email: 890b6358ba093fb7dd6439e28bf6e76f
 message: "Thanks, Ian, for this remarkably detailed set of instructions.\r\n\r\nOne point I stumbled over, was using an SD card in an adapter as a \"USB Stick\". As I've been using Raspberry Pi's for a while I never thought this would not work, but although the image was successfully written to it, the LINX just didn't find it. Using a \"proper\" USB stick did the trick of course.\r\n\r\nIt's all up and running now, although I got a crash whilst downloading Google Chrome from within Firefox. Amazingly, after a reboot the download resumed from where it had crashed and installed normally.\r\n\r\nI was going to try Ubuntu (as that is what I want to install on the Pi, and I have a VM with it on, too) but, frankly, Fedora is working quite nicely (better than ultra slow Win10) so I'll leave it as-is for a while.\r\n\r\nThanks again!"

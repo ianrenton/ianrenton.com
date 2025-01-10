@@ -1,5 +1,5 @@
 _id: a98ef570-53d5-11eb-83b9-1d5a04833b29
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ricardo
 email: b333116191bc33bf508aee2bb43fbe45
 message: "Hello everyone!\r\n\r\nI want to know if I can install Ubuntu on this particular tablet:\r\nIt's an ECS TR10RS1, specs are:\r\nIntel Atom Z3735F @ 1.6GHz (Bay Trail SoC)\r\n1GB DDR3 RAM @ 1333MHz\r\n16GB eMMC\r\nCannot remember if the touchscreen panel was SiLead or Goodix\r\n\r\nI want to install Ubuntu on it because it runs Android 4.4.4 and it runs pretty bad and most apps aren't compatible to this date.\r\n\r\nI have tested the Linuxium project but the touchscreen does not work. So I want to know if anyone had (or has) any experiences with this tablet... Thanks in advance!"

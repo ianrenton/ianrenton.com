@@ -1,5 +1,5 @@
 _id: fcb68330-47be-11eb-959d-f54ed8374096
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian Renton
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "Hmm :S\r\n\r\nDuring the advanced partitioning, was the \"install boot loader\" location definitely set to /dev/mmcblk0 (or whatever internal storage appears as - I don't remember I'm afraid!)\r\n\r\nWhen you start up, do you get the GRUB screen and *then* your error message, or does that message appear before GRUB gets loaded?"

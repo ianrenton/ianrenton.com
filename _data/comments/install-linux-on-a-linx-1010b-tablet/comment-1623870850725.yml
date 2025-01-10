@@ -1,5 +1,5 @@
 _id: 07531cf0-ced7-11eb-affb-cb8fe649bf1b
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "I’m afraid I don’t know what Bliss OS uses for an installer. The Android x86 software I used installs the Android partitions as files inside the Windows partition, and ties into the Windows boot process to chain them - probably why it’s so slow!\r\n\r\nYou will need an EFI partition for sure, the only question is if you select “the whole disk”, will the installer figure it out and create a new EFI partition for you as well as the OS partition(s).\r\n\r\nIf you’re not sure, picking a single partition to install into is the less risky option, so try that first!"

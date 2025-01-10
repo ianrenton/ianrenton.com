@@ -1,5 +1,5 @@
 _id: 10d80200-cee0-11eb-9f8f-d38ccf4a0929
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Michael
 email: b7db41a97226038221ce8a83ac7faf5a
 message: "Thank you for replying. Bliss OS is just refined version of android x86 as the android x86 have so many bugs. I tired the live image everything seem to work sound, wifi and auto-rotation. Also its run quite fast and smooth.\r\n\r\nI only used to work with old Bios, is UEFI a bit like boot loader in an android phone. Does each OS have its own version UEFI or the UEFI have to be custom made by the hardware manufacture? \r\n\r\nI think mccblk0p1 is the UEFI as its Vfat. mccblk0p2 has no format so may be just gap between partition, mccblk0p3 I think is the windows as its ntfs and mccblk0p4 I think is the windows recovery partition but its only about 450mb. So I think its safe to install on mccblk0p3. I am just worry choosing the whole drive will wipe my UEFI along with it and brick my table. Or am I worrying too much?\r\n\r\nMany Thanks"

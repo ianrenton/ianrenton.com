@@ -1,5 +1,5 @@
 _id: a183b870-0d49-11eb-b61c-0d74eedf27bc
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Aditya
 email: 113708ce723d05074f01c71ff132101a
 message: "This guide is very helpful. my Linx tablet is not working, I guessed that internal memory is gone. after several attempts I found your page, it worked like a charm and I could open Ubuntu on my tablet. but as internal memory is no there I could not install. Then I read some other pages and installed Ubuntu on the pendrive and used it. It worked.\r\n\r\nBut I am not happy as Camera and Volme are not working. I want to install Windows 8. I read some pages on Windows togo and tried several installers like (Rufus, Yumi, Yumi-uefi, wintousb and AOMEI), but my tablet is not recognizing the the boot. If I place your Bootia32, its going to grub terminal.  \r\n\r\nCan you advise how can I load my Windows 8 ToGo pendrive  on this tablet ?"

@@ -1,5 +1,5 @@
 _id: 580dd860-a799-11ec-addb-5177649cecbb
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Matt
 email: a4fee7b7430c51d3e4061bfd05eb44b1
 message: "Actually... I was a bit premature with the sound and the bluetooth.\r\n\r\nThe bluetooth appears to work but seems flaky. I haven't spent a lot of time on it but I can't get it to connect to anything although it does eventually list devices but is much slower than 20.04 at doing this.\r\n\r\nThe sound stopped working after about a day. I hear a few clicks and pops from the speaks during bootup and login as pulse tries to start but no audio devices show up in settings ;(\r\nDmesg shows several reports of \"pulseaudio:xxx map pfn RAM range req uncached-minus for [mem 0x0dd00000-0x0dd56fff], got write-combining\". I'm guessing it's caused by a kernel update but haven't had time to fiddle with it.\r\n\r\nAlso, the pull up gesture to bring up the onscreen keyboard doesn't work once Ubuntu is installed (works in the live environment).\r\n\r\nI suppose the best you can say about the beta at the moment is that the screen rotates the right way."

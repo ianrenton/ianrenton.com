@@ -1,5 +1,5 @@
 _id: 21d28780-852d-11eb-b85c-27e15c873424
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Wezzle
 email: 484094f9638838e68733fcc662f85f2f
 message: "Thanks for keeping this updated, Ian!\r\nI've just reclaimed a Linx 7 and a Linx 8 tablet from my parents who  have upgraded to fire tablets which are similar in hardware to your 1010b if you also have Kionix G-Sensor, Goodix touchscreen and HM2056 webcams.\r\nAfter installing 20H2 I found not much working in either however...\r\nThe commonly found Linx 8 driver zip worked on both devices but not before I had removed the Camera and IGD entries in the driver installer config. It seems Linx released an update to the 8 in 2017 and among the updated drivers and bios is a working hm2056 webcam driver - I now have everything working in the latest 20H2 of Win10 on both 7 & 8 tablets.\r\nI'll note however, responsiveness is poorer with my \"clean 20H2\" than it was with the \"dirty\" 1607 windows 10 build I claimed them with.\r\n\r\nI will now be following your guide on Ubuntu :)"

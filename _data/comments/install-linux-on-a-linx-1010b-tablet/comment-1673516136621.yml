@@ -1,5 +1,5 @@
 _id: 76ba22b0-925c-11ed-85ce-a78fa1468962
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "There is some hardware difference between the 10 and the 1010B but they both use Bay Trail processors, so it's unfortunate that the 10 doesn't seem as well behaved when booting Fedora. Unfortunately the 1010B is all I have so I can't test with the other models.\r\n\r\nRegarding sound, this is still a [known issue on Ubuntu](https://bugs.launchpad.net/ubuntu/+source/linux-meta-hwe-5.13/+bug/1958410) unfortunately. If you edit `/etc/modprobe.d/alsa-base.conf` and add the line `options snd-intel-dspcfg dsp_driver=2`, then reboot the tablet, that may fix it.\r\n\r\nThanks for letting me know about the broken link, I will get that fixed."

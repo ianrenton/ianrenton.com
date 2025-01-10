@@ -1,5 +1,5 @@
 _id: e97b6eb0-4792-11eb-b893-ff517ccf42a3
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Andreas
 email: 815f59a0d774fc58a439a7eb3e8e2696
 message: "When I go to secure boot options:\r\n\r\nSecure Boot Database\r\nUnlocked\r\nSecure Boot Status\r\nDisabled\r\nUser Customized Security\r\nYES\r\n\r\nEnforce Secure Boot\r\nDisabled\r\n\r\nSo I take it as it is indeed disabled.\r\n\r\nI tried to install ubuntu 20.10 since that was the newest. Maybe I should try the 20.04.1 LTS as you suggested and update results?"

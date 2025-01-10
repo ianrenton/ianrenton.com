@@ -1,5 +1,5 @@
 _id: 305e81e0-a89b-11ec-be24-916b0f44e337
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: matt
 email: a4fee7b7430c51d3e4061bfd05eb44b1
 message: "I broke my install so started from scratch and what do you know? The  sound works again with all the kernel updates so I've no idea what was going on. Although the sound works it has problems. I think pulse is crashing and sometimes not restarting. I just get a continuous tone periodically during playback. Sometimes it clears on its own after a few seconds, sometimes I have to restart pulse manually. It's ok for system sounds but no use for listening to music. Not sure where to look for a useful error message.\r\n\r\nHaving also now tried 20.04 on it for a while I'd say 22.04 is going to be a very nice upgrade for these tablets. The onscreen keyboard not pulling up with a swipe, not working on all authentication prompts and the sound issue are the big annoyances. Plus needing that manual grub32 install ;)\r\n\r\nSince these tablets only have 2GB RAM enabling zswap is probably a good idea. Just add \"zswap.enabled=1\" to \"GRUB_CMDLINE_LINUX_DEFAULT\", update-grub and reboot\r\nI managed to crash firefox by opening a few too many heavy tabs. Zswap might allow a few more."

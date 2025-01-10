@@ -1,5 +1,5 @@
 _id: 4c394600-ec42-11ea-bd5d-ed77ca9a73af
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "No problem, thanks for reporting that Ubuntu 20.04 now seems to be working.\r\n\r\nI think the keyboard could well be a hardware issue, I often find mine is glitchy as well, usually resolved by removing the tablet from the keyboard and re-inserting it with force!\r\n\r\nI will try Ubuntu 20.04 myself in the near future and see if the keyboard seems any worse than on other OSes that could indicate a software problem."

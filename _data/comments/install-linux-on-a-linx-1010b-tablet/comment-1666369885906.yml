@@ -1,5 +1,5 @@
 _id: cdc065a0-515d-11ed-addb-ffaf6b7883f1
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "I wish I knew! As well as your suggestions, there's also using `AltGr` in combination&mdash;but while this does produce alternative characters, they're accents rather than what's drawn on the key.\r\n\r\nIf you need a pipe character, that appears when using `AltGr`+`backtick` (the key to the left of `1`), and if you want a backslash, you can use `AltGr`+`-` (minus)."

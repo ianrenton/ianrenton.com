@@ -1,5 +1,5 @@
 _id: 825a4f40-ac3a-11ec-b79f-013946760243
-_parent: 'https://ianrenton.com/guides/install-linux-on-a-linx-1010b-tablet/'
+_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "You can select the default boot option by editing the file `/etc/default/grub`. There should be an entry `GRUB_DEFAULT=0` which you can change to 1, 2, 3 etc. to default to that numbered option on the list.\r\n\r\nUbuntu does have a process called `unattended-upgrades` that will likely at some point try to clear up and autoremove old unused kernels. I don't know much about how this works; if you keep booting from the old kernel it will of course not try to remove it, but if you occasionally boot other kernels it may be worth doing some reading about how to configure `unattended-upgrades` to make sure it doesn't delete your old reliable one.\r\n\r\nYou can remove an unwanted kernel with e.g. `sudo apt remove linux-image-5.13.0-37-generic`. After removing it with `apt`, your Grub menu should automatically remove it as an option."
