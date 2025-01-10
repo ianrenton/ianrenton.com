@@ -52,6 +52,11 @@ li > ul {
   margin-top: 0em !important;
 }
 
+/* Spacing in old blog archives where it's just a list */
+li.old-blog-archive-entry {
+  margin-bottom: 1em;
+}
+
 /* Breakout wide section */
 div.breakout-full-width {
   margin-left: calc(-100vw / 2 + 70ch / 2);
