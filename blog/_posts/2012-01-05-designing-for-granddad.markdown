@@ -48,7 +48,7 @@ It's my family duty to be tech support, and occasionally I am called upon to fix
 
 The _Slate_ article is right to cite [Facebook's](http://www.facebook.com) user interface as a particularly onerous example of software complexity.  Feeds, live updates, inboxes, [_hidden_ inboxes](http://www.geekestateblog.com/uncovering-your-hidden-inbox-in-facebook/), walls, profiles, Timeline, comments, likes, tags -- some users need and revel in that level of complexity, but a significant number just want to, say, see what their kids are up to.  I'm nervous that one day soon, my granddad will ask me to set him up with a Facebook account.  I'll dutifully comply, log him in, and give him _this_:  
   
-[![Facebook User Interface](/img/blog/2012/01/Screen-shot-2012-01-05-at-23.29.061-600x322.png)](/blog/2012/01/Screen-shot-2012-01-05-at-23.29.061.png)
+[![Facebook User Interface](/img/blog/2012/01/Screen-shot-2012-01-05-at-23.29.061-600x322.png)](/img/blog/2012/01/Screen-shot-2012-01-05-at-23.29.061.png)
 
 Where does one even begin?  There are multiple feeds, multiple menus, pop-up and pop-down boxes.  How do you add one of these "status" things?  How do you add a friend?  How do I send a message to someone?  What's public and what's private?  Why is there so much _stuff_?
 

@@ -15,7 +15,7 @@ tags:
 
 With my recent acquisition of a [Bluetooth keyboard](http://www.amazon.co.uk/gp/product/B005GUJH4O/ref=oh_details_o01_s00_i00) added to the [PowerSkin](http://www.powerskin.co.uk/), my phone has completed its transition from thin, attractive polycarbonate slate to the monstrous assault on product design you see before you.
 
-[![Desire HD + PowerSkin + Bluetooth Keyboard](/img/blog/2012/04/IMG_9183.jpg)](/blog/2012/04/IMG_9183.jpg)
+[![Desire HD + PowerSkin + Bluetooth Keyboard](/img/blog/2012/04/IMG_9183.jpg)](/img/blog/2012/04/IMG_9183.jpg)
 
 Or so I would have said in the dim and technologically distant days of 2010.
 

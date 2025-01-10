@@ -12,7 +12,7 @@ tags:
 - Travel
 ---
 
-(http://www.flickr.com/photos/allandonque/4649225751/))"][![Bahrain Financial Harbour](/img/blog/2010/09/4649225751_a1cb680500_b-200x300.jpg)](/blog/2010/09/4649225751_a1cb680500_b.jpg)
+(http://www.flickr.com/photos/allandonque/4649225751/))"][![Bahrain Financial Harbour](/img/blog/2010/09/4649225751_a1cb680500_b-200x300.jpg)](/img/blog/2010/09/4649225751_a1cb680500_b.jpg)
 
 Glittering skyscraper spires tower over the city of Manama, Bahrain's capital -- and only -- city.  Each lit up at night with a thousand twinkling lights, they are monuments to technology and to money, each one the home some giant financial mega-corporation.
 
@@ -20,7 +20,7 @@ But yet in the streets below, a very different city lives.  A city of densely pa
 
 Above head-height, some buildings are intact enough to be homes, their air conditioning units dripping warm water down into the streets.  But others are abandoned, even ruined.  Nothing gets fixed here; people just work around its broken-ness.
 
-[![Manama Back-Street](/img/blog/2010/09/wpid-1285258448047-225x300.jpg)](/blog/2010/09/wpid-1285258448047.jpg)
+[![Manama Back-Street](/img/blog/2010/09/wpid-1285258448047-225x300.jpg)](/img/blog/2010/09/wpid-1285258448047.jpg)
 
 In each shop window are plastered layers of 'room to rent' signs, each one marked 'Kerala only', 'Filipino only' or one of a dozen other permutations, pasted up by apartment-owners desperate to find a tenant with whom they have something in common against the city's multicultural morass of people.
 

@@ -20,7 +20,7 @@ In Douglas Carswell MP's blog post ["Is Mantis going to fly?"](http://www.talkca
 
 With all due respect to Mr Carswell, I do believe he's missed the point here.  Not only has the Royal Air Force [already bought 13](http://en.wikipedia.org/wiki/MQ-9_Reaper#United_Kingdom) of the Reaper aircraft, but they have already seen operational use in Iraq and Afghanistan.
 
-[![BAE's Mantis vehicle (picture from Wikimedia)](/img/blog/2010/06/800px-BAEMantisMockUp-300x99.jpg)](/blog/2010/06/800px-BAEMantisMockUp.jpg)
+[![BAE's Mantis vehicle (picture from Wikimedia)](/img/blog/2010/06/800px-BAEMantisMockUp-300x99.jpg)](/img/blog/2010/06/800px-BAEMantisMockUp.jpg)
 
 BAE's Mantis vehicle is, as Parliamentary Undersecretary of State Peter Luff says, a technical demonstrator -- a one-off prototype built in order to prove the technology behind it.  There never was a procurement programme for the Mantis.  Sure, BAE received some funding from the Ministry of Defence, though as [this DefenseNews article](http://www.defensenews.com/osd_story.php?sh=VSDF&i=3625470&c=EUR&s=AIR) suggests, it may not have been all that much.  Mostly it seems like BAE and the other consortium members threw their own money into the Mantis programme, and the MoD put some of their own research budget into it in the hope that the Mantis would suit Britain's needs better than the Reaper does.
 

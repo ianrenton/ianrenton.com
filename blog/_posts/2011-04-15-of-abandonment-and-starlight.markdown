@@ -16,7 +16,7 @@ Winfrith's "Starlight" children's nursery has always struggled to stay open desp
 
 Since the police investigation, I've not seen anyone there -- not even someone simply returning to clear up.
 
-[![Abandoned Nursery](/img/blog/2011/04/IMG_20110415_171427_edit0.jpg)](/blog/2011/04/IMG_20110415_171427_edit0.jpg)
+[![Abandoned Nursery](/img/blog/2011/04/IMG_20110415_171427_edit0.jpg)](/img/blog/2011/04/IMG_20110415_171427_edit0.jpg)
 
 Never the prettiest of places, the former nursery is a squat grey portacabin locked away behind razor-wire and rusting iron gates.  But its abandonment lends it an almost sinister edge.  Children's toys litter the ground outside, left there at the end of a day, not knowing that they might never be moved again.
 

@@ -32,7 +32,7 @@ The big changes between version 1.1.2 and 2.0 are:
 
 You can see a screenshot of it in action below:
 
-[![SuccessWhale Screenshot](/img/blog/2011/09/successwhale2-600x318.png)](/blog/2011/09/successwhale2.png)
+[![SuccessWhale Screenshot](/img/blog/2011/09/successwhale2-600x318.png)](/img/blog/2011/09/successwhale2.png)
 
 I would particularly like to thank [Alex Hutter](http://twitter.com/aefaradien), [Hugo Day](http://twitter.com/Tontonis), [Erica Renton](http://twitter.com/eric_the_girl) and [Rg Enzon](http://twitter.com/rgenzon), whose help in finding bugs and suggesting new features has been instrumental in bringing SuccessWhale up to version 2.0 today.
 

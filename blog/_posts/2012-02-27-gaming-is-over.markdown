@@ -17,7 +17,7 @@ Dear Sid Meier,
 
 Where did it all go so wrong?!
 
-[![Civilization World notification](/img/blog/2012/02/civworld.png)](/blog/2012/02/civworld.png)
+[![Civilization World notification](/img/blog/2012/02/civworld.png)](/img/blog/2012/02/civworld.png)
 
 > Figure 1. EVERYTHING THAT IS WRONG WITH FACEBOOK
 

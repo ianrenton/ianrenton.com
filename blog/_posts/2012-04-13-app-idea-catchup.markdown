@@ -39,13 +39,13 @@ There are a number of technical issues that the app would have to address.
   * **Identification.** Integration with Facebook would be desirable to allow users to find their friends on the service.  However, the app is providing a semi-public mapping of people to locations, so CatchUp users should not be identifiable to people who are not their friends.  Foursquare has struck a reasonable balance here.
   * **Connection technology.** PictoChat used device-to-device WiFi. This is not ideal for CatchUp as it would prevent users from using their WiFi for other things.  A low-power Bluetooth connection is a possibility which would also enforce the "chats must be local" idea. However, if we are going to enable "catch up" chats later, we need a server-side chat backend anyway, so it may be best to route everything through the server and determine user proximity for local chat groups on the server.  
 
-[![CatchUp Architecture](/img/blog/2012/04/CatchUp-Arch.png)](/blog/2012/04/CatchUp-Arch.png)
+[![CatchUp Architecture](/img/blog/2012/04/CatchUp-Arch.png)](/img/blog/2012/04/CatchUp-Arch.png)
 
 > CatchUp Architecture
 	
   * **Integration to other services.** Integration with the Facebook, FourSquare or Google Places API could give users the ability to "check in" and use the chat facility together, increasing uptake.  Integration with services like Last.fm could incorporate knowledge of event times and places, meaning that the "catch up" chats can have sensible names like "Justin Bieber Concert, Wembley Stadium, 1/1/2012" rather than "with 312 users at Wembley Stadium, 1/1/2012".  
 
-[![Last.fm's Events List](/img/blog/2012/04/lastfm-events.png)](/blog/2012/04/lastfm-events.png)
+[![Last.fm's Events List](/img/blog/2012/04/lastfm-events.png)](/img/blog/2012/04/lastfm-events.png)
 
 > Last.fm's Events List
 	
@@ -55,7 +55,7 @@ There are a number of technical issues that the app would have to address.
 
 I have produced a couple of user interface mockups for the potential design:
 
-[![CatchUp Main Menu](/img/blog/2012/04/5.-CatchUp-2.png)](/blog/2012/04/5.-CatchUp-2.png)
+[![CatchUp Main Menu](/img/blog/2012/04/5.-CatchUp-2.png)](/img/blog/2012/04/5.-CatchUp-2.png)
 
 > CatchUp Main Menu
 
@@ -67,7 +67,7 @@ Below this is a list of all your "catch up" opportunities.  If configured to do 
 
 Settings will have fine-grained privacy options, for example to prevent the user appearing in others' Catch Ups without explicit permission, to mark certain locations that Catch Up will automatically deactivate itself in, and so on.
 
-[![CatchUp Chat Interface](/img/blog/2012/04/4.-CatchUp-1.png)](/blog/2012/04/4.-CatchUp-1.png)
+[![CatchUp Chat Interface](/img/blog/2012/04/4.-CatchUp-1.png)](/img/blog/2012/04/4.-CatchUp-1.png)
 
 > CatchUp Chat Interface
 

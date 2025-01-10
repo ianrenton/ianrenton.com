@@ -3,7 +3,7 @@ comments: false
 layout: page
 slug: index
 title: Quadcopter
-redirect-from:
+redirect_from:
   - /quadcopter
 ---
 

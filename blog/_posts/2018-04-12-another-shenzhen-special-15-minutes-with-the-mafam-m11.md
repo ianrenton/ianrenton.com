@@ -53,7 +53,7 @@ Alright! Let's try out the camera. Its quality settings menu includes "Low", "Me
 
 Embedded below are a daylight and a low-light shot for comparison, both at the camera's native, er, 320 by 240 resolution. As you can see, better quality pictures can be obtained from the average potato, though astoundingly the low-light shot actually looks _better_.
 
-![](/img/blog/2018/04/DSC_0000001.jpg) ![](/blog/2018/04/DSC_0000002.jpg)
+![](/img/blog/2018/04/DSC_0000001.jpg) ![](/img/blog/2018/04/DSC_0000002.jpg)
 
 And to finish up, let's check some of the other exciting features this phone has. First up: _Filearray_! What is a filearray? We'll never know, because it's empty and no option on the phone seems to actually save a file here.
 
@@ -61,7 +61,7 @@ And to finish up, let's check some of the other exciting features this phone has
 
 Next: _Magic sound_! I can select the Magic Sound of a man, woman, young, old, child or cartoon! The phone produces no sound when any of these options are selected.
 
-![](/img/blog/2018/04/image025.jpg) ![](/blog/2018/04/image026.jpg)
+![](/img/blog/2018/04/image025.jpg) ![](/img/blog/2018/04/image026.jpg)
 
 We get games though! Check out Sokoban, and this file named `Bubble_Bobble_320x240.jar` which can't be run because the phone doesn't have any storage.
 

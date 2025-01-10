@@ -15,7 +15,7 @@ tags:
 
 From [John Wyndham](http://en.wikipedia.org/wiki/John_Wyndham) to [Alan Moore](http://en.wikipedia.org/wiki/Alan_Moore), the British have long had a morbid fascination with the downfall of society; the government as the enemy; that dark time after the "stiff upper lip" fails us.  Though that upper lip remains stiff in the form of [#riotcleanup](http://twitter.com/#!/search/%23riotcleanup) and [Operation Cup of Tea](http://www.operationcupoftea.com/), tonight, London burns.
 
-[![A building in Tottenham burns](/img/blog/2011/08/london-fire1-600x354.jpg)](/blog/2011/08/london-fire1.jpg)
+[![A building in Tottenham burns](/img/blog/2011/08/london-fire1-600x354.jpg)](/img/blog/2011/08/london-fire1.jpg)
 
 As [@RichIshi pointed out](https://twitter.com/#!/RichIshi/status/100880220382445569), the riots in London and other cities have polarised opinions in abrupt and sometimes unexpected ways.  A perhaps surprising number of people have taken the rather right-wing "fuck the pikey scum" attitude, culminating in a poll for the Sun suggesting that [33% of readers would support the use of _live ammunition_ against the rioters](http://www.thesun.co.uk/sol/homepage/news/3743390/Use-LIVE-bullets-say-33-in-Sun-poll.html?OTC-RSS&ATTR=News).  Some others have expressed sympathy for the rioters' cause, making the more "lefty" suggestion that the riots are the culmination of long-running social problems that need to be addressed.
 
@@ -33,7 +33,7 @@ But many are not so lucky.  Being poor and from a deprived area; being young and
 
 I'm not condoning the rioters -- their actions, particularly burning down private homes and small businesses, are reprehensible and they should be punished for them to the fullest extent of the law.  What I _am_ saying is that if we cheer on the police putting down the "chav scum", if we call for rubber bullets and tear gas, if we fear the hoodie and all who wear it, we are ignoring a problem that exists in our society.  Instead of ignorance and fear, it is our responsibility as members of that society to show courage and pride, and in so doing, help _fix_ the problem.
 
-[![Rioters in Tottenham on Sunday](/img/blog/2011/08/bp4-600x235.jpg)](/blog/2011/08/bp4.jpg)
+[![Rioters in Tottenham on Sunday](/img/blog/2011/08/bp4-600x235.jpg)](/img/blog/2011/08/bp4.jpg)
 
 These people are doing stupid things, and destroying communities that they could come to love.  But they are not irredeemably stupid; they are not an enemy to be crushed.  _Their motivations are a problem to be solved._  
   

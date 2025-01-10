@@ -22,23 +22,23 @@ There's no question that there should be a big "type your status update here" bo
 
 About a thousand years of internet time ago (2010), replying to a tweet from Twitter's website re-used that top status box for the reply.  The user clicked the "reply" button, and the status box got pre-filled with "@" plus the username of the person they were replying to.  It looked like this:
 
-[![Old Twitter Reply UI](/img/blog/2011/03/oldtwitter-top.png)](/blog/2011/03/oldtwitter-top.png)
+[![Old Twitter Reply UI](/img/blog/2011/03/oldtwitter-top.png)](/img/blog/2011/03/oldtwitter-top.png)
 
 SuccessWhale, then solely a Twitter client, copied this behavior.  Its reply UI involved clicking a "reply" button and having its main "publish status update" box update with the replied-to user's name, like this:
 
-[![SuccessWhale version 1 Reply UI](/img/blog/2011/03/successwhale-top.png)](/blog/2011/03/successwhale-top.png)
+[![SuccessWhale version 1 Reply UI](/img/blog/2011/03/successwhale-top.png)](/img/blog/2011/03/successwhale-top.png)
 
 Now SuccessWhale is attempting to be a Facebook client, too.  On Twitter, replies to a status update are given virtually the same prominence as the original status.  On Facebook however, posts are more thread-based, with comments on a status update clearly being daughter objects of the original update.  Status updates themselves use "newest at the top" order, just like Twitter, but comments on an update are "newest at the _bottom_".  So on Facebook, it makes sense for the "reply" field to be inline, like this:
 
-[![Facebook Reply UI](/img/blog/2011/03/facebook-inline.png)](/blog/2011/03/facebook-inline.png)
+[![Facebook Reply UI](/img/blog/2011/03/facebook-inline.png)](/img/blog/2011/03/facebook-inline.png)
 
 In playing around with the UI for SuccessWhale version 2, I introduced an inline reply box, which works something like this:
 
-[![Successwhale version 2 Prototype Reply UI](/img/blog/2011/03/successwhale-inline.png)](/blog/2011/03/successwhale-inline.png)
+[![Successwhale version 2 Prototype Reply UI](/img/blog/2011/03/successwhale-inline.png)](/img/blog/2011/03/successwhale-inline.png)
 
 A third reply UI was introduced with the new Twitter website - a floating "lightbox"-style reply area which appears when the "reply" button is clicked.  Like this:
 
-[![New Twitter Reply UI](/img/blog/2011/03/rsz_newtwitter-lightbox.png)](/blog/2011/03/rsz_newtwitter-lightbox.png)
+[![New Twitter Reply UI](/img/blog/2011/03/rsz_newtwitter-lightbox.png)](/img/blog/2011/03/rsz_newtwitter-lightbox.png)
 
 So, between the two sites that SuccessWhale currently talks to, we have three UI paradigms for replying to a status update.  I feel it is very important for SuccessWhale to have a consistent UI for replying, particularly when we introduce columns that mix updates from Twitter, Facebook and potentially other sources.
 

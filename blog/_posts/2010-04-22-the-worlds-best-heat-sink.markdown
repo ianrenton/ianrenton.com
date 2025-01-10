@@ -13,7 +13,7 @@ tags:
 - Rubber Bands
 ---
 
-[![The World's Best Heat-Sink](/img/blog/2010/04/wpid-heatsink-224x300.jpg)](/blog/2010/04/wpid-heatsink.jpg)
+[![The World's Best Heat-Sink](/img/blog/2010/04/wpid-heatsink-224x300.jpg)](/img/blog/2010/04/wpid-heatsink.jpg)
 
 From the [team](http://www.facebook.com/home.php?#!/profile.php?id=1427833424&ref=ts) that brought you [AutoMouse](/blog/behold-automouse-product-announce) comes a revolution in heat-sink technology that you can recreate in your own home!
 

@@ -22,4 +22,4 @@ It is a moment outside time in a place adrift from the world.
 
 But tomorrow the streets will be clear and the dance will begin again, leaving only the trickles of snow that linger in shadows and the endless radio haze.
 
-[![Snow settling, almost visible](/img/blog/2012/02/almostsnow-600x416.jpg)](/blog/2012/02/almostsnow.jpg)
+[![Snow settling, almost visible](/img/blog/2012/02/almostsnow-600x416.jpg)](/img/blog/2012/02/almostsnow.jpg)

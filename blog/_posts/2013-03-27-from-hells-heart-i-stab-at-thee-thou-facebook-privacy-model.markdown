@@ -25,13 +25,13 @@ Well, let's say we have two characters who want to communicate on Facebook. I'd 
 
 We have two characters, Ahab and Ishmael, who are friends aboard the good ship Facebook. Ahab fires up his favourite whale-themed client, [SuccessWhale](https://successwhale.com), and links it to his Facebook account. He gets a dialog like this:
 
-[![Extended Permissions Dialog](/img/blog/2013/03/Screen-shot-2013-03-27-at-19.21.23-600x259.png)](/blog/2013/03/Screen-shot-2013-03-27-at-19.21.23.png)
+[![Extended Permissions Dialog](/img/blog/2013/03/Screen-shot-2013-03-27-at-19.21.23-600x259.png)](/img/blog/2013/03/Screen-shot-2013-03-27-at-19.21.23.png)
 
 Ahab clicks "Allow", and as he granted the "Access posts in your News Feed" permission, he starts seeing posts from his friends. But not Ishmael.
 
 Why not? Because Ishmael is a privacy-conscious sailor, and has previously found the ["Apps" section of Facebook's "Privacy Settings" dashboard](https://www.facebook.com/settings?tab=applications). That section not only contains settings for what personal data apps _you_ use can see, but also settings for the apps that your _friends_ use. By default, it looks like this:
 
-[![Apps Others Use Settings](/img/blog/2013/03/Screen-shot-2013-03-27-at-19.52.20-600x266.png)](/blog/2013/03/Screen-shot-2013-03-27-at-19.52.20.png)
+[![Apps Others Use Settings](/img/blog/2013/03/Screen-shot-2013-03-27-at-19.52.20-600x266.png)](/img/blog/2013/03/Screen-shot-2013-03-27-at-19.52.20.png)
 
 Ishmael saw that section and, quite rightly, thought "So if a friend of mine uses Farmville, this means Zynga can see everything I do on Facebook without asking my permission? Fuck that!", and promptly unticked all the boxes. His data is now safe from unscrupulous apps used by his friends -- but his data is also hidden from 'nice' apps too, like SuccessWhale and TweetDeck.
 
@@ -39,6 +39,6 @@ Arguably, this privacy model is also "right" -- Facebook can't control what apps
 
 Not only are two sets of privacy settings making apps like mine annoying to use, but the annoyance is doubled by the fact that both of those privacy settings are arguably the _right_ decision on the part of both our Ishmael and Facebook.
 
-[![Moby-Dick](/img/blog/2013/03/moby-dick-600x280.jpg)](/blog/2013/03/moby-dick.jpg)
+[![Moby-Dick](/img/blog/2013/03/moby-dick-600x280.jpg)](/img/blog/2013/03/moby-dick.jpg)
 
 > Fig. 3. A Successful Whale (artist unknown)

@@ -3,7 +3,7 @@ comments: false
 layout: page
 slug: index
 title: Raspberry Tank
-redirect-from:
+redirect_from:
   - /raspberrytank
   - /raspberry-tank
   - /raspberry-tank-build-diary

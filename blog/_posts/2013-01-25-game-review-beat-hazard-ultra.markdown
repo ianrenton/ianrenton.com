@@ -16,7 +16,7 @@ tags:
 
 My quest for an Android game to match the joyous beat-synched twitch reflexes of [Audiosurf](http://www.audio-surf.com/) have very nearly come to an end. My newest drug is named Beat Hazard Ultra. ([Android](https://play.google.com/store/apps/details?id=com.coldbeamgames.beathazardultragooglefull), [iOS](https://itunes.apple.com/us/app/beat-hazard-ultra/id475336263?mt=8))
 
-[![](/img/blog/2013/01/Screenshot_2013-01-25-13-48-24-600x337.png)](/blog/2013/01/Screenshot_2013-01-25-13-48-24.png)
+[![](/img/blog/2013/01/Screenshot_2013-01-25-13-48-24-600x337.png)](/img/blog/2013/01/Screenshot_2013-01-25-13-48-24.png)
 
 It's angling towards being a bullet hell music game, and it almost -- but not quite -- succeeds at those two goals.
 
@@ -24,7 +24,7 @@ It can't _quite_ be a bullet hell shooter, because bullet hell in all its pixel-
 
 It can't quite be beat-synched either, as the game seems to prioritise interesting enemy patterns rather than attempting to spawn enemies on every beat. There are little effects here and there, however, that do give a feeling that something is synched to the music.
 
-[![](/img/blog/2013/01/Screenshot_2013-01-25-13-50-29-600x337.png)](/blog/2013/01/Screenshot_2013-01-25-13-50-29.png)
+[![](/img/blog/2013/01/Screenshot_2013-01-25-13-50-29-600x337.png)](/img/blog/2013/01/Screenshot_2013-01-25-13-50-29.png)
 
 The game also features a setting labelled "visual intensity". By setting it to 150%, you can take those little, subtle beat-synched effects and make them more impressive.
 
@@ -32,4 +32,4 @@ And by setting it to 200%, you can turn it up to OH MY GO MY BRAIN IS MELTING I 
 
 When the main difficulty factor in a game comes around because there are _too many lasers_, that makes it a good game in my book.
 
-[![](/img/blog/2013/01/Screenshot_2013-01-25-13-48-46-600x337.png)](/blog/2013/01/Screenshot_2013-01-25-13-48-46.png)
+[![](/img/blog/2013/01/Screenshot_2013-01-25-13-48-46-600x337.png)](/img/blog/2013/01/Screenshot_2013-01-25-13-48-46.png)

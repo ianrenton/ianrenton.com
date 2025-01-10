@@ -23,4 +23,4 @@ In 2007, we had a child.  In 2008, we bought a flat.
 
 Yet more years have passed.  We have come a long way from being a strange, hyperactive girl and a terrified boy who refused her advances.  This Friday, the tenth of June in the year 2011, in the presence of those friends from long ago and many more besides, we were married.
 
-[![](/img/blog/2011/06/IMG_3559.png)](/blog/2011/06/IMG_3559.png)
+[![](/img/blog/2011/06/IMG_3559.png)](/img/blog/2011/06/IMG_3559.png)

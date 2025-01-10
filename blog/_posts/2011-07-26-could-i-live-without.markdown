@@ -25,7 +25,7 @@ I wonder if it is now a good time to apply the same logic to various online serv
 
 ## 1. A Google Account
 
-[![](/img/blog/2011/07/google.png)](/blog/2011/07/google.png)As a search engine, Google is almost essential to life on the internet today.  Like a lot of you, I have signed up to many Google services over the years, each one simply on the merit that it was better than the competition (if there even was competition).  I go through phases of being alarmed at the amount of data Google collates about us all -- their "do no evil" policy is wearing thin in the eyes of their customers.  But could I manage without mail, calendars and contacts synchronised between my phone and the web?  Without the near-endless entertainment of Google Reader?  Without the Android Market?
+[![](/img/blog/2011/07/google.png)](/img/blog/2011/07/google.png)As a search engine, Google is almost essential to life on the internet today.  Like a lot of you, I have signed up to many Google services over the years, each one simply on the merit that it was better than the competition (if there even was competition).  I go through phases of being alarmed at the amount of data Google collates about us all -- their "do no evil" policy is wearing thin in the eyes of their customers.  But could I manage without mail, calendars and contacts synchronised between my phone and the web?  Without the near-endless entertainment of Google Reader?  Without the Android Market?
 
 Although I resent Google's dominion over my online existence, its offerings are just _better_ than others'.  And having an Android phone seals the deal.
 
@@ -33,7 +33,7 @@ Although I resent Google's dominion over my online existence, its offerings are 
 
 ## 2. GMail
 
-[![](/img/blog/2011/07/gmail1.jpg)](/blog/2011/07/gmail1.jpg)If I can't live without a Google account, maybe I should just dump the GMail part of it?  I've actually done this once before; moved my e-mail wholesale to my own server.  But I went back -- it's a nice feeling to be in charge, to have your own mail server, but everything was so much harder.  "Archiving" and "tagging" become a multi-click 'move' operation, IMAP has a host of strange issues, and no webmail client is a patch on Google's.
+[![](/img/blog/2011/07/gmail1.jpg)](/img/blog/2011/07/gmail1.jpg)If I can't live without a Google account, maybe I should just dump the GMail part of it?  I've actually done this once before; moved my e-mail wholesale to my own server.  But I went back -- it's a nice feeling to be in charge, to have your own mail server, but everything was so much harder.  "Archiving" and "tagging" become a multi-click 'move' operation, IMAP has a host of strange issues, and no webmail client is a patch on Google's.
 
 Ditching GMail appeals, but two months down the line I'd probably spend another evening moving everything back again.
 
@@ -41,13 +41,13 @@ Ditching GMail appeals, but two months down the line I'd probably spend another 
 
 ## 3. Twitter
 
-[![](/img/blog/2011/07/twitter.png)](/blog/2011/07/twitter.png)I suspect I'm in the minority, in that I follow no celebrities and don't use Twitter for anything to do with "brand awareness" or "customer interaction".  I use it for talking to my friends.  There are simply too many of us, online too irregularly, to use instant messaging -- or god forbid, phone calls -- any more.  (Whether that says something about the quality of our interaction, I'm not sure.)  But without Twitter I'd be largely unaware of what's going on in the lives of the dozen or so people I care about the most.  Though my posts may be trivial and of interest to few, losing Twitter would be close to losing friends.
+[![](/img/blog/2011/07/twitter.png)](/img/blog/2011/07/twitter.png)I suspect I'm in the minority, in that I follow no celebrities and don't use Twitter for anything to do with "brand awareness" or "customer interaction".  I use it for talking to my friends.  There are simply too many of us, online too irregularly, to use instant messaging -- or god forbid, phone calls -- any more.  (Whether that says something about the quality of our interaction, I'm not sure.)  But without Twitter I'd be largely unaware of what's going on in the lives of the dozen or so people I care about the most.  Though my posts may be trivial and of interest to few, losing Twitter would be close to losing friends.
 
 **Verdict: No.**
 
 ## 4. Facebook
 
-[![](/img/blog/2011/07/facebook.png)](/blog/2011/07/facebook.png)The social network we love to hate, there are a whole host of reasons people would want to quit -- disregard for privacy, endless Farmville spam, lack of transparency / import & export functions -- but yet, so few do.  I don't play games on Facebook, I rarely post photos, I don't "like" pages or take quizzes.  I have around 300 "friends", many of whom I haven't seen since school and wouldn't recognise in the street.
+[![](/img/blog/2011/07/facebook.png)](/img/blog/2011/07/facebook.png)The social network we love to hate, there are a whole host of reasons people would want to quit -- disregard for privacy, endless Farmville spam, lack of transparency / import & export functions -- but yet, so few do.  I don't play games on Facebook, I rarely post photos, I don't "like" pages or take quizzes.  I have around 300 "friends", many of whom I haven't seen since school and wouldn't recognise in the street.
 
 But there's a few close friends and family that don't use Twitter, and closing my Facebook account would mean cutting them off.  And besides, there's always that nagging thought: "you're 26 years old, _every_ 26-year-old is on Facebook!"
 
@@ -55,7 +55,7 @@ But there's a few close friends and family that don't use Twitter, and closing m
 
 ## 5. Google+
 
-[![](/img/blog/2011/07/google_plus.png)](/blog/2011/07/google_plus.png)Like many geeks, I am an "early adopter" of Google+, a social network that's still in beta.  Now and again I load the page or run the mobile app, to see what people have posted -- and they've posted exactly the same as they posted on Twitter.  Plus, [without an API](/blog/a-place-for-google-plus), I never bother to manually copy my own Twitter and Facebook posts to G+ too.
+[![](/img/blog/2011/07/google_plus.png)](/img/blog/2011/07/google_plus.png)Like many geeks, I am an "early adopter" of Google+, a social network that's still in beta.  Now and again I load the page or run the mobile app, to see what people have posted -- and they've posted exactly the same as they posted on Twitter.  Plus, [without an API](/blog/a-place-for-google-plus), I never bother to manually copy my own Twitter and Facebook posts to G+ too.
 
 It's nice to be in there in case it picks up and becomes the next Social Network to Rule them All.  But right now, it's taking up brain power and space on my bookmarks toolbar, and I'm gaining nothing from it.
 
@@ -63,7 +63,7 @@ It's nice to be in there in case it picks up and becomes the next Social Network
 
 ## 6. LiveJournal
 
-[![](/img/blog/2011/07/livejournal.jpg)](/blog/2011/07/livejournal.jpg)All my LiveJournal posts are already syndicated from my blog, and I go through phases of disabling comments on my LiveJournal posts to drag people to comment on the blog itself.  It rarely works, but I have so little interaction with people through LiveJournal these days that it barely matters.  [LiveJournal is dying](/blog/the-rise-and-fall-of-livejournal), at least from my perspective, and I have already declared it time to quit.  Perhaps now is the time.
+[![](/img/blog/2011/07/livejournal.jpg)](/img/blog/2011/07/livejournal.jpg)All my LiveJournal posts are already syndicated from my blog, and I go through phases of disabling comments on my LiveJournal posts to drag people to comment on the blog itself.  It rarely works, but I have so little interaction with people through LiveJournal these days that it barely matters.  [LiveJournal is dying](/blog/the-rise-and-fall-of-livejournal), at least from my perspective, and I have already declared it time to quit.  Perhaps now is the time.
 
 **Verdict: Yes.**
 

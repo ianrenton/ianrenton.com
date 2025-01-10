@@ -16,7 +16,7 @@ First of all, a big shout out to _les hommes et femmes_ at [http://korben.info/]
 
 At about 9:30 today, they posted a list of [50 things to do with your Raspberry Pi](http://korben.info/idees-raspberry-pi.html), which included the [Raspberry Tank](http://blog.ianrenton.com/raspberry-tank-build-diary). At about 9:40, my web server melted.  This is the disk I/O graph:
 
-[![Sparrowhawk Disk I/O Graph](/img/blog/2013/01/generate_graph.pl2_-600x258.png)](/blog/2013/01/generate_graph.pl2_.png)
+[![Sparrowhawk Disk I/O Graph](/img/blog/2013/01/generate_graph.pl2_-600x258.png)](/img/blog/2013/01/generate_graph.pl2_.png)
 
 Somewhere around five Apache instances per second were being spawned, all of which seemed to be waiting for each others' I/O operations, and combined together managed to slow everything else to a crawl. It took twenty minutes to successfully `ssh` into the server and stop Apache. In that whole time, I think about five visitors might have actually have seen a properly-formed web page.
 
@@ -24,7 +24,7 @@ From that point, it was a dainty command-line dance to get enough of WordPress u
 
 At around 1pm, I finally managed to get back up and running again -- and the floodgates opened.
 
-[![Sparrowhawk IPv4 I/O Graph](/img/blog/2013/01/generate_graph.pl_-600x291.png)](/blog/2013/01/generate_graph.pl_.png)
+[![Sparrowhawk IPv4 I/O Graph](/img/blog/2013/01/generate_graph.pl_-600x291.png)](/img/blog/2013/01/generate_graph.pl_.png)
 
 So, today I learned two important lessons about running your own web server:
 
