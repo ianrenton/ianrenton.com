@@ -6,12 +6,7 @@ slug: film-reviews
 title: Film Reviews (by the Numbers)
 ---
 
-{% capture posts %}
-  {% for post in site.filmreviews %}
-    |{{ post.title }}#{{ post.url }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedposts = posts | split: '|' | sort %}
+{% assign sortedposts = site.categories.filmreviews | sort: 'title' %}
 
 <p>By the combined powers of Netflix and cheap cider, the Saturday Night Shenanigans crew presents... largely incoherent mocking of films!</p>
 
@@ -23,7 +18,7 @@ title: Film Reviews (by the Numbers)
 <div style="flex: 1; margin-top: 0">
   <h3>Sorted by Review Date</h3>
   <ol reversed="reversed">
-    {% for post in site.filmreviews reversed %}
+    {% for post in site.categories.filmreviews %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ol>
@@ -32,8 +27,7 @@ title: Film Reviews (by the Numbers)
   <h3>Sorted by Title</h3>
   <ul>
     {% for post in sortedposts %}
-      {% assign postitems = post | split: '#' %}
-      <li><a href={{ postitems[1] }}">{{ postitems[0] }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>

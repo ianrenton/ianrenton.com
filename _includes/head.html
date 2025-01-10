@@ -1,6 +1,12 @@
+
+{% capture categoryslug %}{{ page.categories | last }}{% endcapture %}
+{% assign categorynamewords = categoryslug | replace: "-", " " | split: " " %}
+{% capture categorynametitlecase %}{% for word in categorynamewords %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+{% capture categorynametitlecasefinal %}{{ categorynametitlecase | replace: "Planesailing", "Plane/Sailing" }}{% endcapture %}
+
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }}{% if page.collection != nil and page.collection != 'posts' %} | {% assign thispagecollection = site.collections | where: "label", page.collection | first %}{{ thispagecollection.collectiontitle }}{% endif %} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% if categorynametitlecasefinal != "" %} | {{ categorynametitlecasefinal }}{% endif %} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">

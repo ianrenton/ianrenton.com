@@ -14,7 +14,7 @@ layout: default
 <main>
   <header class="post-header">
     {% comment %}Provide a link back to the page that "owns" this post (i.e. the category index){% endcomment %}
-    <nav class="backtocollectionindex"><a href="{{ categoryindexurl }}">&uarr; {{ categorynametitlecasefinal }}</a></nav>
+    <nav class="backtocategoryindex"><a href="{{ categoryindexurl }}">&uarr; {{ categorynametitlecasefinal }}</a></nav>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}{{ page.last_update | date: "<br/>Last updated on %A %-d %B %Y" }}</p>
   </header>
@@ -57,10 +57,10 @@ layout: default
     {% endif %}
     {% comment %} Display the category name as a link below pagination{% endcomment %}
     <div class="back-to-index">
-      <nav class="backtocollectionindex"><a href="{{ categoryindexurl }}">	&uarr; Up to {{ categorynametitlecasefinal }} index</a></nav>
+      <nav class="backtocategoryindex"><a href="{{ categoryindexurl }}">	&uarr; Up to {{ categorynametitlecasefinal }} index</a></nav>
     </div>
   </div>
 </main>
 
-{% comment %} If in a collection (i.e. not a blog post) or a blog post newer than the "LJ imported post" threshold, show comments box {% endcomment %}
-{% if pagedate >= threshold1 or page.collection != 'posts' %}{% include comments.html %}{% endif %}
+{% comment %} If in a non-blog category or a blog post newer than the "LJ imported post" threshold, show comments box {% endcomment %}
+{% if pagedate >= threshold1 or categoryslug != 'blog' %}{% include comments.html %}{% endif %}
