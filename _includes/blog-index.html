@@ -1,0 +1,50 @@
+<main>
+    <header>
+      {% if year %}
+        <h1>Blog Archive &mdash; {{year}}</h1>
+
+        <div class="pagination">{% if oldest_year == false %}<div class="pagination-left"><a href="../{{ year - 1 }}">&laquo; Back to {{ year - 1 }}</a></div>{% endif %}{% if newest_year != nil %}<div class="pagination-right"><a href="../{{ year + 1 }}">Forward to {{ year + 1 }} &raquo;</a></div>{% endif %}</div>
+      {% else %}
+        <h1>Blog</h1>
+      {% endif %}
+    </header>
+
+    {% if year == nil or year > 2019 %}
+      <nav class="cardindex" style="margin-top:2em">
+        <ul data-component class="card-list">
+          {% for post in posts %}
+            {% capture post-url %}{{ post.url | prepend: site.baseurl }}{% endcapture %}
+            {% capture image-url %}{{ post.image | prepend: site.baseurl }}{% endcapture %}
+            {% capture summary %}{{ post.content | markdownify | strip_html | truncatewords: 50 }}{% endcapture %}
+            {% capture meta %}{{ post.date | date: "Written on %A %-d %b %Y" }}{% endcapture %}
+                {% include card.html
+                type="horizontal-left"
+                title=post.title
+                url=post-url
+                image=image-url
+                meta=meta
+                description=summary
+                readmore-text="Read more &raquo;" %}
+          {% endfor %}
+        </ul>
+      </nav>
+
+
+    {% else %}
+      <div class="warning"><p>These are some pretty old posts! If they are of interest, feel free to browse. Alternatively, you can <a href="/blog/">skip to more recent entries</a> or <a href="/">head back to the homepage</a> to see some more up-to-date stuff.</p></div>
+      <nav>
+        <ul>
+          {% for post in posts %}
+            <li>
+              <h4><a href="{{ include.url }}">{{ include.title }}</a></h4>
+              <p class="post-meta">{{ include.meta }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+</main>
+
+{% if year %}
+  <div class="pagination">{% if oldest_year == false %}<div class="pagination-left"><a href="../{{ year - 1 }}">&laquo; Back to {{ year - 1 }}</a></div>{% endif %}{% if newest_year != nil %}<div class="pagination-right"><a href="../{{ year + 1 }}">Forward to {{ year + 1 }} &raquo;</a></div>{% endif %}</div>
+{% endif %}
