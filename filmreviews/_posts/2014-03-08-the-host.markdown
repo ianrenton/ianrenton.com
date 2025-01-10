@@ -41,4 +41,4 @@ By the Numbers
 Overall: 2 / 5
 --------------
 
-![Ducky... Momo...?](/filmreviews/thehost-duckymomo.jpg)
+![Ducky... Momo...?](/img/filmreviews/thehost-duckymomo.jpg)

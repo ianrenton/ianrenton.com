@@ -1,5 +1,5 @@
 _id: 6a9f3570-e41f-11eb-9cbf-3ffc4a08d5db
-_parent: 'https://ianrenton.com/hardware/planesailing/'
+_parent: 'https://ianrenton.com/projects/planesailing/'
 name: Rob Mac
 email: c3d32ceef76cbf1ea6b806b12f3fb9a9
 message: "Hey there excellent projecr there's an easier way to do this save you from renaming serial numbers on rtls etc etc..I had commented and emailed already. \r\nIm using a ais hat on my pi with aisdispatcher latest pi image. \r\nPlug your flightaware stick/sdr dongle into the same pi's USB port and install the piaware feeder setup only.\r\nEnter the skyaware 1090 config and change the http port so it don't clash with the aisdispatcher http port. Thats it !!!\r\nAis and adsb on one device \r\nThen you can side install your amazing army GUI on top."

@@ -3,7 +3,7 @@
 # Script to regenerate thumbnails after adding new photos.
 # Requires ImageMagick.
 
-REL_PATH="photography/images"
+REL_PATH="img/photos"
 YEAR_REGEX="[0-9]{4}"
 
 cd $REL_PATH

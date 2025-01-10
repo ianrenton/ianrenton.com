@@ -34,7 +34,7 @@ WHAT THE FUCK AM I DOING WITH MY LIFE.
 * Chefs later saved by guilt-tripping mice with super strength: 1
 * "I never really thought you'd come!": That's what she said.
 * Scenes with random grunting audio that would be much better dubbed over bad porn: 3
-* "Let me know when you see a change in the type of ice."<br/>![Types of Ice](/filmreviews/types-of-ice.jpg)
+* "Let me know when you see a change in the type of ice."<br/>![Types of Ice](/img/filmreviews/types-of-ice.jpg)
 * "Wait a minute, the film isn't over yet!": OH FUCK
 * Credits length, minutes: 12
 * Minutes fewer of actual film, mercifully: 12
@@ -44,4 +44,4 @@ WHAT THE FUCK AM I DOING WITH MY LIFE.
 "No. LSD trips are *much* more fun than this."
 
 ## Overall: NOPE NOPE NOPE NOPE NOPE nope nope nope nope<br/>
-![NOPE NOPE NOPE](/filmreviews/badger.gif)
+![NOPE NOPE NOPE](/img/filmreviews/badger.gif)

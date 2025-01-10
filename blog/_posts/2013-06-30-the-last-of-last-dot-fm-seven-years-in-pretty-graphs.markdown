@@ -17,7 +17,7 @@ tags:
 - history
 ---
 
-I started using [Last.fm](http://last.fm) back in 2006, in the final months of my time at University, and have carried on using it up until a few months ago, despite [coming to the conclusion that I should stop](http://blog.ianrenton.com/could-i-live-without/) back in 2011. Although the social media narcissism of "everyone must know what I'm listening to!" is no longer appealing in these days of over-sharing, I kept my Last.fm account around for its free "recommendations" streaming services until deciding earlier this year that a [Spotify](https://www.spotify.com) subscription was a worthwhile investment.
+I started using [Last.fm](http://last.fm) back in 2006, in the final months of my time at University, and have carried on using it up until a few months ago, despite [coming to the conclusion that I should stop](/blog/could-i-live-without/) back in 2011. Although the social media narcissism of "everyone must know what I'm listening to!" is no longer appealing in these days of over-sharing, I kept my Last.fm account around for its free "recommendations" streaming services until deciding earlier this year that a [Spotify](https://www.spotify.com) subscription was a worthwhile investment.
 
 I was reluctant to delete my account, though, as seven years of listening to over 30,000 songs is a lot of data &mdash; so much that it feels wrong to click a single button and pretend it never happened.
 

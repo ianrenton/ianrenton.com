@@ -1,5 +1,5 @@
 _id: c8fbc100-0cff-11ee-a755-514f74ba533b
-_parent: 'https://ianrenton.com/hardware/planesailing/'
+_parent: 'https://ianrenton.com/projects/planesailing/'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "Thanks for the information! I'll give AIS-catcher a try and see if it improves performance over rtl_ais.\r\n\r\nI don't think I can feed anything useful to airframes.io at the moment, unless it starts supporting ADS-B or similar. I would need *yet another* SDR to start receiving VDL/ACARS data!"

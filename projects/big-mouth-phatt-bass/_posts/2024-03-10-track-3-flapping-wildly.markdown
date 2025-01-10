@@ -23,7 +23,7 @@ While the ESP32 is a low power component compared to having a full computer in h
 
 I therefore took 6V from the red wire on the 6-pin header, and the switched 0V from the green wire. These were wired into the L298N's input power pins, and 5V & 0V then taken off to the breadboard power rails. The ESP32 could then be powered from the fish batteries.
 
-![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, both powered.](/projects/big-mouth-phatt-bass/8.jpg){: .center}
+![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, both powered.](/img/projects/big-mouth-phatt-bass/8.jpg){: .center}
 
 ## Motor Control
 
@@ -46,17 +46,17 @@ All ESP32 output pins can be used for PWM, so I wired a neat row of pins using r
 
 I then wired the outputs of the L298N to the JST socket to which the motors will be attached. The schematic now looked like this:
 
-<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-motors-only.png">
-<img src="/projects/big-mouth-phatt-bass/schematic-motors-only.png" alt="Schematic"/></a>
+<div class="breakout-full-width"><center><a href="/img/projects/big-mouth-phatt-bass/schematic-motors-only.png">
+<img src="/img/projects/big-mouth-phatt-bass/schematic-motors-only.png" alt="Schematic"/></a>
 </center></div>
 
 And the board like this:
 
-![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/projects/big-mouth-phatt-bass/9.jpg){: .center}
+![Rear shell of Billy Bass with breadboard in front. The breadboard has a motor driver and microprocessor board, and a mess of wiring.](/img/projects/big-mouth-phatt-bass/9.jpg){: .center}
 
 While in the solderless breadboard stage of prototyping on this project, I will also include Fritzing "layout" diagrams to aid understanding of what's going on:
 
-[![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors_bb.png)
+[![Breadboard layout diagram](/img/projects/big-mouth-phatt-bass/fritzing-motors_bb.png){: .center}](/img/projects/big-mouth-phatt-bass/fritzing-motors_bb.png)
 
 ## Hacking Code
 

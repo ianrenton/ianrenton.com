@@ -34,4 +34,4 @@ I've finished all the things I set out to achieve with this robot, in a total of
 
 I'm hoping we might be allowed to take the robot into school and maybe hold a competition for the kids to write a program to steer it around an obstacle course; or something similar &mdash; to make programming more exciting by taking it off the computer screen and into the real world. If the teachers don't let us do that, we might hook it up to the internet and have it controlled using redstone circuits on a Minecraft server!
 
-You can find a step-by-step guide to how I built the robot on the [All-Terrain Pi page](/hardware/atp) and [all the code](https://github.com/ianrenton/All-Terrain-Pi) is open source!
+You can find a step-by-step guide to how I built the robot on the [All-Terrain Pi page](/projects/atp) and [all the code](https://github.com/ianrenton/All-Terrain-Pi) is open source!

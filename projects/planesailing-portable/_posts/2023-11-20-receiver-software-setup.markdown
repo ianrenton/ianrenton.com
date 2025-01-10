@@ -71,7 +71,7 @@ Another PC on the network can then connect to it on this port. I used [SDRSharp]
 
 A standard simple test is to listen in to Radio 1:
 
-![SDRSharp screenshot showing RTL-TCP settings](/projects/planesailing-portable/sdrsharp.png){: .center}
+![SDRSharp screenshot showing RTL-TCP settings](/img/projects/planesailing-portable/sdrsharp.png){: .center}
 *SDRSharp screenshot showing RTL-TCP settings and Radio 1 streaming in the background*
 
 The Killers were immediately playing out of my PC speakers&mdash;so at the very least we have an extremely over-engineered FM broadcast radio receiver working! I was mildly concerned about the high noise floor though&mdash;it remained to be seen how badly this would impact packet decoding.
@@ -101,7 +101,7 @@ Finally, I used `sudo systemctl stop rtl_tcp` to stop the service before I start
 
 ### AIS-Catcher
 
-AIS-Catcher was built from source using the same method as in [the main Plane/Sailing system AIS setup guide](/hardware/planesailing/ais-receiver/):
+AIS-Catcher was built from source using the same method as in [the main Plane/Sailing system AIS setup guide](/projects/planesailing/ais-receiver/):
 
 ```bash
 sudo apt install git make gcc g++ cmake pkg-config libcurl4-openssl-dev zlib1g-dev
@@ -121,7 +121,7 @@ Then tested using:
 /usr/local/bin/AIS-catcher -d:0 -gr RTLAGC on TUNER auto -a 192K
 ```
 
-![AIS-Catcher command-line output](/projects/planesailing-portable/ais-output.png)
+![AIS-Catcher command-line output](/img/projects/planesailing-portable/ais-output.png)
 
 This worked well for a while, but eventually started printing "RTLSDR: buffer overrun" warnings. The [AIS-Catcher README](https://github.com/jvde-github/AIS-catcher) suggests that the `-F` flag for fast downsampling may be needed on the Pi Zero, and there some additional suggestions in [this thread](https://github.com/jvde-github/AIS-catcher/issues/34) which I used as well. My eventual choice of command-line to minimise issues was:
 
@@ -155,7 +155,7 @@ This is slightly modified from the version on the Plane/Sailing server, because 
 
 The example above also *only* sends data to Plane/Sailing server; it can of course be extended with other `-u` arguments to send data to MarineTraffic and other online services.
 
-![AIS vessels visible in the Plane/Sailing interface in two different locations](/projects/planesailing-portable/ais-coverage.png)
+![AIS vessels visible in the Plane/Sailing interface in two different locations](/img/projects/planesailing-portable/ais-coverage.png)
 *Plane/Sailing Portable providing AIS coverage in the Weymouth area, while the main system covers Poole to the Solent*
 
 I then used `sudo systemctl daemon-reload` to update and `sudo systemctl start ais-catcher` to start it to ensure the service works. I avoided `sudo systemctl enable ais-catcher` (which would make it run on startup) at this stage, as we will later sort out scripts to stop and start AIS-Catcher along with the other applications.
@@ -164,7 +164,7 @@ Finally, I used `sudo systemctl stop ais-catcher` to stop the service before I s
 
 ### Dump1090
 
-Dump1090 was installed from FlightAware's Raspberry Pi repository as described on the [the main Plane/Sailing system ADS-B setup guide](/hardware/planesailing/adsb-receiver/):
+Dump1090 was installed from FlightAware's Raspberry Pi repository as described on the [the main Plane/Sailing system ADS-B setup guide](/projects/planesailing/adsb-receiver/):
 
 ```bash
 wget https://uk.flightaware.com/adsb/piaware/files/packages/pool/piaware/f/flightaware-apt-repository/flightaware-apt-repository_1.2_all.deb
@@ -175,7 +175,7 @@ sudo apt install dump1090-fa
 
 On install, Dump1090 starts its own service&mdash;and lighttpd&mdash;so the PiAware web interface will immediately be available on port 8080 from a web browser.
 
-![Screenshot of PiAware showing 4 planes](/projects/planesailing-portable/flightaware.png){: .center}
+![Screenshot of PiAware showing 4 planes](/img/projects/planesailing-portable/flightaware.png){: .center}
 *An untuned antenna, indoors at ground level is not the ideal set of conditions for tracking a lot of planes.*
 
 Once set up, feeder software such as PiAware can also be set up in order to send the data to flight tracking websites as well as Plane/Sailing. These applications typically include an interactive setup on install that prompts you for the location of the receiver to enable MLAT. For a portable system, unless it is intended to only ever remain in one place (or unless a GPS receiver is fitted - see later), the location should *not* be set. If it's set and the system is moved, it will mess up MLAT calculations in the local area.
@@ -195,7 +195,7 @@ sudo systemctl stop lighttpd
 
 ### Direwolf
 
-Direwold was installed from the operating system repositories as described on the [the main Plane/Sailing system APRS setup guide](/hardware/planesailing/aprs-receiver/):
+Direwold was installed from the operating system repositories as described on the [the main Plane/Sailing system APRS setup guide](/projects/planesailing/aprs-receiver/):
 
 ```bash
 sudo apt install direwolf

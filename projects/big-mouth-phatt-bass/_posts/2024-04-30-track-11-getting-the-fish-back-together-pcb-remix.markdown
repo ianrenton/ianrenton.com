@@ -19,7 +19,7 @@ I imposed the design constraints that I wanted all the connectors at one end of 
 
 I used [Veroroute](https://sourceforge.net/projects/veroroute/) to design the perfboard layout, and after a while of moving components around, I settled on the following to meet the requirements:
 
-![Veroroute design](/projects/big-mouth-phatt-bass/veroroute.png){: .center}
+![Veroroute design](/img/projects/big-mouth-phatt-bass/veroroute.png){: .center}
 
 The design was made to fit within the bounds of a common 30x26 hole perfboard sheet. JST connectors are located at the top in a neat row; the micro-USB socket is to the left and the SD card ejects to the right-hand side.
 
@@ -27,8 +27,8 @@ In order to neatly line up the motor driver board with the ESP32, I made a minor
 
 The schematic for the perfboard is as follows:
 
-<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-perfboard.png">
-<img src="/projects/big-mouth-phatt-bass/schematic-perfboard.png" alt="Schematic"/></a>
+<div class="breakout-full-width"><center><a href="/img/projects/big-mouth-phatt-bass/schematic-perfboard.png">
+<img src="/img/projects/big-mouth-phatt-bass/schematic-perfboard.png" alt="Schematic"/></a>
 </center></div>
 
 ## This One Goes to 11
@@ -41,31 +41,31 @@ I wanted to keep the same components and rough board layout, while minimising th
 
 I began with a new schematic which only contained the board components rather than showing the external fish electronics, and added naming and classifying of the nets. At this stage I also reverted to the original pin allocations on the ESP32 from the solderless breadboard stage, as I had no need to make concessions for the perfboard.
 
-<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-pcb.png">
-<img src="/projects/big-mouth-phatt-bass/schematic-pcb.png" alt="Schematic"/></a>
+<div class="breakout-full-width"><center><a href="/img/projects/big-mouth-phatt-bass/schematic-pcb.png">
+<img src="/img/projects/big-mouth-phatt-bass/schematic-pcb.png" alt="Schematic"/></a>
 </center></div>
 
 I then progressed to the PCB design view in Kicad, laying out the board to be as compact as possible given the components required. I couldn't quite manage zero vias, but in the end needed one. So close!
 
-![PCB design](/projects/big-mouth-phatt-bass/pcbdesign.png){: .center}
+![PCB design](/img/projects/big-mouth-phatt-bass/pcbdesign.png){: .center}
 
-![PCB 3D model](/projects/big-mouth-phatt-bass/3dmodel.png){: .center}
+![PCB 3D model](/img/projects/big-mouth-phatt-bass/3dmodel.png){: .center}
 
-You can [download the Gerber files here](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip).
+You can [download the Gerber files here](/files/projects/big-mouth-phatt-bass/phattbass-gerbers.zip).
 
 I had the board manufactured by [JLC PCB](https://jlcpcb.com/) for the princely sum of two dollars. If you're following this guide, they can make one for you too&mdash;and if you're in the UK, MOQ was 5 so I have four spare boards, and will send you one for free if you like.
 
-![PCB removed from packet](/projects/big-mouth-phatt-bass/23.jpg){: .center}
+![PCB removed from packet](/img/projects/big-mouth-phatt-bass/23.jpg){: .center}
 
 All that's left on the hardware side was to fit the parts and solder it up.
 
-![Three main components and four JST connectors on a PCB motherboard](/projects/big-mouth-phatt-bass/24.jpg){: .center}
+![Three main components and four JST connectors on a PCB motherboard](/img/projects/big-mouth-phatt-bass/24.jpg){: .center}
 
 My soldering skills are trash so I'm not sure if I found it a challenge to solder just because of that, or because the pads were quite small. It was also a minor challenge to get the ESP32 Devkit lined up well enough that the pins went in. If I were to remake the project I might consider increasing the hole and pad sizes around the legs of the main components.
 
 The PCB only *just* fits in the enclosure, at a slightly dodgy angle, and with the connector/component side towards the front of the fish. My soldering is therefore unfortunately on show during my a last check that the dimensions are right.
 
-![Rear of the PCB held in place inside the fish enclosure](/projects/big-mouth-phatt-bass/26.jpg){: .center}
+![Rear of the PCB held in place inside the fish enclosure](/img/projects/big-mouth-phatt-bass/26.jpg){: .center}
 
 But at long last, we can *finally* put the fish back together. No more fragile breadboard hanging out of the back!
 

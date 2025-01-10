@@ -4,7 +4,7 @@ layout: page
 title: Field Spotter
 slug: field-spotter
 description: "A mobile Amateur Radio spotting tool for POTA, SOTA & WWFF"
-image: /projects/field-spotter/banner.png
+image: /img/projects/field-spotter/banner.png
 date: 2024-09-12 00:00:00
 ---
 
@@ -14,7 +14,7 @@ It is provided as a web site, and also as a Progressive Web App for installation
 
 [Click here to try it out, on desktop or mobile!](https://fieldspotter.radio/)<br/><br/>
 
-![Photo of Field Tracker being used on a phone, in a field](/projects/field-spotter/field-use-photo-1.jpg){: .center}
+![Photo of Field Tracker being used on a phone, in a field](/img/projects/field-spotter/field-use-photo-1.jpg){: .center}
 
 ## Motivation
 
@@ -30,29 +30,29 @@ Field Spotter was developed over the course of a week during September 2024.
 
 The development process started with some sketched out mockups of how the user interface might look. I decided on a mobile-first interface which would be adapted for desktop, rather than the other way around, to improve its usability in the field.
 
-![A page of a notebook with a GUI mockup drawn on it](/projects/field-spotter/sketch.jpg){: .center}
+![A page of a notebook with a GUI mockup drawn on it](/img/projects/field-spotter/sketch.jpg){: .center}
 
-The layout started off looking rather like [Plane/Sailing](/hardware/planesailing) because I simply grabbed the code from that project and started hacking away at it. Field Spotter is not (yet?) as configurable in terms of map layers and overlays, and it uses different filters, different map markers and so on, but there is quite a bit of similarity there in the code.
+The layout started off looking rather like [Plane/Sailing](/projects/planesailing) because I simply grabbed the code from that project and started hacking away at it. Field Spotter is not (yet?) as configurable in terms of map layers and overlays, and it uses different filters, different map markers and so on, but there is quite a bit of similarity there in the code.
 
 The idea of mobile use also guided the development of the GUI to use a light theme rather than the dark theme that Plane/Sailing generally uses.
 
 The first step in development was to hack out all the configurability and all the symbology used on the map, along with any other Plane/Sailing code that would not be unnecessary here. Then, I added the queries to the POTA and SOTA APIs and the mangling of data into a standardised data structure, and added markers to the Leaflet map to display them.
 
-![Markers on a map](/projects/field-spotter/markers.png){: .center}
+![Markers on a map](/img/projects/field-spotter/markers.png){: .center}
 
 I decided to colour the markers using the same colour scheme as PSK Reporter, for those used to that way of identifying the different amateur radio bands. I then added popups to display more information about each spot, and a line joining the spot to "you" (determined by geolocation) to better illustrate the distance and bearing.
 
-![Markers on a map, one with a popup](/projects/field-spotter/ss-desktop-popup-small-longrange.png){: .center}
+![Markers on a map, one with a popup](/img/projects/field-spotter/ss-desktop-popup-small-longrange.png){: .center}
 
 I chose to implement three pop-out panels similar to Plane/Sailing, this time using simpler iconography. I also had them pop out of the side and become fullscreen on mobile devices, while remaining to the side on the desktop. This provides a less cluttered experience which is more suitable for using in the field.
 
-![Mobile UI with three buttons shown](/projects/field-spotter/ss-mobile-buttons.png){: .center}
+![Mobile UI with three buttons shown](/img/projects/field-spotter/ss-mobile-buttons.png){: .center}
 
 The information panel provides some helpful instructions, links, and a button to install the Field Spotter PWA to the home screen of mobile devices.
 
 The config panel provides filtering options for programme, mode and band, to help you restrict your search to only what you are interested in. It also provides the ability to show only recent spots, and shows API query information.
 
-![Mobile UI with config panel shown](/projects/field-spotter/ss-mobile-config.png){: .center}
+![Mobile UI with config panel shown](/img/projects/field-spotter/ss-mobile-config.png){: .center}
 
 The third, and most complex, of the pop-out panels was the band view.
 
@@ -62,13 +62,13 @@ This allows you, for example, to pan the map to north-western Europe and select 
 
 I originally intended this to be a horizontal panel at the bottom of the screen, but while this worked fine on the desktop, it was too cluttered to be useful on mobile. Taking inspiration from logging software such as N1MM that can show spots on a vertical list, I moved the band display so that it was full-screen on mobile and vertically oriented.
 
-![Mobile UI with bands panel shown](/projects/field-spotter/ss-mobile-bands.png){: .center}
+![Mobile UI with bands panel shown](/img/projects/field-spotter/ss-mobile-bands.png){: .center}
 
 When the spots in view are in more than three bands, this view scrolls horizontally to allow space for all the bands and their spots to be shown. It can also scroll vertically if there are too many spots in a band, but normally the band is scaled to the full height of the window.
 
 The same functionality is present when the site is viewed on a desktop browser as well.
 
-![Desktop UI with bands panel shown](/projects/field-spotter/ss-desktop-bands.png){: .center}
+![Desktop UI with bands panel shown](/img/projects/field-spotter/ss-desktop-bands.png){: .center}
 
 ## Post-Release Features
 
@@ -76,7 +76,7 @@ Support for WWFF was a common request from folks trying out the software within 
 
 Another interesting request I had was for a "passive mode" similar to software such as [HamClock](https://www.clearskyinstitute.com/ham/HamClock/). In this mode, Field Spotter is designed for use by hunters in their shack on a secondary always-on display. The user can then see at a glance if any activity is happening nearby.
 
-![Desktop UI in passive mode, running on a tablet next to a radio](/projects/field-spotter/passive-mode-photo.jpg){: .center}
+![Desktop UI in passive mode, running on a tablet next to a radio](/img/projects/field-spotter/passive-mode-photo.jpg){: .center}
 
 Of course, the community has provided many more minor feature requests and bug reports too, all greatly appreciated.
 

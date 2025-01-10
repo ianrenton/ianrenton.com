@@ -16,4 +16,4 @@ Later, a camp site was found, which looked to have been used some days before. O
 
 Thereafter the adventurers headed south-east, the way from which the Orcs had come, away from the mountains and following the river down towards the foothills and the plains. The session ended on their second night of their quest, where as they made camp, they spotted smoke coming from the mountains to the north...
 
-![Session 1 Map](https://ianrenton.com/rpgs/smoke-on-the-horizon/session1map.jpg)
+![Session 1 Map](https://ianrenton.com/img/rpgs/smoke-on-the-horizon/session1map.jpg)

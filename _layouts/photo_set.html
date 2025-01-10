@@ -3,7 +3,7 @@ layout: custompage-withheadfoot
 ---
 
 {% assign set = page.photos.set %}
-{% assign setbasepath = 'photography/images/' | append: set | append: '/' %}
+{% assign setbasepath = '/img/photos/' | append: set | append: '/' %}
 
 <main>
   <header class="post-header">
@@ -18,7 +18,7 @@ layout: custompage-withheadfoot
           {% if image.path contains '/thumbs/' %}
           {% else %}
               {% assign imagefilename = image.path | remove : setbasepath %}
-              {% assign thumbnailpath = '/' | append: setbasepath | append: 'thumbs/' | append: imagefilename %}
+              {% assign thumbnailpath = setbasepath | append: 'thumbs/' | append: imagefilename %}
               <a href="{{ image.path }}"><img class="galleryphoto" src="{{ thumbnailpath }}" alt="Photo from {{ set }}"></a>
           {% endif %}
       {% endif %}

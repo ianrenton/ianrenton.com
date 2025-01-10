@@ -48,4 +48,4 @@ And I think we're done here.
 
 ## Overall: 3 / 5
 
-![I've no idea what you're talking about, so here's Johnny Depp with a bird on his head](/filmreviews/tonto.jpg)
+![I've no idea what you're talking about, so here's Johnny Depp with a bird on his head](/img/filmreviews/tonto.jpg)

@@ -12,7 +12,7 @@ tags:
 - interaction
 ---
 
-Like many angsty young adults, I spent the last few months of my time at University [wondering what would become of the friendships I'd made there](http://blog.ianrenton.com/and-so-the-exodus-begins/) &mdash; which friends I'd keep in touch with; how often I'd see them. Having lived and worked with many of them, and shared each other's lives in such minute detail, how could I deal with not having that constant interaction any more?
+Like many angsty young adults, I spent the last few months of my time at University [wondering what would become of the friendships I'd made there](/blog/and-so-the-exodus-begins/) &mdash; which friends I'd keep in touch with; how often I'd see them. Having lived and worked with many of them, and shared each other's lives in such minute detail, how could I deal with not having that constant interaction any more?
 
 Then, something magical happened.
 

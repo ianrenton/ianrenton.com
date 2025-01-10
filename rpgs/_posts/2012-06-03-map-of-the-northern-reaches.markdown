@@ -17,4 +17,4 @@ The other characters do not know what yours knows, geography-wise.  He can tell 
 
 <br/>
 
-<a href="/rpgs/northernreaches.jpg"><img src="/rpgs/northernreaches-792x1024.jpg" alt="Map of the Northern Reaches" title="Map of the Northern Reaches" width="500" height="646" class="aligncenter size-large wp-image-12069" /></a>
+<a href="/img/rpgs/northernreaches.jpg"><img src="/img/rpgs/northernreaches-792x1024.jpg" alt="Map of the Northern Reaches" title="Map of the Northern Reaches" width="500" height="646" class="aligncenter size-large wp-image-12069" /></a>

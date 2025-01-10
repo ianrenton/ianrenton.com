@@ -14,7 +14,7 @@ tags:
 
 First of all, a big shout out to _les hommes et femmes_ at [http://korben.info/](http://korben.info/), who today have taught me an important lesson.
 
-At about 9:30 today, they posted a list of [50 things to do with your Raspberry Pi](http://korben.info/idees-raspberry-pi.html), which included the [Raspberry Tank](http://blog.ianrenton.com/raspberry-tank-build-diary). At about 9:40, my web server melted.  This is the disk I/O graph:
+At about 9:30 today, they posted a list of [50 things to do with your Raspberry Pi](http://korben.info/idees-raspberry-pi.html), which included the [Raspberry Tank](/blog/raspberry-tank-build-diary). At about 9:40, my web server melted.  This is the disk I/O graph:
 
 [![Sparrowhawk Disk I/O Graph](/img/blog/2013/01/generate_graph.pl2_-600x258.png)](/img/blog/2013/01/generate_graph.pl2_.png)
 

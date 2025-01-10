@@ -21,7 +21,7 @@ message: >-
   two ports on the RX-18 that don't (normally) have anything plugged in have
   specific purposes relating to the "infra-red battle system" that you can buy
   for these tanks (<a
-  href="http://blog.ianrenton.com/wp-content/uploads/2012/12/raspberry-tank-schematic.png"
+  href="/blog/wp-content/uploads/2012/12/raspberry-tank-schematic.png"
   rel="nofollow noopener">see schematic</a>), so I don't believe the outputs on
   their pins can be controlled independently via remote control or RPi. Most
   simple pan/tilt brackets use quite basic servomotors, which you can't drive

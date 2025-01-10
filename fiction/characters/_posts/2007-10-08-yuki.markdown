@@ -11,7 +11,7 @@ tags:
 - Everlasting
 ---
 
-<p><img src="/fiction/characters/portraits/yuki.png" style="float:right" /></p>
+<p><img src="/img/fiction/characters/portraits/yuki.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"There seems very little to say.  I am snow and ice, sleet and the cruel north wind.  These are not mere concepts with which I identify, they <i>are</i> me and I am them.</p>

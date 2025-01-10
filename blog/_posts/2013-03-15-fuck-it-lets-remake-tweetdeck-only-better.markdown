@@ -14,13 +14,13 @@ tags:
 - Twitter
 ---
 
-It's no secret that, since [the launch of version 2.0](http://blog.ianrenton.com/announcing-successwhale-version-2-0/) back in July of 2011, my [SuccessWhale](https://successwhale.com) social network client has stagnated somewhat. It had reached that point at which it did everything that I needed it to do, and so my enthusiasm for updating it kind of disappeared.
+It's no secret that, since [the launch of version 2.0](/blog/announcing-successwhale-version-2-0/) back in July of 2011, my [SuccessWhale](https://successwhale.com) social network client has stagnated somewhat. It had reached that point at which it did everything that I needed it to do, and so my enthusiasm for updating it kind of disappeared.
 
 ![](/img/blog/2013/03/successwhale2.png){: .center}
 
 > SuccessWhale 2.0
 
-Well, no longer. [Twitter discontinued TweetDeck](http://blog.ianrenton.com/alas-poor-tweetdeck/), the only Android client that merged Twitter notifications and Facebook feeds without sucking. At the same time it discontinued TweetDeck's desktop client, and removed Facebook support from the web-based client.
+Well, no longer. [Twitter discontinued TweetDeck](/blog/alas-poor-tweetdeck/), the only Android client that merged Twitter notifications and Facebook feeds without sucking. At the same time it discontinued TweetDeck's desktop client, and removed Facebook support from the web-based client.
 
 That _really sucks_.
 

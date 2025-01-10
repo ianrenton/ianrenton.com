@@ -1,5 +1,5 @@
 _id: 90ba6c50-e7dc-11eb-ac83-596197ddff74
-_parent: 'https://ianrenton.com/hardware/planesailing/'
+_parent: 'https://ianrenton.com/projects/planesailing/'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "No worries! It's definitely possible to blacklist the FlightAware dongle if you need to, and since your AIS hat uses different hardware, that will still work. But I am a bit confused as to why you'd do that when you could just unplug it!\r\n\r\nIt's definitely possible to run the front end website on the same PC as well. I host mine on GitHub just because it's easy, but you could equally well run it using nginx on the same PC that runs everything else. Let me know if you'd like me to generate an example config for you."

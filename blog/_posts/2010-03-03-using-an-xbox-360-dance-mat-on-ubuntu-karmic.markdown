@@ -173,4 +173,4 @@ Now we have to make sure that's executable and that it runs on startup:
 
 Aaaand at long last, you should be done.  Reboot, and your dance mat should work properly with no extra configuration.  If you're using StepMania, remember to map the mat's controls before playing.  If you've not drunk that cup of tea yet, it's probably cold!
 
-_If you're looking for a similar guide for OpenSuSE, I've just discovered [this post](http://forums.opensuse.org/hardware/415316-my-xbox-360-controller-controls-mouse.html#post1992693) which is similar to the post you're reading, but with OpenSuSE-specific init script instructions._
+_If you're looking for a similar guide for OpenSuSE, I've just discovered [this post](http://forums.opensuse.org/projects/415316-my-xbox-360-controller-controls-mouse.html#post1992693) which is similar to the post you're reading, but with OpenSuSE-specific init script instructions._

@@ -9,7 +9,7 @@ comments: true
 Synopsis
 --------
 
-![what is this i dont even](/filmreviews/disaster-movie/what-is-this-i-dont-even.jpg)
+![what is this i dont even](/img/filmreviews/disaster-movie/what-is-this-i-dont-even.jpg)
 
 By the Numbers
 --------------
@@ -33,7 +33,7 @@ By the Numbers
 * Unlikely dating scenarios: 87
 * Drugs the scriptwriters were on: ALL THE DRUGS
 
-![9999](/filmreviews/disaster-movie/9999.jpg)
+![9999](/img/filmreviews/disaster-movie/9999.jpg)
 
 Overall: -9999 / 5
 ------------------

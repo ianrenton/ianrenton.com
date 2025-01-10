@@ -19,7 +19,7 @@ This morning I half-heartedly posted on Facebook:
 
 > Today's Game Theory problem: pick an ideal date for picking sloes, bearing in mind current warm/wet weather predictions for October and a population density of 10000/sq.mi. of other potential sloe pickers. (10 marks)
 
-Well, I'm bored, so let's get our geek on.  [Again.](http://blog.ianrenton.com/windy-morning-mechanics-how-big-a-sail-do-i-need-to-fly-away/)
+Well, I'm bored, so let's get our geek on.  [Again.](/blog/windy-morning-mechanics-how-big-a-sail-do-i-need-to-fly-away/)
 
 ## The Weather
 

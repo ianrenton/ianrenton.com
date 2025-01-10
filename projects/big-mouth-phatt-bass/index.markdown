@@ -2,7 +2,7 @@
 comments: true
 layout: page
 title: Big Mouth Phatt Bass
-image: /projects/big-mouth-phatt-bass/main.jpg
+image: /img/projects/big-mouth-phatt-bass/main.jpg
 ---
 
 Imagine, if you will, the heady early days of the 2000s. The Millennium had come and gone, and things were looking bright. Warp Brothers' hit [*Phatt Bass*](https://www.youtube.com/watch?v=Ca-r-U5ybx4&pp=ygUYd2FycCBicm90aGVycyBwaGF0dCBiYXNz) was doing the rounds in the clubs, and for an altogether different demographic, [Big Mouth Billy Bass](https://en.wikipedia.org/wiki/Big_Mouth_Billy_Bass) was taking the world by storm.
@@ -40,17 +40,17 @@ If you want to see more details, the full development process, or just more vide
 
 Inside the fish, the stock PCB has been replaced by a custom one, hosting an ESP32 microcontroller, TB6612 motor driver, and MP3-TF-16P audio player. As well as singing "Phatt Bass", a number of other tracks can be loaded from the SD card with corresponding lip-sync routines.
 
-![A Billy Bass opened up with a bunch of wires from it leading to a PCB.](/projects/big-mouth-phatt-bass/main.jpg){: .center}
+![A Billy Bass opened up with a bunch of wires from it leading to a PCB.](/img/projects/big-mouth-phatt-bass/main.jpg){: .center}
 
 Links to key pages & files:
 
 * [Quick Start Guide](/projects/big-mouth-phatt-bass/start)
 * [Bill of Materials](/projects/big-mouth-phatt-bass/bom)
-* [Kicad Project (development schematics)](/projects/big-mouth-phatt-bass/phattbass-development-schematics.zip)
-* [Kicad Project (PCB)](/projects/big-mouth-phatt-bass/phattbass-pcb.zip)
-* [PCB Gerber & Drill Files](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip)
+* [Kicad Project (development schematics)](/files/projects/big-mouth-phatt-bass/phattbass-development-schematics.zip)
+* [Kicad Project (PCB)](/files/projects/big-mouth-phatt-bass/phattbass-pcb.zip)
+* [PCB Gerber & Drill Files](/files/projects/big-mouth-phatt-bass/phattbass-gerbers.zip)
 * [ESP32 Source Code](https://github.com/ianrenton/big-mouth-phatt-bass)
-* [SD Card Files](/projects/big-mouth-phatt-bass/sdcard.zip)
+* [SD Card Files](/files/projects/big-mouth-phatt-bass/sdcard.zip)
 
 ## Encores
 

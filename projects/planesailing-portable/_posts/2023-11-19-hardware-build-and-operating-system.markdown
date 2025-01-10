@@ -14,12 +14,12 @@ To test the concept, I first put together an initial prototype of the hardware. 
 
 I did consider removing the case of the RTL-SDR to reduce the size of the unit slightly, however I couldn't find much information about this online, and given concerns about heat and electromagnetic interference, I decided to leave the case attached.
 
-![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype.jpg){: .center}
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/img/projects/planesailing-portable/prototype.jpg){: .center}
 *The first prototype, with chunky USB connector, cardboard spacer and cable ties*
 
 Once the rest of the parts arrived, the build could be improved somewhat with a smaller USB adapter and the perspex "case" parts providing extra rigidity.
 
-![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/projects/planesailing-portable/prototype2a.jpg){: .center}
+![A Raspberry Pi Zero W, USB pHAT and RTL-SDR dongle attached together](/img/projects/planesailing-portable/prototype2a.jpg){: .center}
 *The second prototype, improving the neatness of the unit*
 
 ### Raspberry Pi OS Setup
@@ -28,7 +28,7 @@ Once the rest of the parts arrived, the build could be improved somewhat with a 
 
 The tool now offers a way to customise things like the WiFi credentials and enable SSH right from the GUI, which is nice:
 
-![Screenshot of the Raspberry Pi OS Imager showing customisation settings](/projects/planesailing-portable/pi-imager-customisation.png){: .center}
+![Screenshot of the Raspberry Pi OS Imager showing customisation settings](/img/projects/planesailing-portable/pi-imager-customisation.png){: .center}
 *Customisation options in Raspberry Pi OS Imager*
 
 Setting up the WiFi once for my home network is fine, but what about when moving to a new location? Luckily, there is a way around this&mdash;though not an ideal one, as it involves editing a file on the SD card every time. By creating a file at `/boot/wpa_supplicant.conf` on the Pi, we can get it to copy the settings in it to its internal config on startup. (When the SD card is accessed from a Windows PC, `/boot` is the only visible partition, so it's just dropping a `wpa_supplicant.conf` file in there.)

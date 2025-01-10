@@ -74,7 +74,7 @@ The measured levels are as follows:
 | Indoors, room lights on  | 200                   |
 | Phone torch 3cm away     | 0                     |
 
-![Using the serial console to check light level data](/projects/big-mouth-phatt-bass/12.jpg){: .center}
+![Using the serial console to check light level data](/img/projects/big-mouth-phatt-bass/12.jpg){: .center}
 
 ## The Choice
 
@@ -149,10 +149,10 @@ void trigger() {
 
 With the new components in place, the wiring looks like this:
 
-<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-full.png">
-<img src="/projects/big-mouth-phatt-bass/schematic-full.png" alt="Schematic"/></a>
+<div class="breakout-full-width"><center><a href="/img/projects/big-mouth-phatt-bass/schematic-full.png">
+<img src="/img/projects/big-mouth-phatt-bass/schematic-full.png" alt="Schematic"/></a>
 </center></div>
 
-[![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-full_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-full_bb.png)
+[![Breadboard layout diagram](/img/projects/big-mouth-phatt-bass/fritzing-full_bb.png){: .center}](/img/projects/big-mouth-phatt-bass/fritzing-full_bb.png)
 
-![A breadboard and a mess of wiring connected to two halves of a Billy Bass](/projects/big-mouth-phatt-bass/13.jpg){: .center}
+![A breadboard and a mess of wiring connected to two halves of a Billy Bass](/img/projects/big-mouth-phatt-bass/13.jpg){: .center}

@@ -10,7 +10,7 @@ tags:
 image: /img/blog/2022/homeservers-small.jpg
 ---
 
-In a move that feels almost heretical, given my history with the devices, I am moving away from using Raspberry Pi computers for my various "home server" projects. This has been driven in particular by a desire to tidy up the area of desk used for [Plane/Sailing](/hardware/planesailing) by powering all three RTL-SDR dongles straight from a PC, without the added hassle of a powered USB hub. Inspired by videos and posts I've seen online, I have switched out my Pis for Lenovo M93p Tiny desktop computers.
+In a move that feels almost heretical, given my history with the devices, I am moving away from using Raspberry Pi computers for my various "home server" projects. This has been driven in particular by a desire to tidy up the area of desk used for [Plane/Sailing](/projects/planesailing) by powering all three RTL-SDR dongles straight from a PC, without the added hassle of a powered USB hub. Inspired by videos and posts I've seen online, I have switched out my Pis for Lenovo M93p Tiny desktop computers.
 
 ![Two Lenovo M93p Tiny PCs](/img/blog/2022/homeservers.jpg){: .center}
 *My new home server setup, consisting of two Lenovo M93p Tiny PCs*

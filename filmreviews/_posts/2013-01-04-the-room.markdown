@@ -26,8 +26,8 @@ Exit stage right: OUR WILL TO LIVE.
   * Instances of inexplicable American Football: 5
   * [Half-drunk Croatian cyborgs](http://www.imdb.com/title/tt0368226/reviews?start=1): 1
   * Hilarious wife-beating stories: 1
-  * [![derp](/filmreviews/the-room/derp.png)](/filmreviews/the-room/derp.png): 23
-  * [![druuuugs](/filmreviews/the-room/druuuugs.png)](/filmreviews/the-room/druuuugs.png): 87
+  * [![derp](/img/filmreviews/the-room/derp.png)](/img/filmreviews/the-room/derp.png): 23
+  * [![druuuugs](/img/filmreviews/the-room/druuuugs.png)](/img/filmreviews/the-room/druuuugs.png): 87
   * Sex: 48
   * Drugs: 16
   * Rock and Roll: -224

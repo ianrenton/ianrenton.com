@@ -8,7 +8,7 @@ date: 2017-10-07T21:00:00+01:00
 
 Young HP LOVECRAFT visits HIS FATHER in a MENTAL ASYLUM, where the FATHER largely rants about a MAD ARAB and a BOOK that must be destroyed. HOWARD, traumatised by the experience, is wisely given his father's MAGIC SPELLBOOK which teleports him to the "Frozen Kingdom" of R'YLEH.
 
-![O R'yleh](/filmreviews/orlyeh.jpg){: .center}
+![O R'yleh](/img/filmreviews/orlyeh.jpg){: .center}
 
 # By the Numbers
 
@@ -29,8 +29,8 @@ Young HP LOVECRAFT visits HIS FATHER in a MENTAL ASYLUM, where the FATHER largel
 * Girls called Abdul: 1
 * Nyarlathoteps just casually chilling in the background: 1
 * Goblins slapped to death by tiny Deep Ones: Yeah, that happened
-* ![This isn't even my final form!](/filmreviews/Final-Form.jpg): That too
+* ![This isn't even my final form!](/img/filmreviews/Final-Form.jpg): That too
 
-# Overall: ![Elder Sign](/filmreviews/elder-sign.png) / 5
+# Overall: ![Elder Sign](/img/filmreviews/elder-sign.png) / 5
 
 "Did you know a shoggoth can squish a penguin?!"

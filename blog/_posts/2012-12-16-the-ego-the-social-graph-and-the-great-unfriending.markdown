@@ -29,4 +29,4 @@ So for whom am I updating, and publishing, what has become known as my "Social G
 
 At best, "unfriending" on Facebook seems like something that is done by spurned teenage girls complaining about how much of a bitch their ex-"BFF" turned out to be. At worst, it seems like an outright denial that you have ever known a person. But what benefit does a user get from declaring themselves "friends" with someone they've said not a single word to in ten years?
 
-If, as I have [previously bemoaned](http://blog.ianrenton.com/could-i-live-without/), I still don't want to quit Facebook entirely, then I fear a Great Unfriending may be nigh.
+If, as I have [previously bemoaned](/blog/could-i-live-without/), I still don't want to quit Facebook entirely, then I fear a Great Unfriending may be nigh.

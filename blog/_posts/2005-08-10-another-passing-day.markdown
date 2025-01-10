@@ -12,6 +12,6 @@ It turns out that I couldn't get a doctor's appointment for today, so I'm going 
 
 Success reports from the latter two:  
 
-<a href="http:/rpgs/maps/avalon.jpg">Avalon Second Prototype Map</a>  
+<a href="http:/img/rpgs/maps/avalon.jpg">Avalon Second Prototype Map</a>
 
 And, with about as many responses on either side of my MSN screen name "Please stop me from spending £56 on costume!"...  I just spent £56 on costume.  Oh well...

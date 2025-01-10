@@ -22,7 +22,7 @@ The first step to make this happen was to allow multiple connections of each typ
 
 The JSON protocol and client UI code were also updated to reflect the back-end server changes, so now if you have multiple computers providing input, they are all shown separately in the server telemetry.
 
-![Plane/Sailing client showing server telemetry with three sources](/projects/planesailing-portable/planesailingtelemetry.png){: .center}
+![Plane/Sailing client showing server telemetry with three sources](/img/projects/planesailing-portable/planesailingtelemetry.png){: .center}
 *Plane/Sailing client showing server telemetry with three sources*
 
 Great! Plane/Sailing Server can now connect to Dump1090 & Direwolf on its own network, as well as Dump1090 or Direwolf on the portable system. But how does it find the portable system? It's running on ad-hoc WiFi networks, and even using mobile phone tethering, so it's not so easy to give Plane/Sailing Server an IP address and port and say "connect to this". In particular, the port forwarding we use on normal internet-connected routers is impossible on a phone network, as the Network Address Translation is beyond our control.
@@ -31,7 +31,7 @@ Great! Plane/Sailing Server can now connect to Dump1090 & Direwolf on its own ne
 
 The quick solution to this is to *put them on the same local network*, wherever the portable system is, using a VPN. This way, Plane/Sailing Server will be able to see the portable system on one IP address regardless of where it is in the world, and connect directly to it. I am a recent convert to [Tailscale](https://tailscale.com) for this, as it's simple to set up on just about any device, and they provide the key management. I previously used [OpenVPN](https://openvpn.net/), which works just as well, though you need to generate and distribute keys manually.
 
-![Tailscale dashboard showing several computers connected to a VPN with IP addresses shown](/projects/planesailing-portable/tailscale.png){: .center}
+![Tailscale dashboard showing several computers connected to a VPN with IP addresses shown](/img/projects/planesailing-portable/tailscale.png){: .center}
 *Tailscale dashboard showing "plainsailingportable" and "innsmouth" (the Plane/Sailing Server) connected to the VPN with IP addresses in the same range*
 
 The VPN allows Plane/Sailing Portable to connect in and be accessible from Plane/Sailing Server on a known IP address, in this case on the 100.x.y.z subnet, so that the server can connect to it rather than the other way around.
@@ -56,6 +56,6 @@ The above approach comes with its own disadvantage, which is that it requires SS
 
 Here, we want to run a "double-ended" client on the portable system, and a "double-ended" server on the main system, in order to effectively change the client-server relationship between the two ends. Like so:
 
-![Diagram of socat being used to bridge connections between dump1090 and direwolf on the portable system, and Plane/Sailing server](/projects/planesailing-portable/socat.png){: .center}
+![Diagram of socat being used to bridge connections between dump1090 and direwolf on the portable system, and Plane/Sailing server](/img/projects/planesailing-portable/socat.png){: .center}
 
 However, as you can see this is getting quite complicated with a lot of services to set up on both ends. It also scales badly, with more portable systems meaning more services running and more ports open. Even the SSH reverse proxy solution doesn't scale brilliantly, with a need to manually allocate two ports per system on the server end. The VPN approach is the simplest and most easily scaleable, and therefore preferred.

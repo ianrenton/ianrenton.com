@@ -1,5 +1,5 @@
 _id: 60637ca0-f6bc-11ec-ad56-65cbb007ed5a
-_parent: 'https://ianrenton.com/hardware/planesailing/raspberry-pi/'
+_parent: 'https://ianrenton.com/projects/planesailing/raspberry-pi/'
 name: Bjarne
 email: 98a47c2ef8ad4953a0c820294edf5ab6
 message: "Hi Ian\r\nThank you for taking your time to explain how to!\r\nTwo questions:\r\nThe SSH-file, is that just an empty file?\r\nWhich version of the Pi4 are you using, how much RAM?\r\n\r\nThanks! Looking into building this myself, with a PoE+ HAT on, to avoid the external powersupply."

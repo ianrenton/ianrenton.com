@@ -17,17 +17,17 @@ I chose to use a serial interface with the ESP32 board to issue it commands. Its
 
 After connecting up the new board to power, speakers and to Serial 2 on the ESP32, we now have the following:
 
-<div class="breakout-full-width"><center><a href="/projects/big-mouth-phatt-bass/schematic-motors-mp3.png">
-<img src="/projects/big-mouth-phatt-bass/schematic-motors-mp3.png" alt="Schematic"/></a>
+<div class="breakout-full-width"><center><a href="/img/projects/big-mouth-phatt-bass/schematic-motors-mp3.png">
+<img src="/img/projects/big-mouth-phatt-bass/schematic-motors-mp3.png" alt="Schematic"/></a>
 </center></div>
 
-[![Breadboard layout diagram](/projects/big-mouth-phatt-bass/fritzing-motors-audio_bb.png){: .center}](/projects/big-mouth-phatt-bass/fritzing-motors-audio_bb.png)
+[![Breadboard layout diagram](/img/projects/big-mouth-phatt-bass/fritzing-motors-audio_bb.png){: .center}](/img/projects/big-mouth-phatt-bass/fritzing-motors-audio_bb.png)
 
-![A breadboard and a mess of wiring connected to two halves of a Billy Bass](/projects/big-mouth-phatt-bass/10.jpg){: .center}
+![A breadboard and a mess of wiring connected to two halves of a Billy Bass](/img/projects/big-mouth-phatt-bass/10.jpg){: .center}
 
 I used example code from [this page](http://digitaltown.co.uk/components17dfminiplayer.php), replacing `Serial3` with `Serial2` in their examples, to prove that the ESP32 was communicating properly with the MP3-TF-16P:
 
-![A photo of a screen showing a serial monitor window with some debug information, and the project in the background](/projects/big-mouth-phatt-bass/11.jpg){: .center}
+![A photo of a screen showing a serial monitor window with some debug information, and the project in the background](/img/projects/big-mouth-phatt-bass/11.jpg){: .center}
 
 I then loaded a single test MP3 onto the SD card. After some playing, and with reference to both the previous link and [the serial interface details for the board](https://cahamo.delphidabbler.com/resources/dfplayer-mini), I settled on the following code to set the volume level, and play a 30-second clip of that MP3.
 

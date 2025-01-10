@@ -16,11 +16,11 @@ It's INEVITABLY SUPER EFFECTIVE.
 
 * Times things are Pushed: 23
 * Times things are Pushed Real Good: 9
-* ![Salt n Pepa](/filmreviews/pushit.gif): Ooh baby baby.
+* ![Salt n Pepa](/img/filmreviews/pushit.gif): Ooh baby baby.
 * Uses of The Force: 134
 * Syringes of Evil Black Goo: 4
 * Futures communicated by Lite-Brite: 1
-* ![Osaka chopsticks](/filmreviews/chopsticks.jpg): 1
+* ![Osaka chopsticks](/img/filmreviews/chopsticks.jpg): 1
 * Fish shouted at until they explode: 6
 * People beaten unconscious with clearly unsafe safety signs: 1
 * Shiny, shimmery Macguffins: 89

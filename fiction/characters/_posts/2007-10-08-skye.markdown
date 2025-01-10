@@ -10,7 +10,7 @@ tags:
 - Exalted
 ---
 
-<p><img src="/fiction/characters/portraits/skye.png" style="float:right" /></p>
+<p><img src="/img/fiction/characters/portraits/skye.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"I, um...  I-I-I-I'm Skye," I mutter, ashamed of stuttering even as I was halfway through doing so.</p>

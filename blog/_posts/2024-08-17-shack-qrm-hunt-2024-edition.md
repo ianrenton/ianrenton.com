@@ -42,7 +42,7 @@ Powering the radio from the mains-sourced PSU or from battery made no difference
 
 So, this thing goes in the bin.
 
-The PC with the less-bad supply has been relocated to a different room, where it continues providing various home-lab staples such as Home Assistant, AdGuard and the NAS drive. The remaining issue, then, is [Plane/Sailing](/hardware/planesailing). This used RTL-SDR dongles connected to the Mini PCs, which required them to be on the desk near to the rest of my radio gear. I'm not sure yet what to do about that. Since even the legitimate Lenovo PSU wasn't totally noise-free, I'm reluctant to just buy a new replacement PSU and swap that in, even though that would be the simple solution.
+The PC with the less-bad supply has been relocated to a different room, where it continues providing various home-lab staples such as Home Assistant, AdGuard and the NAS drive. The remaining issue, then, is [Plane/Sailing](/projects/planesailing). This used RTL-SDR dongles connected to the Mini PCs, which required them to be on the desk near to the rest of my radio gear. I'm not sure yet what to do about that. Since even the legitimate Lenovo PSU wasn't totally noise-free, I'm reluctant to just buy a new replacement PSU and swap that in, even though that would be the simple solution.
 
 I am hoping to take advantage of the lessons learned in [Plane/Sailing Portable](https://ianrenton.com/projects/planesailing-portable) and run the three RTL-SDRs from three Pi Zeros, but first I need to see if this approach works&mdash;and make sure it doesn't cause just as much noise as its predecessor.
 

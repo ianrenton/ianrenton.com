@@ -24,7 +24,7 @@ I've provided links to the places I bought the parts from&mdash;these are not ne
 
 
 [^1]: The 15th Anniversary edition (sings "I Will Survive") definitely has JST-XH connectors, I believe the Alexa-enabled one may do as well. Older models are not necessarily connectorised internally, so you may have to terminate the wires yourself if using an older variant.
-[^2]: [Gerber files can be downloaded here.](/projects/big-mouth-phatt-bass/phattbass-gerbers.zip) Drill files are included. All the default options were used during the ordering process, e.g. 1.6mm depth, 2-sided PCB. Minimum order quantity was 5 so I have some spares; if you're in the UK drop me an email and I will post you one for free.
+[^2]: [Gerber files can be downloaded here.](/files/projects/big-mouth-phatt-bass/phattbass-gerbers.zip) Drill files are included. All the default options were used during the ordering process, e.g. 1.6mm depth, 2-sided PCB. Minimum order quantity was 5 so I have some spares; if you're in the UK drop me an email and I will post you one for free.
 [^3]: There are *lots* of different variants of ESP32 "Devkit" boards, with different numbers of pins and different layouts. The PCB design is based on the "JZK" board linked above, which may be the same as other 30-pin "DOIT" boards, but if you're ordering a different component, please check the pinout carefully.
 
 

@@ -18,7 +18,7 @@ Ah, another visitor to the other world; the shadow town that lurks around and be
 
 &nbsp;
 
-<h2><a href="/fiction/kinggeorgeave-map.png"><img class="aligncenter size-full wp-image-12065" title="King George Avenue" src="/fiction/kinggeorgeave-map.png" alt="King George Avenue" width="500" height="166" /></a></h2>
+<h2><a href="/img/fiction/kinggeorgeave-map.png"><img class="aligncenter size-full wp-image-12065" title="King George Avenue" src="/img/fiction/kinggeorgeave-map.png" alt="King George Avenue" width="500" height="166" /></a></h2>
 <h2>King George Avenue</h2>
 King George Avenue is assumed by those of the world above to take its name from one of the six kings of England who have had that name up until the present time.  That would of course be the simplest explanation, but as ever the reality is more complex.
 No, King George Avenue is named after King George the <em>Eighth</em>, widely renowned in many timelines as the first true Lord of Space.  His reign will last from 2686 to 8770 in Historical Earth Years, although there will many gaps during that period where he is not to be found, and many occasions on which he will be spotted outside of those years.
@@ -26,7 +26,7 @@ One of these came in the Earth year 1954, where the tales say he descended from 
 
 &nbsp;<br/><br/>
 
-<a href="/fiction/owlsroad-map.png"><img src="/fiction/owlsroad-map.png" alt="Owls Road" title="Owls Road" width="500" height="166" class="aligncenter size-full wp-image-12078" /></a>
+<a href="/img/fiction/owlsroad-map.png"><img src="/img/fiction/owlsroad-map.png" alt="Owls Road" title="Owls Road" width="500" height="166" class="aligncenter size-full wp-image-12078" /></a>
 <h2>Owls Road</h2>
 
 Many humans <em>think</em> they have travelled along Owls Road, and think it nothing more than a normal suburban street between Boscombe and the sea.  But they have not travelled the Owls' Road.
@@ -39,12 +39,12 @@ No-one travels the Owls' Road.  <em>Because the owls do not permit it.</em>
 
 &nbsp;<br/><br/>
 
-<a href="/fiction/bountyslane-map.png"><img src="/fiction/bountyslane-map.png" alt="Bounty&#039;s Lane" title="Bounty&#039;s Lane" width="500" height="166" class="aligncenter size-full wp-image-12070" /></a>
+<a href="/img/fiction/bountyslane-map.png"><img src="/img/fiction/bountyslane-map.png" alt="Bounty&#039;s Lane" title="Bounty&#039;s Lane" width="500" height="166" class="aligncenter size-full wp-image-12070" /></a>
 <h2>Bounty's Lane</h2>
 
 Bounty's Lane is named after a Jack Russell.  This one, in fact.<br/><br/>
 
-<a href="/fiction/IMG_20120517_225218.jpg"><img src="/fiction/IMG_20120517_225218-225x300.jpg" alt="Bounty - the tale of a dog" title="Bounty - the tale of a dog" width="225" height="300" class="aligncenter size-medium wp-image-12071" style="position:relative;left:100px;"/></a>
+<a href="/img/fiction/IMG_20120517_225218.jpg"><img src="/img/fiction/IMG_20120517_225218-225x300.jpg" alt="Bounty - the tale of a dog" title="Bounty - the tale of a dog" width="225" height="300" class="aligncenter size-medium wp-image-12071" style="position:relative;left:100px;"/></a>
 
 <br/><br/>
 

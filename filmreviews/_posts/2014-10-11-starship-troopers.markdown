@@ -32,4 +32,4 @@ Then they all go off to FIGHT BUGS in SPACE and STUFF.
 * Cheesiness: A fine roquefort with two Dairylea triangles stuck on the top like cat ears.
 * Would you like to know more?: No.
 
-## Overall: ![You know when you've been Tango'd](/filmreviews/tango.png) / 5
+## Overall: ![You know when you've been Tango'd](/img/filmreviews/tango.png) / 5

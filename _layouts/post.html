@@ -8,7 +8,7 @@ layout: default
 {% capture categoryslug %}{{ page.categories | last }}{% endcapture %}
 {% assign categorynamewords = categoryslug | replace: "-", " " | split: " " %}
 {% capture categorynametitlecase %}{% for word in categorynamewords %}{{ word | capitalize }} {% endfor %}{% endcapture %}
-{% capture categorynametitlecasefinal %}{{ categorynametitlecase | replace: "Planesailing", "Plane/Sailing" }}{% endcapture %}
+{% capture categorynametitlecasefinal %}{{ categorynametitlecase | replace: "Planesailing", "Plane/Sailing" | replace: "Atp", "All-Terrain Pi" }}{% endcapture %}
 {% capture categoryindexurl %}/{{ page.categories | join: "/"}}/{% endcapture %}
 
 <main>

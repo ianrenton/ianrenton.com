@@ -27,7 +27,7 @@ redirect_from:
   	type="horizontal-left"
   	title="168-in-1 Digital Pet / Bunnyrom / Fake Tamagotchi Teardown"
   	url="/projects/bunnyrom-teardown/"
-  	image="/projects/bunnyrom-teardown/bunnyrom-1-small.jpg"
+  	image="/img/projects/bunnyrom-teardown/bunnyrom-1-small.jpg"
   	image-alt="A Tamagotchi-like virtual pet toy"
   	description="One does not simply gift cheap Chinese toys to an engineer without expecting them to get taken apart."
   	readmore-text="Check out the progress &rarr;" %}
@@ -54,7 +54,7 @@ redirect_from:
   	type="horizontal-left"
   	title="Field Spotter"
   	url="/projects/field-spotter"
-  	image="/projects/field-spotter/banner-small.png"
+  	image="/img/projects/field-spotter/banner-small.png"
   	image-alt="A geographic display with some markers, alongside a project logo"
   	description="An easy-to-use, mobile-first Amateur Radio spotting tool for POTA, SOTA & WWFF. It provides a geographical and band position display, with filtering, to allow you to easily find park-to-park and summit-to-summit contacts."
   	readmore-text="Read about the project &rarr;"
@@ -67,7 +67,7 @@ redirect_from:
   	type="horizontal-left"
   	title="The “Worked Everything, Everywhere, All at Once” Award"
   	url="/projects/worked-everything-award"
-  	image="/projects/worked-everything-award/headline-small.png"
+  	image="/img/projects/worked-everything-award/headline-small.png"
   	image-alt="A geographic display with lots of highlighted circles and points"
   	description="Scamming my way to Imaginary Ham Radio Points using a hacky GeoPandas script."
   	readmore-text="Read more &rarr;" %}
@@ -85,7 +85,7 @@ redirect_from:
   	type="horizontal-left"
   	title="Plane/Sailing Portable"
   	url="/projects/planesailing-portable"
-  	image="/projects/planesailing-portable/handheld-small.jpg"
+  	image="/img/projects/planesailing-portable/handheld-small.jpg"
   	image-alt="A small stack of Raspberry Pi zero hardware, SDR dongle, antenna and battery, held in a hand"
   	description="“Plane/Sailing Portable” is a tiny RTL-SDR-based receiver for ADS-B, AIS and APRS signals, which can feed web-based tracking services and the main Plane/Sailing system to improve coverage."
   	readmore-text="Read more &rarr;" %}
@@ -104,7 +104,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Plane/Sailing"
-  	url="/hardware/planesailing"
+  	url="/projects/planesailing"
   	image="/img/index/planesailing.jpg"
   	image-alt="A military tactical software display showing symbols representing boats and planes"
   	description="“Plane/Sailing” is my home tracker for aircraft, ships and more! It receives radio signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website using military symbology."
@@ -130,7 +130,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="USV-01 “Harry Paye”"
-  	url="/hardware/usv-01"
+  	url="/projects/usv-01"
   	image="/img/index/usv.jpg"
   	image-alt="USV-01, a Raspberry Pi-controlled model boat"
   	description="USV-01 “Harry Paye” is an off-the-shelf remote control boat refitted as a testbed for an autonomous navigation system, capable of speeds up to 40 knots."
@@ -139,7 +139,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Radio Shack"
-  	url="/hardware/radioshack"
+  	url="/projects/radioshack"
   	image="/img/index/radio.jpg"
   	image-alt="A VHF radio tuned to 145.5 MHz"
   	description="My Radio Shack page has a few details of my current radio setup, including the hardware for Plane/Sailing and general Ham Radio equipment. "
@@ -148,8 +148,8 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="2EØUXV 'Random Shit I Found in my Shed' Antenna"
-  	url="/hardware/radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna"
-  	image="/hardware/radioshack/randomshitantenna5.jpg"
+  	url="/projects/radioshack/2e0uxv-random-shit-i-found-in-my-shed-antenna"
+  	image="/img/projects/radioshack/randomshitantenna5.jpg"
   	image-alt="A UHF Yagi antenna with radio attached"
   	description="The first antenna I built, costing precisely £0.00."
   	readmore-text="Read more &rarr;" %}
@@ -187,8 +187,8 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Flight Tracker"
-  	url="/hardware/flight-tracker"
-  	image="/hardware/flight-tracker/hw.jpg"
+  	url="/projects/flight-tracker"
+  	image="/img/projects/flight-tracker/hw.jpg"
   	description="I built my own ADS-B receiver to track flights taking off from the nearby airport, using a Raspberry Pi and an SDR dongle. This was the predecessor to Plane/Sailing's hardware."
   	readmore-text="Read the build guide &rarr;" %}
 
@@ -196,7 +196,7 @@ redirect_from:
   	type="horizontal-left"
   	title="U.M.I.D. 1090 (Unnecessary Military Interface for Dump1090)"
   	url="https://github.com/ianrenton/umid1090"
-  	image="/hardware/flight-tracker/sw2.png"
+  	image="/img/projects/flight-tracker/sw2.png"
   	description="A web-based display for ADS-B flight tracking software Dump1090, using military symoblogy. It was designed for my first flight tracker and is the predecessor to Plane/Sailing's software."
   	readmore-text="View the source code &rarr;"
 	url2="https://flightmap.ianrenton.com/"
@@ -225,15 +225,15 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Over-Engineered Cat Deterrent"
-  	url="/hardware/catscarer/"
-  	image="/hardware/catscarer/catscarer1.jpg"
+  	url="/projects/catscarer/"
+  	image="/img/projects/catscarer/catscarer1.jpg"
   	description="Something that I sketched out and might build eventually."
   	readmore-text="See the sketches &rarr;" %}
 
   	{% include card.html
   	type="horizontal-left"
   	title="All-Terrain Pi"
-  	url="/hardware/atp"
+  	url="/projects/atp"
   	image="/img/index/atp.jpg"
   	image-alt="All-Terrain Pi, a Raspberry Pi-controlled ATV toy"
   	description="The All-Terrain Pi is a “off-road” remote control toy fitted with a Raspberry Pi, with live video streaming, controllable by touch/tilt input from a smartphone, and capable of running programs written in Scratch."
@@ -244,7 +244,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Quadcopter"
-  	url="/hardware/quadcopter"
+  	url="/projects/quadcopter"
   	image="/img/index/quad.jpg"
   	image-alt="A quadcopter fitted with a Raspberry Pi, sat on grass"
   	description="Because the Raspberry Tank was confined to just the two boring dimensions, I built a quadcopter and put a Raspberry Pi on that too. It features live video streaming and is switchable between remote and autonomous control."
@@ -265,7 +265,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Lego Turtle"
-  	url="/hardware/lego-turtle"
+  	url="/projects/lego-turtle"
   	image="/img/index/turtle.jpg"
   	image-alt="Lego Turtle, an Arduino-controlled Lego Mindstorms robot"
   	description="The Lego Turtle is an Arduino microcontroller retro-fitted onto an old Lego Mindstorms kit. It features a built-in interpreter for simple Logo programs loaded via the serial port."
@@ -295,8 +295,8 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Gecko Cam"
-  	url="/hardware/geckocam/"
-  	image="/hardware/geckocam/geckocam.jpg"
+  	url="/projects/geckocam/"
+  	image="/img/projects/geckocam/geckocam.jpg"
   	description="Our pet gecko has an instrumented and automated vivarium. The Gecko Cam page explains the hardware and software setup."
   	readmore-text="Read the build guide &rarr;"
 	url2="http://rimbaud.renton.es/"
@@ -307,7 +307,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Raspberry Tank"
-  	url="/hardware/raspberry-tank"
+  	url="/projects/raspberry-tank"
   	image="/img/index/tank.jpg"
   	image-alt="The Raspberry Tank, a model Tiger tank shown with a camera and sensors fitted"
   	description="The Raspberry Tank was possibly the first tank-like robot powered by a Raspberry Pi, way back in 2012. It’s smartphone- or laptop-controlled, streams video from its webcam, fires plastic pellets and can navigate autonomously."
@@ -520,7 +520,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="The Dorset Card Game"
-  	url="/projects/dorset-tcg.html"
+  	url="/projects/dorset-tcg/"
   	image="/img/index/dorset.png"
   	description="A brief attempt at making a trading card game based on the undeniably best county in the world."
 	readmore-text="Visit the page &rarr;" %}

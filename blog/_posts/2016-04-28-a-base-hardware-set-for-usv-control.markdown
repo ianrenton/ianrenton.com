@@ -17,7 +17,7 @@ While I haven't quite talked myself into buying it yet, I have been thinking abo
 
 Although an Ardupilot would work pretty well, I don't find it it particularly intuitive to use, and for obvious reasons I'd rather use the autonomous navigation software that my team and I have spent the last eight years writing&mdash;and that means a real PC. We've had it running on a Raspberry Pi Model B, although it's a bit on the slow side, so the new Raspberry Pi 3 is the logical successor. It has built-in WiFi, but with such a tiny antenna that users [report a very limited range](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=139021), so a separate WiFi adapter will be needed as well.
 
-Control of the throttle ESC and rudder servo are via PWM signals in vehicles like this, and the Pi cannot properly generate by itself. When our graduates at work built a similar boat a couple of years ago, they used an Arduino Mega for PWM control, but that's probably overkill&mdash;for [my quadcopter](/hardware/quadcopter/) I used [this servo control board](http://electronics.chroma.se/rpisbv3.php) that fits neatly on top of the GPIO connector.
+Control of the throttle ESC and rudder servo are via PWM signals in vehicles like this, and the Pi cannot properly generate by itself. When our graduates at work built a similar boat a couple of years ago, they used an Arduino Mega for PWM control, but that's probably overkill&mdash;for [my quadcopter](/projects/quadcopter/) I used [this servo control board](http://electronics.chroma.se/rpisbv3.php) that fits neatly on top of the GPIO connector.
 
 ![](/img/blog/2016/usbsbv1.jpg){: .right}
 
@@ -29,4 +29,4 @@ The two smaller boards should mount on top of the Pi using spacers and mounting 
 
 ![](/img/blog/2016/usv-arch.png){: .center}
 
-That's enough to get started with, and if it works well, it can be used as a standard platform on which to build additional features. The first expansion is likely to be a camera for remote FPV control similar to the [All-Terrain Pi](/hardware/atp/), and hopefully the Raspberry Pi 3 is also powerful enough for some simple machine vision processing to drive Autonomy's collision avoidance algorithms.
+That's enough to get started with, and if it works well, it can be used as a standard platform on which to build additional features. The first expansion is likely to be a camera for remote FPV control similar to the [All-Terrain Pi](/projects/atp/), and hopefully the Raspberry Pi 3 is also powerful enough for some simple machine vision processing to drive Autonomy's collision avoidance algorithms.

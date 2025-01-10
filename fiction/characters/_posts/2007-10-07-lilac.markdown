@@ -10,7 +10,7 @@ tags:
 - Exalted
 ---
 
-<p><img src="/fiction/characters/portraits/lilac.png" style="float:right" /></p>
+<p><img src="/img/fiction/characters/portraits/lilac.png" style="float:right" /></p>
 <h2>Introduction</h2>
 
 <div class="story" markdown="1">
@@ -26,4 +26,4 @@ tags:
 <p>Since she began travelling with her friend, Skye has taught her as much as she can about how to behave in society.  It seems slow to sink in though - she knows what actions to take and which words to say, but it comes across confused, as if she doesn't realise why she has to do them.</p>
 <p>Since she left her home, Lilac has encountered cities and in particular the superior food that can be worked for or stolen there.  Having lived for most of her life on fresh meat and raw vegetables, she has now developed a monumental sweet tooth.</p>
 <h2>Character Sheets</h2>
-<ul><li><a href="/fiction/characters/charsheets/lilac.pdf">Lilac (Dreaming Awake)</a></li></ul>
+<ul><li><a href="/img/fiction/characters/charsheets/lilac.pdf">Lilac (Dreaming Awake)</a></li></ul>

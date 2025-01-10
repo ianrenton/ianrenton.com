@@ -11,7 +11,7 @@ tags:
 - World of Darkness
 ---
 
-<img src="/fiction/characters/avatars/serin.png" style="float:left" />
+<img src="/img/fiction/characters/avatars/serin.png" style="float:left" />
 <h2>Vital Statistics</h2>
 <p>Name: Serin<br />
 Age: 28-35, depending on setting<br />
@@ -29,7 +29,7 @@ Special Features: Fortune Teller
 <p>Serin&#039;s voice is calm and soothing, with an accent as confused as her family tree. It is distinctly a country voice, but to those who pay close attention it also unmistakably contains French and Irish, along with who knows what else. </p>
 <p>When you come to talk to Serin, how she acts is very dependent on the situation. Were you a customer, for example, well - customers expect fortune tellers to be reserved, deep, mystical and distant; people who aren&#039;t entirely human but a conduit through which the human and spirit worlds mingle. It&#039;s all an act, though. An act she&#039;s very good at after all these years, since she&#039;s now spent more years as a fortune teller than not, but an act nonetheless. Deep down, she&#039;s a very homely sort - the kind who, given a different upbringing, might be wearing self-knitted roll-neck sweaters and making cups of tea at the very fayres at which she now tells the futures of those with a spiritual inclination and a couple of pounds to spend.</p>
 <h2>Character Sheet</h2>
-<ul><li><a href="/fiction/characters/charsheets/serin.pdf">Serin (Dreaming Awake)</a></li></ul>
+<ul><li><a href="/img/fiction/characters/charsheets/serin.pdf">Serin (Dreaming Awake)</a></li></ul>
 <h2>Treasures</h2>
 <p><b>Fate&#039;s Thunder</b><br />
 Fate&#039;s Thunder is Serin&#039;s musket.  It has been a family heirloom for some time, probably since muskets were a contemporary invention rather than an odd anachronism.  It looks particularly odd in the keeping of Serin, whom no-one really imagines to actually be able to use it.  Regardless, it seems regularly polished, and who knows whether those pouches at her waist that she claims contain herbs and baubles actually contain powder and shot?</p>

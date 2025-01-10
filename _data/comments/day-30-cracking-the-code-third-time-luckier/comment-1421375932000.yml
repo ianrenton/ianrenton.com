@@ -29,7 +29,7 @@ message: >-
   startup. I don't think I ever uploaded the init script for
   <code>rt_http</code>, but it's pretty much identical to the one I posted for
   <code>mjpg-streamer</code> in "Step 4" of <a
-  href="http://robots.ianrenton.com/day-14-video-streaming" rel="nofollow
+  href="/projects/raspberry-tank/day-14-video-streaming" rel="nofollow
   noopener">this page</a>.</p><p></p><p></p><p>If you get stuck, let me know and
   I'll do my best to answer your questions!</p>
 email: b937df7b0b3631249ed5ec118e3bb9e0

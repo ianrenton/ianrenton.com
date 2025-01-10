@@ -1,5 +1,5 @@
 _id: 686b1f30-a7fd-11ef-95fe-71d74df3ee05
-_parent: 'https://ianrenton.com/hardware/planesailing/'
+_parent: 'https://ianrenton.com/projects/planesailing/'
 name: cil
 email: ''
 message: 'Hi Ian, I''d like to run Plane/Sailing server in a Docker container, any tips?'

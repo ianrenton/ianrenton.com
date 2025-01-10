@@ -9,7 +9,7 @@ tags:
 - Dreaming Awake
 ---
 
-<p><img src="/fiction/characters/portraits/alice-dreamingawake.png" style="float:right" /></p>
+<p><img src="/img/fiction/characters/portraits/alice-dreamingawake.png" style="float:right" /></p>
 <h2>Introduction</h2>
 
 <div class="story" markdown="1">

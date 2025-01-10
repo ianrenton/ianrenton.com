@@ -17,7 +17,7 @@ comments: false
   {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
   {% for photo_page in photo_pages reversed %}
     {% capture post-url %}{{ photo_page.url | prepend: site.baseurl }}{% endcapture %}
-    {% capture image-url %}{{ site.baseurl }}/photography/images/thumbs/{{ photo_page.photos.set }}.jpg{% endcapture %}
+    {% capture image-url %}{{ site.baseurl }}/img/photos/thumbs/{{ photo_page.photos.set }}.jpg{% endcapture %}
     {% include card.html
   	type="vertical"
   	title=photo_page.photos.set

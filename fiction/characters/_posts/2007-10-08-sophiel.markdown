@@ -10,7 +10,7 @@ tags:
 - Everlasting
 ---
 
-<p><img src="/fiction/characters/portraits/sophiel.png" style="float:right" /></p>
+<p><img src="/img/fiction/characters/portraits/sophiel.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>How long has it been?  Truth be told, I&#039;ve lost track.  Centuries, at least.  Probably millennia.  I&#039;ve almost, but not quite forgotten about it.  The day I saw what the future held, the day I was found out, the way He looked at me...</p>

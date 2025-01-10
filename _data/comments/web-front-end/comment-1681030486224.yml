@@ -1,5 +1,5 @@
 _id: 2d1658d0-d6b4-11ed-9cb4-4329c7a3796b
-_parent: 'https://ianrenton.com/hardware/planesailing/web-front-end/'
+_parent: 'https://ianrenton.com/projects/planesailing/web-front-end/'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: "Hi Rowanda,\r\n\r\nThe server component of Plane/Sailing maintains [a list of MMSIs for vessels that get special symbols](https://github.com/ianrenton/planesailing-server/blob/main/src/includes/data/ship_mmsi_to_symbol.csv) based on what I know about them. This overrides the symbol that might be automatically generated based on their AIS type codes.\r\n\r\nIf you would like to give your vessel a particular symbol, just add it in the `data/ship_mmsi_to_symbol.csv` file in your Plane/Sailing server install, and restart the server.\r\n\r\nPlane/Sailing supports most of the MILSTD 2525C tactical symbols set. If you want to play around with the symbols, the easiest way is to use this [Unit Symbol Generator](https://spatialillusions.com/unitgenerator/) which is based on the same library used by Plane/Sailing.\r\n\r\nI'm always happy to help and to receive pull requests! :)"

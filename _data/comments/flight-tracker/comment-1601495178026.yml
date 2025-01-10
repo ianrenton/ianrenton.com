@@ -1,5 +1,5 @@
 _id: 9b1e4d90-0355-11eb-9d07-61ee2e3db04f
-_parent: 'http://localhost:4000/hardware/flight-tracker/'
+_parent: 'http://localhost:4000/projects/flight-tracker/'
 name: Ian
 email: b937df7b0b3631249ed5ec118e3bb9e0
 message: OpenSky is added!

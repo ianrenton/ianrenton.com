@@ -22,7 +22,7 @@ The code was then [updated](https://github.com/ianrenton/big-mouth-phatt-bass/co
 
 When using folders, rather than playing "global" MP3 files, the files can no longer have descriptive names and must be named specifically `XX/YYY.mp3` where `XX` is a zero-padded folder number, and `YYY` is a zero-padded track number. So for example, I have `01/001.mp3` as the Phatt Bass *song*, and `02/001.mp3` as the announcer voice that says "Track 1". I also added a special announcer track as `02/099.mp3` to say "sensor mode enabled" at startup if in that mode.
 
-[Click here to download the contents of the SD card that go with the code.](/projects/big-mouth-phatt-bass/sdcard.zip)
+[Click here to download the contents of the SD card that go with the code.](/files/projects/big-mouth-phatt-bass/sdcard.zip)
 
 The other limitation is that if I want to reprogram the device or add new songs, I'd need access to the ESP32 Devkit micro-USB socket and SD card, which requires taking the unit apart. As a quick and dirty solution, since we already have a hole drilled in the back, I chose to fit a USB cable through it to make the ESP32 accessible from the outside. This has the extra advantage that (with a high enough current available), a USB port or power bank can be used to power the whole thing, rather than relying on the quickly draining AA batteries. Surprisingly, the motor control is still good with only this 5V USB supply, and the 6V seems almost unnecessary after all!
 
@@ -30,7 +30,7 @@ I did also experiment with a microSD card "extender" to bring that out as well, 
 
 And that's about it! Nothing left to do but think of more silly things for a Billy Bass to sing and lip-sync to.
 
-![Billy Bass and a pile of electronics gear. The magnifying glass of the "helping hand" is magnifying the eye of the fish.](/projects/big-mouth-phatt-bass/27.jpg){: .center}
+![Billy Bass and a pile of electronics gear. The magnifying glass of the "helping hand" is magnifying the eye of the fish.](/img/projects/big-mouth-phatt-bass/27.jpg){: .center}
 
 ## The Future is Fishy
 

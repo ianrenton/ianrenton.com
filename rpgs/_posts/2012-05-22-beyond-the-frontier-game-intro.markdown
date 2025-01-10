@@ -16,7 +16,7 @@ The tiny nation of Kingswald is home to no more than ten thousand souls, scatter
 
 Well, there are no dragons, but Kingswald is a place that thrives on stories of them and a thousand other mythologies.  The Winter nights are long and cold -- the Summer ones not much better -- and between sips of rancid tea the Elders set young hearts aflame with tales of adventures from days of yore.  Of course, when those young hearts grow up and discover that Kingswald offers no opportunities for adventure whatsoever, they decide to seek it elsewhere. Not to the North, for the forests and the mountains offer only frostbite and death, but to the South.  They take the Road (for there is only one), south down into the foothills and onward to the sprawling grasslands.  Whether they find their adventure, or just a place to settle down, is hard to say.  Kingswald is not a place many are keen to return to.
 
-<a href="/rpgs/449551.jpg"><img class="wp-image-12058 alignnone" title="Kingswald Village" src="/rpgs/449551.jpg" alt="Kingswald Village" width="470" height="324" /></a>
+<a href="/img/rpgs/449551.jpg"><img class="wp-image-12058 alignnone" title="Kingswald Village" src="/img/rpgs/449551.jpg" alt="Kingswald Village" width="470" height="324" /></a>
 
 No, the only people who come <em>to</em> Kingswald are the traders.  Once, maybe twice a year, a wagon train arrives loaded with silks and spices and other exotic goods.  The people of this mountain kingdom have so little of worth that they can save up their entire lives for a few bolts of silken cloth. But what the traders <em>really</em> bring, what's <em>really</em> valuable, is the news -- the only reassurance that there is a world out there beyond the snow and the trees.
 

@@ -16,4 +16,4 @@ This is a map of the tiny mountain region of Kingswald.  As you have read in the
 
 If you can imagine <em>Wuthering Heights</em> set in Tibet (with elves), that's not far off the mark.
 
-<a href="/rpgs/kingswald.jpg"><img src="/rpgs/kingswald-818x1024.jpg" alt="Map of Kingswald" title="Map of Kingswald" width="500" height="625" class="aligncenter size-large wp-image-12073" /></a>
+<a href="/img/rpgs/kingswald.jpg"><img src="/img/rpgs/kingswald-818x1024.jpg" alt="Map of Kingswald" title="Map of Kingswald" width="500" height="625" class="aligncenter size-large wp-image-12073" /></a>

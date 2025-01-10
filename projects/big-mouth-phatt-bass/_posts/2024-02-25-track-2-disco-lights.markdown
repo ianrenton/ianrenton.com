@@ -7,7 +7,7 @@ date: 2024-02-25 00:00:00
 layout: post
 ---
 
-I decided that a single board computer such as a Raspberry Pi (even the Nano models) was overkill for the job of driving a couple of motors and playing an MP3, so for the first time in [a while](/hardware/lego-turtle/) I'm back playing with microcontrollers. In this case I decided to try out the ESP32.
+I decided that a single board computer such as a Raspberry Pi (even the Nano models) was overkill for the job of driving a couple of motors and playing an MP3, so for the first time in [a while](/projects/lego-turtle/) I'm back playing with microcontrollers. In this case I decided to try out the ESP32.
 
 This was my first time playing with ESP32 boards, so I decided to use the Arduino IDE to program it.
 
@@ -31,7 +31,7 @@ sudo usermod -aG uucp $USER
 
 Within the Arduino IDE, I had to set up an Additional Board Manager URL, then open the Board Manager and install the `esp32` data, [following instructions here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 
-![An ESP32 dev board on some breadboard, sat on the keyboard of a laptop. The ESP32 driver installation is occurring in the background.](/projects/big-mouth-phatt-bass/arduino-ide.jpg)
+![An ESP32 dev board on some breadboard, sat on the keyboard of a laptop. The ESP32 driver installation is occurring in the background.](/img/projects/big-mouth-phatt-bass/arduino-ide.jpg)
 
 After selecting the board and the serial port, I flashed a quick demo program to toggle the on-board LED and prove the device was working:
 

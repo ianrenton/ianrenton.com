@@ -19,7 +19,7 @@ Today, Facebook's recommendations went from "a little creepy" to "compromising f
 
 I shan't name any names, for obvious reasons, but I have a friend who is currently suffering from a particular medical problem. As part of their treatment, that friend has regular appointments with a medical professional, and in supporting my friend, I've previously been in contact with that person as well. The friend isn't on Facebook at all, citing privacy concerns. I have not mentioned anything about them nor their problem on Facebook. And yet today, Facebook's blissfully context-free recommendation algorithm started suggesting that I add that medical professional as a friend.
 
-![NOPE](/filmreviews/badger.gif){: .center}
+![NOPE](/img/filmreviews/badger.gif){: .center}
 
 As far as we can tell, what happened is this:
 

@@ -11,7 +11,7 @@ One of the problems you may have noticed in previous videos is how far the fish 
 
 Applying the full 6V supply to the head/tail motor makes it stick out properly:
 
-![Billy Bass with its head stuck out, breadboard and various clutter in the background](/projects/big-mouth-phatt-bass/21.jpg){: .center}
+![Billy Bass with its head stuck out, breadboard and various clutter in the background](/img/projects/big-mouth-phatt-bass/21.jpg){: .center}
 
 So what's going on?
 
@@ -29,7 +29,7 @@ It doesn't have its own regulator to produce 5V for the other boards, but we nev
 
 Finally, the TB6612 is just smaller and comes with standard PCB header pins underneath, making the whole thing much easier to slap on the breadboard.
 
-![Billy Bass with breadboard behind it showing the new set of components](/projects/big-mouth-phatt-bass/22.jpg){: .center}
+![Billy Bass with breadboard behind it showing the new set of components](/img/projects/big-mouth-phatt-bass/22.jpg){: .center}
 
 The components are now as small as they're reasonably going to get, which leads neatly onto the next stage&mdash;one final push to get the components back inside the fish, and improve robustness at the same time.
 

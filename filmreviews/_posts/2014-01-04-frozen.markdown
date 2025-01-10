@@ -30,4 +30,4 @@ By the Numbers
 Overall: 5 / 5
 --------------
 
-![Well do you? ...punk?](/filmreviews/snowman.jpg)
+![Well do you? ...punk?](/img/filmreviews/snowman.jpg)

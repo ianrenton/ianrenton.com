@@ -24,8 +24,8 @@ Information regarding the system we used is documented here for archaeological p
 <ul>
 	<li><a href="../dreaming-awake-tabletop-character-creation">Character Creation</a></li>
 	<li><a href="../dreaming-awake-tabletop-game-rules">Rules</a></li>
-	<li><a href="/fiction/characters/charsheets/DACharSheet-old.pdf">Blank Character Sheet</a></li>
-	<li><a href="/fiction/characters/charsheets/DACharSheet-old-tsuki.pdf">Tsuki&#039;s Character Sheet</a></li>
+	<li><a href="/img/fiction/characters/charsheets/DACharSheet-old.pdf">Blank Character Sheet</a></li>
+	<li><a href="/img/fiction/characters/charsheets/DACharSheet-old-tsuki.pdf">Tsuki&#039;s Character Sheet</a></li>
 </ul>
 
 <h4>Setting</h4>

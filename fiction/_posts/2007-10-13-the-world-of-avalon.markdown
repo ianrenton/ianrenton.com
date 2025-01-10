@@ -8,5 +8,5 @@ tags:
 - Dreaming Awake
 ---
 
-<p><a href="/rpgs/maps/avalon.jpg">Map of Avalon</a><br />
+<p><a href="/img/rpgs/maps/avalon.jpg">Map of Avalon</a><br />
 <a href="../intro-paragraph-for-arcadia-village">Arcadia Village</a></p>

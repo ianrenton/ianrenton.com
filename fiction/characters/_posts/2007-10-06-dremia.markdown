@@ -11,7 +11,7 @@ tags:
 
 <table border="0" cellspacing="10">
 <tr>
-<td valign="top"><img src="/fiction/characters/avatars/dremia.png" /></td>
+<td valign="top"><img src="/img/fiction/characters/avatars/dremia.png" /></td>
 <td valign="top">
 <h2>Brief Summary</h2>
 <p>A struggling trainee magician, Dremia hopes that one day her wildly varying luck might be good on an exam day... </p></td>

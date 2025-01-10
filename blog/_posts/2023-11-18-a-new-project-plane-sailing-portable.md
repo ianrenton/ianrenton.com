@@ -18,7 +18,7 @@ tags:
   - sdr
 ---
 
-As I lamented a few years back while first putting the [Plane/Sailing](/hardware/planesailing/) system together, my location down in a "dip" [prevents me having line of sight](/hardware/planesailing/antenna-and-receiver/) to any AIS-equipped vessels or APRS transponders. While AIS coverage is surprisingly workable, APRS tends to only get a few packets in if someone is working mobile locally, or when the [E-layer occasionally works its magic](https://en.wikipedia.org/wiki/Sporadic_E_propagation).
+As I lamented a few years back while first putting the [Plane/Sailing](/projects/planesailing/) system together, my location down in a "dip" [prevents me having line of sight](/projects/planesailing/antenna-and-receiver/) to any AIS-equipped vessels or APRS transponders. While AIS coverage is surprisingly workable, APRS tends to only get a few packets in if someone is working mobile locally, or when the [E-layer occasionally works its magic](https://en.wikipedia.org/wiki/Sporadic_E_propagation).
 
 I don't have the space (or the family or neighbours' good will) to be building antenna towers, certainly not to the 20 metres height I would need for line of sight to the sea.
 

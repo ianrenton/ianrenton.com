@@ -23,7 +23,7 @@ The answer is, as I'm sure you're expecting: "Yes, but..."
 
 <div class="breakout-full-width"><center><img src="/img/blog/2024/ais2adsb.png" alt="tar1090 map showing aircraft and ships" style="width:100%"/></center></div>
 
-As you might imagine, there are some limitations to doing it this way. After all, displaying ships and aircraft simultaneously with the appropriate fields and persistence was exactly what I developed [Plane/Sailing](/hardware/planesailing) for. But without going to the extent of running that on the server side, what did we achieve?
+As you might imagine, there are some limitations to doing it this way. After all, displaying ships and aircraft simultaneously with the appropriate fields and persistence was exactly what I developed [Plane/Sailing](/projects/planesailing) for. But without going to the extent of running that on the server side, what did we achieve?
 
 On the client side, we found a useful utility called [ais2adsb](https://github.com/jvde-github/ais2adsb) which does most of the work for us. This was designed for the more useful job of sending SAR aircraft data to `tar1090` for when it is broadcasting AIS but not ADS-B. I applied some quick hacks to it to:
 

@@ -15,5 +15,5 @@ This page collates information on running tabletop ('pen-and-paper') roleplaying
 Dreaming Awake games are suggested to use the modified version of White Wolf's New World of Darkness system that is detailed on the following pages:
 <ul><li><a href="../da-tabletop-character-creation">Character Creation</a></li>
 <li><a href="../da-tabletop-system">System / Rules</a></li>
-<li><a href="/fiction/characters/charsheets/DACharSheet.pdf">Blank Character Sheet</a></li></ul>
+<li><a href="/img/fiction/characters/charsheets/DACharSheet.pdf">Blank Character Sheet</a></li></ul>
 My first Dreaming Awake game used its own purpose-built system.  Due to issues discovered in play (see the <a href="../dreaming-awake-game-1">Dreaming Awake Game 1</a> page, where the system itself is also detailed), this was abandoned in favour of the current nWoD-based game.

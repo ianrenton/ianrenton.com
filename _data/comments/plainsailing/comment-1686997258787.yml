@@ -1,5 +1,5 @@
 _id: a679d8d0-0cf8-11ee-ae19-1fbb6a54f8b6
-_parent: 'https://ianrenton.com/hardware/planesailing/'
+_parent: 'https://ianrenton.com/projects/planesailing/'
 name: S Cox
 email: da36b1aaa38d7106e0664f5a7b3d62f2
 message: "rtl_ais is now outdated and has poor performance/detection.\r\nmost people now use https://github.com/jvde-github/AIS-catcher\r\n\r\nfor a simple plane/aircraft view on map you can use leaflet and the json output from ais-catcher and adsb\r\n\r\nAs a side note, airframes.io is in the process of mapping planes, ships, acars messages weather balloons etc"

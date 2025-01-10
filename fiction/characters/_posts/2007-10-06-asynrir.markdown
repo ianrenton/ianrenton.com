@@ -9,7 +9,7 @@ tags:
 - Dreaming Awake
 ---
 
-<p><img src="/fiction/characters/portraits/asynrir.png" style="float:right" /></p>
+<p><img src="/img/fiction/characters/portraits/asynrir.png" style="float:right" /></p>
 <h2>Introduction</h2>
 <div>
 <p>"And what, exactly, is standing around chatting going to solve?  Nothing?  Exactly!  Let&#039;s get going, then!  We&#039;ve got thirty miles to cover before sunset!"</p>

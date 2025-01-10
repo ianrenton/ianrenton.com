@@ -4,7 +4,7 @@ layout: page
 title: The “Worked Everything, Everywhere, All at Once” Award
 slug: worked-everything-award
 description: Scamming my way to Imaginary Ham Radio Points using a hacky GeoPandas script.
-image: /projects/worked-everything-award/headline.png
+image: /img/projects/worked-everything-award/headline.png
 date: 2024-07-09 00:00:00
 ---
 
@@ -16,7 +16,7 @@ Just interested in the result? [Click here to skip to the end!](#summary)
 
 Everyone else: buckle up, we're about to get friendly with some GeoPandas.
 
-<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>.</em></center></p></div>
+<div class="breakout-full-width"><center><br/><img src="/img/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>.</em></center></p></div>
 
 ## Background
 
@@ -43,7 +43,7 @@ Some of these programmes (6, 7 & 8) have a fairly simple concept, geospatially&m
 
 A kilometer seems rather generous! While the English Castles Awards rules do provide good reasoning related to land access and inclusivity, they also specifically endorse multiple simultaneous activations, which they may soon come to regret.
 
-![Highlighted excerpt from the ECA rules, stating "This rule is useful for many reasons! It enables multiple reference activations should the activator be within 1km of more than one reference."](/projects/worked-everything-award/eca-rules.png){: .center}
+![Highlighted excerpt from the ECA rules, stating "This rule is useful for many reasons! It enables multiple reference activations should the activator be within 1km of more than one reference."](/img/projects/worked-everything-award/eca-rules.png){: .center}
 
 Summits on the Air (1) imposes a requirement to be within 25m *altitude* of the peak. To avoid the kind of terrain analysis which is totally overboard for a joke on the internet, a 1-in-4 incline has been assumed, giving a horizontal range of 100m.
 
@@ -65,7 +65,7 @@ I have only considered entities within the UK for the study, and note that the C
 
 I began a cursory analysis using the [UK Portable Ham Map](https://kwirk.github.io/pota-gb-map/). A number of dense groups immediately stood out, largely bunkers and castles. This appeared to validate my choice to concentrate on these programmes, and it appeared that clusters of defensive structures, particularly coastal defences, were likely to be the best candidates for overlapping areas.
 
-![Map of "on the air" entities around Portsmouth Harbour](/projects/worked-everything-award/portsmouth.png){: .center}
+![Map of "on the air" entities around Portsmouth Harbour](/img/projects/worked-everything-award/portsmouth.png){: .center}
 *Map of "on the air" entities around Portsmouth Harbour*
 
 I then wrote a Python script to download publicly available data from the four key programmes, count overlapping circles, and identify the ones with the greatest number of overlaps.
@@ -98,21 +98,21 @@ Second-equal are Dartmouth and Portland. Dartmouth features an overlapping regio
 
 Portland is pretty close to me, so at some point in the near future I might have a go at activating from up here&mdash;probably the section *outside* the prison.
 
-![Polygon defining the high scoring region of Portland](/projects/worked-everything-award/portland-poly.png){: .center}
+![Polygon defining the high scoring region of Portland](/img/projects/worked-everything-award/portland-poly.png){: .center}
 *The top scoring section on Portland. Visualisation using [Keene State College Polyline Tool](https://www.keene.edu/campus/maps/tool/).*
 
 However, first place in this competition beats them by a long shot.
 
 Take a look at Plymouth.
 
-![Map of "on the air" entities around Plymouth Sound](/projects/worked-everything-award/plymouth.png){: .center}
+![Map of "on the air" entities around Plymouth Sound](/img/projects/worked-everything-award/plymouth.png){: .center}
 *Map of "on the air" entities around Plymouth Sound*
 
 [Drake's Island](https://drakes-island.com/) in Plymouth Sound is the former charge of Sir Francis Drake, current activity holiday destination, and home to *ten* qualifying English Castles all by itself.
 
 Drake's Island is private, but luckily we don't need to go there to reach our ideal point-scoring position&mdash;that's actually on the mainland. Combined with the surrounding structures to the north and west, there is a thin sliver of land and sea just east of Devil's Point that qualifies for a huge *19* castles, the South West Coast Path for POTA, and as luck would have it, also a small rocky beach.
 
-![Polygon defining the top scoring region](/projects/worked-everything-award/plymouth-poly.png){: .center}
+![Polygon defining the top scoring region](/img/projects/worked-everything-award/plymouth-poly.png){: .center}
 *The region of Plymouth with 19 overlapping castles*
 
 Sit on the beach anywhere in that region and, you can activate all of these:
@@ -143,11 +143,11 @@ Sit on the beach anywhere in that region and, you can activate all of these:
 
 The area is very close to qualifying for a second POTA, the Plymouth Marine National Park. However, close inspection of the polygons shows that the marine park is only on the seaward side of the low water mark, and so doesn't quite overlap with the South West Coast Path.
 
-![Polygons for the South West Coast Path and Plymouth Marine National Park, not quite intersecting](/projects/worked-everything-award/plymouth-pota-intersect.png){: .center}
+![Polygons for the South West Coast Path and Plymouth Marine National Park, not quite intersecting](/img/projects/worked-everything-award/plymouth-pota-intersect.png){: .center}
 
 Now, time to plan that activation. And ask the Royal Navy very nicely not to have me arrested for putting up a suspicious shortwave antenna right next to a naval base.
 
-<div class="breakout-full-width"><center><br/><img src="/projects/worked-everything-award/plymouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of the beach and Firestone Bay, looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
+<div class="breakout-full-width"><center><br/><img src="/img/projects/worked-everything-award/plymouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of the beach and Firestone Bay, looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
 
 ## Bonus Results: Variety Show
 
@@ -170,14 +170,14 @@ There are doubtless more to discover!
 
 But what if we wanted... more.
 
-![Scene from "Spinal Tap" subtitled "these go to 11"](/projects/worked-everything-award/goes-to-11.webp){: .center}
+![Scene from "Spinal Tap" subtitled "these go to 11"](/img/projects/worked-everything-award/goes-to-11.webp){: .center}
 
 So far I have found four **sixes**. At this level, islands seem to be the only way to qualify.
 
 * [The Scilly Isles](https://kwirk.github.io/pota-gb-map/?x=89797.50982&y=10607.37786&z=9.13476&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA), [Lindisfarne](https://kwirk.github.io/pota-gb-map/?x=411944.14953&y=641217.77742&z=9.28785&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) and nearby [Inner Farne Island](https://kwirk.github.io/pota-gb-map/?x=421724.19411&y=635860.90568&z=10.70791&layers=OSMG+CPK+NNR+RSPB+BOTA+ELA+ECA+WWFF+POTA+SOTA) all provide an overlapping castle, lighthouse, park, WWFF location and beach, whilst being on an "interesting" IOTA island
 * And on the [Isle of Wight, east of Sandown](https://kwirk.github.io/pota-gb-map/?x=461642.46063&y=85480.9621&z=10.06629&layers=OSMG+BOTA+ELA+ECA+WWFF+POTA+SOTA+NSA+AONB+SAC) you can simultaneously activate a bunker, castle, park, WWFF location and beach, plus possibly getting some IOTA interest too.
 
-![Map of Sandown showing overlapping qualifying regions](/projects/worked-everything-award/iow.png){: .center}
+![Map of Sandown showing overlapping qualifying regions](/img/projects/worked-everything-award/iow.png){: .center}
 
 There are no sevens as far as I am aware, and as eights rely on the unlikely existence of a summit-beach, they are likely impossible.
 

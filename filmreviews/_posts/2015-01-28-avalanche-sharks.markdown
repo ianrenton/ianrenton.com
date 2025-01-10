@@ -28,7 +28,7 @@ When a SKI RESORT is built on a NATIVE AMERICAN BURIAL GROUND, it awakens the SP
 * Lawnmower noms: 1
 * Some say, this joke will make no sense to anyone but us.
 
-![Stig Shark](/filmreviews/stigshark.jpg)
+![Stig Shark](/img/filmreviews/stigshark.jpg)
 
 * Convincingly rendered avalanches: HAHA OF COURSE NOT
 * Convincingly rendered sharks: ...Actually, the avalanches were kind of alright...
@@ -39,4 +39,4 @@ When a SKI RESORT is built on a NATIVE AMERICAN BURIAL GROUND, it awakens the SP
 * Endings: Nope!
 * Hot tubs, how do they work?
 
-## Overall: ![Avalanche Shark](/filmreviews/avalanche-sharks-hot-tub-bikini-girls.gif) / 5
+## Overall: ![Avalanche Shark](/img/filmreviews/avalanche-sharks-hot-tub-bikini-girls.gif) / 5

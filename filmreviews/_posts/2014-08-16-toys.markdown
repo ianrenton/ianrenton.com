@@ -9,7 +9,7 @@ comments: true
 Synopsis
 --------
 
-ROBIN WILLIAMS and JOAN CUSACK, the NUTTIEST NUT-BARS in NUTBAR LAND, have their TOY FACTORY taken over by MICHAEL GAMBON and 12-year-old LL COOL J. They try to make WEAPONISED CHILDRENS' TOYS (which I [couldn't possibly condone](http://robots.ianrenton.com/raspberry-tank)), but are defeated by a DARING MILITARY RAID and SUICIDE TOY TROOPS, because... war is bad?
+ROBIN WILLIAMS and JOAN CUSACK, the NUTTIEST NUT-BARS in NUTBAR LAND, have their TOY FACTORY taken over by MICHAEL GAMBON and 12-year-old LL COOL J. They try to make WEAPONISED CHILDRENS' TOYS (which I [couldn't possibly condone](/projects/raspberry-tank)), but are defeated by a DARING MILITARY RAID and SUICIDE TOY TROOPS, because... war is bad?
 
 By the Numbers
 --------------

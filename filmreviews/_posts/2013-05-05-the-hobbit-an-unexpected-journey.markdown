@@ -36,7 +36,7 @@ Somehow, SNOW WHITE appears to have been left out of THIS MOVIE.
 * Voldemorts: 0.928
 * Mountains moved: 3
 
-[![Smashing!!](/filmreviews/the-hobbit/smashing.jpg)](/filmreviews/the-hobbit/smashing.jpg)
+[![Smashing!!](/img/filmreviews/the-hobbit/smashing.jpg)](/img/filmreviews/the-hobbit/smashing.jpg)
 
 * Games of Sleeping Lions: 1
 * Bilbo Badassery: 7461

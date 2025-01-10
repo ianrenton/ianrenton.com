@@ -34,7 +34,7 @@ This also opens up other potential capabilities such as bridging APRS data recei
 
 My current battery power solution for the device looks like this:
 
-![Plane/Sailing Portable with a small USB power bank attached](/projects/planesailing-portable/withbattery.jpg){: .center}
+![Plane/Sailing Portable with a small USB power bank attached](/img/projects/planesailing-portable/withbattery.jpg){: .center}
 
 While the aesthetic matches the rest of the prototype build, cable ties and all, it would be nice to improve the battery integration.
 
