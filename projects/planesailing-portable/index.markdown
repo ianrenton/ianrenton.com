@@ -2,7 +2,7 @@
 comments: true
 layout: page
 title: Plane/Sailing Portable
-slug: plainsailing-portable
+slug: planesailing-portable
 ---
 
 "Plane/Sailing Portable" is a tiny hardware stack designed to be installed in ad-hoc locations, fitted to a vehicle or even carried in a pocket, from where it can contribute ADS-B, AIS or APRS coverage to the [Plane/Sailing](https://ianrenton.com/hardware/planesailing/) tracking system.
