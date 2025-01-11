@@ -44,8 +44,8 @@ Inside the fish, the stock PCB has been replaced by a custom one, hosting an ESP
 
 Links to key pages & files:
 
-* [Quick Start Guide](/projects/big-mouth-phatt-bass/start)
-* [Bill of Materials](/projects/big-mouth-phatt-bass/bom)
+* [Quick Start Guide](/projects/big-mouth-phatt-bass/quick-start-guide)
+* [Bill of Materials](/projects/big-mouth-phatt-bass/bill-of-materials)
 * [Kicad Project (development schematics)](/files/projects/big-mouth-phatt-bass/phattbass-development-schematics.zip)
 * [Kicad Project (PCB)](/files/projects/big-mouth-phatt-bass/phattbass-pcb.zip)
 * [PCB Gerber & Drill Files](/files/projects/big-mouth-phatt-bass/phattbass-gerbers.zip)

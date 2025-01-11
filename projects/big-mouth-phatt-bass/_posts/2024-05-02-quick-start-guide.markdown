@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: Quick Start Guide
-collection: big-mouth-phatt-bass
+date: 2024-05-02 00:00:00
 ---
 
 Looking to recreate the Big Mouth Phatt Bass for yourself? You've come to the right place.

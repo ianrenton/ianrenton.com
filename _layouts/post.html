@@ -6,15 +6,13 @@ layout: default
 {% capture threshold2 %}{{'2020-01-01 00:00:00 +0000' | date: '%s'}}{% endcapture %}
 {% capture pagedate %}{{page.date | date: '%s'}}{% endcapture %}
 {% capture categoryslug %}{{ page.categories | last }}{% endcapture %}
-{% assign categorynamewords = categoryslug | replace: "-", " " | split: " " %}
-{% capture categorynametitlecase %}{% for word in categorynamewords %}{{ word | capitalize }} {% endfor %}{% endcapture %}
-{% capture categorynametitlecasefinal %}{{ categorynametitlecase | replace: "Planesailing", "Plane/Sailing" | replace: "Atp", "All-Terrain Pi" }}{% endcapture %}
+{% capture categoryfriendlyname %}{{ site.categoryFriendlyNames[categoryslug] }}{% endcapture %}
 {% capture categoryindexurl %}/{{ page.categories | join: "/"}}/{% endcapture %}
 
 <main>
   <header class="post-header">
     {% comment %}Provide a link back to the page that "owns" this post (i.e. the category index){% endcomment %}
-    <nav class="backtocategoryindex"><a href="{{ categoryindexurl }}">&uarr; {{ categorynametitlecasefinal }}</a></nav>
+    <nav class="backtocategoryindex"><a href="{{ categoryindexurl }}">&uarr; {{ categoryfriendlyname }}</a></nav>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "Written on %A %-d %B %Y" }}{{ page.last_update | date: "<br/>Last updated on %A %-d %B %Y" }}</p>
   </header>
@@ -57,7 +55,7 @@ layout: default
     {% endif %}
     {% comment %} Display the category name as a link below pagination{% endcomment %}
     <div class="back-to-index">
-      <nav class="backtocategoryindex"><a href="{{ categoryindexurl }}">	&uarr; Up to {{ categorynametitlecasefinal }} index</a></nav>
+      <nav class="backtocategoryindex"><a href="{{ categoryindexurl }}">	&uarr; Up to {{ categoryfriendlyname }} index</a></nav>
     </div>
   </div>
 </main>

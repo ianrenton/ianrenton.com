@@ -123,14 +123,6 @@ Everything back under one subdomain, now on Octopress 3 which makes this more ea
 
 
 
-### September 2015
-
-A short-lived "typewriter-style" version which I liked visually, but proved hard to read.
-
-![](/img/projects/website/2015-09-24.png){: .center}
-
-
-
 ### December 2015
 
 Another short-lived idea to accentuate headings and menus&mdash;a nice idea but I felt it distracted too much from the actual text of the pages.
@@ -184,6 +176,13 @@ I discovered and particularly liked [this approach to doing "cards" from SmolCSS
 
 ![](/img/projects/website/2023-06-02.png){: .center}
 
+
+### December 2023
+
+Nice as the grid of cards was, I was annoyed by the need for each section to be a multiple of three items, so I adapted the card layout CSS to turn it back into a purely vertical list. I also reverted to serif fonts and a pale buff rather than pure white background.
+
+![](/img/projects/website/2025-01-11.png){: .center}
+
 ## Concepts
 
 Some unused designs that never went "live" include these Windows 3.1 and BeOS/Haiku inspired designs for Jekyll:
@@ -198,3 +197,7 @@ Some unused designs that never went "live" include these Windows 3.1 and BeOS/Ha
 <a href="/img/projects/website/beos2.png"><img src="/img/projects/website/beos2.png" width="200"/></a>
 <a href="/img/projects/website/beos3.png"><img src="/img/projects/website/beos3.png" width="200"/></a>
 </p>
+
+In September 2015 I also briefly trialled a "typewriter-style" version which I liked visually, but proved hard to read.
+
+![](/img/projects/website/2015-09-24.png){: .center}

@@ -35,3 +35,24 @@ reCaptcha:
   siteKey: 6LeG1LwSAAAAADsQfXoCfeTCH6JuxAGyImxoIjux
   # the secret is the encrypted blob you got back from the encrypt call
   secret: IsYxi/A4zrs0bFV7/0j3QCsJaFbiW3++9m12lOL7HdW+deMeislTpiwNm30kgfX40frUv1hUXciwMD+HE4j2BQvXtCHnWcRspFwYi19D5iN2niBa3JMAvsEx2m1D2pQ5ZPynjjDUeMzKMRlSn68KguQC95wfnewCduhwohn6v23HHw3zFakdhKHFfmGByB2jddsIJ5/OTnfUuwX6/FOc85j+0pDRxnPCEliWDOGnqWps1Qr+UnkNHcwwtvI81O85QfqWwg0IU0uolAonJ3dKKClvdcUQ+gCXu/HSGza/i4RsmWKNYZRo8aGk5l9X0iKQyokawm1aZUa6RIXIawItu0rD1CGTYDgKhcbHpI5fTu3CxhtGtjURz8BLKQSd4bwgmDd4uyX+z8uXdg3O4pTCL3sh9oduOMeZSltefiGdbtYvGNtY6aVW4dCK2tHkjBgn0AiCpvkFvuV3p4VE9zyZgpxMD+u/Lu+F/Zl4HiZfOsqQzgwyMOmB06eyLKNPd4oygMvkWdtne3uGDwZlZhtMdPcPRHm8Nv+PmP8ur0unTdZ0BTAtLvrPNBhStq+SHNBBYJ6FrEV5+Ggn4BZQN81fbACuutvqV3NEdDgfaXx0F/JCr0JFcOIqKcxnPYzCLyQDSYC00pa6wlr4G5Rie9GNr8Vx5vFUE1M2Lh/YZZn0sWc=
+
+# Category friendly names. We use file paths as post categories so they are strings like "filmreviews" and
+# "planesailing", but when displaying them in the browser we want to convert them to e.g. "Film Reviews"
+# and "Plane/Sailing" to match the titles of the category index pages.
+categoryFriendlyNames:
+  atp: "All-Terrain Pi"
+  big-mouth-phatt-bass: "Big Mouth Phatt Bass"
+  blog: "Blog"
+  characters: "Characters"
+  fiction: "Fiction"
+  filmreviews: "Film Reviews"
+  lego-turtle: "Lego Turtle"
+  planesailing: "Plane/Sailing"
+  planesailing-portable: "Plane/Sailing Portable"
+  quadcopter: "Quadcopter"
+  radioshack: "Radio Shack"
+  raspberry-tank: "Raspberry Tank"
+  rpgs: "RPGs"
+  usv-01: "USV-01 Harry Paye"
+
+  

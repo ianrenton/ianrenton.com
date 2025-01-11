@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: Bill of Materials
-collection: big-mouth-phatt-bass
+date: 2024-05-01 00:00:00
 ---
 
 The bill of materials for the Big Mouth Phatt Bass project is shown below.
