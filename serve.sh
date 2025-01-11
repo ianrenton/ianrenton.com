@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec jekyll serve --incremental --drafts
+rm -Rf _site && bundle exec jekyll serve --incremental --drafts
