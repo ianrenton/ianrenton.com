@@ -4,6 +4,7 @@ slug: catscarer
 title: Over-Engineered Cat Deterrent
 redirect_from:
   - /hardware/catscarer
+  - /hardware/catscarer/
 ---
 
 [![](/img/projects/catscarer/catscarer1.jpg){: .center}](/img/projects/catscarer/catscarer1.jpg)

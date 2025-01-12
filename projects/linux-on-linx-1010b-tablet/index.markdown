@@ -6,6 +6,7 @@ last_update: 2024-09-27T00:00:00+00:00
 slug: install-linux-on-a-linx-1010b-tablet
 redirect_from:
   - /guides/install-linux-on-a-linx-1010b-tablet
+  - /guides/install-linux-on-a-linx-1010b-tablet/
 ---
 
 * TOC

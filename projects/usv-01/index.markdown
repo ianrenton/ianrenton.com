@@ -5,6 +5,7 @@ slug: index
 title: USV-01 "Harry Paye"
 redirect_from:
   - /hardware/usv-01
+  - /hardware/usv-01/
 ---
 
 USV-01 "Harry Paye" is an off-the-shelf remote control boat refitted as a testbed for unmanned surface vehicle autonomy. It's also a lot of fun to play with!

@@ -5,6 +5,7 @@ title: Flight Tracker
 slug: flight-tracker
 redirect_from:
   - /hardware/flight-tracker
+  - /hardware/flight-tracker/
 ---
 
 <div class="notes"><p>The flight tracker project described here has now been incorporated into my combined aircraft and ship tracking system, <a href="/projects/planesailing">"Plane/Sailing"</a>. Head to that link if you want to see what it's become, or carry on reading below to check out its predecessor!</p></div>

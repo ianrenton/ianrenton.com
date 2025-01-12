@@ -5,6 +5,7 @@ title: Plane✈/Sailing⛵
 slug: plainsailing
 redirect_from:
   - /hardware/planesailing
+  - /hardware/planesailing/
 ---
 
 "Plane/Sailing" is the name given to my home tracker system. It originally supported tracking of aircraft and ships, before expanding to include mobile amateur radio stations, radiosondes, and Meshtastic nodes. It receives ADS-B, AIS, APRS, Radiosonde and LoRA signals via antennas on my house, processes them to share with popular tracking websites, and displays the combined results on a website for the world to see.

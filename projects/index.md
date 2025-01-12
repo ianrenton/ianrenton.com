@@ -4,8 +4,11 @@ layout: custompage-withheadfoot
 title: Projects
 redirect_from:
   - /hardware
+  - /hardware/
   - /software
+  - /software/
   - /websites
+  - /websites/
 ---
 
 <main>

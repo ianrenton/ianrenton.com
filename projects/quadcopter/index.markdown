@@ -5,7 +5,9 @@ slug: index
 title: Quadcopter
 redirect_from:
   - /quadcopter
+  - /quadcopter/
   - /hardware/quadcopter
+  - /hardware/quadcopter/
 ---
 
 Because the [Raspberry Tank](../raspberry-tank/) was just too... incapable of lift, I'm building a quadcopter!

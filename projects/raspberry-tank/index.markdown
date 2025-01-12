@@ -5,12 +5,19 @@ slug: index
 title: Raspberry Tank
 redirect_from:
   - /raspberrytank
+  - /raspberrytank/
   - /raspberry-tank
+  - /raspberry-tank/
   - /raspberry-tank-build-diary
+  - /raspberry-tank-build-diary/
   - /blog/raspberry-tank-build-diary
+  - /blog/raspberry-tank-build-diary/
   - /blog/tag/raspberry-tank-build-diary
+  - /blog/tag/raspberry-tank-build-diary/
   - /hardware/raspberrytank
+  - /hardware/raspberrytank/
   - /hardware/raspberry-tank
+  - /hardware/raspberry-tank/
 ---
 
 The "Raspberry Tank" was a project to create an autonomous vehicle with a web interface, using a [cheap hobby RC tank](http://www.howesmodels.co.uk/RadioControl/viewProduct.php?ProdID=6782) and a [Raspberry Pi](http://www.raspberrypi.org/) computer. It was one of the first Pi-enabled toy tanks, back in 2012. This page is the index to the build diary and other resources.

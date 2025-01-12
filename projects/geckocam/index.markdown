@@ -4,6 +4,7 @@ slug: gecko-cam
 title: Gecko Cam
 redirect_from:
   - /hardware/geckocam
+  - /hardware/geckocam/
 ---
 
 The "Gecko Cam" is the instrumentation and automation setup for our pet gecko Rimbaud's vivarium.

@@ -7,6 +7,7 @@ date: 2020-12-27T00:00:00+00:00
 last_update: 2025-01-10T00:00:00+00:00
 redirect_from:
   - /hardware/radioshack
+  - /hardware/radioshack/
 ---
 
 This page describes my "radio shack" and other ham radio equipment, along with providing some links to other radio-related pages below.
