@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "POTA Activation Report: Avon Heath Country Park"
-date: 2025-01-03 17:25 +0000
+date: 2025-01-18 19:04 +0000
 image: /img/blog/2025/01/avon-heath-3-small.jpg
 slug: pota-activation-report-avon-heath-country-park
 description: "Support Your Parks Winter 2025"
