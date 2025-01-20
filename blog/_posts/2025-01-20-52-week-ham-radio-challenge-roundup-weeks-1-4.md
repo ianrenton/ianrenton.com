@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 1-4"
+description: "QSL cards, beacons, 80m DX and callsign history"
 date: 2025-01-20 00:00 +0000
 image: /img/blog/2025/01/beacons-1-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-1-4
@@ -16,16 +17,16 @@ A new amateur radio activity for this year that you may not be aware of is the [
 
 The first four weeks' challenges were:
 
-1. Create a QSL card design
-2. Monitor as many NCDXF IARU beacons in one week as possible
-3. Work another continent on 80m or 160m
-4. Research the history of your callsign
+1. [Create a QSL card design](#week1)
+2. [Monitor as many NCDXF IARU beacons in one week as possible](#week2)
+3. [Work another continent on 80m or 160m](#week3)
+4. [Research the history of your callsign](#week4)
 
 If you'd like to take part, head to the website for the rules and if you have a fediverse account, to see how to track your progress using the bot. There's no need to do them in a specific order or wait until a specific week, but it's fun to do the same activities alongside others, and the bot regularly shares people's progress.
 
 Here's how I got on with weeks 1 to 4!
 
-### Week 1 (1-5 Jan): Create a QSL card design
+### Week 1 (1-5 Jan): Create a QSL card design {#week1}
 
 This was one I had been putting off for ages, so I'm glad it came up! Physical QSL cards are rarely done anymore, and especially not for my main activities (POTA/WWFF and playing with digimodes), but I would love to receive one someday and would love to start sending them on request too. I did register with the RSGB QSL bureau in case Scout troops wanted to do QSL cards for Jamboree on the Air, but no-one asked and none came, which is a shame.
 
@@ -47,7 +48,7 @@ This was the result:
 
 I've not yet sent these off to a printer, but might do soon. Then the long wait for someone to ask for one or send me their own begins!
 
-### Week 2 (6-12 Jan): Monitor as many NCDXF IARU beacons in one week as possible
+### Week 2 (6-12 Jan): Monitor as many NCDXF IARU beacons in one week as possible {#week2}
 
 This was a challenge I was less keen on. It's great that these beacons are out there, and live monitoring of propagation conditions is very cool, but I didn't find it a lot of fun to be listening to the noise for 10-20 minutes at a time in the hope of picking out a quiet burst of Morse code that's too quick for me to copy properly. The beacons only operate on the 20 metre band and up, so by the time evening came and I have some time for radio, the bands were closed and I heard almost nothing. I think I heard the occasional blip from CS3B, but that's it.
 
@@ -65,7 +66,7 @@ The NCDXF beacon map is shown below, annotated with a green tick for beacons I r
 
 ![Annotated beacon map](/img/blog/2025/01/beacons-2.jpg){: .center}
 
-### Week 3 (13-19 Jan): Work another continent on 80m or 160m
+### Week 3 (13-19 Jan): Work another continent on 80m or 160m {#week3}
 
 This was going to be a tricky one. I don't have an antenna resonant anywhere longer than 40 metres, and trying to tune my home end-fed random wire antenna to 80 or 160 resulted in a sequence of unhappy noises and a "high SWR" warning.
 
@@ -108,7 +109,7 @@ In a last ditch effort, recalling the Ham Challenge instructions, *"You can use 
 
 I'm calling this challenge a success on a technicality, but it's not one I feel good about. Still, it's the first time I have tried "operating" on either of the lower bands, so it's been a learning experience for sure.
 
-### Week 4 (20-26 Jan): Research the history of your callsign
+### Week 4 (20-26 Jan): Research the history of your callsign {#week4}
 
 This is one of the easier challenges, and unfortunately my callsign has no *obvious* history.
 
