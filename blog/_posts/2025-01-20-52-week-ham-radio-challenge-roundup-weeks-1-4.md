@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 1-4"
-date: 2025-01-18 00:00 +0000
+date: 2025-01-20 00:00 +0000
 image: /img/blog/2025/01/beacons-1-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-1-4
 tags:
@@ -69,7 +69,7 @@ The NCDXF beacon map is shown below, annotated with a green tick for beacons I r
 
 This was going to be a tricky one. I don't have an antenna resonant anywhere longer than 40 metres, and trying to tune my home end-fed random wire antenna to 80 or 160 resulted in a sequence of unhappy noises and a "high SWR" warning.
 
-In theory of course, home-made antennas are cheap for any band, and there was nothing stopping me buying some wire, heading out into the woods in the middle of the night and building myself a huge antenna. Nothing except a total lack of time and energy, anyway. Massive respect to [those](https://mastodon.radio/@DK4HAA/113811720958096317) [who](https://mastodon.radio/@bgarfoot@kind.social/113839404657190045) did!
+In theory of course, home-made antennas are cheap for any band, and there was nothing stopping me buying some wire, heading out into the woods in the middle of the night and building myself a huge antenna. Nothing except a total lack of time and energy, anyway. Massive respect to [those](https://mastodon.radio/@DK4HAA/113811720958096317) [who](https://mastodon.radio/@bgarfoot@kind.social/113839404657190045) [did](https://social.darc.de/@DC4LW/113856810029189014)!
 
 Luckily the notes for this challenge did specify: *No antennas? Hear another continent on those bands. You can use a WebSDR!*
 
@@ -100,14 +100,26 @@ So on Saturday night I left WSPR running, and... *still no DX*?!
 
 ![Map of WSPR spots, all in Europe](/img/blog/2025/01/wspr-1.png){: .center}
 
+Sunday night rolled around and I repeated the test... but received no DX *again*.
+
+In a last ditch effort, recalling the Ham Challenge instructions, *"You can use a WebSDR!"*, that's what I resorted to in the end. Around 0630z Monday morning, I "borrowed" a nearby [KiwiSDR belonging to G8JNJ](http://wessex.zapto.org:8073/) (thank you!) and finally received W1TKO @ -25dB, W3USR @ -25dB and NI5F @ -18dB.
+
+![Map of WSPR spots, all in Europe](/img/blog/2025/01/wspr-2.png){: .center}
+
+I'm calling this challenge a success on a technicality, but it's not one I feel good about. Still, it's the first time I have tried "operating" on either of the lower bands, so it's been a learning experience for sure.
+
 ### Week 4 (20-26 Jan): Research the history of your callsign
 
 This is one of the easier challenges, and unfortunately my callsign has no *obvious* history.
 
 MØ calls have been issued to Full (and the older Class A) licencees since 1996, giving only a 20-year period over which the call could previously have been issued.
 
-I do wonder if the call had a previous owner before me, because MØTRT was "suspiciously" available. When picking my new callsign, I took a list of assigned ones published by Ofcom, subtracted them from the list of all possibilities, then picked one that sounded good to me both in voice and in Morse code. This showed that the vast majority of calls were taken until those whose suffix started with X, so the block was almost fully assigned, and new "automatic" assignments would be of the form MØX??. But MØTRT was an outlier, still available even though automatic assignments would have passed it several years ago.
+I do wonder if the call had a previous owner before me, because MØTRT was "suspiciously" available. When picking my new callsign, I took a list of assigned ones published by Ofcom, and subtracted them from the list of all possibilities to produce a list of what was available. This showed that the vast majority of calls were taken until those whose three letters started with X, so the block was almost fully assigned, and new "automatic" assignments would be of the form MØX??. But MØTRT was an outlier, still available even though automatic assignments would have passed it several years ago. It sounded good out loud and in Morse code, so I grabbed it.
 
-That's my only clue that MØTRT may have had a previous owner, and perhaps their licence expired or they applied for a new vanity callsign in the mean time, freeing up their old call. A web search for MØTRT only provides results related to me, so if a previous holder of the call was active, they don't appear to have made an impact online.
+But that's my only clue that MØTRT may have had a previous owner. Perhaps their licence expired or they applied for a new vanity callsign in the mean time, freeing up their old call. A web search for MØTRT only provides results related to me, so if a previous holder of the call was active, they don't appear to have made an impact online.
 
-With sharing of records by Ofcom or RSGB presumably covered by GDPR, I don't believe there's much more I can do to find out if there was a previous MØTRT out there somewhere.
+Ofcom have [previously said in response to Freedom of Information requests](https://www.ofcom.org.uk/siteassets/resources/documents/about-ofcom/foi/2023/june/status-of-amateur-radio-call-signs-on-a-given-date.pdf?v=329779) that they don't keep historical data for the list of assigned callsigns, only the latest, and information about recent previous holders would presumably be covered by GDPR anyway. With any previous holder being recent enough that I won't find them in historic callbooks, I don't believe there's much more I can do to find out if there was a previous MØTRT out there somewhere.
+
+The last part of the Ham Challenge prompt for this week was *"In how far does your callsign indicate your geographical location?"*. A UK M or G callsign without a regional locator as the next letter would previously have indicated England. However, as of last year the rules about regional locators were changed to make them optional, so while most hams from other countries in the UK still use them, in theory MØTRT could now be anywhere in the UK.
+
+That's it for this round-up, see you at the end of February for weeks 5 to 8!
