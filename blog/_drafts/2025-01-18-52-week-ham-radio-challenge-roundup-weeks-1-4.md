@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 1-4"
-date: 2025-01-26 00:00 +0000
-image: /img/blog/2025/01/qsl-card-front-small.png
+date: 2025-01-18 00:00 +0000
+image: /img/blog/2025/01/beacons-1-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-1-4
 tags:
   - ham-radio
@@ -51,7 +51,7 @@ I've not yet sent these off to a printer, but might do soon. Then the long wait 
 
 This was a challenge I was less keen on. It's great that these beacons are out there, and live monitoring of propagation conditions is very cool, but I didn't find it a lot of fun to be listening to the noise for 10-20 minutes at a time in the hope of picking out a quiet burst of Morse code that's too quick for me to copy properly. The beacons only operate on the 20 metre band and up, so by the time evening came and I have some time for radio, the bands were closed and I heard almost nothing. I think I heard the occasional blip from CS3B, but that's it.
 
-However, midweek I spotted [a post by Paul, PA3DSB](https://mastodon.radio/@PA3DSB/113783741321639970) which mentioned the [Faros software](http://www.dxatlas.com/faros/) by Alex, VE3NEA. I decided to try that out instead, leaving it running during the daytime to see what it could pick up.
+However, midweek I spotted [a post by Paul PA3DSB](https://mastodon.radio/@PA3DSB/113783741321639970) which mentioned the [Faros software](http://www.dxatlas.com/faros/) by Alex VE3NEA. I decided to try that out instead, leaving it running during the daytime to see what it could pick up.
 
 This was much more successful than listening by ear in the evenings, and the History function provided a nice way to visualise how propagation on the higher bands varied during the day.
 
@@ -67,6 +67,47 @@ The NCDXF beacon map is shown below, annotated with a green tick for beacons I r
 
 ### Week 3 (13-19 Jan): Work another continent on 80m or 160m
 
-This was going to be a tricky one. I don't have an antenna resonant anywhere longer than 40 metres, and trying to tune my home end-fed random wire antenna to 80 metres resulted in a sequence of unhappy noises and a "high SWR" warning.
+This was going to be a tricky one. I don't have an antenna resonant anywhere longer than 40 metres, and trying to tune my home end-fed random wire antenna to 80 or 160 resulted in a sequence of unhappy noises and a "high SWR" warning.
+
+In theory of course, home-made antennas are cheap for any band, and there was nothing stopping me buying some wire, heading out into the woods in the middle of the night and building myself a huge antenna. Nothing except a total lack of time and energy, anyway. Massive respect to [those](https://mastodon.radio/@DK4HAA/113811720958096317) [who](https://mastodon.radio/@bgarfoot@kind.social/113839404657190045) did!
+
+Luckily the notes for this challenge did specify: *No antennas? Hear another continent on those bands. You can use a WebSDR!*
+
+If listening was good enough, I could at least make an effort from home in the evenings when time allowed. Not having worked these bands before, I didn't really know what to expect in terms of range, only that if DX QSOs could be had then it would be at night.
+
+On Wednesday 15th, I tuned around the bands just after local sunset at around 1700z. On 1933kHz I heard what seemed to be a local net on the Isle of Wight with a ham from Scotland joining in, and I copied G7JVF, G4RZQ and GM6XFI. I could hear nothing else above the noise on either band at that time.
+
+On Thursday 16th, I tried later at around 2200z. At this time 160m seemed dead, but over on 80 I picked up DA0WWA on 3777kHz and a PA3 station that I could not fully copy on 3760kHz. Still no DX.
+
+I decided to dedicate a solid block of time to the endeavour on Friday, from 2215z until 2245z. European WWA stations were out in force again allowing easy reception of their high power transmissions, along with some of their callers, but sadly still no DX stations were received.
+
+In my half-hour monitoring period I heard the following.
+
+* 3648kHz: DA0WWA, DD1SB and F5TVG
+* 3708kHz: French ragchew, could not copy callsign
+* 3751kHz: German ragchew, could not copy callsign
+* 3765kHz: 9H1TT and ON8EI
+* 3769kHz: SN7WWA and LZ2AFQ
+* 3778kHz: EG3WWA and SP2DUS
+
+The following morning I got up at 0630z and scanned through the bands before dawn, but was disappointed again with very little audible on the lower bands.
+
+Either I wasn't staying up late enough, or the bands just weren't in good enough shape for me to pull DX out of the noise with just my dodgy ears. With time running out for this week, I decided that I would ditch the romantic image of a radio operator huddled over their gear late at night, and instead go for an approach similar to week 2. All I needed was to receive another continent at some point on 80 or 160m, and in the spirit of the beacon "listening" challenge it didn't *really* matter if that was with my ears, or even if I was sat at the station at the time. It was time to break out the big guns, and one of my oldest loves on the HF bands: WSPR.
+
+WSPR was the first "digimode" I ever tried, before even the ubiquitous FT8. I was fascinated by the use of narrow bandwidths, extremely slow symbol rates, and digital signal processing to pull out signals many decibels below the noise floor. Even more so when I did my first meagre 5W transmission and was immediately received in Australia.
+
+So on Saturday night I left WSPR running, and... *still no DX*?!
+
+![Map of WSPR spots, all in Europe](/img/blog/2025/01/wspr-1.png){: .center}
 
 ### Week 4 (20-26 Jan): Research the history of your callsign
+
+This is one of the easier challenges, and unfortunately my callsign has no *obvious* history.
+
+MØ calls have been issued to Full (and the older Class A) licencees since 1996, giving only a 20-year period over which the call could previously have been issued.
+
+I do wonder if the call had a previous owner before me, because MØTRT was "suspiciously" available. When picking my new callsign, I took a list of assigned ones published by Ofcom, subtracted them from the list of all possibilities, then picked one that sounded good to me both in voice and in Morse code. This showed that the vast majority of calls were taken until those whose suffix started with X, so the block was almost fully assigned, and new "automatic" assignments would be of the form MØX??. But MØTRT was an outlier, still available even though automatic assignments would have passed it several years ago.
+
+That's my only clue that MØTRT may have had a previous owner, and perhaps their licence expired or they applied for a new vanity callsign in the mean time, freeing up their old call. A web search for MØTRT only provides results related to me, so if a previous holder of the call was active, they don't appear to have made an impact online.
+
+With sharing of records by Ofcom or RSGB presumably covered by GDPR, I don't believe there's much more I can do to find out if there was a previous MØTRT out there somewhere.

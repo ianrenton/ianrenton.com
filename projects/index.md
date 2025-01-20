@@ -555,7 +555,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="Fred the Plant"
-  	url="http://fredtheplant.ianrenton.com/"
+  	url="https://fredtheplant.ianrenton.com/"
   	image="/img/index/fred.png"
   	description="A doodle that a friend and I drew in our school days that we briefly resurrected on the Web."
 	readmore-text="Visit the website &rarr;" %}
