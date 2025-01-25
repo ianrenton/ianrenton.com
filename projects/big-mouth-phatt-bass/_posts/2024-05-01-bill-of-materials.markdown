@@ -3,6 +3,9 @@ comments: true
 layout: post
 title: Bill of Materials
 date: 2024-05-01 00:00:00
+redirect_from:
+  - /projects/big-mouth-phatt-bass/bom
+  - /projects/big-mouth-phatt-bass/bom/
 ---
 
 The bill of materials for the Big Mouth Phatt Bass project is shown below.
