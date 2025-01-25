@@ -28,6 +28,15 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="Billy Bass Sat Nav / Bluetooth Bass"
+  	url="/projects/bluetooth-bass/"
+  	image="/img/projects/bluetooth-bass/satnav-small.jpg"
+  	image-alt="A Billy Bass on a car dashboard"
+  	description="This project takes my original 'Big Mouth Phatt Bass' in a slightly different direction, using the ESP32 chip's Bluetooth capability to turn the Billy Bass into a Bluetooth audio receiver that moves its head and mouth when audio is played."
+  	readmore-text="Read more &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="168-in-1 Digital Pet / Bunnyrom / Fake Tamagotchi Teardown"
   	url="/projects/bunnyrom-teardown/"
   	image="/img/projects/bunnyrom-teardown/bunnyrom-1-small.jpg"
