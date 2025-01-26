@@ -20,6 +20,10 @@ As before, I chose JLCPCB to manufacture these, at the cost of $2 for 5 boards s
 
 The board was then relatively simple to solder up, as before. The only modification of note that I had to make was to remove the screw terminal header from the MAX98357A and replace it with downward-facing header pins so that it connected into the motherboard.
 
+**TODO: Photo**
+
 The board was fitted back into the case as before, producing the finished article.
+
+**TODO: Photo**
 
 **TODO: Video**
