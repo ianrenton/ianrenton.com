@@ -27,6 +27,8 @@ The replacement I'm using is a TB6612FNG (specifically a [cheap AliExpress knock
 
 It doesn't have its own regulator to produce 5V for the other boards, but we never really needed that anyway. Back at the start of the guide, we identified wires from the battery compartment that provided a potential difference across three cells rather than the full four&mdash;i.e. 4.5 Volts rather than the full six. 4.5V is within the supply range for the ESP32 Devkit and the MP3 player, so I chose to just use that instead.
 
+(However, note that this new design still sometimes has ESP32 brown-out issues. See [A Note on Board Restarts](/projects/big-mouth-phatt-bass/a-note-on-board-restarts).)
+
 Finally, the TB6612 is just smaller and comes with standard PCB header pins underneath, making the whole thing much easier to slap on the breadboard.
 
 ![Billy Bass with breadboard behind it showing the new set of components](/img/projects/big-mouth-phatt-bass/22.jpg){: .center}
