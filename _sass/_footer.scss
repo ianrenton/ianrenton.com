@@ -1,11 +1,29 @@
 footer {
   clear: both;
+  padding-top: 0.25em;
   margin-top: var(--layout-spacing);
   border-top: 1px solid #aaa;
+  display: flex;
 }
 
-footer p {
-  padding-top: 0.25em;
+span#footer-left {
+  flex: 1;
+  display: flex;
+}
+
+nav#footer-right {
+  display: flex;
+  font-size: 0.9em;
+  text-align: right;
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+
+  }
 }
 
 span.subtitle {

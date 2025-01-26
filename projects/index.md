@@ -1,6 +1,6 @@
 ---
 comments: false
-layout: custompage-withheadfoot
+layout: indexpage
 title: Projects
 redirect_from:
   - /hardware
