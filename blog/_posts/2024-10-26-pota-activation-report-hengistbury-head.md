@@ -29,7 +29,6 @@ This is Hengistbury Head, a popular dog- and child-walking spot that separates t
 
 In POTA terms this is [GB-1727, Christchurch Harbour Site of Special Scientific Interest](https://pota.app/#/park/GB-1727), which also encompasses the beach on the seaward side and all of the headland, from the visitors' centre all the way down to the harbour entrance. The area south of the visitor's centre is also the [former site of a Chain Home radar installation](https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=1476612&sort=4&search=all&criteria=chain%20home&rational=q&recordsperpage=10&resourceID=19191). While it was removed back in the 70s, it counts as bunker [G/B-1100](https://bunkerwiki.org/?s=B/G-1100) for UK Bunkers on the Air.
 
-<br/>
 ![Southbourne beach at Hengistbury Head, looking west towards the Purbecks](/img/blog/2024/hengistbury-2.jpg){: .center}
 *Southbourne beach at Hengistbury Head, looking west towards the Purbecks. North America lies somewhere beyond.*
 
@@ -45,7 +44,6 @@ The great thing about operating portable, away from built-up areas and their pes
 
 I brought [Field Spotter](https://fieldspotter.radio) out and found a couple of POTA stations in north-eastern US & Canada, but they were almost completely wiped out by contesters on nearby (and even the same) frequency. Not a promising start to my first transatlantic park-to-park attempt.
 
-<br/>
 ![JPC-12 antenna set up under a sky with a dense wavy cloud pattern](/img/blog/2024/hengistbury-3.jpg){: .center}
 *My antenna on the clifftop, under an interesting sky*
 
@@ -55,7 +53,6 @@ Field Spotter showed spots of a few stations in North America on 12m, a WARC ban
 
 I'd not tuned the JPC-12 for 12m before, so I brought the NanoVNA into the field with me. A quick adjustment in increasingly windy conditions brought the SWR down, but only to a wide sweeping curve with about 1.75:1 at the lowest. Nevertheless, the FT-891 still seemed happy to chuck 100W into that, so off we went.
 
-<br/>
 ![Radio in the foreground tuned to the 12m band, background of clifftop vegetation, sky and sea](/img/blog/2024/hengistbury-4.jpg){: .center}
 *Honestly, who needs a radio shack when you can have this?*
 
@@ -75,7 +72,6 @@ I was riding the wave, so naturally I had to get another one before the day was 
 
 Well that was mission accomplished. Two transatlantic park-to-parks in the log on my first try. Time was ticking on, and I had a roast dinner to cook that evening, so I packed down and headed home.
 
-<br/>
 ![Antenna in the foreground, Hengistbury Head in the background](/img/blog/2024/hengistbury-5.jpg){: .center}
 <br/>
 
@@ -83,7 +79,6 @@ I find something uniquely amazing about working DX like this, two people an ocea
 
 It's a little more than 120 years since the first ever transatlantic radio contact, and of course we shouldn't be surprised at how much technology has improved in that time. But compared to the internet, a fundamentally digital technology that we have seen evolve beyond recognition in our lifetimes, there seems to me something about radio that is more constrained by the laws of physics. If Marconi needed a dozen wires over a kilometer long and countless kilowatts to bridge the Atlantic, surely we always would! But here we are, sat in fields and on cliff tops, with with a short metal pole and some ribbon cable ground radials, having a chat over 6000 kilometers of ionosphere.
 
-<br/>
 !["Look what they need to mimic a fraction of our power" meme. The background is the Condenser House and antenna feedpoint at Marconi's Caernavon Station.](/img/blog/2024/hengistbury-meme.png){: .center}
 <br/>
 

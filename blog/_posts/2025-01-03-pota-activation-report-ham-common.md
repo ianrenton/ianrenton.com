@@ -20,7 +20,6 @@ It's also possibly the most inconvenient place to get to in the whole of Poole, 
 
 In the higher sections of the common near the western end, close to the car park, there are a few wide open grassy areas with plenty of space for antennas. So of course I ignored them completely, slipped and slid through fifty metres of sludgy wet clay along the lake, found the most inhospitable place to site an antenna, and activated with my boots in a puddle. Why?
 
-<br/>
 ![A peaceful blue lake framed by heathland and rushes](/img/blog/2025/01/ham-common-1.jpg){: .center}
 *That's why.*
 
@@ -32,7 +31,6 @@ This would be my 20th activation as far as the POTA system is concerned, though 
 
 Hunting on 20 metres produced a couple of park-to-parks and a park-to-summit, but I think a lot of Europeans must have been back to work already as there weren't that many activators out. As usual, I followed this up with a CQ call, a self-spot, and a pile-up of 51 more QSOs including several more park-to-parks and a couple of Canadian stations.
 
-<br/>
 ![A radio on a wooden bench, antenna out of focus in the background](/img/blog/2025/01/ham-common-3.jpg){: .center}
 *Let's see if the Americans are awake.*
 
@@ -42,7 +40,6 @@ While running back and forth between radio and antenna to re-tune, who do I see 
 
 As expected it took a few minutes to get through and a number of overs to complete the briefest of QSOs, but with a report of 31 from him and 22 from me, we got there in the end. And at 20W from my resolutely difficult antenna, no less!
 
-<br/>
 ![A brown mouse on a dirt path](/img/blog/2025/01/ham-common-4.jpg){: .center}
 *I also tried a brief QSO with this guy, but couldn't hear his signal report.*
 

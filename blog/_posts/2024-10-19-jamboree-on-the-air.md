@@ -21,7 +21,6 @@ I didn't have the Full UK licence that would allow me to register a special even
 
 The day started with a hearty second breakfast before heading out to the field to set up our equipment. Compared to some of the JOTA stations I'd seen photos of, we had very little to offer&mdash;just the same equipment that regular visitors to this site will recognise.
 
-<br/>
 ![FT-891 radio, cable, pole and dipole antenna](/img/blog/2024/jota-station.jpg){: .center}
 *The GB2BS JOTA HF station. Trip hazards are all part of the Scouting experience.*
 
@@ -49,7 +48,6 @@ Some have all the luck, eh!
 
 Although I missed the indoor action, we finished the day with the Scout leaders talking about how we could do JOTA bigger and better next year&mdash;so I think we can call the day a resounding success. They even saved me a Scout badge, my first in 25 years!
 
-<br/>
 ![JOTA/JOTI 2024 badge](/img/blog/2024/jota-badge.jpg){: .center}
 *The JOTA/JOTI 2024 badge*
 

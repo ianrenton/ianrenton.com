@@ -16,7 +16,6 @@ It's a week of leave from work, I have nothing urgent to do, and so: my second P
 
 This one had a very different feel to [Saturday's sunny afternoon activation](/blog/pota-activation-report-hengistbury-head/). The day dawned damp and windy, but at least not actively raining&mdash;sadly, that was to change almost immediately as soon as I got into the car. By the time I reached the cliff tops, it was coming down as a slow steady fall, and the coast was wrapped in low-level cloud.
 
-<br/>
 ![Misty view of Bournemouth beach and pier from Canford Cliffs](/img/blog/2024/canford-cliffs-view.jpg){: .center}
 *Misty view of Bournemouth beach and pier from Canford Cliffs. Hengistbury Head is on the horizon at the right.*
 
@@ -26,7 +25,6 @@ Once I got as far as deciding the rain had stopped, and had half an antenna up, 
 
 So I did that one thing I said I never wanted to do: activate a park from my car.
 
-<br/>
 ![Yaesu FT-891 on a car dashboard, antenna almost visible through a rainy windscreen](/img/blog/2024/canford-cliffs-radio.jpg){: .center}
 *My operating location. I'm getting out in nature, honest.*
 

@@ -20,7 +20,6 @@ When the rain started blowing in as sheets of water across the valley, should I 
 
 No, of course not. We're not here for a nice day out! We are here to exchange unintelligible sequences of numbers with total strangers, and one day earn a PDF of a certificate!
 
-<br/>
 ![Heathland and sky, the left half of the sky is overcast in low grey cloud](/img/blog/2024/turbary-common-1.jpg){: .center}
 *Here comes the rain again...*
 
@@ -34,7 +33,6 @@ This seemed like a good idea at the time, although with only a six-inch-high tre
 
 The rain came in almost as soon as I had set up, and at one point I started packing down the antenna again, ready to call the whole thing off. But after a while the clouds had moved on and it seemed like the rain was falling from a cloudless sky. I took that as a good sign that things were about to change for the better, and persevered. I protected the radio and battery as well as I could in my bag, took up position on my tree stump, and called CQ.
 
-<br/>
 ![Yaesu FT-891 peeking out of a rucksack](/img/blog/2024/turbary-common-2.jpg){: .center}
 *Not exactly IP68, but it'll do.*
 

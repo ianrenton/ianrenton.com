@@ -16,8 +16,6 @@ It's another weekend, and time for another Parks on the Air adventure. Not just 
 
 So off we went to another local landmark. This time, it's the turn of our most famous limestone sea stacks and possible home of the devil, Old Harry Rocks!
 
-<br/>
-
 ![Photo of Old Harry Rocks from south side clifftop](/img/blog/2024/oldharry.jpg){: .center}
 *Old Harry Rocks, viewed from south side clifftop*
 

@@ -14,13 +14,11 @@ tags:
 
 There are dozens, if not hundreds of places in the UK called "Poor Common"; land granted many centuries ago by the local Lord to ordinary people so that they had somewhere to graze their livestock. But this one, [GB-1723 Poor Common Nature Reserve](https://pota.app/#/park/GB-1723) is the only one in the POTA database. It's also now the closest POTA park to me since it was added a couple of months ago&mdash;though I was beaten to "first activation" by a couple of days!
 
-<br/>
 ![Footpath in a forest carpeted with brown leaves](/img/blog/2024/poor-common-1.jpg){: .center}
 *A footpath in Poor Common*
 
 I went exploring before I picked my spot to activate, as usual, and discovered the remains of a WW2 bunker I'd not heard of before (and neither had Bunkers on the Air). Named Belle View Bunker, it was once manned by the Ferndown Auxiliary Unit, before being lost to time after the war. It was only rediscovered and excavated in 2019. It's now fenced off to protect the portion that remains exposed above ground, and a sign explains the history of the bunker and of the excavation.
 
-<br/>
 ![The concrete and steel ruins of a bunker. In the foreground, a fence bears a plaque with the names of the soldiers who served there.](/img/blog/2024/poor-common-2.jpg){: .center}
 *Belle View Bunker, and plaque giving the names of the soldiers that served there*
 
@@ -35,7 +33,6 @@ There were a few attempts at wooden shelter building up there, thick trunks and 
 
 Like my previous solo activations, I ditched the picnic blanket in favour of a camp chair, and the inverted-V dipole for the JPC-12 vertical.
 
-<br/>
 ![Yaesu FT-891 on my knee in the foreground, cable trailing off to an antenna out of focus in the background. The floor is covered with brown leaves and there are a number of tall straight tree trunks.](/img/blog/2024/poor-common-3.jpg){: .center}
 *Radio balanced precariously on my knee, as is tradition*
 

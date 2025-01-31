@@ -70,4 +70,8 @@ img + em {
         font-size: 80%;
     }
 }
-
+/* And if we have a caption, this will have extra padding underneath it,
+   so also provide extra padding above the image. */
+img:has(+ em) {
+    margin-top: 2em !important;
+}

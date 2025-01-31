@@ -20,7 +20,6 @@ We headed up to the viewpoint towards the south-east of the park, which offered 
 
 With my daughter and logging assistant along for the ride, I suggested taking the dipole antenna that takes two people to put up, and working 40 and 20 metres with it. However, she was more keen to take the vertical and give 10 metres another try after her [previous success](/blog/jamboree-on-the-air-2024/), so that's what we went for in the end.
 
-<br/>
 ![Vertical antenna with heath in the background](/img/blog/2024/canford-heath-4.jpg){: .center}
 *When you look the other way, you can pretend the rest of Poole isn't there.*
 
@@ -32,7 +31,6 @@ And wow am I glad we did.
 
 Working through a big pileup is a full-brain activity for me, and it's usually not until I get chance to read through the log later that I can pick out the highlights of who we were actually talking to. We got a further 27 in the log on 10 metres, including one with SU8FEB (my first QSO to Egypt) and my third-furthest SSB call to N5SLY nearly 7500km away in Texas (RST of 11 both ways, but we got there in the end).
 
-<br/>
 ![Me sat on a plank of wood with radio in hand, view of Poole behind me](/img/blog/2024/canford-heath-3.jpg){: .center}
 *Some idiot with a radio*
 

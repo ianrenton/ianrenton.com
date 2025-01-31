@@ -14,7 +14,6 @@ tags:
 
 My work off-site finished at lunchtime, leaving me with little to do besides drive most of the M27 and sit around at home. A better idea: do some radio nerd stuff in a field instead.
 
-<br/>
 ![Slanted field with trees in the distance, and an antenna in the middle ground](/img/blog/2024/hamble1.jpg){: .center}
 *The BBQ field at River Hamble Country Park*
 
