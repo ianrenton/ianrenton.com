@@ -10,6 +10,7 @@ This page provides a list of all the blogs and websites that I regularly read, a
 ### Blogs&mdash;Ham Radio
 
 * [Amateur Radio Weekly](https://hamweekly.com/)
+* [Disaster Comms](https://disastercomms.net/)
 * [Fabian Kurz, DJ5CW](https://fkurz.net/)
 * [GM5ALX Radio](https://gm5alx.uk/)
 * [Ham on a Bike](https://hamonabike.blogspot.com/)
