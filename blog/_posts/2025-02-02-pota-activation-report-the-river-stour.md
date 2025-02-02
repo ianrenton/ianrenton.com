@@ -57,9 +57,9 @@ The "houses" I wrote about would have been what is now Wheatplot Residential Par
 I trudged through a few hundred metres of mud, preferring the puddles and their rocky bottoms to the sludge that covered the rest of the path from one side to the other. I rounded the corner of the caravan park, crossed a small stream too carelessly, stuck one foot six inches deep in the mud, stumbled forward... and there it was.
 
 ![A shallow brown-coloured lake (or oversized puddle) amongst the trees](/img/blog/2025/02/stour-3.jpg)
-*"Bronze Lake"*
+*Bronze Lake*
 
-A metallic tinge to the water, sparkling in the afternoon sunlight. Shallow, barely more than a puddle, yet stretching away out of sight between the trees. Just like I remember, from thirty years ago.
+A metallic tinge to the water, sparkling in the afternoon sunlight. Shallow, barely more than a puddle, yet stretching away out of sight between the trees. Just like I remembered, from thirty years ago.
 
 I was elated. There was nothing the next 400 metres of trudging through mud and puddles could do to dampen my spirits, and nor could the odd looks from strangers at this mud-caked weirdo emerging from the woods. Not even the S5 QRM could manage it, once I'd finally found somewhere dry enough to set up the radio. I was back in my childhood stomping grounds, my memory from decades ago was alive in my head once more, my boots and jeans had paid the price, and damnit I was going to be the first to put this Park on the Air.
 
