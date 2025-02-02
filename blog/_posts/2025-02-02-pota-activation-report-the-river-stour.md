@@ -14,7 +14,7 @@ tags:
   - memories
 ---
 
-Folks reading these POTA posts are probably in it for the radio stuff, rather than the minor asides about my childhood memories of all these local places. If so, you might want to skip this one, as it dials the reminiscence up to 11. Because guess what just cropped up as a location on the POTA site? [GB-4057 Stour Valley Local Nature Reserve](https://pota.app/#/park/GB-4057).
+Folks reading these POTA posts are probably in it for the radio stuff, rather than the minor asides about my childhood memories of all these local places; if that's you, you might want to skip to the end of this one as it dials the reminiscence up to 11. Because guess what just cropped up as a location on the POTA site? [GB-4057 Stour Valley Local Nature Reserve](https://pota.app/#/park/GB-4057).
 
 The River.
 
