@@ -14,16 +14,22 @@ tags:
   - memories
 ---
 
-Folks reading these POTA posts are probably in it for the radio stuff, rather than the minor asides about my childhood memories of all these local places; if that's you, you might want to skip to the end of this one as it dials the reminiscence up to 11. Because guess what just cropped up as a location on the POTA site? [GB-4057 Stour Valley Local Nature Reserve](https://pota.app/#/park/GB-4057).
+If you're a regular reader, you will probably know that I've not moved far from where I grew up, and that in my POTA activation reports I like to talk about the history of the parks and sometimes how they've been important in my life. Fair warning about this one then, as this is going to be 90% reminiscence, 10% radio.
+
+Because guess what just cropped up as a location on the POTA site? [GB-4057 Stour Valley Local Nature Reserve](https://pota.app/#/park/GB-4057).
 
 The River.
 
 It's time to go back.
 
-![The River Stour in full flood,](/img/blog/2025/02/stour-7.jpg)
+![The River Stour in full flood](/img/blog/2025/02/stour-7.jpg)
 *The River Stour in full flood*
 
-Within walking distance of all my childhood homes, this was and remains one of my parents' favourite walking spots. A lot of my own memories are centered around this place too. Here's me writing in 2005 (aged 20), coming back home after a couple of years of University and reminiscing about my childhood haunts:
+Within walking distance of all my childhood homes, this was and remains one of my parents' favourite walking spots. A lot of my own memories are centered around this place too, to the extent that you don't have to qualify *which* river. This is *the* river. Anywhere in the world we might be, if you say you'll "meet me by the river", my first thought will be *exactly* here:
+
+[![Aerial view of "the" down-by-the-river](/img/blog/2025/02/stour-aerial.png)](https://www.google.com/maps/@50.7640401,-1.8652999,146m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D)
+
+This is me writing in 2005 (aged 20), having come back home after a couple of years of University, reminiscing about my childhood haunts:
 
 > The place I remember most from my childhood was the river. I recall it in every detail, in every season, we went there so many times... Over the logs and across the orange gravel car park, down the path between picnic benches or across the grass, down the steps and across more gravel until you got to the riverbank where I paddled in red Wellington boots and my parents warned me not to go too deep, where the dogs swam and shook themselves dry, and where the two swans nested year after year.
 > 
@@ -71,7 +77,7 @@ An egret and a heron eyed me warily as I continued up the riverbank to the North
 ![A brown backpack and black battery pouch make a tower of stuff on which sits the radio](/img/blog/2025/02/stour-5.jpg)
 *A leaning tower of stuff to support my radio*
 
-I planned a switch from 20 metres to either 40 or 10 at some point, especially when I noticed how bad the noise was on 20. But in the end the pile-up kept on coming for over an hour, and by the time I made it through with 72 QSOs in the log, a definite chill was growing in the air. With a long trudge back home in my near future, I decided that was enough for one day.
+I planned a switch from 20 metres to either 40 or 10 at some point, especially when I noticed how bad the noise was on 20. But in the end the pile-up kept on coming for over an hour. There were a couple of contacts I couldn't quite complete, but a lot of park-to-parks in there as well, and as ever Tobias DC1TC, Harm DK4HAA and trainee DN4HAA were a highlight&mdash;the first time I've had a three-operator activation call *me* park-to-park. By the time I made it through with 72 QSOs in the log, a definite chill was growing in the air, and with a long trudge back home in my near future, I decided that was enough for one day.
 
 This adventure had provided exactly what I had hoped for, and now it was time for a cup of tea while I rested my legs.
 
