@@ -23,6 +23,9 @@ Things have moved on since the early 90s, and nowadays it also features a "Go Ap
 
 What it doesn't have, though, is a nice big grassy area with picnic tables in an out-of-the-way location where kids and dogs won't be constantly running across your ground radials. But as usual, we make do.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/moors-valley-route.png)
+*Walking route to and from the activation spot*
+
 We set up on a bench with a few square metres of grass around it, down by the lake. It's on a popular trail with various musical instruments staged around it for kids to play with, so not exactly a secluded location, but I chose to go down by the lake instead of into the forest, and by the time we'd found somewhere half-decent, it was too late to change our minds.
 
 ![A lake with rushes and birds, under a grey sky](/img/blog/2024/moors-valley-1.jpg){: .center}
@@ -44,3 +47,4 @@ If nothing else, we've learned that we don't necessarily need to pack the invert
 Many thanks and Happy New Year to all our contacts this afternoon. See you on the air next time!
 
 ![Map of contacts](/img/blog/2024/moors-valley-map.png){: .center}
+*Map of contacts from the activation*

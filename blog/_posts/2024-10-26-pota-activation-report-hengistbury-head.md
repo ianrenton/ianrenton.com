@@ -34,6 +34,9 @@ In POTA terms this is [GB-1727, Christchurch Harbour Site of Special Scientific 
 
 Being such a popular spot, it's hard to find an out-of-the-way place to set up. I settled on halfway up the cliffs, up a steep path with 20 metres of shin-scratching gorse bushes. Nevertheless, eight inquisitive kids, their indulgent parents, and somehow also two small dogs made it up there over the course of a couple of hours.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/hengistbury-head-route.png)
+*Walking route to and from the activation spot*
+
 Now one problem we had at JOTA was a contest running at the same time; we gave up on 40m after being unable to find any space whatsoever in the band, and stuck to 20m. If you recognise the date, you'll see where this is going&mdash;this weekend had a contest too. *The* contest: [CQ WW SSB](https://cqww.com/).
 
 But how bad could it be, I thought? I was there to DX on 10m, a huge band in terms of space allocated to amateurs. I'd find somewhere free, and get calling CQ POTA.
@@ -87,5 +90,6 @@ As a nice bonus, 12 metres is also the wavelength that would have been used by t
 Thanks to all my contacts today, including Craig, K1CT for my new SSB distance record of 6513 km, and especially to Steve, VE1SK and Bill, K0WML for my first transatlantic park-to-parks. A pleasure to work you all.
 
 ![Map of contacts](/img/blog/2024/hengistbury-map.png){: .center}
+*Map of contacts from the activation*
 
 See you on the air next time!

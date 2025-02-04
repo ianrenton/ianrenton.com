@@ -18,6 +18,9 @@ From [the smallest local SSSI](/blog/pota-activation-report-turbary-common/), to
 
 We headed up to the viewpoint towards the south-east of the park, which offered a good chance of dry-ish ground. Folks had already set up a block of wood there to sit on and enjoy the scenic view of housing and industrial estates, so at least we had a six-inch-high seat rather than just the picnic blanket on damp stony ground.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/canford-heath-route.png)
+*Walking route to and from the activation spot*
+
 With my daughter and logging assistant along for the ride, I suggested taking the dipole antenna that takes two people to put up, and working 40 and 20 metres with it. However, she was more keen to take the vertical and give 10 metres another try after her [previous success](/blog/jamboree-on-the-air-2024/), so that's what we went for in the end.
 
 ![Vertical antenna with heath in the background](/img/blog/2024/canford-heath-4.jpg){: .center}
@@ -37,3 +40,4 @@ Working through a big pileup is a full-brain activity for me, and it's usually n
 Many thanks and Merry Christmas to all our contacts this afternoon. See you on the air next time!
 
 ![Map of contacts](/img/blog/2024/canford-heath-map.png){: .center}
+*Map of contacts from the activation*

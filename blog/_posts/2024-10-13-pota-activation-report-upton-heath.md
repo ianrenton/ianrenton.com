@@ -53,6 +53,9 @@ There are plenty of opportunities to get lost here; paths that look like shortcu
 
 An hour of wandering passed, but the sun never did burn through the clouds. A pale and slowly fading light signalled the end of the day, and with a kilometer hike and 50m of elevation gain ahead of me, I turned and headed for the car.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/upton-heath-route.png)
+*Walking route to and from the activation spot*
+
 Thanks to all my contacts today:
 
 |UTC |Frequency|Callsign|RST Sent|RST Rcvd|Name                           |Park   |
@@ -100,5 +103,6 @@ Thanks to all my contacts today:
 Here's the map from today:
 
 ![Map of contacts](/img/blog/2024/upton-heath-map.png){: .center}
+*Map of contacts from the activation*
 
 See you on the air next time!

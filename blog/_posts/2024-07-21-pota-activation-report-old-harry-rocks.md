@@ -25,6 +25,9 @@ Old Harry Rocks doesn't qualify as a POTA park by itself, but it is at the far e
 
 The clifftop is an easy one-mile hike up from the Bankes Arms, making it attractive enough for the whole family to come along with us this time&mdash;so thanks to them for putting up with an hour of our radio nonsense at the top! It's also attractive enough for hordes of holidaymakers, so if you're heading to Old Harry yourself on a nice sunny day, expect a lot of company.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/old-harry-route.png)
+*Walking route to and from the activation spot*
+
 We caught the chain ferry over to save ourselves the drive around, but only made it to fourth-from-front by the time it pulled away, leaving us with a 20 minute wait for it to come back. Combined with departing slightly later than planned, we ended up at the pub around 1230 local time, so it was lunch first, hike second. Four very full stomachs later, we headed up the trail to the clifftop.
 
 <div class="breakout-full-width"><center><img src="/img/blog/2024/oldharry-gap.jpg" alt="Sea and sailing yachts viewed through a gap in a hedgerow" style="width:100%"/></center></div>
@@ -54,5 +57,6 @@ Thanks to all our contacts today:
 |1413|7.158|M0JTL |47    |55    |Ian       |
 
 ![Map of contacts](/img/blog/2024/oldharry-map.png){: .center}
+*Map of contacts from the activation*
 
 Until next time, see you on the air!

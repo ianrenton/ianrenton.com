@@ -51,6 +51,9 @@ They were closer than they look&mdash;thankfully they didn't get any closer than
 
 A second mini pile-up kicked in as soon as our antenna was back in the air, with eight more contacts in the log over the next 15 minutes. But by 1600 local time, the band was getting full&mdash;we had to QSY due to nearby signals and struggled to find a clear spot to start calling CQ again. The wind was picking up too, so we decided to call it quits at that point. A brief burst of phone signal allowed us to see a POTA spot from Charles M0WMB, so I called in for one final park-to-park QSO before we packed up and headed home.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/horseshoe-bottom-route.png)
+*Walking route to and from the activation spot*
+
 All in all, not a bad way to spend a Bank Holiday afternoon. Definitely better than DIY.
 
 Thanks to H for logging as usual, and to all our contacts today:
@@ -350,5 +353,6 @@ Thanks to H for logging as usual, and to all our contacts today:
 </center></div>
 
 ![Map of contacts](/img/blog/2024/newforest-map.png){: .center}
+*Map of contacts from the activation*
 
 See you on the air next time!

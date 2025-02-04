@@ -42,13 +42,15 @@ We were on site from around 1100 local time, and spent the first half hour explo
 
 We set up on the south side, just down from the peak, with views of home and the sea in the far distance.
 
-<div class="breakout-full-width"><center><img src="/img/blog/2024/wingreen2.jpg" alt="View from Win Green looking south" style="width:100%"/></center></div>
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/win-green-route.png)
 
 With hindsight, this location limited our VHF capability somewhat, and the north side would probably have netted us more contacts in that band. But here our quintessential British embarassment kicked in. It was so peaceful and quiet up there, we almost didn't want to spoil it with radios and&mdash;horror of horrors&mdash;*talking*, so we sought out a place as far from other people as possible.
 
 Choosing an OARC activity day for our first SOTA was definitely a good plan. We had Discord to coordinate on as well as "spotting" on the SOTA website itself, providing a set of willing conversation partners who already knew my name, where we were, who was with me, and so on. We started out well on the handheld VHF with a contact with Seb M7PHG almost immediately, but after that we struggled. With the HT held high in the air we heard some other conversations, so we moved a bit closer to the brow of the hill, but despite calling "CQ" a few times we got no more takers on that band.
 
 We stopped for lunch at that point, joined by the many grasshoppers, spiders and cinnabar moths who decided to investigate our picnic blanket.
+
+<div class="breakout-full-width"><center><img src="/img/blog/2024/wingreen2.jpg" alt="View from Win Green looking south" style="width:100%"/></center></div>
 
 ## What did you mean by "your timing would only get better"?
 

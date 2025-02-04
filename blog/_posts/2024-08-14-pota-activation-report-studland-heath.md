@@ -30,6 +30,9 @@ The drive out was an odd one. Despite being a sunny day in the school holidays w
 
 I chose, as usual, to wander off onto less-used trails until we could find ourself a quiet spot. This has worked well so far; we have had some interested looks from passers-by on this and other activations, but never anyone coming to ask us what we're doing, or (worst of all) if we are *allowed* to be doing it. This is POTA activation number four, and I still dread it happening one day.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/studland-heath-route.png)
+*Walking route to and from the activation spot*
+
 We found a sandy hollow in between banks of heather that looked a perfect size for our 20/40m inverted-V dipole antenna, and set up our station and our picnic blanket for the next couple of hours.
 
 ![Radio equipment in the foreground, antenna pole somewhat out of focus in the background.](/img/blog/2024/studland3.jpg){: .center}
@@ -228,5 +231,6 @@ Thanks to all our contacts today:
 </center></div>
 
 ![Map of contacts](/img/blog/2024/studland-map.png){: .center}
+*Map of contacts from the activation*
 
 See you on the air next time!

@@ -19,7 +19,12 @@ Since I discovered that POTA had an award for activating in the first week of th
 
 Today's outing was Upton Country Park, [POTA ref. GB-0443](https://pota.app/#/park/GB-0443). It's a park I'd been to many times before, but this would be the first time with a radio. From my childhood I remember the house and playing football on the long front lawn that runs down from it, so I was a bit nervous about how conspicuous I'd be sat in the middle of that empty space.
 
-I needn't have worried though&mdash;the lawn was so muddy I discounted it immediately, and set off for other parts of the site. One memory I definitely don't have from childhood is that the site opens directly onto Holes Bay. I should have brought the proper camera, as the curlews and shelducks were having a field day in the shallow muddy water.
+I needn't have worried though&mdash;the lawn was so muddy I discounted it immediately, and set off for other parts of the site.
+
+![A map with the car park and activation spot shown along with a route](/img/blog/2025/01/upton-country-park-route.png)
+*Walking route to and from the activation spot*
+
+One memory I definitely don't have from childhood is that the site opens directly onto Holes Bay. I should have brought the proper camera, as the curlews and shelducks were having a field day in the shallow muddy water.
 
 ![Marshy wetland with deeper water in the distance, birds swimming](/img/blog/2025/01/upton-country-park-2.jpg){: .center}
 *View over Holes Bay*
@@ -38,5 +43,6 @@ Plenty of regular hunters showed up, as did fedi mutual Alex, KR1ST, though I na
 Still, 34 in the log is a decent haul, including 6 transatlantic. I think I may have beaten my record for the *shortest* distance HF QSO as well. Regular local hunter John, M6EAM in Christchurch was soon followed by a new contact, Jon, 2E0WJD in Creekmoor&mdash;less than a mile away and probably line of sight through the trees!
 
 ![Map of contacts](/img/blog/2025/01/upton-country-park-map.png){: .center}
+*Map of contacts from the activation*
 
 Many thanks and Happy New Year to all my contacts this afternoon. See you on the air next time!

@@ -21,6 +21,8 @@ My work off-site finished at lunchtime, leaving me with little to do besides dri
 
 These days, it's a nice country park with open fields, woodland, a café and various activity centres for Scouts and the like.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/hamble-route.png)
+
 After a quick wander around the place, I settled on the large open field to the north of the visitor's centre. There I came across the greatest luxury a POTA activator could ask for: *picnic tables*. Signs warned that they were only for groups that had pre-booked them for barbecues, but as the place was deserted on a chilly November afternoon, I didn't think they would my presence too much.
 
 ![Radio on a picnic table](/img/blog/2024/hamble2.jpg){: .center}

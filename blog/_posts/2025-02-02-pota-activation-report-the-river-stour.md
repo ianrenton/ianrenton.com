@@ -79,8 +79,12 @@ An egret and a heron eyed me warily as I continued up the riverbank to the North
 
 I planned a switch from 20 metres to either 40 or 10 at some point, especially when I noticed how bad the noise was on 20. But in the end the pile-up kept on coming for over an hour. There were a couple of contacts I couldn't quite complete, but a lot of park-to-parks in there as well, and as ever Tobias DC1TC, Harm DK4HAA and trainee DN4HAA were a highlight&mdash;the first time I've had a three-operator activation call *me* park-to-park. By the time I made it through with 72 QSOs in the log, a definite chill was growing in the air, and with a long trudge back home in my near future, I decided that was enough for one day.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2025/02/stour-route.png)
+*Walking route to and from the activation spot*
+
 This adventure had provided exactly what I had hoped for, and now it was time for a cup of tea while I rested my legs.
 
 ![Map of contacts](/img/blog/2025/02/stour-map.png){: .center}
+*Map of contacts from the activation*
 
 Many thanks to all my contacts this afternoon, and to the reader if you've stuck it out to the end. See you on the air next time!

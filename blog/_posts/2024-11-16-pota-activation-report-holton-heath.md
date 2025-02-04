@@ -21,6 +21,9 @@ Well of course, I had to fix that.
 
 Not all of this site is accessible to the public. The section that *is* can be entered by two gates, one on the main road opposite Sandford Middle School, and the other on Station Road. The council provide [this helpful map](https://www.dorsetcouncil.gov.uk/documents/35024/303264/Sandford+Heath+map.pdf/3e52b7bf-c367-c35a-76c7-a25ada4161a7). I picked the Station Road end, and after entering through the gate and crossing over a small bridge, I was into the heathland proper.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/holton-heath-route.png)
+*Walking route to and from the activation spot*
+
 Now every time I head out to a park, I think it'll be the first one that's so uneventful that I won't bother blogging about it. This looked like a strong contender, until I took a right turn out onto the wilder part of the heath, and saw *this thing*.
 
 ![A tall and empty concrete structure, with a British flag flying on top](/img/blog/2024/holton-heath-2.jpg){: .center}
@@ -53,3 +56,4 @@ With only 33 in the log, and needing 44 for a successful WWFF activation, I swit
 Many thanks to all my contacts this afternoon. See you on the air next time!
 
 ![Map of contacts](/img/blog/2024/holton-heath-map.png){: .center}
+*Map of contacts from the activation*

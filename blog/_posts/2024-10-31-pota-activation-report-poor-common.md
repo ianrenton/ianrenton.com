@@ -26,8 +26,10 @@ I went exploring before I picked my spot to activate, as usual, and discovered t
 [![Sign explaining the history of Belle View Bunker](/img/blog/2024/poor-common-4.jpg){: .center}
 *The sign explaining the history of the bunker. (Click for full size.)*](/img/blog/2024/poor-common-4-full.jpg)
 
-
 Almost all of Poor Common is wooded. There is an open area to the east which looks tempting for a radio setup based on satellite imagery, but is really waist-high brambles and ferns. Instead, I sought out the high point of the area, and found a clearing in the woods to set up for the activation.
+
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/poor-common-route.png)
+*Walking route to and from the activation spot*
 
 There were a few attempts at wooden shelter building up there, thick trunks and branches laid on the ground, and nearby an old hoodie hanging from a branch. A few hours later, as the Halloween gloom darkened, it would have been a creepy place to be.
 
@@ -43,5 +45,6 @@ A CQ call got the pileup going as usual, and 33 operators were worked before the
 Switching to the 10 metre band, I spotted Mike, VY2MG in a temptingly close corner of Prince Edward Island, but after a few tries getting through his pileup, I gave up and called CQ myself nearby. That netted me another five QSOs with hunters in North America, but sadly the calls dried up very quickly. I ended up going back to VY2MG with a bit more patience, and made it in the end&mdash;another transatlantic park-to-park to cap off the afternoon's activation.
 
 ![Map of contacts](/img/blog/2024/poor-common-map.png){: .center}
+*Map of contacts from the activation*
 
 Happy Halloween! 🎃
