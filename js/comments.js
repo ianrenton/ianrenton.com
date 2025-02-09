@@ -8,9 +8,18 @@ $('#comment-form-show-preview').change(function() {
  $('#commentpreviewsection').toggle(this.checked);
 });
 
-// Show Captcha and update preview on key up, so when the user types something in the comment field
+// Update preview on key up, i.e. when the user types something in the comment field.
+// On the first time, also load the Captcha. Don't preload this for privacy reasons,
+// we wait for the user to show an intent to comment.
 function commentTextFieldOnKeyUp() {
-  $('.g-recaptcha').show();
+  if ($('.g-recaptcha').is(':hidden')) {
+    jQuery.ajax({
+        url: 'https://www.google.com/recaptcha/api.js',
+        dataType: 'script',
+        async: true
+    });
+    $('.g-recaptcha').show();
+  }
   $('#commentpreview').html(converter.makeHtml($('#comment-form-message').val()));
 }
 
