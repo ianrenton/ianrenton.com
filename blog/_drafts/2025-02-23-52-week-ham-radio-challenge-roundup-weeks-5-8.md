@@ -18,19 +18,19 @@ If you've read [last month's post](/blog/52-week-ham-radio-challenge-roundup-wee
 This post covers the challenges from weeks 5-8, which were:
 
 <ol start="5">
-  <li><a href="#week1">Update your profile on QRZ.com, HamQTH.com, etc.</a></li>
-  <li><a href="#week2">Take part in a contest!</a></li>
-  <li><a href="#week3">Find out which DXpeditions are active this week.</a></li>
-  <li><a href="#week4">Encourage someone to take their ham radio license exam</a></li>
+  <li><a href="#week5">Update your profile on QRZ.com, HamQTH.com, etc.</a></li>
+  <li><a href="#week6">Take part in a contest!</a></li>
+  <li><a href="#week7">Find out which DXpeditions are active this week.</a></li>
+  <li><a href="#week8">Encourage someone to take their ham radio license exam</a></li>
 </ol>
 
-### Week 1 (27 Jan-2 Feb): Update your profile on QRZ.com, HamQTH.com, etc. {#week1}
+### Week 5 (27 Jan-2 Feb): Update your profile on QRZ.com, HamQTH.com, etc. {#week5}
 
 This was an easy one, and nothing much to say about it. I had already updated both [my QRZ profile](https://www.qrz.com/db/m0trt) and [my HamQTH profile](https://www.hamqth.com/M0TRT) with a new POTA photo and some changes to the details back in December, so there wasn't much to do. 
 
 I did add a POTA widget to both though, [this one](https://pota-stats.wd4dan.net/?help) created by WD4DAN.
 
-### Weed 2 (3-9 Feb): Take part in a contest!
+### Week 6 (3-9 Feb): Take part in a contest! {#week6}
 
 This week took a little more effort. I'm not much of a contester, having only tried an FT4 contest once, and [exploited CQ WW SSB for personal gain](/blog/pota-activation-report-hengistbury-head/). According to the [Contest Calendar](https://www.contestcalendar.com/weeklycont.php) my choice was either CW, 80/160m bands, contests focussed on other countries, or [CQ WPX RTTY](https://cqwpxrtty.com/).
 
@@ -50,6 +50,18 @@ I made it to 50 contacts before the point our friends would start showing up for
 
 All in all it was a good experience, despite having computer/logging trouble several times which probably annoyed the more experienced contesters I was contacting. Would I do it again? I'm not sure. Even though part of the reason I like outdoor radio is that the QSOs tend to be more protocol than ragchew, I think contesting takes it too far in that direction for me, and it's nice to share more than just a few numbers.
 
-## TODO
+## Week 7 (10-16 Feb): Find out which DXpeditions are active this week {#week7}
 
-That's it for this round-up, see you at the end of February for weeks 5 to 8!
+I've never really thought much about DXpeditions before, much less tried to contact any of them&mdash;I have enough trouble getting through a normal special event station pile-up, let alone one that half the ham radio world is trying to talk to.
+
+After someone on fedi mentioned it, I checked out the [NG3K website list](https://ng3k.com/Misc/adxo.html) of ongoing and planned DXpeditions, which aggregates from a number of sources. There were more than I expected, with 18 in the list covering the weekend of 15-16th February. While I did a perfunctory check of some of the spots, I had other priorities so didn't manage to contact any of them.
+
+If I'm honest, I'm kind of torn on the concept of DXpeditions, especially after finding out that [some of them have cost north of *a million dollars*](https://mastodon.radio/@ve3qbz/113923510656446911). On the one hand, great for the participants having a cool adventure whether or not ham radio is involved; on the other, there's something uneasily colonial about a bunch of comparatively rich white guys rocking up to a remote island chain, largely for their own fame and often [without it being clear that the locals want them there](https://www.dx-world.net/sv1ga-a-mt-athos/).
+
+A million dollars could buy a lot of equipment and training for local people instead, who might become interested in amateur radio and put their remote location "on the air" permanently. But no-one seems to fund-raise for that.
+
+## Week 8 (17-23 Feb): Encourage someone to take their ham radio license exam {#week8}
+
+Well, a pretty easy one this week. My occasional POTA logging assistant has been talking about getting her Foundation licence for about 9 months now, so I have yet again reminded her to read the book and practice with me.
+
+That's it for this round-up, see you at the end of March for weeks 9 to 12!
