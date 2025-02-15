@@ -22,7 +22,6 @@ Now that I've taken up POTA and know how nice S0-1 background noise is, I wanted
 
 Another try at turning everything in the house off, however, left me at S5 noise on 40m (not great, but maybe usable) and immediately down to S1-2 on 20m!
 
-<br/>
 ![Yaesu FT-840 signal meter showing S2](/img/blog/2024/qrm-s2.jpg){: .center}
 *Finally, a radio that can hear things*
 
@@ -30,7 +29,6 @@ I scanned around the band&mdash;I could hear people again! I could do SSB!
 
 I gradually turned the rest of the house back on again. 40m noise slowly rose to around S6-7, which I'm not too happy about, but maybe Winter evenings might improve things a little. On 20m, noise stayed blissfully low, until I turned on: this thing.
 
-<br/>
 ![A cheap Chinese power supply](/img/blog/2024/qrm-supply.jpg){: .center}
 *The culprit*
 

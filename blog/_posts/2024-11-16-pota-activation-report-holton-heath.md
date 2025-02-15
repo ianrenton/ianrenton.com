@@ -16,15 +16,16 @@ Ever since our first [Brownsea Island activation](/blog/activation-report-browns
 
 Well of course, I had to fix that.
 
-<br/>
 ![Brown trees, brown leaves on the ground, etc](/img/blog/2024/holton-heath-1.jpg){: .center}
 *Today's activation was brought to you by the colour brown.*
 
 Not all of this site is accessible to the public. The section that *is* can be entered by two gates, one on the main road opposite Sandford Middle School, and the other on Station Road. The council provide [this helpful map](https://www.dorsetcouncil.gov.uk/documents/35024/303264/Sandford+Heath+map.pdf/3e52b7bf-c367-c35a-76c7-a25ada4161a7). I picked the Station Road end, and after entering through the gate and crossing over a small bridge, I was into the heathland proper.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/holton-heath-route.png)
+*Walking route to and from the activation spot*
+
 Now every time I head out to a park, I think it'll be the first one that's so uneventful that I won't bother blogging about it. This looked like a strong contender, until I took a right turn out onto the wilder part of the heath, and saw *this thing*.
 
-<br/>
 ![A tall and empty concrete structure, with a British flag flying on top](/img/blog/2024/holton-heath-2.jpg){: .center}
 *The remains of the WW2 gun emplacement on Holton Heath*
 
@@ -32,7 +33,6 @@ The eastern part of the heath was once part of the Royal Navy Cordite Factory, t
 
 I rapidly ruled out any chance of climbing it, although someone must have done so to place the flag not too many years ago. I wandered down to the lake in case there were any more interesting spots to set up down there, but finding none, I headed back to the wooden bench I'd found near to the gun emplacement. It was going to be another luxury POTA experience&mdash;I had somewhere to put the radio that wasn't my own knees!
 
-<br/>
 ![A radio, battery and cup of tea set up on a wooden bench](/img/blog/2024/holton-heath-3.jpg){: .center}
 *Not pictured: The furze bush right behind me, home to 1,000 mosquitoes.*
 
@@ -48,7 +48,6 @@ That's (by far) my new SSB distance record at 12377km.
 
 As usual I switched to 10m after the pile-up died off, but it just wasn't working for me today. I called CQ for around 15 minutes and self-spotted for POTA & WWFF, but got only a single QSO in the log. I had a go at hunting some park-to-parks on 10m which were also a wash-out; I just wasn't getting out today although I could hear plenty of other stations.
 
-<br/>
 ![A vertical antenna sat in a firebreak, with heath in the background](/img/blog/2024/holton-heath-5.jpg){: .center}
 *The JPC-12 antenna set up for 20 metres*
 
@@ -57,3 +56,4 @@ With only 33 in the log, and needing 44 for a successful WWFF activation, I swit
 Many thanks to all my contacts this afternoon. See you on the air next time!
 
 ![Map of contacts](/img/blog/2024/holton-heath-map.png){: .center}
+*Map of contacts from the activation*

@@ -32,6 +32,8 @@ This ancient site is believed to have once been capable of transmitting BBC Radi
 
 The transmitter is still active, serving the region with our last remaining MW station, Radio 5 Live on 909 kHz. So of course, I picked somewhere further up the heath to the north to start setting up my own antenna.
 
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/talbot-heath-route.png)
+
 The vast majority of the open space on Talbot Heath is covered by ankle-high heather and gorse, which I try to avoid setting up in so as not to distub hiding or hibernating creatures. The tempting grassy fields to the east are sadly also out of bounds, as they are part of [Highmoor Farm](https://www.thebreaker.co.uk/highmoor-farm-a-story-of-resilience-and-the-power-of-community/), the last of the six farms founded by the Talbot sisters&mdash;my home is built on land that once belonged to another of them. (My local history tour is available for the price of one pint per person 😉) Denied those nice empty fields, I wandered around for a while looking for a suitable out-of-the-way place for a portable radio station.
 
 Then I spotted this tiny patch of grass through a hole in the furze.

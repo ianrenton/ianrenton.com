@@ -23,7 +23,6 @@ This is Upton Heath, [POTA ref GB-0112](https://pota.app/#/park/GB-0112),  [WWFF
 
 But some relics of human occupation are receding. The [Southampton and Dorchester Railway](https://en.wikipedia.org/wiki/Southampton_and_Dorchester_Railway) ran through here once, from the mid-1800s until it was torn up in the Beeching cuts in the 1960s; much its route now forms the scenic [Castleman trailway](https://en.wikipedia.org/wiki/Castleman_Trailway). The former brick works have gone too, now long since demolished, though the scars on the land left by their excavations remain.
 
-<br/>
 ![Former clay pits on Upton Heath](/img/blog/2024/upton-heath-2.jpg){: .center}
 *Former clay pits on Upton Heath*
 
@@ -33,7 +32,6 @@ I took the NanoVNA to help get the tuning right for the antenna, which is extra 
 
 As well as needing the VNA, the rest of the new antenna kit brought a new challenge in the form of pack weight. With the bulkier kit and the totally overkill LMR240 coax, my rucksack was fast approaching 10kg, and no longer had any real amount of free space inside for a coat or any other equipment.
 
-<br/>
 ![Rucksack and contents laid out on the ground](/img/blog/2024/upton-heath-4.jpg){: .center}
 *My rucksack and contents laid out on the ground*
 
@@ -43,19 +41,20 @@ PoLo worked well, though it took a few park-to-park contacts before I figured ou
 
 Field Spotter worked fine as expected, too. It's nice to have finally used it in the environment it was intended for!
 
-<br/>
 ![Field Spotter in use in the field](/img/blog/2024/upton-heath-3.jpg){: .center}
 *Field Spotter in use in the field*
 
 With plenty of new things to test, I kept the activation itself pretty basic. I started off with Field Spotter giving me a few park-to-park QSOs, then I settled into a frequency of my own and called CQ. The pile-up delivered as usual, and after getting around 30 in the log in just over half an hour, I decided to pack down the station and do a bit more exploring down towards the clay pits and the lake.
 
-<br/>
 ![JPC-12 antenna with loading coil silhouetted against a faint sun in a cloudy sky](/img/blog/2024/upton-heath-5.jpg){: .center}
 *JPC-12 antenna with loading coil silhouetted against the sky*
 
 There are plenty of opportunities to get lost here; paths that look like shortcuts but just loop around, and ones that peter out into gorse and mud. The "proper" path zig-zags wildly and dips up and down, and is not always obvious. Google Maps doesn't know most of the paths here either, so taking a photo of the map board or using an OpenStreetMap-based app is definitely recommended for navigation.
 
 An hour of wandering passed, but the sun never did burn through the clouds. A pale and slowly fading light signalled the end of the day, and with a kilometer hike and 50m of elevation gain ahead of me, I turned and headed for the car.
+
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/upton-heath-route.png)
+*Walking route to and from the activation spot*
 
 Thanks to all my contacts today:
 
@@ -104,5 +103,6 @@ Thanks to all my contacts today:
 Here's the map from today:
 
 ![Map of contacts](/img/blog/2024/upton-heath-map.png){: .center}
+*Map of contacts from the activation*
 
 See you on the air next time!

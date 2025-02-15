@@ -16,19 +16,16 @@ With an area of over 200 square miles, 175,000 permanent residents and over 15 m
 
 Since the park is so big, we were spoiled for choice of location to set up our station. Only a quarter of the New Forest park area is actually forest, with the rest split between heathland, grassland and the various towns and villages. I picked [Horseshoe Bottom](https://www.openstreetmap.org/#map=16/50.80390/-1.62945), a place I remember from childhood visits which has a free car park, a wide grassy area, and a ridge with good visibility all around.
 
-<br/>
 ![View of Horseshoe Bottom, with distant horses in the centre of the frame](/img/blog/2024/newforest1.jpg){: .center}
 *Horseshoe Bottom in the New Forest*
 
 The ridge forms part of [the old railway](https://www.newforestnpa.gov.uk/things-to-do/cycling/cycling-routes/the-old-railway/) that used to connect Southampton and Dorchester, dismantled in the 1960s and now used as a popular walking and cycling trail. Something in my brain always suggests a hilltop as a good location for an antenna, regardless of it not making the slightest difference for shortwave, so up we went, despite the wind&mdash;a decision I would later come to regret.
 
-<br/>
 ![View up a hill, with sunlit grass in the foreground and grey clouds overhead](/img/blog/2024/newforest2.jpg){: .center}
 *View up to the ridge*
 
 If visitors come to the New Forest knowing anything about it, they probably know about the horses. While technically owned by the Commoners, they roam freely across most of the Forest, and Horseshoe Bottom is a spot they seem particularly fond of. You'll likely find dozens here, as we did, grazing and running around. They are as wary of the humans as we are of them, which works well until the humans get in a car&mdash;remember to drive slowly!
 
-<br/>
 ![White horse grazing on a furze bush](/img/blog/2024/newforest-horse.jpg){: .center}
 *A horse grazing on furze bushes*
 
@@ -40,7 +37,6 @@ I'd regularly wondered how the POTA YouTubers get huge pile-ups on demand, while
 
 The next 19 contacts came and went in a blur, pile-up after pile-up for half an hour, stopped only by our antenna collapsing! (I said I'd regret that hilltop in the wind...) Many apologies to Peter, G7ULL with whom we were half way through a QSO&mdash;I have logged the original S9 report you gave me rather than the S2 you gave after the antenna fell! Somehow we were able to get enough of a message out with the wire on the floor.
 
-<br/>
 ![Radio in the foreground, grass, bushes and antenna pole in the background](/img/blog/2024/newforest3.jpg){: .center}
 *Our POTA station set up on the ridge*
 
@@ -48,13 +44,15 @@ I've posted quite a bit about my anxiety over passers-by coming to talk to me wh
 
 We also had a couple of the locals interested in getting on the air too...
 
-<br/>
 ![Radio in the foreground, horses in the background about 10m away](/img/blog/2024/newforest4.jpg){: .center}
 *Horses on the air!*
 
 They were closer than they look&mdash;thankfully they didn't get any closer than that!
 
 A second mini pile-up kicked in as soon as our antenna was back in the air, with eight more contacts in the log over the next 15 minutes. But by 1600 local time, the band was getting full&mdash;we had to QSY due to nearby signals and struggled to find a clear spot to start calling CQ again. The wind was picking up too, so we decided to call it quits at that point. A brief burst of phone signal allowed us to see a POTA spot from Charles M0WMB, so I called in for one final park-to-park QSO before we packed up and headed home.
+
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/horseshoe-bottom-route.png)
+*Walking route to and from the activation spot*
 
 All in all, not a bad way to spend a Bank Holiday afternoon. Definitely better than DIY.
 
@@ -355,5 +353,6 @@ Thanks to H for logging as usual, and to all our contacts today:
 </center></div>
 
 ![Map of contacts](/img/blog/2024/newforest-map.png){: .center}
+*Map of contacts from the activation*
 
 See you on the air next time!

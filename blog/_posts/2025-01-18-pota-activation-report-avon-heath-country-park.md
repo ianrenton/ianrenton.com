@@ -24,9 +24,11 @@ My favourite place in the park is an area of grass pretty much right in the midd
 
 If you want to find it, just follow the purple trail&mdash;you'll know it when you see it. Unfortunately it's a popular trail, so passers-by are frequent, but that's the case everywhere here. Without traipsing off into the heath and disturbing the habitat of the animals there, all the potential activation spots are along one or other of the trails.
 
+![Some white cows](/img/blog/2025/01/avon-heath-3.jpg){: .center}
+
 My favourite spot was also in use today by these cattle, so I set up shop a bit further up the path in the next clearing.
 
-![Some white cows](/img/blog/2025/01/avon-heath-3.jpg){: .center}
+![A map with the car park and activation spot shown along with a route](/img/blog/2025/01/avon-heath-route.png)
 
 There were a bunch of OARC folks on the air today, so I started on 40 metres looking for some UK & Ireland contacts, though the quarter-wave vertical isn't ideal for the job. Unfortunately the band was wall-to-wall "CQ Contest" from the ongoing RSGB and Hungarian contests.
 

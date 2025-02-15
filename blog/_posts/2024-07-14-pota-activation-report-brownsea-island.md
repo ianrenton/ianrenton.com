@@ -26,7 +26,11 @@ Alright then, I guess we're going to make a name for ourselves.
 
 We arrived on the midday ferry, on a lovely sunny day, warm but not too hot, perfect for Parks on the Air. Ten minutes later and £35 lighter, we emerged from the ticket office wondering if the reason behind the lack of prior activations might have been financial rather than anything else.
 
-Regardless, we pushed on, hiking most of the way down the main central path across the island, then turning down a side path towards St. Michael's Mount in search of a quiet spot. Despite everyone's kind words to boost my confidence, I still feel anxious about playing radio outdoors, feeling like passers-by will be angry with me for disrupting their enjoyment. No such thing has ever happened, at least not that they've expressed to me, but the worry is still there nonetheless.
+Regardless, we pushed on, hiking most of the way down the main central path across the island, then turning down a side path towards St. Michael's Mount in search of a quiet spot.
+
+![A map with the car park and activation spot shown along with a route](/img/blog/2024/brownsea-route.png)
+
+Despite everyone's kind words to boost my confidence, I still feel anxious about playing radio outdoors, feeling like passers-by will be angry with me for disrupting their enjoyment. No such thing has ever happened, at least not that they've expressed to me, but the worry is still there nonetheless.
 
 ![Forested path on Brownsea Island](/img/blog/2024/brownsea2.jpg){: .center}
 
