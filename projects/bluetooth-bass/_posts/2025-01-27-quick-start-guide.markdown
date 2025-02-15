@@ -16,14 +16,10 @@ The Billy Bass Sat Nav / Bluetooth Bass build guide includes prototyping and des
 
 4. While your ESP32 Devkit almost certainly came with pins attached, your motor driver and audio amplifier board may not have done, and therefore need the headers they came with soldering on. The audio amp is designed to output to a small screw terminal block on the top of the device; to fit into the motherboard PCB you should *not* fit this part, and instead solder on two normal PCB header pins, the same as used for the seven pins on the other side of the board. Note that the pitch spacing is different though, so you will need to use two individual pins cut from the extra strip you ordered.
 
-    **TODO: Photo**
-
 5. Next, solder the new components to the replacement motherboard. The arrangement should be as per the photo below. Take extra care to make sure the JST connectors are the right way around; all notches should be on the side *away* from the edge.
 
-    ![Three main components and four JST connectors on a PCB motherboard](/img/projects/big-mouth-phatt-bass/24.jpg){: .center}
+    ![Three main components and four JST connectors on a PCB motherboard](/img/projects/bluetooth-bass/pcb-complete.jpg){: .center}
     <br/>
-
-    **TODO: Update Photo**
 
     You only need to solder the pins that connect to something&mdash;this is almost all of the pins on the motor driver board, audio amplifier and JST connectors, but the ESP32 Devkit pins are only about half utilised, so you can save some time. Use the PCB drawing for a reference, this is top down:
 
@@ -37,10 +33,8 @@ The Billy Bass Sat Nav / Bluetooth Bass build guide includes prototyping and des
 6. Once you have finished soldering, use a multimeter in continuity mode to buzz through from pin to pin and check the solder joints are good. For example, the GND pin on the ESP32 Devkit should be connected to the left-most pin of the 6-pin connector, and so on.
 7. Connect the four required JST connectors from the fish into your board. Looking top-down, the button goes in the left 2-pin connector, and the LDR goes in the right one. (The code doesn't actually use these, but they can be connected for future development.) The 4-pin and 6-pin connectors should be obvious. The piezo buzzer isn't used by this project, and can be left disconnected.
 
-    ![A Billy Bass opened up with a bunch of wires from it leading to a PCB.](/img/projects/big-mouth-phatt-bass/main.jpg){: .center}
+    ![PCB connected up inside the fish](/img/projects/bluetooth-bass/pcb-in-fish.jpg){: .center}
     <br/>
-
-    **TODO: Update Photo**
 
 8. On a computer, install [Python](https://www.python.org/), [VS Code](https://code.visualstudio.com/) and the [Platform.io](https://platformio.org/) plugin.
 9. Clone or download the [Bluetooth Bass ESP32 Source Code](https://github.com/ianrenton/bluetooth-bass) from Github, and open it in Platform.io. The appropriate ESP32 library should be installed automatically.
@@ -55,6 +49,6 @@ The Billy Bass Sat Nav / Bluetooth Bass build guide includes prototyping and des
     ![Rear of the PCB held in place inside the fish enclosure](/img/projects/big-mouth-phatt-bass/26.jpg){: .center}
     <br/>
 
-    You can then screw the rear of the fish back on, and you're done!
+    You can then screw the rear of the fish back on, and you're done! When powered on, it will appear as a Bluetooth audio device. Simply connect to it from your phone, and your audio will come through the fish speaker along with flapping and singing action!
 
 Note that if you have issues where you lose Bluetooth connection as soon as motors start moving, it could be a supply voltage issue, which probably means you just need to replace the batteries. There are some other possible solutions if you have this issue a lot&mdash;see the page ["A Note on Board Restarts"](/projects/big-mouth-phatt-bass/a-note-on-board-restarts) from the Phatt Bass project, which is equally applicable here.

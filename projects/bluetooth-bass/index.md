@@ -8,7 +8,7 @@ image: /img/projects/bluetooth-bass/satnav-small.jpg
 date: 2025-01-25 00:00:00
 ---
 
-This project takes my original ["Big Mouth Phatt Bass"](/projects/big-mouth-phatt-bass) in a slightly different direction. A new custom PCB swaps the MP3 player for an audio amplifier, and the code has then been rewritten to take advantage of the ESP32 chip's Bluetooth capability. The modification turns the Billy Bass into a Bluetooth audio receiver that moves its head and mouth when audio is played. Making it, of course, the ideal driving companion:
+This project takes my original ["Big Mouth Phatt Bass"](/projects/big-mouth-phatt-bass) in a slightly different direction. A new custom PCB swaps the MP3 player for an audio amplifier, and the code has then been rewritten to take advantage of the ESP32 chip's Bluetooth capability. The modification turns the Billy Bass into a Bluetooth audio receiver that moves its head and mouth when audio is played. Making it, of course, the ideal driving companion[^1].
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/bluetooth-bass/satnav.webm" type="video/webm"></video></center>
 
@@ -29,3 +29,5 @@ Looking to recreate the project for yourself? Check out the following pages:
 * [Kicad Project](/files/projects/bluetooth-bass/bluetooth-bass-pcb.zip)
 * [PCB Gerber & Drill Files](/files/projects/bluetooth-bass/bluetooth-bass-gerbers.zip)
 * [ESP32 Source Code](https://github.com/ianrenton/bluetooth-bass)
+
+[^1]: Filmed on private roads. Obey whatever laws you have about distracted driving in your country. You are a grown-up and it is your decision if you want to drive around with a Billy Bass on your dashboard.

@@ -20,10 +20,18 @@ As before, I chose JLCPCB to manufacture these, at the cost of $2 for 5 boards s
 
 The board was then relatively simple to solder up, as before. The only modification of note that I had to make was to remove the screw terminal header from the MAX98357A and replace it with downward-facing header pins so that it connected into the motherboard.
 
-**TODO: Photo**
+![PCB fully populated](/img/projects/bluetooth-bass/pcb-complete.jpg){: .center}
+<br/>
 
 The board was fitted back into the case as before, producing the finished article.
 
-**TODO: Photo**
+![PCB connected up inside the fish](/img/projects/bluetooth-bass/pcb-in-fish.jpg){: .center}
+<br/>
 
-**TODO: Video**
+As you can see in the video below, it currently responds to *all* audio, giving it a slightly annoying reaction to the Google Assistant prompt noise. In future I may see if I can mask this out while still responding promptly to other noises.
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/bluetooth-bass/assistant.webm" type="video/webm"></video></center>
+
+However, this doesn't affect its utility as a Sat Nav voice output. The standard Android and iOS voice assistants are decently funny when coming out of a Billy Bass, but of course we can crank it up a notch&mdash;Waze has a number of comedy options including, naturally, Elvis.
+
+<center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/bluetooth-bass/satnav.webm" type="video/webm"></video></center>
