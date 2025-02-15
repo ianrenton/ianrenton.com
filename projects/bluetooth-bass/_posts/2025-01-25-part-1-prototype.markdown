@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: "Part 1: Prototype"
-slug: part-1-prototype
+slug: bluetooth-bass-part-1-prototype
 date: 2025-01-25 00:00:00
 ---
 

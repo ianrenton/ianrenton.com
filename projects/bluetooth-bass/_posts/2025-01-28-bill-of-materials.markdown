@@ -2,6 +2,7 @@
 comments: true
 layout: post
 title: Bill of Materials
+slug: bluetooth-bass-bill-of-materials
 date: 2025-01-28 00:00:00
 ---
 

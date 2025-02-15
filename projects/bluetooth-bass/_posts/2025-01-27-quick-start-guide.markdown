@@ -2,12 +2,13 @@
 comments: true
 layout: post
 title: Quick Start Guide
+slug: bluetooth-bass-quick-start-guide
 date: 2025-01-27 00:00:00
 ---
 
 The Billy Bass Sat Nav / Bluetooth Bass build guide includes prototyping and design steps, plus builds on the previous Big Mouth Phatt Bass project, so it could be a bit confusing to follow. If you just want to skip to the end and build the finished product for yourself, this is what to do. I strongly recommend you read *all* of this page and understand what's involved before buying parts. If you get stuck, shoot me an email and I will see if I can help!
 
-1. Buy everything on the [Bill of Materials](/projects/bluetooth-bass/bill-of-materials). This includes a 15th Anniversary Edition Billy Bass, three small PCB-based components, and some connectors. You'll also need to get a custom motherboard PCB manufactured using these [PCB Gerber Files](/files/projects/bluetooth-bass/luetooth-bass-gerbers.zip). Companies like JLC PCB and PCBway will do this cheaply provided you don't mind a shipping delay.
+1. Buy everything on the [Bill of Materials](/projects/bluetooth-bass/bluetooth-bass-bill-of-materials). This includes a 15th Anniversary Edition Billy Bass, three small PCB-based components, and some connectors. You'll also need to get a custom motherboard PCB manufactured using these [PCB Gerber Files](/files/projects/bluetooth-bass/luetooth-bass-gerbers.zip). Companies like JLC PCB and PCBway will do this cheaply provided you don't mind a shipping delay.
 2. Ensure you also have a small cross-head screwdriver, a multimeter, a soldering iron, solder, and some electrical tape. If you haven't soldered before, I recommend getting some perfboard and some bits of wire to practice with in advance. A "helping hands" type device with clips and a magnifier may be helpful. For experienced solderers, there's nothing tricky here&mdash;it's all through-hole.
 3. Disassemble your Billy Bass and remove the original control board. If you've bought the right one, this should be fully connectorised, so an easy job, but do unplug the connectors carefully.
 

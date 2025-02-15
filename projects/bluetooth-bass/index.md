@@ -14,15 +14,15 @@ This project takes my original ["Big Mouth Phatt Bass"](/projects/big-mouth-phat
 
 ## Design Process
 
-* [Bluetooth Bass Part 1: Prototype](/projects/bluetooth-bass/part-1-prototype)
-* [Bluetooth Bass Part 2: Production](/projects/bluetooth-bass/part-2-production)
+* [Bluetooth Bass Part 1: Prototype](/projects/bluetooth-bass/bluetooth-bass-part-1-prototype)
+* [Bluetooth Bass Part 2: Production](/projects/bluetooth-bass/bluetooth-bass-part-2-production)
 
 ## Key Information
 
 Looking to recreate the project for yourself? Check out the following pages:
 
-* [Quick Start Guide](/projects/bluetooth-bass/quick-start-guide)
-* [Bill of Materials](/projects/bluetooth-bass/bill-of-materials)
+* [Quick Start Guide](/projects/bluetooth-bass/bluetooth-bass-quick-start-guide)
+* [Bill of Materials](/projects/bluetooth-bass/bluetooth-bass-bill-of-materials)
 
 ## Links & Downloads
 
@@ -30,4 +30,4 @@ Looking to recreate the project for yourself? Check out the following pages:
 * [PCB Gerber & Drill Files](/files/projects/bluetooth-bass/bluetooth-bass-gerbers.zip)
 * [ESP32 Source Code](https://github.com/ianrenton/bluetooth-bass)
 
-[^1]: Filmed on private roads. Obey whatever laws you have about distracted driving in your country. You are a grown-up and it is your decision if you want to drive around with a Billy Bass on your dashboard.
+[^1]: Filmed in a private car park. Obey whatever laws you have about visibility and distracted driving in your country. You are a grown-up and it's your decision if you want to drive around with a Billy Bass on your dashboard.

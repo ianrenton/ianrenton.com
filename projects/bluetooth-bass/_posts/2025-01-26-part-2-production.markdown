@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: "Part 2: Production"
-slug: part-2-production
+slug: bluetooth-bass-part-2-production
 date: 2025-01-26 00:00:00
 ---
 
@@ -32,6 +32,6 @@ As you can see in the video below, it currently responds to *all* audio, giving 
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/bluetooth-bass/assistant.webm" type="video/webm"></video></center>
 
-However, this doesn't affect its utility as a Sat Nav voice output. The standard Android and iOS voice assistants are decently funny when coming out of a Billy Bass, but of course we can crank it up a notch&mdash;Waze has a number of comedy options including, naturally, Elvis.
+However, this doesn't affect its utility as a Sat Nav voice output. The standard Android and iOS voice assistants are decently funny when coming out of a Billy Bass, but of course we can crank it up a notch&mdash;Waze has a number of comedy options, including my Billy Bass favourite, Elvis.
 
 <center><video style="width: 720px; max-width:100%" controls><source src="https://video.ianrenton.com/bluetooth-bass/satnav.webm" type="video/webm"></video></center>
