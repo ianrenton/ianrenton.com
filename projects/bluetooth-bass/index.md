@@ -3,7 +3,7 @@ comments: true
 layout: page
 title: Billy Bass Sat Nav / Bluetooth Bass
 slug: bluetooth-bass
-description: "Making the Billy Bass even more useless, one PCB at a time."
+description: "I have done many silly things in my life. This is one of them."
 image: /img/projects/bluetooth-bass/satnav-small.jpg
 date: 2025-01-25 00:00:00
 ---
