@@ -12,7 +12,7 @@ tags:
   - pota
 ---
 
-Another dry Sunday morning offered a chance to clear off another of the local nature reserves that were recently added to Parks on the Air. [GB-4054 Iford Meadows Nature Reserve](https://pota.app/#/park/GB-4054) is much prettier in Spring, but like most local nature reserves and commons, Winter sees it looking dreary and muddy. Still, the birdsong in the brambles was constant&mdash;the birds know what's coming, and it won't be long.
+A dry Sunday morning offered a chance to clear off another of the local nature reserves that were recently added to Parks on the Air. [GB-4054 Iford Meadows Nature Reserve](https://pota.app/#/park/GB-4054) is much prettier in Spring, but like most local nature reserves and commons, Winter sees it looking dreary and muddy. Still, the birdsong in the brambles was constant&mdash;the birds know what's coming, and it won't be long.
 
 ![A grey river framed by a grassy bank, rushes, and a bare tree](/img/blog/2025/02/iford-1.jpg){: .center}
 *The River Stour at Iford Meadows*
