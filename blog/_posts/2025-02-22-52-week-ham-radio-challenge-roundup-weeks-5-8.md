@@ -2,7 +2,7 @@
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 5-8"
 description: "Profile updates, contest, DXpeditions and encouraging someone else!"
-date: 2025-02-23 00:00 +0000
+date: 2025-02-22 00:00 +0000
 image: /img/blog/2025/02/rtty-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-5-8
 tags:
@@ -62,6 +62,6 @@ A million dollars could buy a lot of equipment and training for local people ins
 
 ## Week 8 (17-23 Feb): Encourage someone to take their ham radio license exam {#week8}
 
-Well, a pretty easy one this week. My occasional POTA logging assistant has been talking about getting her Foundation licence for about 9 months now, so I have yet again reminded her to read the book and practice with me.
+Well, a pretty easy one this week. My occasional POTA logging assistant has been talking about getting her Foundation licence for about 9 months now, so I have yet again reminded her to read the book and practice with me. Unfortunately hanging out with friends is a bit more appealing than nerding out with your dad, but who knows, it might happen one day!
 
-That's it for this round-up, see you at the end of March for weeks 9 to 12!
+That's it for this round-up, see you at the end of March for weeks 9 to 12.
