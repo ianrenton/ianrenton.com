@@ -28,6 +28,17 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="POTA New Park Finder"
+  	url="https://newparks.ianrenton.com"
+  	image="/img/index/pota-new-park-finder.png"
+  	image-alt="A map display with markers for POTA parks in different colours"
+  	description="For anyone chasing Parks on the Air (POTA) completion in their local area, this web-based tool shows local parks coloured according to whether you, or anyone, has activated them. POTA New Park Finder is a synthesis of my two recent Python-based utilities for POTA, but reworked as an interactive web application that is free for anyone to use."
+  	readmore-text="Use the web application &rarr;"
+  	url2="https://github.com/ianrenton/pota-new-park-finder"
+  	readmore-text2="View the source code &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="Billy Bass Sat Nav / Bluetooth Bass"
   	url="/projects/bluetooth-bass/"
   	image="/img/projects/bluetooth-bass/satnav-small.jpg"
@@ -42,7 +53,7 @@ redirect_from:
   	image="/img/projects/bunnyrom-teardown/bunnyrom-1-small.jpg"
   	image-alt="A Tamagotchi-like virtual pet toy"
   	description="One does not simply gift cheap Chinese toys to an engineer without expecting them to get taken apart."
-  	readmore-text="Check out the progress &rarr;" %}
+  	readmore-text="Read more &rarr;" %}
 
   	{% include card.html
   	type="horizontal-left"
@@ -135,7 +146,7 @@ redirect_from:
   	image="/img/index/bazaarflip.png"
   	image-alt="A table of data about Minecraft items"
   	description="A quick weekend project to help my kid make money in the Hypixel Skyblock Minecraft server, this simple JavaScript tool has rapidly become the most searched-for of all my software."
-  	readmore-text="Visit the website &rarr;"
+  	readmore-text="Use the web application &rarr;"
 	url2="https://github.com/ianrenton/Skyblock-Bazaar-Flipping-Calculator"
 	readmore-text2="View the source code &rarr;" %}
 
@@ -221,7 +232,7 @@ redirect_from:
   	image="/img/index/roast.jpg"
   	image-alt="A knife cutting into a roast chicken"
   	description="Some Javascript magic to help you cook the perfect Sunday roast. Simply select your ingredients and a time to serve, and it will generate you a list of timed steps."
-  	readmore-text="Visit the website &rarr;"
+  	readmore-text="Use the web application &rarr;"
 	url2="https://github.com/ianrenton/roastdinner"
     readmore-text2="View the source code &rarr;" %}
 
