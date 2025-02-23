@@ -15,9 +15,7 @@ However, as the batteries start to drain, you may find reduced motion or the boa
 
 ## Other Battery Chemistries
 
-There are some newer AA battery chemistries that you could try for improved current supply characteristics such as NiZn or Li-ion cells with internal 1.5V buck converters. I haven't tried these, but Lithium batteries generally keep a stable voltage with much higher current draw than alkaline, so those could be worth a try.
-
-These alternative batteries are both rechargeable, but note that they require their own bespoke chargers. Typical "rechargeable" AA batteries are NiCd cells, and their chargers will not work for the newer alternative chemistries.
+There are some newer AA battery chemistries that you could try for improved current supply characteristics such as NiZn or Li-ion cells with internal 1.5V buck converters. Lithium batteries generally keep a stable voltage with much higher current draw than alkaline, so I bought and tried [these](https://www.amazon.co.uk/BATZONE-Rechargeable-Batteries-Capacity-Constant/dp/B0DF2J8KVF), however I found them if anything *worse* than normal alkaline cells. Your mileage may vary. Note that NiZn or Li-ion batteries require their own bespoke chargers. Typical "rechargeable" AA batteries are NiCd cells, and their chargers will not work for the newer alternative chemistries.
 
 ## USB Power
 
@@ -25,7 +23,7 @@ Since I already have a hole in the back of my Bass for USB connectivity, I have 
 
 ## Power the ESP32 from 6V
 
-It *should* be possible to power the ESP32 Devkit board from 6V (i.e. all four batteries), as the regulator on the board is said to cope with this. (Note the same is *not* true for the MP3-TF-16P.) This may keep the board up and running through the voltage dips as the motors draw current. However, I have not tried this and you should **proceed with caution** if you want to try it. There are so many versions of the various ESP32 Devkit boards that you should also check the datasheet for your specific board thoroughly, as specifications for voltage regulators could be different between boards that have the same pinout.
+It *should* be possible to power the ESP32 Devkit board from 6V (i.e. all four batteries), as the regulator on the board is said to cope with this. (Note the same is *not* true for the MP3-TF-16P from the Phatt Bass or the MAX98357A from the Bluetooth Bass.) This may keep the board up and running through the voltage dips as the motors draw current. However, I have not tried this and you should **proceed with caution** if you want to try it. There are so many versions of the various ESP32 Devkit boards that you should also check the datasheet for your specific board thoroughly, as specifications for voltage regulators could be different between boards that have the same pinout.
 
 I have also read that the pin labelled "5V" can be coupled direct to the USB 5V line on some boards, meaning that if you power the board from the fish's 6V line, power on the fish, and connect via USB, you are then pushing 6V *back up the cable to your computer* and **could fry your computer's USB controller**.
 
@@ -41,7 +39,7 @@ If you're going to this length, you may also want to introduce a small inline sw
 
 If you've already got your PCB made, you could try modding it by cutting the 4.5V trace that supplies power to the ESP32. This is on the *front* of the board (where the component itself is) and can be cut with a few strokes of a sharp knife. Use a multimeter to check that the trace is definitely broken and the two sides are no longer connected. You can then attach a wire on the bottom of the board from pin 1 of the motor board to pin 1 of the ESP32 to bring 6V there.
 
-So on the font of the board, cut this trace:
+So on the front of the board, cut this trace:
 
 ![3D render of PCB showing which trace to cut](/img/projects/big-mouth-phatt-bass/6vmod1.png){: .center}
 
