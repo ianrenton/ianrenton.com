@@ -47,7 +47,9 @@ By that point, with the sun setting behind the trees and the cold seeping in, br
 ![Map of contacts](/img/blog/2025/03/luscombe-map.png){: .center}
 *Map of contacts from the activation*
 
-Many thanks to my contacts this afternoon, and see you on the air next time.
+Perhaps I shouldn't be too grumpy after all. Comparing that map to the one from [my first activation](/blog/my-first-easiest-and-last-sota/#log) where I was happy to have got 10 UK contacts in four hours, gives me a sense of perspective I could do with after a mediocre activation like today's. If I'd have known then that&mdash;only nine months later&mdash;I would get two QSOs with the USA and consider that a disappointment, I would have thought it absolutely ridiculous.
+
+Anyway, onwards and upwards. Many thanks to my contacts this afternoon, and see you on the air next time!
 
 ![A harbour at low tide, with mud in the foreground, framed by a pavement with an old-fashioned looking streetlamp](/img/blog/2025/03/luscombe-3.jpg){: .center}
 *Poole Harbour at low tide, from Shore Road*

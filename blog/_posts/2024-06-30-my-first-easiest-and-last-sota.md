@@ -84,7 +84,7 @@ Callers started to drop off after 1400, and lack of shade (and bathroom faciliti
 
 We left the handheld on for the walk back, climbing trees and hiking down the brow of the hill, and managed to catch Steve M1SDH/P at last on 2m to round off the day's contacts.
 
-## The Log
+## The Log {#log}
 
 <div class="breakout-full-width"><center>
 <table>
