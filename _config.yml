@@ -24,7 +24,7 @@ permalink: /:categories/:title/
 include: [".well-known"]
 
 # Staticman
-staticman_url: https://blog-staticman-sb7weykloa-ew.a.run.app/v2/entry/ianrenton/ianrenton.com/master/comments
+staticman_url: https://staticman.ianrenton.com/v3/entry/github/ianrenton/ianrenton.com/master/comments
 repository  : "ianrenton/ianrenton.com"
 comments:
   provider  : "staticman_v2"
@@ -34,7 +34,7 @@ reCaptcha:
   # the siteKey is used as-is (no encryption)
   siteKey: 6LeG1LwSAAAAADsQfXoCfeTCH6JuxAGyImxoIjux
   # the secret is the encrypted blob you got back from the encrypt call
-  secret: IsYxi/A4zrs0bFV7/0j3QCsJaFbiW3++9m12lOL7HdW+deMeislTpiwNm30kgfX40frUv1hUXciwMD+HE4j2BQvXtCHnWcRspFwYi19D5iN2niBa3JMAvsEx2m1D2pQ5ZPynjjDUeMzKMRlSn68KguQC95wfnewCduhwohn6v23HHw3zFakdhKHFfmGByB2jddsIJ5/OTnfUuwX6/FOc85j+0pDRxnPCEliWDOGnqWps1Qr+UnkNHcwwtvI81O85QfqWwg0IU0uolAonJ3dKKClvdcUQ+gCXu/HSGza/i4RsmWKNYZRo8aGk5l9X0iKQyokawm1aZUa6RIXIawItu0rD1CGTYDgKhcbHpI5fTu3CxhtGtjURz8BLKQSd4bwgmDd4uyX+z8uXdg3O4pTCL3sh9oduOMeZSltefiGdbtYvGNtY6aVW4dCK2tHkjBgn0AiCpvkFvuV3p4VE9zyZgpxMD+u/Lu+F/Zl4HiZfOsqQzgwyMOmB06eyLKNPd4oygMvkWdtne3uGDwZlZhtMdPcPRHm8Nv+PmP8ur0unTdZ0BTAtLvrPNBhStq+SHNBBYJ6FrEV5+Ggn4BZQN81fbACuutvqV3NEdDgfaXx0F/JCr0JFcOIqKcxnPYzCLyQDSYC00pa6wlr4G5Rie9GNr8Vx5vFUE1M2Lh/YZZn0sWc=
+  secret: AxIRxnDMdqKobFt/xhkYtejh1L+U3249syxVtZPYZnGAHqIsK0Tjv3XTaU+keINV1nzr/Bw/FxmztMy1XbXV31c5NFPvOnAmgiJfZyBOWyOQQ5GvQRvC/coNLJ7bOiMykC3vlW0IVP7cwpjEokxWa8wCkhJ9pf1WzioO+nQTvsRVYYbaptxBYY0+ag664nj0j+9+Rm+EfW7GuXLtq7hPJsP7xcndbKdj3h26Iu/QBrXPPDtsBY18KJShk+OPVBwQtYnT0lZWfhmRI3kCZ4I2c7qAHNZZuZrkmASF5KzoE6GeBFnZrG8mjZVgnYFUad9kqqBqPoJfbW0mOAdaK06pkGrnFuTg2BZkv56UNIW3u9TyMxeOE2MXYGp6YiLzDtgmQljKy0qESaQed1sjqwbt7mqSMQZihEEW5mUYqhMUoIH/2GJo+DwxMyQwLTlKVd5FRTjSS40y5mLcNhG/+ni6EhxHCGecX7biUEMQsjvQBhUtgBMIX8HUJNv4o1sbfMj7WqHIsNLnTkmUyLGhv7guaVsZ1DYBAdhP2i8c0kaMAmHjJTAEKZ4Rl/z4A/ZMmBOvHJWj2IqSCk0/1R0FxLMCMZ9nwKBDjMqxKhO+Es5YprbSffA4ixnWT+3hFrZP0RwKVFVSEBWi2FTCH6WZViWsR0vSNaxrkvDn5Jd+HAbHG7Q=
 
 # Category friendly names. We use file paths as post categories so they are strings like "filmreviews" and
 # "planesailing", but when displaying them in the browser we want to convert them to e.g. "Film Reviews"
