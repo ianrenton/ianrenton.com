@@ -4,7 +4,7 @@ title: "POTA Activation Report: Holt Heath"
 date: 2025-03-09 00:00 +0000
 image: /img/blog/2025/03/holt-heath-2-small.jpg
 slug: pota-activation-report-holt-heath
-description: "No such thing as a bad day in the Great Blue Sky Shack, allegedly"
+description: "Happy half-birthday to WWFF!"
 tags:
   - ham-radio
   - radio
