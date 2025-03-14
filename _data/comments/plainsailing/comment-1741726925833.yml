@@ -1,0 +1,6 @@
+_id: 163a21f0-febc-11ef-b202-196c39f31776
+_parent: 'https://ianrenton.com/projects/planesailing/'
+name: Ian
+email: b937df7b0b3631249ed5ec118e3bb9e0
+message: "Hi John!\r\n\r\nBy \"the 2nd 900 freq\", do you mean UAT on 978MHz? I haven't played with this myself as I understand UAT is rarely/never used in Europe, but there does seem to be a discussion [here](https://discussions.flightaware.com/t/feed-1090es-978uat-to-different-sites/59110/8) about feeding PiAware with both, and also combining UAT data into a Mode-S BEAST feed using tools called uat2esnt and ModeSMixer2. I can't say for sure if any of it works, but it could be a good place to start.\r\n\r\nI've no experience with WiFi NAN either unfortunately - sorry I've not been very helpful!"
+date: '2025-03-11T21:02:05.833Z'
