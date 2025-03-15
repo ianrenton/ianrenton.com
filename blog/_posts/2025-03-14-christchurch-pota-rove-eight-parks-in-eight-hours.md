@@ -92,13 +92,13 @@ There was no path south of the railway line. Just a wide, open plain that slowly
 
 ![View over the marsh, with electricity pylons sticking out of the water](/img/blog/2025/03/christchurch-8.jpg){: .center}
 
-OpenStreetMap offered some promise at every turn, and aerial imagery showed a relatively dry area in summer, so I alternated between hope and despair as I tracked slowly across the field, dodging deep watercourses and nesting swans while letting the egrets and the deer figure things out for themselves. But by the time I was two-thirds of the way across, it was clear that there would be going no further. Each step took my feet deeper and deeper into the stinking mud and water, filling my boots again and again.
+OpenStreetMap offered some promise at every turn, and aerial imagery showed a relatively dry area in summer, so I alternated between hope and despair as I tracked slowly across the field, dodging deep watercourses and nesting swans while letting the egrets and the deer figure things out for themselves. But by the time I was two-thirds of the way across, it was clear that I would be going no further. Each step took my feet deeper and deeper into the stinking mud and water, filling my boots again and again.
 
 I turned south, jumping again between patches of reeds blanched white by salt. But that way soon closed off too, water getting deeper again with each step. I bore around back to the west, my heart sinking as I realised I was going to end up back where I started&mdash;the last hour of awful saltmarsh trudge was all in vain, and I would have to retrace my steps.
 
 I seemed to have entered a fishing spot without noticing, only noticing the back of a restricted access sign on finding a gate to leave the area. (Insert Woody Guthrie reference here.) I guess they didn't expect anyone to gain access to it the swampy way.
 
-Shortly after leaving it, the river turned me north again, and I got back to the railway line I thought the slightly more solid ground presented a good opportunity to wring out my socks. It wouldn't make a lot of difference, but it was worth a shot.
+Shortly after leaving the fishing spot, the river turned me north again, and I arrived back at the railway line. I thought the slightly more solid ground presented a good opportunity to wring out my socks&mdash;t wouldn't make a lot of difference, but it was worth a go.
 
 Then the bells tolled for noon, and I started to consider my choices.
 
@@ -138,7 +138,7 @@ Things were really slowing down now, and half an hour on the radio only netted m
 
 ## 1550-1615: Christchurch Quay
 
-The home straight was here at last. The path up to Two Riversmeet Leisure centre dumped me back in the centre of town, from where it was a short&mdash;and very familiar&mdash;down to [GB-2461 Christchurch Quay](https://pota.app/#/park/GB-2461). From Castle Street, the path starts past the old ruins. I climbed these steps up to the top every time, as a child.
+The home straight was here at last. The path up to Two Riversmeet Leisure centre dumped me back in the centre of town, from where it was a short&mdash;and very familiar&mdash;walk down to [GB-2461 Christchurch Quay](https://pota.app/#/park/GB-2461). From Castle Street, the path starts past the old ruins&mdash;I climbed these steps up to the top every time, as a child.
 
 And I climbed them again today, for old time's sake.
 
