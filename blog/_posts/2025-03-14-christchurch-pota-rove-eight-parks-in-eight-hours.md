@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Christchurch POTA Rove: Eight Parks in Eight Hours!"
+title: "Christchurch POTA Rove: Eight Parks in Eight Hours, on Foot!"
 date: 2025-03-14 00:00 +0000
 image: /img/blog/2025/03/christchurch-small.jpg
 slug: christchurch-pota-rove-eight-parks-in-eight-hours
