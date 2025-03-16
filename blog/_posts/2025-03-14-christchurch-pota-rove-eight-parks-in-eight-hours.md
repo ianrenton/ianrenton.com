@@ -84,11 +84,11 @@ I'd got less than a hundred metres before the ground got muddy, then soggy, then
 
 Right. I was still 500 metres or more from the other side, and even more obviously damp areas lay ahead. This was a silly idea.
 
-OpenStreetMap showed an alternate path leading east across the valley, just south of the railway line, and I set out for it hoping it might be raised above the swampy ground.
+OpenStreetMap showed a potential route parallel to the railway line leading east across the valley, with gaps in the water courses and a "fordable" marker across another, and I set out for it hoping it might be a path raised above the swampy ground.
 
 Of all my ideas today, this one was the worst.
 
-There was no path south of the railway line. Just a wide, open plain that slowly, lulling you into a false sense of security, turns from grass to swamp to salt marsh.
+There was no path alongside the railway line. Just a wide, open plain that slowly, lulling you into a false sense of security, turns from grass to swamp to salt marsh.
 
 ![View over the marsh, with electricity pylons sticking out of the water](/img/blog/2025/03/christchurch-8.jpg){: .center}
 
