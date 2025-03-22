@@ -24,7 +24,7 @@ To say this is a popular spot is an understatement. On a sunny Saturday afternoo
 * 1 chat with a guy whose mate used to import illegal CB radios in the 70s!
 
 ![View of Bournemouth beach from the clifftop, looking west](/img/blog/2025/02/boscombe-2.jpg){: .center}
-*Busy or not, you fault the view.*
+*Busy or not, you can't fault the view.*
 
 With some open grassland available, I wanted [another go](/blog/pota-activation-report-iford-meadows/) with the dipole antenna, and despite the wind blowing in off the sea I had no structural problems with it today. I intended to kick off on 40 metres, but the band was wall-to-wall full of French contest stations, so I switched to 20 where more space was available. Progress there was much better, though it looks like I made the wrong antenna choice after all, as Seb 2E0PHG let me know that 10m was booming&mdash;but sadly I didn't have the antenna for it today.
 
