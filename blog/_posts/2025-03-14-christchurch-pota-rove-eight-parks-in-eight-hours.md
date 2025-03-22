@@ -96,17 +96,17 @@ OpenStreetMap offered some promise at every turn, and aerial imagery showed a re
 
 I turned south, jumping again between patches of reeds blanched white by salt. But that way soon closed off too, water getting deeper again with each step. I bore around back to the west, my heart sinking as I realised I was going to end up back where I started&mdash;the last hour of awful saltmarsh trudge was all in vain, and I would have to retrace my steps.
 
-I seemed to have entered a fishing spot without noticing, only noticing the back of a restricted access sign on finding a gate to leave the area. (Insert Woody Guthrie reference here.) I guess they didn't expect anyone to gain access to it the swampy way.
+I seemed to have entered a fishing spot without realising, and only on finding a gate to leave the area did I see the back of a "restricted access" sign. (Insert Woody Guthrie reference here.) I guess they didn't expect anyone to gain access to it the swampy way.
 
-Shortly after leaving the fishing spot, the river turned me north again, and I arrived back at the railway line. I thought the slightly more solid ground presented a good opportunity to wring out my socks&mdash;t wouldn't make a lot of difference, but it was worth a go.
+Shortly after leaving the fishing spot, the river turned me north again, and I arrived back at the railway line. I thought the slightly more solid ground presented a good opportunity to wring out my socks&mdash;it wouldn't make a lot of difference, but it was worth a go.
 
 Then the bells tolled for noon, and I started to consider my choices.
 
 I had already had an adventure, somewhat against my will&mdash;my civilised town park activations had turned into a soul-sapping and wet slog. I could call it quits and go home, of course. But with only four parks in the log, it wasn't quite enough for a POTA 5-park rover award. I could do one more park just to qualify, and save the rest for another day. Either way I would end up with yellow and red markers still on the map, and a job still to do.
 
-But I hadn't had an adventure. I had had *half* an adventure. Four more parks awaited, five hours of daylight remained, and I was not going to stop there.
+But I "hadn't* had an adventure. I had had *half* an adventure. Four more parks awaited, five hours of daylight remained, and I was not going to stop there.
 
-It was another 20 minutes' walk back north to the waterworks, where I could finally cross back to the other side of the river, then 20 more south again to the town centre where I could grab a supermarket meal-deal lunch. After that came a 30-minute trek up the side of busy main roads, all the way to Burton&mdash;the long way around.
+It was another 10 minutes' walk back north to the waterworks, where I could finally cross back to the other side of the river, then 20 more south again to the town centre where I could grab a supermarket meal-deal lunch. After that came a 30-minute trek up the side of busy main roads, all the way to Burton&mdash;the long way around.
 
 ## 1305-1325: Martins Hill Rec
 
@@ -124,7 +124,7 @@ In fact, the only open space that wasn't enclosed seemed to be an area of cleare
 
 ![Antenna at Purewell "Meadows"](/img/blog/2025/03/christchurch-10.jpg){: .center}
 
-13 QSOs in the log in 10 minutes was enough for me, and I packed up and shipped out, heading south again towards Stanpit Marsh.
+13 QSOs in the log in 10 minutes was enough for me. I packed up and shipped out as the overcast sky brought the first sprinkles of rain, heading south again towards Stanpit Marsh.
 
 ## 1420-1510: Stanpit Marsh
 
@@ -138,7 +138,7 @@ Things were really slowing down now, and half an hour on the radio only netted m
 
 ## 1550-1615: Christchurch Quay
 
-The home straight was here at last. The path up to Two Riversmeet Leisure centre dumped me back in the centre of town, from where it was a short&mdash;and very familiar&mdash;walk down to [GB-2461 Christchurch Quay](https://pota.app/#/park/GB-2461). From Castle Street, the path starts past the old ruins&mdash;I climbed these steps up to the top every time, as a child.
+The home straight was here at last. The path up to Two Riversmeet leisure centre dumped me back in the centre of town, from where it was a short&mdash;and very familiar&mdash;walk down to [GB-2461 Christchurch Quay](https://pota.app/#/park/GB-2461). From Castle Street, the path starts past the old ruins&mdash;I climbed these steps up to the top every time, as a child.
 
 And I climbed them again today, for old time's sake.
 
@@ -170,6 +170,6 @@ And the map of all the QSOs today, including the many duplicates from all my rep
 
 ![Map of contacts](/img/blog/2025/03/christchurch-map.png){: .center}
 
-To all of my contacts, thank you so much for supporting this ridiculous endeavour! See you on the air next time, when I do something much more sensible than this.
+To all of my contacts, thank you so much for supporting this ridiculous endeavour! See you on the air next time, when I will do something much more sensible than this.
 
 ![My rucksack, thermos and teacup on a bench, surrounded by greenery](/img/blog/2025/03/christchurch-end.jpg){: .center}
