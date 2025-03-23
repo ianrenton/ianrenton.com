@@ -2,7 +2,7 @@
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 9-12"
 description: "Fun with satellites, string and washing lines"
-date: 2025-03-23 00:00 +0000
+date: 2025-03-22 00:00 +0000
 image: /img/blog/2025/03/hamchallenge-4-small.jpg
 slug: 52-week-ham-radio-challenge-roundup-weeks-9-12
 tags:
