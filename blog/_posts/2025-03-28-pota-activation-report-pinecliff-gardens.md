@@ -4,7 +4,7 @@ title: "POTA Activation Report: Pinecliff Gardens"
 date: 2025-03-28 00:00 +0000
 image: /img/blog/2025/03/pinecliff-1-small.jpg
 slug: pota-activation-report-pinecliff-gardens
-description: "Half an hour, in and out."
+description: "A lizard-spotting adventure!"
 tags:
   - ham-radio
   - radio
