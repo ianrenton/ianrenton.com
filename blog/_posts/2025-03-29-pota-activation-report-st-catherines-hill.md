@@ -19,7 +19,7 @@ Parks on the Air has, in recent months, turned from a hobby to more of an obsess
 
 It was two parks instead of one, and not the park I dreamt about being added, but still. A freaky coincidence. And therefore also a second scheduled POTA activation on the radar for this weekend.
 
-[GB-4630 St Catherine's Hill](https://pota.app/#/park/GB-4630) is part of the other newly-added reference, [GB-4631 Town Common SSSI](https://pota.app/#/park/GB-4631), so an automatic two-fer. The exact highest spot is almost impossible to find in the woods and the heath, but I found it eventually&mdash;and surprised two deer who had chosen the spot to hang out. The whole site forms a several kilometer long ridge that divides the Stour and Avon river valleys; a popular dog-walking spot with well defined trails, though many of them are rather steep.
+[GB-4630 St Catherine's Hill](https://pota.app/#/park/GB-4630) is part of the other newly-added reference, [GB-4631 Town Common SSSI](https://pota.app/#/park/GB-4631), so an automatic two-fer. The exact highest spot is almost impossible to find in the woods and the heath, but I found it eventually thanks to OpenStreetMap and some scouting around&mdash;and surprised two deer who had chosen the spot to hang out. The whole Town Common site forms a several kilometer long ridge, including Ramsdown and Blackwater hill, that divides the Stour and Avon river valleys; a popular dog-walking location with well defined trails, though many of them are rather steep.
 
 ![View eastward across the Avon valley from St Catherine's Hill](/img/blog/2025/03/catherines-1.jpg){: .center}
 *View eastward across the Avon valley*
@@ -31,7 +31,7 @@ This weekend was the [CQ WW WPX SSB contest](https://www.cqwpx.com/), so I knew 
 ![Two large metal towers covered with antennas](/img/blog/2025/03/catherines-2.jpg){: .center}
 *M0TRT Contest QTH*
 
-Oh alright, no that wasn't my operating location. Of course I kept well clear of it, and set up my antenna in the woods around 500m away from the hilltop transmitter.
+Oh alright, no that wasn't my operating location. Of course I kept well clear of it, and set up my meagre antenna in the woods around 500m away from the hilltop transmitter.
 
 I didn't have a lot of time to activate here, and what time I had I preferred to spend exploring the site. So I didn't bother tuning the antenna for a WARC band, I just stuck to 20 metres and worked through the band as if I were contesting.
 
