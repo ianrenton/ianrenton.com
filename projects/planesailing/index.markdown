@@ -27,9 +27,8 @@ The links below are to the design & build information in case you are interested
 5. [AIS Receiver Setup](./ais-receiver/)
 6. [APRS Receiver Setup](./aprs-receiver/)
 7. [Plane/Sailing Server Setup](./plane-sailing-server/)
-8. [Web Front-End](./web-front-end/)
-9. [Electronics Enclosure](./electronics-enclosure/)
-10. [Bill of Materials](./bill-of-materials/)
+8. [Electronics Enclosure](./electronics-enclosure/)
+9. [Bill of Materials](./bill-of-materials/)
 
 ### Later Updates
 
@@ -37,6 +36,7 @@ The links below are to the design & build information in case you are interested
 2. [Adding Radiosonde Support](./adding-radiosonde-support/)
 3. [Adding Meshtastic Support](./adding-meshtastic-support/)
 4. [2024 Hardware Stack](./plane-sailing-2024-hardware/)
+5. [Plane/Sailing v4 Changes](./plane-sailing-v2-changes)
 
 ### Miscellaneous
 
