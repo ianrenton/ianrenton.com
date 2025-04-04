@@ -36,7 +36,7 @@ The links below are to the design & build information in case you are interested
 2. [Adding Radiosonde Support](./adding-radiosonde-support/)
 3. [Adding Meshtastic Support](./adding-meshtastic-support/)
 4. [2024 Hardware Stack](./plane-sailing-2024-hardware/)
-5. [Plane/Sailing v4 Changes](./plane-sailing-v2-changes)
+5. [Plane/Sailing v4 Changes](./plane-sailing-v4-changes)
 
 ### Miscellaneous
 
