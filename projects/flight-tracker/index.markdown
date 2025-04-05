@@ -8,15 +8,15 @@ redirect_from:
   - /hardware/flight-tracker/
 ---
 
-<div class="notes"><p>The flight tracker project described here has now been incorporated into my combined aircraft and ship tracking system, <a href="/projects/planesailing">"Plane/Sailing"</a>. Head to that link if you want to see what it's become, or carry on reading below to check out its predecessor!</p></div>
+<div class="notes"><p>The flight tracker project described here has now been incorporated into my combined aircraft and ship tracking system, <a href="/projects/planesailing">"Plane/Sailing"</a>. Head to that link if you want to see what it's become, or carry on reading below to find out more about its predecessor.</p></div>
 
-<p>I run a relatively simple home-made ADS-B aircraft tracker using and old Raspberry Pi, a cheap Software Defined Radio dongle, and some software. It’s installed in my shed, and provides <a href="http://flightmap.ianrenton.com">tracking of planes across the south of the UK</a>.</p>
+<p>I used to run a relatively simple home-made ADS-B aircraft tracker using and old Raspberry Pi, a cheap Software Defined Radio dongle, and some software. It was installed in my shed, and provided tracking of planes across the south of the UK. The web interface is no longer online, having been replaced by Plane/Sailing, but you can still <a href="https://github.com/ianrenton/umid1090">grab the software that ran it on Github</a> and run it yourself, or modify it however you like.</p>
 
 ![Raspberry Pi with HDR setup](/img/projects/flight-tracker/hw.jpg){: .center}
 
-<p>I found the easiest setup was to use <a href="https://flightaware.com/adsb/piaware/build">PiAware</a> from <a href="https://flightaware.com/">FlightAware</a>. (This asks for a Raspberry Pi 3, but works just fine on the original Model B that I used.) The PiAware link has a good guide to getting it all set up.</p>
+<p>I found the easiest setup was to use <a href="https://flightaware.com/adsb/piaware/build">PiAware</a> from <a href="https://flightaware.com/">FlightAware</a>. (This asks for a Raspberry Pi 3, but worked just fine on the original Model B that I used.) The PiAware link has a good guide to getting it all set up.</p>
 
-<p>My SDR dongle is an R820T from <a href="https://www.rtl-sdr.com/">RTL-SDR.com</a>, and worked perfectly out of the box. I used the dipole antenna mount that came with it, and the two vertical antennas set to roughly 69mm long&mdash;quarter of the wavelength of ADS-B's 1090MHz signal. (You can see one antenna fitted in the photo above, adding the second antenna pointing downwards to make a dipole doubles the receive signal, an extra 3dB.)</p>
+<p>My SDR dongle was an R820T from <a href="https://www.rtl-sdr.com/">RTL-SDR.com</a>, and worked perfectly out of the box. I used the dipole antenna mount that came with it, and the two vertical antennas set to roughly 69mm long&mdash;quarter of the wavelength of ADS-B's 1090MHz signal. (You can see one antenna fitted in the photo above, adding the second antenna pointing downwards to make a dipole doubles the receive signal, an extra 3dB.)</p>
 
 <p>Following the simple instructions from FlightAware gives you a device that will automatically upload tracking data to their website, and also provides a local web server (via the included <a href="https://www.satsignal.eu/raspberry-pi/dump1090.html">Dump1090</a> software) that shows what’s being tracked.</p>
 
@@ -34,8 +34,6 @@ Since I wanted HTTPS support, I also got a certificate from [Let's Encrypt](http
 
 <p>As well as providing data to FlightAware, I also wanted to provide data to its "competitors" <a href="https://www.flightradar24.com/">FlightRadar24</a> and <a href="https://www.adsbexchange.com/">ADS-B Exchange</a>. The easiest way to do this was as I found in <a href="https://forum.flightradar24.com/forum/radar-forums/flightradar24-feeding-data-to-flightradar24/11792-beginner-feed-both-fr24-und-fa-with-raspberry-pi-3-model-b-flightaware-pro-stick">this forum post</a> – to stick with the PiAware base software, then add the additional software for FlightRadar24 and ADS-B Exchange on top. Downloading and running <a href="https://repo-feed.flightradar24.com/install_fr24_rpi.sh">this script</a> got FlightRadar24 all set up. The procedure is now even simpler than shown in the forum post, because the script detects running instances of Dump1090 and knows not to interfere with them, so you are no longer required to be so careful with the options you provide. Then, <a href="https://www.adsbexchange.com/how-to-feed/#scriptmethod">this script</a> got me set up with ADS-B Exchange.</p>
 
-<p>The system architecture is as follows:</p>
+<p>The system architecture was as follows:</p>
 
 ![Flight Tracker system diagram)](/img/projects/flight-tracker/arch.png){: .center .noshadow}
-
-<p>If you’d like to see what I’m currently tracking, my custom front-end is online at <a href="https://flightmap.ianrenton.com">https://flightmap.ianrenton.com</a>, and the software it runs is <a href="https://github.com/ianrenton/umid1090">on Github</a> under a Public Domain licence if you’d like your own copy.</p>
