@@ -221,9 +221,7 @@ redirect_from:
   	url="https://github.com/ianrenton/umid1090"
   	image="/img/projects/flight-tracker/sw2.png"
   	description="A web-based display for ADS-B flight tracking software Dump1090, using military symoblogy. It was designed for my first flight tracker and is the predecessor to Plane/Sailing's software."
-  	readmore-text="View the source code &rarr;"
-	url2="https://flightmap.ianrenton.com/"
-	readmore-text2="See it running &rarr;" %}
+  	readmore-text="View the source code &rarr;" %}
 
   	{% include card.html
   	type="horizontal-left"
