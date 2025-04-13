@@ -28,8 +28,17 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
+  	title="ADIF Map Tool"
+  	url="https://adifmap.m0trt.radio"
+  	image="/img/index/adifmap.png"
+  	image-alt="A map display with markers for amateur radio contacts"
+  	description="Following the shutdown of the tool I used to make QSO maps for my blog posts, I decided to implement my own. I have expanded it to include some extra features I wanted to see, such as custom icons for outdoor activities, changeable basemaps and marker sizes, etc."
+  	readmore-text="Use the web application &rarr;" %}
+
+  	{% include card.html
+  	type="horizontal-left"
   	title="POTA New Park Finder"
-  	url="https://newparks.ianrenton.com"
+  	url="https://newparks.m0trt.radio"
   	image="/img/index/pota-new-park-finder.png"
   	image-alt="A map display with markers for POTA parks in different colours"
   	description="For anyone chasing Parks on the Air (POTA) completion in their local area, this web-based tool shows local parks coloured according to whether you, or anyone, has activated them. POTA New Park Finder is a synthesis of my two recent Python-based utilities for POTA, but reworked as an interactive web application that is free for anyone to use."
