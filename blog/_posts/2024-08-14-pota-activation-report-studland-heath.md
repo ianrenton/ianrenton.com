@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POTA Activation Report: Studland Heath"
+title: "POTA/WWFF Activation Report: Studland Heath"
 date: 2024-08-14 08:56 +0100
 image: /img/blog/2024/studland-small.jpg
 slug: pota-activation-report-studland-heath

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POTA Activation Report: The New Forest"
+title: "POTA/WWFF Activation Report: The New Forest"
 date: 2024-08-26 17:58 +0100
 image: /img/blog/2024/newforest-horse-small.jpg
 slug: pota-activation-report-the-new-forest

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POTA Activation Report: Holton Heath"
+title: "POTA/WWFF Activation Report: Holton Heath"
 date: 2024-11-16 16:45 +0000
 image: /img/blog/2024/holton-heath-2-small.jpg
 slug: pota-activation-report-holton-heath

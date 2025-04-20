@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POTA Activation Report: Canford Heath"
+title: "POTA/WWFF Activation Report: Canford Heath"
 date: 2024-12-23 16:58 +0000
 image: /img/blog/2024/canford-heath-1-small.jpg
 slug: pota-activation-report-canford-heath

@@ -2,7 +2,7 @@
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 13-16"
 description: "Giant Wooden Ants On The Air"
-date: 2025-04-19 00:00 +0000
+date: 2025-04-20 01:00 +0000
 image: /img/blog/2025/04/hamchallenge-1-small.jpg
 slug: 52-week-ham-radio-challenge-roundup-weeks-13-16
 tags:
@@ -66,6 +66,9 @@ If I were to revisit this challenge week later in the year, I would do some prop
 
 The weekend of the 19th and 20th of April was the POTA Support Your Parks Spring event, so naturally I was out, and park-to-parks were easy to come by.
 
-xxxx
+On the Saturday afternoon, I [headed out to Ballard Down](/blog/pota-wwff-activation-report-ballard-down) and amongst 54 QSOs got these 14 park-to-parks in the log.
+
+![Map showing markers for various POTA & WWFF stations worked](/img/blog/2025/04/hamchallenge-3.png){: .center}
+*Park-to-park QSO map for Ballard Down*
 
 That's all for this round-up, see you in mid-May for the results of weeks 17 to 20!

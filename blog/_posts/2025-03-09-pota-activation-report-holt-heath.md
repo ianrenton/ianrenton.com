@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POTA Activation Report: Holt Heath"
+title: "POTA/WWFF Activation Report: Holt Heath"
 date: 2025-03-09 00:00 +0000
 image: /img/blog/2025/03/holt-heath-2-small.jpg
 slug: pota-activation-report-holt-heath
@@ -14,7 +14,7 @@ tags:
 
 Another sunny afternoon on another heath, as Spring comes slowly to life all around me.
 
-If you're a regular reader, you'll know what to expect from [GB-0157](https://pota.app/#/park/GB-0157)/[GFF-0101](https://wwff.co/directory/?showRef=GFF-0) Holt Heath: heather, gorse, birch trees, sandy paths, and marshes. But now there are flowers, and the first bees, and birdsong that never stops, under a bright sun and a blue sky that goes on forever.
+If you're a regular reader, you'll know what to expect from [GB-0157](https://pota.app/#/park/GB-0157)/[GFF-0101](https://wwff.co/directory/?showRef=GFF-0101) Holt Heath: heather, gorse, birch trees, sandy paths, and marshes. But now there are flowers, and the first bees, and birdsong that never stops, under a bright sun and a blue sky that goes on forever.
 
 ![A solitary birch tree surrounded by heather and sky](/img/blog/2025/03/holt-heath-2.jpg){: .center}
 *A lone tree on the heath*

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POTA Activation Report: Upton Heath"
+title: "POTA/WWFF Activation Report: Upton Heath"
 date: 2024-10-13 16:35 +0100
 image: /img/blog/2024/upton-heath-1-small.jpg
 slug: pota-activation-report-upton-heath
