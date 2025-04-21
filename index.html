@@ -176,7 +176,7 @@ redirect_from:
 
 <nav class="cardindex">
   <ul data-component class="card-list">
-    {% for post in site.categories.blog limit:3 %}
+    {% for post in site.categories.blog limit:5 %}
       {% capture post-url %}{{ post.url | prepend: site.baseurl }}{% endcapture %}
       {% capture image-url %}{{ post.image | prepend: site.baseurl }}{% endcapture %}
       {% if post.summary %}
