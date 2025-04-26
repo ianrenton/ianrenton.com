@@ -16,7 +16,7 @@ tags:
 
 I'm not actually going to build this game, and I'm not sure anyone should try to turn POTA into something as ultra-competitive as Ingress, but the idea of it [nerd-sniped](https://xkcd.com/356/) me until I had to code *something*. And this is what I made:
 
-![Excerpt from a map with multiple triangles in various colours overlaid](/img/blog/2025/04/pota-ingress.png){: .center}
+![Excerpt from a map, around London, with multiple triangles in various colours overlaid](/img/blog/2025/04/pota-ingress.png){: .center}
 *It looks more "stained glass window" than "Ingress", but the idea is there!*
 
 The code I wrote to generate this takes all activated parks in the UK, then calculates triangular areas between them using Delaunay triangulation. My vague recollection of Ingress gameplay from many years ago was that it worked something like this, with ownership of the points of a triangle giving control over that area. The code then figures out if the triangle is "controlled" by a "team", and then generates a KML output with the triangles coloured according to team control.
@@ -30,8 +30,22 @@ from datetime import timedelta
 from time import sleep
 import numpy as np
 import simplekml
+import great_circle_calculator.great_circle_calculator as gcc
 from requests_cache import CachedSession
 from scipy.spatial import Delaunay
+
+# Triangle area
+def tri_area(points):
+    return 0.5 * (points[0][0] * (points[1][1] - points[2][1])
+                  + points[1][0] * (points[2][1] - points[0][1])
+                  + points[2][0] * (points[0][1] - points[1][1]))
+
+# Returns true if all points are within 100 km of each other
+def close_enough_together(points):
+    dist01 = gcc.distance_between_points(points[0], points[1], unit='kilometers', haversine=True)
+    dist12 = gcc.distance_between_points(points[1], points[2], unit='kilometers', haversine=True)
+    dist20 = gcc.distance_between_points(points[2], points[0], unit='kilometers', haversine=True)
+    return dist01 <= 100.0 and dist12 <= 100.0 and dist20 <= 100.0
 
 # Fetch list of parks in GB
 print("Loading park list...")
@@ -83,21 +97,32 @@ for triangle in triangles:
 
 # For each triangle, figure out what team it belongs to and colour it
 print("Calculating team ownership...")
+g_score = 0.0
+m_score = 0.0
+two_score = 0.0
 for triangle in triangles_with_park_refs:
     triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.grey)
     corner_teams = list(map(lambda park: park["team"], triangle["parks"]))
-    if corner_teams.count("G") == 3:
-        triangle["colour"] = simplekml.Color.changealphaint(200, simplekml.Color.red)
-    elif corner_teams.count("M") == 3:
-        triangle["colour"] = simplekml.Color.changealphaint(200, simplekml.Color.blue)
-    elif corner_teams.count("2") == 3:
-        triangle["colour"] = simplekml.Color.changealphaint(200, simplekml.Color.yellow)
-    elif corner_teams.count("G") == 2:
-        triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.red)
-    elif corner_teams.count("M") == 2:
-        triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.blue)
-    elif corner_teams.count("2") == 2:
-        triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.yellow)
+    if close_enough_together(triangle["points"]):
+        area = tri_area(triangle["points"])
+        if corner_teams.count("G") == 3:
+            triangle["colour"] = simplekml.Color.changealphaint(200, simplekml.Color.red)
+            g_score += area
+        elif corner_teams.count("M") == 3:
+            triangle["colour"] = simplekml.Color.changealphaint(200, simplekml.Color.blue)
+            m_score += area
+        elif corner_teams.count("2") == 3:
+            triangle["colour"] = simplekml.Color.changealphaint(200, simplekml.Color.yellow)
+            two_score += area
+        elif corner_teams.count("G") == 2:
+            triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.red)
+            g_score += area / 2.0
+        elif corner_teams.count("M") == 2:
+            triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.blue)
+            m_score += area / 2.0
+        elif corner_teams.count("2") == 2:
+            triangle["colour"] = simplekml.Color.changealphaint(100, simplekml.Color.yellow)
+            two_score += area / 2.0
 
 # Create KML object
 kml = simplekml.Kml()
@@ -110,11 +135,22 @@ for park in parks:
 
 # Add triangle polygons to KML
 print("Adding polygons to KML...")
+
 for triangle in triangles_with_park_refs:
-    # Join poly up
-    poly = kml.newpolygon(outerboundaryis=[triangle["points"][0], triangle["points"][1], triangle["points"][2], triangle["points"][0]])
-    poly.style.polystyle.color = triangle["colour"]
-    poly.style.linestyle.color = simplekml.Color.black
+    if close_enough_together(triangle["points"]):
+        # Join poly up
+        poly = kml.newpolygon(outerboundaryis=[triangle["points"][0], triangle["points"][1], triangle["points"][2], triangle["points"][0]])
+        poly.style.polystyle.color = triangle["colour"]
+        poly.style.linestyle.color = simplekml.Color.black
+        poly.style.polystyle.outline = 0
+
+g_score_sq_miles = g_score * 3600
+m_score_sq_miles = m_score * 3600
+two_score_sq_miles = two_score * 3600
+
+print("Team M: " + str(int(m_score_sq_miles)) + " sq mi")
+print("Team G: " + str(int(g_score_sq_miles)) + " sq mi")
+print("Team 2: " + str(int(two_score_sq_miles)) + " sq mi")
 
 # Save KML
 print("Saving KML...")
@@ -122,7 +158,22 @@ kml.save("output.kml")
 print("Done.")
 ```
 
-I also did a version based on Voronoi polygons. Here, the code is simpler because each polygon corresponds only to a single park, and so can only have a single team colour. This version is probably less "tactical" from a game perspective, as you can no longer take down a large area of rival team control by "infiltrating" their region and claiming key nodes. But it does produce pretty patterns, and as expected, even more like a stained glass window than the Delaunay version.
+The code also contains some maths to generate a "score" for each team based on area controlled. When I got to the point of trying to calculate this, I chose to filter the triangles to only inclide ones where all points are within 100km of each other. Without this, the scores are dominated by large sea areas between the extremities of the UK coastline. So with this limitation applied, the overall map looks like this:
+
+![As above but for the whole of the UK](/img/blog/2025/04/pota-ingress-uk.png){: .center}
+*UK-wide POTA-as-Ingress map*
+
+I then made the (fairly terrible) approximation that one arc-minute in either latitude or longitude equals one mile, and awarded teams full points for the areas in which they have full control, and half points for partial control areas.
+
+The current POTA-as-Ingress scores, as of 0800Z on 26 April 2025, are as follows:
+
+1. Team "M" with 60484 sq mi
+2. Team "G" with 19363 sq mi
+3. Team "2" with 9370 sq mi
+
+A resounding lead for team "M"&mdash;almost as if my team criteria were quite unfair all along!
+
+For interest, I also did a version based on Voronoi polygons. Here, the code is simpler because each polygon corresponds only to a single park, and so can only have a single team colour. This version is probably less "tactical" from a game perspective, as you can no longer take down a large area of rival team control by "infiltrating" their region and claiming key nodes. But it does produce pretty patterns, and as expected, even more like a stained glass window than the Delaunay version.
 
 ![Excerpt from a map with multiple polygons in three different colours overlaid](/img/blog/2025/04/pota-ingress-voronoi.png){: .center}
 *POTA map showing "team control" of Voronoi polygons*
