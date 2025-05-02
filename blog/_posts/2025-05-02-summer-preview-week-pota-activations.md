@@ -4,7 +4,7 @@ title: "Summer 'Preview Week' POTA Activations"
 date: 2025-05-02 00:00 +0000
 image: /img/blog/2025/05/lodmoor-small.jpg
 slug: summer-preview-week-pota-activations
-description: "Five 15-minute activations in the sun"
+description: "Six 15-minute activations in the sun"
 tags:
   - ham-radio
   - radio
