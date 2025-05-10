@@ -62,7 +62,7 @@ It's "technically" a success for Ham Challenge Week 15, but only barely. If it w
 
 If I were to revisit this challenge week later in the year, I would do some proper preparation for it. With a Raspberry Pi and an HF-capable SDR, I could rig up some software to monitor the beacon continuously, dumping a rolling average of received signal strength to file. This would allow for a complete data set to any resolution I chose, without relying on the need to set a reminder and run to my radio every so often, and without the inaccuracy introduced by eyeballing the S-meter on my radio.
 
-### Week 16 (14-20): Make a contact with a xOTA station. {#week16}
+### Week 16 (14-20 Apr): Make a contact with a xOTA station. {#week16}
 
 The weekend of the 19th and 20th of April was the POTA Support Your Parks Spring event, so naturally I was out, and park-to-parks were easy to come by.
 
