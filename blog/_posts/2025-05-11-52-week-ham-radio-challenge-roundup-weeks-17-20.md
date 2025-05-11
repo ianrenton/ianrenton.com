@@ -2,7 +2,7 @@
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 17-20"
 description: Repeaters, antenna simulation and the return of the RTTY!
-date: 2025-05-18 00:00 +0000
+date: 2025-05-11 00:00 +0000
 image: /img/blog/2025/05/mmana-3-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-17-20
 tags:
