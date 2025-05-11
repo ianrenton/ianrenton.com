@@ -58,6 +58,16 @@ To be honest I'm not sure antenna modelling is for me, at this early point in my
 
 ### Week 20 (12-18 May): Decode the RTTY transmission of DWD on 10101 kHz {#week20}
 
-TODO
+This one wasn't too hard. After making observations of the signal strength of the DWD DDK9 RTTY beacon/weather service in [week 15](/blog/52-week-ham-radio-challenge-roundup-weeks-13-16/#week15), it was a relatively simple matter to decode it too. I wasn't able to find an authoritative introduction to what settings to use in fldigi, but from a couple of forum posts and a bit of trial and error, I had a successful decode using the following settings:
+
+* Radio dial frequency 10.101.800 Hz, LSB mode
+* fldigi software
+* 450 Hz carrier shift, 50 bps baud rate, 5 bits per character, no parity, 1 stop bit
+* Reverse enabled ("Rv" button in lower right of software)
+* Decode centre frequency set to 1000Hz, to correctly position the red bars above the signal.
+
+![fldigi screenshot showing a decode of the DWD DDK9 RTTY beacon](/img/blog/2025/05/ddk9.png)
+
+I also found some useful general information [here](http://weather.mailasail.com/franks-weather/radio-teletype-weather-broadcasts), and the broadcast schedule [here](https://www.dwd.de/EN/specialusers/shipping/broadcast_en/broadcast_rtty_1_092023.pdf?__blob=publicationFile&v=2) which allowed me to grab a weather report as it came in.
 
 That's all for this round-up, see you in mid-June for the results of weeks 21 to 24!
