@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "West Wight POTA Rove"
+title: "Activation Report: West Wight POTA Rove"
 date: 2025-05-05 00:00 +0000
 image: /img/blog/2025/05/wight-4-small.jpg
 slug: west-wight-pota-rove

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Weymouth POTA Rove"
+title: "Activation Report: Weymouth POTA Rove"
 date: 2025-05-07 00:00 +0000
 image: /img/blog/2025/05/weymouth-1-small.jpg
 slug: weymouth-pota-rove
