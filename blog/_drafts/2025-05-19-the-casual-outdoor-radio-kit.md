@@ -15,9 +15,7 @@ tags:
 
 Sometimes, outdoor radio is about [long self-supported hikes](/blog/christchurch-pota-rove-eight-parks-in-eight-hours/) with [big rucksacks](/blog/new-pota-kit-for-2025/) and [madcap races against time](/blog/radar-rally-report-spring-2025/). Sometimes it's about [places you'll likely never visit again](/blog/pota-bota-activation-report-greenham-common/), where failure isn't an option. Sometimes you just need to bring the power, whether for [popular activations where many people will want to call](/blog/purbeck-pota-rove/#durlston), [times when you need a huge number of contacts](/blog/pota-activation-report-holt-heath/) or [chasing park-to-park DX](/blog/pota-activation-report-hengistbury-head/). There's equipment for that.
 
-But sometimes, outdoor radio isn't like that. Sometimes it's just a lovely day sat on a beach or in a park, and 10 QSOs would be a nice bonus. Essentially, the ideal summer POTA day looks just like this:
-
-TODO pic
+But sometimes, outdoor radio isn't like that. Sometimes it's just a lovely day sat on a beach or in a park, and 10 QSOs would be a nice bonus.
 
 For those days, this is my current "casual" outdoor radio kit.
 

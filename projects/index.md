@@ -28,9 +28,9 @@ redirect_from:
   <ul data-component class="card-list">
   	{% include card.html
   	type="horizontal-left"
-  	title="ADIF Map Tool"
-  	url="https://adifmap.m0trt.radio"
-  	image="/img/index/adifmap.png"
+  	title="QSO Map Tool"
+  	url="https://qsomap.m0trt.radio"
+  	image="/img/index/qsomap.png"
   	image-alt="A map display with markers for amateur radio contacts"
   	description="Following the shutdown of the tool I used to make QSO maps for my blog posts, I decided to implement my own. I have expanded it to include some extra features I wanted to see, such as custom icons for outdoor activities, changeable basemaps and marker sizes, etc."
   	readmore-text="Use the web application &rarr;" %}
