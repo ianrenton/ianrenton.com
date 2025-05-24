@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 21-24"
-description: 
+description: "The Challenge gets Challeng-ier: GNU Radio, SPICE and Software"
 date: 2025-06-15 00:00 +0000
-image: 
+image: /img/blog/2025/06/amplifier-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-21-24
 tags:
   - ham-radio
@@ -27,6 +27,17 @@ This post covers the challenges from weeks 21-24, which were:
 ### Week 21 (19-25 May): Create a GNU Radio flowgraph! {#week21}
 
 ### Week 22 (26 May - 1 Jun): Simulate an electric circuit! {#week22}
+
+For week 22, the challenge was to simulate an electric circuit. I started off using the recommended web-based tool, [CircuitLab](https://www.circuitlab.com/), but quickly found that it had a strict time limit before forcing you to create an account, and not saving your previous work. Since I knew that KiCad also had some built-in circuit simulation capability using SPICE, and no associated limitations, I decided to use that instead.  It also seemed a more useful skill to learn, to do this with KiCad rather than CircuitLab.
+
+I set out to make a simple common emitter amplifier circuit. Drawing the schematic wasn't a problem, but I did have to [read up on the simulation capability](https://www.kicad.org/discover/spice/) as that aspect was new to me.
+
+Initially I was getting roughly Vout=Vin, a sure sign that the circuit wasn't working as I expected. So, I added various test points to the circuit to track down the source of the problem. It turned out to be zero voltage on the Vcc rail&mdash;while I had used a SPICE symbol for the sine wave input, I had just used a standard voltage point for Vcc, and this was not recognised as anything by the simulator. I switched this for a SPICE VDC source, and it all worked as expected.
+
+![A common emitter amp circuit in KiCad, along with a simulation window showing a sine wave input and output with gain around -5.](/img/blog/2025/06/amplifier.png)
+*Common Emitter amplifier schematic and simulation in KiCad*
+
+Most of my [previous KiCad experience](https://ianrenton.com/projects/big-mouth-phatt-bass/) has been simply connecting ICs together, so I'm still a long way off being able to design and simulate analog circuitry with confidence. However, it's great to know the functionality is there and it really did help me figure out a problem with the schematic, so this week's challenge has definitly got me thinking that some proper circuit design could be in my future.
 
 ### Week 23 (2-8 Jun): How many language can you hear on the radio this week? {#week23}
 
