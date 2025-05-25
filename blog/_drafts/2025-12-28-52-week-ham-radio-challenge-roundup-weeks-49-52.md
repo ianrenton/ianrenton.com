@@ -30,6 +30,8 @@ This post covers the final four weeks of challenges, weeks 49-52, which were:
 
 ### Week 51 (15-21 Dec): Write something about ham radio with public impact. {#week51}
 
+I'm lacking ideas for this one in this specific week, though of course I'm steadily blogging my ham radio adventures. For week 51, I'm going to blag it with my only published article this year&mdash;the page on Field Spotter that was published in the March 2025 edition of RadCom. If you have an RSGB membership, you can read it on page 51 of [the online copy](https://editions.rsgb.services/app/RAD971/editionguid/a73a1af6-4ae9-45b1-9222-5b7e5251bb0a)!
+
 ### Week 52 (22-28 Dec): Create an Infographic or Webcomic! {#week52}
 
 That's all for this round-up, and with it, the end of the 52-week Ham Challenge 2025. I think I can claim success on XX out of 52 weeks, not a bad result! Thanks for following along with my journey to broaden my radio horizons this year, and thanks especially to Fabian DJ5CW for running the challenge. It's been great running through these challenges in synchrony with others; discussing our wins and our losses together online. I hope to see you all again in 2026&mdash;Merry Christmas and a Happy New Year!
