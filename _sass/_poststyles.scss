@@ -114,6 +114,13 @@
     }
 }
 
+@include media-query($on-laptop) {
+    #toc {
+        float: none;
+        display: none;
+    }
+}
+
 @include media-query($on-non-super-wide) {
     #toc {
       float: right;
