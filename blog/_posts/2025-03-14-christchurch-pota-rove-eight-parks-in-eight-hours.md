@@ -104,7 +104,7 @@ Then the bells tolled for noon, and I started to consider my choices.
 
 I had already had an adventure, somewhat against my will&mdash;my civilised town park activations had turned into a soul-sapping and wet slog. I could call it quits and go home, of course. But with only four parks in the log, it wasn't quite enough for a POTA 5-park rover award. I could do one more park just to qualify, and save the rest for another day. Either way I would end up with yellow and red markers still on the map, and a job still to do.
 
-But I "hadn't* had an adventure. I had had *half* an adventure. Four more parks awaited, five hours of daylight remained, and I was not going to stop there.
+But I *hadn't* had an adventure. I had had *half* an adventure. Four more parks awaited, five hours of daylight remained, and I was not going to stop there.
 
 It was another 10 minutes' walk back north to the waterworks, where I could finally cross back to the other side of the river, then 20 more south again to the town centre where I could grab a supermarket meal-deal lunch. After that came a 30-minute trek up the side of busy main roads, all the way to Burton&mdash;the long way around.
 
