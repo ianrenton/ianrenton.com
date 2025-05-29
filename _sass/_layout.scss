@@ -59,8 +59,8 @@ li.old-blog-archive-entry {
 
 /* Breakout wide section */
 div.breakout-full-width {
-  margin-left: calc(-100vw / 2 + 70ch / 2);
-  margin-right: calc(-100vw / 2 + 70ch / 2);
+  margin-left: calc(-100vw / 2 + 60ch / 2);
+  margin-right: calc(-100vw / 2 + 60ch / 2);
 }
 @include media-query($on-palm) {
   div.breakout-full-width {
