@@ -7,7 +7,7 @@ image: /img/projects/meteogram/headline.jpg
 
 My Home Meteogram Display is based around a Raspberry Pi and a small ultra-wide aspect ratio screen. It lives in the kitchen and provides a passive weather and calendar display tailored to our needs. The build process is documented below and all code is open source.
 
-![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner.jpg){: .center}
+![The Meteogram display showing weather and calendar events on an ultra-wide screen](/img/projects/meteogram/banner.jpg){: .center}
 
 ## Goals
 
@@ -21,7 +21,7 @@ Having these additional features on a passive display in the house means I no lo
 
 Despite the stated goals, this project largely came about because I saw [these Waveshare ultra-widescreen displays](https://www.waveshare.com/11.9inch-hdmi-lcd.htm) and thought they looked cool, so came up with a project based around one.
 
-![A Waveshare ultra-widescreen display](screeninbox.jpg){: .center}
+![A Waveshare ultra-widescreen display](/img/projects/meteogram/screeninbox.jpg){: .center}
 
 An additional aim with the project was to use one of my original Raspberry Pi Model B units that is sat around gathering dust. The meteogram only needs to be regenerated once an hour, so it shouldn't be a demanding task requiring a more recent device. However, using such an old computer did cause a number of implementation problems.
 
@@ -45,7 +45,7 @@ I chose the UK Met Office's DataHub API to provide the data for the meteogram, o
 
 Bars below the meteogram itself were added to show logic-based conditions (laundry days & weather warnings) and calendar events sourced via iCal.
 
-![An example output from the meteogram software](example.png){: .center}
+![An example output from the meteogram software](/img/projects/meteogram/example.png){: .center}
 
 The software is tailored to fit the ultra-wide aspect ratio screen, but I have built it to be as customisable as possible, including over two dozen config parameters to set size, layout, features and colours.
 
@@ -55,29 +55,29 @@ The software is open source and can be found at [https://github.com/ianrenton/ho
 
 The first problem that becomes apparent when trying to integrate the screen and Raspberry Pi is that while their website *says* the screen is compatible with all models of Raspberry Pi, the fitting kit and the position of the mounting holes is only suitable for newer models. When attached using the HDMI-to-HDMI board, the USB-to-micro USB board does not line up:
 
-![The Pi mounted to the screen, showing the USB connector not lined up](usblineup.jpg){: .center}
+![The Pi mounted to the screen, showing the USB connector not lined up](/img/projects/meteogram/usblineup.jpg){: .center}
 
 The short USB cable packaged with the screen was therefore required to connect the two. I also fitted a WiFi dongle at this stage:
 
-![The Pi mounted to the screen, with a USB cable and WiFi dongle](cableattached.jpg){: .center}
+![The Pi mounted to the screen, with a USB cable and WiFi dongle](/img/projects/meteogram/cableattached.jpg){: .center}
 
 Since the mounting holes in the Pi do not line up with the ones on the screen PCB, and we are only solidly connected using a single connector (HDMI), the Pi can move around slightly, and more worryingly the back of its GPIO pins can contact some of the metal parts of the screen's PCB.
 
-![The Pi mounted to the screen, showing points of accidental contact](touchpoints.jpg){: .center}
+![The Pi mounted to the screen, showing points of accidental contact](/img/projects/meteogram/touchpoints.jpg){: .center}
 
 I worked around this problem by fitting some ~8mm nylon PCB spacers to the underside of the Pi to keep it from touching the other board, and for good measure covered any likely-looking contact points with electrical tape. I also taped over the very bright green LED on the screen's PCB.
 
-![The Pi with spacers attached to the underside](pispacers.jpg){: .center}
+![The Pi with spacers attached to the underside](/img/projects/meteogram/pispacers.jpg){: .center}
 
-![The screen PCB with highlighted points taped over](touchpoints-covered.jpg){: .center}
+![The screen PCB with highlighted points taped over](/img/projects/meteogram/touchpoints-covered.jpg){: .center}
 
 A later minor update swapped the included USB cable for a much shorter one to neaten up the back of the system:
 
-![The back of the system with a much shorter cable between screen and Pi](shortusb.jpg){: .center}
+![The back of the system with a much shorter cable between screen and Pi](/img/projects/meteogram/shortusb.jpg){: .center}
 
 The WiFi dongle is pretty huge, but it was the only working one I could scrounge from my parts bin. I turned it into a "design feature" by using it as a kick-stand; the rorateable antenna is just about stiff enough that it can be used to prop the unit up at whatever angle you desire.
 
-![Top down view showing WiFi antenna sticking out](kickstand.jpg){: .center}
+![Top down view showing WiFi antenna sticking out](/img/projects/meteogram/kickstand.jpg){: .center}
 
 ## Operating System Setup
 
@@ -97,13 +97,13 @@ The wiki provides two ways of rotating the screen, one graphical inside the LXDE
 
 But to get to that point, you have to get past the Raspberry Pi OS welcome screen. As you can see, it doesn't fit on this strangely-proportioned screen, and neither is there any way to move it:
 
-![Part of the welcome screen shown on the display](welcomescreen.jpg){: .center}
+![Part of the welcome screen shown on the display](/img/projects/meteogram/welcomescreen.jpg){: .center}
 
 To get past this stage, I needed to connect the Pi to a normal monitor, keyboard and mouse. I used a USB hub so that I could keep my WiFi dongle connected as well on my 2-USB-port Pi.
 
 I then used the GUI configuration utility to enable automatic login in desktop mode, disable "screen blanking" (a 10-minute screensaver), and enable SSH. (The command-line `raspi-config` utility can also be used for this.) I also enabled VNC at this stage for easier debugging of GUI problems&mdash;this is unfortunately RealVNC rather than a F/OSS VNC implementation, but although the desktop clients will beg you to create an account, you don't have to; the server is also free on the Pi.
 
-![The Raspberry Pi configuration utility, with automatic login enabled](autologin.jpg){: .center}
+![The Raspberry Pi configuration utility, with automatic login enabled](/img/projects/meteogram/autologin.jpg){: .center}
 
 I set the panel to auto-hide (right-click panel, Panel Settings, Advanced, Enable auto-hide) and its size when auto-hidden to 6 pixels. The 6 pixels is due to a later discovery that the touchscreen makes it hard to get the cursor to exactly the top pixel of the screen; setting it to be the top 6 pixels allows touch controls to bring up the menu much more easily.
 
@@ -152,7 +152,7 @@ pcmanfm -w "$PWD/output.png"
 
 The `--desktop` command is to avoid a "Desktop Manager not active" alert on the GUI that I sometimes encountered when setting the wallpaper from the cron job&mdash;an annoying callback to all those photos of ATMs and train departure boards obscured by Windows error messages:
 
-![The screen showing an error message in front of the meteogram](desktoperror.jpg){: .center}
+![The screen showing an error message in front of the meteogram](/img/projects/meteogram/desktoperror.jpg){: .center}
 
 I then added a cron job on the Pi, running at one minute past the hour to give the API a chance to update, which calls the same script:
 
@@ -180,7 +180,7 @@ echo "unclutter &" >> ~/.xinitrc
 
 The setup of hardware and software was then complete.
 
-![The Meteogram display showing weather and calendar events on an ultra-wide screen](banner3.jpg){: .center}
+![The Meteogram display showing weather and calendar events on an ultra-wide screen](/img/projects/meteogram/banner3.jpg){: .center}
 
 ## Enclosure & Mounting 
 

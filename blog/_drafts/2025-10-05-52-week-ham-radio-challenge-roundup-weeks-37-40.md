@@ -32,4 +32,14 @@ This post covers the challenges from weeks 37-40, which were:
 
 ### Week 40 (29 Sep - 5 Oct): Which QSLing methods do you use, physical and electronic? {#week40}
 
+A simple one this week, and the answer is: all of them!
+
+My Wavelog server dutifully uploads details of all my contacts to LotW, QRZ, eQSL and Clublog. (Whether all of these are really considered QSL services, I have no idea&mdash;either way, all the details get uploaded and matched against other people's.)
+
+I also offer physical cards, both direct and via the RSGB bureau. For the first few years of my amateur radio experience, I wasn't bothered about physical cards, but I signed up for the bureau around October last year in case the Scout group wanted to do QSL cards for Jamboree on the Air. Then, [Ham Challenge Week 1](/blog/52-week-ham-radio-challenge-roundup-weeks-1-4/#week1) got me designing my own card, and shortly after, I received by first ever set of cards via the Bureau. So then I had no choice but to get my own made!
+
+My default, like most people, is not to send a physical card. But I'm always happy to send them on request via email or Clublog OQRS, and of course I will always send one back when I receive one unprompted.
+
+I've also decided to request physical cards for particularly unusual contacts, if the other party offers them, e.g. unusual DXCC entities, very long range contacts, transatlantic park-to-parks, etc.
+
 That's all for this round-up, see you in early November for the results of weeks 41 to 44!

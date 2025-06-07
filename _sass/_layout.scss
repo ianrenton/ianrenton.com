@@ -10,8 +10,8 @@ body {
   --faded-text-brightness: 2;
   --layout-spacing: max(8vh, 4rem);
   --layout-spacing-half: max(4vh, 2rem);
-  --max-width: 70ch;
-  --max-width-wide: 110ch;
+  --max-width: 60ch;
+  --max-width-wide: 90ch;
   --highlight-color: #8b4756;
   display: flex;
   flex-direction: column;
@@ -59,8 +59,8 @@ li.old-blog-archive-entry {
 
 /* Breakout wide section */
 div.breakout-full-width {
-  margin-left: calc(-100vw / 2 + 70ch / 2);
-  margin-right: calc(-100vw / 2 + 70ch / 2);
+  margin-left: calc(-100vw / 2 + 60ch / 2);
+  margin-right: calc(-100vw / 2 + 60ch / 2);
 }
 @include media-query($on-palm) {
   div.breakout-full-width {

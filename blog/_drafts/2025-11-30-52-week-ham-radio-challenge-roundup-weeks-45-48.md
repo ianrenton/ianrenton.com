@@ -28,6 +28,14 @@ This post covers the challenges from weeks 45-48, which were:
 
 ### Week 46 (10-16 Nov): Write a useful computer program! {#week46}
 
+Honestly, I couldn't think of anything to write in this *specific* week, but I think I've done enough over the year to sign this one off. As well as countless updates to older software, I wrote the following this year:
+
+* [POTA New Park Finder](https://newparks.m0trt.radio/) (development started in February)
+* [QSO Map Tool](https://qsomap.m0trt.radio/) (development started in April)
+* [UKBota n-fer Finder](https://github.com/ianrenton/ukbota-nfer-finder) (written in May)
+
+(I also wrote the code for the [Billy Bass Sat Nav](https://ianrenton.com/projects/bluetooth-bass/) this year, but I don't think that qualifies as "useful"!)
+
 ### Week 47 (17-23 Nov): Submit an idea for the Ham Challenge 2026! {#week47}
 
 ### Week 48 (24-30 Nov): Transmit a QRSS signal on the HF bands {#week48}
