@@ -26,6 +26,8 @@ This post covers the challenges from weeks 21-24, which were:
 
 ### Week 21 (19-25 May): Create a GNU Radio flowgraph! {#week21}
 
+
+
 ### Week 22 (26 May - 1 Jun): Simulate an electric circuit! {#week22}
 
 For week 22, the challenge was to simulate an electric circuit. I started off using the recommended web-based tool, [CircuitLab](https://www.circuitlab.com/), but quickly found that it had a strict time limit before forcing you to create an account, and not saving your previous work. Since I knew that KiCad also had some built-in circuit simulation capability using SPICE, and no associated limitations, I decided to use that instead.  It also seemed a more useful skill to learn, to do this with KiCad rather than CircuitLab.
@@ -39,7 +41,13 @@ Initially I was getting roughly Vout=Vin, a sure sign that the circuit wasn't wo
 
 Most of my [previous KiCad experience](https://ianrenton.com/projects/big-mouth-phatt-bass/) has been simply connecting ICs together, so I'm still a long way off being able to design and simulate analog circuitry with confidence. However, it's great to know the functionality is there and it really did help me figure out a problem with the schematic, so this week's challenge has definitly got me thinking that some proper circuit design could be in my future.
 
-### Week 23 (2-8 Jun): How many language can you hear on the radio this week? {#week23}
+### Week 23 (2-8 Jun): How many languages can you hear on the radio this week? {#week23}
+
+A nice simple one this week. Although poor band conditions and my own travel schedule didn't leave much time for radio, I spent a few minutes here and there scanning the bands. During this time I heard English, French, Dutch, German, Italian, Greek and Russian.
+
+The challenge also asks how I identified the languages, and as with most Europeans, I guess the answer is just by speaking enough of the major languages that it's kind of obvious what it is when you hear it. My assumption of Russian was based on the callsign and a "do svidaniya", and the Greek I'm not sure I'd have got at all without recognising "kalispera", but the others were all easily identified.
+
+*TODO: Spoken?*
 
 ### Week 24 (9-15 Jun): Make a contribution to an Open Source ham radio software package. {#week24}
 
