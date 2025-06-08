@@ -2,7 +2,7 @@
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 21-24"
 description: "The Challenge gets Challeng-ier: GNU Radio, SPICE and Software"
-date: 2025-06-15 00:00 +0000
+date: 2025-06-08 00:00 +0000
 image: /img/blog/2025/06/amplifier-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-21-24
 tags:
@@ -59,10 +59,12 @@ Most of my [previous KiCad experience](https://ianrenton.com/projects/big-mouth-
 
 A nice simple one this week. Although poor band conditions and my own travel schedule didn't leave much time for radio, I spent a few minutes here and there scanning the bands. During this time I heard English, French, Dutch, German, Italian, Greek and Russian.
 
-The challenge also asks how I identified the languages, and as with most Europeans, I guess the answer is just by speaking enough of the major languages that it's kind of obvious what it is when you hear it. My assumption of Russian was based on the callsign and a "do svidaniya", and the Greek I'm not sure I'd have got at all without recognising "kalispera", but the others were all easily identified.
-
-*TODO: Spoken?*
+The challenge also asks how I identified the languages, and as with most Europeans, I guess the answer is just by knowing enough of the major languages that it's kind of obvious what it is when you hear it. My assumption of Russian was based on the callsign and a "do svidaniya", and the Greek I'm not sure I'd have got at all without recognising "kalispera", but the others were all easily identified.
 
 ### Week 24 (9-15 Jun): Make a contribution to an Open Source ham radio software package. {#week24}
+
+I'm going to claim this one a day early, as the coming week promises to be a busy one. Hopefully I can claim *my own* software packages here, as for the last few days I've been working on adding a Worked All Britain layer to Field Spotter and the QSO Map tool. The layer lives in its own project, also open source, so anyone who wants a WAB grid on a Leaflet map can [grab it here](https://github.com/ianrenton/Leaflet.WorkedAllBritain).
+
+If it needs to be someone else's project, all I can claim so far this year was [fixing a bug in PoLo](https://github.com/ham2k/app-polo/pull/104), but that was way back in February. My spot map feature for PoLo has been stuck in PR for a while now, so unfortunately I can't see that going live soon.
 
 That's all for this round-up, see you in mid-July for the results of weeks 25 to 28!
