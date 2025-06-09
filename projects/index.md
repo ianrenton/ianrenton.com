@@ -85,7 +85,7 @@ redirect_from:
   	{% include card.html
   	type="horizontal-left"
   	title="POTA Unactivated Park Finder"
-  	url="https://github.com/ianrenton/newparks"
+  	url="https://github.com/ianrenton/newparks-python"
   	image="/img/index/newparks.png"
   	image-alt="Some placemarks of POTA parks on Google Earth"
   	description="The POTA Unactivated Park Finder (aka newparks.py) is a simple Python script that queries the Parks on the Air API to find all parks that have never been activated, and produces a KML file of them that you can view in e.g. Google Earth."
@@ -153,9 +153,7 @@ redirect_from:
 	url2="https://planesailing.ianrenton.com/"
 	readmore-text2="See it running &rarr;"
 	url3="https://github.com/ianrenton/planesailing"
-	readmore-text3="View the front-end source code &rarr;"
-	url4="https://github.com/ianrenton/planesailing-server"
-	readmore-text4="View the back-end source code &rarr;" %}
+	readmore-text3="View the source code &rarr;" %}
 
   	{% include card.html
   	type="horizontal-left"
