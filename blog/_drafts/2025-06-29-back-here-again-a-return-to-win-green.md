@@ -22,7 +22,7 @@ Unlike many of the other spots I've talked about during my amateur radio adventu
 
 One year ago today was [OARC SOTA Day 2024](https://wiki.oarc.uk/oarc-sota-day-2024). We arrived on the hill late morning, as the sun baked the hilltop and Spitfires roared overhead. We unrolled our picnic blanket, set up an antenna, and tentatively took our first steps into the world of portable amateur radio.
 
-It was my first time using amateur radio equipment outside the house, my first Summit on the Air, my first Park on the Air, even my first time nervously trying to make a contact on HF voice. It was just an excuse to test some equipment, really. But the first few QSOs came in, slowly but surely, and with them a rush of adrenaline; a joy at finding a new thing that I loved. I was hooked.
+It was my first time using amateur radio equipment outside the house, my first Summit on the Air, my first Park on the Air, even my first time nervously trying to make a contact on HF voice. It was just meant to be excuse to test some equipment, really. But the first few QSOs came in, slowly but surely, and with them a rush of adrenaline; a joy at finding a new thing that I loved. I was hooked.
 
 Today, I stand here again. The rush is still there, the anxiety and the joy.
 
@@ -30,35 +30,37 @@ One year later, I'm back for my third SOTA activation. Oh yeah, and my *eighty-f
 
 *newparks pic*
 
-review... **todo**
-* first brownsea activators
-* first Transatlantic p2p
-* JOTA
-* first new park added, then activating it next day
-* 7 software apps
-* construction competition win
-* putting together kit x2
-* Christchurch rove
-* radar rally
-* accidental airfields weekend and working a bunker net as my antenna fell down around me
-* 7fer
-* bunkerfest and the huff duff
-* journey through childhood haunts (stour) and new places I'd never have been otherwise
+And what a year it's been. These have been the highlights for me:
 
-And in time-honoured tradition, here's my year in portable amateur radio, "by the numbers": **todo update all - current as of 19/6**
+* Becoming the [first activators of Brownsea Island](/pota-activation-report-brownsea-island/) after a flurry of desperate self-spotting to get the 10th QSO in the log
+* Getting [my first Transatlantic Park-to-Park QSO](/pota-activation-report-hengistbury-head/)
+* Creating a number of web applications to support outdoor radio, including [winning the RSGB Construction Competition](https://rsgb.org/main/construction-competition/) with [Field Spotter](https://fieldspotter.radio)
+* The unforgettable [Christchurch rove](/blog/christchurch-pota-rove-eight-parks-in-eight-hours/), where a civilised activation of a couple of town parks turned into a wet slog through salt marsh
+* The impeccably timed [RaDAR Rally](/blog/radar-rally-report-spring-2025/) that saw me deploy my radio kit eight times in four hours in a race around the forest
+* [Accidentally taking part in Airfields on the Air](/blog/pota-bota-activation-report-greenham-common/) and working a bunker-to-bunker net as my antenna fell down around me
+* The desperate struggle for phone signal to kick off [the POTA 7-fer with its 90-minute pile-up](/blog/purbeck-pota-rove/)
+* And not forgetting [Jamboree on the Air](https://ianrenton.com/blog/jamboree-on-the-air-2024/), my reason for doing all this in the first place.
+
+More than anything else, I have enjoyed getting out there, to [places new](/blog/pota-activation-report-ham-common/) and [places I have known forever](/blog/pota-activation-report-the-river-stour/). I've seen hilltops and valleys and woods and fields that I never would have without this hobby. I've counted lizards on walls, come face-to-face with deer, been chased by swans, and had horses try to drink my tea. And I've come home to reflect, to write about it all, to share local history and childhood memories and QSO maps with an audience I don't thank enough.
+
+Thank you all for sharing my adventures with me.
+
+**pic**
+
+In time-honoured tradition, here's my year in portable amateur radio, "by the numbers": **todo update all - current as of 19/6**
 
 * **62** separate locations across **44** days of adventures
 * **82** POTA activations in **67** unique parks
 * **26** WWFF activations in **18** unique parks
-* **7** Bunker activations, **2** Summits, **3** Castles and **1** Lightouse
+* **7** Bunker activations, **2** Summits, **3** Castles and **1** Lighthouse
 * **88.3 miles** walked
 * **1949** total QSOs with **1205** unique callsigns
 * **320** grid squares worked
 * Furthest DX: **7678 miles** with R Purnawi, YB3RPS (Indonesia)
-* Closest DX: **Around 400 metres** with John, M6EAM (Christchurch, UK)
+* Closest DX: Around **400 metres** with John, M6EAM (Christchurch, UK)
 * Longest walk: **12.1 miles** on the [West Wight Rove](/blog/west-wight-pota-rove/)
 * Most references in a day: **15** on the [Purbeck Rove](/blog/purbeck-pota-rove/)
-* Most QSOs in a day: **165** on the [Christchurch Rove](/christchurch-pota-rove-eight-parks-in-eight-hours/)
+* Most QSOs in a day: **165** on the [Christchurch Rove](/blog/christchurch-pota-rove-eight-parks-in-eight-hours/)
 * Most QSOs in a park: **101** for the WWFF 12.5 Year Birthday competition on [Holt Heath](/blog/pota-activation-report-holt-heath/)
 
 *pic*
