@@ -20,17 +20,17 @@ Win Green, the highest point in Cranbourne Chase. From the small copse of trees 
 
 Unlike many of the other spots I've talked about during my amateur radio adventures, I have no particular childhood memories here, and little to say about the history of this particular corner of the world. It remains special to me though, above all other portable radio spots, because this was [where it all began](/blog/my-first-easiest-and-last-sota/).
 
-One year ago today was [OARC SOTA Day 2024](https://wiki.oarc.uk/oarc-sota-day-2024). We arrived in the hill late morning, as the sun baked the hilltop and Spitfires roared overhead. We unrolled our picnic blanket, set up an antenna, and tentatively took our first steps into the world of portable amateur radio.
+One year ago today was [OARC SOTA Day 2024](https://wiki.oarc.uk/oarc-sota-day-2024). We arrived on the hill late morning, as the sun baked the hilltop and Spitfires roared overhead. We unrolled our picnic blanket, set up an antenna, and tentatively took our first steps into the world of portable amateur radio.
 
-It was my first time using amateur radio equipment outside the house, my first Summit on the Air, my first Park on the Air, even my first time nervously trying to make a contact on HF Single Sideband. It was just an excuse to test some equipment, really. But the first few QSOs came in, slowly but surely, and with them a rush of adrenaline; a joy at finding a new thing that I loved. I was hooked.
+It was my first time using amateur radio equipment outside the house, my first Summit on the Air, my first Park on the Air, even my first time nervously trying to make a contact on HF voice. It was just an excuse to test some equipment, really. But the first few QSOs came in, slowly but surely, and with them a rush of adrenaline; a joy at finding a new thing that I loved. I was hooked.
 
 Today, I stand here again. The rush is still there, the anxiety and the joy.
 
-One year later, I'm back for my third SOTA activation. Oh yeah, and my *eighty-fourth* POTA.
+One year later, I'm back for my third SOTA activation. Oh yeah, and my *eighty-fourth* **todo update** POTA.
 
 *newparks pic*
 
-review...
+review... **todo**
 * first brownsea activators
 * first Transatlantic p2p
 * JOTA
@@ -44,6 +44,22 @@ review...
 * 7fer
 * bunkerfest and the huff duff
 * journey through childhood haunts (stour) and new places I'd never have been otherwise
+
+And in time-honoured tradition, here's my year in portable amateur radio, "by the numbers": **todo update all - current as of 19/6**
+
+* **62** separate locations across **44** days of adventures
+* **82** POTA activations in **67** unique parks
+* **26** WWFF activations in **18** unique parks
+* **7** Bunker activations, **2** Summits, **3** Castles and **1** Lightouse
+* **88.3 miles** walked
+* **1949** total QSOs with **1205** unique callsigns
+* **320** grid squares worked
+* Furthest DX: **7678 miles** with R Purnawi, YB3RPS (Indonesia)
+* Closest DX: **Around 400 metres** with John, M6EAM (Christchurch, UK)
+* Longest walk: **12.1 miles** on the [West Wight Rove](/blog/west-wight-pota-rove/)
+* Most references in a day: **15** on the [Purbeck Rove](/blog/purbeck-pota-rove/)
+* Most QSOs in a day: **165** on the [Christchurch Rove](/christchurch-pota-rove-eight-parks-in-eight-hours/)
+* Most QSOs in a park: **101** for the WWFF 12.5 Year Birthday competition on [Holt Heath](/blog/pota-activation-report-holt-heath/)
 
 *pic*
 
@@ -73,6 +89,6 @@ Fingers crossed, a long and exciting future of outdoor radio adventures awaits.
 
 *pic*
 
-I'll finish as I always do, with a huge thank-you to all my contacts over the past year&mdash;all *2731* of you. **todo update** None of this would have been possible without you being there, from Alaska to Indonesia to just down the road, sat by a radio taking my call. Thank you so much.
+I'll finish as I always do, with a huge thank-you to all my contacts over the past year&mdash;all 1205 of you. **todo update** None of this would have been possible without you being there, from Alaska to Indonesia to just down the road, sat by a radio taking my call. Thank you so much.
 
 Here's to another year!
