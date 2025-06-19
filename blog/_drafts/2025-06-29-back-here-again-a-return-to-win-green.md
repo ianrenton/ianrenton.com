@@ -18,21 +18,38 @@ Win Green, the highest point in Cranbourne Chase. From the small copse of trees 
 
 *pic*
 
-Unlike many of the other spots I've talked about during my amateur radio adventures, I have no particular childhood memories here, and little to say about the history of this particular corner of the world. It remains special to me though, because this was [where I started](/blog/my-first-easiest-and-last-sota/). One year ago today was [OARC SOTA Day 2024](https://wiki.oarc.uk/oarc-sota-day-2024). Late morning, as the sun baked the hilltop and Spitfires roared overhead, we unrolled our picnic blanket, set up an antenna, and tentatively took our first steps into the world of portable amateur radio operations.
+Unlike many of the other spots I've talked about during my amateur radio adventures, I have no particular childhood memories here, and little to say about the history of this particular corner of the world. It remains special to me though, above all other portable radio spots, because this was [where it all began](/blog/my-first-easiest-and-last-sota/).
 
-It was my first time using amateur radio equipment outside the house, my first Summit on the Air, my first Park on the Air, even my first time on HF Single Sideband. It was just an excuse to test some equipment, really. But the first few contacts came in, slowly but surely, and with them a rush of adrenaline; a joy at finding a new thing that I loved. I was hooked.
+One year ago today was [OARC SOTA Day 2024](https://wiki.oarc.uk/oarc-sota-day-2024). We arrived in the hill late morning, as the sun baked the hilltop and Spitfires roared overhead. We unrolled our picnic blanket, set up an antenna, and tentatively took our first steps into the world of portable amateur radio.
+
+It was my first time using amateur radio equipment outside the house, my first Summit on the Air, my first Park on the Air, even my first time nervously trying to make a contact on HF Single Sideband. It was just an excuse to test some equipment, really. But the first few QSOs came in, slowly but surely, and with them a rush of adrenaline; a joy at finding a new thing that I loved. I was hooked.
 
 Today, I stand here again. The rush is still there, the anxiety and the joy.
 
-One year later, I'm back for my third SOTA activation. Oh yeah, and my *eighty-fourth* POTA activation.
+One year later, I'm back for my third SOTA activation. Oh yeah, and my *eighty-fourth* POTA.
 
 *newparks pic*
 
 review...
+* first brownsea activators
+* first Transatlantic p2p
+* JOTA
+* first new park added, then activating it next day
+* 7 software apps
+* construction competition win
+* putting together kit x2
+* Christchurch rove
+* radar rally
+* accidental airfields weekend and working a bunker net as my antenna fell down around me
+* 7fer
+* bunkerfest and the huff duff
+* journey through childhood haunts (stour) and new places I'd never have been otherwise
 
 *pic*
 
 activation report
+
+comparison to last year
 
 *pic*
 
