@@ -28,7 +28,7 @@ Today, I stand here again. The rush is still there, the anxiety and the joy.
 
 One year later, I'm back for my third SOTA activation. Oh yeah, and my *eighty-fourth* **todo update** POTA.
 
-*newparks pic*
+<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/06/year-parks.png" alt="Map of all the POTA parks I have activated in the last year" style="width:100%"/></center><p><center><em>Activated parks over the last year (green)</em></center></p></div><br/>
 
 And what a year it's been. These have been the highlights for me:
 
