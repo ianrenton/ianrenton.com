@@ -73,7 +73,7 @@ label {
 }
 
 input#comment-form-name {
-  width: 12em;
+  width: 11.5em;
   margin-right: 1em;
   background-color: var(--code-background-color);
   color: var(--text-color);
@@ -82,7 +82,7 @@ input#comment-form-name {
 }
 
 input#comment-form-email {
-  width: 12em;
+  width: 11.5em;
   background-color: var(--code-background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
@@ -95,6 +95,7 @@ textarea#comment-form-message {
   background-color: var(--code-background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
+  font-size: 18px;
 }
 
 input#comment-form-show-preview, input#comment-form-subscribe {
@@ -124,11 +125,11 @@ div.g-recaptcha {
 @include media-query($on-palm) {
   input#comment-form-name,
   input#comment-form-email {
-    width: 16em;
+    width: 98%;
   }
 
   textarea#comment-form-message {
-    width: 21em;
+    width: 98%;
     height: 5em;
   }
 
