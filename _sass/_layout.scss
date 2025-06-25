@@ -64,8 +64,8 @@ div.breakout-full-width {
 }
 @include media-query($on-palm) {
   div.breakout-full-width {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -1em;
+    margin-right: -1em;
   }
 }
 
