@@ -1,0 +1,6 @@
+_id: abff7c20-54d5-11f0-b202-196c39f31776
+_parent: 'https://ianrenton.com/projects/bunnyrom-teardown/'
+name: Ian
+email: cc7afffe28660d7d77c9c670cb057e15
+message: "Thanks A!\r\n\r\nMuting the Bunnyrom can be achieved by cutting one or both of the wires that connect the main board to the piezo buzzer.\r\n\r\nIf you remove the back of the device by taking out the four small screws, you should see two wires connecting the board (in the front of the unit) to the buzzer (in the back).\r\n\r\n![](/img/blog/2025/06/bunnyrom-mute-1.jpg)\r\n\r\nIf you have access to a soldering iron, and think you might want to reverse the process, I recommend de-soldering one of the wires from the back of the buzzer. If you don't have a soldering iron or are happy for the change to be permanent, just cut one of the wires.\r\n\r\nThen, tape up any loose ends. This is important to make sure the wire doesn't accidentally touch anything else inside the unit once it's re-assembled.\r\n\r\nI just tried this for you on my unit, see the picture below where I have removed one of the wires and taped up the loose end. I can confirm it stops the sound and the unit still works fine in every other respect.\r\n\r\n![](/img/blog/2025/06/bunnyrom-mute-2.jpg)\r\n\r\nHope that helps!"
+date: '2025-06-29T10:41:54.500Z'
