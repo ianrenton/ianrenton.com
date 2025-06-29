@@ -4,7 +4,7 @@ title: "Back Here Again: A Return to Win Green, and a Year of Portable Amateur R
 date: 2025-06-29 00:00 +0000
 image: /img/blog/2025/06/win-4-small.jpg
 slug: back-here-again-a-return-to-win-green
-description: "Also featuring park revenge, and activating a sewer pipe."
+description: "We return to where it all started, 12 months and 87 activations later"
 tags:
   - ham-radio
   - radio
