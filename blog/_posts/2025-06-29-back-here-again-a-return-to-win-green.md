@@ -87,7 +87,7 @@ We started the activation on the 20m band, hoping to get some [ARRL Field Day](h
 
 Again, we blitzed through that, getting another 33 in the log over the course of the next half hour. Honestly, we could have gone on much longer, as there were still plenty of other activator spots to hunt and I'm sure a few more CQ calls would have resulted in more interest. However, we'd had a good hour and a half in the sun, done more than enough to activate for SOTA, POTA and WWFF, and done exactly what we'd set out to do&mdash;return to Win Green a year on, wiser and better.
 
-Last time we were here, we eked out 11 QSOs in four hours, and were impressed at how well we'd done. What a difference a year makes!
+Last time we were here, we eked out 11 QSOs in four hours, all within the UK, and were impressed at how well we'd done. What a difference a year makes!
 
 ![Map showing lots of coloured markers](/img/blog/2025/06/win-map.png){: .center}
 *Map of today's contacts*
