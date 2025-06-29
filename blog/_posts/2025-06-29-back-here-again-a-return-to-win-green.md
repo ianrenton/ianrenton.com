@@ -16,7 +16,7 @@ tags:
 
 Win Green, the highest point in Cranbourne Chase. From the small copse of trees on top of this hill, you can see for miles in every direction; to Stourhead in the north, towards Southampton in the east, and to the south, all the way to home and the sea.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/06/win-2.jpg" alt="Panorama from the top of Win Green" style="width:100%"/></center><p><center><em>Panorama from the top of Win Green</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2025/06/win-2.jpg" alt="Panorama from the top of Win Green" style="width:100%"/></center><p><center><em>Panorama from the top of Win Green</em></center></p></div>
 
 Unlike many of the other spots I've talked about during my amateur radio adventures, I have no particular childhood memories here, and little to say about the history of this particular corner of the world. It remains special to me though, above all other portable radio spots, because this was [where it all began](/blog/my-first-easiest-and-last-sota/).
 
@@ -28,7 +28,7 @@ Today, we stood there again, my logging assistant and I. The rush was still ther
 
 One year later, we were back for my third SOTA activation. Oh yes, and my *eighty-seventh* POTA.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/06/year-parks.png" alt="Map of most of the POTA parks I have activated in the last year" style="width:100%"/></center><p><center><em>Activated parks over the last year (green)</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2025/06/year-parks.png" alt="Map of most of the POTA parks I have activated in the last year" style="width:100%"/></center><p><center><em>Activated parks over the last year (green)</em></center></p></div>
 
 And what a year it's been. These have been the highlights for me:
 
@@ -108,7 +108,7 @@ Further afield, one day I'd like to do:
 
 Fingers crossed, a long and exciting future of outdoor radio adventures awaits.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/06/year-map.png" alt="Much larger map showing lots more coloured markers" style="width:100%"/></center><p><center><em>Map of all my portable contacts from the last 12 months</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2025/06/year-map.png" alt="Much larger map showing lots more coloured markers" style="width:100%"/></center><p><center><em>Map of all my portable contacts from the last 12 months</em></center></p></div>
 
 I'll finish as I always do, with a huge thank-you to all my contacts over the past year&mdash;all 1251 of you.  None of this would have been possible without you being there, from Alaska to Indonesia to just down the road, sat by a radio taking my call. Thank you so much.
 

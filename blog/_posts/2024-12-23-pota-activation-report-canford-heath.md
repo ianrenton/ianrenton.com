@@ -14,7 +14,7 @@ tags:
 
 From [the smallest local SSSI](/blog/pota-activation-report-turbary-common/), to the largest! Completing the trifecta of local heathland areas that I recently asked to be added to Parks on the Air, this is Canford Heath Site of Significant Scientific Interest ([GB-3623](https://pota.app/#/park/GB-3623), [GFF-0315](https://wwff.co/directory/?showRef=GFF-0315)). It's one of the largest protected heathland areas in Dorset, and it's home to the usual array of flora and fauna such as heather, gorse, dragonflies, snakes and lizards. It used to be much bigger, but a post-war building boom resulted in the southern half being given over to the construction of a housing estate, and in the subsequent decades the north-western part was also given over to a landfill site. So not a glamorous location, but there are still 344 hectares left of managed heath for nature-lovers and dog walkers to enjoy.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2024/canford-heath-2.jpg" alt="Panorama looking south from Canford Heath" style="width:100%"/></center><p><center><em>Panorama looking south from Canford Heath</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/canford-heath-2.jpg" alt="Panorama looking south from Canford Heath" style="width:100%"/></center><p><center><em>Panorama looking south from Canford Heath</em></center></p></div>
 
 We headed up to the viewpoint towards the south-east of the park, which offered a good chance of dry-ish ground. Folks had already set up a block of wood there to sit on and enjoy the scenic view of housing and industrial estates, so at least we had a six-inch-high seat rather than just the picnic blanket on damp stony ground.
 

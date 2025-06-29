@@ -17,7 +17,7 @@ tags:
 
 It's October, out on the heath. The days start cold now, with a damp chill in the air that the weak sunshine never quite manages to break through.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2024/upton-heath-1.jpg" alt="View of Upton Heath looking down towards the harbour" style="width:100%"/></center><p><center><em>View of Upton Heath looking down towards the harbour</em></center></p></div>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/upton-heath-1.jpg" alt="View of Upton Heath looking down towards the harbour" style="width:100%"/></center><p><center><em>View of Upton Heath looking down towards the harbour</em></center></p></div>
 
 This is Upton Heath, [POTA ref GB-0112](https://pota.app/#/park/GB-0112),  [WWFF ref GFF-0315](https://wwff.co/directory/?showRef=GFF-0315). This area of heathland is [managed by Dorset Wildlife Trust](https://www.dorsetwildlifetrust.org.uk/nature-reserves/upton-heath), and while much of it is natural heathland just as it always was, the marks of human use are all over. The heath is criss-crossed with electricity pylons, and the noise of the main road can be heard everywhere. Houses are slowly encroaching, always out of the corner of your eye.
 

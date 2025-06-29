@@ -21,7 +21,7 @@ Plus, it's October&mdash;the high bands are open at my latitude, the sunspot cyc
 
 The game was afoot.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2024/hengistbury-pano.jpg" alt="View of Hengistbury Head Nature Reserve and Christchurch Harbour" style="width:100%"/></center><p><center><em>View of Hengistbury Head Nature Reserve and Christchurch Harbour</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/hengistbury-pano.jpg" alt="View of Hengistbury Head Nature Reserve and Christchurch Harbour" style="width:100%"/></center><p><center><em>View of Hengistbury Head Nature Reserve and Christchurch Harbour</em></center></p></div>
 
 This is Hengistbury Head, a popular dog- and child-walking spot that separates the easternmost end Bournemouth beach on one side from Christchurch Harbour on the other.
 

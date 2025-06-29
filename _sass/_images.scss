@@ -30,6 +30,10 @@ img.noshadow {
     box-shadow: none !important;
 }
 
+div.breakout-full-width img {
+    box-shadow: 0px 0px 15px black;
+}
+
 /* No left/right floating images on mobile */
 @include media-query($on-palm) {
     img.left, img.right {

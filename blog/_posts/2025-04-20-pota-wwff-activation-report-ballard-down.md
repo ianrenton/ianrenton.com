@@ -28,7 +28,7 @@ At the top of the steps is the obelisk, which commemorates the first fresh drink
 
 The view from there is pretty incredible, but it's not actually the high point of the hill, which lies a few hundred metres to the east. Naturally, that's where I was headed, and the view from there doesn't disappoint either.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/04/ballard-pano.jpg" alt="Panorama of Poole Harbour, Studland, Poole Bay and Bournemouth" style="width:100%"/></center><p><center><em>I can see my house from heeeeere! (Almost, anyway.)</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2025/04/ballard-pano.jpg" alt="Panorama of Poole Harbour, Studland, Poole Bay and Bournemouth" style="width:100%"/></center><p><center><em>I can see my house from heeeeere! (Almost, anyway.)</em></center></p></div>
 
 By my reckoning, I could also see between 10 and 15 of my previous activation spots from here on a perfectly clear day.
 

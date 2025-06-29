@@ -14,7 +14,7 @@ tags:
 
 From my regular [childhood](/blog/pota-activation-report-upton-country-park/) [haunts](/blog/pota-activation-report-moors-valley/), to this place&mdash;despite being in my home town, I don't think I have *ever* been here before. This is Ham Common, [POTA ref. GB-1302](https://pota.app/#/park/GB-1302), an area of heathland with a large fishing lake and two look-out points to enjoy scenic views of Poole Harbour.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/01/ham-common-2.jpg" alt="Panorama of Poole Harbour and a trail leading down towards the water" style="width:100%"/></center><p><center><em>And who wouldn't?</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2025/01/ham-common-2.jpg" alt="Panorama of Poole Harbour and a trail leading down towards the water" style="width:100%"/></center><p><center><em>And who wouldn't?</em></center></p></div>
 
 It's also possibly the most inconvenient place to get to in the whole of Poole, found by driving down the backstreets of backstreets in Hamworthy, and pinned between Rockley holiday park and the Royal Marines base, the latter of which Google Maps thinks it can route people through. I'm sure the base commander is ecstatic about this.
 

@@ -34,7 +34,7 @@ I started off with a bunch of park-to-park QSOs, thinking I would probably just 
 
 As usual, the pile-up delivered, and I feel rude for leaving while it's going on. So 40 minutes and 47 QSOs later, I finally had a break from callers, and decided to swap to 10m.
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2024/canford-cliffs-pano.jpg" alt="Panorama of Bournemouth Beach from Boscombe to Sandbanks" style="width:100%"/></center><p><center><em>Panorama of Bournemouth Beach from Boscombe to Sandbanks</em></center></p></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2024/canford-cliffs-pano.jpg" alt="Panorama of Bournemouth Beach from Boscombe to Sandbanks" style="width:100%"/></center><p><center><em>Panorama of Bournemouth Beach from Boscombe to Sandbanks</em></center></p></div>
 
 By this time the weather had cleared a bit, although I was still getting drizzled on as I went to reconfigure the antenna.
 

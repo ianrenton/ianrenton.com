@@ -16,7 +16,7 @@ Just interested in the result? [Click here to skip to the end!](#summary)
 
 Everyone else: buckle up, we're about to get friendly with some GeoPandas.
 
-<div class="breakout-full-width"><center><br/><img src="/img/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>.</em></center></p></div>
+<div class="breakout-full-width"><center><img src="/img/projects/worked-everything-award/headline-wide.png" alt="Map of outdoor ham radio award locations on the south coast of England" style="width:100%"/></center><p><center><em>Visualisations courtesy of <a href="https://kwirk.github.io/pota-gb-map/">UK Portable Ham Map</a>.</em></center></p></div>
 
 ## Background
 
@@ -147,7 +147,7 @@ The area is very close to qualifying for a second POTA, the Plymouth Marine Nati
 
 Now, time to plan that activation. And ask the Royal Navy very nicely not to have me arrested for putting up a suspicious shortwave antenna right next to a naval base.
 
-<div class="breakout-full-width"><center><br/><img src="/img/projects/worked-everything-award/plymouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of the beach and Firestone Bay, looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
+<div class="breakout-full-width"><center><img src="/img/projects/worked-everything-award/plymouth-photo.png" alt="Street View photo looking towards Drake's Island" style="width:100%"/></center><p><center><em>View of the beach and Firestone Bay, looking towards Drake's Island. Photo from Google Maps.</em></center></p></div>
 
 ## Bonus Results: Variety Show
 

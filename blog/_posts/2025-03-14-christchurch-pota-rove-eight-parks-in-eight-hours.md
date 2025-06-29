@@ -16,7 +16,7 @@ As the priory bells tolled twelve noon, I was propped up on a fence, wringing th
 
 How did I get to this point? Let's rewind...
 
-<div class="breakout-full-width"><center><br/><img src="/img/blog/2025/03/christchurch-pano.jpg" alt="Panorama Christchurch Harbour from Stanpit Marsh" style="width:100%"/></center></div><br/>
+<div class="breakout-full-width"><center><img src="/img/blog/2025/03/christchurch-pano.jpg" alt="Panorama Christchurch Harbour from Stanpit Marsh" style="width:100%"/></center></div>
 
 ## 2 Weeks Ago: The Plan
 
