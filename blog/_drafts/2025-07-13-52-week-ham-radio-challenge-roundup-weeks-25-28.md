@@ -26,6 +26,10 @@ This post covers the challenges from weeks 25-28, which were:
 
 ### Week 25 (16-22 Jun): Locate local noise sources in your shack/flat/house. {#week25}
 
+Sadly this is another opt-out one for me. [I had a go at this last year](/blog/shack-qrm-hunt-2024-edition/) and improved things quite a bit, but never managed to reach a level as low as I'd like&mdash;it's one of the reasons I like portable operating so much. Unfortunately, during this challenge week I wasn't able to find any time where I was home alone and without needing to have the washing machine on, so I wasn't able to do the usual task of turning the household power off then turning things back on in stages.
+
+Challenge week 36 is "Operate your whole station from battery power for one day", so maybe I'll revisit this one later in the year and attempt the two challenges in parallel.
+
 ### Week 26 (23-29 Jun): Observe the solar data such as sunspot number, flux, K and A values over the week. {#week26}
 
 Unlike [previous "data gathering" challenges](/blog/52-week-ham-radio-challenge-roundup-weeks-13-16/#week15) where the data has been limited by the time I could spend in front of a radio, I wanted a complete data set for this one. Conveniently, on the [OARC](https://www.oarc.uk/) Discord server we have a bot which posts those common propagation report images from [HamQSL.com](https://www.hamqsl.com/) every 6 hours.
@@ -42,11 +46,11 @@ The challenge also asks "Did you notice any correlation between the values and t
 
 As shown in the chart, solar flux index (SFI) and sunspot number (SN) stayed relatively constant over the week. The planetary K-index and A-index stayed low, and "Band goodness" (or propagation conditions) remained good until around Thursday, whereupon Earth passing through a "coronal hole stream" caused a spike in K-index and A-index, and a corresponding dip in HF propagation conditions.
 
-### "Week" 27 (29 Jun): Listen to the June 2025 SAQ transmission. {#week27}
+### Week 27 (30 Jun = 6 Jul): Listen to the June 2025 SAQ transmission. {#week27}
 
 I will admit, I didn't manage to cobble together a functioning receiver in time for this one. At a transmitted frequency of only 17.2 kHz, normal radio receivers aren't suitable for the job, and it's recommended to build a frequency converter to move the signal into an HF band. There's also the "very amateur" suggestion to connect an antenna directly to a PC sound card, but unfortunately I discovered too late that I didn't have a spare TRS connector to make this happen.
 
-Instead I used the University of Twente WebSDR to listen in, [as recommended here](https://alexander.n.se/en/the-radio-station-saq-grimeton/lyssna-pa-saq/). I listened to the 0900 UTC transmission.
+However, it turns out I needn't have bothered anyway, because there *was* no June SAQ transmission. This year, rather than being on a Sunday as usual, the transmission has been moved to 2nd July to coincide with the site's 100th anniversary. Unfortunately, that's a Wednesday, so I will have to leave this challenge week for the retirees and those on holiday. I should be so lucky!
 
 ### Week 28 (7-13 Jul): Receive a station on 6m via sporadic E {#week28}
 
