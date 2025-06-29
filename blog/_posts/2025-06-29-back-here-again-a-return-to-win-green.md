@@ -4,7 +4,7 @@ title: "Back Here Again: A Return to Win Green, and a Year of Portable Amateur R
 date: 2025-06-29 00:00 +0000
 image: /img/blog/2025/06/win-4-small.jpg
 slug: back-here-again-a-return-to-win-green
-description: "Also featuring park revenge, and activating a sewer pipe."
+description: "We return to where it all started, 12 months and 87 activations later"
 tags:
   - ham-radio
   - radio
@@ -86,6 +86,8 @@ Just like last year, we were using the FT-891 and Sotabeams linked inverted-V di
 We started the activation on the 20m band, hoping to get some [ARRL Field Day](http://www.arrl.org/field-day) action, but sadly we had no North American callers, and when we hunted a few it seemed that we weren't being heard. Nevertheless our CQ calls netted a pile-up of 31 callers around Europe, until at last a few minutes' break gave us the chance to switch to 40m.
 
 Again, we blitzed through that, getting another 33 in the log over the course of the next half hour. Honestly, we could have gone on much longer, as there were still plenty of other activator spots to hunt and I'm sure a few more CQ calls would have resulted in more interest. However, we'd had a good hour and a half in the sun, done more than enough to activate for SOTA, POTA and WWFF, and done exactly what we'd set out to do&mdash;return to Win Green a year on, wiser and better.
+
+Last time we were here, we eked out 11 QSOs in four hours, and were impressed at how well we'd done. What a difference a year makes!
 
 ![Map showing lots of coloured markers](/img/blog/2025/06/win-map.png){: .center}
 *Map of today's contacts*
