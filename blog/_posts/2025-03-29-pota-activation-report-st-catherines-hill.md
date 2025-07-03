@@ -26,7 +26,12 @@ It was two parks instead of one, and not the park I dreamt about being added, bu
 
 This place was "peak Scouting" when I was a kid. Several times a year, in the winter season when we didn't sail, we came here for a "wide game" that had us running all over the hills in the dark, on some invented mission. From the top you can see all across the Avon valley to the New Forest in the east, and the twinkling lights of the town and the airport in the west.
 
-This weekend was the [CQ WW WPX SSB contest](https://www.cqwpx.com/), so I knew what I was walking into here: wall-to-wall "CQ contest" and nowhere on the main bands for a quick "CQ POTA". So I decided to bring in the big guns... and operate simultaneously on 17 bands including 4G, 5G and DAB radio.
+I couldn't find a photo of me at Scouts here, but I did find this aesthetic autumnal photo of me at St Catherine's Hill earlier in life. If only they'd had Instagram in 1991.
+
+![A roughly 6 year old me, wearing a big green coat and red boots amongst a brown autumnal background](/img/blog/2025/03/child-catherines.jpg){: .center}
+*#fall #fallaesthetic #retro #nofilter*
+
+Back to the radio thing, and weekend was the [CQ WW WPX SSB contest](https://www.cqwpx.com/) so I knew what I was walking into here: wall-to-wall "CQ contest" and nowhere on the main bands for a quick "CQ POTA". So I decided to bring in the big guns... and operate simultaneously on 17 bands including 4G, 5G and DAB radio.
 
 ![Two large metal towers covered with antennas](/img/blog/2025/03/catherines-2.jpg){: .center}
 *M0TRT Contest QTH*

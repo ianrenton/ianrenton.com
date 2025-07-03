@@ -46,7 +46,7 @@ The challenge also asks "Did you notice any correlation between the values and t
 
 As shown in the chart, solar flux index (SFI) and sunspot number (SN) stayed relatively constant over the week. The planetary K-index and A-index stayed low, and "Band goodness" (or propagation conditions) remained good until around Thursday, whereupon Earth passing through a "coronal hole stream" caused a spike in K-index and A-index, and a corresponding dip in HF propagation conditions.
 
-### Week 27 (30 Jun = 6 Jul): Listen to the June 2025 SAQ transmission. {#week27}
+### Week 27 (30 Jun-6 Jul): Listen to the June 2025 SAQ transmission. {#week27}
 
 I will admit, I didn't manage to cobble together a functioning receiver in time for this one. At a transmitted frequency of only 17.2 kHz, normal radio receivers aren't suitable for the job, and it's recommended to build a frequency converter to move the signal into an HF band. There's also the "very amateur" suggestion to connect an antenna directly to a PC sound card, but unfortunately I discovered too late that I didn't have a spare TRS connector to make this happen.
 

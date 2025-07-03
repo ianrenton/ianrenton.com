@@ -40,8 +40,8 @@ This is me writing in 2005 (aged 20), having come back home after a couple of ye
 > 
 > After a few minutes I moved onwards, until my passage was stopped by a waterlogged field, flooded by the spring rainfall making its way downriver. I headed back slowly to my parents, and we went home.
 
-![The River Stour in full flood, with trees partly submerged in the water](/img/blog/2025/02/stour-1.jpg)
-*Typical February water levels on the Stour*
+![Me at age 9-10, stood with my bike on a patch of grass with the river in the background](/img/blog/2025/02/child-stour.jpg)
+*Me at the river with my bike, sometime in the early 90s*
 
 My memory of 2005 now is as hazy as my memory of 1995 was back then. The file I wrote this in has a date of 2005, and there are photos of the river from August 2005 too. But the entry ends the following way, and I'm not sure whether this was tacked on post-2005 describing that day, or whether this is referring to some other trip back down memory lane in the intervening time, perhaps in my teenage years:
 
@@ -49,14 +49,17 @@ My memory of 2005 now is as hazy as my memory of 1995 was back then. The file I 
 
 "Bronze Lake" has remained a [MacGuffin](https://en.wikipedia.org/wiki/MacGuffin) of my childhood since that time.
 
+![The River Stour in full flood, with trees partly submerged in the water](/img/blog/2025/02/stour-1.jpg)
+*Typical February water levels on the Stour*
+
 But now 20 more years have passed. Middle-aged eyes see a world that is a lot smaller than what they see at age 10, or even at age 20. We have endless aerial imagery at our fingertips and accurate GPS receivers in every pocket. The price we pay for easy navigation is a little less wonder in the world.
 
 It was time to find out for sure.
 
+The water level varies a lot here between winter and summer, so if there was no lake in August 2005, could it have just been too dry? That seemed reasonable, and by coincidence there I was, on just as damp a day as it must have been in my first childhood discovery, ready for my last and best shot.
+
 ![Extremely waterlogged path down to Bronze Lake](/img/blog/2025/02/stour-2.jpg)
 *The footpath I followed, thirty years ago. This time, with adult caution and no wellies, progress was a little slower.*
-
-The water level varies a lot here between winter and summer, so if there was no lake in August 2005, could it have just been too dry? That seemed reasonable, and by coincidence there I was, on just as damp a day as it must have been in my first childhood discovery, ready for my last and best shot.
 
 The "houses" I wrote about would have been what is now Wheatplot Residential Park, a development of about two dozen static caravans. But even in my childhood, that was a mobile caravan park and would have been fenced off. My "bronze lake" that lived so large in my memory must have been further along, in the wooded section of the nature reserve that sits between the caravan park and the water works.
 
