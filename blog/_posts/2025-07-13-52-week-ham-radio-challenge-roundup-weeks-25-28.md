@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 25-28"
-description: 
+description: "Dodgy solar flux charts, and sporadic-E season is upon us!"
 date: 2025-07-13 00:00 +0000
 image: /img/blog/2025/06/solar2-small.png
 slug: 52-week-ham-radio-challenge-roundup-weeks-25-28
@@ -64,7 +64,7 @@ I wasn't confident in getting out with only 10W to play with, and with my sore t
 
 I had no way to transmit like this, but I left it running for an hour or so to see what it would pick up, then simply looked myself up on [PSK Reporter](https://www.pskreporter.info/pskmap.html) to get the results.
 
-Aside from G8CEZ in Wimborne via a direct path at +22dB SNR, I heard a variety of stations across central and southern Europe via sporadic-E. Furthest DX was OD5KU in Lebanon, 3555km away and still with a perfectly serviceable -15 dB SNR. The closest station coming in via sporadic-E was F1NZC in France, at 668km.
+Aside from G8CEZ in Wimborne via a direct path at +22dB SNR, I heard a variety of stations across central and southern Europe via sporadic-E. Furthest DX was OD5KU in Lebanon, 3555km away and still with a perfectly serviceable -15 dB SNR. The closest station coming in via a non-direct path was F5LPL in France, at 553km, which seems a little short based on my understanding of sporadic-E; these closer-in stations may have been received via another propagation mechanism.
 
 ![PSK Reporter screenshot](/img/blog/2025/07/6m-map.png){: .center}
 
