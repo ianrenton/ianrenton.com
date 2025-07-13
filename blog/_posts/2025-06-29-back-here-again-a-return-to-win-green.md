@@ -78,6 +78,8 @@ I think at that point, there may have been more ham radio operators at Win Green
 
 This turned out to be David, G4YVM, and after briefly comiserating about band conditions then, we also met him later up on the hillside and had a longer chat about antennas and learning CW.
 
+*Edit: And I should have knocked on the window of that 4x4 too, because it turns out that was Seb 2E0PHG. A year ago, as M7PHG, he was my first ever portable contact up on Win Green!*
+
 Just like last year, we were using the FT-891 and Sotabeams linked inverted-V dipole, along with an HT for any 2m FM contacts that might happen. I left the HT on but didn't hear a lot of activity on the 2m calling channel. In the end, I didn't bother to make any 2m calls of my own as we were far too busy with the HF kit, but a variety of beeps and bloops let me know that APRS was doing well up on the hill.
 
 ![Inverted-V dipole antenna in long grass with a bright blue sky above](/img/blog/2025/06/win-3.jpg){: .center}

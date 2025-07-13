@@ -54,4 +54,20 @@ However, it turns out I needn't have bothered anyway, because there *was* no Jun
 
 ### Week 28 (7-13 Jul): Receive a station on 6m via sporadic E {#week28}
 
+I do have an antenna for 6m, an HB9CV that I bought second-hand to try it portable, but then found out that it's too heavy for my pole. Having exhausted my wife's tolerance for antennas on the house, it sits disassembled in the shed. I had hoped to return it to service for this week's challenge, but having been away with work all week and come down with a cold at the weekend, I had to reduce the scope of what I hoped to achieve.
+
+My normal home HF rig is a Yaesu FT-840, a very basic model which crucially doesn't support the 6m band. That meant I was going to have to set up another radio in order to get receiving. The FT-891 would do, but I didn't have a suitable tuner for it to get my random wire antenna anywhere close to resonance. So, I settled for the X6100 with its capable internal tuner.
+
+I wasn't confident in getting out with only 10W to play with, and with my sore throat I wasn't up for long periods of calling CQ. But the challenge was only to *receive* a signal via sporadic-E, so I set up for the lazy approach: radio plugged straight into the antenna, then audio out from the radio to the receive half of my Signalink.
+
+![Monitor showing WSJT-X running, with a Xiegu X6100 upside-down below it](/img/blog/2025/07/6m-setup.jpg){: .center}
+
+I had no way to transmit like this, but I left it running for an hour or so to see what it would pick up, then simply looked myself up on [PSK Reporter](https://www.pskreporter.info/pskmap.html) to get the results.
+
+Aside from G8CEZ in Wimborne via a direct path at +22dB SNR, I heard a variety of stations across central and southern Europe via sporadic-E. Furthest DX was OD5KU in Lebanon, 3555km away and still with a perfectly serviceable -15 dB SNR. The closest station coming in via sporadic-E was F1NZC in France, at 668km.
+
+![PSK Reporter screenshot](/img/blog/2025/07/6m-map.png){: .center}
+
+Surprisingly, the X6100 ATU did tune the random wire antenna to under 2:1 SWR, so perhaps in future I will give 6m sporadic-E a go with transmit capability as well through my existing antenna. That will require a bit more hardware though (or a whole new home rig to replace the aging FT-840) so onto the pile it goes for next year.
+
 That's all for this round-up, see you in mid-August for the results of weeks 29 to 32!
