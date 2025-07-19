@@ -58,7 +58,7 @@ I do have an antenna for 6m, an HB9CV that I bought second-hand to try it portab
 
 My normal home HF rig is a Yaesu FT-840, a very basic model which crucially doesn't support the 6m band. That meant I was going to have to set up another radio in order to get receiving. The FT-891 would do, but I didn't have a suitable tuner for it to get my random wire antenna anywhere close to resonance. So, I settled for the X6100 with its capable internal tuner.
 
-I wasn't confident in getting out with only 10W to play with, and with my sore throat I wasn't up for long periods of calling CQ. But the challenge was only to *receive* a signal via sporadic-E, so I set up for the lazy approach: radio plugged straight into the antenna, then audio out from the radio to the receive half of my Signalink.
+I wasn't confident in getting out with only 10W to play with, and with my sore throat I wasn't up for long periods of calling CQ. But the challenge was only to *receive* a signal via sporadic-E, so I set up for the lazy approach: radio plugged straight into the antenna, audio out from the radio to the receive half of my Signalink, and firing up WSJT-X.
 
 ![Monitor showing WSJT-X running, with a Xiegu X6100 upside-down below it](/img/blog/2025/07/6m-setup.jpg){: .center}
 
