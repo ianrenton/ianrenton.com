@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 29-32"
-description: 
+description: "New modes and new contacts"
 date: 2025-08-10 00:00 +0000
-image: 
+image: /img/blog/2025/07/millhams-1-small.jpg
 slug: 52-week-ham-radio-challenge-roundup-weeks-29-32
 tags:
   - ham-radio
@@ -25,6 +25,30 @@ This post covers the challenges from weeks 29-32, which were:
 </ol>
 
 ### Week 29 (14-20 Jul): Make your own xOTA activation. {#week29}
+
+Well, if you *insist*...
+
+This week's challenge was timed to coincide with POTA's Support your Parks Summer weekend, so I was going to be out anyway, and the challenge was almost automatically a success!
+
+I didn't have a lot of free time and was still recovering from a cold, so I didn't want to venture too far or spend that long chatting on this activation. Luckily, a number of local nature reserves have just been added to the POTA system in my area&mdash;not great for my completionist tendencies, but it does provide more local options for when I don't fancy half an hour or more in the car.
+
+![A vertical pole supporting a thin wire antenna. The background is dry scrub, trees and a wide blue sky.](/img/blog/2025/07/millhams-1.jpg){: .center}
+
+[GB-5148 Millhams Mead](https://pota.app/#/park/GB-5148) was the target today, a strange out-of-the-way nature reserve where public access is limited to paths and overgrown woodland around the edge of grazing fields. Still, it has a nice stream where swans nest, a lot of sloe and blackberry bushes along with apple trees, and (in basically only one spot) enough open space to support a 40m dipole antenna.
+
+35 was the total QSO count in around 75 minutes of operating. The bands were in odd shape this afternoon, particularly 20m, where  I was inaudible to some people and 59+ to others at roughly the same distance. That meant my park-to-park hunting was largely unsuccessful, netting only two QSOs, though while running the frequency I had five more park-to-park stations call in.
+
+![Map of all QSOs made during the POTA activation. There are ~35 markers on a map of Europe.](/img/blog/2025/07/millhams-map.png){: .center}
+
+As a bonus, Millhams Mead is right next to St Andrew's Church, where I attended as a child. Looking at it now, it seems a lot smaller than I remember! The main building and the church tower both date from the 13th Century, which also feels a lot more significant as an adult than it did when I was dragged here every Sunday as a child. The town of Bournemouth itself is a mere youngster at 200 years old, but it grew up fast, until this church ended up firmly within its borders.
+
+![St Andrew's Church in Kinson, Bournemouth. There are some newer additions but the main building and tower are made of red brick and date to the 13th Century.](/img/blog/2025/07/millhams-2.jpg){: .center}
+
+Well, this Ham Challenge post is fast devolving into a POTA Activation Report, so in keeping with tradition I'd better drag out the childhood photos too. While I don't think I have any at Millhams Mead, I certainly do at St Andrew's: here's my baptism in 1987.
+
+![A two-year-old boy surrounded by parents and grandparents in the chancel of a church](/img/blog/2025/07/millhams-3.jpg){: .center}
+
+Back-right is my grandad Bob, a life-long SWL but never a Ham as far as I know. I remember building a crystal AM radio receiver with him when I was about 9 or 10 years old, one of those moments that probably helped to set in motion things that would eventually become my career and my hobbies. He sadly passed away in 2004. 73, Grandad.
 
 ### Week 30 (21-27 Jul): Make a contact with another participant of the challenge {#week30}
 
