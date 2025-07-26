@@ -26,7 +26,7 @@ This post covers the challenges from weeks 33-36, which were:
 
 ### Week 33 (11-17 Aug): Build an antenna and make a contact with it. {#week33}
 
-My first few X6100 activations with my end-fed random wire antenna&mdash;both [with](/blog/bunkerfest-2025/) and [without](/blog/the-casual-outdoor-radio-kit/) coax and an unun&mdash;were slow and dogged with reports of poor audio. By contrast, my first use of the X6100 with a dipole was [a great success](/blog/west-wight-pota-rove/). I decided that I wanted a dipole antenna for the lightweight QRP kit, and what better opportunity than this challenge to make one?
+My first few X6100 activations with my end-fed random wire antenna&mdash;both [with](/blog/bunkerfest-2025/) and [without](/blog/the-casual-outdoor-radio-kit/) coax and an unun&mdash;were slow and dogged with reports of poor audio. By contrast, my first use of the X6100 with the "big" dipole from the QRO kit was [a great success](/blog/west-wight-pota-rove/). I decided that I wanted a dipole antenna for the lightweight QRP kit, and what better opportunity than this challenge to make one?
 
 ![DG1JAN UniBalun kit parts laid out on a desk](/img/blog/2025/08/antenna-1.jpg){: .center}
 
@@ -48,9 +48,13 @@ After confirming the resonant frequency and SWR with a NanoVNA, I conducted a co
 
 ![Heat-shrink applied to UniBalun](/img/blog/2025/08/antenna-4.jpg){: .center}
 
-All that was left was to make a QSO to complte the challenge. ........
+All that was left was to make a QSO to complete the challenge. Here I have to reveal that I did this challenge week somewhat ahead of schedule, because my first QSO with this antenna was on Friday 25th July. I took it out as part of my QRP kit while travelling, and found the time to hit up a POTA spot on the way home.
 
-TODO MAKE QSO
+The first QSO was with fellow POTA activator Jean Baptiste F4ILH, in south-west France at a distance of just under 600km. I was transmitting SSB at 10W from the X6100, and received a 55 report.
+
+![Antenna on the pole in a different field](/img/blog/2025/08/antenna-6.jpg){: .center}
+
+I grabbed another 10 QSOs over the course of an hour to complete the POTA activation, but sadly didn't make it to 25 for the bunker. Inter-G conditions were pretty bad on 40m and the band was quite noisy. On the plus side, I had no reports of poor audio, so I think I've finally found an antenna setup for the X6100 that I'm happy with!
 
 ### Week 34 (18-24 Aug): Match an impedance! {#week34}
 
