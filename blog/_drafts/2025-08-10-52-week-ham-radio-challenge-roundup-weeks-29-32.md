@@ -52,6 +52,16 @@ Back-right is my grandad Bob, a life-long SWL but never a Ham as far as I know. 
 
 ### Week 30 (21-27 Jul): Make a contact with another participant of the challenge {#week30}
 
+TODO THIS WEEK
+
+I also went through the history of those taking part in the Ham Challenge this year, and referenced them against my logbook. I have previous QSOs in 2025 with the following Ham Challenge competitors:
+* DC1TC on 2 Feb, 9 Mar & 14 May
+* DL6PL on 2 Feb & 22 Feb
+* KR1ST on 2 Jan & 18 Jan
+* YO3GND on 9 Mar & 14 Mar
+
+As you would expect, they were all from POTA activations!
+
 ### Week 31 (28 Jul - 3 Aug): Try a mode you have never tried before. {#week31}
 
 ### Week 32 (4-10 Aug): Listen to a broadcast station from another country {#week32}
