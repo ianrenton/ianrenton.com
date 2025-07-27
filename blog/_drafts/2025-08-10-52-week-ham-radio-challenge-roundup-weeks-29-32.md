@@ -52,15 +52,16 @@ Back-right is my grandad Bob, a life-long SWL but never a Ham as far as I know. 
 
 ### Week 30 (21-27 Jul): Make a contact with another participant of the challenge {#week30}
 
-TODO THIS WEEK
+Sadly, my own schedule this week made any contacts unlikely, and a solar storm made conditions during my only free time on Sunday afternoon totally unworkable. A couple of skeds didn't come through, and while I tried to work Tobias DC1TC and Harm DK4HAA during their POTA activation, I couldn't hear them on either 20 or 40.
 
-For my own interest, I also went through the history of those taking part in the Ham Challenge this year, and referenced them against my logbook. I have previous QSOs in 2025 with the following Ham Challenge participants:
+However, these challenges don't *necessarily* have to be done in the scheduled week, so I went back through my logs for 2025 and cross-referenced them against people who have participated in the Ham Challenge so far. So far I have worked:
+
 * Tobias DC1TC on 2 Feb, 9 Mar & 14 May
 * Peter DL6PL on 2 Feb & 22 Feb
 * Alex KR1ST on 2 Jan & 18 Jan
 * Richard YO3GND on 9 Mar & 14 Mar
 
-As you would expect, they were all from POTA activations!
+On that basis, I'm calling week 30 a success.
 
 ### Week 31 (28 Jul - 3 Aug): Try a mode you have never tried before. {#week31}
 
