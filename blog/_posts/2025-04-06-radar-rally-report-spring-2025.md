@@ -30,7 +30,10 @@ My best guess at how long it would take to make contacts, plus a pretty good und
 
 ## Deployment 1: Longslade Bottom (IO90et62)
 
-Longslade Bottom car park opens directly onto a wide open plain, favourite of many local children, dogs, and horses. I remember many a game of football with my parents on the grass here in decades past, before or after a walk out into the forest.
+Longslade Bottom car park opens directly onto a wide open plain, favourite of many local children, dogs, and horses. I remember many a game of football or cricket with my parents on the grass here in decades past, before or after a walk out into the forest.
+
+![Five-year-old me batting in front of some stumps at Longslade Bottom](/img/blog/2025/04/cricket.jpg){: .center}
+*This one is from Summer 1990.*
 
 This was my starting point for RaDAR Rally. I set up near to the old railway line, and at 1256Z I had my first contact with the other prolific local activator, Roger M0AUI. After a brief chat about the new parks in the area, I moved on&mdash;the countdown had started, with four hours on the clock.
 
