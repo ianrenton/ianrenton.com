@@ -32,7 +32,11 @@ A very low-effort half-success.
 
 ### Week 18 (28 Apr - 4 May): Make a QSO in one digital voice mode. {#week18}
 
-This week I skipped out on completely. I have no equipment for DMR, D-Star, C4FM etc. and unfortunately I wasn't going to rush out and buy any just for this week of the challenge!
+I ran a little late with this one. On the scheduled week I had no digital voice capable transceivers to try this with, but over a few POTA activations in the following months I got increasingly disgruntled with my VHF HTs&mdash;a Yaesu FT-60 with a battery that lasted about 5 minutes, and a Quansheng UV-K6 with its wide-open front end. When I spotted a Kenwood TH-D74 second-hand for a good price, I jumped on the opportunity to get a more modern HT in "as new" condition. So by August, I did actually have a DV transceiver, and I ended up buying an MMDVM hotspot too to try out the D-Star side of life. (Sadly there's no D-Star repeaters in my area.)
+
+It took a while to get things working, as the digital features of the radio, Pi-Star/MMDVM, and digital radio online services all have a pretty steep learning curve. However on Sunday 3rd August I finally managed a quick test QSO with Robin M0JQQ on the OARC DV bridge to confirm everything was working, and so succeeded at this week's challenge eventually!
+
+![TH-D74 radio shown configured to connect to a reflector via my hotspot (and bonus patchwork chicken)](/img/blog/2025/08/dv.jpg){: .center}
 
 ### Week 19 (5-11 May): Simulate an antenna! {#week19}
 
