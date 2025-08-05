@@ -12,7 +12,7 @@ tags:
   - pota
 ---
 
-There are many things to criticise about the British. You might pick our endless complaining about the weather, our supermarket Meal Deal-based cuisine, or the centuries of brutal colonialism. But one thing that's great about us is that we will give a village an awful name, and then [doggedly stick to it for *a thousand years*](https://en.wikipedia.org/wiki/Shitterton#Name).
+There are many things to criticise about the British. You might pick our endless complaining about the weather, our supermarket Meal Deal-based cuisine, or the centuries of brutal colonialism. But one thing that's great about us is that when we give a village an awful name, we will [doggedly stick to it for *a thousand years*](https://en.wikipedia.org/wiki/Shitterton#Name).
 
 ![The Shitterton village sign](/img/blog/2025/08/shit1.jpg){: .center}
 *The Shitterton village sign, Public Domain photo by Jameslox from Wikipedia. The previous sign was stolen so many times that they replaced it with this huge stone one.*
