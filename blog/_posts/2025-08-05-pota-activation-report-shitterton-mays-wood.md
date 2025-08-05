@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "POTA/BOTA Activation Report: Shitterton & May's Wood"
+title: "POTA Activation Report: Shitterton & May's Wood"
 date: 2025-08-05 00:00 +0000
 image: /img/blog/2025/08/shit1-small.jpg
-slug: pota-bota-activation-report-shitterton-mays-wood
+slug: pota-activation-report-shitterton-mays-wood
 description: "This post is definitely getting blocked by your company's web filter."
 tags:
   - ham-radio
