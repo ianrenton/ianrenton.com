@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 29-32"
-description: "New modes and new contacts"
-date: 2025-08-10 00:00 +0000
+description: "New modes and new-ish contacts"
+date: 2025-08-08 00:00 +0000
 image: /img/blog/2025/07/millhams-1-small.jpg
 slug: 52-week-ham-radio-challenge-roundup-weeks-29-32
 tags:
@@ -79,4 +79,10 @@ Like most exotic digimodes there's not much Hell activity around, but I may come
 
 ### Week 32 (4-10 Aug): Listen to a broadcast station from another country {#week32}
 
-That's all for this round-up, see you in early September for the results of weeks 33 to 36!
+An easy one to finish the set.
+
+At this time of year you can sometimes hear French FM stations, but sadly the VHF propagation wasn't quite good enough today. However, there's always the old dependable, China Radio International, sat just above the 40m band to remind you you've spun the dial too far.
+
+On Wednesday evening around 1900Z, I tuned in to 7210kHz AM for some soothing Chinese traditional music, followed by news or propaganda or something else in a language I don't speak!
+
+That's all for this round-up, see you in early September for the results of weeks 33 to 36.
