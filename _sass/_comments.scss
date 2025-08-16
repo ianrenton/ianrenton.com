@@ -11,6 +11,10 @@
   margin-bottom: var(--layout-spacing);
 }
 
+#hashover-count-wrapper {
+  display: none;
+}
+
 /* List of existing comments */
 article.comment {
   margin-bottom: var(--layout-spacing);
@@ -39,6 +43,7 @@ span.commentdate {
   font-weight: normal;
   font-size: 0.8em;
   color: #aaa;
+  margin-top: 0.25em;
 
   > a {
     color: #888;
@@ -47,32 +52,39 @@ span.commentdate {
 
 }
 
-img.gravatar {
+.hashover-avatar div {
   float: left;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  background-size: cover;
 }
 
 /* New Comment section */
-div.commentnew {
-  margin-bottom: var(--layout-spacing-half);
+#hashover-message-container {
+  margin-top: var(--layout-spacing-half);
 }
 
-form.commentform > h4 {
+#hashover-form-section {
+  margin-left: 100px;
+}
+
+#hashover-form-section span.hashover-title {
   font-size: 1.2em;
-  margin-bottom: 1em;
+  font-weight: bold;
 }
 
-div.newcommentauthor label {
+.hashover-required-fields {
+  display: none;
+}
+
+.hashover-input-cell {
   margin-bottom: 0.5em;
 }
 
-label {
-  display: inline-block;
-}
-
-input#comment-form-name {
+input#hashover-main-name {
   width: 14em;
   margin-right: 1em;
   background-color: var(--code-background-color);
@@ -81,7 +93,11 @@ input#comment-form-name {
   font-size: 1em;
 }
 
-input#comment-form-email {
+input#hashover-main-name::before {
+  content: "Name: ";
+}
+
+input#hashover-main-email {
   width: 14em;
   background-color: var(--code-background-color);
   color: var(--text-color);
@@ -89,55 +105,78 @@ input#comment-form-email {
   font-size: 1em;
 }
 
-textarea#comment-form-message {
-  width: 40em;
+input#hashover-main-email::before {
+  content: "Email: ";
+}
+
+textarea#hashover-main-comment {
+  width: 30em;
   height: 10em;
   background-color: var(--code-background-color);
   color: var(--text-color);
   border: 1px solid #aaa;
+  font-family: 'Source Serif 4', serif;
+  font-size: 1em;
 }
 
 input#comment-form-show-preview, input#comment-form-subscribe {
   margin-right: 0.5em;
 }
 
-#commentpreviewsection {
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  padding: 1em;
-  border: 1px solid #aaa;
-}
-
 button#comment-form-submit {
   margin-top: 5px;
 }
 
-div.g-recaptcha {
+#hashover-main-formatting-message {
+  display: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 43em;
+  font-size: 0.7em;
+  border: 1px solid #aaa;
+}
+
+.hashover-message-open {
+  display: block !important;
+}
+
+.hashover-form-footer {
   margin-top: 0.5em;
 }
 
-#comment-form-submit-result {
-  margin-top: 1em;
+.hashover-form-links {
+  float: right;
+}
+
+#hashover-main-formatting {
+  color: var(--highlight-color);
+  text-decoration: underline;
+  margin-left: 2em;
+  cursor: pointer;
+}
+
+#hashover-end-links {
+  display: none;
 }
 
 /* Simplification and rearrangement on mobile */
 @include media-query($on-palm) {
-  input#comment-form-name,
-  input#comment-form-email {
+  input#hashover-main-name,
+  input#hashover-main-email {
     width: 16em;
   }
 
-  textarea#comment-form-message {
-    width: 21em;
+  textarea#hashover-main-comment {
+    width: 16em;
     height: 5em;
   }
 
-  img.gravatar {
+  .hashover-avatar, .hashover-form-links {
     display: none;
   }
 
   div.commentinner,
-  form.commentform {
+  #hashover-form-section {
     margin-left: 0px;
   }
 
