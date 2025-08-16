@@ -159,24 +159,6 @@ button#comment-form-submit {
   display: none;
 }
 
-/* Make the "no comments yet" display look less like a comment */
-.hashover-notice .comment .hashover-avatar {
-  display: none;
-}
-.hashover-notice .comment .commentinner {
-  margin-left: 0px;
-  margin-top: 0px;
-}
-.hashover-notice .comment .commentinner .commentauthor {
-  border-bottom: none;
-}
-.hashover-notice .comment .commentinner .commentauthor .hashover-comment-name {
-  font-weight: normal;
-}
-.hashover-notice .comment .commentinner .commentbody {
-  display: none;
-}
-
 /* Simplification and rearrangement on mobile */
 @include media-query($on-palm) {
   input#hashover-main-name,
