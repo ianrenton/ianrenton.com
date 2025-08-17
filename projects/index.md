@@ -97,7 +97,7 @@ redirect_from:
   	url="/projects/field-spotter"
   	image="/img/projects/field-spotter/banner-small.png"
   	image-alt="A geographic display with some markers, alongside a project logo"
-  	description="An easy-to-use, mobile-first Amateur Radio spotting tool for POTA, SOTA & WWFF. It provides a geographical and band position display, with filtering, to allow you to easily find park-to-park and summit-to-summit contacts."
+  	description="An easy-to-use, mobile-first Amateur Radio spotting tool for outdoor activities such as POTA, SOTA & WWFF. It provides a geographical and band position display, with filtering, to allow you to easily find park-to-park and summit-to-summit contacts."
   	readmore-text="Read about the project &rarr;"
   	url2="https://fieldspotter.radio"
   	readmore-text2="Use the web application &rarr;"
