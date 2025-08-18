@@ -58,6 +58,16 @@ I grabbed another 10 QSOs over the course of an hour to complete the POTA activa
 
 ### Week 34 (18-24 Aug): Match an impedance! {#week34}
 
+This week's task was to use an online tool incorporating a Smith chart to develop an antenna tuning circuit, for an antenna with an impedance of 36 Ohms at 7MHz.
+
+I used [https://onlinesmithchart.com/](https://onlinesmithchart.com/) to play around, and I think I may have succeeded? I'd be lying if I said I really understood Smith charts, and despite being three exams deep into the hobby my understanding of antenna matching is limited to a few basic circuit types and the concept of just trying different inductances and capacitances until you find one that works.
+
+![Screenshot of an online tool in which I am creating impedance matching circuitry on the left hand side and viewing the corresponding Smith chart on the right.](/img/blog/2025/08/impedance.png){: .center}
+
+While the real meanings of the various lines on a Smith chart still refuse to stick in my brain, it's nice to see that changing the L and C values move the "result" in slightly different directions, and therefore to get the right position on the centre line you do have to adjust one every time you adjust the other&mdash;much like you do with a manual tuner.
+
+I seem to have done the job with a 4nF capacitor in series and then a 1uH inductor to ground, giving a result of 49.22 Ohms at 7MHz, and a resulting SWR of 1.37.
+
 ### Week 35 (25-31 Aug): Receive a weather fax transmission on HF {#week35}
 
 ### Week 36 (1-7 Sep): Operate your whole station from battery power for one day {#week36}
