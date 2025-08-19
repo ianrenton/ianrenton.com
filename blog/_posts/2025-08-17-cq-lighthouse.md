@@ -36,7 +36,7 @@ Alright, here we go!
 
 We parked in the free car park at New Ground, a central location for the first three locations of the day, then headed down past the Portland Heights hotel and over the road to the former Tout Quarry, now a "sculpture park". There's a few sculptures dotted around, but as with most of the island's disused quarries what it mostly offers is winding paths through giant piles of rock, thinly speckled with vegetation.
 
-The wind was chilly and stronger than I'd hoped for, so we spent a while trying to find somewhere to hide from it while still having a decent spot to raise an antenna. We settled on a north-facing outcrop with an outstanding view of Weymouth and Chesil Beach, and denied the space for anything larger, we deployed the JPC-12 vertical. Like all today's HF activities, we used my FT-891 antenna turned down to 25W to be compliant with the UK Foundation licence conditions.
+The wind was chilly and stronger than I'd hoped for, so we spent a while trying to find somewhere to hide from it while still having a decent spot to raise an antenna. We settled on a north-facing outcrop with an outstanding view of Weymouth and Chesil Beach, and denied the space for anything larger, we deployed the JPC-12 vertical. Like all today's HF activities, we used my FT-891 transceiver turned down to 25W to be compliant with the UK Foundation licence conditions.
 
 ![JPC-12 antenna on an outcrop of land with a high vantage point, looking out over Weymouth and Chesil Beach](/img/blog/2025/08/portland-1.jpg){: .center}
 
