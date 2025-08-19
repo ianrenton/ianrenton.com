@@ -30,7 +30,7 @@ In case it's of any help to others, I thought I would write up the exact set of 
 - Exit the Retevis CPS
 - Download the OpenGD77 CPS from the pinned post in [this forum](https://www.opengd77.com/viewforum.php?f=12) and install it
 - Download the official firmware as a "donor" from [here](https://www.passion-radio.com/index.php?controller=attachment&id_attachment=760), and unzip it
-- Download the latest OpenGD77 firmware from [here](https://www.passion-radio.com/index.php?controller=attachment&id_attachment=760), choosing the file named `OpenMDUV380.zip`. (You do not need to unzip it.)
+- Download the latest OpenGD77 firmware from [here](https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/2dc33f6bcb4936c047a4f65ef3daf80f95ffbc0e/), choosing the file named `OpenMDUV380.zip`. (You do not need to unzip it.)
 - Turn the radio off, leaving it plugged in
 - On the radio, hold down PTT and SK1 (the small soft-key button above PTT). With those buttons held down, turn the radio on. This will put it in firmware update mode and the LED will start flashing green and red.
 - Open the OpenGD77 CPS software
