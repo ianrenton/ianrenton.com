@@ -120,7 +120,7 @@ We activated all the parks on the island in just under six hours, including one 
 
 <div class="breakout-full-width"><center><img src="/img/blog/2025/08/portland-map.png" alt="Map of contacts" style="width:100%"/></center></div>
 
-But we haven't quite made it to the end of the post yet, sorry! This being blog, and it's not just about radio&mdash;it's also about shameless excuses to revisit my childhood through new middle-aged adventures.
+But we haven't quite made it to the end of the post yet! This being my blog, it's not just about radio&mdash;it's also about shameless excuses to revisit my childhood through new middle-aged adventures.
 
 I don't seem to have any photos from the brief time I lived on Portland, which sadly came too late for my parents to photograph, but too early for me to have had a digital camera or a camera-equipped phone.
 
