@@ -1,5 +1,0 @@
-name: Tony
-date: '2019-11-24 19:50:14'
-url: ''
-message: "Thanks for your guide, I've been wanting to put Ubuntu on my Linx for a while. \r\n\r\nBut I'm having trouble with this. I have to remove one of the efi files in order to make space for the bootia32.efi file.\r\n\r\nIt then just boots to the grub command prompt, and not the boooader.\r\n\r\nI'm doing it on a 1010 though, not the 1010b, but I don't think that would matter?"
-email: 827a5689c93fc3dac6166eaf67a89ecf

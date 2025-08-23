@@ -1,6 +1,0 @@
-_id: 8ff26040-f1cd-11ee-9704-15a4b6528cc3
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Dylan
-email: ''
-message: "Just installed the latest Debian (12.5) 64 bit using this guide as a reference.<br>\r\nNot sure if it was the ISO or SUSE Image Writer I was using, but it set the USB up with both 32 and 64 bit boot images, as well as 32 and 64 grub configs.<br>\r\nHaven't done much testing yet but everything seems to work bar the camera and adjusting screen brightness.<br>\r\nRotating the screen is bugged. When going from landscape to portrait, the portrait image is upside down. This can be fixed I'm sure, but for now I'm just turning off auto-rotate after rotating so I can use it in portrait.<br>\r\nWould definitely recommend this distro if you want a 64 bit OS that's supported and don't mind the issues I listed, although I'm sure screen brightness and auto-rotate can be fixed if you're up to it."
-date: '2024-04-03T15:19:28.628Z'

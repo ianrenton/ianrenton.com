@@ -1,6 +1,0 @@
-_id: 1da55910-cf9e-11eb-b87b-4b5692e85021
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "EFI is a complicated beast and I’m not super knowledgeable about it myself! Part of it is baked into the board firmware in the same way as BIOS, but an EFI partition is also required on disk, along with GPT replacing the older disk MBR. (Most EFI enabled firmware is still able to boot from MBR disks, never tried it on the Linx tablet though.) The firmware comes from the device manufacturer, while partitions on disk generally come from an operating system you have installed - though third party EFI boot loaders like rEFInd are available (I use rEFInd to switch between Windows and Linux on my desktop PC).\r\n\r\nI think your assessment of what your partitions are is correct. Choosing to use the whole drive won’t wipe the EFI firmware on the board and brick the tablet, but it will delete the EFI partition on the disk, so I would only go down that route if you’re confident the BlissOS installer will create its own EFI partition after removing your existing one. It’s definitely safer to try just installing it to a single partition first and see if that works!"
-date: '2021-06-17T18:59:18.020Z'

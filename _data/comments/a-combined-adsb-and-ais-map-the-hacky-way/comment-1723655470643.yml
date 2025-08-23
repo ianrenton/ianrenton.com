@@ -1,6 +1,0 @@
-_id: 338d1920-5a60-11ef-ba84-eb075dd27e9f
-_parent: 'https://ianrenton.com/blog/a-combined-adsb-and-ais-map-the-hacky-way/'
-name: Ramon kx1t
-email: 891f13f76d5ec4dac81167d0d50b861a
-message: "Hi Ian -- great blog!\r\n\r\nIt may be worth having a chat with Wiedehopf to integrate your improvements to the main branch of tar1090, as this is something many of us are interested in. As Jasper already wrote, W added some functionality to show AIS data as icons on the map, but your implementation also exposes much of the actual metadata. \r\n\r\nThe link to the Discord we're on is at the top of [this page](https://github.com/sdr-enthusiasts/) - the #dev-chat channel would be the right one for this discussion."
-date: '2024-08-14T17:11:10.638Z'

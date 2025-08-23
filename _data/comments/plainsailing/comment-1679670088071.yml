@@ -1,6 +1,0 @@
-_id: c093aac0-ca54-11ed-a588-1119aefb173c
-_parent: 'https://ianrenton.com/projects/planesailing/'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "You need to download all the files that the Plane/Sailing web interface fetches from CDNs, and serve them locally. There are 12 JavaScript files (lines 19-30 of index.html) and also 3 CSS files (lines 14-16).\r\n\r\nSo using the first JavaScript file for example, the web UI references https://code.jquery.com/jquery-3.4.1.min.js. You will have to download that `jquery-3.4.1.min.js` file (e.g. with your web browser or a command-line tool such as `wget`. Then copy it over to wherever you are serving the Plane/Sailing web interface from, for example you could put it in a new subdirectory called \"js\". Then, modify your `index.html` so that instead of pointing to https://code.jquery.com/jquery-3.4.1.min.js, it points to `js/jquery-3.4.1.min.js`.\r\n\r\nRepeat for the other 11 JS files, and probably the 3 CSS files as well if you want the UI to look right. Then you should be sorted."
-date: '2023-03-24T15:01:28.066Z'

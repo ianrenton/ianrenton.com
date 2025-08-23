@@ -1,6 +1,0 @@
-_id: 622395f0-e409-11eb-afb4-89d97793cfd2
-_parent: 'https://ianrenton.com/projects/planesailing/antenna-and-receiver/'
-name: Rob Mac
-email: 79a96bc696cdbc6748a2959dfa5b81ca
-message: "Hi Ian I have been wanting to do this project for a while. To basically save some electricity lol I have a PF radar,  3 x PiS acting as ais adsb receivers all going through the PC at the moment so the PC has to be on 24/7 for aishub and virtual radar. \r\n\r\nSo when I saw your creation I thought \"genius\" I could perhaps run everything on a pi or two. ..im just wondering if I can do this with ais receivers (one is on the pi 3 gpio the other is on a USB/serial on a beaglebone) I also have an RTL v3. \r\n\r\nSo my friend the plan is to be still be able to feed adsbexchange/aishub when and if its possible for me to do this."
-date: '2021-07-13T18:37:32.316Z'

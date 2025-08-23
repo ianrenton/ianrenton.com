@@ -1,6 +1,0 @@
-_id: 69830ab0-889e-11ee-9c31-e5492b965eef
-_parent: 'https://ianrenton.com/projects/planesailing/'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Hi,\r\n\r\nAre you referring to the \"track_data_store.dat\" file that the software creates for itself, or the .csv files inside the \"data\" folder?\r\n\r\n\"track_data_store.dat\" is not a CSV file, so if you just rename it to .csv and try to open it, it won't go well. This file contains serialised Java objects, so it's only really useful to the Java program that wrote it, it would be difficult to open it and understand it in other software. It's handled by the loadFromFile() and saveToFile() methods in TrackTable.java. TrackTable is the top-level object that gets serialised, so if you add any non-static, non-transient fields to TrackTable or the classes stored in it, they will end up in track_data_store.dat.\r\n\r\nRegarding the actual CSVs, these should open fine in a text editor or spreadsheet. These were largely created by hand, although in the source code under the \"utils\" package, the two classes with names beginning \"Import\" have Javadoc comments that explain how they can be used to generate two of the CSVs, and where the data comes from.\r\n\r\nHope that helps, let me know if it wasn't clear or you have any more questions!"
-date: '2023-11-21T18:47:26.303Z'

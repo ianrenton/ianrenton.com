@@ -1,9 +1,0 @@
-name: Ian
-date: '2012-07-06 21:26:37'
-url: ''
-message: >-
-  <p>I assumed it was just bash's weird case syntax, I don't think there's
-  anything special about init scripts. All the Debian ones I've seen are like
-  that, so I just copy that style whenever I write a new
-  one.</p><p></p><p></p><p>Glad you're enjoying it!</p>
-email: b937df7b0b3631249ed5ec118e3bb9e0

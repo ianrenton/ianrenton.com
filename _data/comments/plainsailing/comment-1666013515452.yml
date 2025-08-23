@@ -1,6 +1,0 @@
-_id: 0fc56c70-4e20-11ed-88d5-4df3ec0dc893
-_parent: 'https://ianrenton.com/projects/planesailing/'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Hi Ellen,\r\n\r\nThe software really is designed to read in live data but it could be adapted to read AIS data from a file. The server's [AISUDPReceiver](https://github.com/ianrenton/planesailing-server/blob/main/src/main/java/com/ianrenton/planesailing/comms/AISUDPReceiver.java) class is reading from a UDP socket and interpreting the data. You could change this to meet your needs several different ways, for example modifying/replacing this class to load from file instead, or you could use `ncat` to send the data from your file as UDP messages to avoid modifying the software at all.\r\n\r\nThere's an E-mail link at the bottom of every page, feel free to email me if you have any questions and I will do my best to help."
-date: '2022-10-17T13:31:55.448Z'

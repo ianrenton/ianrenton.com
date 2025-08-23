@@ -1,9 +1,0 @@
-name: Ian
-date: '2013-03-08 21:11:29'
-url: ''
-message: >-
-  <p>I'm not sure I'm afraid - a quick search suggests OpenCV can only access
-  local cameras or local files, not stream video over HTTP/RTSP/etc. There could
-  be something you can stick in the middle to make OpenCV see the stream as if
-  it was a local camera or file? Just a guess!</p>
-email: b937df7b0b3631249ed5ec118e3bb9e0

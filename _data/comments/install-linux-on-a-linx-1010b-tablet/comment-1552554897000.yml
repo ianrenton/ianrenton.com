@@ -1,5 +1,0 @@
-name: Ian
-date: '2019-03-14 09:14:57'
-url: ''
-message: "Hi Don,\r\n\r\nAll I can think of is either there really *is* no space left on the drive, or that maybe your /boot is in a partition that's unmounted or mounted read-only. \"df -h\" should show you disk usage, and \"cat /etc/mtab\" should show the current state of mounted partitions.\r\n\r\nIf you have trouble interpreting them, paste the output here and I'll see if I can figure it out!"
-email: b937df7b0b3631249ed5ec118e3bb9e0

@@ -1,8 +1,0 @@
-name: Ian
-date: '2011-02-09 01:43:04'
-url: ''
-message: >-
-  <p>Could you please copy-paste the output when you run <code>fastboot flash
-  recovery ./ace-cwm3src3.0.0.5-1-15-11.img</code>?  Does it say "FAILED" at any
-  point?</p>
-email: b937df7b0b3631249ed5ec118e3bb9e0

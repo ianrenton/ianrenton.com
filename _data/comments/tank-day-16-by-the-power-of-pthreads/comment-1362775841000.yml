@@ -1,8 +1,0 @@
-name: unisethenry
-date: '2013-03-08 20:50:41'
-url: ''
-message: >-
-  <p>I have tried to run a OpenCV program on Pi but it turns out to be extremely
-  slow, I am now trying to stream the mjpeg video (using mjpg-streamer) to an
-  other PC for computer vision processing. Any clues I can start with?</p>
-email: 8257f15d5bf7d3b30c3d60e31b4b21b7

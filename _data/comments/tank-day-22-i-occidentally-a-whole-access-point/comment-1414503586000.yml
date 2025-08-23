@@ -1,9 +1,0 @@
-name: Marko
-date: '2014-10-28 13:39:46'
-url: ''
-message: >-
-  <p>hi,<br>i bought the  Edimax EW-7711UAN, too. But i have troubles with set
-  up an access point.<br>when i want to test my hostapd.conf file i get the
-  following error:</p><p></p><p></p><p>invalid/unkown driver
-  'nl80211'</p><p></p><p></p><p>do you have a solution?</p>
-email: 43125507f3b1b0f3e9dff14d96c44562

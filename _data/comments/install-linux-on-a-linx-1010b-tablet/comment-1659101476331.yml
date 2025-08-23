@@ -1,6 +1,0 @@
-_id: b85834c0-0f42-11ed-8c6d-bb225455296d
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Matt
-email: a4fee7b7430c51d3e4061bfd05eb44b1
-message: "TJ, there's a section called \"Installing 32-bit Grub after a Botched Install\" that you need to follow after installing 22.04. It worked for me on 22.04.\r\n\r\nAlso, you need to the fix mentioned by Barry a few days ago before using the audio at all. If you don't something gets messed up in pulse after a few seconds/minutes of playback and there's no obvious way to fix it after it breaks. \r\n\r\nI thought I'd give it a try without doing that fix and ended up ripping out pulse and replacing it with pipewire but this has its own problems (sort of stuttering playback in chrome). I don't know anything about linux audio though so you may have more luck fixing it than me."
-date: '2022-07-29T13:31:16.330Z'

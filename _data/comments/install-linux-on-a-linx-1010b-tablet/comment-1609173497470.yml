@@ -1,6 +1,0 @@
-_id: 16202980-492b-11eb-aad0-fd159401cbb3
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian Renton
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Brilliant, glad you got it working in the end! You're more than welcome, it's been a learning experience for us both :)\r\n\r\nOne thing to keep an eye on is any system updates that provide a new kernel. GRUB *should* be automatically reconfigured to point to the new locations, but if your tablet gets stuck in a state where it won't boot after applying updates, that's probably what's happened."
-date: '2020-12-28T16:38:17.460Z'

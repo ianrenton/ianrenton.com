@@ -1,5 +1,0 @@
-name: Rob Smith
-date: '2020-06-21 10:15:19'
-url: ''
-message: "Thanks for replying. Sorry, I should have been clearer, there isn't even an option to boot from usb. There are three options, Ubuntu, Ubuntu and Internal EFI Shell. \r\n\r\nIt's frustrating because it DID work, I was able to boot from USB but now I'm not, but nothing I've changed should prevent me from being able to boot from USB! \r\n\r\nFrom fiddling with the grub command line, I've been able to load the kernel, but it fails to boot and drops to an initramfs command prompt. I'm definitely out of my depth at that point!"
-email: 11b92072d7ec57bf1f1b226c32f3bc36

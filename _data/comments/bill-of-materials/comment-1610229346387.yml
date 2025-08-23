@@ -1,6 +1,0 @@
-_id: 6d141640-52c5-11eb-9cc6-bb0234797e49
-_parent: 'https://ianrenton.com/projects/planesailing/bill-of-materials/'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Hi Fabrizio,\r\n\r\nAs I'm sure you've discovered, my build uses two different Raspberry Pis, both of which use pre-configured disk images, whereas you will need to do both from a single Pi. Out of the two, ADS-B is the most difficult to set up the software for, and also the best supported by pre-configured disk images such as PiAware.\r\n\r\nTherefore I would recommend starting with a PiAware installation, and get that up and running first. Once you have that working, you can install [rtl_ais](https://github.com/dgiardini/rtl-ais) and [aisdispatcher](http://www.aishub.net/ais-dispatcher?tab=linux) (ARM glibc version). rtl_ais doesn't come as a compiled binary, only as source, but there are some [instructions here](https://www.fontenay-ronan.fr/ais-receiver-on-a-raspberry-pi-with-rtl-sdr/) - scroll down to \"4. RTL-AIS Software\".\r\n\r\nIf you get stuck let me know and I can probably help out. I can also give you the binary files for rtl_ais and aisdispatcher from my Pi which should hopefully still work on a Pi 4."
-date: '2021-01-09T21:55:46.380Z'

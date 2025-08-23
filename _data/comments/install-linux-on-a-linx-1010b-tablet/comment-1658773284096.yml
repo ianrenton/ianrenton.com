@@ -1,6 +1,0 @@
-_id: 969785b0-0c46-11ed-9f3c-ad46f0e429bd
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Oliver
-email: b2d4390c45aa4a4598d5d31f0ce91ae7
-message: "Ian. thanks again for your response. I have been able to install Fedora without the bootloader. However when I follow the instructions for manual installation of grub2, I appear to be able to mount mmcblk1p1 (or mmcblk1p2 as root, but when I try to mount the other as efi partition I get the message that 'mount point does not exist'.\r\nI am operating as liveuser@localhost-live, and I am not sure if I am accessing the internal storage. In file manager I can see a device called Anaconda but cannot access it and get the message that /dev/loop1 already mounted or mount point busy. File manager is also showing a 1.9 GB Volume (/run/media/liveuser/disk).\r\nAny thoughts?"
-date: '2022-07-25T18:21:24.094Z'

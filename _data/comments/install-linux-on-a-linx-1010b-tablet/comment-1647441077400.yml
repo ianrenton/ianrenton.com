@@ -1,6 +1,0 @@
-_id: bcfbc8b0-a535-11ec-a1ff-1f764695a84a
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Matt
-email: a4fee7b7430c51d3e4061bfd05eb44b1
-message: "Thanks for this page. I just got a Linx 1010L running with 22.04 beta and it's working very well.\r\n\r\nWifi, bluetooth, screen rotation (the right way up!), sound, volume buttons are all good out of the box.\r\n\r\nThe cameras don't work.\r\n\r\nThe onscreen keyboard is still a mess but that's the fault of gnome.\r\n\r\nI went straight to 22.04 and ran your script to install 32bit grub. The only change I had to make was doing and apt update before running apt install grub-efi-ia32-bin\r\n\r\nShame this tablet only has 2GB of RAM but it cost me nothing so I can't complain too loudly.\r\n\r\nGood work!"
-date: '2022-03-16T14:31:17.397Z'

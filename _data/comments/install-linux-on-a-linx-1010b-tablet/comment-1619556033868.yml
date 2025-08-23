@@ -1,6 +1,0 @@
-_id: d01c8650-a798-11eb-a054-4d3410e950ef
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "I’ve not encountered that problem before when booting the tablet from the Windows 10 installation USB, so I’m not sure what to suggest there really. Double check that your USB stick is good, contains the right stuff, and that you’re using the 32-bit version of Windows and not 64-bit.\r\n\r\nI don’t think you need the bootia32.efi from this page when installing Windows, just the image you download from Microsoft should be enough.\r\n\r\nDoes it give you any more details of the error other than “ACPI_BIOS_ERROR”?"
-date: '2021-04-27T20:40:33.867Z'

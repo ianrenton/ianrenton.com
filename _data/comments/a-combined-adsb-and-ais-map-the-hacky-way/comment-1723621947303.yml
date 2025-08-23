@@ -1,6 +1,0 @@
-_id: 261c1320-5a12-11ef-8769-4766534cb2b9
-_parent: 'https://ianrenton.com/blog/a-combined-adsb-and-ais-map-the-hacky-way/'
-name: Jasper
-email: ''
-message: "This is a great read and I think the combination of the two streams is useful to folks. Your plane/sailing integrates the two natively so is the best way to go.\r\n\r\nIn the shipfeeder discord there was a similar discussion which resulted in some native functionality in TAR1090 for ships. It integrates (https://github.com/jvde-github/AIS-in-TAR1090) into TAR1090 and introduced a variable \"aiscatcher_server\" in TAR1090.\r\nThe trick was to pull GeoJSON and some sprites from AIS-catcher. It is (not) properly documented though as far as I know apart from the Discord discuission, but it creates an overlay called \"aiscatcher\" in TAR1090.\r\n\r\nExample here: https://kx1t.com/tar1090/ \r\n\r\nThanks for the article, nice to read some hacking with AIS and ADSB!"
-date: '2024-08-14T07:52:27.299Z'

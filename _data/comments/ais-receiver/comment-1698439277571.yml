@@ -1,6 +1,0 @@
-_id: 2d547810-7509-11ee-8564-578efd091498
-_parent: 'https://ianrenton.com/projects/planesailing/ais-receiver/'
-name: anonymous
-email: ''
-message: "Hello. Thank you for the clear write-up. For the conflicting dongles, can you not set the serial of the dongles with rtl_eeprom, say to AIS and ADSB and then use AIS-catcher -d AIS ?\r\nThe ordering of the dongles is not guaranteed."
-date: '2023-10-27T20:41:17.568Z'

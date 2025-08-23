@@ -1,6 +1,0 @@
-_id: 38e19ba0-3fdb-11ec-8d17-ff618aa53ce2
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "If your tablet uses a Kionix accelerometer, that may explain the different behaviour on your device compared to my 1010B using a Goodix device.\r\n\r\nIt looks like the latest kernel used in Ubuntu 20.04 is 5.11.0; although [this thread](https://bbs.archlinux.org/viewtopic.php?id=267841) is talking about Arch it does contain advice to update from 5.12.13 to a newer kernel for improved Kionix driver support. Ubuntu 21.10 uses kernal 5.13 so it may be worth trying to upgrade and seeing if that fixes the problem?"
-date: '2021-11-07T14:58:53.309Z'

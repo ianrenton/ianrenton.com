@@ -1,6 +1,0 @@
-_id: 02d790b0-53e5-11eb-8da7-816ce1b72392
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Hi Ricardo,\r\n\r\nThe Linuxium modifications are designed to improve Bay Trail support in Ubuntu so I doubt they would make anything *worse* - therefore I think it's likely that the touchscreen won't work on Ubuntu either.\r\n\r\nHowever, there's no harm in trying! The Ubuntu installer lets you try out Ubuntu in a live environment from the USB stick before installation, so you can see if the touchscreen works there before making any commitment.\r\n\r\nThe Linx 1010B uses a Goodix touchscreen so if it's similar, you should be in luck. If it's a Silead device there are some [unofficial kernel drivers here](https://github.com/sigboe/gslX68X) which may help. Unfortunately I don't have this device so I can't say if they will work or not."
-date: '2021-01-11T08:14:23.349Z'

@@ -1,6 +1,0 @@
-_id: ee2bf190-c8b0-11ed-bf08-69fb3905c30e
-_parent: 'https://ianrenton.com/projects/planesailing/'
-name: Daniel
-email: d55ad8efb9c7beb5ce9407c92959dca9
-message: "Hello Ian,\r\n\r\nI wanna ask something about project for Client side. I wanna run this Client project as offline. How could I do that? I made GeoServer map and put as a map option but this is not my issue. When there is no internet connection, I cant click both Info, Config and Track Table buttons. They all are disable to click. How can I do this client as offline? Thx."
-date: '2023-03-22T12:56:16.734Z'

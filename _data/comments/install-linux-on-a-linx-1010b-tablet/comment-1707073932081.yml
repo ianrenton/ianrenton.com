@@ -1,6 +1,0 @@
-_id: 4c738f20-c391-11ee-acaf-2f3a811abc23
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Keith,\r\n\r\nI haven't tried Mint 21.3 or anything on a Linx 7, but they are close enough to Mint 20.1 and the Linx 1010B that I would expect similar results - see the [Mint](https://ianrenton.com/projects/linux-on-linx-1010b-tablet#linux-mint-201) section above.\r\n\r\nIn summary, I think you should be fine, though you will need the 32-bit EFI \"trick\", and with MATE I don't believe you'll find automatic rotation, automatic pop-up keyboards or other handy tablet features that you might find in GNOME or KDE. That said, if you can add a taskbar button to run Onboard, and fix the orientation once to your liking, it could well be very usable - certainly MATE is lightweight enough that it should be quick on these old tablets."
-date: '2024-02-04T19:12:12.075Z'

@@ -1,9 +1,0 @@
-name: Paul Herron
-date: '2013-04-04 12:40:17'
-url: ''
-message: >-
-  <p>Mongoose has some pretty sane defaults in that if a request corresponds to
-  a file on disk it'll serve it directly - otherwise it'll handle it internally.
-  It's ideal for this setup because the web UI 'just works', but you can still
-  process dynamic URLs (e.g the tank's movement commands) in the background!</p>
-email: 9c47805880e31b471303ac87145759f8

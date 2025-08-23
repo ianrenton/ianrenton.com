@@ -1,6 +1,0 @@
-_id: 2aa29150-af00-11eb-b015-c1cbdd05da14
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "You could try Ubuntu 19.10, one of the previous commenters with a 1020b had more luck with that than 20.04. Or, you could try an in-place upgrade to 20.10 and see if that includes the right driver.\r\n\r\nIf those don’t fix it, or you would like to stay on 20.04, the next step would be to try and figure out which touchscreen device you have in the device. Depending on how the touchscreen communicates with the board, utilities such as lspci or lsusb can be used to list all devices, then try to figure out from that list what your touchscreen is.\r\n\r\nIf it’s a Goodix device like the 1010b it *should* work out of the box, so something else is awry. If it’s a Silead device, another commenter above posted a link to [this repository](https://github.com/sigboe/gslX68X) which may have some drivers you can use. If it’s not either of those manufacturers, it’s back to Google to figure out if it can be made to work!"
-date: '2021-05-07T06:48:02.295Z'

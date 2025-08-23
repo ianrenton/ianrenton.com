@@ -1,6 +1,0 @@
-_id: 887fabc0-0f42-11ed-8c6d-bb225455296d
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "Oliver: `/dev/mmcblk1` should always be the internal storage. I'm not sure why you wouldn't be able to mount one of the partitions though. When you're going through the installation of Fedora, after clicking the Reclaim Space button, can you check what partitions it's going to create? Or alternatively, install a utility such as GParted from within the live environment, and check what partitions it's created on `/dev/mmcblk1`? I am wondering if maybe it's creating more than just the two partitions (one efi, one the Linux root) that I'm expecting?\r\n\r\nTJ: I haven't tried Ubuntu 22.04 on the tablet but I assume it suffers from the same problem as other Ubuntu versions since 20.10 (which is why I started recommending Fedora instead). [This section](#install32bitgrubafter) has instructions that hopefully will work for you."
-date: '2022-07-29T13:29:55.936Z'

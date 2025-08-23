@@ -1,6 +1,0 @@
-_id: bf51c330-5b2c-11ef-a3b1-d5cbc57b9fbc
-_parent: 'https://ianrenton.com/blog/a-combined-adsb-and-ais-map-the-hacky-way/'
-name: Kevin Elliott
-email: 0a1dd01fda49ebadbe64fd4a4986d948
-message: "Nice work here! The ais2adsb that wiedehopf made is very useful. Especially for self-hosted environments. I think putting all things on a map is not only cool, but interesting, especially when you have planes mentioned via ship systems, etc.\r\n\r\nWe've got an alpha implementation up over at Airframes as well. It's not totally complete, and expect some issues, but feel free to take a look.\r\n\r\nhttps://alpha.globe.airframes.io\r\n\r\nYou will want to click the Layers button and enable Ships, etc.\r\n\r\nCheers!"
-date: '2024-08-15T17:35:22.636Z'

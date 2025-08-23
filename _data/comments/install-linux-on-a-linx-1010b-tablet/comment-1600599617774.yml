@@ -1,6 +1,0 @@
-_id: 77938520-fb30-11ea-b423-fb108bd6c6ac
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Rob
-email: 11b92072d7ec57bf1f1b226c32f3bc36
-message: "Hi, me again. \r\n\r\nI've followed this to the letter on Ubuntu 20.04.1 and it's worked!  I'm 99% sure I would have put the bootia32.efi file in when I tried previously. I tried it so many times so many different ways, I just can't believe I would have omitted it so many times. \r\n\r\nAnyway, a thousand thanks, Ian. It's working now and I solemnly swear I will not fiddle about with fstab again"
-date: '2020-09-20T11:00:17.770Z'

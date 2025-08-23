@@ -1,5 +1,0 @@
-name: Ian
-date: '2020-01-04 23:56:08'
-url: ''
-message: "Are you using Ubuntu 19.04 as recommended or a different version? (I haven't had chance to try the most recent 19.10 version yet so it's possible that if you've opted for that, they've broken something or the guide needs to be updated.)\r\n\r\nAnd are you setting it up to dual boot or replacing Windows entirely? If you're dual booting it's worth checking for the simple problems e.g. is your Linux partition so small it just doesn't have space to install grub?"
-email: b937df7b0b3631249ed5ec118e3bb9e0

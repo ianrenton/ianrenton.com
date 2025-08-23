@@ -1,6 +1,0 @@
-_id: ab071660-65c0-11f0-b202-196c39f31776
-_parent: 'https://ianrenton.com/projects/planesailing/'
-name: Dave Capamagian
-email: a42f935b52387174a3b5f1b77fc9d253
-message: "Hi Ian,\r\nFirstly awesome work mate, very impressive.\r\nI have a question which I am hoping you may be able to help with.\r\nI am in NZ and the AIS network here is VERY limited, I am looking to place a few sensors around the area and link them via Lorar back to a single Pi running AIS Catcher to upload so that I don't need a cel link for each unit. Would this be doable with your system? Cheers Dave"
-date: '2025-07-20T23:24:23.142Z'

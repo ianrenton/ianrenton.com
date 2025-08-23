@@ -1,8 +1,0 @@
-name: Ian
-date: '2011-03-17 16:30:45'
-url: ''
-message: >-
-  <p>Re: tab order - brainfail on my part. Search form and comments form are in
-  two separate source files, and in an undercaffeinated haze I started both from
-  tabindex=1. :(</p>
-email: b937df7b0b3631249ed5ec118e3bb9e0

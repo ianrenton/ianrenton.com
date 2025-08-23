@@ -1,5 +1,0 @@
-name: Brt
-date: '2020-06-20 11:08:25'
-url: ''
-message: "I followed this and installed Ubuntu 20.04, which worked almost perfectly. Then I broke my /etc/fstab, and it won't boot (it says \"minimal bash-like line editing is supported\").Fair enough I thought, I'll re-install... Now, when I attempt to boot from USB, no USB drives are recognised. I've tried multiple USB sticks and multiple ways of flashing (unetbootin, dd, mkusb etc) and none of them have worked. \r\n\r\nThe obvious option is to somehow fix my fstab from this grub command line, but I just can't seem to do it\r\n\r\nI'm fairly sure I haven't changed any settings within UEFI, and Secure Boot is disabled... Any ideas?"
-email: 11b92072d7ec57bf1f1b226c32f3bc36

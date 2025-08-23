@@ -1,9 +1,0 @@
-name: Marek
-date: '2013-02-06 23:24:35'
-url: ''
-message: >-
-  <p>I'm still getting notifications too :)</p><p></p><p></p><p>Anyway, if
-  everything fails try mplayer to make a stream - it was the only streamer that
-  worked for my logitech e2500 webcam. You can redirect your stream from mplayer
-  to Pi's web server for example to make it online.</p>
-email: 560389071eca2fb97320fa2dc0f0e2ba

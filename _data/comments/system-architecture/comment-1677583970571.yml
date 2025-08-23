@@ -1,6 +1,0 @@
-_id: a1a49c20-b75b-11ed-bbba-e372c9840fb1
-_parent: 'https://ianrenton.com/projects/planesailing/system-architecture/'
-name: Ian
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "There are a few things that it connects to the internet for, which can either be ignored or worked around:\r\n\r\n1. The MLAT data feed for non-ADSB aircraft. This is completely optional, if you don't have it you might see a slightly reduced number of aircraft but the majority will be there.\r\n2. Uploading data to FlightRadar24, MarineTraffic etc. - all optional of course\r\n3. The web front-end [index.html](https://github.com/ianrenton/planesailing/blob/master/index.html) loads a bunch of Javascript libraries from CDNs - you can simply download them and serve them locally, updating the URLs in index.html to match\r\n4. The map tiles used by Leaflet.js in the web front-end. I've not tried providing these offline, but a quick web search suggests there are a few approaches to achieve this (e.g. [leaflet.offline](https://github.com/allartk/leaflet.offline)) by batch downloading map tiles and serving them locally.\r\n\r\nHope that helps!"
-date: '2023-02-28T11:32:50.567Z'

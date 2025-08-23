@@ -1,6 +1,0 @@
-_id: 30676730-4779-11eb-b1a1-0df08f103bda
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Andreas
-email: 815f59a0d774fc58a439a7eb3e8e2696
-message: "Hello Ian, I chose to erase disk and install the ubuntu on the installation but after everything is complete when I turn on the linx 1010 i get that blue screen from windows saying Recovery ---- Your PC/Device needs to be repaired. \r\n\r\nThis is probably a BIOS thing trying to boot windows BUT i check on BIOS that ubuntu is at the top AND i tried to manually selecting to boot ubuntu from holding power + volume up key but still that blue screen appears.. If i choose to boot from the bootable usb with the linux it boots and works fine but that is not a solution...\r\n\r\nDo you know what can be done to fix the problem?"
-date: '2020-12-26T12:52:19.930Z'

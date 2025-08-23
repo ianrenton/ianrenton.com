@@ -1,6 +1,0 @@
-_id: 96173300-47a9-11eb-9d2d-93bda800b9c8
-_parent: 'https://ianrenton.com/projects/linux-on-linx-1010b-tablet'
-name: Ian Renton
-email: b937df7b0b3631249ed5ec118e3bb9e0
-message: "I'm fast running out of ideas unfortunately, I'm not sure what's different about your setup than mine! If you're confident doing so, maybe try the advanced partitioning in the install process to make sure any partitions on the internal drive are deleted before the install, or even set up the partition manually to make sure the correct boot device is chosen.\r\n\r\n(On which note, do you have an SD card plugged in? If so it might be worth temporarily removing it to make sure Ubuntu is being installed to the internal storage not the SD card.)"
-date: '2020-12-26T18:38:46.497Z'
