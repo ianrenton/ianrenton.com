@@ -96,7 +96,7 @@ South Coast naval bases dominate the top of the list of interesting clusters, as
 
 Second-equal are Dartmouth and Portland. Dartmouth features an overlapping region of nine castles and two lighthouses, while Portland tops out at eight castles and two bunkers but also qualifies as a POTA park, so both offer a grand total of 11 simultaneous activation opportunities.
 
-Portland is pretty close to me, so at some point in the near future I might have a go at activating from up here&mdash;probably the section *outside* the prison.
+<a name="portland"></a>Portland is pretty close to me, so at some point in the near future I might have a go at activating from up here&mdash;probably the section *outside* the prison.
 
 ![Polygon defining the high scoring region of Portland](/img/projects/worked-everything-award/portland-poly.png){: .center}
 *The top scoring section on Portland. Visualisation using [Keene State College Polyline Tool](https://www.keene.edu/campus/maps/tool/).*
