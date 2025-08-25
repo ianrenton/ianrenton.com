@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 33-36"
-description: 
+description: Antennas, impedance, weather fax and battery power!
 date: 2025-08-25 00:00 +0000
 image: /img/blog/2025/08/antenna-3-small.jpg
 slug: 52-week-ham-radio-challenge-roundup-weeks-33-36
