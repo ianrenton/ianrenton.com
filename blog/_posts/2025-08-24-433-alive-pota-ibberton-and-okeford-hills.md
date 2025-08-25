@@ -25,7 +25,7 @@ Along with my lunch, thermos of tea, and the camp chair, it added up to a lot of
 
 The main destination today was [GB-4513 Ibberton Hill](https://pota.app/#/park/GB-4513), a new one for me and picked for its great north- and westward view over Blackmore Vale and beyond.
 
-Not 24 hours earlier I'd also read the story of the soldiers' wedding and the fire in Belchalwell, in [Jay Laycock's *Dorset Folk Tales*](https://www.waterstones.com/book/dorset-folk-tales/tim-laycock/9780752466361), so that connection settled it as my destination for today.
+Not 24 hours earlier I'd also read the story of the soldiers' wedding and the fire in Belchalwell, in [Tim Laycock's *Dorset Folk Tales*](https://www.waterstones.com/book/dorset-folk-tales/tim-laycock/9780752466361), so that connection settled it as my destination for today.
 
 Finding a space for a car to park off the road next to a dry grassy field, I started setting up, starting with the FT-817 and Yagi antenna.
 
