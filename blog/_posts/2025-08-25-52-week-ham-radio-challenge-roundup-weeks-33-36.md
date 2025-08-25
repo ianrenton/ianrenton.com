@@ -2,7 +2,7 @@
 layout: post
 title: "52 Week Ham Radio Challenge Roundup: Weeks 33-36"
 description: 
-date: 2025-09-07 00:00 +0000
+date: 2025-08-25 00:00 +0000
 image: /img/blog/2025/08/antenna-3-small.jpg
 slug: 52-week-ham-radio-challenge-roundup-weeks-33-36
 tags:
@@ -70,6 +70,22 @@ I seem to have done the job with a 4nF capacitor in series and then a 1uH induct
 
 ### Week 35 (25-31 Aug): Receive a weather fax transmission on HF {#week35}
 
+I took advantage of some free time on Bank Holiday Monday to set this one up. It was relatively easy to achieve, since [week 20](/blog/52-week-ham-radio-challenge-roundup-weeks-17-20/#week20) taught me about the DWD HF weather services, and having set up fldigi back then to receive the RTTY broadcast, it was also a simple matter to use the same software to receive the weather fax broadcast.
+
+The [OARC Wiki has a page](https://wiki.oarc.uk/dwd-wefax) on setting up fldigi to decode the signal&mdash;it also contains instructions for using an SDR as the receiver and a virtual audio port, but I used my FT-840 and Signalink instead. As instructed, I set fldigi to Wefax mode and set the frequency shift to 850, then let it run. After a couple of tweaks to the tilt and alignment values underneath the images, I was happily tracking the path of ex-hurricane Erin across the north of the UK. On the south coast we have had beautiful sunny weather and almost no rain for a month now, but it looks like that all changes on Wednesday, and summer will begin its long fade into autumn.
+
+![Screenshot of fldigi decoding a weather fax image](/img/blog/2025/08/wefax.png){: .center}
+
 ### Week 36 (1-7 Sep): Operate your whole station from battery power for one day {#week36}
+
+I jumped ahead a little for this one, and actually did it on the same day as I was receiving the weather fax transmissions for the previous challenge week.
+
+Well, my usual station is out in a field somewhere and my shack is the "great blue sky shack" as they call it, so honestly I've probably spent more time on the radio on battery power than I have on mains power. My go-to battery for QRO portable operation is [this 20Ah beast](https://www.eco-worthy.com/collections/lithium-batteries/products/12v-20ah-portable-lifepo4-deep-cycle-rechargeable-battery), which allows me to go for hours at 100W Tx power, to the extent that I don't always even bother recharging it between activations. It successfully keeps the Scouts going for a full weekend of JOTA too, which was the main reason I bought it.
+
+I standardised all my 12V DC connectors on PowerPoles last year, and bought a [fused distribution box from Sotabeams](https://www.sotabeams.co.uk/powerpole-fused-dc-connector-box-1/) for the home shack to tidy everything up behind the scenes. A little on the expensive side for a simple PCB and a box, but time is money and knew if I DIYed it, it would become another unfinished project! This forms the main 12V DC bus that runs behind my radios and computer monitors, powering the FT-840 HF rig, FT-7800 VHF/UHF rig, the Plane/Sailing hardware with its 3 Pi Zeros & SDRs, and my DV hotspot. Normally this is powered with a 23A desktop power supply, but for this challenge it was a simple matter to unplug that and plug in the 20Ah battery.
+
+![Photo behind my desk showing a big battery plugged into a PowerPole distribution box](/img/blog/2025/08/battery.jpg){: .center}
+
+Job done. Even if I decide to spend all day calling CQ from home&mdash;a very rare occurrence&mdash;this should last the day and probably tomorrow too.
 
 That's all for this round-up, see you in early October for the results of weeks 37 to 40!
